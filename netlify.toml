@@ -21697,6 +21697,30 @@
   to = "/src/pages/best-coding-and-ai-classes-in-werribee-melbourne.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-tarneit-melbourne"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-tarneit-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-tarneit-melbourne.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-tarneit-melbourne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-dandenong-melbourne"
+  to = "/src/pages/best-coding-and-ai-classes-in-dandenong-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-dandenong-melbourne.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-dandenong-melbourne.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

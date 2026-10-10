@@ -44897,5 +44897,123 @@
       "A total of entries across the eight stations: not computed; published parts are never summed.",
       "Any affiliation with the City of Wyndham, the Victorian Department of Education or the Department of Transport and Planning."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-tarneit-melbourne": {
+    "market": "Tarneit",
+    "bodyClass": "cg-trnt",
+    "pageType": "city",
+    "curriculumAuthority": "Tarneit, ABS Census 2021 QuickStats, Tarneit suburb SAL22451 (read 10 October 2026): 56,370 people; median age 30; 14,117 families; 17,274 private dwellings; 3.4 people per household; separate houses 89.5% (13,914); flats 0.3% (41); bachelor degree or higher 37.7% (15,085); train to work 3.0% (766); drove 53.6% (13,833); worked at home 21.5% (5,550, lockdown Census day); aged 0-4 6,068 (10.8%); 5-9 5,872 (10.4%). Victoria: median age 38, houses 73.4%, flats 12.1%, bachelor 29.2%, train 1.6%. ABS SAL area 38.1905 square kilometres. Victorian School Locations 2025: 15 schools inside the boundary, including Barayip Primary School, Wimba Primary School and Brinbeal Secondary College. Tarneit and West Tarneit stations (GTFS regional train feed) inside the boundary; 177 metro bus stop entries inside. Victorian 2027 Term 1: 28 January to 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "Agent tool coverage: an empty result is not a zero. Annual metropolitan and regional train station entries, FY18-19 and FY24-25 (rounded to 50). 10 stations (Tarneit, Wyndham Vale, Werribee, Hoppers Crossing, Williams Landing, Deer Park, Ardeer, Laverton, Footscray, Little River) x 2 years. Tool A (metro only, empty -> 0): 10 right, 10 wrong. Tool B (metro only, empty -> not found): 10 right, 10 not found. Tool C (both files, names normalised): 20 right. FY18-19 regional names carry \" Railway Station (Place)\"; without normalising, tool C fails 5 FY18-19 lookups. Tarneit 1,350,500 -> 1,717,700 (127.2%); Wyndham Vale 786,100 -> 1,128,400; Deer Park 453,950 -> 636,300; Ardeer 53,500 -> 88,250; Little River 22,450 -> 18,550. West Tarneit (stop 49937) in GTFS regional train feed, 100 trips Wed 14 Oct 2026, 93 Sat 17 Oct, 89 Sun 18 Oct; absent from both FY24-25 entries files. Script: scratchpad au/b6/trnt.py.",
+    "requiredMentions": [
+      "56,370",
+      "14,117",
+      "17,274",
+      "13,914",
+      "15,085",
+      "1,717,700",
+      "1,350,500",
+      "Barayip Primary School",
+      "Brinbeal Secondary College"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Tarneit suburb (SAL22451).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL22451"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual regional train station patronage (station entries), FY18-19 and FY24-25 (Creative Commons Attribution 4.0).",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-regional-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan train and bus feeds.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL22451 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why West Tarneit has no FY24-25 entries row, or when it opened: not claimed; only presence in the feed and absence from the files are stated.",
+      "Reasons for Tarneit's growth in entries: not claimed.",
+      "Line names, frequencies or journey times for Tarneit trains: not claimed.",
+      "Catholic, independent and religious school names: not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Claude-based courses for teenagers: not suggested; the Claude Code course is listed for adults only.",
+      "Any affiliation with the City of Wyndham, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "best-coding-and-ai-classes-in-dandenong-melbourne": {
+    "market": "Dandenong",
+    "bodyClass": "cg-dndg",
+    "pageType": "city",
+    "curriculumAuthority": "Dandenong, ABS Census 2021 QuickStats, Dandenong (Vic.) suburb SAL20707 (read 10 October 2026): 30,127 people; median age 33; 6,771 families; 11,744 private dwellings; 2.8 people per household; separate house 41.4% (4,058; Victoria 73.4%); semi-detached, row or terrace house, townhouse 39.0% (Victoria 13.9%); aged 0-4 7.1% (2,132; Victoria 5.8%); bus to work 3.0% (342; Victoria 0.6%); train 2.7% (315; Victoria 1.6%); car as driver 61.1% (7,003; Victoria 49.9%); worked at home 10.8% (1,234, lockdown Census day). ABS SAL area 11.3813 square kilometres. Dandenong station is the only metropolitan station inside the boundary. Victorian School Locations 2025: 9 open schools inside the boundary (6 primary, 2 secondary, 1 specialist; 6 government, 3 Catholic), including Dandenong High School and Dandenong Primary School. Victorian 2027 Term 2: Monday 12 April to Friday 25 June. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Longest common subsequence by dynamic programming on stopping patterns. Metro train GTFS Schedule (downloaded 10 October 2026), service day Wednesday 28 October 2026. Pakenham line outbound all stops 24 (Town Hall to East Pakenham, 62 trips), outbound pattern without Yarraman 23 (11 trips), Cranbourne outbound 19 (70 trips). LCS(Pakenham 24, Cranbourne 19) = 16 (Town Hall to Dandenong), 456 cells; LCS(Pakenham 23, Cranbourne 19) = 15, longest contiguous common run 14 (Town Hall to Noble Park), 437 cells; Pakenham outbound vs inbound: set intersection 24, LCS 1. Set intersection equals LCS for the two same-direction pairs (16 and 15). Brute force over a 23-stop pattern: 2^23 = 8,388,608 subsequences. Pakenham-only after Dandenong: Hallam, Narre Warren, Berwick, Beaconsfield, Officer, Cardinia Road, Pakenham, East Pakenham; Cranbourne-only: Lynbrook, Merinda Park, Cranbourne. 306 trips call at Dandenong (Pakenham 81 out, 80 in; Cranbourne 72 out, 73 in); 26 run Noble Park to Dandenong without stopping at Yarraman; 153 city-bound departures from Dandenong, first 04:12, last 23:41. Station entries FY18-19 2,165,200; FY23-24 2,073,300; FY24-25 1,970,750. Script: scratchpad au/b7/dndg.py.",
+    "requiredMentions": [
+      "30,127",
+      "6,771",
+      "11,744",
+      "1,970,750",
+      "2,165,200",
+      "8,388,608",
+      "Yarraman",
+      "Lynbrook",
+      "Dandenong High School",
+      "11.38 square kilometres"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Dandenong (Vic.) suburb (SAL20707).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20707"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan train feed downloaded 10 October 2026, calendar 9 October to 31 December 2026.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL20707 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about a timetable after the downloaded feed: not claimed; trip counts are for Wednesday 28 October 2026 in the feed downloaded 10 October 2026.",
+      "Reasons for the fall in Dandenong station entries since FY18-19: not claimed.",
+      "Names of Catholic, independent or specialist schools: not used; counted only.",
+      "A total for Dandenong, Dandenong North and Dandenong South: not computed; published parts are never summed.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Greater Dandenong, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
   }
 }
