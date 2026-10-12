@@ -558,6 +558,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Eight Mile Plains](/ai-and-programming-classes-in-eight-mile-plains-brisbane)
 - [Coding and AI classes in Mansfield](/best-coding-and-ai-classes-in-mansfield-brisbane)
 - [Vibe coding and AI agent classes in Aspley](/vibe-coding-and-ai-agents-classes-in-aspley-brisbane)
+- [Online coding and Python classes in Forest Lake](/online-coding-and-python-classes-in-forest-lake-brisbane)
 <!-- AU-LINKS -->
 
 

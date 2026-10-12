@@ -47919,5 +47919,61 @@
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with the City of Swan, the Public Transport Authority or the WA Department of Education."
     ]
+  },
+  "best-coding-and-ai-classes-in-joondalup-perth": {
+    "market": "Joondalup",
+    "bodyClass": "cg-jdlp",
+    "pageType": "city",
+    "curriculumAuthority": "City of Joondalup (LGA54170), ABS Census 2021 QuickStats (read 12 October 2026): 160,003 people; median age 41; 46,463 families; 62,144 private dwellings; 3.7 bedrooms per dwelling; separate houses 50,982 (88.6%, WA 79.7%); train to work 3,259 (3.9%, WA 1.8%); bachelor or higher 35,118 (27.0%, WA 23.8%); aged 10-14 11,200 (7.0%, WA 6.4%). ABS ERP 2025 (ABS_ANNUAL_ERP_LGA2025, LGA 54170): 176,595. ABS LGA area 98.942 sq km. WA Dept of Education schools list (2026 Semester 1 census): 53 government schools inside the LGA polygon by our point-in-polygon test, 35 primary. Main Roads Traffic Digest: 81 sites with LG_NAME Joondalup (C), 30 roads; Mitchell Fwy South of Ocean Reef Rd MON_SUN 101,649 (2021/22); Marmion Av 11 sites, weekday 21,966 to 37,057. WA 2027 Term 1: Monday 1 February to Friday 9 April. Perth +8:00, last DST ended March 2009 (IANA 2026e).",
+    "localProject": "SQLite self-join on 81 Joondalup Traffic Digest sites keyed by road: a.road=b.road 381 rows (sum of squared group sizes); a.site<>b.site 300; a.site<b.site 150; same TRAFFIC_YEAR 123. 17 roads with 2+ sites, 13 single-site roads. Largest weekday gap same year: Mitchell Fwy South of Ocean Reef Rd 107,726 vs SB At Shenton Av Bridge 32,601 (two-way vs one-direction, definition mismatch); like-for-like leader Ocean Reef Rd North of Hodges Dr 4,806 vs West of Joondalup Dr 41,893 (2024/25, ratio 8.7). Marmion Av 11 sites, 55 pairs, 45 same year. Our calculation. Script: scratchpad au/b13/a_jdlp.py.",
+    "requiredMentions": [
+      "176,595",
+      "62,144",
+      "88.6% (50,982)",
+      "3.9% (3,259)",
+      "Ocean Reef Rd",
+      "4,806",
+      "North of Hodges Dr",
+      "101,649",
+      "21,966"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Joondalup local government area (LGA54170), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA54170"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Joondalup LGA 54170, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.54170.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Main Roads Western Australia, Traffic Digest (count sites with average weekday, weekend and all-day volumes and heavy vehicle shares for the latest count year), Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-traffic-digest"
+      },
+      {
+        "claim": "WA Department of Education, Western Australian Schools Lists (Excel), currently active schools with student numbers as at the 2026 Semester 1 census, Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/western-australian-schools-lists"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 Term 1 Monday 1 February to Friday 9 April; Term 3 Monday 19 July to Friday 24 September.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth at +8:00 on rule AW, whose last daylight saving period ended on the last Sunday of March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Real-time or peak-hour traffic: not claimed; the digest gives average daily volumes for each site's latest count year.",
+      "Adding the northbound and southbound Mitchell Fwy counts at Shenton Av Bridge: not done; published parts are never summed.",
+      "Naming individual schools: not used.",
+      "Joondalup suburb (SAL) figures: the page uses the council area only.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Joondalup, Main Roads WA or the WA Department of Education."
+    ]
   }
 }
