@@ -47130,7 +47130,7 @@
     "bodyClass": "cg-toow",
     "pageType": "city",
     "curriculumAuthority": "Toowong (SAL32854), ABS Census 2021 QuickStats (read 12 October 2026): 12,556 people; median age 30; 2,900 families; 6,203 private dwellings; 2.1 per household; 1.4 vehicles per dwelling; flats 3,642 (67.9%, Qld 12.5%); university 2,358 (49.5% of those attending education, Qld 14.2%); train to work 421 (5.7%, Qld 1.1%); bus 301 (4.1%, Qld 1.7%); bachelor or higher 5,900 (53.4%, Qld 21.9%); aged 5-9 474; 10-14 533. ABS SAL area 4.0658 sq km. Translink GTFS Wednesday 21 October 2026: 70 stop records with service inside the SAL polygon (our check); 3235 scheduled stop visits (bus 3046, train 189); 35 routes; busiest Moggill Rd at BBC, stop 16 (302). BCC Library Locations: Toowong Library at Toowong Village. Qld 2027 Term 2: Monday 12 April to Friday 25 June. Brisbane no daylight saving since March 1992 (IANA).",
-    "localProject": "Chain-of-thought / visible working. Toowong station platforms 600287-600290 (parent place_twgsta), Translink SEQ GTFS feed 20261007-20261206 (CC BY 4.0). stop_times rows at platforms 2,362; active on Wednesday 21 Oct 2026 (calendar + calendar_dates) 189 (direction 0: 96, direction 1: 93); departures 07:00:00-08:59:59: 29; direction 1 (towards city, headsigns Bowen Hills 13, Kippa-Ring 4, Caboolture 3, Nambour 1) 21; direction 0 outbound 8 (Springfield Central 4, Ipswich 4). Without the date filter 308; without the direction filter 29. First city-bound 07:03, last 08:56. Both agents are our scripts, not model transcripts.",
+    "localProject": "Chain-of-thought / visible working. Toowong station platforms 600287-600290 (parent place_twgsta), Translink SEQ GTFS feed 20261007-20261206 (CC BY 4.0). stop_times rows at platforms 2,362; active on Wednesday 21 Oct 2026 (calendar + calendar_dates) 189 (direction 0: 96, direction 1: 93); departures 07:00:00-08:59:59: 29; direction 1 (towards city, headsigns Bowen Hills 13, Kippa-Ring 4, Caboolture 3, Nambour 1) 21; direction 0 outbound 8 (Springfield Central 4, Ipswich 4). Without the date filter (direction kept) 202; without the direction filter 29; without both 308. First city-bound 07:03 headsign Bowen Hills. First city-bound 07:03, last 08:56. Both agents are our scripts, not model transcripts.",
     "requiredMentions": [
       "6,203",
       "3,642",
@@ -47237,6 +47237,530 @@
       "Names of Catholic, independent or specialist schools: not used; counted only.",
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with Hume City Council, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "online-coding-and-python-classes-in-calamvale-brisbane": {
+    "market": "Calamvale",
+    "bodyClass": "cg-calv",
+    "pageType": "city",
+    "curriculumAuthority": "Calamvale (SAL30480), ABS Census 2021 QuickStats (read 12 October 2026): 17,994 people; median age 34; 5,053 families; 6,297 private dwellings; 3 per household; semi-detached 2,094 (35.9%, Qld 11.7%); separate houses 3,724 (63.8%, Qld 74.8%); bus to work 491 (5.6%, Qld 1.7%); bachelor or higher 5,191 (36.9%, Qld 21.9%); aged 0-4 1,277; 5-9 1,412; 10-14 1,221. ABS SAL area 6.6504 sq km. Translink GTFS Wednesday 21 October 2026: 33 stop records with service inside the SAL polygon (our check); 2631 scheduled bus stop visits; 12 routes; busiest Beaudesert Rd at Honeysuckle Way (181). BCC Park Locations: 31 parks with suburb CALAMVALE. BCC adjacency: Algester, Drewvale, Parkinson, Runcorn, Stretton, Sunnybank Hills. Qld 2027 Term 3: Monday 12 July to Friday 17 September. Brisbane no daylight saving since March 1992 (IANA).",
+    "localProject": "split vs rsplit on BCC Street Names with Suburbs (CC BY 4.0, modified 5 Aug 2026). Full string = name + type + suffix joined by spaces. Calamvale 263 rows: split(\" \", 1) name correct 252 (11 multi-word names wrong), rsplit(\" \", 1) 263; 0 suffixes; types Place 76, Street 70, Court 48, Close 30, Crescent 22. City 16,960 rows: split 16,476 correct (484 multi-word); rsplit 16,868 (92 wrong: 76 suffix rows West 30, East 29, South 9, North 7, Centre 1, plus 16 THE-names with no type); suffix-aware rsplit(\" \", 2) 16,944 (16 wrong, all THE-names with empty type). Script inline in scratchpad au/b12.",
+    "requiredMentions": [
+      "Grevillea Park",
+      "2,094",
+      "1,412",
+      "Silky Oak",
+      "Van Wirdum",
+      "Beaudesert Rd at Honeysuckle Way",
+      "16,960",
+      "16,944",
+      "252 of 263"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Calamvale suburb and locality (SAL30480), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL30480"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities boundary service, used for our point-in-boundary checks and suburb areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Brisbane City Council open data, Street Names with Suburbs (Creative Commons Attribution 4.0), dataset last modified 5 August 2026.",
+        "url": "https://data.brisbane.qld.gov.au/explore/dataset/street-names-with-suburbs/"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Brisbane City Council open data, Park Locations (Creative Commons Attribution 4.0), dataset last modified 30 September 2026.",
+        "url": "https://data.brisbane.qld.gov.au/explore/dataset/park-locations/"
+      },
+      {
+        "claim": "Python documentation, Built-in Types: str.split and str.rsplit, including the maxsplit argument.",
+        "url": "https://docs.python.org/3/builtins/stdtypes.html#str.rsplit"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland state school term dates.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Street addresses or property details: not used; only street names and counts.",
+      "Passenger numbers at Calamvale stops: not claimed; the feed lists scheduled visits only.",
+      "Any reason for the high share of townhouses: not claimed.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Brisbane City Council or Translink."
+    ]
+  },
+  "ai-and-programming-classes-in-eight-mile-plains-brisbane": {
+    "market": "Eight Mile Plains",
+    "bodyClass": "cg-eimp",
+    "pageType": "city",
+    "curriculumAuthority": "Eight Mile Plains (SAL30950), ABS Census 2021 QuickStats (read 12 October 2026): 15,326 people; median age 36; 4,125 families; 5,631 private dwellings; 2.8 per household; bus to work 534 (7.2%, Qld 1.7%); semi-detached 1,348 (26.1%, Qld 11.7%); professionals 2,184 (29.5%, Qld 21.4%); bachelor or higher 4,920 (38.9%, Qld 21.9%); university 1,045 (22.0%, Qld 14.2%); aged 5-9 947; 10-14 843; 85 and over 362. ABS SAL area 7.6134 sq km. Translink GTFS Wednesday 21 October 2026: 47 stop records with service inside the SAL polygon (our check); 2195 scheduled bus visits; 9 routes; Warrigal Rd at Fanfare, Bordeaux and Padstow Views 139 each. BCC Park Locations: 35 parks. BCC adjacency: Kuraby, Macgregor, Rochedale, Runcorn, Sunnybank, Upper Mount Gravatt, Wishart. Qld 2027 Term 1: Wednesday 27 January to Thursday 25 March. Brisbane no daylight saving since March 1992 (IANA).",
+    "localProject": "k-means++ vs random seeding. 47 Translink stop records (location_type 0) inside SAL30950 by our point-in-polygon; equirectangular projection to metres, centred. Lloyd iterations to convergence (max 100). 1,000 runs per method per k, numpy default_rng(2026). RMS = sqrt(inertia / 47). k=5: random median 494 m, worst 632, kpp median 493, worst 596; best found 470 m; hit-best random 10.5%, kpp 9.3%; mean iterations 5.22 vs 4.43. k=4: 574/676 vs 571/666, best 548. k=6: 450/591 vs 440/558, best 406.",
+    "requiredMentions": [
+      "15,326",
+      "5,631",
+      "Bordeaux",
+      "Warrigal Rd at Fanfare",
+      "Padstow Views",
+      "632 m",
+      "596 m",
+      "10.5%",
+      "honest tie"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Eight Mile Plains suburb and locality (SAL30950), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL30950"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities boundary service, used for our point-in-boundary checks and suburb areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Brisbane City Council open data, Park Locations (Creative Commons Attribution 4.0), dataset last modified 30 September 2026.",
+        "url": "https://data.brisbane.qld.gov.au/explore/dataset/park-locations/"
+      },
+      {
+        "claim": "scikit-learn documentation, sklearn.cluster.KMeans: k-means++ initialisation and the n_init restarts parameter.",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland state school term dates.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That k-means++ always beats random seeding: rejected by our own measurement on this data.",
+      "That the clusters describe real service areas or travel patterns: not claimed; they are geometric groups of stop positions.",
+      "Passenger numbers at Eight Mile Plains stops: not claimed.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Brisbane City Council or Translink."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-south-morang-melbourne": {
+    "market": "South Morang",
+    "bodyClass": "cg-smrg",
+    "pageType": "city",
+    "curriculumAuthority": "South Morang, ABS Census 2021 QuickStats, South Morang suburb SAL22311 (read 11 October 2026): 24,989 people; median age 36; 6,813 families; 8,496 private dwellings; 3.0 people per household; separate house 84.4% (6,781; Victoria 73.4%); semi-detached, row or terrace house, townhouse 15.2% (1,217; Victoria 13.9%); flat or apartment 0.4% (34; Victoria 12.1%); car as driver 57.5% (7,444; Victoria 49.9%); train 2.0% (256; Victoria 1.6%); worked at home 20.8% (2,694; lockdown Census). ABS SAL area 21.45 square kilometres, City of Whittlesea. Metropolitan stations inside the boundary: Middle Gorge 222,950 FY24-25 (FY18-19 192,700) and Hawkstowe 208,500 (FY18-19 193,600); South Morang station point falls inside the Mill Park SAL. Victorian School Locations 2025: 4 open schools (Government 2, Catholic 1, Independent 1); government: Morang South Primary School, The Lakes South Morang College. Victorian 2027 Term 3: Monday 12 July to Friday 17 September. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Entity linking of free-text station names with refusal. Canonical list: 222 Stop_name values with Stop_ID from the FY24-25 metropolitan station patronage file. 1,540 generated test strings: 222 exact, 222 lower case, 222 + \" Station\", 222 + \" Stn\", 222 upper case + \" STATION\", 216 one-letter deletions, 191 two-letter substitutions, 23 abbreviations (Sth, Nth, E, W, Mt, Pk). Exact: 222 right, 1,318 none. Normalise: 1,133 right, 407 none. difflib strict (ratio >= 0.85 and top-two margin >= 0.05): 1,417 right, 0 wrong, 123 refused. difflib loose (>= 0.6, no margin): 1,534 right, 6 wrong (e.g. Esst Ruchmond to West Richmond, Mattern to Patterson, Glenrunoly to Glenroy). Probes: Sth Moran to South Morang, Hawkstown to Hawkstowe, Morang / Park / Mill Park refused. McKinnon spelling differs between yearly files. Script: scratchpad au/b10/smrg.py, smrg2.py.",
+    "requiredMentions": [
+      "24,989",
+      "208,500",
+      "8,496",
+      "21.45 square kilometres",
+      "Middle Gorge",
+      "222,950",
+      "1,540",
+      "1,417",
+      "Morang South Primary School",
+      "The Lakes South Morang College"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, South Morang suburb (SAL22311).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL22311"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL22311 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL21683 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Python documentation, difflib module (SequenceMatcher ratio).",
+        "url": "https://docs.python.org/3/library/difflib.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Accuracy on real user searches: not measured; all test strings were generated by our script.",
+      "Any claim about how journey planning apps match names: not made.",
+      "South Morang station counted as inside the suburb: its point lies within the Mill Park SAL boundary.",
+      "Names of the Catholic and independent schools: not used; counted only.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Whittlesea, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "online-coding-and-python-classes-in-epping-vic-melbourne": {
+    "market": "Epping",
+    "bodyClass": "cg-epvc",
+    "pageType": "city",
+    "curriculumAuthority": "Epping (Vic.), ABS Census 2021 QuickStats, Epping (Vic.) suburb SAL20878 (read 11 October 2026): 33,489 people; median age 35; 8,779 families; 11,923 private dwellings; 2.9 people per household; separate house 81.2% (8,687; Victoria 73.4%); semi-detached, row or terrace house, townhouse 17.0% (1,816; Victoria 13.9%); car as driver 59.9% (9,006; Victoria 49.9%); train 2.3% (342; Victoria 1.6%); worked at home 17.0% (2,553; Victoria 25.7%; lockdown Census). ABS SAL area 35.27 square kilometres, City of Whittlesea. Epping station 748,150 entries FY24-25 (rank 49 of 222; FY18-19 887,650); average weekday 3,050 (FY18-19) to 2,450 (FY24-25). Victorian School Locations 2025: 11 open schools (Government 6, Catholic 3, Independent 2), including Meadowglen Primary School, Harvest Home Primary School and Lalor North Secondary College. Victorian 2027 Term 3: Monday 12 July to Friday 17 September. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "pandas melt (wide to long). Metropolitan station patronage FY18-19 to FY24-25: 1,555 wide rows, value_vars Pax_pre_AM_peak, Pax_AM_peak, Pax_interpeak, Pax_PM_peak, Pax_PM_late, id_vars Fin_year and Stop_name: 7,775 long rows. Epping FY18-19 to FY24-25: pre-AM 450 to 300 (-33.3%), AM peak 1,250 to 900 (-28.0%), interpeak 700 to 650 (-7.1%), PM peak 700 to 650 (-7.1%), PM late 100 to 100 (0%). FY24-25 stations above Epping: pre-AM 25 (9 tied), AM 54 (5 tied), interpeak 36 (1 tied), PM peak 39 (4 tied), PM late 46 (33 tied). All-station medians AM peak 875 to 600, interpeak 350 to 300. Melt without Stop_name: 7,775 rows, station identity lost. Bands never summed. Script: scratchpad au/b10/epvc.py.",
+    "requiredMentions": [
+      "33,489",
+      "8,779",
+      "11,923",
+      "35.27 square kilometres",
+      "748,150",
+      "887,650",
+      "1,555 rows",
+      "Meadowglen Primary School",
+      "Harvest Home Primary School",
+      "Lalor North Secondary College"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Epping (Vic.) suburb (SAL20878).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20878"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL20878 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "pandas documentation, pandas.melt.",
+        "url": "https://pandas.pydata.org/docs/reference/api/pandas.melt.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Clock hours of each time band: not stated by the publisher, so not given.",
+      "Any total made by adding time bands: never computed or printed.",
+      "Reasons for the fall in Epping station entries since FY18-19: not claimed.",
+      "Names of Catholic or independent schools: not used; counted only.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Whittlesea, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "best-coding-and-ai-classes-in-mansfield-brisbane": {
+    "market": "Mansfield",
+    "bodyClass": "cg-mnsf",
+    "pageType": "city",
+    "curriculumAuthority": "Mansfield (SAL31752, Mansfield (Qld)), ABS Census 2021 QuickStats (read 12 October 2026): 8,851 people; median age 39; 2,451 families; 3,102 private dwellings; 3 per household; separate houses 2,733 (93.1%, Qld 74.8%); bus to work 231 (5.4%, Qld 1.7%); worked at home 791 (18.6%, Qld 14.1%); bachelor or higher 2,260 (32.3%, Qld 21.9%); aged 5-9 644; 10-14 809; 15-19 751. ABS SAL area 4.881 sq km. Translink GTFS Wednesday 21 October 2026: 44 stop records with service inside the SAL polygon (our check); 2459 scheduled bus visits; 9 routes; Wecker Rd stop 62, Aminya St stop 67a, Cresthaven Dr stop 74 at 123 each. BCC Park Locations: 14 parks. BCC adjacency: Carina Heights, Carindale, Mackenzie, Mount Gravatt East, Rochedale, Upper Mount Gravatt, Wishart. Qld 2027: Term 3 ends Friday 17 September, Term 4 starts Tuesday 5 October. Brisbane no daylight saving since March 1992 (IANA).",
+    "localProject": "Functional dependency street_name -> collection_day on BCC Waste Collection Days, suburb MANSFIELD (CC BY 4.0, modified 8 Sep 2026): 3,402 property rows (274 with unit numbers), all ZONE 2; WEDNESDAY 2,131, FRIDAY 1,271; 124 streets; 119 single-day (Wed-only 74, Fri-only 45); 5 two-day streets (Aminya St W27 F11; Broadwater Rd W39 F136; Cresthaven Dr W25 F23; Luprena St W22 F18; Wecker Rd W64 F96), 461 rows on them. (street, house_number, suffix) -> day holds for all 3,127 keys. Odd/even split exact on Cresthaven (odd Fri, even Wed) and Luprena (odd Wed, even Fri), not on the other three. First-row lookup misassigns 286 rows; majority lookup 155. Counts and street names only; no addresses published.",
+    "requiredMentions": [
+      "Wecker Road",
+      "809",
+      "Luprena Street",
+      "Cresthaven Drive",
+      "Aminya Street",
+      "3,402",
+      "3,127",
+      "286 properties",
+      "functional dependency"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Mansfield (Qld) suburb and locality (SAL31752), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL31752"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities boundary service, used for our point-in-boundary checks and suburb areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Brisbane City Council open data, Waste Collection Days (Creative Commons Attribution 4.0), dataset last modified 8 September 2026.",
+        "url": "https://data.brisbane.qld.gov.au/explore/dataset/waste-collection-days-collection-days/"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Brisbane City Council open data, Park Locations (Creative Commons Attribution 4.0), dataset last modified 30 September 2026.",
+        "url": "https://data.brisbane.qld.gov.au/explore/dataset/park-locations/"
+      },
+      {
+        "claim": "E. F. Codd (1970), A Relational Model of Data for Large Shared Data Banks, Communications of the ACM 13(6), 377-387, DOI 10.1145/362384.362685.",
+        "url": "https://doi.org/10.1145/362384.362685"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland state school term dates.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any individual property address: not published; counts and street names only.",
+      "Why the council splits five streets across two days: not claimed.",
+      "Passenger numbers at Mansfield stops: not claimed.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Brisbane City Council or Translink."
+    ]
+  },
+  "ai-and-programming-classes-in-reservoir-melbourne": {
+    "market": "Reservoir",
+    "bodyClass": "cg-rsvr",
+    "pageType": "city",
+    "curriculumAuthority": "Reservoir (Vic.), ABS Census 2021 QuickStats, Reservoir (Vic.) suburb SAL22161 (read 11 October 2026): 51,096 people; median age 38; 13,259 families; 23,146 private dwellings; 2.4 people per household; separate house 63.2% (12,804; Victoria 73.4%); semi-detached, row or terrace house, townhouse 32.5% (6,582; Victoria 13.9%); car as driver 45.7% (11,155; Victoria 49.9%); train 3.5% (860; Victoria 1.6%); bus 0.9% (216; Victoria 0.6%); worked at home 27.7% (6,761; lockdown Census). ABS SAL area 19.03 square kilometres, City of Darebin. Stations inside the boundary (entries): Reservoir 757,800 FY24-25 (rank 47 of 222; FY23-24 852,650; FY18-19 959,050), Regent 382,700 (FY23-24 369,000), Ruthven 289,350 (FY23-24 302,050). Victorian School Locations 2025: 13 open schools (Government 8, Catholic 3, Independent 2), including Reservoir Views Primary School, Reservoir High School and William Ruthven Secondary College. Victorian 2027 Term 3: Monday 12 July to Friday 17 September. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Gradient checking. Linear model y = w x + c, x = FY23-24 entries, y = FY24-25 entries (millions), 221 stations in both files (McKinnon spelled differently). Central differences h = 1e-6, relative error |a - n| / (|a| + |n|). Correct gradient: relative errors 1.6e-11 and 2.6e-11 at (0.5, 0.1); 4.7e-11 and 2.3e-10 at (1.2, -0.05). Buggy (bias gradient uses x): bias relative error 0.7335 and 0.7953. Training lr 0.01, 20,000 steps from (0, 0): correct w 1.0055 c 0.01636 RMSE 102,645 entries (equal to numpy polyfit); buggy w 0.8485 c 0.8485 RMSE 774,902. Baseline y = x RMSE 105,234. Reservoir: actual 757,800, previous 852,650, correct 873,741, buggy 1,572,056. Script: scratchpad au/b10/rsvr.py.",
+    "requiredMentions": [
+      "51,096",
+      "13,259",
+      "23,146",
+      "19.03 square kilometres",
+      "873,741",
+      "959,050",
+      "774,902",
+      "102,645",
+      "Reservoir Views Primary School",
+      "William Ruthven Secondary College"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Reservoir (Vic.) suburb (SAL22161).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL22161"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL22161 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "NumPy documentation, numpy.polyfit (least squares polynomial fit).",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any forecast of future station entries: not made; the model is a teaching example and barely beats repeating last year.",
+      "Reasons for changes in Reservoir, Regent or Ruthven entries: not claimed.",
+      "Names of Catholic, independent or specialist schools: not used; counted only.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Darebin, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-aspley-brisbane": {
+    "market": "Aspley",
+    "bodyClass": "cg-aspl",
+    "pageType": "city",
+    "curriculumAuthority": "Aspley (SAL30095), ABS Census 2021 QuickStats (read 12 October 2026): 12,871 people; median age 43; 3,543 families; 5,463 private dwellings; 2.4 per household; semi-detached 1,209 (23.8%, Qld 11.7%); worked at home 1,196 (19.4%, Qld 14.1%); train to work 94 (1.5%, Qld 1.1%); bachelor or higher 3,122 (29.2%, Qld 21.9%); aged 85+ 586 (4.5%); 5-9 779; 10-14 732. ABS SAL area 6.4114 sq km. Translink GTFS Wednesday 21 October 2026: 61 stop records with service inside the SAL polygon (our check); 2240 scheduled bus visits; 15 routes; no rail; busiest Gympie Rd at Aspley (135); Aspley Hypermarket station platforms A-D. BCC Park Locations: 16 parks. BCC adjacency: Bridgeman Downs, Carseldine, Chermside, Chermside West, Geebung, McDowall, Zillmere. Qld 2027: Term 2 ends Friday 25 June, Term 3 starts Monday 12 July. Brisbane no daylight saving since March 1992 (IANA).",
+    "localProject": "Rubber-duck debugging. 16 BCC parks with suburb ASPLEY (lat/long field per park) x 61 Translink stop records inside SAL30095 (our point-in-polygon). Haversine distance, R 6,371,008.8 m. Buggy JS (inner loop redeclares var i): 1 park checked, count 1, i ends at 62 (run in node, scratchpad au/b12/aspl_bug.js). Fixed (let i / let j): 16 checked, count 15 within 400 m; 16 within 800 m; max nearest-stop distance 410 m; median nearest 294 m; first park in file order Fred Campbell Park (nearest stop 174 m). The agent turns are our scripts, not model transcripts.",
+    "requiredMentions": [
+      "5,463",
+      "1,209",
+      "586",
+      "Gympie Rd at Aspley",
+      "Aspley Hypermarket station",
+      "var i",
+      "rubber-duck",
+      "410 metres",
+      "16 of 16"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Aspley suburb and locality (SAL30095), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL30095"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities boundary service, used for our point-in-boundary checks and suburb areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Brisbane City Council open data, Park Locations (Creative Commons Attribution 4.0), dataset last modified 30 September 2026.",
+        "url": "https://data.brisbane.qld.gov.au/explore/dataset/park-locations/"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "MDN Web Docs, var statement: var declarations are function-scoped and redeclaring a var does not create a new variable.",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var"
+      },
+      {
+        "claim": "David Thomas and Andrew Hunt, The Pragmatic Programmer (first edition 1999; 20th anniversary edition 2019), the rubber duck debugging technique; publisher page.",
+        "url": "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland state school term dates.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Walking distances or walking times to stops: not claimed; distances are straight-line.",
+      "Any transcript from a commercial AI model: not claimed; the agent turns are our scripts.",
+      "Passenger numbers at Aspley stops: not claimed.",
+      "Any reason for the share of residents aged 85 and over: not claimed.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Brisbane City Council or Translink."
+    ]
+  },
+  "online-coding-and-python-classes-in-forest-lake-brisbane": {
+    "market": "Forest Lake",
+    "bodyClass": "cg-frlk",
+    "pageType": "city",
+    "curriculumAuthority": "Forest Lake (SAL31064), ABS Census 2021 QuickStats (read 12 October 2026): 22,676 people; median age 37; 6,325 families; 8,199 private dwellings; 2.8 per household; separate houses 7,337 (94.9%, Qld 74.8%); drove 6,836 (60.1%, Qld 59.5%); train 229 (2.0%, Qld 1.1%); bachelor or higher 4,503 (24.9%, Qld 21.9%); aged 5-9 1,554; 10-14 1,663; 15-19 1,700. Worked at home 1,760 (15.5%, Qld 14.1%). ABS SAL area 9.8224 sq km. Translink GTFS Wednesday 21 October 2026: 43 stop records with service inside the SAL polygon (our check); 3775 scheduled bus visits; 6 routes (100, 101, 118, 460, 463, 534); busiest Forest Lake Shops (306); first departure 04:45. BCC Park Locations: 78 parks. BCC adjacency: Doolandella, Ellen Grove, Heathwood, Inala, Pallara, Richlands, Wacol. Qld 2027: Term 1 ends Thursday 25 March, Term 2 starts Monday 12 April. Brisbane no daylight saving since March 1992 (IANA).",
+    "localProject": "any()/all() short-circuit. 78 BCC parks with suburb FOREST LAKE (lat/long field) x 43 Translink stop records inside SAL31064 (our point-in-polygon; stops outside the boundary excluded). Haversine. Full pairs 3,354. any(d <= 400) per park: 59 parks true, 1,731 distance evaluations. all(any(d <= 400)) over parks in file order: False at park 3, 79 evaluations. all(any(d <= 800)): False at park 75, 913 evaluations; 75 of 78 within 800 m. Max nearest-stop distance 1,172 m; median 257 m.",
+    "requiredMentions": [
+      "Ellen Grove",
+      "7,337",
+      "1,700",
+      "Forest Lake Shops",
+      "3,354",
+      "1,731",
+      "short-circuit",
+      "1,172 metres",
+      "59 of 78"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Forest Lake suburb and locality (SAL31064), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL31064"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities boundary service, used for our point-in-boundary checks and suburb areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Brisbane City Council open data, Park Locations (Creative Commons Attribution 4.0), dataset last modified 30 September 2026.",
+        "url": "https://data.brisbane.qld.gov.au/explore/dataset/park-locations/"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Python documentation, Built-in Functions: any() and all(), including their equivalent code that returns at the first deciding item.",
+        "url": "https://docs.python.org/3/builtins/functions.html#any"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland state school term dates.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Walking distance or access to parks: not claimed; distances are straight-line to stops inside the boundary only.",
+      "That parks without a near stop are poorly served: not claimed; stops just outside the suburb were not counted.",
+      "Passenger numbers at Forest Lake stops: not claimed.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Brisbane City Council or Translink."
+    ]
+  },
+  "ai-and-programming-classes-in-browns-plains-brisbane": {
+    "market": "Browns Plains",
+    "bodyClass": "cg-brpl",
+    "pageType": "city",
+    "curriculumAuthority": "Browns Plains (SAL30395, Browns Plains (Qld)), suburb in the City of Logan, Greater Brisbane. ABS Census 2021 QuickStats (read 12 October 2026): 6,632 people; median age 34; 1,660 families; 2,501 private dwellings; 2.7 per household; drove 1,823 (68.9%, Qld 59.5%); separate houses 1,691 (78.0%, Qld 74.8%); semi-detached 392 (18.1%, Qld 11.7%); bus 63 (2.4%, Qld 1.7%); aged 0-4 475; 5-9 475; 10-14 513. ABS SAL area 5.1167 sq km. Translink GTFS Wednesday 21 October 2026: 24 stop records with service inside the SAL polygon (our check, incl. parent Browns Plains station record 13175); 1838 scheduled bus visits; 16 routes (140, 141, 142, 150, 153, 534, 535, 540, 541, 542, 543, 545, 547, 550, 560, 588); no rail; busiest Grand Plaza Shopping Centre (Sth Car Park) 340, Browns Plains station stop 1A 195; first departure 04:43. Qld 2027 Term 4 starts Tuesday 5 October. Brisbane/Logan no daylight saving since March 1992 (IANA). No BCC datasets used (Logan is outside Brisbane City Council). Logan city figures from best-coding-classes-in-logan not used.",
+    "localProject": "Feature hashing. Features: \"stop=\" + 24 stop_ids inside SAL30395 and \"route=\" + 16 route_short_names active at those stops on Wed 21 Oct 2026 (40). sklearn.utils.murmurhash3_32(s, seed=0, positive=True) mod m. Collisions = n - occupied buckets. m=32: 21 (expected 17.0); 64: 14 (10.1); 128: 6 (5.5); 256: 3 (2.9); 1,024: 2 (0.8). Expected = n - m(1 - (1 - 1/m)^n). 64-bucket groups include [stop 13057 Grand Plaza, route 540, route 560], [route 142, 545, 547, 588], [310256 Forestglen Park, 310258 Oakdale Park], [310254 Campden Street, 310259 Oakdale Park]. Random-hash simulation (20,000 trials, n=40): P(>=21 at m=32) about 2.6%, P(>=14 at m=64) about 5.4%. Network 13,124 stop records, m=65,536: murmur3 1,260, md5 1,254, crc32 636, expected 1,230.5.",
+    "requiredMentions": [
+      "2,501",
+      "1,823",
+      "Grand Plaza Shopping Centre",
+      "feature hashing",
+      "MurmurHash3",
+      "13,124",
+      "1,230.5",
+      "Routes 142, 545, 547 and 588",
+      "City of Logan"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Browns Plains (Qld) suburb and locality (SAL30395), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL30395"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities boundary service, used for our point-in-boundary checks and suburb areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Kilian Weinberger and others (2009), Feature Hashing for Large Scale Multitask Learning, arXiv 0902.2206.",
+        "url": "https://arxiv.org/abs/0902.2206"
+      },
+      {
+        "claim": "scikit-learn documentation, sklearn.feature_extraction.FeatureHasher, which hashes features with the signed 32-bit version of MurmurHash3.",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.FeatureHasher.html"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland state school term dates.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Figures for the City of Logan as a whole: not used; suburb figures only, and the Logan page figures are kept off this page.",
+      "That Browns Plains is in Brisbane City Council: rejected; it is in the City of Logan, within Greater Brisbane.",
+      "That CRC32 is better for hashing because it collided less: rejected; it is not behaving like a random hash on structured IDs.",
+      "Passenger numbers at Browns Plains stops: not claimed.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Logan City Council or Translink."
     ]
   }
 }
