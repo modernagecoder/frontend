@@ -334,7 +334,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 314 | ai-and-programming-classes-in-midland-perth (mdld, #575A12) | cg- district page | 2,495 | 1.1% vs ai-and-programming-classes-in-cockburn-perth | choosing among 852 rules on the test set inflates the score | test-set reuse | fc189979 |
 | 299 | best-coding-and-ai-classes-in-joondalup-perth (jdlp, #374E91) | cg- district page | 2,752 | 1.3% vs vibe-coding-and-ai-agents-classes-in-stirling-perth | pair every Joondalup traffic counter with the others on its road: 381 join rows shrink to 123 honest pairs | SQL self-join (a.id < b.id, self-pairs and mirror duplicates) | f8547595 |
 | 300 | vibe-coding-and-ai-agents-classes-in-fremantle-perth (frmt, #741435) | cg- district page | 2,659 | 1.9% vs ai-and-programming-classes-in-melville-perth | an agent reads Fremantle car and bike counters through one adapter so field names match and missing counts stay missing | field-mapping adapter over two agent tools | ebce2740 |
-| 301 | online-coding-and-python-classes-in-canning-vale-perth (cnvl, #465B30) | cg- district page | 2,539 | 1.3% vs vibe-coding-and-ai-agents-classes-in-fremantle-perth | eight loop-built Python functions all read Year 6 on Canning Vale school data, and seven checks still pass | late-binding closures | (this commit) |
+| 301 | online-coding-and-python-classes-in-canning-vale-perth (cnvl, #465B30) | cg- district page | 2,539 | 1.3% vs vibe-coding-and-ai-agents-classes-in-fremantle-perth | eight loop-built Python functions all read Year 6 on Canning Vale school data, and seven checks still pass | late-binding closures | 92901ad0 |
+| 302 | ai-and-programming-classes-in-baldivis-perth (bldv, #785E20) | cg- district page | 2,568 | 1.4% vs vibe-coding-and-ai-agents-classes-in-fremantle-perth | a datasheet for the WA schools list written before any model is trained on it | datasheet for a dataset | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
