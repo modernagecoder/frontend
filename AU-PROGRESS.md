@@ -325,7 +325,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 297 | online-coding-and-python-classes-in-forest-lake-brisbane (frlk, #12733B) | cg- district page | 2,477 | 1.6% vs best-coding-and-ai-classes-in-mansfield-brisbane | any() and all() over Forest Lake parks and stops stop as soon as the answer is known | any()/all() short-circuit evaluation | c39b5815 |
 | 298 | ai-and-programming-classes-in-browns-plains-brisbane (brpl, #455C0E) | cg- district page | 2,693 | 1.4% vs online-coding-and-python-classes-in-ellenbrook-perth | feature hashing of Browns Plains stop and route codes: collisions counted against the birthday expectation | feature hashing (hashing trick) | 9f551a15 |
 | 307 | best-coding-and-ai-classes-in-subiaco-perth (sbia, #745239) | cg- district page | 2,556 | 1.3% vs best-coding-and-ai-classes-in-willetton-perth | constant columns in the state stops file: constant in Subiaco is not constant statewide | constant (single-valued) columns | e62ae69a |
-| 308 | vibe-coding-and-ai-agents-classes-in-armadale-perth (arwa, #81312F) | cg- district page | 2,576 | 2% vs vibe-coding-and-ai-agents-classes-in-applecross-perth | an agent proposes packages that do not exist; checking PyPI before installing | hallucinated package names | (this commit) |
+| 308 | vibe-coding-and-ai-agents-classes-in-armadale-perth (arwa, #81312F) | cg- district page | 2,576 | 2% vs vibe-coding-and-ai-agents-classes-in-applecross-perth | an agent proposes packages that do not exist; checking PyPI before installing | hallucinated package names | 9e76fd73 |
+| 309 | online-coding-and-python-classes-in-ellenbrook-perth (elbk, #436E41) | cg- district page | 2,445 | 2.2% vs online-coding-and-python-classes-in-scarborough-wa-perth | deleting station stops from a list while looping over it skips every second one | removing items from a list while iterating | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

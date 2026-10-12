@@ -562,6 +562,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Browns Plains](/ai-and-programming-classes-in-browns-plains-brisbane)
 - [Coding and AI classes in Subiaco](/best-coding-and-ai-classes-in-subiaco-perth)
 - [Vibe coding and AI agent classes in Armadale](/vibe-coding-and-ai-agents-classes-in-armadale-perth)
+- [Online coding and Python classes in Ellenbrook](/online-coding-and-python-classes-in-ellenbrook-perth)
 <!-- AU-LINKS -->
 
 
