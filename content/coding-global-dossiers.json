@@ -48735,7 +48735,7 @@
         "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
       },
       {
-        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "claim": "Department for Infrastructure and Transport (South Australia), Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
         "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
       },
       {
@@ -48761,7 +48761,7 @@
     "market": "Norwood",
     "bodyClass": "cg-nrwd",
     "pageType": "city",
-    "curriculumAuthority": "Norwood (SAL41053, Norwood (SA)), City of Norwood Payneham and St Peters. ABS Census 2021 QuickStats (read 13 October 2026): 6,354 people; median age 40; 1,617 families; 3,438 private dwellings; 2 per household; semi-detached 1,465 (50.0%, SA 14.6%); bachelor or higher 2,726 (48.7%, SA 22.7%); bus 248 (7.3%, SA 3.1%); drove 1,618 (47.6%, SA 63.9%); professionals 1,354 (39.8%, SA 21.5%); aged 5-9 298; 10-14 241; 15-19 256. ABS SAL area 2.2084 sq km; council by ABS LGA point query. Adelaide Metro GTFS v1708, Wednesday 21 October 2026: 29 stop records; 2664 visits (bus 2629, school bus 712 35); 30 routes; Magill Rd stops 5-8 south side 164 each; first 05:44:07, last 24:14:42. Neighbours (ABS touches): Beulah Park, College Park, Kensington, Kent Town, Marryatville, Maylands, Rose Park, Stepney, Toorak Gardens, Trinity Gardens, Adelaide.",
+    "curriculumAuthority": "Norwood (SAL41053, Norwood (SA)), City of Norwood Payneham and St Peters. ABS Census 2021 QuickStats (read 13 October 2026): 6,354 people; median age 40; 1,617 families; 3,438 private dwellings; 2 per household; semi-detached 1,465 (50.0%, SA 14.6%); bachelor or higher 2,726 (48.7%, SA 22.7%); bus 248 (7.3%, SA 3.1%); drove 1,618 (47.6%, SA 63.9%); professionals 1,354 (39.8%, SA 21.5%); aged 5-9 298; 10-14 241; 15-19 256. ABS SAL area 2.2084 sq km; council by ABS LGA point query. Adelaide Metro GTFS v1708, Wednesday 21 October 2026: 29 stop records; 2664 visits (bus 2629, school bus 712 35); 30 routes; Magill Rd stops 4-8 south side 164 each; first 05:44:07, last 24:14:42. Neighbours (ABS touches): Beulah Park, College Park, Kensington, Kent Town, Marryatville, Maylands, Rose Park, Stepney, Toorak Gardens, Trinity Gardens, Adelaide.",
     "localProject": "f-string debugging. nrwd_debug.py: services(date) = calendar.txt rows with wednesday 1 and start_date <= date <= end_date (string comparison). date=\"2026-10-21\" -> len(active)=0, visits=0; date=\"20261021\" -> len(active)=34, visits=2664; cal[0][\"start_date\"]=\"20261009\". Python 3.13.6.",
     "requiredMentions": [
       "1,465",
@@ -48784,7 +48784,7 @@
         "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
       },
       {
-        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "claim": "Department for Infrastructure and Transport (South Australia), Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
         "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
       },
       {
@@ -48833,7 +48833,7 @@
         "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
       },
       {
-        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "claim": "Department for Infrastructure and Transport (South Australia), Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
         "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
       },
       {
@@ -48859,7 +48859,7 @@
     "market": "Burnside",
     "bodyClass": "cg-brns",
     "pageType": "city",
-    "curriculumAuthority": "Burnside (SAL40192, Burnside (SA)), City of Burnside. ABS Census 2021 QuickStats (read 13 October 2026): 3,060 people; median age 43; 872 families; 1,257 private dwellings; 2.7 per household; separate houses 810 (70.6%, SA 78.0%); semi-detached 294 (25.6%, SA 14.6%); bachelor or higher 1,222 (49.6%, SA 22.7%); professionals 585 (39.6%, SA 21.5%); worked at home 255 (17.2%, SA 9.6%); aged 5-9 229; 10-14 219; 15-19 210. ABS SAL area 1.6875 sq km; council by ABS LGA point query. Adelaide Metro GTFS v1708: Wednesday 21 Oct 2026 18 stop records, 440 visits (bus 426, school 712 14), 7 routes (141, 142, 580, 821, 822, 871, 872); Stop 20 Hallett Rd East side 37; Sunday 25 Oct 2026 136 visits at 9 of 18 records, routes 141 and 142; unserved Sunday records all on Greenhill Rd. Neighbours (ABS touches): Beaumont, Erindale, Greenhill, Hazelwood Park, Leabrook, Stonyfell, Waterfall Gully.",
+    "curriculumAuthority": "Burnside (SAL40192, Burnside (SA)), City of Burnside. ABS Census 2021 QuickStats (read 13 October 2026): 3,060 people; median age 43; 872 families; 1,257 private dwellings; 2.7 per household; separate houses 810 (70.6%, SA 78.0%); semi-detached 294 (25.6%, SA 14.6%); bachelor or higher 1,222 (49.6%, SA 22.7%); professionals 585 (39.6%, SA 21.5%); worked at home 255 (17.2%, SA 9.6%); aged 5-9 229; 10-14 219; 15-19 210. ABS SAL area 1.6875 sq km; council by ABS LGA point query. Adelaide Metro GTFS v1708: Wednesday 21 Oct 2026 18 stop records, 440 visits (bus 426, school 712 14), 7 routes (141, 142, 580, 821, 822, 871, 872); Stop 20 Hallett Rd East side 37; Sunday 25 Oct 2026 136 visits at 9 of 18 records, routes 141 and 142; unserved Sunday records all on Greenhill Rd; Sundays 1 and 8 November 2026 also 9 of 18 served. Neighbours (ABS touches): Beaumont, Erindale, Greenhill, Hazelwood Park, Leabrook, Stonyfell, Waterfall Gully.",
     "localProject": "assert under -O. brns_assert.py: Sunday 25 Oct 2026 visits per Burnside stop id; assert not missing. python -> AssertionError: 9 stops have no Sunday service; python -O -> \"every stop served on Sunday; average 7.6 visits per stop\" (136 / 18). Served-stop average 15.1 (136 / 9). Python 3.13.6.",
     "requiredMentions": [
       "1,257",
@@ -48882,7 +48882,7 @@
         "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
       },
       {
-        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "claim": "Department for Infrastructure and Transport (South Australia), Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
         "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
       },
       {
@@ -48931,7 +48931,7 @@
         "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
       },
       {
-        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "claim": "Department for Infrastructure and Transport (South Australia), Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
         "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
       },
       {
@@ -48980,7 +48980,7 @@
         "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
       },
       {
-        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "claim": "Department for Infrastructure and Transport (South Australia), Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
         "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
       },
       {
@@ -49029,7 +49029,7 @@
         "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
       },
       {
-        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "claim": "Department for Infrastructure and Transport (South Australia), Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
         "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
       },
       {
@@ -49049,6 +49049,240 @@
       "Names of schools: none named on this page.",
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with the City of Marion or Adelaide Metro."
+    ]
+  },
+  "best-coding-and-ai-classes-in-belconnen-canberra": {
+    "market": "Belconnen",
+    "bodyClass": "cg-blcn",
+    "pageType": "city",
+    "curriculumAuthority": "Belconnen SA3 80101, ABS Census 2021 QuickStats (read 13 October 2026): 106,061 people; median age 35; 28,377 families; 43,206 private dwellings; 3.1 bedrooms per dwelling; separate houses 27,414 (69.4%, ACT 63.2%); bus to work 2,887 (5.1%, ACT 3.6%); aged 5-9 6,713 (6.3%, ACT 6.4%); professionals 16,499 (29.2%, ACT 31.4%). ABS ERP 2025 (ABS_ANNUAL_ERP_ASGS2021, SA3 80101): 110,132. ABS SA3 area 112.2636 sq km; 27 named suburbs by our SAL-centroid test. ACT open data (CC BY 4.0, downloaded 13 October 2026): tree assets 171,820 records in Belconnen suburbs, 102,119 native; artworks 96 (40 sculpture, 18 street art); ACT NOWaste list 30 Belconnen rows, 22 Thursday garbage. ACT 2027 Term 1 begins Monday 1 February (new students); Canberra Day Monday 8 March 2027. Canberra = Australia/Sydney (IANA 2026e), DST 4 October 2026 to 4 April 2027.",
+    "localProject": "Aho-Corasick over 27 Belconnen suburb names (164 trie states) and 1,951 location strings (52,603 characters) from ACT artwork, shelter, barbecue, smart parking sensor and basketball court data: 75,491 automaton steps vs 1,156,712 character comparisons for 27 naive scans; 101 matches each, all whole words; COOK 46 (Captain Cook Crescent, Griffith), HAWKER 13, KALEEN 6, BELCONNEN 6; 51 matches on assets outside Belconnen (Flynn Drive Yarralumla, Melba Street Downer, Bruce Dittmar park Forde). Our script. Script: scratchpad au/b16/a_blcn.py.",
+    "requiredMentions": [
+      "110,132",
+      "43,206",
+      "69.4% (27,414)",
+      "5.1% (2,887)",
+      "1,156,712",
+      "75,491",
+      "Captain Cook Crescent",
+      "164 states",
+      "171,820"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Belconnen statistical area level 3 (SA3 80101), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/80101"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by ASGS 2021 regions (ABS_ANNUAL_ERP_ASGS2021), SA3 80101 Belconnen, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_ASGS2021,1.2.0/ERP.SA3.80101.A?startPeriod=2024&format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Statistical Area Level 3 boundary service (district outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SA3/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines, used to place each suburb in a district).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Artwork Assets (data.act.gov.au a69k-qah8), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/a69k-qah8"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Shelter Assets (data.act.gov.au pf5q-vheg), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/pf5q-vheg"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Barbecue Assets (data.act.gov.au qxhv-bxbv), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/qxhv-bxbv"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Smart Parking Sensor Assets (data.act.gov.au wret-g63c), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/wret-g63c"
+      },
+      {
+        "claim": "ACT Government open data, Basketball Courts (data.act.gov.au igti-4f4a), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/igti-4f4a"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Tree Assets (data.act.gov.au 9qch-rvqr), Creative Commons Attribution 4.0, grouped counts by suburb queried 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/9qch-rvqr"
+      },
+      {
+        "claim": "ACT Government open data, ACT Suburb Next Garbage, Recycling and Green Waste Collection Dates (data.act.gov.au jzzy-44un), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/jzzy-44un"
+      },
+      {
+        "claim": "ACT Government open data, ACT Education Public Holidays and Term Dates (data.act.gov.au 4kcq-44ad): 2027 Term 1 begins Monday 1 February (new students), Canberra Day Monday 8 March, Term 3 Tuesday 20 July to Friday 24 September, Term 4 Tuesday 12 October to Friday 17 December.",
+        "url": "https://www.data.act.gov.au/d/4kcq-44ad"
+      },
+      {
+        "claim": "IANA time zone database 2026e, backward file: Australia/Canberra links to Australia/Sydney.",
+        "url": "https://data.iana.org/time-zones/tzdb/backward"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: rule AN, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Belconnen suburb (SAL) Census figures: not used; the page uses the SA3 district.",
+      "Adding suburb tree counts into a published district total: the tree figure is our count of records, not a published total.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the ACT Government or Transport Canberra."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-gungahlin-canberra": {
+    "market": "Gungahlin",
+    "bodyClass": "cg-gung",
+    "pageType": "city",
+    "curriculumAuthority": "Gungahlin SA3 80104, ABS Census 2021 QuickStats (read 13 October 2026): 87,682 people; median age 32; 23,748 families; 31,952 private dwellings; 2.9 people per household; couple families with children 12,944 (54.5%, ACT 45.3%); aged 5-9 7,314 (8.3%, ACT 6.4%); tram/light rail to work 1,396 (2.8%, ACT 0.9%); car as driver 31,749 (64.1%, ACT 59.0%). ABS ERP 2025 (SA3 80104): 94,130. ABS SA3 area 91.8779 sq km; 17 named suburbs by our SAL-centroid test. ACT open data (CC BY 4.0, 13 October 2026): artworks 131 in Gungahlin suburbs (87 sculptures), the most of the eight districts; tree records 100,434 (39,727 exotic, 32,886 native); ACT NOWaste list 16 Gungahlin suburbs (Mitchell absent), 11 Wednesday, 5 Friday, 4 week A, 12 week B. ACT 2027 Term 3 Tuesday 20 July to Friday 24 September. Canberra = Australia/Sydney (IANA 2026e), DST 4 October 2026 to 4 April 2027.",
+    "localProject": "Recurrence rules with python-dateutil 2.9.0 on ACT NOWaste rows read 13 October 2026. Gungahlin 16 suburbs: garbage date weekday matches stated day 16/16; week A = recycling date equals garbage date 16/16; recycling and green dates differ 16/16; fortnight anchored on garbage date matches the published recycling date for 4/16 (wrong for 12 week B suburbs). Suburb of Gungahlin to 15 October 2027: 53 garbage, 26 recycling, 27 green, 0 clashes. ACT-wide letter rule 93 of 119 rows (24 Monday suburbs rolled to next week, 2 other inconsistent rows). Our script. Script: scratchpad au/b16/a_gung.py.",
+    "requiredMentions": [
+      "94,130",
+      "31,952",
+      "54.5% (12,944)",
+      "2.8% (1,396)",
+      "week B suburbs",
+      "93 on 13 October",
+      "python-dateutil 2.9.0",
+      "87 of them sculptures",
+      "100,434"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Gungahlin statistical area level 3 (SA3 80104), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/80104"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by ASGS 2021 regions (ABS_ANNUAL_ERP_ASGS2021), SA3 80104 Gungahlin, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_ASGS2021,1.2.0/ERP.SA3.80104.A?startPeriod=2024&format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Statistical Area Level 3 boundary service (district outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SA3/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines, used to place each suburb in a district).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ACT Government open data, ACT Suburb Next Garbage, Recycling and Green Waste Collection Dates (data.act.gov.au jzzy-44un), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/jzzy-44un"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Artwork Assets (data.act.gov.au a69k-qah8), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/a69k-qah8"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Tree Assets (data.act.gov.au 9qch-rvqr), Creative Commons Attribution 4.0, grouped counts by suburb queried 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/9qch-rvqr"
+      },
+      {
+        "claim": "python-dateutil 2.9.0 documentation, rrule module (iCalendar RFC 5545 recurrence rules).",
+        "url": "https://dateutil.readthedocs.io/en/stable/rrule.html"
+      },
+      {
+        "claim": "ACT Government open data, ACT Education Public Holidays and Term Dates (data.act.gov.au 4kcq-44ad): 2027 Term 1 begins Monday 1 February (new students), Canberra Day Monday 8 March, Term 3 Tuesday 20 July to Friday 24 September, Term 4 Tuesday 12 October to Friday 17 December.",
+        "url": "https://www.data.act.gov.au/d/4kcq-44ad"
+      },
+      {
+        "claim": "IANA time zone database 2026e, backward file: Australia/Canberra links to Australia/Sydney.",
+        "url": "https://data.iana.org/time-zones/tzdb/backward"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: rule AN, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Public holiday changes to collections: not claimed; the dataset does not state them.",
+      "Light rail patronage or service frequency: not claimed; Transport Canberra developer pages returned 403 and were not used.",
+      "Gungahlin suburb (SAL) Census figures: not used; the page uses the SA3 district.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the ACT Government, ACT NOWaste or Transport Canberra."
+    ]
+  },
+  "online-coding-and-python-classes-in-tuggeranong-canberra": {
+    "market": "Tuggeranong",
+    "bodyClass": "cg-tugg",
+    "pageType": "city",
+    "curriculumAuthority": "Tuggeranong SA3 80107, ABS Census 2021 QuickStats (read 13 October 2026): 89,461 people; median age 38; 25,320 families; 35,314 private dwellings; 2.0 vehicles per dwelling; separate houses 26,178 (79.5%, ACT 63.2%); car as driver 31,605 (66.8%, ACT 59.0%); bachelor or higher 20,752 (28.7%, ACT 42.9%); aged 10-14 5,768 (6.4%, ACT 6.0%). ABS ERP 2025 (SA3 80107): 90,199. ABS SA3 area 159.6268 sq km; 18 named suburbs by our SAL-centroid test. ACT open data (CC BY 4.0, 13 October 2026): shelters 61, barbecues 33, basketball courts 13 (most of the eight districts), tree records 188,908 (78,120 native, 22,637 exotic, 88,151 unlabelled); ACT NOWaste 18 Tuggeranong rows, 17 Tuesday. ACT 2027 Term 1 begins Monday 1 February; Canberra Day Monday 8 March. Canberra = Australia/Sydney (IANA 2026e).",
+    "localProject": "Python 3.13: 61 Tuggeranong shelter asset_name values, 49 end with \" SHELTER\"; rstrip(\" SHELTER\") differs from removesuffix on 9 (CENTRE -> CEN x7 incl. Tuggeranong Town Centre, Calwell, Wanniassa, Theodore shopping centres; POINT HUT -> POINT HU x1; PINE ISLAND CENTRAL, which has no suffix, -> PINE ISLAND CENTRA). 33 barbecue names all end \" BARBECUE\"; rstrip(\" BARBECUE\") leaves ELECTRI on all 33. ACT-wide: shelters 96 of 534 damaged; barbecue last word BARBECUE 311, BARBEQUE 34; rstrip(\" BARBECUE\") differs on 201 of 345. Our script. Script: scratchpad au/b16/a_tugg.py.",
+    "requiredMentions": [
+      "90,199",
+      "35,314",
+      "79.5% (26,178)",
+      "66.8% (31,605)",
+      "TUGGERANONG TOWN CEN",
+      "ELECTRI",
+      "188,908",
+      "Lake Tuggeranong",
+      "311 names end in BARBECUE"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Tuggeranong statistical area level 3 (SA3 80107), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/80107"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by ASGS 2021 regions (ABS_ANNUAL_ERP_ASGS2021), SA3 80107 Tuggeranong, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_ASGS2021,1.2.0/ERP.SA3.80107.A?startPeriod=2024&format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Statistical Area Level 3 boundary service (district outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SA3/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines, used to place each suburb in a district).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Shelter Assets (data.act.gov.au pf5q-vheg), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/pf5q-vheg"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Barbecue Assets (data.act.gov.au qxhv-bxbv), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/qxhv-bxbv"
+      },
+      {
+        "claim": "ACT Government open data, Basketball Courts (data.act.gov.au igti-4f4a), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/igti-4f4a"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Tree Assets (data.act.gov.au 9qch-rvqr), Creative Commons Attribution 4.0, grouped counts by suburb queried 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/9qch-rvqr"
+      },
+      {
+        "claim": "ACT Government open data, ACT Suburb Next Garbage, Recycling and Green Waste Collection Dates (data.act.gov.au jzzy-44un), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/jzzy-44un"
+      },
+      {
+        "claim": "Python documentation, built-in types: str.rstrip removes a set of characters; str.removesuffix (new in 3.9) removes a suffix string.",
+        "url": "https://docs.python.org/3/library/stdtypes.html#str.removesuffix"
+      },
+      {
+        "claim": "ACT Government open data, ACT Education Public Holidays and Term Dates (data.act.gov.au 4kcq-44ad): 2027 Term 1 begins Monday 1 February (new students), Canberra Day Monday 8 March, Term 3 Tuesday 20 July to Friday 24 September, Term 4 Tuesday 12 October to Friday 17 December.",
+        "url": "https://www.data.act.gov.au/d/4kcq-44ad"
+      },
+      {
+        "claim": "IANA time zone database 2026e, backward file: Australia/Canberra links to Australia/Sydney.",
+        "url": "https://data.iana.org/time-zones/tzdb/backward"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: rule AN, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Tuggeranong suburb (SAL) Census figures: not used; the page uses the SA3 district.",
+      "Kambah and Fadden: used as required mentions on the ACT page; kept off this page.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the ACT Government or Transport Canberra."
     ]
   }
 }
