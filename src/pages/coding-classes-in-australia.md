@@ -577,6 +577,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Wanneroo](/online-coding-and-python-classes-in-wanneroo-perth)
 - [AI and programming classes in Melville](/ai-and-programming-classes-in-melville-perth)
 - [Coding and AI classes in Mawson Lakes](/best-coding-and-ai-classes-in-mawson-lakes-adelaide)
+- [Vibe coding and AI agent classes in Glenelg](/vibe-coding-and-ai-agents-classes-in-glenelg-adelaide)
 <!-- AU-LINKS -->
 
 
