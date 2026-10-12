@@ -48601,7 +48601,7 @@
     "bodyClass": "cg-mwsl",
     "pageType": "city",
     "curriculumAuthority": "Mawson Lakes (SAL40844), City of Salisbury. ABS Census 2021 QuickStats (read 13 October 2026): 13,794 people; median age 33; 3,623 families; 5,498 private dwellings; 2.6 per household; university 1,323 (28.3%, SA 16.7%); bachelor or higher 3,959 (35.3%, SA 22.7%); flats 755 (14.9%, SA 6.8%); drove 5,108 (65.7%, SA 63.9%); aged 0-4 847; 5-9 912; 10-14 815. ABS SAL area 6.1623 sq km; council by ABS LGA point query (Salisbury). Adelaide Metro GTFS v1708, Wednesday 21 October 2026: 60 stop records inside the SAL polygon; 4056 scheduled visits (bus 3857, train 129, school bus route type 712 70); 30 routes; busiest Zone D Mawson Interchange (281); Mawson Lakes Railway Station. Neighbours (ABS touches): Cavan, Dry Creek, Globe Derby Park, Green Fields, Parafield, Pooraka. Adelaide daylight saving first Sunday October to first Sunday April (IANA).",
-    "localProject": "zipfile streaming. google_transit.zip v1708: 18,189,702 bytes; 12 members, 102,063,356 bytes uncompressed; stop_times.txt 60,937,589 bytes (8,509,615 compressed), 1,152,604 rows. Streaming csv.DictReader(io.TextIOWrapper(z.open(...), encoding=\"utf-8-sig\")) filtered to Mawson Lakes stop ids: 11,134 rows, tracemalloc peak 0.11 MB; z.read + decode + splitlines: peak 185.6 MB. Wednesday 21 Oct 2026 subset 4,056 rows.",
+    "localProject": "zipfile streaming. google_transit.zip v1708: 18,189,702 bytes; 12 members, 102,063,356 bytes uncompressed; stop_times.txt 60,937,589 bytes (8,509,615 compressed), 1,152,604 rows. Streaming csv.DictReader(io.TextIOWrapper(z.open(...), encoding=\"utf-8-sig\")) filtered to Mawson Lakes stop ids: 11,134 rows, tracemalloc peak 0.11 MB; z.read + decode + splitlines filtered on stop_id: 11,134 rows, peak 185.6 MB. Wednesday 21 Oct 2026 subset 4,056 rows.",
     "requiredMentions": [
       "Pooraka",
       "755",
@@ -48623,7 +48623,7 @@
         "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
       },
       {
-        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "claim": "Department for Infrastructure and Transport (South Australia), Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
         "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
       },
       {

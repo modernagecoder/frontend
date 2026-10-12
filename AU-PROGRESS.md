@@ -338,7 +338,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 302 | ai-and-programming-classes-in-baldivis-perth (bldv, #785E20) | cg- district page | 2,568 | 1.4% vs vibe-coding-and-ai-agents-classes-in-fremantle-perth | a datasheet for the WA schools list written before any model is trained on it | datasheet for a dataset | 85e50e72 |
 | 303 | best-coding-and-ai-classes-in-rockingham-perth (rkhm, #194268) | cg- district page | 2,574 | 1.3% vs best-coding-and-ai-classes-in-joondalup-perth | the longest school-zone stretch on each Rockingham road: a correlated subquery keeps the ties GROUP BY hides | correlated subquery, greatest-per-group | f4d505d3 |
 | 304 | vibe-coding-and-ai-agents-classes-in-stirling-perth (strl, #9B475D) | cg- district page | 2,643 | 1.3% vs best-coding-and-ai-classes-in-joondalup-perth | an agent searching for Stirling finds Stirling Highway in other councils until a resolver picks the right meaning | place-name homonyms for an agent search tool | 9d85a97f |
-| 305 | online-coding-and-python-classes-in-wanneroo-perth (wnro, #105A2F) | cg- district page | 2,509 | 1.1% vs ai-and-programming-classes-in-melville-perth | check first or try and catch: Wanneroo traffic data with 23 missing weekend counts | EAFP vs LBYL | (this commit) |
+| 305 | online-coding-and-python-classes-in-wanneroo-perth (wnro, #105A2F) | cg- district page | 2,509 | 1.1% vs ai-and-programming-classes-in-melville-perth | check first or try and catch: Wanneroo traffic data with 23 missing weekend counts | EAFP vs LBYL | cd4ae429 |
+| 306 | ai-and-programming-classes-in-melville-perth (mlvl, #373C73) | cg- district page | 2,483 | 1.9% vs vibe-coding-and-ai-agents-classes-in-fremantle-perth | a Melville traffic model forced to slope the right way, and a one-line ratio that beats it | monotonic constraints in gradient boosting | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -575,6 +575,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Rockingham](/best-coding-and-ai-classes-in-rockingham-perth)
 - [Vibe coding and AI agents classes in Stirling](/vibe-coding-and-ai-agents-classes-in-stirling-perth)
 - [Online coding and Python classes in Wanneroo](/online-coding-and-python-classes-in-wanneroo-perth)
+- [AI and programming classes in Melville](/ai-and-programming-classes-in-melville-perth)
 <!-- AU-LINKS -->
 
 
