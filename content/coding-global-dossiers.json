@@ -48952,5 +48952,54 @@
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with the City of Tea Tree Gully or Adelaide Metro."
     ]
+  },
+  "online-coding-and-python-classes-in-modbury-adelaide": {
+    "market": "Modbury",
+    "bodyClass": "cg-mdby",
+    "pageType": "city",
+    "curriculumAuthority": "Modbury (SAL40898), City of Tea Tree Gully. ABS Census 2021 QuickStats (read 13 October 2026): 5,593 people; median age 37; 1,437 families; 2,394 private dwellings; 2.3 per household; bus to work 275 (10.5%, SA 3.1%); university 360 (22.8%, SA 16.7%); semi-detached 410 (18.5%, SA 14.6%); drove 1,626 (62.1%, SA 63.9%); aged 0-4 281; 5-9 299; 10-14 257; 15-19 259. ABS SAL area 3.3206 sq km; council by ABS LGA point query (Tea Tree Gully). Adelaide Metro GTFS v1708: Wednesday 21 Oct 2026 60 stop records, 4840 visits (bus 4793, school 712 35, regional 701 12), 48 routes; Stop 42A Smart Rd South side 286; Zone A Tea Tree Plaza Interchange West side 285; first 04:20:00. Neighbours (ABS touches): Gilles Plains, Holden Hill, Hope Valley, Modbury North, Para Vista, Ridgehaven, St Agnes, Valley View.",
+    "localProject": "Chained comparisons. Modbury Wednesday rows 4,840 (departure_time zero-padded strings). \"07:00:00\" <= t < \"09:00:00\": 707; t >= \"07:00:00\" or t < \"09:00:00\": 4,840; \"07:00:00\" <= t <= \"09:00:00\": 710 (3 at exactly 09:00:00); \"7:00:00\" <= t < \"9:00:00\": 0; afternoon \"16:00:00\" <= t < \"18:00:00\": 729.",
+    "requiredMentions": [
+      "St Agnes",
+      "Hope Valley",
+      "259",
+      "Smart Road",
+      "Tea Tree Plaza",
+      "Ridgehaven",
+      "707",
+      "4,840",
+      "chained comparison"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Modbury suburb and locality (SAL40898), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL40898"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
+      },
+      {
+        "claim": "Python documentation, Expressions, Comparisons: x < y <= z is equivalent to x < y and y <= z, except that y is evaluated only once.",
+        "url": "https://docs.python.org/3/reference/expressions.html"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Adelaide, rule AS, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Passenger numbers or crowding in the morning peak: not claimed; scheduled visits only.",
+      "That Tea Tree Plaza is the busiest interchange in Adelaide: not claimed.",
+      "Figures for the City of Tea Tree Gully as a whole: not used.",
+      "School term dates: not given; official SA term-date pages refused automated access (HTTP 403).",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Tea Tree Gully or Adelaide Metro."
+    ]
   }
 }

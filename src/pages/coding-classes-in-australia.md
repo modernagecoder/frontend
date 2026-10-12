@@ -569,6 +569,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Scarborough](/online-coding-and-python-classes-in-scarborough-wa-perth)
 - [AI and programming classes in Midland](/ai-and-programming-classes-in-midland-perth)
 - [Coding and AI classes in Joondalup](/best-coding-and-ai-classes-in-joondalup-perth)
+- [Vibe coding and AI agents classes in Fremantle](/vibe-coding-and-ai-agents-classes-in-fremantle-perth)
 <!-- AU-LINKS -->
 
 
