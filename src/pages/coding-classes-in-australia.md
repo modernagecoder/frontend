@@ -572,6 +572,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Fremantle](/vibe-coding-and-ai-agents-classes-in-fremantle-perth)
 - [Online coding and Python classes in Canning Vale](/online-coding-and-python-classes-in-canning-vale-perth)
 - [AI and programming classes in Baldivis](/ai-and-programming-classes-in-baldivis-perth)
+- [Coding and AI classes in Rockingham](/best-coding-and-ai-classes-in-rockingham-perth)
 <!-- AU-LINKS -->
 
 
