@@ -545,6 +545,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Redlands](/online-coding-and-python-classes-in-redlands-brisbane)
 - [AI and programming classes in Kenmore](/ai-and-programming-classes-in-kenmore-brisbane)
 - [Coding and AI classes in Pakenham](/best-coding-and-ai-classes-in-pakenham-melbourne)
+- [Vibe coding and AI agents classes in Mount Waverley](/vibe-coding-and-ai-agents-classes-in-mount-waverley-melbourne)
 <!-- AU-LINKS -->
 
 
