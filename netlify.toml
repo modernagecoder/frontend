@@ -22105,6 +22105,78 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-north-lakes-brisbane.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-mount-waverley-melbourne"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-mount-waverley-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-mount-waverley-melbourne.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-mount-waverley-melbourne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-redlands-brisbane"
+  to = "/src/pages/online-coding-and-python-classes-in-redlands-brisbane.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-redlands-brisbane.md"
+  to = "/src/pages/online-coding-and-python-classes-in-redlands-brisbane.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-burwood-east-melbourne"
+  to = "/src/pages/online-coding-and-python-classes-in-burwood-east-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-burwood-east-melbourne.md"
+  to = "/src/pages/online-coding-and-python-classes-in-burwood-east-melbourne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-kenmore-brisbane"
+  to = "/src/pages/ai-and-programming-classes-in-kenmore-brisbane.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-kenmore-brisbane.md"
+  to = "/src/pages/ai-and-programming-classes-in-kenmore-brisbane.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-the-gap-brisbane"
+  to = "/src/pages/best-coding-and-ai-classes-in-the-gap-brisbane.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-the-gap-brisbane.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-the-gap-brisbane.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-caroline-springs-melbourne"
+  to = "/src/pages/ai-and-programming-classes-in-caroline-springs-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-caroline-springs-melbourne.md"
+  to = "/src/pages/ai-and-programming-classes-in-caroline-springs-melbourne.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

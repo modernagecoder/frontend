@@ -46790,5 +46790,339 @@
       "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
       "Any connection with Moreton Bay City Council, Translink or the Queensland Department of Education."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-mount-waverley-melbourne": {
+    "market": "Mount Waverley",
+    "bodyClass": "cg-mtwv",
+    "pageType": "city",
+    "curriculumAuthority": "Mount Waverley, ABS Census 2021 QuickStats, Mount Waverley suburb SAL21816 (read 11 October 2026): 35,340 people; median age 40; 9,879 families; 13,873 private dwellings; 2.7 people per household; separate house 68.6% (8,561; Victoria 73.4%); flat or apartment 21.5% (2,681; Victoria 12.1%); car as driver 42.6% (7,256; Victoria 49.9%); train 2.6% (436; Victoria 1.6%); worked at home 35.6% (6,055; Victoria 25.7%; lockdown Census). ABS SAL area 15.18 square kilometres, City of Monash. Metropolitan stations inside the boundary: Mount Waverley 658,250 FY24-25 (rank 60 of 222; FY18-19 820,100) and Jordanville 388,950 (FY18-19 498,850). Victorian School Locations 2025: 10 open schools (Government 7, Catholic 2, Independent 1), including Pinewood Primary School and Mount Waverley Secondary College. Victorian 2027 Term 3: Monday 12 July to Friday 17 September. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Checkpoint and resume for a long-running agent job (our simulation). 1,555 station-year rows of the metropolitan station patronage file FY18-19 to FY24-25, one task each; after each task an interruption with chance p; a restart resumes from the last checkpoint (or from zero when none). 100 seeds per setting. p=0.001: never 3,440 tasks executed on average, 1,884.9 duplicate rows if appended; every 100 1,626 / 71.4; every 10 1,562 / 7.5; every task 1,555 / 0. p=0.002: never 12,303 / 10,747.5; every 100 1,727 / 171.8; every 10 1,570 / 14.9; every task 1,555 / 0. Keyed writes leave exactly 1,555 rows in every setting. Script: scratchpad au/b10/mtwv.py.",
+    "requiredMentions": [
+      "35,340",
+      "9,879",
+      "13,873",
+      "15.18 square kilometres",
+      "658,250",
+      "820,100",
+      "388,950",
+      "12,303",
+      "3,440",
+      "Pinewood Primary School"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Mount Waverley suburb (SAL21816).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL21816"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL21816 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Python documentation, json module (reading and writing a small progress file).",
+        "url": "https://docs.python.org/3/library/json.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Failure rates of any real AI agent or service: not measured; interruption chances are inputs to our simulation.",
+      "Wall-clock times: not measured; only tasks executed were counted.",
+      "Reasons for the fall in Mount Waverley and Jordanville station entries since FY18-19: not claimed.",
+      "Names of Catholic or independent schools: not used; counted only.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Monash, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "online-coding-and-python-classes-in-redlands-brisbane": {
+    "market": "Redlands",
+    "bodyClass": "cg-rdlc",
+    "pageType": "city",
+    "curriculumAuthority": "Redland City (LGA36250), ABS Census 2021 QuickStats (read 12 October 2026): 159,222 people; median age 43; 45,763 families; 65,165 private dwellings; 2.6 people per household; 2 vehicles per dwelling; aged 5-9 9,447 (5.9%); aged 10-14 10,750 (6.8%, Queensland 6.6%); separate houses 49,276 (83.9%, Queensland 74.8%); semi-detached/townhouse 6,680 (11.4%); flats 2,559 (4.4%); car as driver 47,296 (61.6%, Queensland 59.5%); train to work 780 (1.0%, Queensland 1.1%). ABS LGA area 537.17 square kilometres. Translink SEQ GTFS, Wednesday 21 October 2026: 691 stop records in the LGA polygon (680 numeric IDs, 679 of six digits plus 11370; 11 place_ IDs: Birkdale, Cleveland, Ormiston, Thorneside, Wellington Point stations, Capalaba station, Victoria Point Central, Karragarra Island, Lamb Island and Macleay Island ferry terminals, Redland Bay Marina); 16,809 stop visits (bus 16,167, train 540, ferry 102 on route SMBI, all at Redland Bay Marina platforms 3 and 4); 31 routes. Queensland 2027 Term 1: Wednesday 27 January to Thursday 25 March. Brisbane: no daylight saving since March 1992 (IANA 2026e).",
+    "localProject": "stops.py loads the 691 Redland stop IDs as str and calls is_station(stop_id: int). mypy 2.4.0: stops.py:11: error: Argument 1 to \"is_station\" has incompatible type \"str\"; expected \"int\" [arg-type]; Found 1 error in 1 file. Runtime: TypeError: '<' not supported between instances of 'str' and 'int'. int() variant: mypy no issues, runtime ValueError: invalid literal for int() with base 10: 'place_birsta'. str + startswith(\"place_\") variant: mypy no issues, runs, 691 IDs and 11 places. Text vs numeric sort makes no difference on this data. Our run, Python 3.13.6. Files: scratchpad au/b11/mp.",
+    "requiredMentions": [
+      "159,222",
+      "45,763",
+      "65,165",
+      "83.9% (49,276)",
+      "16,809",
+      "31 routes",
+      "691 stop records",
+      "place_birsta",
+      "SMBI"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Redland local government area (LGA36250), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA36250"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "mypy documentation (static type checker for Python).",
+        "url": "https://mypy.readthedocs.io/en/stable/"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland term dates (Term 1 Wednesday 27 January to Thursday 25 March).",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "A text-sorting bug in Redland stop IDs: tested, no difference on this data, so not claimed as a bug.",
+      "Passenger numbers: not claimed; the feed is a schedule.",
+      "North Stradbroke Island services: not checked, not claimed.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any connection with Redland City Council, Translink or the Queensland Department of Education."
+    ]
+  },
+  "online-coding-and-python-classes-in-burwood-east-melbourne": {
+    "market": "Burwood East",
+    "bodyClass": "cg-bwde",
+    "pageType": "city",
+    "curriculumAuthority": "Burwood East, ABS Census 2021 QuickStats, Burwood East suburb SAL20427 (read 11 October 2026): 10,675 people; median age 41; 2,982 families; 4,469 private dwellings; 2.6 people per household; separate house 73.8% (2,966; Victoria 73.4%); semi-detached, row or terrace house, townhouse 18.1% (726; Victoria 13.9%); car as driver 45.8% (2,298; Victoria 49.9%); bus 1.2% (58; Victoria 0.6%); train 1.1% (53; Victoria 1.6%); worked at home 30.6% (1,536; lockdown Census). ABS SAL area 4.26 square kilometres, City of Whitehorse. No metropolitan station inside the boundary. Victorian School Locations 2025: 5 open schools, all government (Primary 2, Secondary 1, Special 1, Language 1), including Burwood East Primary School, Burwood Heights Primary School and Forest Hill College. Victorian 2027 Term 3: Monday 12 July to Friday 17 September. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Python statistics median_low, median_high and quantiles methods on bus headways. Metro bus GTFS Schedule (downloaded 10 October 2026), Wednesday 28 October 2026: 51 stops with departures inside the Burwood East SAL polygon; routes 703, 732, 733, 735, 736, 902. Route 732 at Tiller St/Burwood Hwy (stop 8685) towards Box Hill Bus Station: 45 departures 05:52 to 21:03; 44 gaps 13 to 31 minutes; mean 20.70; median 20.5 (no gap equals it); median_low 20; median_high 21; mode 21 (7 times); quantiles n=4 exclusive [17.25, 20.5, 23.0], inclusive [17.75, 20.5, 23.0]; 90th percentile exclusive 27.5, inclusive 26.4, NumPy percentile default 26.4. Busiest stop Eley Rd/Blackburn Rd (stop 15868), routes 703/735/736: 117 departures, mean gap 9.19, median 7, two zero-minute gaps. Script: scratchpad au/b10/bwde.py, bwde2.py.",
+    "requiredMentions": [
+      "10,675",
+      "2,982",
+      "4,469",
+      "4.26 square kilometres",
+      "Tiller Street",
+      "17.25",
+      "17.75",
+      "median_low",
+      "Burwood Heights Primary School",
+      "Forest Hill College"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Burwood East suburb (SAL20427).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20427"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan bus feed downloaded 10 October 2026, calendar 8 October to 31 December 2026.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL20427 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Python documentation, statistics module (median, median_low, median_high, mode, quantiles).",
+        "url": "https://docs.python.org/3/library/statistics.html"
+      },
+      {
+        "claim": "NumPy documentation, numpy.percentile (default linear method).",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.percentile.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Actual waiting times or punctuality: not measured; gaps are scheduled times from the timetable feed.",
+      "Departures on other days of the week: not analysed; one Wednesday only.",
+      "Names of the special developmental school and the English language school: not used; counted only.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Whitehorse, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "ai-and-programming-classes-in-kenmore-brisbane": {
+    "market": "Kenmore",
+    "bodyClass": "cg-kenm",
+    "pageType": "city",
+    "curriculumAuthority": "Kenmore (SAL31504), ABS Census 2021 QuickStats (read 12 October 2026): 9,675 people; median age 40; 2,784 families; 3,566 private dwellings; 2.8 people per household; 1.9 vehicles per dwelling; aged 5-9 789 (8.2%, Queensland 6.4%); aged 10-14 774 (8.0%); separate houses 3,112 (92.2%, Queensland 74.8%); bachelor or higher 3,761 (49.9%, Queensland 21.9%); professionals 1,958 (40.1%, Queensland 21.4%); car as driver 2,228 (45.7%, Queensland 59.5%). ABS SAL area 5.5945 square kilometres. Translink SEQ GTFS: 57 stop records in the SAL polygon, all bus; Wednesday 21 October 2026 2,614 stop visits on 10 routes (425, 430-433, 435, 443-446); Kenmore Village stops on Moggill Rd, Brookfield Rd, Cedarleigh Rd. Queensland 2027 Term 1: Wednesday 27 January to Thursday 25 March. Brisbane: no daylight saving since March 1992 (IANA 2026e).",
+    "localProject": "Kenmore stop visits in six bands (before 7, 7-9, 9-15, 15-18, 18-21, 21 on). Wednesday 2,614 = 163/399/841/580/495/136; Thursday identical, PSI 0.0; Saturday 1,640 = 26/169/672/337/304/132, PSI 0.118; Sunday 1,342 = 12/119/649/309/176/77, PSI 0.227. Saturday volume 37% below Wednesday, not visible in PSI. 0.1/0.25 thresholds a convention. Our calculation. Script: scratchpad au/b11/p8_ken.py.",
+    "requiredMentions": [
+      "9,675",
+      "2,784",
+      "3,566",
+      "92.2% (3,112)",
+      "49.9% (3,761)",
+      "2,614",
+      "0.227",
+      "425 to 446",
+      "Kenmore Village"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Kenmore suburb and locality (SAL31504), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL31504"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland term dates (Term 1 Wednesday 27 January to Thursday 25 March).",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Passenger numbers: not claimed; the feed gives scheduled visits.",
+      "Kenmore Hills or Indooroopilly figures: different suburbs, not used.",
+      "The worked-at-home share: identical in rounding to a neighbouring suburb page, so left off.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any connection with Brisbane City Council, Translink or the Queensland Department of Education."
+    ]
+  },
+  "best-coding-and-ai-classes-in-the-gap-brisbane": {
+    "market": "The Gap",
+    "bodyClass": "cg-tgap",
+    "pageType": "city",
+    "curriculumAuthority": "The Gap (SAL32790, The Gap (Brisbane - Qld)), ABS Census 2021 QuickStats (read 12 October 2026): 17,318 people; median age 42; 4,978 families; 6,230 private dwellings; 2.9 per household; separate houses 5,438 (92.0%, Qld 74.8%); flats 54 (0.9%, Qld 12.5%); bus to work 419 (4.8%, Qld 1.7%); bachelor or higher 6,115 (44.8%, Qld 21.9%); professionals 3,399 (38.5%, Qld 21.4%); worked at home 2,605 (29.5%, Qld 14.1%); aged 5-9 1,254; 10-14 1,566. ABS SAL area 12.5152 sq km. Translink SEQ GTFS (feed 7 Oct to 6 Dec 2026), Wednesday 21 October 2026: 76 stop records inside the SAL polygon (our point-in-polygon); 3601 scheduled stop visits, all bus; 7 routes (362, 380, 381, 382, 383, 384, 385); busiest Waterworks Rd at Payne Road, stop 31 (165); first departure 05:09. BCC Park Locations: 46 parks with suburb THE GAP. BCC Street Names: 281 street rows for THE GAP. Qld 2027 Term 4: Tuesday 5 October to Friday 10 December. Brisbane: no daylight saving since March 1992 (IANA).",
+    "localProject": "Handshake lemma on BCC Suburbs and Adjoining Suburbs (CC BY 4.0, modified 18 Nov 2025): 1,066 rows; 194 vertices; 533 undirected edges (unordered pairs); degree sum 1,066 = 2 x 533; 0 rows without reverse; 0 self-loops; 104 odd-degree vertices (even); mean degree 5.49, median 5, min 1 (5 suburbs), max 11 (Fig Tree Pocket). Distribution: deg1 5, deg2 4, deg3 11, deg4 27, deg5 54, deg6 44, deg7 29, deg8 11, deg9 4, deg10 4, deg11 1. The Gap degree 8: Ashgrove, Bardon, Brookfield, Enoggera, Enoggera Reservoir, Keperra, Mount Coot-tha, Upper Kedron; 9 suburbs above 8. Graph covers BCC suburbs only (no cross-council borders). Script: scratchpad au/b12 (inline python on raw/adj.csv).",
+    "requiredMentions": [
+      "17,318",
+      "4,978",
+      "6,230",
+      "1,566",
+      "Enoggera Reservoir",
+      "Waterworks Rd at Payne Road",
+      "handshake lemma",
+      "104 such suburbs",
+      "533 borders"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, The Gap (Brisbane - Qld) suburb and locality (SAL32790), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL32790"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities boundary service, used for our point-in-boundary checks and suburb areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Brisbane City Council open data, Suburbs and Adjoining Suburbs (Creative Commons Attribution 4.0), dataset last modified 18 November 2025.",
+        "url": "https://data.brisbane.qld.gov.au/explore/dataset/suburbs-and-adjoining-suburbs/"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Brisbane City Council open data, Park Locations (Creative Commons Attribution 4.0), dataset last modified 30 September 2026.",
+        "url": "https://data.brisbane.qld.gov.au/explore/dataset/park-locations/"
+      },
+      {
+        "claim": "Leonhard Euler (1741), Solutio problematis ad geometriam situs pertinentis, Commentarii academiae scientiarum Petropolitanae 8, 128-140, the origin of the degree-sum argument; Euler Archive E53.",
+        "url": "https://scholarlycommons.pacific.edu/euler-works/53/"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland state school term dates.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That The Gap borders no suburb outside Brisbane City Council: not claimed; the council table cannot show cross-council borders.",
+      "Passenger numbers at The Gap stops: not claimed; the timetable gives scheduled stop visits, not people.",
+      "Any reason for the high share of graduates or home workers: not claimed.",
+      "Any pandemic effect on the 2021 home-working figure: not claimed.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Brisbane City Council, Translink or the Queensland Department of Education."
+    ]
+  },
+  "ai-and-programming-classes-in-caroline-springs-melbourne": {
+    "market": "Caroline Springs",
+    "bodyClass": "cg-cspr",
+    "pageType": "city",
+    "curriculumAuthority": "Caroline Springs, ABS Census 2021 QuickStats, Caroline Springs suburb SAL20500 (read 11 October 2026): 24,488 people; median age 35 (Victoria 38); 6,528 families; 8,226 private dwellings; 3.1 people per household (Victoria 2.5); separate house 90.0% (6,763; Victoria 73.4%); semi-detached, row or terrace house, townhouse 7.4% (559; Victoria 13.9%); flat or apartment 2.7% (201; Victoria 12.1%); car as driver 52.8% (6,445; Victoria 49.9%); train 1.0% (125; Victoria 1.6%); worked at home 24.0% (2,930; lockdown Census). ABS SAL area 8.34 square kilometres, City of Melton. No metropolitan station inside the boundary. Victorian School Locations 2025: 8 open schools (Government 4, Catholic 3, Independent 1); government: Brookside P-9 College, Creekside K-9 College, Lakeview Senior College, Springside Primary School. Victorian 2027 Term 3: Monday 12 July to Friday 17 September. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Mean shift clustering on bus stop locations. Metro bus GTFS Schedule (downloaded 10 October 2026), Wednesday 28 October 2026: 83 stops with departures inside the Caroline Springs SAL polygon; routes 215, 418, 426, 456, 460, 462, 463, 464; 4,226 departures (our count). Coordinates converted to metres; Gaussian kernel. Median nearest-neighbour distance 28 m, largest 459 m, farthest pair 5,339 m. Clusters by bandwidth: 100 m 36 (8 singletons); 200 m 10 (18, 16, 16, 10, 9, 5, 4, 2); 300 m 3 (44, 33, 6); 400 m 3 (44, 34, 5); 600 m 2 (46, 37); 800, 1,200 and 2,000 m 1. 300 m modes nearest St Georges Ave/Rockbank Middle Rd, College St/Caroline Springs Bvd, Springside PS/Hume Dr. Script: scratchpad au/b10/cspr.py.",
+    "requiredMentions": [
+      "24,488",
+      "6,528",
+      "8,226",
+      "8.34 square kilometres",
+      "5,339 metres",
+      "4,226",
+      "Creekside K-9 College",
+      "Lakeview Senior College",
+      "Springside Primary School"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Caroline Springs suburb (SAL20500).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20500"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan bus feed downloaded 10 October 2026, calendar 8 October to 31 December 2026.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL20500 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "scikit-learn documentation, MeanShift and estimate_bandwidth.",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.cluster.MeanShift.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Walking catchments or street-network distances: not computed; distances are straight lines between stop coordinates.",
+      "How busy each cluster is or how well it is served: not inferred from the clustering.",
+      "Names of bus stops that carry church or non-government school names: not printed.",
+      "Names of Catholic or independent schools: not used; counted only.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Melton, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
   }
 }

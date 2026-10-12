@@ -536,6 +536,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agent classes in Banyule](/vibe-coding-and-ai-agents-classes-in-banyule-melbourne)
 - [Online coding and Python classes in Yarra Ranges](/online-coding-and-python-classes-in-yarra-ranges-melbourne)
 - [AI and programming classes in Cranbourne](/ai-and-programming-classes-in-cranbourne-melbourne)
+- [Coding and AI classes in Sunnybank](/best-coding-and-ai-classes-in-sunnybank-brisbane)
 <!-- AU-LINKS -->
 
 
