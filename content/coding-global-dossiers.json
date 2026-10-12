@@ -47814,5 +47814,58 @@
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with the City of Subiaco, the Public Transport Authority or the WA Department of Education."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-armadale-perth": {
+    "market": "Armadale",
+    "bodyClass": "cg-arwa",
+    "pageType": "city",
+    "curriculumAuthority": "Armadale (SAL50026, Armadale (WA)), City of Armadale. ABS Census 2021 QuickStats (read 12 October 2026): 13,415 people; median age 39; 3,275 families; 6,549 private dwellings; 2.2 per household; semi-detached 1,683 (30.7%, WA 13.0%); drove 3,127 (66.7%, WA 62.1%); train 142 (3.0%, WA 1.8%); bachelor or higher 880 (8.0%, WA 23.8%); aged 0-4 920; 5-9 820; 10-14 727; 85+ 347. ABS SAL area 8.2826 sq km; council verified by ABS LGA point query. PTA-001 stops: 109 records inside the SAL polygon (Standard 104, Rail 4, Transwa 1); rail platform records Armadale Stn 1 and 3, Sherwood Stn 1 and 2; Seventh Rd 14, Armadale Rd 11, Forrest Rd 11. Neighbours (ABS touches): Bedfordale, Brookdale, Haynes, Hilbert, Kelmscott, Mount Nasura, Mount Richon, Seville Grove, Wungong. WA 2027 Term 2: Monday 26 April to Friday 2 July. Perth no daylight saving since March 2009 (IANA).",
+    "localProject": "Hallucinated package names. PyPI JSON API (GET https://pypi.org/pypi/<name>/json), curl default UA, 12 October 2026: pta-stops 404; wa-transit 404; perth-transit 404; slip-wa 404; esri2geojson 404; requests 200 (also checked: shapely 200, pyshp 200, arcgis2geojson 200, arcgis-rest-query 200). Working script: requests + json against SLIP Transport MapServer layer 14, paged 5,000 at a time; Armadale point-in-polygon 109 records. Agent turns are our scripts, not model transcripts.",
+    "requiredMentions": [
+      "6,549",
+      "1,683",
+      "920",
+      "pta-stops",
+      "wa-transit",
+      "esri2geojson",
+      "Sherwood",
+      "Seventh Road",
+      "hallucinated package"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Armadale (WA) suburb and locality (SAL50026), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL50026"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Public Transport Authority of Western Australia, Stops (PTA-001), Creative Commons Attribution 4.0, published on data.wa.gov.au; 16,822 stop records read from the SLIP map service on 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/public-transport-authority-stops-bus-stops"
+      },
+      {
+        "claim": "PyPI documentation, JSON API: GET /pypi/<project>/json returns project metadata.",
+        "url": "https://docs.pypi.org/api/json/"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 public school terms as gazetted.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth follows rule AW, whose last daylight saving period ended in March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That any named commercial AI model suggested these packages: not claimed; the agent turns are our scripts.",
+      "That a package name returning 200 is safe: rejected; existence is not proof of safety or suitability.",
+      "Passenger or service numbers at Armadale stops: not claimed.",
+      "Figures for the City of Armadale as a whole: not used.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Armadale, the Public Transport Authority or PyPI."
+    ]
   }
 }
