@@ -520,6 +520,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in the City of Monash](/vibe-coding-and-ai-agents-classes-in-monash-melbourne)
 - [Online coding and Python classes in the City of Whitehorse](/online-coding-and-python-classes-in-whitehorse-melbourne)
 - [AI and programming classes in the City of Manningham](/ai-and-programming-classes-in-manningham-melbourne)
+- [Coding and AI classes in Boroondara](/best-coding-and-ai-classes-in-boroondara-melbourne)
 <!-- AU-LINKS -->
 
 
