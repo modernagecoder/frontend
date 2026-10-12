@@ -531,6 +531,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Bayside](/best-coding-and-ai-classes-in-bayside-melbourne)
 - [Vibe coding and AI agent classes in Glen Eira](/vibe-coding-and-ai-agents-classes-in-glen-eira-melbourne)
 - [Online coding and Python classes in Stonnington](/online-coding-and-python-classes-in-stonnington-melbourne)
+- [AI and programming classes in Moonee Valley](/ai-and-programming-classes-in-moonee-valley-melbourne)
 <!-- AU-LINKS -->
 
 

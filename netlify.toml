@@ -22057,6 +22057,30 @@
   to = "/src/pages/online-coding-and-python-classes-in-chermside-brisbane.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-carindale-brisbane"
+  to = "/src/pages/ai-and-programming-classes-in-carindale-brisbane.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-carindale-brisbane.md"
+  to = "/src/pages/ai-and-programming-classes-in-carindale-brisbane.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-pakenham-melbourne"
+  to = "/src/pages/best-coding-and-ai-classes-in-pakenham-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-pakenham-melbourne.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-pakenham-melbourne.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

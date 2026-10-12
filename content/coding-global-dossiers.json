@@ -46581,5 +46581,114 @@
       "Totals built by adding Census rows: not computed.",
       "Any link with Brisbane City Council, Translink or the Queensland Department of Education."
     ]
+  },
+  "ai-and-programming-classes-in-carindale-brisbane": {
+    "market": "Carindale",
+    "bodyClass": "cg-crnd",
+    "pageType": "city",
+    "curriculumAuthority": "Carindale (SAL30540), ABS Census 2021 QuickStats (read 12 October 2026): 16,535 people; median age 43; 4,768 families; 6,058 private dwellings; 2.8 people per household; 2 vehicles per dwelling; aged 5-9 1,029 (6.2%); aged 10-14 1,132 (6.9%); separate houses 5,093 (88.7%, Queensland 74.8%); flats 214 (3.7%, Queensland 12.5%); bachelor or higher 5,282 (38.9%, Queensland 21.9%); professionals 2,803 (33.5%, Queensland 21.4%). ABS SAL area 10.6841 square kilometres. Translink SEQ GTFS, Wednesday 21 October 2026: 85 stop records in the SAL polygon; 5,556 stop visits, all bus; 23 routes; stop 6291 Carindale Shopping Centre Interchange 244 visits on 10 routes (222:81, 209:51, 177:22, 212:17, 202:15, 203:15, 217:15, 215:14, 225:9, 213:5); platforms A-J under place_intcar. Queensland 2027 Term 1: Wednesday 27 January to Thursday 25 March. Brisbane: no daylight saving since March 1992 (IANA 2026e).",
+    "localProject": "Route prediction at stop 6291 from the first 10/20/40 Wednesday visits (06:11 to 07:39 / 08:39 / 10:23), scored by average log loss in bits on all 244 visits. Add-k for k 0/0.1/0.5/1/2/5: n=10 inf/4.47/3.511/3.279/3.175/3.175; n=20 inf/4.707/3.77/3.475/3.284/3.193; n=40 inf/3.542/3.355/3.265/3.187/3.138. Uniform baseline log2(10)=3.32 beats add-one at n=20. Entropy of full-day shares 2.85. Our calculation. Script: scratchpad au/b11/p4_crn.py.",
+    "requiredMentions": [
+      "16,535",
+      "4,768",
+      "6,058",
+      "88.7% (5,093)",
+      "38.9% (5,282)",
+      "5,556",
+      "route 222 with 81 visits",
+      "stop 6291",
+      "3.475"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Carindale suburb and locality (SAL30540), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL30540"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland term dates (Term 1 Wednesday 27 January to Thursday 25 March).",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Passenger numbers or real-time arrivals: not claimed; the data is the scheduled timetable.",
+      "Claims about the shopping centre business: not made.",
+      "Naming schools in Carindale: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Adding Census age bands into one child total: not done.",
+      "Any connection with Brisbane City Council, Translink or the Queensland Department of Education."
+    ]
+  },
+  "best-coding-and-ai-classes-in-pakenham-melbourne": {
+    "market": "Pakenham",
+    "bodyClass": "cg-pakm",
+    "pageType": "city",
+    "curriculumAuthority": "Pakenham, ABS Census 2021 QuickStats, Pakenham suburb SAL22027 (read 11 October 2026): 54,118 people; median age 33; 14,433 families; 20,160 private dwellings; 2.8 people per household; separate house 86.4% (15,936; Victoria 73.4%); flat or apartment 0.6% (105; Victoria 12.1%); car as driver 61.7% (15,654; Victoria 49.9%); train 1.9% (479; Victoria 1.6%); worked at home 15.9% (4,034; Victoria 25.7%; lockdown Census). ABS SAL area 85.85 square kilometres, Cardinia Shire. Metropolitan stations inside the boundary (FY24-25 entries): Pakenham 495,750 (rank 93 of 222; FY18-19 489,250), Cardinia Road 405,950 (FY18-19 381,850), East Pakenham 54,500 (no FY18-19 row). Victorian School Locations 2025: 12 open schools inside the boundary (Government 9, Independent 2, Catholic 1), including Kuyim Primary School, Pakenham Secondary College and Edenbrook Secondary College. Victorian 2027 Term 3: Monday 12 July to Friday 17 September. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Adjacency matrix powers. Metro bus GTFS Schedule (downloaded 10 October 2026), Wednesday 28 October 2026: 148 stops inside the Pakenham SAL polygon, 144 nodes after merging the five Pakenham Station bays; routes 925, 926, 927, 928, 929, 840 (trips touching 2+ Pakenham stops: 928 51, 926 37, 925 35, 929 34, 927 33, 840 9). One-bus links (A) 1,425. Ordered pairs linked within 1/2/3/4/5 buses: 1,425 / 8,541 / 16,682 / 19,468 / 19,468 of 20,592; 1,124 never. From the station: 72 stops by one bus, 139 of 143 within two; into the station: 75 by one bus. Largest A squared entry 21 (Pakenham Hills PS/Army Rd to Pakenham Station). Timing of connections not modelled. Script: scratchpad au/b10/pakm.py, pakm2.py.",
+    "requiredMentions": [
+      "54,118",
+      "14,433",
+      "20,160",
+      "85.85 square kilometres",
+      "495,750",
+      "Cardinia Road",
+      "1,425",
+      "8,541",
+      "19,468",
+      "Edenbrook Secondary College"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Pakenham suburb (SAL22027).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL22027"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan bus feed downloaded 10 October 2026, calendar 8 October to 31 December 2026.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL22027 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "NumPy documentation, numpy.linalg.matrix_power.",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.matrix_power.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Journey times or waiting times between buses: not modelled; the matrix only records that a bus runs between two stops that day.",
+      "Reasons why 1,124 pairs stay unlinked beyond one-direction service: not investigated stop by stop.",
+      "Reasons for changes in station entries since FY18-19: not claimed.",
+      "Names of Catholic or independent schools: not used; counted only.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Cardinia Shire Council, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
   }
 }
