@@ -527,6 +527,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Brimbank](/best-coding-and-ai-classes-in-brimbank-melbourne)
 - [Vibe coding and AI agents classes in Knox](/vibe-coding-and-ai-agents-classes-in-knox-melbourne)
 - [Online coding and Python classes in Maroondah](/online-coding-and-python-classes-in-maroondah-melbourne)
+- [AI and programming classes in Kingston](/ai-and-programming-classes-in-kingston-melbourne)
 <!-- AU-LINKS -->
 
 
