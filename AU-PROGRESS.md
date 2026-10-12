@@ -331,7 +331,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 311 | best-coding-and-ai-classes-in-willetton-perth (wltn, #544531) | cg- district page | 2,445 | 2% vs online-coding-and-python-classes-in-scarborough-wa-perth | a stop-number lookup written with is finds none of Willetton's 90 stops | identity vs equality, is vs == | bf681825 |
 | 312 | vibe-coding-and-ai-agents-classes-in-applecross-perth (apcr, #925516) | cg- district page | 2,567 | 2.1% vs vibe-coding-and-ai-agents-classes-in-toowong-brisbane | an agent asked about a station that does not exist must correct the premise | false premises and sycophancy | 14f37bd5 |
 | 313 | online-coding-and-python-classes-in-scarborough-wa-perth (scwa, #64201C) | cg- district page | 2,471 | 2.2% vs online-coding-and-python-classes-in-ellenbrook-perth | a variable named max hides Python's max() in a Scarborough stop survey | shadowing a built-in name | d088084d |
-| 314 | ai-and-programming-classes-in-midland-perth (mdld, #575A12) | cg- district page | 2,495 | 1.1% vs ai-and-programming-classes-in-cockburn-perth | choosing among 852 rules on the test set inflates the score | test-set reuse | (this commit) |
+| 314 | ai-and-programming-classes-in-midland-perth (mdld, #575A12) | cg- district page | 2,495 | 1.1% vs ai-and-programming-classes-in-cockburn-perth | choosing among 852 rules on the test set inflates the score | test-set reuse | fc189979 |
+| 299 | best-coding-and-ai-classes-in-joondalup-perth (jdlp, #374E91) | cg- district page | 2,752 | 1.3% vs vibe-coding-and-ai-agents-classes-in-stirling-perth | pair every Joondalup traffic counter with the others on its road: 381 join rows shrink to 123 honest pairs | SQL self-join (a.id < b.id, self-pairs and mirror duplicates) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

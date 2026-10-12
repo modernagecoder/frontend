@@ -48805,5 +48805,152 @@
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with the council or Adelaide Metro."
     ]
+  },
+  "ai-and-programming-classes-in-unley-adelaide": {
+    "market": "Unley",
+    "bodyClass": "cg-unly",
+    "pageType": "city",
+    "curriculumAuthority": "Unley (SAL41490), City of Unley. ABS Census 2021 QuickStats (read 13 October 2026): 3,997 people; median age 41; 1,068 families; 1,953 private dwellings; 2.2 per household; bachelor or higher 1,694 (49.8%, SA 22.7%); professionals 877 (40.3%, SA 21.5%); flats 471 (27.1%, SA 6.8%); worked at home 315 (14.5%, SA 9.6%); aged 5-9 217; 10-14 218; 15-19 182. ABS SAL area 1.5048 sq km; council by ABS LGA point query. Adelaide Metro GTFS v1708, Wednesday 21 October 2026: 21 stop records; 1352 visits (bus 1233, tram 112, school bus 712 7); 20 routes; Stop 1 King William Rd North West side 134; Stop 1 Greenhill Rd 112 (tram). Neighbours (ABS touches): Adelaide, Fullarton, Goodwood, Hyde Park, Malvern, Parkside, Wayville.",
+    "localProject": "Walrus operator. unly_walrus.py: Counter of Wednesday visits per Unley stop id; threshold >= 60; [visits(s) for s in ids if visits(s) >= 60] -> 15 kept, 36 calls; [v for s in ids if (v := visits(s)) >= 60] -> 15 kept, 21 calls, identical lists; kept visits 1,116 of 1,352. Python 3.13.6.",
+    "requiredMentions": [
+      "1,953",
+      "1,694",
+      "218",
+      "King William Road",
+      "Greenhill Road",
+      "Wayville",
+      "36 calls",
+      "walrus",
+      "1,116"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Unley suburb and locality (SAL41490), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL41490"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
+      },
+      {
+        "claim": "PEP 572, Assignment Expressions (Python 3.8): the := operator.",
+        "url": "https://peps.python.org/pep-0572/"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Adelaide, rule AS, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That the walrus form is always faster in practice: not claimed; the page measures calls, not time.",
+      "Passenger numbers at Unley stops: not claimed.",
+      "Figures for the City of Unley as a whole: not used.",
+      "School term dates: not given; official SA term-date pages refused automated access (HTTP 403).",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Unley or Adelaide Metro."
+    ]
+  },
+  "best-coding-and-ai-classes-in-burnside-adelaide": {
+    "market": "Burnside",
+    "bodyClass": "cg-brns",
+    "pageType": "city",
+    "curriculumAuthority": "Burnside (SAL40192, Burnside (SA)), City of Burnside. ABS Census 2021 QuickStats (read 13 October 2026): 3,060 people; median age 43; 872 families; 1,257 private dwellings; 2.7 per household; separate houses 810 (70.6%, SA 78.0%); semi-detached 294 (25.6%, SA 14.6%); bachelor or higher 1,222 (49.6%, SA 22.7%); professionals 585 (39.6%, SA 21.5%); worked at home 255 (17.2%, SA 9.6%); aged 5-9 229; 10-14 219; 15-19 210. ABS SAL area 1.6875 sq km; council by ABS LGA point query. Adelaide Metro GTFS v1708: Wednesday 21 Oct 2026 18 stop records, 440 visits (bus 426, school 712 14), 7 routes (141, 142, 580, 821, 822, 871, 872); Stop 20 Hallett Rd East side 37; Sunday 25 Oct 2026 136 visits at 9 of 18 records, routes 141 and 142; unserved Sunday records all on Greenhill Rd. Neighbours (ABS touches): Beaumont, Erindale, Greenhill, Hazelwood Park, Leabrook, Stonyfell, Waterfall Gully.",
+    "localProject": "assert under -O. brns_assert.py: Sunday 25 Oct 2026 visits per Burnside stop id; assert not missing. python -> AssertionError: 9 stops have no Sunday service; python -O -> \"every stop served on Sunday; average 7.6 visits per stop\" (136 / 18). Served-stop average 15.1 (136 / 9). Python 3.13.6.",
+    "requiredMentions": [
+      "1,257",
+      "294",
+      "229",
+      "Stonyfell",
+      "Hallett Road",
+      "Glynburn Road",
+      "python -O",
+      "7.6 visits",
+      "9 of 18"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Burnside (SA) suburb and locality (SAL40192), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL40192"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
+      },
+      {
+        "claim": "Python documentation, The assert statement: when optimisation is requested (command line option -O), the current code generator emits no code for an assert statement.",
+        "url": "https://docs.python.org/3/reference/simple_stmts.html"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Adelaide, rule AS, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That Burnside residents lack Sunday transport: not claimed; the page covers stop records inside the boundary only.",
+      "Passenger numbers: not claimed.",
+      "Figures for the City of Burnside as a whole: not used.",
+      "School term dates: not given; official SA term-date pages refused automated access (HTTP 403).",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Burnside or Adelaide Metro."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide": {
+    "market": "Golden Grove",
+    "bodyClass": "cg-gdgv",
+    "pageType": "city",
+    "curriculumAuthority": "Golden Grove (SAL40516), City of Tea Tree Gully. ABS Census 2021 QuickStats (read 13 October 2026): 10,299 people; median age 44; 2,974 families; 4,119 private dwellings; 2.5 per household; separate houses 3,341 (85.1%, SA 78.0%); flats 3 (0.1%, SA 6.8%); drove 3,379 (65.1%, SA 63.9%); bachelor or higher 1,711 (19.9%, SA 22.7%); aged 0-4 461; 5-9 556; 10-14 684; 15-19 695. ABS SAL area 17.4305 sq km; council by ABS LGA point query (Tea Tree Gully). Adelaide Metro GTFS v1708: Wednesday 21 Oct 2026 75 stop records, 2843 visits (bus 2824, school 712 17, regional 701 2), 28 routes; Stop 62A The Grove Way West side and Zone E Golden Grove Interchange 128 each; first 05:05:12; Saturday 24 Oct 1,188; Sunday 25 Oct 1,116; 46 stop records network-wide with Golden Grove in the name, 15 inside the SAL. Neighbours (ABS touches): Fairview Park, Gould Creek, Greenwith, Gulfview Heights, Salisbury East, Surrey Downs, Upper Hermitage, Wynn Vale, Yatala Vale.",
+    "localProject": "Vague vs specific prompts. Same GTFS v1708: 75 stop records inside SAL40516; 46 stop records with \"golden grove\" in stop_name (15 inside); Wednesday 21 Oct 2026 visits 2,843; Saturday 24 Oct 1,188; Sunday 25 Oct 1,116; 28 routes Wednesday; busiest record 128. Specific prompt answer 2,843. Agent is our script.",
+    "requiredMentions": [
+      "4,119",
+      "3,341",
+      "695",
+      "The Grove Way",
+      "Golden Grove Interchange",
+      "Wynn Vale",
+      "Gulfview Heights",
+      "1,188",
+      "vague"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Golden Grove suburb and locality (SAL40516), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL40516"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
+      },
+      {
+        "claim": "Anthropic, Claude prompting best practices, Be clear and direct: being specific about the desired output can help enhance results.",
+        "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Adelaide, rule AS, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Passenger numbers or crowding at Golden Grove stops: not claimed; scheduled visits only.",
+      "Any transcript from a commercial AI model: not claimed; the agent is our script.",
+      "Figures for the City of Tea Tree Gully as a whole: not used.",
+      "School term dates: not given; official SA term-date pages refused automated access (HTTP 403).",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Tea Tree Gully or Adelaide Metro."
+    ]
   }
 }

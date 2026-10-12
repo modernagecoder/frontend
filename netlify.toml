@@ -22537,6 +22537,42 @@
   to = "/src/pages/online-coding-and-python-classes-in-norwood-adelaide.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-unley-adelaide"
+  to = "/src/pages/ai-and-programming-classes-in-unley-adelaide.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-unley-adelaide.md"
+  to = "/src/pages/ai-and-programming-classes-in-unley-adelaide.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-burnside-adelaide"
+  to = "/src/pages/best-coding-and-ai-classes-in-burnside-adelaide.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-burnside-adelaide.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-burnside-adelaide.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
