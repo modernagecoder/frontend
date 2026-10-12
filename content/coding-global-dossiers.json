@@ -48756,5 +48756,54 @@
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with the City of Holdfast Bay or Adelaide Metro."
     ]
+  },
+  "online-coding-and-python-classes-in-norwood-adelaide": {
+    "market": "Norwood",
+    "bodyClass": "cg-nrwd",
+    "pageType": "city",
+    "curriculumAuthority": "Norwood (SAL41053, Norwood (SA)), City of Norwood Payneham and St Peters. ABS Census 2021 QuickStats (read 13 October 2026): 6,354 people; median age 40; 1,617 families; 3,438 private dwellings; 2 per household; semi-detached 1,465 (50.0%, SA 14.6%); bachelor or higher 2,726 (48.7%, SA 22.7%); bus 248 (7.3%, SA 3.1%); drove 1,618 (47.6%, SA 63.9%); professionals 1,354 (39.8%, SA 21.5%); aged 5-9 298; 10-14 241; 15-19 256. ABS SAL area 2.2084 sq km; council by ABS LGA point query. Adelaide Metro GTFS v1708, Wednesday 21 October 2026: 29 stop records; 2664 visits (bus 2629, school bus 712 35); 30 routes; Magill Rd stops 5-8 south side 164 each; first 05:44:07, last 24:14:42. Neighbours (ABS touches): Beulah Park, College Park, Kensington, Kent Town, Marryatville, Maylands, Rose Park, Stepney, Toorak Gardens, Trinity Gardens, Adelaide.",
+    "localProject": "f-string debugging. nrwd_debug.py: services(date) = calendar.txt rows with wednesday 1 and start_date <= date <= end_date (string comparison). date=\"2026-10-21\" -> len(active)=0, visits=0; date=\"20261021\" -> len(active)=34, visits=2664; cal[0][\"start_date\"]=\"20261009\". Python 3.13.6.",
+    "requiredMentions": [
+      "1,465",
+      "2,726",
+      "256",
+      "Magill Road",
+      "Kent Town",
+      "2,664",
+      "len(active)=0",
+      "20261009",
+      "f-string"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Norwood (SA) suburb and locality (SAL41053), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL41053"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
+      },
+      {
+        "claim": "Python documentation, What's New in Python 3.8: f-strings support = for self-documenting expressions and debugging.",
+        "url": "https://docs.python.org/3/whatsnew/3.8.html"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Adelaide, rule AS, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Passenger numbers on Magill Road: not claimed; scheduled visits only.",
+      "That Magill Road is the busiest corridor in Adelaide: not claimed beyond the Norwood stop records.",
+      "Figures for the City of Norwood Payneham and St Peters as a whole: not used.",
+      "School term dates: not given; official SA term-date pages refused automated access (HTTP 403).",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the council or Adelaide Metro."
+    ]
   }
 }
