@@ -46430,5 +46430,57 @@
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with the City of Casey, the Department of Education or the Department of Transport and Planning."
     ]
+  },
+  "best-coding-and-ai-classes-in-sunnybank-brisbane": {
+    "market": "Sunnybank",
+    "bodyClass": "cg-snbk",
+    "pageType": "city",
+    "curriculumAuthority": "Sunnybank (SAL32694), ABS Census 2021 QuickStats (read 12 October 2026): 8,892 people; median age 35; 2,160 families; 3,238 private dwellings; 3 people per household; 1.8 vehicles per dwelling; aged 5-9 470 (5.3%); 10-14 453 (5.1%); separate houses 2,457 (85.8%, Queensland 74.8%); semi-detached 375 (13.1%, Queensland 11.7%); bachelor or higher 2,502 (33.1%, Queensland 21.9%); train to work 128 (3.2%, Queensland 1.1%); worked at home 499 (12.5%). ABS SAL area 4.4879 square kilometres. Translink SEQ GTFS (feed 7 October to 6 December 2026), Wednesday 21 October 2026: 66 stop records inside the SAL polygon; 3,352 scheduled stop visits (bus 2,985, train 367); 21 routes; stations Altandi and Banoon; busiest stop record Mains Rd at Altandi, stop 68. Queensland 2027 Term 1: Wednesday 27 January to Thursday 25 March. Brisbane: no daylight saving since March 1992 (IANA 2026e).",
+    "localProject": "Hourly scheduled stop visits, Sunnybank, Wednesday 21 October 2026, hours 4 to 24: 7, 50, 105, 301, 258, 224, 203, 198, 191, 197, 187, 246, 266, 274, 225, 104, 86, 83, 80, 53, 14 (total 3,352; peak 7am 301). numpy polyfit degrees 2, 3, 4 evaluated at 21 hours: naive powers 63, 126, 210 multiplications; Horner 42, 63, 84; largest difference 1.1e-13, 6.8e-13, 1.3e-12; RMSE 51.7, 49.5, 47.8; degree 4 predicts 212.9 at 8am against 258. Stop IDs: 63 digit-only (41 four-digit, 13 five-digit, 9 six-digit), 283 digits in total, 3 place_ station IDs. Script: scratchpad au/b11/p1_snb.py.",
+    "requiredMentions": [
+      "8,892",
+      "13.1% (375)",
+      "3,238",
+      "470 residents aged 5 to 9",
+      "2,502",
+      "3,352",
+      "Banoon station",
+      "Mains Rd at Altandi, stop 68",
+      "283 multiply-and-add steps"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Sunnybank suburb and locality (SAL32694), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL32694"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "NumPy documentation, numpy.polyfit and numpy.polyval (polyval uses Horner's scheme).",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.polyval.html"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland term dates (Term 1 Wednesday 27 January to Thursday 25 March).",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Passenger numbers or boardings at Sunnybank stops: not claimed; the feed gives scheduled stop visits, not people.",
+      "Sunnybank Hills figures: a separate ABS suburb, not used.",
+      "Reasons for the 7am peak or the afternoon pattern: not claimed.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Sums of Census age bands into a child total: not computed.",
+      "Any affiliation with Brisbane City Council, Translink or the Queensland Department of Education."
+    ]
   }
 }
