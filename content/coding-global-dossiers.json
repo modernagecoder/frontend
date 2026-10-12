@@ -46094,5 +46094,61 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with Glen Eira City Council, the Victorian Department of Education or the Department of Transport and Planning."
     ]
+  },
+  "online-coding-and-python-classes-in-stonnington-melbourne": {
+    "market": "Stonnington",
+    "bodyClass": "cg-stnn",
+    "pageType": "city",
+    "curriculumAuthority": "City of Stonnington, ABS Census 2021 QuickStats, Stonnington LGA26350 (read 11 October 2026): 104,703 people; median age 37; 25,493 families; 59,509 private dwellings; 2.1 people per household; flats 53.1% (25,059; Victoria 12.1%); bachelor degree or higher 53.1% (49,196; Victoria 29.2%); professionals 41.1% (25,201; Victoria 25.0%); train to work 4.0% (2,429); drove to work 28.4% (17,438; Victoria 49.9%); worked at home 44.0% (27,006, lockdown Census day); aged 5-9 3,859; aged 10-14 4,206. ABS area 25.651 sq km. Victorian School Locations 2025: 24 schools with LGA_Name Stonnington (C): 11 primary, 3 secondary, 8 Pri/Sec, 2 special; Prahran High School named. 15 stations inside the LGA boundary by our point-in-polygon check (Glen Iris, Darling, East Malvern, Holmesglen, Heyington, Kooyong, Tooronga, Gardiner, Malvern, Armadale, Toorak, Hawksburn, Windsor, Prahran, South Yarra); South Yarra 4,367,150 (FY18-19) and 3,199,050 (FY24-25); Windsor 915,800 and 586,800. Victorian 2027 Term 1 starts Thursday 28 January, ends Thursday 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Python exception handling. Seven metropolitan station-entry files FY18-19 to FY24-25; 225 distinct Stop_name values; table of 1,575 station-year cells. Version A, try: int(look[fy][name][Pax_annual]) except Exception: 0 -> 20 silent zeros: McKinnon 6 (spelled Mckinnon before FY24-25), Mckinnon 1, East Pakenham 5 (first in FY23-24), Union 4 (first in FY22-23), Mont Albert 2 and Surrey Hills 2 (no rows in FY23-24, FY24-25). Version B, same with typo Pax_Annual -> all 1,575 cells zero, no error. Version C, except KeyError around the name lookup only -> KeyError Pax_Annual raised immediately. All 15 Stonnington stations have rows in all 7 files. No cause claimed for any station appearing or disappearing. Script: scratchpad au/b9/stnn.py.",
+    "requiredMentions": [
+      "104,703",
+      "25,493",
+      "25,059",
+      "4,206",
+      "1,575 cells",
+      "4,367,150",
+      "915,800",
+      "Prahran High School",
+      "Heyington"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Stonnington local government area (LGA26350).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA26350"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) LGA boundary LGA26350, geo.abs.gov.au map service, used for our point-in-boundary checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Python documentation, Errors and Exceptions (handling exceptions, try and except).",
+        "url": "https://docs.python.org/3/tutorial/errors.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason why a station appears, disappears or changes spelling between files: not claimed.",
+      "That the published files contain errors: not claimed; the missing cells reflect stations without rows in some years.",
+      "A total of entries across Stonnington stations: not computed; published parts are never summed.",
+      "Names of selective, special or non-government schools: not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Stonnington City Council, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
   }
 }

@@ -515,6 +515,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Dandenong](/best-coding-and-ai-classes-in-dandenong-melbourne)
 - [Vibe coding and AI agents classes in Camberwell](/vibe-coding-and-ai-agents-classes-in-camberwell-melbourne)
 - [Online coding and Python classes in Balwyn](/online-coding-and-python-classes-in-balwyn-melbourne)
+- [AI and programming classes in Berwick](/ai-and-programming-classes-in-berwick-melbourne)
 <!-- AU-LINKS -->
 
 
