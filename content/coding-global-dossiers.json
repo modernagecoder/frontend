@@ -46690,5 +46690,57 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with Cardinia Shire Council, the Victorian Department of Education or the Department of Transport and Planning."
     ]
+  },
+  "best-coding-and-ai-classes-in-springfield-brisbane": {
+    "market": "Springfield",
+    "bodyClass": "cg-spfd",
+    "pageType": "city",
+    "curriculumAuthority": "Springfield (SAL32627, \"Springfield (Ipswich - Qld)\"), ABS Census 2021 QuickStats (read 12 October 2026): 7,322 people; median age 32; 2,018 families; 2,494 private dwellings; 3.1 people per household; 2.1 vehicles per dwelling; aged 0-4 569 (7.8%, Queensland 5.7%); aged 5-9 605 (8.3%, Queensland 6.4%); aged 10-14 665 (9.1%, Queensland 6.6%); separate houses 2,015 (86.8%, Queensland 74.8%); car as driver 61.2% (Queensland 59.5%); train to work 127 (3.3%, Queensland 1.1%). ABS SAL area 6.6757 square kilometres. Translink SEQ GTFS: 27 stop records in the SAL polygon; 2,938 stop_times rows across the whole feed; Wednesday 21 October 2026: 995 stop visits (bus 901, train 94); bus routes 527, 528, 534 plus 9 rail service codes; Springfield station with platforms 1 and 2. Queensland 2027 Term 1: Wednesday 27 January to Thursday 25 March. Brisbane: no daylight saving since March 1992 (IANA 2026e).",
+    "localProject": "Append all 2,938 Springfield stop_times rows to a model dynamic array. Doubling: 13 resizes, 4,095 element copies (1.39 per row); grow by half plus one: 19 resizes, 7,161 copies (2.44); add 16 slots: 184 resizes, 269,376 copies (91.69). CPython 3.13.6 list measured with sys.getsizeof: 37 resizes, 26,040 bytes. Our calculation. Script: scratchpad au/b11/p5_spf.py.",
+    "requiredMentions": [
+      "7,322",
+      "2,018",
+      "4,095",
+      "8.3% (605)",
+      "9.1% (665)",
+      "86.8% (2,015)",
+      "2,938",
+      "269,376",
+      "Springfield station"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Springfield suburb and locality (SAL32627), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL32627"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Python documentation, sys.getsizeof.",
+        "url": "https://docs.python.org/3/library/sys.html"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland term dates (Term 1 Wednesday 27 January to Thursday 25 March).",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "City of Ipswich LGA figures: kept on the Ipswich page, not used here.",
+      "Greater Springfield, Springfield Central and Springfield Lakes figures: different suburbs, not used.",
+      "Passenger numbers: not claimed; the feed is a schedule.",
+      "Naming the private colleges whose names appear in stop names: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any connection with Ipswich City Council, Translink or the Queensland Department of Education."
+    ]
   }
 }
