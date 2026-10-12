@@ -1585,6 +1585,15 @@ USD 100 a month small group, USD 150 a month one to one.
 - Ellenbrook, Perth: https://learn.modernagecoders.com/online-coding-and-python-classes-in-ellenbrook-perth
 - Joondalup, Perth: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-joondalup-perth
 - Cockburn, Perth: https://learn.modernagecoders.com/ai-and-programming-classes-in-cockburn-perth
+- Fremantle, Perth: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-fremantle-perth
+- Willetton, Perth: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-willetton-perth
+- Canning Vale, Perth: https://learn.modernagecoders.com/online-coding-and-python-classes-in-canning-vale-perth
+- Applecross, Perth: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-applecross-perth
+- Baldivis, Perth: https://learn.modernagecoders.com/ai-and-programming-classes-in-baldivis-perth
+- Scarborough, Perth: https://learn.modernagecoders.com/online-coding-and-python-classes-in-scarborough-wa-perth
+- Midland, Perth: https://learn.modernagecoders.com/ai-and-programming-classes-in-midland-perth
+- Rockingham, Perth: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-rockingham-perth
+- Stirling, Perth: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-stirling-perth
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).

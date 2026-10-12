@@ -1025,6 +1025,15 @@ const MARKETS = [
   ['online-coding-and-python-classes-in-ellenbrook-perth', 'Ellenbrook, Perth'],
   ['best-coding-and-ai-classes-in-joondalup-perth', 'Joondalup, Perth'],
   ['ai-and-programming-classes-in-cockburn-perth', 'Cockburn, Perth'],
+  ['vibe-coding-and-ai-agents-classes-in-fremantle-perth', 'Fremantle, Perth'],
+  ['best-coding-and-ai-classes-in-willetton-perth', 'Willetton, Perth'],
+  ['online-coding-and-python-classes-in-canning-vale-perth', 'Canning Vale, Perth'],
+  ['vibe-coding-and-ai-agents-classes-in-applecross-perth', 'Applecross, Perth'],
+  ['ai-and-programming-classes-in-baldivis-perth', 'Baldivis, Perth'],
+  ['online-coding-and-python-classes-in-scarborough-wa-perth', 'Scarborough, Perth'],
+  ['ai-and-programming-classes-in-midland-perth', 'Midland, Perth'],
+  ['best-coding-and-ai-classes-in-rockingham-perth', 'Rockingham, Perth'],
+  ['vibe-coding-and-ai-agents-classes-in-stirling-perth', 'Stirling, Perth'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

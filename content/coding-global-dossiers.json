@@ -47819,15 +47819,15 @@
     "market": "Armadale",
     "bodyClass": "cg-arwa",
     "pageType": "city",
-    "curriculumAuthority": "Armadale (SAL50026, Armadale (WA)), City of Armadale. ABS Census 2021 QuickStats (read 12 October 2026): 13,415 people; median age 39; 3,275 families; 6,549 private dwellings; 2.2 per household; semi-detached 1,683 (30.7%, WA 13.0%); drove 3,127 (66.7%, WA 62.1%); train 142 (3.0%, WA 1.8%); bachelor or higher 880 (8.0%, WA 23.8%); aged 0-4 920; 5-9 820; 10-14 727; 85+ 347. ABS SAL area 8.2826 sq km; council verified by ABS LGA point query. PTA-001 stops: 109 records inside the SAL polygon (Standard 104, Rail 4, Transwa 1); rail platform records Armadale Stn 1 and 3, Sherwood Stn 1 and 2; Seventh Rd 14, Armadale Rd 11, Forrest Rd 11. Neighbours (ABS touches): Bedfordale, Brookdale, Haynes, Hilbert, Kelmscott, Mount Nasura, Mount Richon, Seville Grove, Wungong. WA 2027 Term 2: Monday 26 April to Friday 2 July. Perth no daylight saving since March 2009 (IANA).",
-    "localProject": "Hallucinated package names. PyPI JSON API (GET https://pypi.org/pypi/<name>/json), curl default UA, 12 October 2026: pta-stops 404; wa-transit 404; perth-transit 404; slip-wa 404; esri2geojson 404; requests 200 (also checked: shapely 200, pyshp 200, arcgis2geojson 200, arcgis-rest-query 200). Working script: requests + json against SLIP Transport MapServer layer 14, paged 5,000 at a time; Armadale point-in-polygon 109 records. Agent turns are our scripts, not model transcripts.",
+    "curriculumAuthority": "Armadale (SAL50026, Armadale (WA)), City of Armadale. ABS Census 2021 QuickStats (read 12 October 2026): 13,415 people; median age 39; 3,275 families; 6,549 private dwellings; 2.2 per household; semi-detached 1,683 (30.7%, WA 13.0%); drove 3,127 (66.7%, WA 62.1%); train 142 (3.0%, WA 1.8%); bachelor or higher 880 (8.0%, WA 23.8%); aged 0-4 920; 5-9 820; 10-14 727; 85+ 347. ABS SAL area 8.2826 sq km; council verified by ABS LGA point query. PTA-001 stops: 109 records inside the SAL polygon (Standard 104, Rail 4, regional coach 1); rail platform records Armadale Stn 1 and 3, Sherwood Stn 1 and 2; Seventh Rd 14, Armadale Rd 11, Forrest Rd 11. Neighbours (ABS touches): Bedfordale, Brookdale, Haynes, Hilbert, Kelmscott, Mount Nasura, Mount Richon, Seville Grove, Wungong. WA 2027 Term 2: Monday 26 April to Friday 2 July. Perth no daylight saving since March 2009 (IANA).",
+    "localProject": "Hallucinated package names. PyPI JSON API (GET https://pypi.org/pypi/<name>/json), curl default UA, 12 October 2026: five invented names (listed in scratchpad au/b14 notes, deliberately not published so the page is not a list of names to register) all 404; requests 200 (also checked: shapely 200, pyshp 200, arcgis2geojson 200, arcgis-rest-query 200). Working script: requests + json against SLIP Transport MapServer layer 14, paged 5,000 at a time; Armadale point-in-polygon 109 records. Agent turns are our scripts, not model transcripts.",
     "requiredMentions": [
       "6,549",
       "1,683",
       "920",
-      "pta-stops",
-      "wa-transit",
-      "esri2geojson",
+      "Mount Nasura",
+      "Forrest Road",
+      "pip install",
       "Sherwood",
       "Seventh Road",
       "hallucinated package"
@@ -47980,7 +47980,7 @@
     "market": "Cockburn",
     "bodyClass": "cg-ckbn",
     "pageType": "city",
-    "curriculumAuthority": "City of Cockburn (LGA51820). ABS Census 2021 QuickStats (read 12 October 2026): 118,091 people; median age 37; 32,804 families; 48,394 private dwellings; 2.6 per household; separate houses 35,391 (81.3%, WA 79.7%); drove 40,804 (64.9%, WA 62.1%); train 1,685 (2.7%, WA 1.8%); bachelor or higher 23,300 (24.5%, WA 23.8%); aged 0-4 7,881; 5-9 7,762; 10-14 7,328; 15-19 6,500. ABS LGA area 167.9415 sq km. Neighbouring LGAs (ABS touches): Armadale, Canning, Fremantle, Gosnells, Kwinana, Melville, Serpentine-Jarrahdale. PTA-001: 695 records inside the LGA polygon (Standard 647, School 42, Rail 5, Transwa 1); rail platform records Cockburn Stn 1-3, Aubin Grove Stn 1-2; bay Y 129; suburb labels Hamilton Hill 82, Spearwood 62, Bibra Lake 61, Success 58, Coolbellup 51; Rockingham Rd 47. WA 2027 Term 4: Monday 11 October to Thursday 16 December. Perth no daylight saving since March 2009 (IANA). No other AU page covers Cockburn.",
+    "curriculumAuthority": "City of Cockburn (LGA51820). ABS Census 2021 QuickStats (read 12 October 2026): 118,091 people; median age 37; 32,804 families; 48,394 private dwellings; 2.6 per household; separate houses 35,391 (81.3%, WA 79.7%); drove 40,804 (64.9%, WA 62.1%); train 1,685 (2.7%, WA 1.8%); bachelor or higher 23,300 (24.5%, WA 23.8%); aged 0-4 7,881; 5-9 7,762; 10-14 7,328; 15-19 6,500. ABS LGA area 167.9415 sq km. Neighbouring LGAs (ABS touches): Armadale, Canning, Fremantle, Gosnells, Kwinana, Melville, Serpentine-Jarrahdale. PTA-001: 695 records inside the LGA polygon (Standard 647, School 42, Rail 5, regional coach 1); rail platform records Cockburn Stn 1-3, Aubin Grove Stn 1-2; bay Y 129; suburb labels Hamilton Hill 82, Spearwood 62, Bibra Lake 61, Success 58, Coolbellup 51; Rockingham Rd 47. WA 2027 Term 4: Monday 11 October to Thursday 16 December. Perth no daylight saving since March 2009 (IANA). No other AU page covers Cockburn.",
     "localProject": "Bias-variance with kNN. 695 PTA-001 records inside LGA51820; target bay (Y 129, N 566; majority 81.44%). Flat projection to metres. Majority vote of k nearest (ties to N). Training accuracy (self included) and leave-one-out: k1 100% / 84.89%; k3 92.37 / 83.74; k5 89.06 / 85.18; k9 85.90 / 84.32; k15 82.59 / 81.15; k25 and above 81.44 / 81.44. Bootstrap (200 resamples, default_rng(2026), self copies excluded): share of stops whose prediction flips at least once k1 52.2%, k5 62.4%, k15 42.5%, k45 3.7%.",
     "requiredMentions": [
       "118,091",
@@ -48027,6 +48027,517 @@
       "Names of schools: none named on this page.",
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with the City of Cockburn or the Public Transport Authority."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-fremantle-perth": {
+    "market": "Fremantle",
+    "bodyClass": "cg-frmt",
+    "pageType": "city",
+    "curriculumAuthority": "City of Fremantle (LGA53430), ABS Census 2021 QuickStats (read 12 October 2026): 31,930 people; median age 42; 15,687 private dwellings; 2.2 people per household; 2.8 bedrooms per dwelling; semi-detached 2,932 (22.3%, WA 13.0%); flat or apartment 2,154 (16.4%, WA 6.5%); walked to work 661 (4.0%, WA 2.2%); professionals 6,213 (37.5%, WA 22.0%); aged 5-9 1,449 (4.5%, WA 6.5%); bachelor or higher 39.2% (WA 23.8%). ABS ERP 2025 (LGA 53430): 37,542. ABS LGA area 19.2892 sq km. Main Roads Traffic Digest: 46 sites, 27 roads with LG_NAME Fremantle (C); Stirling Hwy North of Stirling Bridge MON_SUN 36,707 (2023/24). Bike Count Sites: 7 in Fremantle (C), 2 commissioned 21 July 2026 with no counts; South Beach RSP N of Douro Rd combined 359 (174 to Fremantle, 185 to Coogee); Stirling Hwy RSP at Stirling Bridge combined 703, weekday 619, weekend 911. 11 government schools inside the LGA polygon (our test). WA 2027 Term 3: Monday 19 July to Friday 24 September. Perth +8:00, last DST ended March 2009 (IANA 2026e).",
+    "localProject": "Adapter over Main Roads Traffic Digest (46 Fremantle rows) and Bike Count Sites (7 rows): 10 shared field names, none a volume; 8 traffic-only, 12 bike-only fields. row[\"MON_SUN\"]: KeyError on 7 bike rows. row.get(\"MON_SUN\", 0): 7 bike counters score 0. Adapter: 46 vehicle + 5 bike ranked, 2 no count yet (None). Mixed ranking puts busiest bike counter (703) 45th of 51. Bike weekend/weekday: 1.404, 1.136, 1.472, 1.218, 0.815 (4 of 5 above 1); vehicles median 0.908, 12 of 45 above 1. Our scripts. Script: scratchpad au/b13/a_frmt.py.",
+    "requiredMentions": [
+      "37,542",
+      "15,687",
+      "22.3% (2,932)",
+      "16.4% (2,154)",
+      "COMBINED_DIRECTION_MON_SUN",
+      "703 riders",
+      "0.908",
+      "36,707",
+      "Douro Road"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Fremantle local government area (LGA53430), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA53430"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Fremantle LGA 53430, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.53430.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Main Roads Western Australia, Traffic Digest (count sites with average weekday, weekend and all-day volumes and heavy vehicle shares for the latest count year), Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-traffic-digest"
+      },
+      {
+        "claim": "Main Roads Western Australia, Bike Count Sites (permanent counters with volumes by direction for the latest count year), Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-bike-count-sites"
+      },
+      {
+        "claim": "WA Department of Education, Western Australian Schools Lists (Excel), currently active schools with student numbers as at the 2026 Semester 1 census, Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/western-australian-schools-lists"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 Term 1 Monday 1 February to Friday 9 April; Term 3 Monday 19 July to Friday 24 September.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth at +8:00 on rule AW, whose last daylight saving period ended on the last Sunday of March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Adding vehicle and bike volumes into one movement total: not done; different measures and published parts are never summed.",
+      "Riders per year or trends over time: not claimed; the layers give averages for each site's latest count year.",
+      "Fremantle suburb (SAL) figures: the page uses the council area only.",
+      "Naming individual schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Fremantle, Main Roads WA or the WA Department of Education."
+    ]
+  },
+  "best-coding-and-ai-classes-in-willetton-perth": {
+    "market": "Willetton",
+    "bodyClass": "cg-wltn",
+    "pageType": "city",
+    "curriculumAuthority": "Willetton (SAL51612), City of Canning. ABS Census 2021 QuickStats (read 12 October 2026): 19,262 people; median age 40; 5,328 families; 6,531 private dwellings; 3.1 per household; separate houses 5,540 (89.9%, WA 79.7%); bachelor or higher 6,006 (39.9%, WA 23.8%); professionals 3,036 (33.1%, WA 22.0%); university 1,262 (18.3%, WA 13.9%); aged 5-9 1,499; 10-14 1,951 (10.1%); 15-19 1,603. ABS SAL area 8.743 sq km; council verified by ABS LGA point query (Canning). PTA-001: 90 records inside the SAL polygon, all Standard; bay Y 38; labels WILLETTON 89, BULL CREEK 1; Burrendah Bvd 14, Vahland Av 14, Apsley Rd 12; stop numbers 10,503 to 29,609. Neighbours (ABS touches): Bull Creek, Canning Vale, Leeming, Parkwood, Riverton, Rossmoyne, Shelley. WA 2027 Term 1: Monday 1 February to Friday 9 April. Perth no daylight saving since March 2009 (IANA).",
+    "localProject": "is vs ==. 90 Willetton stop numbers (ints from PTA-001); typed = str(n); int(typed) is n -> 0 of 90; int(typed) == n -> 90 of 90 (CPython 3.13.6). int('200') is int('200') True; int('257') is int('257') False. Statewide minimum stop number 10,000, so no stop number falls in the cached range. compile() of x is 10503 emits SyntaxWarning: \"is\" with 'int' literal. Did you mean \"==\"?",
+    "requiredMentions": [
+      "6,531",
+      "5,540",
+      "1,951",
+      "Burrendah Boulevard",
+      "Vahland Avenue",
+      "10,503",
+      "29,609",
+      "0 of 90",
+      "SyntaxWarning"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Willetton suburb and locality (SAL51612), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL51612"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Public Transport Authority of Western Australia, Stops (PTA-001), Creative Commons Attribution 4.0, published on data.wa.gov.au; 16,822 stop records read from the SLIP map service on 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/public-transport-authority-stops-bus-stops"
+      },
+      {
+        "claim": "Python documentation, Built-in Types, comparisons: is and is not test object identity, while == compares values.",
+        "url": "https://docs.python.org/3/builtins/stdtypes.html#comparisons"
+      },
+      {
+        "claim": "Python Programming FAQ, When can I rely on identity tests with the is operator?: identity tests should not be used to check constants such as int and str.",
+        "url": "https://docs.python.org/3/faq/programming.html"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 public school terms as gazetted.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth follows rule AW, whose last daylight saving period ended in March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That AI assistants commonly write is for numbers: not claimed; the page says they almost always write ==.",
+      "That the small-integer cache is guaranteed: rejected; it is a CPython implementation detail.",
+      "Passenger or service numbers at Willetton stops: not claimed.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Canning or the Public Transport Authority."
+    ]
+  },
+  "online-coding-and-python-classes-in-canning-vale-perth": {
+    "market": "Canning Vale",
+    "bodyClass": "cg-cnvl",
+    "pageType": "city",
+    "curriculumAuthority": "Canning Vale (SAL50245), ABS Census 2021 QuickStats (read 12 October 2026): 34,504 people; median age 37; 9,386 families; 11,053 private dwellings; 3.1 people per household; 3.9 bedrooms per dwelling; separate houses 9,854 (94.4%, WA 79.7%); couple families with children 5,417 (57.7%, WA 44.6%); aged 15-19 2,481 (7.2%, WA 5.8%); car as driver 11,553 (66.5%, WA 62.1%); aged 5-9 2,394 and 10-14 2,394. ABS SAL area 25.3471 sq km. Our 60x60 grid test: 1,283 of 2,111 interior points in City of Canning LGA, 828 in City of Gosnells. WA Dept of Education schools list (2026 Semester 1 census): 7 government schools inside the SAL by our point-in-polygon test (5 primary, 1 senior high, 1 education support centre), 4 on the Gosnells side and 3 on the Canning side. Secondary college Year 8 and Year 11 both 247. Main Roads Traffic Digest: 11 count sites inside the SAL by our test, on Nicholson Rd (4), Bannister Rd (3), Ranford Rd (2), Campbell Rd, Warton Rd. WA 2027 Term 1: Monday 1 February to Friday 9 April. Perth +8:00, last DST ended March 2009 (IANA 2026e).",
+    "localProject": "Late-binding closures on the 5 government primaries inside Canning Vale: getters = {yl: lambda row: row[yl] for yl in KIN..Y06}. Largest primary (939 students) published KIN 81, PPR 90, Y01 118, Y02 125, Y03 135, Y04 133, Y05 127, Y06 130; buggy getters return 130 for all. 33 of 40 lookups wrong; 7 pass (5 are Y06; one school Y04 = Y06 = 64; another Y05 = Y06 = 38). Fix lambda row, yl=yl. Our script. Script: scratchpad au/b13/a_cnvl.py.",
+    "requiredMentions": [
+      "34,504",
+      "11,053",
+      "94.4% (9,854)",
+      "57.7% (5,417)",
+      "City of Gosnells",
+      "33 lookups",
+      "yl=yl",
+      "2,394",
+      "247 students in Year 8"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Canning Vale suburb and locality (SAL50245), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL50245"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "WA Department of Education, Western Australian Schools Lists (Excel), currently active schools with student numbers as at the 2026 Semester 1 census, Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/western-australian-schools-lists"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 Term 1 Monday 1 February to Friday 9 April; Term 3 Monday 19 July to Friday 24 September.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth at +8:00 on rule AW, whose last daylight saving period ended on the last Sunday of March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Summing student numbers across schools into a suburb total: not done; each school's published figures are used as they stand.",
+      "Naming schools: not used; schools are described by size.",
+      "City of Canning or City of Gosnells council-wide figures: not used on this suburb page.",
+      "Catchment or enrolment-zone claims: not made.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with either council or the WA Department of Education."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-applecross-perth": {
+    "market": "Applecross",
+    "bodyClass": "cg-apcr",
+    "pageType": "city",
+    "curriculumAuthority": "Applecross (SAL50022), City of Melville. ABS Census 2021 QuickStats (read 12 October 2026): 7,228 people; median age 44; 2,063 families; 3,304 private dwellings; 2.5 per household; bus to work 226 (6.3%, WA 2.9%); semi-detached 599 (21.5%, WA 13.0%); flats 462 (16.6%, WA 6.5%); bachelor or higher 2,850 (47.2%, WA 23.8%); worked at home 463 (12.9%, WA 7.5%); aged 5-9 439; 10-14 454; 15-19 394. ABS SAL area 3.1954 sq km; council verified by ABS LGA point query (Melville). PTA-001: 34 records inside the SAL polygon, all Standard; bay Y 12; Canning Hwy 11, Matheson Rd 11, Kintail Rd 10; 40 records statewide labelled APPLECROSS. Neighbours (ABS touches): Alfred Cove, Ardross, Mount Pleasant. WA 2027 Term 2: Monday 26 April to Friday 2 July. Perth no daylight saving since March 2009 (IANA).",
+    "localProject": "False premise / sycophancy. Rail records (stoptype Rail) inside Applecross: 0 of 34. Nearest rail records by haversine from any Applecross stop record: Canning Bridge Stn Platform 1 (label COMO) 540 m; Platform 2 (COMO) 542 m; Bull Creek Stn Platform 1 (BATEMAN) 3,437 m; Bull Creek Stn Platform 2 (BULL CREEK) 3,440 m. Both agents are our scripts, not model transcripts.",
+    "requiredMentions": [
+      "3,304",
+      "599",
+      "454",
+      "Canning Bridge",
+      "Matheson Road",
+      "Kintail Road",
+      "540 m",
+      "false-premise",
+      "sycophancy"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Applecross suburb and locality (SAL50022), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL50022"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Public Transport Authority of Western Australia, Stops (PTA-001), Creative Commons Attribution 4.0, published on data.wa.gov.au; 16,822 stop records read from the SLIP map service on 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/public-transport-authority-stops-bus-stops"
+      },
+      {
+        "claim": "Mrinank Sharma and others (2023), Towards Understanding Sycophancy in Language Models, arXiv 2310.13548.",
+        "url": "https://arxiv.org/abs/2310.13548"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 public school terms as gazetted.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth follows rule AW, whose last daylight saving period ended in March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Which suburb Canning Bridge station lies in: not claimed beyond the file label (Como) and that it falls outside our Applecross boundary.",
+      "Walking distance to Canning Bridge station: not claimed; distances are straight-line between stop points.",
+      "Any transcript from a commercial AI model: not claimed; both agents are our scripts.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Melville or the Public Transport Authority."
+    ]
+  },
+  "ai-and-programming-classes-in-baldivis-perth": {
+    "market": "Baldivis",
+    "bodyClass": "cg-bldv",
+    "pageType": "city",
+    "curriculumAuthority": "Baldivis (SAL50054), ABS Census 2021 QuickStats (read 12 October 2026): 37,697 people; median age 31; 10,280 families; 13,660 private dwellings; 2.9 people per household; 3.7 bedrooms per dwelling; aged 5-9 3,526 (9.4%, WA 6.5%); aged 10-14 3,192 (8.5%, WA 6.4%); separate houses 11,843 (95.5%, WA 79.7%); technicians and trades 3,456 (18.7%, WA 15.3%); couple families with children 5,444 (53.0%, WA 44.6%); worked full time 60.1%. ABS SAL area 87.3153 sq km; our 60x60 grid test puts all 2,254 interior points in City of Rockingham LGA57490. WA Dept of Education schools list (2026 Semester 1 census): 13 rows with suburb BALDIVIS, 10 government (8 primary, 2 senior high, all South Metropolitan region), matching our point-in-polygon test; Kindergarten counts 54 to 85; Year 7 at the two secondaries 273 and 182. Main Roads Traffic Digest: 17 sites inside the SAL by our test (Kwinana Fwy 3, Safety Bay Rd 2, Baldivis Rd 2). Datasheets for Datasets, Gebru et al., arXiv 1803.09010, submitted 23 March 2018. WA 2027 Term 3: Monday 19 July to Friday 24 September. Perth +8:00, last DST ended March 2009 (IANA 2026e).",
+    "localProject": "Datasheet for the WA schools list (xlsx downloaded 12 October 2026): 1,153 rows; 319 NON-GOVT; header row below a title block with spacer columns; 9,756 in-range year-level cells, 79 blank at 44 schools, 0 zeros anywhere; UPR empty in all rows, USE 1 value; coordinate decimals 8 (879 rows), 6 (158), 7 (81), 5 (23), 4 (5), 3 (5); 3 rows no total, 1 no coordinates, 1 no classification. Baldivis 10 government schools: 0 in-range blanks; coordinates 6 or 8 decimals. Our measurements. Script: scratchpad au/b13/a_bldv.py.",
+    "requiredMentions": [
+      "37,697",
+      "13,660",
+      "9.4% (3,526)",
+      "95.5% (11,843)",
+      "18.7% (3,456)",
+      "1,153 rows",
+      "79 blank",
+      "Timnit Gebru",
+      "273 and 182"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Baldivis suburb and locality (SAL50054), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL50054"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "WA Department of Education, Western Australian Schools Lists (Excel), currently active schools with student numbers as at the 2026 Semester 1 census, Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/western-australian-schools-lists"
+      },
+      {
+        "claim": "Main Roads Western Australia, Traffic Digest (count sites with average weekday, weekend and all-day volumes and heavy vehicle shares for the latest count year), Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-traffic-digest"
+      },
+      {
+        "claim": "Gebru, Morgenstern, Vecchione, Vaughan and others, Datasheets for Datasets, arXiv 1803.09010, submitted 23 March 2018.",
+        "url": "https://arxiv.org/abs/1803.09010"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 Term 1 Monday 1 February to Friday 9 April; Term 3 Monday 19 July to Friday 24 September.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth at +8:00 on rule AW, whose last daylight saving period ended on the last Sunday of March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Enrolment growth or trends: not claimed; the list is a single 2026 Semester 1 snapshot.",
+      "Summing student numbers across Baldivis schools: not done; each school's published figures stand alone.",
+      "Naming schools: not used.",
+      "City of Rockingham council-wide figures: kept off this suburb page.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Rockingham or the WA Department of Education."
+    ]
+  },
+  "online-coding-and-python-classes-in-scarborough-wa-perth": {
+    "market": "Scarborough",
+    "bodyClass": "cg-scwa",
+    "pageType": "city",
+    "curriculumAuthority": "Scarborough (SAL51330, Scarborough (WA)), City of Stirling. ABS Census 2021 QuickStats (read 12 October 2026): 17,605 people; median age 36; 4,463 families; 9,180 private dwellings; 2.1 per household; semi-detached 3,635 (47.6%, WA 13.0%); separate houses 2,765 (36.2%, WA 79.7%); flats 1,227 (16.1%, WA 6.5%); bachelor or higher 5,924 (39.3%, WA 23.8%); aged 0-4 1,014; 5-9 832; 10-14 697. ABS SAL area 4.9915 sq km; council verified by ABS LGA point query (Stirling). PTA-001: 73 records inside the SAL polygon (Standard 66, School 6, Standard/CAT 1); asset Infounit Narrow 20, Orange Post 18, InfoCube Plus 17, Infounit Small 11, Blue Post 6, InfoCube Real Time 1; 13 names containing Cat Id; West Coast Hwy 9, Cobb St 7, Stewart St 6. Neighbours (ABS touches): City Beach, Doubleview, Karrinyup, Trigg, Wembley Downs. WA 2027 Term 3: Monday 19 July to Friday 24 September. Perth no daylight saving since March 2009 (IANA).",
+    "localProject": "Shadowing a built-in. scwa_bug.py (Python 3.13.6): Counter of asset over 73 records; max = 0 loop -> 20; max(len(s) for s in names) -> TypeError: 'int' object is not callable; after del max / rename, longest name length 61 (Scarborough Beach Bus Stn Scarborough Beach Bus Stn Cat Id 20).",
+    "requiredMentions": [
+      "9,180",
+      "3,635",
+      "1,014",
+      "West Coast Highway",
+      "Cobb Street",
+      "Infounit Narrow",
+      "not callable",
+      "61 characters",
+      "Scarborough Beach Bus Stn"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Scarborough (WA) suburb and locality (SAL51330), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL51330"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Public Transport Authority of Western Australia, Stops (PTA-001), Creative Commons Attribution 4.0, published on data.wa.gov.au; 16,822 stop records read from the SLIP map service on 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/public-transport-authority-stops-bus-stops"
+      },
+      {
+        "claim": "Python documentation, Execution model, Resolution of names: names are looked up in the local, enclosing, global and then built-in namespaces.",
+        "url": "https://docs.python.org/3/reference/executionmodel.html"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 public school terms as gazetted.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth follows rule AW, whose last daylight saving period ended in March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "What each asset type looks like on the street: not claimed; the page reports the file values.",
+      "Passenger or service numbers at Scarborough stops: not claimed.",
+      "Figures for the City of Stirling as a whole: not used.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Stirling or the Public Transport Authority."
+    ]
+  },
+  "ai-and-programming-classes-in-midland-perth": {
+    "market": "Midland",
+    "bodyClass": "cg-mdld",
+    "pageType": "city",
+    "curriculumAuthority": "Midland (SAL50947), City of Swan. ABS Census 2021 QuickStats (read 12 October 2026): 6,335 people; median age 39; 1,366 families; 3,868 private dwellings; 1.9 per household; semi-detached 1,468 (50.6%, WA 13.0%); flats 487 (16.8%, WA 6.5%); separate houses 933 (32.2%, WA 79.7%); worked at home 98 (3.5%, WA 7.5%); aged 0-4 316; 5-9 259; 10-14 215; 85+ 275. ABS SAL area 4.1925 sq km; council verified by ABS LGA point query (Swan). PTA-001: 69 records inside the SAL polygon (Standard 58, School 6, regional coach 3, Rail 2: Midland Stn Platforms 2 and 3); bay Y 28; Great Eastern Hwy 8, The Crescent 8, Great Northern Hwy 7, Lloyd St 7. Neighbours (ABS touches): Bellevue, Hazelmere, Middle Swan, Midvale, Viveash, Woodbridge. WA 2027 Term 4: Monday 11 October to Thursday 16 December. Perth no daylight saving since March 2009 (IANA).",
+    "localProject": "Test-set reuse. Perth Metro PTA-001 records within 6,000 m (haversine) of Midland Stn Platform 2 (-31.89232, 116.00330): 665; bay Y 136 (majority 79.55%). Words: regex [A-Za-z']+ over stop names, 426 distinct; rules word->bay and not-word->bay = 852. 500 random half splits, numpy default_rng(2026): argmax accuracy on half A (mean 81.32%); same rule on half B (79.95%); majority on half B (79.52%); share of splits with B < A 64.2%.",
+    "requiredMentions": [
+      "3,868",
+      "1,468",
+      "275",
+      "Great Eastern Highway",
+      "The Crescent",
+      "852 rules",
+      "81.32%",
+      "79.95%",
+      "test-set reuse"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Midland suburb and locality (SAL50947), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL50947"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Public Transport Authority of Western Australia, Stops (PTA-001), Creative Commons Attribution 4.0, published on data.wa.gov.au; 16,822 stop records read from the SLIP map service on 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/public-transport-authority-stops-bus-stops"
+      },
+      {
+        "claim": "scikit-learn documentation, Cross-validation: evaluating estimator performance, on keeping a held-out test set and the risk of overfitting it when tuning.",
+        "url": "https://scikit-learn.org/stable/modules/cross_validation.html"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 public school terms as gazetted.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth follows rule AW, whose last daylight saving period ended in March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That stop names cause bays: not claimed; the rules only correlate.",
+      "That every stop in the 6 km area belongs to Midland: rejected; the project area is our choice and reaches neighbouring suburbs.",
+      "Passenger or service numbers: not claimed.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Swan or the Public Transport Authority."
+    ]
+  },
+  "best-coding-and-ai-classes-in-rockingham-perth": {
+    "market": "Rockingham",
+    "bodyClass": "cg-rkhm",
+    "pageType": "city",
+    "curriculumAuthority": "City of Rockingham (LGA57490), ABS Census 2021 QuickStats (read 12 October 2026): 135,678 people; median age 36; 36,800 families; 54,871 private dwellings; 1.9 vehicles per dwelling; technicians and trades 12,233 (19.4%, WA 15.3%); separate houses 43,771 (90.4%, WA 79.7%); aged 10-14 10,333 (7.6%, WA 6.4%); bachelor or higher 13,272 (12.5%, WA 23.8%). ABS ERP 2025 (LGA 57490): 159,934. ABS LGA area 257.4979 sq km in 6 rings. 38 government schools inside the LGA polygon (our test), 25 primary. Main Roads Traffic Digest: 59 sites with LG_NAME Rockingham (C), 47 with 2023/24 count year. Bike Count Sites: Kwinana Fwy PSP S of Paganoni Rd combined 58, weekday 43, weekend 96. Legal Speed Zones layer, Rockingham (C): 408 school-zone segments, 140 road names, 142 road IDs; 376 time-based (MR-RS-7B), 32 children crossing (MR-RS-32). WA 2027 Term 1: Monday 1 February to Friday 9 April. Perth +8:00, last DST ended March 2009 (IANA 2026e).",
+    "localProject": "SQLite on 408 Rockingham school-zone segments, length = END_SLK - START_SLK: GROUP BY road MAX 140 rows; correlated subquery on road name 143 rows (3 roads with ties: Warnbro Sound Av left and right carriageways 0.56 km, Farris St, one other); on road ID 145 rows (Read St and one other name each cover 2 road IDs). 67 single-segment road names. 134 segments longer than their own road's average. Longest: Georgetown Dr 0.801 km, Swallowtail Pde 0.69 km. Time-based 376 segments, children crossing 32. Our calculation. Baldivis road names omitted. Script: scratchpad au/b13/a_rkhm.py.",
+    "requiredMentions": [
+      "159,934",
+      "54,871",
+      "19.4% (12,233)",
+      "90.4% (43,771)",
+      "408 school-zone segments",
+      "Warnbro Sound Avenue",
+      "Georgetown Dr",
+      "Paganoni Road",
+      "143 rows"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Rockingham local government area (LGA57490), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA57490"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Rockingham LGA 57490, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.57490.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Main Roads Western Australia, Legal Speed Zones layer (school zone segments with road, straight-line kilometre start and end, carriageway and sign type), Creative Commons Attribution 4.0, queried 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-legal-speed-zones"
+      },
+      {
+        "claim": "Main Roads Western Australia, Traffic Digest (count sites with average weekday, weekend and all-day volumes and heavy vehicle shares for the latest count year), Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-traffic-digest"
+      },
+      {
+        "claim": "Main Roads Western Australia, Bike Count Sites (permanent counters with volumes by direction for the latest count year), Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-bike-count-sites"
+      },
+      {
+        "claim": "WA Department of Education, Western Australian Schools Lists (Excel), currently active schools with student numbers as at the 2026 Semester 1 census, Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/western-australian-schools-lists"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 Term 1 Monday 1 February to Friday 9 April; Term 3 Monday 19 July to Friday 24 September.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth at +8:00 on rule AW, whose last daylight saving period ended on the last Sunday of March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Baldivis-only figures or road names: kept off this council page (Baldivis has its own page).",
+      "Adding segment lengths into a published total: not claimed; lengths are our differences of start and end distances.",
+      "School zone operating claims beyond the sign text: not made.",
+      "Naming individual schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Rockingham, Main Roads WA or the WA Department of Education."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-stirling-perth": {
+    "market": "Stirling",
+    "bodyClass": "cg-strl",
+    "pageType": "city",
+    "curriculumAuthority": "City of Stirling (LGA57910), ABS Census 2021 QuickStats (read 12 October 2026): 226,369 people; median age 38; 59,778 families; 102,101 private dwellings; 2.4 people per household; semi-detached 28,890 (32.0%, WA 13.0%); separate houses 52,380 (58.0%, WA 79.7%); bus to work 4,700 (4.0%, WA 2.9%); bachelor or higher 63,451 (33.7%, WA 23.8%). ABS ERP 2025 (LGA 57910): 254,821. ABS LGA area 104.7273 sq km; Stirling (WA) SAL51405 inside the LGA by our test (32 of 32 sampled vertices). 47 government schools inside the LGA polygon (our test), 35 primary. Main Roads Traffic Digest: 107 sites on 56 roads with LG_NAME Stirling (C); Reid Hwy At Bridge Over Alexander Dr MON_SUN 76,071 (2024/25). Bike Count Sites: 7 in Stirling (C); Mitchell Fwy PSP N of Hutton St combined 744. Keyword \"stirling\" in ROAD_NAME or LOCATION_DESC: 34 sites in 12 councils, 0 in Stirling (C); road names Stirling Hwy 15, Stirling St 3, Stirling Cr 2; 14 description-only. WA 2027 Term 3: Monday 19 July to Friday 24 September. Perth +8:00, last DST ended March 2009 (IANA 2026e).",
+    "localProject": "Agent search tools over Main Roads Traffic Digest: keyword \"stirling\" in road or description returns 34 sites (Fremantle 5, Claremont 5, Perth 4, Nedlands 4, Swan 3, Mosman Park 3, East Fremantle 3, Peppermint Grove 2, Cottesloe 2, Toodyay 1, Northam 1, Vincent 1), 0 in City of Stirling: precision 0/34, recall 0/107. LG_NAME filter returns 107 of 107. Bike counters: keyword 3 (2 Fremantle, 1 Perth), filter 7. Resolver lists council, suburb, highway, streets, bridge. Our scripts. Script: scratchpad au/b13/a_strl.py.",
+    "requiredMentions": [
+      "254,821",
+      "102,101",
+      "32.0% (28,890)",
+      "4.0% (4,700)",
+      "34 sites in all",
+      "Stirling Crescent",
+      "76,071",
+      "Hutton Street",
+      "Peppermint Grove"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Stirling local government area (LGA57910), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA57910"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Stirling LGA 57910, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.57910.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Main Roads Western Australia, Traffic Digest (count sites with average weekday, weekend and all-day volumes and heavy vehicle shares for the latest count year), Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-traffic-digest"
+      },
+      {
+        "claim": "Main Roads Western Australia, Bike Count Sites (permanent counters with volumes by direction for the latest count year), Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-bike-count-sites"
+      },
+      {
+        "claim": "WA Department of Education, Western Australian Schools Lists (Excel), currently active schools with student numbers as at the 2026 Semester 1 census, Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/western-australian-schools-lists"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 Term 1 Monday 1 February to Friday 9 April; Term 3 Monday 19 July to Friday 24 September.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth at +8:00 on rule AW, whose last daylight saving period ended on the last Sunday of March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Stirling suburb (SAL) figures: not used; this is the council page.",
+      "Claims about where Stirling Highway runs beyond the councils Main Roads records for its count sites.",
+      "Naming individual schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Stirling, Main Roads WA or the WA Department of Education."
     ]
   }
 }

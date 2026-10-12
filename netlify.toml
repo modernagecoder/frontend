@@ -22369,6 +22369,114 @@
   to = "/src/pages/ai-and-programming-classes-in-cockburn-perth.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-fremantle-perth"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-fremantle-perth.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-fremantle-perth.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-fremantle-perth.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-willetton-perth"
+  to = "/src/pages/best-coding-and-ai-classes-in-willetton-perth.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-willetton-perth.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-willetton-perth.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-canning-vale-perth"
+  to = "/src/pages/online-coding-and-python-classes-in-canning-vale-perth.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-canning-vale-perth.md"
+  to = "/src/pages/online-coding-and-python-classes-in-canning-vale-perth.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-applecross-perth"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-applecross-perth.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-applecross-perth.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-applecross-perth.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-baldivis-perth"
+  to = "/src/pages/ai-and-programming-classes-in-baldivis-perth.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-baldivis-perth.md"
+  to = "/src/pages/ai-and-programming-classes-in-baldivis-perth.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-scarborough-wa-perth"
+  to = "/src/pages/online-coding-and-python-classes-in-scarborough-wa-perth.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-scarborough-wa-perth.md"
+  to = "/src/pages/online-coding-and-python-classes-in-scarborough-wa-perth.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-midland-perth"
+  to = "/src/pages/ai-and-programming-classes-in-midland-perth.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-midland-perth.md"
+  to = "/src/pages/ai-and-programming-classes-in-midland-perth.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-rockingham-perth"
+  to = "/src/pages/best-coding-and-ai-classes-in-rockingham-perth.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-rockingham-perth.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-rockingham-perth.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-stirling-perth"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-stirling-perth.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-stirling-perth.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-stirling-perth.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
