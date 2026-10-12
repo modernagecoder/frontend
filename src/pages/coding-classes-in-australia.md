@@ -542,6 +542,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Carindale](/ai-and-programming-classes-in-carindale-brisbane)
 - [Coding and AI classes in Springfield](/best-coding-and-ai-classes-in-springfield-brisbane)
 - [Vibe coding and AI agents classes in North Lakes](/vibe-coding-and-ai-agents-classes-in-north-lakes-brisbane)
+- [Online coding and Python classes in Redlands](/online-coding-and-python-classes-in-redlands-brisbane)
 <!-- AU-LINKS -->
 
 
