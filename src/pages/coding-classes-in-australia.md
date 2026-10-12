@@ -518,6 +518,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Berwick](/ai-and-programming-classes-in-berwick-melbourne)
 - [Coding and AI classes in Frankston](/best-coding-and-ai-classes-in-frankston-melbourne)
 - [Vibe coding and AI agents classes in the City of Monash](/vibe-coding-and-ai-agents-classes-in-monash-melbourne)
+- [Online coding and Python classes in the City of Whitehorse](/online-coding-and-python-classes-in-whitehorse-melbourne)
 <!-- AU-LINKS -->
 
 
