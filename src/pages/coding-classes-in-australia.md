@@ -534,6 +534,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Moonee Valley](/ai-and-programming-classes-in-moonee-valley-melbourne)
 - [Coding and AI classes in Darebin](/best-coding-and-ai-classes-in-darebin-melbourne)
 - [Vibe coding and AI agent classes in Banyule](/vibe-coding-and-ai-agents-classes-in-banyule-melbourne)
+- [Online coding and Python classes in Yarra Ranges](/online-coding-and-python-classes-in-yarra-ranges-melbourne)
 <!-- AU-LINKS -->
 
 
