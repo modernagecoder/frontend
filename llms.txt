@@ -1551,6 +1551,11 @@ USD 100 a month small group, USD 150 a month one to one.
 - Kingston, Melbourne: https://learn.modernagecoders.com/ai-and-programming-classes-in-kingston-melbourne
 - Glen Eira, Melbourne: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-glen-eira-melbourne
 - Stonnington, Melbourne: https://learn.modernagecoders.com/online-coding-and-python-classes-in-stonnington-melbourne
+- Moonee Valley, Melbourne: https://learn.modernagecoders.com/ai-and-programming-classes-in-moonee-valley-melbourne
+- Darebin, Melbourne: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-darebin-melbourne
+- Banyule, Melbourne: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-banyule-melbourne
+- Yarra Ranges, Melbourne: https://learn.modernagecoders.com/online-coding-and-python-classes-in-yarra-ranges-melbourne
+- Cranbourne, Melbourne: https://learn.modernagecoders.com/ai-and-programming-classes-in-cranbourne-melbourne
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).

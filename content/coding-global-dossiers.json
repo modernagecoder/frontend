@@ -46150,5 +46150,285 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with Stonnington City Council, the Victorian Department of Education or the Department of Transport and Planning."
     ]
+  },
+  "ai-and-programming-classes-in-moonee-valley-melbourne": {
+    "market": "Moonee Valley",
+    "bodyClass": "cg-mnvl",
+    "pageType": "city",
+    "curriculumAuthority": "City of Moonee Valley, ABS Census 2021 QuickStats, Moonee Valley LGA25060 (read 11 October 2026): 121,851 people; median age 39; 32,394 families; 55,057 private dwellings; 2.4 per household; separate house 55.4% (26,470; Victoria 73.4%); semi-detached 21.3% (10,166; Victoria 13.9%); bachelor or higher 36.7% (37,489); professionals 31.3% (20,066); drove 40.6% (26,078); worked at home 34.1% (21,883, lockdown); aged 5-9 6,710; aged 10-14 6,727. ABS area 43.1384 sq km. Victorian School Locations 2025: 36 schools (24 primary, 8 secondary, 2 Pri/Sec, 2 special); Rosehill SC, Buckley Park College, Strathmore SC named. 6 stations inside boundary by our point-in-polygon check: Strathmore, Glenbervie, Essendon, Moonee Ponds, Ascot Vale, Newmarket. Essendon 1,480,050 (FY18-19), 1,347,950 (FY24-25). Vic 2027 Term 1: 28 January to 25 March. DST 4 Oct 2026 to 4 Apr 2027 (IANA).",
+    "localProject": "Influential points in linear regression. 220 stations present in both FY18-19 and FY24-25 (McKinnon/Mckinnon joined). OLS FY24-25 ~ FY18-19: slope 0.7197, intercept 53,922, R squared 0.9924. Leverage: Flinders Street 0.493 vs mean 0.0091; Cook distance Flinders Street 22.34, Melbourne Central 2.39, Southern Cross 2.28, Parliament 1.19; 7 stations above 4/n = 0.0182. Slope without Flinders Street 0.748; without top two 0.737. Median per-station ratio 0.7524. Moonee Valley ratios: Essendon 91.1%, Moonee Ponds 91.1%, Newmarket 67.2%, Ascot Vale 82.7%, Strathmore 77.8%, Glenbervie 71.5%; leverages about 0.0046-0.0048, Cook distance at most 0.0045. Script: scratchpad au/b9/mnvl.py.",
+    "requiredMentions": [
+      "121,851",
+      "32,394",
+      "10,166",
+      "6,727",
+      "22.34",
+      "0.7524",
+      "1,480,050",
+      "Rosehill Secondary College",
+      "Glenbervie"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Moonee Valley local government area (LGA25060).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA25060"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) LGA boundary LGA25060, geo.abs.gov.au map service, used for our point-in-boundary checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "R. Dennis Cook (1977), Detection of Influential Observation in Linear Regression, Technometrics 19(1), 15-18, DOI 10.1080/00401706.1977.10489493.",
+        "url": "https://doi.org/10.1080/00401706.1977.10489493"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any cause for the change in entries at any station: not claimed.",
+      "That Flinders Street figures are errors or outliers to be removed: not claimed; the point is influence, not wrongness.",
+      "A total of entries across Moonee Valley stations: not computed; published parts are never summed.",
+      "Names of special or non-government schools: not used.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Moonee Valley City Council, the Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "best-coding-and-ai-classes-in-darebin-melbourne": {
+    "market": "Darebin",
+    "bodyClass": "cg-drbn",
+    "pageType": "city",
+    "curriculumAuthority": "City of Darebin, ABS Census 2021 QuickStats, Darebin LGA21890 (read 11 October 2026): 148,570 people; median age 37; 37,717 families; 68,252 private dwellings; 2.4 per household; semi-detached 27.2% (16,180; Victoria 13.9%); flats 15.6% (9,283; Victoria 12.1%); bachelor or higher 39.6% (50,038); professionals 34.3% (27,103); train to work 2.8% (2,211; Victoria 1.6%); worked at home 36.0% (28,459, lockdown); aged 5-9 7,378; aged 10-14 7,091. ABS area 53.4712 sq km. Victorian School Locations 2025: 44 schools (29 primary, 7 secondary, 4 Pri/Sec, 4 special); Northcote HS, Preston HS, Thornbury HS named. 13 stations inside boundary by our point-in-polygon check. FY24-25 entries: Reservoir 757,800, Preston 581,250, Fairfield 437,700, Bell 412,250, Regent 382,700, Thornbury 376,150, Westgarth 201,950, Merri 147,850. Vic 2027 Term 1: 28 January to 25 March. DST 4 Oct 2026 to 4 Apr 2027 (IANA).",
+    "localProject": "Multi-key sorting and sort stability. 44 Darebin schools from Victorian School Locations 2025. Target: by School_Type then School_Name. (a) sorted(key=(type,name)) -> 4 type runs; (b) stable sort by name then stable sort by type -> identical to (a); (c) stable sort by type then by name -> 26 type runs, 43 of 44 positions differ from (a). FY24-25 network file: only one tied value, 201,950 shared by Ashburton and Westgarth. Script: scratchpad au/b9/drbn.py.",
+    "requiredMentions": [
+      "148,570",
+      "37,717",
+      "16,180",
+      "7,378",
+      "26 runs",
+      "201,950",
+      "757,800",
+      "Thornbury High School",
+      "Westgarth"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Darebin local government area (LGA21890).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA21890"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) LGA boundary LGA21890, geo.abs.gov.au map service, used for our point-in-boundary checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Python documentation, Sorting Techniques (sort stability and complex sorts).",
+        "url": "https://docs.python.org/3/howto/sorting.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason for the tie between Ashburton and Westgarth beyond identical published rounded values: not claimed.",
+      "A total of entries across Darebin stations: not computed; published parts are never summed.",
+      "Names of special or non-government schools: not used.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any ranking of Darebin schools by quality: not made; sorting is alphabetical and by type only.",
+      "Any link with Darebin City Council, the Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-banyule-melbourne": {
+    "market": "Banyule",
+    "bodyClass": "cg-bnyl",
+    "pageType": "city",
+    "curriculumAuthority": "City of Banyule, ABS Census 2021 QuickStats, Banyule LGA20660 (read 11 October 2026): 126,236 people; median age 40; 34,785 families; 52,966 private dwellings; 2.5 per household; separate house 75.9% (36,197; Victoria 73.4%); flats 7.6% (3,636); bachelor or higher 37.8% (39,257); professionals 32.8% (20,961); drove 42.8% (27,371); worked at home 33.4% (21,341, lockdown); aged 5-9 7,822; aged 10-14 7,559. ABS area 62.5402 sq km. Victorian School Locations 2025: 42 schools (29 primary, 8 secondary, 3 Pri/Sec, 2 special); Viewbank College, Greensborough SC, Montmorency SC named. 9 stations inside boundary by our point-in-polygon check (Darebin, Ivanhoe, Eaglemont, Heidelberg, Rosanna, Macleod, Watsonia, Greensborough, Montmorency). FY24-25: Heidelberg 822,300, Ivanhoe 617,600, Rosanna 432,900; FY24-25 as share of FY18-19: Heidelberg 103.9%, Greensborough 51.9%, Watsonia 44.1%. Vic 2027 Term 1: 28 January to 25 March. DST 4 Oct 2026 to 4 Apr 2027 (IANA).",
+    "localProject": "Parallel tool calls returning out of order. Simulation, seed 42, 10,000 runs per setting; nine calls (one per Banyule station) launched 10 ms apart, latency 120 ms times lognormal jitter sigma. Naive arrival-order labelling: sigma 0.02 -> 1.13% runs with any mislabel, 0.023 wrong per run, 0.31% wrong busiest; 0.05 -> 68.74%, 1.954, 25.03%; 0.1 -> 97.55%, 4.76, 60.78%; 0.25 -> 99.98%, 6.868, 83.72%; 0.5 -> 100%, 7.475, 87.95%. Keyed-by-station merge: 0 errors in every setting. Timing parameters are modelling choices, not measurements of any service. Script: scratchpad au/b9/bnyl2.py.",
+    "requiredMentions": [
+      "126,236",
+      "34,785",
+      "36,197",
+      "7,822",
+      "97.55%",
+      "822,300",
+      "617,600",
+      "Viewbank College",
+      "Eaglemont"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Banyule local government area (LGA20660).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA20660"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) LGA boundary LGA20660, geo.abs.gov.au map service, used for our point-in-boundary checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Python documentation, asyncio.as_completed returns results in completion order, not submission order.",
+        "url": "https://docs.python.org/3/library/asyncio-task.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That any real agent platform or API has these latencies: not claimed; timing values are modelling choices.",
+      "Any cause for the change in entries at any station: not claimed.",
+      "A total of entries across Banyule stations: not computed; published parts are never summed.",
+      "Names of special or non-government schools: not used.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Banyule City Council, the Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "online-coding-and-python-classes-in-yarra-ranges-melbourne": {
+    "market": "Yarra Ranges",
+    "bodyClass": "cg-yrrg",
+    "pageType": "city",
+    "curriculumAuthority": "Shire of Yarra Ranges, ABS Census 2021 QuickStats, Yarra Ranges LGA27450 (read 11 October 2026): 156,068 people; median age 40; 43,981 families; 61,491 private dwellings; 2.7 per household; separate house 93.7% (52,325; Victoria 73.4%); drove 55.3% (44,209; Victoria 49.9%); train 0.7% (559; Victoria 1.6%); bachelor or higher 21.4% (27,208); professionals 19.6% (15,672); worked at home 22.5% (17,963, lockdown); aged 5-9 9,765; aged 10-14 9,963. ABS area 2,468.2052 sq km. Victorian School Locations 2025: 78 schools (56 primary, 10 secondary, 8 Pri/Sec, 4 special); Healesville HS, Upwey HS, Lilydale Heights College named. 5 stations inside boundary by our point-in-polygon check (Belgrave, Tecoma, Upwey, Lilydale, Mooroolbark). FY18-19 -> FY24-25: Belgrave 389,750 -> 283,100; Tecoma 75,650 -> 47,250; Upwey 157,050 -> 97,850; Lilydale 701,900 -> 512,300; Mooroolbark 722,150 -> 569,250. Vic 2027 Term 1: 28 January to 25 March. DST 4 Oct 2026 to 4 Apr 2027 (IANA).",
+    "localProject": "JSON round-trip type loss. Dictionary of 5 stations x 7 years = 35 int-keyed cells (FY24-25 labelled 2025, our convention). After json.dumps/json.loads, keys are str; all 35 int lookups fail. json.dumps errors: set -> Object of type set is not JSON serializable; tuple key -> keys must be str, int, float, bool or None, not tuple; date -> Object of type date is not JSON serializable. NaN written as NaN (invalid strict JSON). Float ratio round-trips exactly. Serialized table 616 characters. Script: scratchpad au/b9/yrrg.py.",
+    "requiredMentions": [
+      "156,068",
+      "43,981",
+      "52,325",
+      "9,963",
+      "35 lookups",
+      "701,900",
+      "157,050",
+      "Healesville High School",
+      "Tecoma"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Yarra Ranges local government area (LGA27450).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA27450"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) LGA boundary LGA27450, geo.abs.gov.au map service, used for our point-in-boundary checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Python documentation, json module: keys in key/value pairs of JSON are always of type str; converting a dictionary to JSON coerces keys to strings.",
+        "url": "https://docs.python.org/3/library/json.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any cause for the change in entries at any station: not claimed.",
+      "A total of entries across Yarra Ranges stations: not computed; published parts are never summed.",
+      "That the Shire is served only by these five stations: not claimed; the count is stations inside the boundary by our check.",
+      "Names of special or non-government schools: not used.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Yarra Ranges Council, the Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "ai-and-programming-classes-in-cranbourne-melbourne": {
+    "market": "Cranbourne",
+    "bodyClass": "cg-crnb",
+    "pageType": "city",
+    "curriculumAuthority": "Suburb of Cranbourne (City of Casey), ABS Census 2021 QuickStats, Cranbourne SAL20662 (read 11 October 2026): 21,281 people; median age 35; 5,448 families; 8,073 private dwellings; 2.7 per household; separate house 80.0% (5,763; Victoria 73.4%); semi-detached 16.1% (1,160; Victoria 13.9%); drove 64.0% (6,090; Victoria 49.9%); train 1.7% (158; Victoria 1.6%); bachelor or higher 13.8% (2,342; Victoria 29.2%); worked at home 12.0% (1,143, lockdown); aged 5-9 1,509; aged 10-14 1,281. ABS area 16.5124 sq km. Victorian School Locations 2025: 7 schools inside the SAL boundary by our point-in-polygon check (6 primary, 1 secondary); government schools named: Cranbourne Secondary College, Cranbourne PS, Rangebank PS; one Catholic primary counted, not named. Cranbourne station only metro station inside boundary; FY18-19 817,750; FY24-25 1,054,250 (128.9%); FY24-25 averages weekday 3,500, normal weekday 3,650, school holiday weekday 2,900, Saturday 1,650, Sunday 1,250. Vic 2027 Term 1: 28 January to 25 March. DST 4 Oct 2026 to 4 Apr 2027 (IANA).",
+    "localProject": "Multicollinearity. FY24-25 station file, 222 stations. corr(weekday, normal weekday) 0.99985; corr(weekday, school-holiday weekday) 0.99761; VIF 3,435.8. OLS annual ~ weekday + normal weekday: +1,029.94 and -696.80, intercept 15,507.75; single-predictor slope 313.98. 200 bootstrap resamples, seed 42: weekday coef 526.9 to 1,257.9; normal-weekday coef -914.5 to -210.2 (always negative); sum 311.4 to 347.8; Cranbourne predicted 1,054,819 to 1,099,860 (median 1,077,860) vs actual 1,054,250. Script: scratchpad au/b9/crnb.py.",
+    "requiredMentions": [
+      "21,281",
+      "5,448",
+      "5,763",
+      "1,509",
+      "3,435.8",
+      "0.99985",
+      "817,750",
+      "Rangebank Primary School",
+      "Cranbourne Secondary College"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Cranbourne suburb (SAL20662).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20662"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) SAL boundary SAL20662, geo.abs.gov.au map service, used for our point-in-boundary checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Bradley Efron (1979), Bootstrap Methods: Another Look at the Jackknife, The Annals of Statistics 7(1), 1-26, DOI 10.1214/aos/1176344552.",
+        "url": "https://doi.org/10.1214/aos/1176344552"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That normal weekdays reduce station entries: rejected; the negative coefficient is an artefact of collinearity.",
+      "Any cause for the growth in entries at Cranbourne station: not claimed.",
+      "Figures for the City of Casey as a whole: not used; this page uses suburb figures only.",
+      "Names of non-government schools: not used (one Catholic primary counted, not named).",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Casey, the Department of Education or the Department of Transport and Planning."
+    ]
   }
 }

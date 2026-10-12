@@ -21961,6 +21961,66 @@
   to = "/src/pages/online-coding-and-python-classes-in-stonnington-melbourne.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-moonee-valley-melbourne"
+  to = "/src/pages/ai-and-programming-classes-in-moonee-valley-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-moonee-valley-melbourne.md"
+  to = "/src/pages/ai-and-programming-classes-in-moonee-valley-melbourne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-darebin-melbourne"
+  to = "/src/pages/best-coding-and-ai-classes-in-darebin-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-darebin-melbourne.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-darebin-melbourne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-banyule-melbourne"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-banyule-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-banyule-melbourne.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-banyule-melbourne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-yarra-ranges-melbourne"
+  to = "/src/pages/online-coding-and-python-classes-in-yarra-ranges-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-yarra-ranges-melbourne.md"
+  to = "/src/pages/online-coding-and-python-classes-in-yarra-ranges-melbourne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-cranbourne-melbourne"
+  to = "/src/pages/ai-and-programming-classes-in-cranbourne-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-cranbourne-melbourne.md"
+  to = "/src/pages/ai-and-programming-classes-in-cranbourne-melbourne.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
