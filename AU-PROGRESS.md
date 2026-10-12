@@ -327,7 +327,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 307 | best-coding-and-ai-classes-in-subiaco-perth (sbia, #745239) | cg- district page | 2,556 | 1.3% vs best-coding-and-ai-classes-in-willetton-perth | constant columns in the state stops file: constant in Subiaco is not constant statewide | constant (single-valued) columns | e62ae69a |
 | 308 | vibe-coding-and-ai-agents-classes-in-armadale-perth (arwa, #81312F) | cg- district page | 2,576 | 2% vs vibe-coding-and-ai-agents-classes-in-applecross-perth | an agent proposes packages that do not exist; checking PyPI before installing | hallucinated package names | 9e76fd73 |
 | 309 | online-coding-and-python-classes-in-ellenbrook-perth (elbk, #436E41) | cg- district page | 2,445 | 2.2% vs online-coding-and-python-classes-in-scarborough-wa-perth | deleting station stops from a list while looping over it skips every second one | removing items from a list while iterating | 146df4d0 |
-| 310 | ai-and-programming-classes-in-cockburn-perth (ckbn, #2A5444) | cg- district page | 2,524 | 1.7% vs online-coding-and-python-classes-in-scarborough-wa-perth | nearest-neighbour model of the bay field: small k memorises, large k oversmooths | bias-variance trade-off | (this commit) |
+| 310 | ai-and-programming-classes-in-cockburn-perth (ckbn, #2A5444) | cg- district page | 2,524 | 1.7% vs online-coding-and-python-classes-in-scarborough-wa-perth | nearest-neighbour model of the bay field: small k memorises, large k oversmooths | bias-variance trade-off | 7aca27fb |
+| 311 | best-coding-and-ai-classes-in-willetton-perth (wltn, #544531) | cg- district page | 2,445 | 2% vs online-coding-and-python-classes-in-scarborough-wa-perth | a stop-number lookup written with is finds none of Willetton's 90 stops | identity vs equality, is vs == | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

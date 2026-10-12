@@ -48539,5 +48539,61 @@
       "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
       "Any link with the City of Stirling, Main Roads WA or the WA Department of Education."
     ]
+  },
+  "online-coding-and-python-classes-in-wanneroo-perth": {
+    "market": "Wanneroo",
+    "bodyClass": "cg-wnro",
+    "pageType": "city",
+    "curriculumAuthority": "City of Wanneroo (LGA58760), ABS Census 2021 QuickStats (read 12 October 2026): 209,111 people; median age 35; 57,797 families; 78,029 private dwellings; 2.8 people per household; separate houses 65,649 (92.1%, WA 79.7%); couple families with children 28,985 (50.1%, WA 44.6%); aged 5-9 15,950 (7.6%, WA 6.5%); train to work 2,611 (2.5%, WA 1.8%); flats 302 (0.4%, WA 6.5%). ABS ERP 2025 (LGA 58760): 246,147. ABS LGA area 683.2602 sq km. 50 government schools inside the LGA polygon (our test), 38 primary; school suburbs in the outline include Girrawheen, Koondoola, Yanchep and Two Rocks. Main Roads Traffic Digest: 97 sites on 34 roads with LG_NAME Wanneroo (C); Joondalup Dr West of Wanneroo Rd MON_SUN 44,223 (2024/25); Wanneroo Rd 17 sites. WA 2027 Term 1: Monday 1 February to Friday 9 April. Perth +8:00, last DST ended March 2009 (IANA 2026e).",
+    "localProject": "EAFP vs LBYL on 97 Wanneroo Traffic Digest rows: SAT_SUN None for 23 (21 in 2024/25, 2 in 2021/22; Marmion Av 5, Wanneroo Rd 4). Naive SAT_SUN/MON_FRI: TypeError at row index 4. LBYL (is not None) and EAFP (except TypeError) both 74 ratios, median 0.793, mean 0.793, min 0.541 Flynn Dr East of Wanneroo Rd (2025/26), max 1.178 Indian Ocean Dr North of Breakwater Dr (2024/25), 3 above 1. None as 0: median 0.75, mean 0.605. Typo SAT_SUM inside except Exception: 0 of 97 kept. Our calculation. Script: scratchpad au/b13/a_wnro.py.",
+    "requiredMentions": [
+      "246,147",
+      "78,029",
+      "92.1% (65,649)",
+      "50.1% (28,985)",
+      "0.605",
+      "Indian Ocean Drive",
+      "Flynn Drive",
+      "44,223",
+      "Two Rocks"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Wanneroo local government area (LGA58760), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA58760"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Wanneroo LGA 58760, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.58760.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Main Roads Western Australia, Traffic Digest (count sites with average weekday, weekend and all-day volumes and heavy vehicle shares for the latest count year), Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-traffic-digest"
+      },
+      {
+        "claim": "WA Department of Education, Western Australian Schools Lists (Excel), currently active schools with student numbers as at the 2026 Semester 1 census, Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/western-australian-schools-lists"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 Term 1 Monday 1 February to Friday 9 April; Term 3 Monday 19 July to Friday 24 September.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth at +8:00 on rule AW, whose last daylight saving period ended on the last Sunday of March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Estimating the 23 missing weekend averages: not done; gaps are reported, not filled.",
+      "Comparing ratios across different count years as a trend: not claimed.",
+      "Wanneroo suburb (SAL) figures: the page uses the council area only.",
+      "Naming individual schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Wanneroo, Main Roads WA or the WA Department of Education."
+    ]
   }
 }
