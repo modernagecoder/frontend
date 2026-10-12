@@ -49352,5 +49352,73 @@
       "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
       "Any link with the ACT Government or Access Canberra."
     ]
+  },
+  "best-coding-and-ai-classes-in-weston-creek-canberra": {
+    "market": "Weston Creek",
+    "bodyClass": "cg-wscr",
+    "pageType": "city",
+    "curriculumAuthority": "Weston Creek SA3 80108, ABS Census 2021 QuickStats (read 13 October 2026): 24,630 people; median age 41; 6,816 families; 9,945 private dwellings; 3.4 bedrooms per dwelling; separate houses 7,477 (81.7%, ACT 63.2%); worked at home 1,505 (12.6%, ACT 10.9%); managers 2,433 (20.3%, ACT 17.9%); walked to work 104 (0.9%, ACT 4.0%); flats 398 (4.3%); aged 5-9 1,716 (7.0%, ACT 6.4%). ABS ERP 2025 (SA3 80108): 25,070. ABS SA3 area 18.1487 sq km, smallest of the eight Canberra SA3s on these pages (Molonglo 27.1507, Woden Valley 28.6004); 8 named suburbs by our SAL-centroid test. ACT open data (CC BY 4.0, 13 October 2026): ACT NOWaste 8 Weston Creek rows, all Monday; artworks 26 (8 sculpture, 8 street art, 8 feature). ACT 2027 Term 1 begins Monday 1 February; Term 4 ends Friday 17 December. Canberra = Australia/Sydney (IANA 2026e).",
+    "localProject": "ACTGOV Tree Assets, 46,396 records in 8 Weston Creek suburbs, ordered by objectid: STREET TREE 28,015 (60.38%), OPEN SPACE 16,304, LANEWAY 1,102, MEDIAN 975; native 26,812, exotic 12,396, unlabelled 7,188. Street-tree share, systematic vs SRS (2,000 draws, seed 1): k=10 m=4,640 sys 59.58% to 60.91% (sd 0.35 pt) vs SRS sd 0.69; k=50 m=928 sys sd 1.23 vs SRS 1.56; k=100 m=464 sys 57.33% to 64.87% (sd 1.54) vs SRS sd 2.29; k=500 m=93 sys sd 3.57 vs SRS 5.09. Exotic share (labelled, true 31.62%): k=500 sys sd 5.35 vs SRS 5.18. Exotic label lag-1 autocorrelation 0.67; runs 5,597 vs 16,955 expected. Periodic list: labelled simulation. Our calculation. Script: scratchpad au/b16/a_wscr.py.",
+    "requiredMentions": [
+      "25,070",
+      "9,945",
+      "81.7% (7,477)",
+      "12.6% (1,505)",
+      "46,396 public tree records",
+      "5,597 runs",
+      "57.3% to 64.9%",
+      "rows[start::k]",
+      "0.9% (104)"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Weston Creek statistical area level 3 (SA3 80108), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/80108"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by ASGS 2021 regions (ABS_ANNUAL_ERP_ASGS2021), SA3 80108 Weston Creek, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_ASGS2021,1.2.0/ERP.SA3.80108.A?startPeriod=2024&format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Statistical Area Level 3 boundary service (district outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SA3/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines, used to place each suburb in a district).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Tree Assets (data.act.gov.au 9qch-rvqr), Creative Commons Attribution 4.0, records for the eight Weston Creek suburbs read 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/9qch-rvqr"
+      },
+      {
+        "claim": "ACT Government open data, ACT Suburb Next Garbage, Recycling and Green Waste Collection Dates (data.act.gov.au jzzy-44un), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/jzzy-44un"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Artwork Assets (data.act.gov.au a69k-qah8), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/a69k-qah8"
+      },
+      {
+        "claim": "ACT Government open data, ACT Education Public Holidays and Term Dates (data.act.gov.au 4kcq-44ad): 2027 Term 1 begins Monday 1 February (new students), Canberra Day Monday 8 March, Term 3 Tuesday 20 July to Friday 24 September, Term 4 Tuesday 12 October to Friday 17 December.",
+        "url": "https://www.data.act.gov.au/d/4kcq-44ad"
+      },
+      {
+        "claim": "IANA time zone database 2026e, backward file: Australia/Canberra links to Australia/Sydney.",
+        "url": "https://data.iana.org/time-zones/tzdb/backward"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: rule AN, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Tree health, age or planting history: not claimed; the dataset does not record them in the fields used.",
+      "The order of records reflecting a field survey route: not claimed; only measured clustering is reported.",
+      "Weston Creek suburb (SAL) Census figures: not used; the page uses the SA3 district.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the ACT Government."
+    ]
   }
 }

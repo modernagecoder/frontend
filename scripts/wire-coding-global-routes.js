@@ -1048,6 +1048,7 @@ const MARKETS = [
   ['vibe-coding-and-ai-agents-classes-in-gungahlin-canberra', 'Gungahlin, Canberra'],
   ['online-coding-and-python-classes-in-tuggeranong-canberra', 'Tuggeranong, Canberra'],
   ['ai-and-programming-classes-in-woden-canberra', 'Woden, Canberra'],
+  ['best-coding-and-ai-classes-in-weston-creek-canberra', 'Weston Creek, Canberra'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
