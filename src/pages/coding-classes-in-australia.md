@@ -539,6 +539,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Sunnybank](/best-coding-and-ai-classes-in-sunnybank-brisbane)
 - [Vibe coding and AI agents classes in Indooroopilly](/vibe-coding-and-ai-agents-classes-in-indooroopilly-brisbane)
 - [Online coding and Python classes in Chermside](/online-coding-and-python-classes-in-chermside-brisbane)
+- [AI and programming classes in Carindale](/ai-and-programming-classes-in-carindale-brisbane)
 <!-- AU-LINKS -->
 
 
