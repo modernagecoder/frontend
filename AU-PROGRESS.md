@@ -346,7 +346,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 318 | ai-and-programming-classes-in-unley-adelaide (unly, #9B293A) | cg- district page | 2,425 | 2.1% vs ai-and-programming-classes-in-marion-adelaide | the walrus operator removes a repeated call when filtering busy stops | walrus operator (assignment expressions) | 63772ecd |
 | 319 | best-coding-and-ai-classes-in-burnside-adelaide (brns, #365A3F) | cg- district page | 2,383 | 2.2% vs vibe-coding-and-ai-agents-classes-in-toowong-brisbane | a data check written as assert disappears under python -O | asserts removed under -O, assert vs raise | be64aa85 |
 | 320 | vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide (gdgv, #616916) | cg- district page | 2,459 | 1.8% vs vibe-coding-and-ai-agents-classes-in-armadale-perth | a vague question about Golden Grove buses gets six true answers | vague vs specific prompts | 3b682576 |
-| 321 | online-coding-and-python-classes-in-modbury-adelaide (mdby, #892515) | cg- district page | 2,289 | 2.2% vs ai-and-programming-classes-in-marion-adelaide | four ways of writing between 7 and 9 give four different counts | chained comparisons | (this commit) |
+| 321 | online-coding-and-python-classes-in-modbury-adelaide (mdby, #892515) | cg- district page | 2,289 | 2.2% vs ai-and-programming-classes-in-marion-adelaide | four ways of writing between 7 and 9 give four different counts | chained comparisons | f230ec61 |
+| 322 | ai-and-programming-classes-in-marion-adelaide (mrin, #552C0D) | cg- district page | 2,496 | 2.2% vs online-coding-and-python-classes-in-modbury-adelaide | splitting one AI request into four checked steps corrects the train share | prompt chaining | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

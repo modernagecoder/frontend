@@ -583,6 +583,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Burnside](/best-coding-and-ai-classes-in-burnside-adelaide)
 - [Vibe coding and AI agent classes in Golden Grove](/vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide)
 - [Online coding and Python classes in Modbury](/online-coding-and-python-classes-in-modbury-adelaide)
+- [AI and programming classes in Marion](/ai-and-programming-classes-in-marion-adelaide)
 <!-- AU-LINKS -->
 
 
