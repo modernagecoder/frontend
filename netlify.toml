@@ -22033,6 +22033,18 @@
   to = "/src/pages/best-coding-and-ai-classes-in-sunnybank-brisbane.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-indooroopilly-brisbane"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-indooroopilly-brisbane.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-indooroopilly-brisbane.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-indooroopilly-brisbane.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

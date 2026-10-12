@@ -46482,5 +46482,57 @@
       "Sums of Census age bands into a child total: not computed.",
       "Any affiliation with Brisbane City Council, Translink or the Queensland Department of Education."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-indooroopilly-brisbane": {
+    "market": "Indooroopilly",
+    "bodyClass": "cg-indo",
+    "pageType": "city",
+    "curriculumAuthority": "Indooroopilly (SAL31389), ABS Census 2021 QuickStats (read 12 October 2026): 13,622 people; median age 33; 3,478 families; 5,747 private dwellings; 2.5 people per household; 1.6 vehicles per dwelling; aged 5-9 903 (6.6%); flats 2,337 (45.4%, Queensland 12.5%); separate houses 2,406 (46.7%); bachelor or higher 6,063 (54.2%, Queensland 21.9%); professionals 2,988 (42.6%, Queensland 21.4%); train to work 384 (5.5%, Queensland 1.1%); worked at home 2,050 (29.2%). ABS SAL area 6.9158 square kilometres. Translink SEQ GTFS, Wednesday 21 October 2026: 87 stop records inside the SAL polygon, 84 with at least one visit; 4,365 scheduled stop visits (bus 4,176, train 189); 41 routes; Indooroopilly station (4 platform records), Indooroopilly Shopping Centre station, Indooroopilly interchange. Queensland 2027 Term 1: Wednesday 27 January to Thursday 25 March. Brisbane: no daylight saving since March 1992 (IANA 2026e).",
+    "localProject": "Simulated agent fetching next departures for the 84 served Indooroopilly stop records. Latency per call random.Random(42).randint(200, 900) ms; tool rule (ours): at most 5 requests in flight, extra requests rejected at once. Sequential 44,824 ms; semaphore 2: 22,462 ms; 3: 15,130 ms; 5: 9,238 ms, 84 of 84; 8 or more slots without a cap: 5 answered, 79 rejected, done at 854 ms. Script: scratchpad au/b11/p2_ind.py.",
+    "requiredMentions": [
+      "13,622",
+      "3,478",
+      "5,747",
+      "45.4% (2,337)",
+      "54.2% (6,063)",
+      "4,365",
+      "41 routes",
+      "Indooroopilly Shopping Centre station",
+      "79 bounce"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Indooroopilly suburb and locality (SAL31389), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL31389"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Python documentation, asyncio synchronization primitives: Semaphore.",
+        "url": "https://docs.python.org/3/library/asyncio-sync.html"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland term dates (Term 1 Wednesday 27 January to Thursday 25 March).",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Real Translink API limits or response times: not claimed; the five-request rule and latencies are our simulation.",
+      "Passenger numbers at Indooroopilly stops: not claimed; the feed gives scheduled stop visits.",
+      "Naming individual schools near stops: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Sums of Census age bands into a child total: not computed.",
+      "Any affiliation with Brisbane City Council, Translink or the Queensland Department of Education."
+    ]
   }
 }
