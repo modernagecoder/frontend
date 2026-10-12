@@ -48707,5 +48707,54 @@
       "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
       "Any link with the City of Melville, Main Roads WA or the WA Department of Education."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-glenelg-adelaide": {
+    "market": "Glenelg",
+    "bodyClass": "cg-glng",
+    "pageType": "city",
+    "curriculumAuthority": "Glenelg (SAL40505, Glenelg (SA)), City of Holdfast Bay. ABS Census 2021 QuickStats (read 13 October 2026): 3,440 people; median age 55; 841 families; 2,299 private dwellings; 1.8 per household; flats 1,026 (61.1%, SA 6.8%); separate houses 265 (15.8%, SA 78.0%); worked at home 263 (16.5%, SA 9.6%); bachelor or higher 1,069 (33.4%, SA 22.7%); aged 5-9 83; 10-14 75; 85+ 188. ABS SAL area 0.9552 sq km; council by ABS LGA point query (Holdfast Bay). Adelaide Metro GTFS v1708, Wednesday 21 October 2026: 20 stop records; 1926 scheduled visits (bus 1418, tram 474, school bus 712 34); 26 routes; Zone B Glenelg Interchange 267; Stop 16/21D Jetty Rd 244; tram stop records Stop 16 Jetty Rd (north and south) and Stop 17 Moseley Square; last departure 25:19:00 (17 departures after 24:00). Neighbours (ABS touches): Glenelg East, Glenelg North, Glenelg South.",
+    "localProject": "Tautological test. Glenelg Wednesday rows (1,926). route_type == 0 (int) -> 0; route_type == \"0\" -> 474; route_short_name == \"GLNELG\" -> 474. Agent test expected = count_trams(data) is tautological and passes at 0; independent test fails until fixed. Agent turns are our scripts.",
+    "requiredMentions": [
+      "Jetty Road",
+      "83",
+      "188",
+      "Moseley Square",
+      "Glenelg Interchange",
+      "GLNELG",
+      "474",
+      "tautological",
+      "25:19:00"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Glenelg (SA) suburb and locality (SAL40505), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL40505"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
+      },
+      {
+        "claim": "GTFS Schedule reference, routes.txt: route_type 0 denotes tram, streetcar or light rail.",
+        "url": "https://gtfs.org/documentation/schedule/reference/"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Adelaide, rule AS, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Passenger numbers on the Glenelg tram: not claimed; the timetable gives scheduled visits.",
+      "Any transcript from a commercial AI model: not claimed; the agent and its test are our scripts.",
+      "Figures for Glenelg North, East or South: not used.",
+      "School term dates: not given; official SA term-date pages refused automated access (HTTP 403), not circumvented.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Holdfast Bay or Adelaide Metro."
+    ]
   }
 }

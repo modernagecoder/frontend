@@ -329,7 +329,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 309 | online-coding-and-python-classes-in-ellenbrook-perth (elbk, #436E41) | cg- district page | 2,445 | 2.2% vs online-coding-and-python-classes-in-scarborough-wa-perth | deleting station stops from a list while looping over it skips every second one | removing items from a list while iterating | 146df4d0 |
 | 310 | ai-and-programming-classes-in-cockburn-perth (ckbn, #2A5444) | cg- district page | 2,524 | 1.7% vs online-coding-and-python-classes-in-scarborough-wa-perth | nearest-neighbour model of the bay field: small k memorises, large k oversmooths | bias-variance trade-off | 7aca27fb |
 | 311 | best-coding-and-ai-classes-in-willetton-perth (wltn, #544531) | cg- district page | 2,445 | 2% vs online-coding-and-python-classes-in-scarborough-wa-perth | a stop-number lookup written with is finds none of Willetton's 90 stops | identity vs equality, is vs == | bf681825 |
-| 312 | vibe-coding-and-ai-agents-classes-in-applecross-perth (apcr, #925516) | cg- district page | 2,567 | 2.1% vs vibe-coding-and-ai-agents-classes-in-toowong-brisbane | an agent asked about a station that does not exist must correct the premise | false premises and sycophancy | (this commit) |
+| 312 | vibe-coding-and-ai-agents-classes-in-applecross-perth (apcr, #925516) | cg- district page | 2,567 | 2.1% vs vibe-coding-and-ai-agents-classes-in-toowong-brisbane | an agent asked about a station that does not exist must correct the premise | false premises and sycophancy | 14f37bd5 |
+| 313 | online-coding-and-python-classes-in-scarborough-wa-perth (scwa, #64201C) | cg- district page | 2,471 | 2.2% vs online-coding-and-python-classes-in-ellenbrook-perth | a variable named max hides Python's max() in a Scarborough stop survey | shadowing a built-in name | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
