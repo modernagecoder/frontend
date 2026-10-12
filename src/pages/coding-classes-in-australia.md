@@ -552,6 +552,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in South Morang](/vibe-coding-and-ai-agents-classes-in-south-morang-melbourne)
 - [Online coding and Python classes in Epping, Melbourne](/online-coding-and-python-classes-in-epping-vic-melbourne)
 - [AI and programming classes in Reservoir](/ai-and-programming-classes-in-reservoir-melbourne)
+- [Coding and AI classes in The Gap](/best-coding-and-ai-classes-in-the-gap-brisbane)
 <!-- AU-LINKS -->
 
 
