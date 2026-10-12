@@ -524,6 +524,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Wyndham](/vibe-coding-and-ai-agents-classes-in-wyndham-melbourne)
 - [Online coding and Python classes in Casey](/online-coding-and-python-classes-in-casey-melbourne)
 - [AI and programming classes in Hume](/ai-and-programming-classes-in-hume-melbourne)
+- [Coding and AI classes in Brimbank](/best-coding-and-ai-classes-in-brimbank-melbourne)
 <!-- AU-LINKS -->
 
 
