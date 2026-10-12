@@ -22489,6 +22489,30 @@
   to = "/src/pages/online-coding-and-python-classes-in-wanneroo-perth.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-mawson-lakes-adelaide"
+  to = "/src/pages/best-coding-and-ai-classes-in-mawson-lakes-adelaide.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-mawson-lakes-adelaide.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-mawson-lakes-adelaide.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-melville-perth"
+  to = "/src/pages/ai-and-programming-classes-in-melville-perth.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-melville-perth.md"
+  to = "/src/pages/ai-and-programming-classes-in-melville-perth.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

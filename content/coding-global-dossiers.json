@@ -48595,5 +48595,117 @@
       "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
       "Any link with the City of Wanneroo, Main Roads WA or the WA Department of Education."
     ]
+  },
+  "best-coding-and-ai-classes-in-mawson-lakes-adelaide": {
+    "market": "Mawson Lakes",
+    "bodyClass": "cg-mwsl",
+    "pageType": "city",
+    "curriculumAuthority": "Mawson Lakes (SAL40844), City of Salisbury. ABS Census 2021 QuickStats (read 13 October 2026): 13,794 people; median age 33; 3,623 families; 5,498 private dwellings; 2.6 per household; university 1,323 (28.3%, SA 16.7%); bachelor or higher 3,959 (35.3%, SA 22.7%); flats 755 (14.9%, SA 6.8%); drove 5,108 (65.7%, SA 63.9%); aged 0-4 847; 5-9 912; 10-14 815. ABS SAL area 6.1623 sq km; council by ABS LGA point query (Salisbury). Adelaide Metro GTFS v1708, Wednesday 21 October 2026: 60 stop records inside the SAL polygon; 4056 scheduled visits (bus 3857, train 129, school bus route type 712 70); 30 routes; busiest Zone D Mawson Interchange (281); Mawson Lakes Railway Station. Neighbours (ABS touches): Cavan, Dry Creek, Globe Derby Park, Green Fields, Parafield, Pooraka. Adelaide daylight saving first Sunday October to first Sunday April (IANA).",
+    "localProject": "zipfile streaming. google_transit.zip v1708: 18,189,702 bytes; 12 members, 102,063,356 bytes uncompressed; stop_times.txt 60,937,589 bytes (8,509,615 compressed), 1,152,604 rows. Streaming csv.DictReader(io.TextIOWrapper(z.open(...), encoding=\"utf-8-sig\")) filtered to Mawson Lakes stop ids: 11,134 rows, tracemalloc peak 0.11 MB; z.read + decode + splitlines: peak 185.6 MB. Wednesday 21 Oct 2026 subset 4,056 rows.",
+    "requiredMentions": [
+      "Pooraka",
+      "755",
+      "847",
+      "Mawson Interchange",
+      "Mawson Lakes Railway Station",
+      "18,189,702",
+      "1,152,604",
+      "11,134",
+      "TextIOWrapper"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Mawson Lakes suburb and locality (SAL40844), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL40844"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
+      },
+      {
+        "claim": "Python documentation, zipfile: ZipFile.open() returns a file-like object for reading a member of the archive.",
+        "url": "https://docs.python.org/3/library/zipfile.html"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Adelaide, rule AS, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Passenger numbers at Mawson Lakes stops: not claimed; the timetable gives scheduled visits only.",
+      "That streaming is always faster: not claimed; the page measures memory, not speed.",
+      "School term dates for South Australia: not given; the official term-date pages refused automated access (HTTP 403) and were not circumvented.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Salisbury or Adelaide Metro."
+    ]
+  },
+  "ai-and-programming-classes-in-melville-perth": {
+    "market": "Melville",
+    "bodyClass": "cg-mlvl",
+    "pageType": "city",
+    "curriculumAuthority": "City of Melville (LGA55320), ABS Census 2021 QuickStats (read 12 October 2026): 103,523 people; median age 42; 28,676 families; 42,881 private dwellings; 3.4 bedrooms per dwelling; bachelor or higher 32,842 (38.4%, WA 23.8%); professionals 17,167 (33.2%, WA 22.0%); worked at home 5,168 (10.0%, WA 7.5%); semi-detached 7,179 (18.6%, WA 13.0%). ABS ERP 2025 (LGA 55320): 115,945. ABS LGA area 52.8505 sq km. 25 government schools inside the LGA polygon (our test), 18 primary. Main Roads Traffic Digest: 79 sites with LG_NAME Melville (C), 70 with weekday and weekend averages; Leach Hwy West of Moolyeen Rd MON_FRI 82,759, SAT_SUN 66,771 (2021/22); Leach Hwy West of Stock Rd PCT_HEAVY_MON_SUN 14.2 (2025/26). Bike Count Sites: Tompkins Park RSP W of Dunkley Av combined 814 (501 to South Perth, 313 to Fremantle). WA 2027 Term 3: Monday 19 July to Friday 24 September. Perth +8:00, last DST ended March 2009 (IANA 2026e).",
+    "localProject": "scikit-learn 1.7.2 HistGradientBoostingRegressor(max_iter=300, learning_rate=0.1, min_samples_leaf=10, random_state=0), features MON_FRI and PCT_HEAVY_MON_FRI, target SAT_SUN; train 931 Metropolitan sites outside Melville, test 70 Melville sites. Free: MAE 2,599, violations 2,070 of 11,060 grid steps (159-point weekday grid 1,000 to 80,000 at each site's heavy share), worst drop 7,719. monotonic_cst=[1,0]: MAE 2,232, 0 violations. Median-ratio baseline 0.801 x MON_FRI: MAE 1,673 (best). OLS through origin 0.767: MAE 2,034. Our calculation. Script: scratchpad au/b13/a_mlvl.py.",
+    "requiredMentions": [
+      "115,945",
+      "42,881",
+      "38.4% (32,842)",
+      "10.0% (5,168)",
+      "2,070",
+      "monotonic_cst",
+      "82,759",
+      "Tompkins Park",
+      "0.801"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Melville local government area (LGA55320), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA55320"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Melville LGA 55320, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.55320.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Main Roads Western Australia, Traffic Digest (count sites with average weekday, weekend and all-day volumes and heavy vehicle shares for the latest count year), Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-traffic-digest"
+      },
+      {
+        "claim": "Main Roads Western Australia, Bike Count Sites (permanent counters with volumes by direction for the latest count year), Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-bike-count-sites"
+      },
+      {
+        "claim": "WA Department of Education, Western Australian Schools Lists (Excel), currently active schools with student numbers as at the 2026 Semester 1 census, Creative Commons Attribution 4.0, downloaded 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/western-australian-schools-lists"
+      },
+      {
+        "claim": "scikit-learn 1.7.2 documentation, HistGradientBoostingRegressor monotonic_cst parameter.",
+        "url": "https://scikit-learn.org/stable/modules/ensemble.html#monotonic-constraints"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 Term 1 Monday 1 February to Friday 9 April; Term 3 Monday 19 July to Friday 24 September.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth at +8:00 on rule AW, whose last daylight saving period ended on the last Sunday of March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Applecross figures (it has its own page in the City of Melville): kept off this council page.",
+      "Claims that the model or ratio forecasts future traffic: not made; the test compares published averages.",
+      "Melville suburb (SAL) figures: the page uses the council area only.",
+      "Naming individual schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Melville, Main Roads WA or the WA Department of Education."
+    ]
   }
 }

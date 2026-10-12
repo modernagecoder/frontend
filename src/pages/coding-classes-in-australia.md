@@ -565,6 +565,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Ellenbrook](/online-coding-and-python-classes-in-ellenbrook-perth)
 - [AI and programming classes in Cockburn](/ai-and-programming-classes-in-cockburn-perth)
 - [Coding and AI classes in Willetton](/best-coding-and-ai-classes-in-willetton-perth)
+- [Vibe coding and AI agent classes in Applecross](/vibe-coding-and-ai-agents-classes-in-applecross-perth)
 <!-- AU-LINKS -->
 
 
