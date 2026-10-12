@@ -47975,5 +47975,58 @@
       "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
       "Any link with the City of Joondalup, Main Roads WA or the WA Department of Education."
     ]
+  },
+  "ai-and-programming-classes-in-cockburn-perth": {
+    "market": "Cockburn",
+    "bodyClass": "cg-ckbn",
+    "pageType": "city",
+    "curriculumAuthority": "City of Cockburn (LGA51820). ABS Census 2021 QuickStats (read 12 October 2026): 118,091 people; median age 37; 32,804 families; 48,394 private dwellings; 2.6 per household; separate houses 35,391 (81.3%, WA 79.7%); drove 40,804 (64.9%, WA 62.1%); train 1,685 (2.7%, WA 1.8%); bachelor or higher 23,300 (24.5%, WA 23.8%); aged 0-4 7,881; 5-9 7,762; 10-14 7,328; 15-19 6,500. ABS LGA area 167.9415 sq km. Neighbouring LGAs (ABS touches): Armadale, Canning, Fremantle, Gosnells, Kwinana, Melville, Serpentine-Jarrahdale. PTA-001: 695 records inside the LGA polygon (Standard 647, School 42, Rail 5, Transwa 1); rail platform records Cockburn Stn 1-3, Aubin Grove Stn 1-2; bay Y 129; suburb labels Hamilton Hill 82, Spearwood 62, Bibra Lake 61, Success 58, Coolbellup 51; Rockingham Rd 47. WA 2027 Term 4: Monday 11 October to Thursday 16 December. Perth no daylight saving since March 2009 (IANA). No other AU page covers Cockburn.",
+    "localProject": "Bias-variance with kNN. 695 PTA-001 records inside LGA51820; target bay (Y 129, N 566; majority 81.44%). Flat projection to metres. Majority vote of k nearest (ties to N). Training accuracy (self included) and leave-one-out: k1 100% / 84.89%; k3 92.37 / 83.74; k5 89.06 / 85.18; k9 85.90 / 84.32; k15 82.59 / 81.15; k25 and above 81.44 / 81.44. Bootstrap (200 resamples, default_rng(2026), self copies excluded): share of stops whose prediction flips at least once k1 52.2%, k5 62.4%, k15 42.5%, k45 3.7%.",
+    "requiredMentions": [
+      "118,091",
+      "48,394",
+      "6,500",
+      "Aubin Grove",
+      "Hamilton Hill",
+      "Rockingham Road",
+      "85.2%",
+      "84.9%",
+      "bias-variance"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Cockburn local government area (LGA51820), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA51820"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Public Transport Authority of Western Australia, Stops (PTA-001), Creative Commons Attribution 4.0, published on data.wa.gov.au; 16,822 stop records read from the SLIP map service on 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/public-transport-authority-stops-bus-stops"
+      },
+      {
+        "claim": "scikit-learn documentation, Nearest Neighbors: classification by majority vote of the k nearest neighbours.",
+        "url": "https://scikit-learn.org/stable/modules/neighbors.html"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 public school terms as gazetted.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth follows rule AW, whose last daylight saving period ended in March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That location causes a stop to have a bay: not claimed; the model only finds a weak spatial pattern.",
+      "That the bay field matches what is on the street today: not claimed; it describes the file.",
+      "Figures for individual Cockburn suburbs from the Census: not used; council figures only.",
+      "Passenger or service numbers: not claimed.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Cockburn or the Public Transport Authority."
+    ]
   }
 }
