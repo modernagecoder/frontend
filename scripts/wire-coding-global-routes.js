@@ -1020,6 +1020,7 @@ const MARKETS = [
   ['vibe-coding-and-ai-agents-classes-in-aspley-brisbane', 'Aspley, Brisbane'],
   ['online-coding-and-python-classes-in-forest-lake-brisbane', 'Forest Lake, Brisbane'],
   ['ai-and-programming-classes-in-browns-plains-brisbane', 'Browns Plains, Logan'],
+  ['best-coding-and-ai-classes-in-subiaco-perth', 'Subiaco, Perth'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

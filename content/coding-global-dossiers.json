@@ -47762,5 +47762,57 @@
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with Logan City Council or Translink."
     ]
+  },
+  "best-coding-and-ai-classes-in-subiaco-perth": {
+    "market": "Subiaco",
+    "bodyClass": "cg-sbia",
+    "pageType": "city",
+    "curriculumAuthority": "Subiaco (SAL51416), City of Subiaco. ABS Census 2021 QuickStats (read 12 October 2026): 9,940 people; median age 40; 2,549 families; 5,333 private dwellings; 2.1 per household; flats 1,869 (41.7%, WA 6.5%); bachelor or higher 4,795 (56.2%, WA 23.8%); professionals 2,676 (48.4%, WA 22.0%); train 342 (6.2%, WA 1.8%); bus 473 (8.5%, WA 2.9%); worked at home 666 (12.0%, WA 7.5%); aged 5-9 446; 10-14 515; 15-19 379. ABS SAL area 3.1292 sq km; council verified by ABS LGA point query (Subiaco). PTA-001 stops (CC BY 4.0, read 12 Oct 2026): 58 records inside the SAL polygon (Standard 50, Rail 5, Standard/CAT 3); rail platform records at Subiaco Stn (1, 2), Daglish Stn (1, 2), West Leederville Stn (2); suburb labels SUBIACO 52, DAGLISH 5, WEST LEEDERVILLE 1; 53 records statewide labelled SUBIACO; Bagot Rd 12 records. WA 2027 Term 1: Monday 1 February to Friday 9 April. Perth: no daylight saving since March 2009 (IANA).",
+    "localProject": "Constant columns. PTA-001, 29 attribute columns. Subiaco 58 records: 5 single-valued (status, accessible, shelter, area_lg, sunphear). Statewide 16,822 records: 2 single-valued (accessible Y x 16,822; shelter Y x 16,822); status Active 16,821 / Planned 1; area_lg 17 values; sunphear 0 x 16,718, 1 x 104; stoptype 8 values (Subiaco 3). Column meanings not documented in the catalogue; page describes contents only.",
+    "requiredMentions": [
+      "5,333",
+      "1,869",
+      "379",
+      "Daglish",
+      "Bagot Road",
+      "16,822",
+      "16,821 Active",
+      "17 service areas",
+      "sunphear"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Subiaco suburb and locality (SAL51416), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL51416"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Public Transport Authority of Western Australia, Stops (PTA-001), Creative Commons Attribution 4.0, published on data.wa.gov.au; 16,822 stop records read from the SLIP map service on 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/public-transport-authority-stops-bus-stops"
+      },
+      {
+        "claim": "pandas documentation, DataFrame.nunique: count distinct elements per column, with the dropna option.",
+        "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.nunique.html"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 public school terms as gazetted.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth follows rule AW, whose last daylight saving period ended in March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That every Subiaco stop has a shelter or is accessible: not claimed; the page only says those columns hold Y on every record.",
+      "The meaning of the sunphear and similar coded columns: not claimed; no data dictionary is published with the file.",
+      "Passenger or service numbers at Subiaco stops: not claimed.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Subiaco, the Public Transport Authority or the WA Department of Education."
+    ]
   }
 }
