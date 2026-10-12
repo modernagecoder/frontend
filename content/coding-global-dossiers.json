@@ -49001,5 +49001,54 @@
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with the City of Tea Tree Gully or Adelaide Metro."
     ]
+  },
+  "ai-and-programming-classes-in-marion-adelaide": {
+    "market": "Marion",
+    "bodyClass": "cg-mrin",
+    "pageType": "city",
+    "curriculumAuthority": "Marion (SAL40830), City of Marion. ABS Census 2021 QuickStats (read 13 October 2026): 4,101 people; median age 43; 1,052 families; 1,790 private dwellings; 2.3 per household; train to work 63 (3.5%, SA 0.6%); semi-detached 504 (30.7%, SA 14.6%); bachelor or higher 996 (27.8%, SA 22.7%); professionals 491 (27.3%, SA 21.5%); aged 5-9 154; 10-14 171; 15-19 274; 85+ 278. ABS SAL area 2.004 sq km; council by ABS LGA point query. Adelaide Metro GTFS v1708: Wednesday 21 Oct 2026 23 stop records, 1593 visits (bus 1444, train 117, school 712 31, regional 701 1), 30 routes; Stops 29B, 29C, 29D Sturt Rd North side 200 each; Stop 24 Marion Rd West side 73; Marion Railway Station. Neighbours (ABS touches): Ascot Park, Bedford Park, Mitchell Park, Oaklands Park, Park Holme, Seacombe Gardens, Sturt.",
+    "localProject": "Prompt chaining. Marion stop_times rows all service days 4,751, train 266 (5.6%). Chained: 23 stop records; Wednesday 21 Oct 2026 1,593 visits; modes bus 1,444, train 117, school 712 31, regional 701 1; train share 117 / 1,593 = 7.3%. The model steps are our scripts.",
+    "requiredMentions": [
+      "1,790",
+      "504",
+      "274",
+      "Sturt Road",
+      "Marion Railway Station",
+      "Oaklands Park",
+      "7.3%",
+      "5.6%",
+      "prompt chaining"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Marion suburb and locality (SAL40830), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL40830"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
+      },
+      {
+        "claim": "Anthropic, Claude prompting best practices, Chain complex prompts: explicit prompt chaining, breaking a task into sequential calls, is useful when you need to inspect intermediate outputs.",
+        "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#chain-complex-prompts"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Adelaide, rule AS, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Passenger numbers or the share of travellers using trains: not claimed; the page measures scheduled visits.",
+      "Any transcript from a commercial AI model: not claimed; the model steps are our scripts.",
+      "Figures for the City of Marion as a whole: not used.",
+      "School term dates: not given; official SA term-date pages refused automated access (HTTP 403).",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Marion or Adelaide Metro."
+    ]
   }
 }
