@@ -49420,5 +49420,80 @@
       "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
       "Any link with the ACT Government."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-molonglo-canberra": {
+    "market": "Molonglo",
+    "bodyClass": "cg-molo",
+    "pageType": "city",
+    "curriculumAuthority": "Molonglo SA3 80110, ABS Census 2021 QuickStats (read 13 October 2026): 11,435 people; median age 31; 3,100 families; 4,601 private dwellings; 3.0 bedrooms per dwelling; flat or apartment 1,471 (35.2%, ACT 19.4%); separate houses 1,704 (40.8%); bachelor or higher 4,866 (55.5%, ACT 42.9%); aged 5-9 1,023 (8.9%, ACT 6.4%); professionals 2,726 (39.0%, ACT 31.4%); couple families with children 1,588 (51.2%). ABS ERP (SA3 80110): 2024 16,180; 2025 18,064 (difference 1,884, 11.6%, our calculation; largest growth of the eight SA3s on these pages). ABS SA3 area 27.1507 sq km; 5 named suburbs by our SAL-centroid test. ACT open data (CC BY 4.0, 13 October 2026): artworks 49 (45 sculpture); shelters 85 (Woden 24, Weston Creek 16, North Canberra 30); ACT NOWaste 5 Molonglo suburbs, all Monday. ACT 2027 Term 3 Tuesday 20 July to Friday 24 September. Canberra = Australia/Sydney (IANA 2026e).",
+    "localProject": "Socrata API for ACTGOV Tree Assets (9qch-rvqr), where suburb in Coombs, Denman Prospect, Molonglo, Whitlam, Wright, measured 13 October 2026: paging 1,000 rows per call 22 calls, 17,689,823 bytes, 107.6 s, 21,041 rows; one call without $limit 1,000 rows, 838,642 bytes; $select=suburb,count(*) $group=suburb 1 call, 192 bytes, 1.38 s: Coombs 5,018, Denman Prospect 6,938, Molonglo 185, Whitlam 4,842, Wright 4,058. Grouped by label 847 bytes: Denman Prospect exotic 4,800, native 1,511. Ratio of bytes about 92,000. Our measurement. Script: scratchpad au/b16/a_molo.py.",
+    "requiredMentions": [
+      "18,064",
+      "4,601",
+      "35.2% (1,471)",
+      "55.5% (4,866)",
+      "17,689,823 bytes",
+      "192 bytes",
+      "Denman Prospect 6,938",
+      "45 are sculptures",
+      "1,884 residents"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Molonglo statistical area level 3 (SA3 80110), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/80110"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by ASGS 2021 regions (ABS_ANNUAL_ERP_ASGS2021), SA3 80110 Molonglo, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_ASGS2021,1.2.0/ERP.SA3.80110.A?startPeriod=2024&format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Statistical Area Level 3 boundary service (district outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SA3/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines, used to place each suburb in a district).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Tree Assets (data.act.gov.au 9qch-rvqr), Creative Commons Attribution 4.0, queried through the public API on 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/9qch-rvqr"
+      },
+      {
+        "claim": "Socrata SODA API documentation, $limit parameter: \"defaults to 1,000 records per request\".",
+        "url": "https://dev.socrata.com/docs/queries/limit.html"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Artwork Assets (data.act.gov.au a69k-qah8), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/a69k-qah8"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Shelter Assets (data.act.gov.au pf5q-vheg), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/pf5q-vheg"
+      },
+      {
+        "claim": "ACT Government open data, ACT Suburb Next Garbage, Recycling and Green Waste Collection Dates (data.act.gov.au jzzy-44un), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/jzzy-44un"
+      },
+      {
+        "claim": "ACT Government open data, ACT Education Public Holidays and Term Dates (data.act.gov.au 4kcq-44ad): 2027 Term 1 begins Monday 1 February (new students), Canberra Day Monday 8 March, Term 3 Tuesday 20 July to Friday 24 September, Term 4 Tuesday 12 October to Friday 17 December.",
+        "url": "https://www.data.act.gov.au/d/4kcq-44ad"
+      },
+      {
+        "claim": "IANA time zone database 2026e, backward file: Australia/Canberra links to Australia/Sydney.",
+        "url": "https://data.iana.org/time-zones/tzdb/backward"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: rule AN, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Network speeds or API performance in general: not claimed; times are one measurement on one connection.",
+      "Molonglo suburb (SAL) Census figures: not used; the page uses the SA3 district.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the ACT Government."
+    ]
   }
 }

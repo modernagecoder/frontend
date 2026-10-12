@@ -581,6 +581,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Norwood](/online-coding-and-python-classes-in-norwood-adelaide)
 - [AI and programming classes in Unley](/ai-and-programming-classes-in-unley-adelaide)
 - [Coding and AI classes in Burnside](/best-coding-and-ai-classes-in-burnside-adelaide)
+- [Vibe coding and AI agent classes in Golden Grove](/vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide)
 <!-- AU-LINKS -->
 
 

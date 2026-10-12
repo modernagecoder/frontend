@@ -344,7 +344,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 316 | vibe-coding-and-ai-agents-classes-in-glenelg-adelaide (glng, #792732) | cg- district page | 2,442 | 2.1% vs ai-and-programming-classes-in-marion-adelaide | an agent test that compares the code with itself passes while the tram count is zero | tautological tests | 229053f2 |
 | 317 | online-coding-and-python-classes-in-norwood-adelaide (nrwd, #6A5D35) | cg- district page | 2,338 | 2.1% vs ai-and-programming-classes-in-marion-adelaide | one f-string with = explains a zero stop-visit count | f-string self-documenting debugging | 2f6863fd |
 | 318 | ai-and-programming-classes-in-unley-adelaide (unly, #9B293A) | cg- district page | 2,425 | 2.1% vs ai-and-programming-classes-in-marion-adelaide | the walrus operator removes a repeated call when filtering busy stops | walrus operator (assignment expressions) | 63772ecd |
-| 319 | best-coding-and-ai-classes-in-burnside-adelaide (brns, #365A3F) | cg- district page | 2,383 | 2.2% vs vibe-coding-and-ai-agents-classes-in-toowong-brisbane | a data check written as assert disappears under python -O | asserts removed under -O, assert vs raise | (this commit) |
+| 319 | best-coding-and-ai-classes-in-burnside-adelaide (brns, #365A3F) | cg- district page | 2,383 | 2.2% vs vibe-coding-and-ai-agents-classes-in-toowong-brisbane | a data check written as assert disappears under python -O | asserts removed under -O, assert vs raise | be64aa85 |
+| 320 | vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide (gdgv, #616916) | cg- district page | 2,459 | 1.8% vs vibe-coding-and-ai-agents-classes-in-armadale-perth | a vague question about Golden Grove buses gets six true answers | vague vs specific prompts | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
