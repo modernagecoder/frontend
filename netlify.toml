@@ -22633,6 +22633,18 @@
   to = "/src/pages/online-coding-and-python-classes-in-tuggeranong-canberra.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-woden-canberra"
+  to = "/src/pages/ai-and-programming-classes-in-woden-canberra.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-woden-canberra.md"
+  to = "/src/pages/ai-and-programming-classes-in-woden-canberra.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

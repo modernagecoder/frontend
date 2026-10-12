@@ -49284,5 +49284,73 @@
       "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
       "Any link with the ACT Government or Transport Canberra."
     ]
+  },
+  "ai-and-programming-classes-in-woden-canberra": {
+    "market": "Woden",
+    "bodyClass": "cg-wodn",
+    "pageType": "city",
+    "curriculumAuthority": "Woden Valley SA3 80109, ABS Census 2021 QuickStats (read 13 October 2026): 39,279 people; median age 39; 10,505 families; 17,065 private dwellings; 2.4 people per household; bachelor or higher 16,385 (50.4%, ACT 42.9%); flat or apartment 3,258 (21.3%, ACT 19.4%); bus to work 1,130 (5.4%, ACT 3.6%); walked 5.1% (ACT 4.0%); managers 3,927 (18.9%, ACT 17.9%). ABS ERP 2025 (SA3 80109): 41,600. ABS SA3 area 28.6004 sq km; 12 named suburbs by our SAL-centroid test. ACT open data (CC BY 4.0, 13 October 2026): tree records 73,127 (33,672 native, 24,507 exotic); artworks 16 (8 street art). ACT 2027 Term 3 Tuesday 20 July to Friday 24 September. Canberra = Australia/Sydney (IANA 2026e).",
+    "localProject": "ACT Registered Vehicles by Make, Model and Suburb (data_as_at 2026-09-01; counts of 10 or less suppressed): 6,936 rows, 118 suburbs x 348 make-model-emissions items = 41,064 cells, 6,936 observed. Leave-one-cell-out on Woden 12 suburbs, 590 observed cells (median 17): item-item cosine CF (similarities from other suburbs) k=5 MAE 6.52; popularity baseline (item ACT share x suburb remaining total) 9.60; suburb mean 10.12. k chosen on 4,498 cells in Belconnen, Tuggeranong, Gungahlin: k=3 6.61, 5 6.60, 10 6.69, 20 7.03, 50 8.68. Largest Woden cell: Phillip, Toyota Corolla, CO2 - B, 172. Our calculation. Script: scratchpad au/b16/a_wodn.py.",
+    "requiredMentions": [
+      "Woden Town Park",
+      "17,065",
+      "50.4% (16,385)",
+      "5.4% (1,130)",
+      "6.52 vehicles",
+      "9.60",
+      "41,064",
+      "4,498 cells",
+      "73,127"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Woden Valley statistical area level 3 (SA3 80109), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/80109"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by ASGS 2021 regions (ABS_ANNUAL_ERP_ASGS2021), SA3 80109 Woden Valley, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_ASGS2021,1.2.0/ERP.SA3.80109.A?startPeriod=2024&format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Statistical Area Level 3 boundary service (district outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SA3/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines, used to place each suburb in a district).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ACT Government open data, ACT Registered Vehicles by Make, Model and Suburb (data.act.gov.au h4vn-y97q), Creative Commons Attribution 4.0, data as at 1 September 2026, counts of 10 or less suppressed, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/h4vn-y97q"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Tree Assets (data.act.gov.au 9qch-rvqr), Creative Commons Attribution 4.0, grouped counts by suburb queried 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/9qch-rvqr"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Artwork Assets (data.act.gov.au a69k-qah8), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/a69k-qah8"
+      },
+      {
+        "claim": "ACT Government open data, ACT Education Public Holidays and Term Dates (data.act.gov.au 4kcq-44ad): 2027 Term 1 begins Monday 1 February (new students), Canberra Day Monday 8 March, Term 3 Tuesday 20 July to Friday 24 September, Term 4 Tuesday 12 October to Friday 17 December.",
+        "url": "https://www.data.act.gov.au/d/4kcq-44ad"
+      },
+      {
+        "claim": "IANA time zone database 2026e, backward file: Australia/Canberra links to Australia/Sydney.",
+        "url": "https://data.iana.org/time-zones/tzdb/backward"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: rule AN, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Totals of registered vehicles by suburb or district: not given; suppressed rows make any sum a lower bound, and parts are never summed into totals.",
+      "Claims about which suburbs own more electric or low-emission vehicles: not made.",
+      "Woden Valley suburb (SAL) Census figures: not used; the page uses the SA3 district.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the ACT Government or Access Canberra."
+    ]
   }
 }
