@@ -22045,6 +22045,18 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-indooroopilly-brisbane.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-chermside-brisbane"
+  to = "/src/pages/online-coding-and-python-classes-in-chermside-brisbane.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-chermside-brisbane.md"
+  to = "/src/pages/online-coding-and-python-classes-in-chermside-brisbane.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

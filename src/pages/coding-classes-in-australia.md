@@ -529,6 +529,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Maroondah](/online-coding-and-python-classes-in-maroondah-melbourne)
 - [AI and programming classes in Kingston](/ai-and-programming-classes-in-kingston-melbourne)
 - [Coding and AI classes in Bayside](/best-coding-and-ai-classes-in-bayside-melbourne)
+- [Vibe coding and AI agent classes in Glen Eira](/vibe-coding-and-ai-agents-classes-in-glen-eira-melbourne)
 <!-- AU-LINKS -->
 
 

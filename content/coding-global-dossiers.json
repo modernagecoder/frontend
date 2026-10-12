@@ -46534,5 +46534,52 @@
       "Sums of Census age bands into a child total: not computed.",
       "Any affiliation with Brisbane City Council, Translink or the Queensland Department of Education."
     ]
+  },
+  "online-coding-and-python-classes-in-chermside-brisbane": {
+    "market": "Chermside",
+    "bodyClass": "cg-chmd",
+    "pageType": "city",
+    "curriculumAuthority": "Chermside (SAL30593), ABS Census 2021 QuickStats (read 12 October 2026): 11,426 people; median age 35; 2,752 families; 6,083 private dwellings; 1.9 people per household; 1.2 vehicles per dwelling; aged 5-9 432 (3.8%, Queensland 6.4%); flats 3,164 (58.7%, Queensland 12.5%); semi-detached/townhouse 1,068 (19.8%, Queensland 11.7%); separate houses 1,153 (21.4%, Queensland 74.8%); car as driver 2,860 (48.7%, Queensland 59.5%). ABS SAL area 3.9837 square kilometres. Translink SEQ GTFS, Wednesday 21 October 2026: 72 stop records in the SAL polygon (60 distinct names); 4,038 stop visits, all bus; 23 routes; Chermside bus station (place_intche) grouping Chermside interchange and Chermside Shopping Centre interchange A-H; no train stops. Queensland 2027 Term 1: Wednesday 27 January to Thursday 25 March. Brisbane: no daylight saving since March 1992 (IANA 2026e).",
+    "localProject": "Prefix search over the 60 distinct Chermside stop names. Simulated typing of \"Gympie Rd at Chermside\": 22 keystrokes, 150 ms per letter, 450 ms after each space, last key at 4,050 ms. Searches sent: no debounce 22; 200 ms 4; 300 ms 4 (prefixes \"Gympie \" 9 matches, \"Gympie Rd \" 9, \"Gympie Rd at \" 7, full name 2); 500 ms 1. Script: scratchpad au/b11/p3_chm.py.",
+    "requiredMentions": [
+      "11,426",
+      "6,083",
+      "58.7% (3,164)",
+      "19.8% (1,068)",
+      "4,038",
+      "23 routes",
+      "Chermside bus station",
+      "4,050 ms"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Chermside suburb and locality (SAL30593), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL30593"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland term dates (Term 1 Wednesday 27 January to Thursday 25 March).",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Typing speeds of real users: not claimed; the keystroke timing is our simulation.",
+      "Rider numbers at Chermside stops: not claimed; the feed gives scheduled stop visits only.",
+      "Naming schools or the shopping centre owner: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Totals built by adding Census rows: not computed.",
+      "Any link with Brisbane City Council, Translink or the Queensland Department of Education."
+    ]
   }
 }
