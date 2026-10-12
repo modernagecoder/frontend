@@ -314,7 +314,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 278 | ai-and-programming-classes-in-caroline-springs-melbourne (cspr, #416D50) | cg- district page | 2,772 | 2.4% vs online-coding-and-python-classes-in-epping-vic-melbourne | Mean shift clustering of Caroline Springs bus stops by bandwidth | mean shift clustering bandwidth on bus stops | 883e57b6 |
 | 279 | best-coding-and-ai-classes-in-sunbury-melbourne (sbry, #96522B) | cg- district page | 2,742 | 2.2% vs best-coding-and-ai-classes-in-pakenham-melbourne | Binary lifting and lowest common ancestor on the train network as a tree | binary lifting and lowest common ancestor on the train network tree | 309e44d1 |
 | 280 | vibe-coding-and-ai-agents-classes-in-south-morang-melbourne (smrg, #623445) | cg- district page | 2,738 | 2.2% vs online-coding-and-python-classes-in-epping-vic-melbourne | Entity linking of free-text station names with refusal for an agent tool | entity linking of free-text station names to canonical stop IDs (refuse when ambiguous) | afcffe6b |
-| 281 | online-coding-and-python-classes-in-epping-vic-melbourne (epvc, #842D3B) | cg- district page | 2,652 | 2.4% vs ai-and-programming-classes-in-caroline-springs-melbourne | pandas melt of station patronage time bands, wide to long | pandas melt wide to long | (this commit) |
+| 281 | online-coding-and-python-classes-in-epping-vic-melbourne (epvc, #842D3B) | cg- district page | 2,652 | 2.4% vs ai-and-programming-classes-in-caroline-springs-melbourne | pandas melt of station patronage time bands, wide to long | pandas melt wide to long | 8d48ecc1 |
+| 282 | ai-and-programming-classes-in-reservoir-melbourne (rsvr, #4D240C) | cg- district page | 2,688 | 2% vs best-coding-and-ai-classes-in-frankston-melbourne | Gradient checking of hand-written gradient descent on station entries | gradient checking analytic vs numerical | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
