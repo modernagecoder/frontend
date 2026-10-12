@@ -522,6 +522,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in the City of Manningham](/ai-and-programming-classes-in-manningham-melbourne)
 - [Coding and AI classes in Boroondara](/best-coding-and-ai-classes-in-boroondara-melbourne)
 - [Vibe coding and AI agents classes in Wyndham](/vibe-coding-and-ai-agents-classes-in-wyndham-melbourne)
+- [Online coding and Python classes in Casey](/online-coding-and-python-classes-in-casey-melbourne)
 <!-- AU-LINKS -->
 
 
