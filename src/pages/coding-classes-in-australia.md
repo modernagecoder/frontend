@@ -579,6 +579,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Mawson Lakes](/best-coding-and-ai-classes-in-mawson-lakes-adelaide)
 - [Vibe coding and AI agent classes in Glenelg](/vibe-coding-and-ai-agents-classes-in-glenelg-adelaide)
 - [Online coding and Python classes in Norwood](/online-coding-and-python-classes-in-norwood-adelaide)
+- [AI and programming classes in Unley](/ai-and-programming-classes-in-unley-adelaide)
 <!-- AU-LINKS -->
 
 
