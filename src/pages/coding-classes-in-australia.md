@@ -573,6 +573,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Canning Vale](/online-coding-and-python-classes-in-canning-vale-perth)
 - [AI and programming classes in Baldivis](/ai-and-programming-classes-in-baldivis-perth)
 - [Coding and AI classes in Rockingham](/best-coding-and-ai-classes-in-rockingham-perth)
+- [Vibe coding and AI agents classes in Stirling](/vibe-coding-and-ai-agents-classes-in-stirling-perth)
 <!-- AU-LINKS -->
 
 
