@@ -47124,5 +47124,119 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with the City of Melton, the Victorian Department of Education or the Department of Transport and Planning."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-toowong-brisbane": {
+    "market": "Toowong",
+    "bodyClass": "cg-toow",
+    "pageType": "city",
+    "curriculumAuthority": "Toowong (SAL32854), ABS Census 2021 QuickStats (read 12 October 2026): 12,556 people; median age 30; 2,900 families; 6,203 private dwellings; 2.1 per household; 1.4 vehicles per dwelling; flats 3,642 (67.9%, Qld 12.5%); university 2,358 (49.5% of those attending education, Qld 14.2%); train to work 421 (5.7%, Qld 1.1%); bus 301 (4.1%, Qld 1.7%); bachelor or higher 5,900 (53.4%, Qld 21.9%); aged 5-9 474; 10-14 533. ABS SAL area 4.0658 sq km. Translink GTFS Wednesday 21 October 2026: 70 stop records with service inside the SAL polygon (our check); 3235 scheduled stop visits (bus 3046, train 189); 35 routes; busiest Moggill Rd at BBC, stop 16 (302). BCC Library Locations: Toowong Library at Toowong Village. Qld 2027 Term 2: Monday 12 April to Friday 25 June. Brisbane no daylight saving since March 1992 (IANA).",
+    "localProject": "Chain-of-thought / visible working. Toowong station platforms 600287-600290 (parent place_twgsta), Translink SEQ GTFS feed 20261007-20261206 (CC BY 4.0). stop_times rows at platforms 2,362; active on Wednesday 21 Oct 2026 (calendar + calendar_dates) 189 (direction 0: 96, direction 1: 93); departures 07:00:00-08:59:59: 29; direction 1 (towards city, headsigns Bowen Hills 13, Kippa-Ring 4, Caboolture 3, Nambour 1) 21; direction 0 outbound 8 (Springfield Central 4, Ipswich 4). Without the date filter 308; without the direction filter 29. First city-bound 07:03, last 08:56. Both agents are our scripts, not model transcripts.",
+    "requiredMentions": [
+      "6,203",
+      "3,642",
+      "7:03am",
+      "Auchenflower",
+      "2,362",
+      "Moggill Rd at BBC",
+      "Toowong Library",
+      "Kippa-Ring",
+      "four filters"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Toowong suburb and locality (SAL32854), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL32854"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities boundary service, used for our point-in-boundary checks and suburb areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026, downloaded October 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Brisbane City Council open data, Library Locations (Creative Commons Attribution 4.0), dataset last modified 17 April 2025.",
+        "url": "https://data.brisbane.qld.gov.au/explore/dataset/libraries-information-location/"
+      },
+      {
+        "claim": "Jason Wei and others (2022), Chain-of-Thought Prompting Elicits Reasoning in Large Language Models, arXiv 2201.11903.",
+        "url": "https://arxiv.org/abs/2201.11903"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Queensland state school term dates.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Passenger numbers on Toowong trains or buses: not claimed; the feed gives scheduled services only.",
+      "That written reasoning steps always reflect what a model actually did: rejected; the page says the steps must be rechecked.",
+      "Any transcript from a commercial AI model: not claimed; both agents are our scripts.",
+      "University enrolment figures for any named institution: not used.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Brisbane City Council, Translink or Queensland Rail."
+    ]
+  },
+  "best-coding-and-ai-classes-in-sunbury-melbourne": {
+    "market": "Sunbury",
+    "bodyClass": "cg-sbry",
+    "pageType": "city",
+    "curriculumAuthority": "Sunbury, ABS Census 2021 QuickStats, Sunbury suburb SAL22391 (read 11 October 2026): 38,851 people; median age 38; 10,948 families; 15,311 private dwellings; 2.6 people per household; separate house 88.5% (12,496; Victoria 73.4%); flat or apartment 7.3% (1,033; Victoria 12.1%); car as driver 55.8% (11,129; Victoria 49.9%); train 1.6% (315; Victoria 1.6%); worked at home 21.7% (4,324; Victoria 25.7%; lockdown Census). ABS SAL area 132.22 square kilometres, City of Hume. Sunbury station 691,050 entries FY24-25 (rank 57 of 222; FY18-19 803,350). Metro train GTFS Wed 28 Oct 2026: 73 departures from Sunbury, first 04:14, last 23:26. Victorian School Locations 2025: 14 open schools (Government 9, Catholic 4, Independent 1), including Goonawarra Primary School, Sunbury College and Sunbury Downs Secondary College. Victorian 2027 Term 3: Monday 12 July to Friday 17 September. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Binary lifting and lowest common ancestor. Metro train GTFS Schedule (downloaded 10 October 2026), Wednesday 28 October 2026: 225 stations, 263 undirected consecutive-stop links from 2,742 trips (replacement buses excluded). Breadth-first (fewest-stop) spanning tree rooted at Town Hall: 224 edges, max depth 24 (Stony Point). Sunbury depth 13 (Diggers Rest, Watergardens, Keilor Plains, St Albans, Ginifer, Albion, Sunshine, West Footscray, Footscray, Arden, Parkville, State Library, Town Hall). LOG 5. All 25,200 ordered pairs: naive 373,890 steps (14.84 per query), lifting 155,643 (6.18); answers agree on all. LCA(Sunbury, x): Town Hall 164, Footscray 48, others 12 on the Sunbury path. Tree vs true hops from Sunbury: Flinders Street 18/12, Southern Cross 19/11, Footscray 9/9, Craigieburn 21/21, Werribee 15/15, Pakenham 34/33, Frankston 28/27. Script: scratchpad au/b10/sbry.py, sbry2.py.",
+    "requiredMentions": [
+      "38,851",
+      "10,948",
+      "15,311",
+      "132.22 square kilometres",
+      "691,050",
+      "803,350",
+      "373,890",
+      "155,643",
+      "Goonawarra Primary School",
+      "Sunbury Downs Secondary College"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Sunbury suburb (SAL22391).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL22391"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan train feed downloaded 10 October 2026, calendar 9 October to 31 December 2026.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL22391 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Shortest journey times or real interchange advice: not given; the tree is a fewest-stop construction rooted at Town Hall and overstates some distances.",
+      "Running times in milliseconds: not measured; only steps were counted.",
+      "Reasons for the fall in Sunbury station entries since FY18-19: not claimed.",
+      "Names of Catholic, independent or specialist schools: not used; counted only.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Hume City Council, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
   }
 }

@@ -22177,6 +22177,30 @@
   to = "/src/pages/ai-and-programming-classes-in-caroline-springs-melbourne.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-toowong-brisbane"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-toowong-brisbane.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-toowong-brisbane.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-toowong-brisbane.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-sunbury-melbourne"
+  to = "/src/pages/best-coding-and-ai-classes-in-sunbury-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-sunbury-melbourne.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-sunbury-melbourne.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
