@@ -1,0 +1,252 @@
+---
+title: "Vibe Coding and AI Agents Classes in Aspley, Brisbane"
+description: "Live online vibe coding and AI agent classes for Aspley teenagers and adults, plus Scratch and Python for children from six, taught in small groups or one to one."
+canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-aspley-brisbane
+source: src/pages/vibe-coding-and-ai-agents-classes-in-aspley-brisbane.html
+---
+> By making the agent explain its own code one line at a time, the rubber-duck method, and checking each explanation against what the line really does. Live online classes teach this alongside vibe coding and agent projects. Aspley counted 12,871 residents in the 2021 Census.
+
+[Home](/) / [Australia](/coding-classes-in-australia) / [Queensland](/coding-and-ai-classes-in-queensland) / [Brisbane](/best-coding-classes-in-brisbane) / Aspley
+
+Aspley, City of Brisbane, Queensland / Live online
+
+# Vibe coding and AI agent classes in Aspley
+
+**How can Aspley learners catch bugs in code an AI agent writes?** By making the agent explain its own code one line at a time, the rubber-duck method, and checking each explanation against what the line really does. Live online classes teach this alongside vibe coding and agent projects. Aspley counted 12,871 residents in the 2021 Census.
+
+The question was simple: how many of Aspley's 16 council parks have a bus stop within 400 metres? The agent's JavaScript ran without an error and answered 1. Asked to talk through its code line by line, it stopped at the second loop and spotted why. The corrected answer is 15.
+
+Facts last verified 12 October 2026. Teaching is online; no Aspley branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+
+## Courses for coding with an AI partner
+
+The park project needs loops, a distance formula and the patience to read code aloud. These courses build all of that; the trial lesson picks the starting point.
+
+- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): AI-assisted app building with every generated line read and explained.
+- [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course) (Ages 13 to 17): Using AI tools well, including checking and correcting their output.
+- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Adults 18 and over): Coding agents on real projects, with review habits that catch silent bugs.
+- [Generative AI Course](/courses/complete-generative-ai-masterclass-college) (University and adult): Generative AI and agents, from prompts to evaluated tools.
+
+The four we are known for, on every market page:
+
+- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
+- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
+- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
+- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
+
+Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
+
+## An older suburb with every generation
+
+Census 2021 QuickStats for the suburb of Aspley (ABS code SAL30095), compared with Queensland wherever the bureau reports a state figure.
+
+**Aspley residents and homes, 2021**
+
+| Measure | Aspley |
+|---|---|
+| Residents | 12,871 |
+| Median age | 43 |
+| Families | 3,543 |
+| Private dwellings | 5,463 |
+| People per household | 2.4 |
+
+**How Aspley compares with Queensland**
+
+| Indicator | Aspley | Queensland |
+|---|---|---|
+| Semi-detached, row or townhouse homes | 23.8% (1,209) | 11.7% |
+| Employed residents working from home | 19.4% (1,196) | 14.1% |
+| Workers commuting by train | 1.5% (94) | 1.1% |
+| Adults with a bachelor degree or higher | 29.2% (3,122) | 21.9% |
+
+### Aged 85 and over
+
+Aspley had 586 residents aged 85 or older, 4.5% of the suburb.
+
+### And the young
+
+Children aged 5 to 9 numbered 779, with 732 aged 10 to 14.
+
+### Boundary
+
+Aspley's ABS outline covers about 6.4 square kilometres of Brisbane's north.
+
+Because the bureau slightly randomises small Census cells for privacy, we show its figures unchanged and do not combine them into totals.
+
+## Sixteen parks, one answer of 1
+
+Inputs: the 16 parks Brisbane City Council lists for Aspley, each with one map point, and the 61 Translink stop records inside the suburb by our boundary check. The agent was asked to count parks with a stop within 400 metres.
+
+**The agent's loop, as first written**
+
+| Line | Code |
+|---|---|
+| 1 | for (var i = 0; i < parks.length; i++) { |
+| 2 | var park = parks[i]; var near = false; |
+| 3 | for (var i = 0; i < stops.length; i++) { |
+| 4 | if (metres(park, stops[i]) <= 400) near = true; |
+| 5 | } |
+| 6 | if (near) count++; |
+| 7 | } |
+
+**What actually ran, measured in Node.js (our run)**
+
+| Version | Parks checked | Count reported |
+|---|---|---|
+| As written (var i twice) | 1 of 16 | 1 |
+| Fixed (let i outside, let j inside) | 16 of 16 | 15 |
+
+### The explanation
+
+Talking through line 3, our scripted agent says: "this declares i again, but var does not make a new variable, so the inner loop reuses the outer counter." That sentence is the bug report.
+
+### Why only one park
+
+The inner loop leaves i at 61. The outer loop adds one, sees 62 is not below 16, and stops. No error appears; the code simply ends early.
+
+### The real figure
+
+With separate counters, 15 of the 16 parks have a stop within 400 metres, and all 16 have one within 800 metres. The furthest park's nearest stop is 410 metres away.
+
+### Why explaining works
+
+Rubber-duck debugging means describing code aloud, line by line, to someone who knows nothing, even a toy duck. Saying "line 3 declares i" forces the question "which i?", and the bug appears. An agent asked to do the same with its own code often finds its own mistake, but only if a person asks it to and then checks the explanation.
+
+Park points come from Brisbane City Council open data and stop positions from the Translink feed. Membership of the suburb, the distances and both program runs are our calculation; distances are straight-line, not walking routes. The agent turns described are scripts we wrote, not output from a commercial AI model.
+
+## Making an agent read its own code
+
+A good review prompt is specific. These steps turn a vague "check your code" into a review that catches bugs like Aspley's.
+
+**A line-by-line review routine**
+
+| Step | Ask the agent | Aspley example |
+|---|---|---|
+| Explain each line | What does this line do, and to which variables? | Line 3 reuses i |
+| Predict a value | What is i after the inner loop ends? | 61 |
+| Check against a run | Log how many parks were checked | 1, not 16 |
+| Fix and rerun | Rename the inner counter and use let | 15 parks within 400 m |
+
+### Primary learners
+
+Read a Scratch script aloud to a toy, one block at a time, and find the block that does not do what they said.
+
+### Secondary learners
+
+Vibe-code the park count with an AI tool, then make it explain every line and test its claims with console.log.
+
+### Adults
+
+Add an explain-then-verify step to every agent-written change before it reaches a shared codebase.
+
+Modern JavaScript declares loop counters with let, which gives each loop its own variable, and linters warn about redeclared names. Tools help, but the habit of reading code aloud catches the bugs that tools are not set up to look for.
+
+## Gympie Road and a hypermarket bus station
+
+Markers that belong to Aspley itself, from the Translink timetable and the Queensland school calendar.
+
+### Wednesday buses
+
+On Wednesday 21 October 2026 the 61 stop records inside Aspley had 2,240 scheduled bus visits on 15 routes, by our count. No train stops in the suburb.
+
+### Busiest stop
+
+Gympie Rd at Aspley topped the day with 135 visits; Aspley Hypermarket station has four platforms, A to D.
+
+### Mid-year break
+
+Queensland state schools end Term 2 of 2027 on Friday 25 June and start Term 3 on Monday 12 July.
+
+**Aspley on its own** Each number here is for the suburb of Aspley. Bridgeman Downs, Carseldine, Chermside, Chermside West, Geebung, McDowall and Zillmere border it and are counted separately; none of their figures are added in.
+
+## From reading blocks aloud to reviewing agents
+
+Where a learner starts depends on skill more than age; the trial shows it.
+
+- **Ages 6 to 10: Scratch stories** Programs built and explained block by block. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Vibe Coding for Kids](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
+- **Ages 10 to 14: First Python and AI** Typed code plus a grounded idea of what AI does. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
+- **Ages 14 to 18: Vibe coding** Building with AI help, then reading and testing every line. [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course), [AI Tools Course for Teens (13+)](/courses/teens-ai-tools-mastery-course)
+- **Adults 18 and over: Coding agents** Agents for real work, with review built in. [Generative AI Course](/courses/complete-generative-ai-masterclass-college), [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+
+## If the agent writes the loop, why learn loops?
+
+Because a loop that ends early raises no alarm. Only someone who understands loops will notice.
+
+Vibe coding is fast: describe the park question and an agent produces working-looking code in seconds. That code ran cleanly and reported one park. Nothing crashed, no warning appeared, and an answer of 1 is not obviously absurd to someone who has never walked around Aspley.
+
+A learner who knows how var and let behave reads line 3 and frowns. A learner who knows the rubber-duck routine asks the agent to explain itself and finds the same bug. Both are skills we teach before handing over the keyboard.
+
+In Aspley, the learner who makes the agent explain itself ships code that counts all 16 parks. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
+
+## Live online lessons for Aspley
+
+Classes take place on video, so Aspley learners log in from home.
+
+- **Learner types, teacher reads** Every prompt and every generated line is visible on the shared screen.
+- **Term structure** Plans follow Queensland school terms, with holidays off.
+- **Trial lesson** A full first class at no cost, followed by a straight recommendation.
+- **Small, level groups** Five to ten learners at the same stage, or one to one.
+- **Twice weekly** Two fixed lessons a week, around eight each month.
+- **Teachers in India** A 7:30pm Aspley lesson starts at 3pm India time, every week of the year.
+
+**No daylight saving here** Brisbane's clocks have not changed since March 1992 (IANA time zone database), and India's never change, so a lesson booked in Brisbane time keeps its slot.
+
+## Aspley class fees
+
+One set of three prices.
+
+- First class: USD 0. The first class is free and leaves you with a written next step.
+- Group tuition: USD 100 a month. About eight live group lessons a month, five to ten learners per class.
+- Private tuition: USD 150 a month. About eight live private lessons a month with one teacher.
+
+Aspley learners pay in US dollars, after the trial, once course and timing are settled. See the pricing page for holiday, absence and format-change rules.
+
+## Aspley vibe coding and agent questions
+
+### How many people live in Aspley?
+
+The 2021 Census QuickStats record 12,871 people in the suburb of Aspley, with a median age of 43 and 3,543 families.
+
+### What is rubber-duck debugging?
+
+Explaining code line by line, out loud, to a listener who knows nothing about it, traditionally a rubber duck. Putting each line into words exposes the places where the code does something different from what you meant.
+
+### What is the difference between var and let in JavaScript?
+
+A var variable belongs to the whole function, so declaring it again reuses the same variable. A let variable belongs to its block, so each loop gets its own.
+
+### How many Aspley parks have a bus stop within 400 metres?
+
+By our straight-line calculation, 15 of the 16 parks Brisbane City Council lists for Aspley have a Translink stop record within 400 metres, and all 16 within 800 metres.
+
+### What is an AI coding agent?
+
+An AI system that writes and runs code toward a goal, often across several steps, instead of only answering one question.
+
+### Can teenagers use Claude in your classes?
+
+No. Claude-based courses are for learners aged 18 and over only; teenagers work with other AI tools.
+
+### Is there a classroom in Aspley?
+
+No. Lessons are live online only, we have no Australian office, and our listed phone number is Indian.
+
+### What do lessons cost for Aspley learners?
+
+The first lesson is free. Group classes cost USD 100 a month for two live lessons a week, about eight a month, in groups of five to ten, and one-to-one classes cost USD 150 a month. You agree the course and time before paying.
+
+### Who is in each group?
+
+Five to ten learners at a similar level and pace, not sorted by age or suburb. One-to-one lessons suit anyone no group time fits.
+
+### Is Copilot Studio available in Aspley groups?
+
+No. Copilot Studio is taught one to one only; group learners build agents in Python.
+
+## More for Aspley learners
+
+Start from [the Brisbane guide](/best-coding-classes-in-brisbane), or see [coding for Brisbane children](/coding-classes-for-kids-brisbane). Just north, [Moreton Bay](/online-coding-and-python-classes-in-moreton-bay) has its own page, and [the Queensland guide](/coding-and-ai-classes-in-queensland) covers every region.
+
+## Contact
+
+Book the free class on [https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-aspley-brisbane](https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-aspley-brisbane#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

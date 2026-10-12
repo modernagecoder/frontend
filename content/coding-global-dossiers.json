@@ -47867,5 +47867,57 @@
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with the City of Armadale, the Public Transport Authority or PyPI."
     ]
+  },
+  "online-coding-and-python-classes-in-ellenbrook-perth": {
+    "market": "Ellenbrook",
+    "bodyClass": "cg-elbk",
+    "pageType": "city",
+    "curriculumAuthority": "Ellenbrook (SAL50482), City of Swan. ABS Census 2021 QuickStats (read 12 October 2026): 24,668 people; median age 32; 6,477 families; 8,901 private dwellings; 2.9 per household; separate houses 7,198 (89.3%, WA 79.7%); drove 7,968 (67.9%, WA 62.1%); worked at home 589 (5.0%, WA 7.5%); bachelor or higher 2,428 (13.3%, WA 23.8%); aged 5-9 2,355; 10-14 2,131; 15-19 1,737. ABS SAL area 12.9216 sq km; council verified by ABS LGA point query (Swan). PTA-001: 129 records inside the SAL polygon (Standard 126, Rail 2, School 1); labels ELLENBROOK 127, AVELEY 2; Ellenbrook Stn Stand 1-12 and Platform 1-2; Banrock Dr 12. Neighbours (ABS touches): Aveley, Bullsbrook, Henley Brook, Lexia, Melaleuca, The Vines, Whiteman. WA 2027 Term 3: Monday 19 July to Friday 24 September. Perth no daylight saving since March 2009 (IANA).",
+    "localProject": "Removing items while iterating. 129 Ellenbrook stop names sorted by objectid (file order); station records (name contains Stn) at positions 99-110 (Stand 1-12) and 127-128 (Platform 1-2). for n in names: names.remove(n) -> 122 left, survivors Stand 2,4,6,8,10,12 and Platform 2. names[:] copy -> 115; comprehension -> 115; backwards index delete -> 115. Python 3.13.6.",
+    "requiredMentions": [
+      "8,901",
+      "7,198",
+      "2,355",
+      "Banrock Drive",
+      "Aveley",
+      "Stand 2",
+      "122",
+      "Platform 2",
+      "names[:]"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Ellenbrook suburb and locality (SAL50482), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL50482"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Suburbs and Localities and Local Government Areas boundary services, used for our point-in-boundary checks and areas.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Public Transport Authority of Western Australia, Stops (PTA-001), Creative Commons Attribution 4.0, published on data.wa.gov.au; 16,822 stop records read from the SLIP map service on 12 October 2026.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/public-transport-authority-stops-bus-stops"
+      },
+      {
+        "claim": "Python documentation, The Python Tutorial, section 4.2 for Statements: code that modifies a collection while iterating over it can be tricky; loop over a copy or create a new collection.",
+        "url": "https://docs.python.org/3/tutorial/controlflow.html"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 public school terms as gazetted.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Perth follows rule AW, whose last daylight saving period ended in March 2009.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "When the Ellenbrook rail line opened: not claimed.",
+      "Passenger or service numbers at Ellenbrook stops: not claimed.",
+      "That AI assistants usually write this bug: not claimed; the page says they usually avoid it.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Swan, the Public Transport Authority or the WA Department of Education."
+    ]
   }
 }
