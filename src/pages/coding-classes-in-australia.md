@@ -555,6 +555,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in The Gap](/best-coding-and-ai-classes-in-the-gap-brisbane)
 - [Vibe coding and AI agent classes in Toowong](/vibe-coding-and-ai-agents-classes-in-toowong-brisbane)
 - [Online coding and Python classes in Calamvale](/online-coding-and-python-classes-in-calamvale-brisbane)
+- [AI and programming classes in Eight Mile Plains](/ai-and-programming-classes-in-eight-mile-plains-brisbane)
 <!-- AU-LINKS -->
 
 
