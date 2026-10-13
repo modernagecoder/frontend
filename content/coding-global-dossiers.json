@@ -49946,5 +49946,61 @@
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with Kingborough Council or the LIST."
     ]
+  },
+  "best-coding-and-ai-classes-in-glenorchy-hobart": {
+    "market": "Glenorchy",
+    "bodyClass": "cg-glch",
+    "pageType": "city",
+    "curriculumAuthority": "Glenorchy local government area (LGA62610). ABS Census 2021 QuickStats (read 12 October 2026): 50,411 people; median age 37; 13,152 families; 21,856 private dwellings; 2.4 per household; flats 2,493 (12.5%, Tas 5.3%); bus 1,288 (5.4%, Tas 2.5%); separate houses 16,189 (81.5%, Tas 87.7%); bachelor or higher 9,175 (21.8%, Tas 21.9%); aged 0-4 2,703; 5-9 2,765; 10-14 2,834; 15-19 2,563; 85+ 1,238. ABS LGA area 121.1632 sq km. LIST Transport Segments intersecting the LGA: 7,199 (724.7 km); surface Sealed 5,948, Unsealed 1,075, 4WD 176; 4,215 named, 792 distinct names; Main Road 214, Brooker Highway 185, Tolosa Street 47, Abbotsfield Road 44, Collinsvale Road 41, Chapel Street 36, Springfield Avenue 36. LIST Address Points intersecting: 24,451 (count only). Neighbouring LGAs (ABS touches): Derwent Valley, Hobart, Huon Valley, Kingborough. Tas 2027 Term 2 26 April to 2 July.",
+    "localProject": "Counter.most_common ties. glch_ties.py: unique OBJECTIDs sorted, PRI_NAME non-null 4,215, 792 names. most_common(6) ends with Chapel Street 36; Springfield Avenue also 36 and omitted; first-seen order Chapel Street before Springfield Avenue; ties-aware cut (count >= 36) gives 7 names.",
+    "requiredMentions": [
+      "50,411",
+      "21,856",
+      "2,834",
+      "Springfield Avenue",
+      "Tolosa Street",
+      "Abbotsfield Road",
+      "Brooker Highway",
+      "24,451",
+      "most_common(6)"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Glenorchy local government area (LGA62610), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA62610"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Local Government Area and Suburbs and Localities boundary services, used for our point-in-boundary and intersection checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "the LIST, State of Tasmania, Transport Segments (All Transport layer), Creative Commons Attribution 3.0 Australia; queried from the LIST map service on 13 and 14 October 2026.",
+        "url": "https://services.thelist.tas.gov.au/arcgis/rest/services/Public/TopographyAndRelief/MapServer/8"
+      },
+      {
+        "claim": "the LIST, State of Tasmania, Address Points, Creative Commons Attribution 3.0 Australia; counts only, queried 13 October 2026.",
+        "url": "https://services.thelist.tas.gov.au/arcgis/rest/services/Public/CadastreAndAdministrative/MapServer/43"
+      },
+      {
+        "claim": "Python documentation, collections.Counter.most_common: elements with equal counts are ordered in the order first encountered.",
+        "url": "https://docs.python.org/3/library/collections.html"
+      },
+      {
+        "claim": "Tasmanian Department for Education, Children and Young People, 2027 school term dates for school and college students.",
+        "url": "https://www.decyp.tas.gov.au/learning/term-dates/"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Hobart, rule AT, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Figures for Greater Hobart from the Hobart page: not used.",
+      "That more segments means a busier road: not claimed; segment counts reflect how the data is split.",
+      "Any individual address: not published; counts only.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Glenorchy City Council or the LIST."
+    ]
   }
 }
