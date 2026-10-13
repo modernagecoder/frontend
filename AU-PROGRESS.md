@@ -393,7 +393,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 365 | ai-and-python-academy-for-girls-australia (gaau, #463E68) | ag- national door | 3,124 | 1.8% vs cyber-security-course-for-teens-australia | an AI that learns patterns cannot beat a random player | pattern-learning rock, paper, scissors | 3f304f1e |
 | 366 | competitive-programming-australia (cpau, #8E3816) | ag- national door | 3,101 | 1.6% vs javascript-classes-online-australia | the same program reads input three times faster | fast input reading | 94ce4de0 |
 | 367 | coding-for-career-changers-australia (ccau, #785E48) | ag- national door | 3,131 | 2% vs data-science-course-australia | approximate lookup gives twenty confident wrong answers | exact vs approximate lookup | 3458cabd |
-| 368 | javascript-classes-online-australia (jsau, #244E0C) | ag- national door | 3,101 | 1.9% vs data-science-course-australia | awaiting one at a time vs Promise.all, and forEach that does not wait | sequential await vs Promise.all | (this commit) |
+| 368 | javascript-classes-online-australia (jsau, #244E0C) | ag- national door | 3,101 | 1.9% vs data-science-course-australia | awaiting one at a time vs Promise.all, and forEach that does not wait | sequential await vs Promise.all | 19897315 |
+| 369 | c-plus-plus-classes-online-australia (cppa, #5C3620) | ag- national door | 3,091 | 0.9% vs game-development-for-kids-australia | one ampersand saves 2.7 seconds | pass by value vs const reference | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

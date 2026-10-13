@@ -630,6 +630,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Competitive programming](/competitive-programming-australia)
 - [Coding for career changers](/coding-for-career-changers-australia)
 - [JavaScript classes online](/javascript-classes-online-australia)
+- [C++ classes online](/c-plus-plus-classes-online-australia)
 <!-- AU-LINKS -->
 
 
