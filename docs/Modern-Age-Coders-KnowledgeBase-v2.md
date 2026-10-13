@@ -1012,7 +1012,7 @@ ESCALATE TO SHIVAM SIR FOR:
 - **January 2026.** Terms of Service last reviewed.
 - **2020.** Modern Age Coders founded by Shivam Khemka.
 
-## APPENDIX A: EVERY COURSE PAGE (122 live courses)
+## APPENDIX A: EVERY COURSE PAGE (127 live courses)
 
 All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Every URL below was checked against the sitemap and the routing table on 4 August 2026.
 
@@ -1116,11 +1116,12 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17) | `/courses/vibe-coding-for-teens-python-web-ai-projects-course` | Teens |
 | Web Development for Kids: Build Real Websites | `/courses/kids-ai-web-development-course` | Kids |
 
-### A.2 Mathematics courses (28)
+### A.2 Mathematics courses (33)
 
 | Course | URL path | Who it is for |
 |---|---|---|
 | 11 Plus Maths Prep: UK Grammar & Independent School Entry | `/courses/11-plus-maths-preparation-course-uk` | Middle school |
+| A Level Further Maths: Core Pure and Applied Options | `/courses/a-level-further-maths-course` | High school |
 | A-Level Maths: Pure, Mechanics, Statistics (Edexcel/AQA) | `/courses/a-level-maths-course-pure-mechanics-statistics` | High school |
 | Abacus & Mental Maths for Kids: From First Beads to Anzan | `/courses/abacus-mental-maths-course-for-kids` | Elementary |
 | Algebra Foundations: Pre-Algebra & Algebra 1, Live Online | `/courses/algebra-foundations-masterclass` | Middle school |
@@ -1132,17 +1133,21 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | College Maths Course: Calculus, Linear Algebra to Analysis | `/courses/college-mathematics-complete-masterclass` | College, Girls only |
 | Early Math Foundations: Playful, Concrete Math (Ages 4-7) | `/courses/early-math-foundations` | Elementary |
 | Elementary Maths for Grades 1-5: Live Online Classes | `/courses/elementary-mathematics-complete-masterclass` | Elementary, Girls only |
+| Functional Skills Maths Level 1 and Level 2 Course Online | `/courses/functional-skills-maths-course` | College |
+| GCSE Maths Resit Course Online: Post-16 and Adults | `/courses/gcse-maths-resit-course` | College |
 | GCSE Maths: Foundation & Higher (9-1), AQA, Edexcel, OCR | `/courses/gcse-mathematics-mastery` | High school |
 | GRE & GMAT Quantitative Prep: Live Maths Coaching | `/courses/gre-gmat-quant-maths-prep-course` | Professionals |
 | High School Mathematics: Algebra to Calculus (Grade 9-12) | `/courses/complete-high-school-mathematics-mastery` | Girls only, High school |
 | IB Maths AA & AI: SL & HL, Live Online with IA Coaching | `/courses/ib-mathematics-aa-ai-masterclass` | High school |
 | IGCSE Maths: Core, Extended & Additional Mathematics Online | `/courses/igcse-mathematics-mastery` | High school |
 | JEE Foundation Maths Class 8-10: Proofs & Problem Solving | `/courses/jee-foundation-maths-course-class-8-10` | High school |
+| KS2 SATs Maths: Arithmetic, Reasoning and Times Tables | `/courses/ks2-sats-maths-course` | Elementary |
 | Maths for Data Science: Statistics, Linear Algebra and ML | `/courses/data-analytics-mathematics-masterclass` | Professionals |
 | Maths Olympiad & Competition Course: AMC, AIME to IMO | `/courses/olympiad-competition-mathematics-mastery` | Elementary, Girls only, High school, Middle school |
 | Maths Through Coding: Learn Math in Python (Ages 10-15) | `/courses/maths-through-coding` | Middle school |
 | Mental Maths for Kids: Number Sense, Not Tricks (Ages 5-10) | `/courses/mental-maths-mastery-kids` | Elementary |
 | Middle School Mathematics Mastery: Pre-Algebra & Geometry | `/courses/comprehensive-middle-school-mathematics-mastery` | Girls only, Middle school |
+| National 5 and Higher Maths Course Online (Scotland) | `/courses/national-5-and-higher-maths-course` | High school |
 | Olympiad Mathematics: IOQM, INMO and AMC Preparation | `/courses/olympiad-mathematics-premium-course` | Teens |
 | PSLE Maths: Model Method, Problem Sums & MOE Syllabus | `/courses/psle-maths-mastery` | Elementary |
 | SAT Math 800 Prep: Live Classes for the Digital SAT | `/courses/sat-math-prep-course` | High school |
@@ -1151,7 +1156,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 
 ---
 
-## APPENDIX B: COMPLETE SITE URL INDEX (1458 live URLs)
+## APPENDIX B: COMPLETE SITE URL INDEX (2328 live URLs)
 
 Every URL below is present in a sitemap **and** resolves through the routing table. Redirect-only URLs are excluded. The site-wide link check passed with 0 broken internal links across 53,903 link instances on 4 August 2026. Prefix any path with `https://learn.modernagecoders.com`.
 
@@ -1196,12 +1201,13 @@ Every URL below is present in a sitemap **and** resolves through the routing tab
 | `/success-stories` | Success Stories |
 | `/terms` | Terms of Service |
 
-### B.2 Course detail pages (122)
+### B.2 Course detail pages (127)
 
 Listed with titles in Appendix A.
 
 ```
 /courses/11-plus-maths-preparation-course-uk
+/courses/a-level-further-maths-course
 /courses/a-level-maths-course-pure-mechanics-statistics
 /courses/abacus-mental-maths-course-for-kids
 /courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students
@@ -1267,10 +1273,12 @@ Listed with titles in Appendix A.
 /courses/frontend-development-masterclass-for-teens
 /courses/full-stack-web-development-masterclass-college
 /courses/full-stack-web-development-teens-masterclass
+/courses/functional-skills-maths-course
 /courses/game-development-complete-masterclass-college
 /courses/game-development-masterclass-for-kids
 /courses/gcse-computer-science-course
 /courses/gcse-mathematics-mastery
+/courses/gcse-maths-resit-course
 /courses/git-github-advanced-version-control-masterclass-for-professionals
 /courses/git-github-version-control-course-for-college-students
 /courses/git-github-version-control-course-for-teens
@@ -1289,6 +1297,7 @@ Listed with titles in Appendix A.
 /courses/jee-foundation-maths-course-class-8-10
 /courses/kids-ai-web-development-course
 /courses/kids-coding-blocks-masterclass
+/courses/ks2-sats-maths-course
 /courses/maths-through-coding
 /courses/mental-maths-mastery-kids
 /courses/mern-stack-development-masterclass-college
@@ -1296,6 +1305,7 @@ Listed with titles in Appendix A.
 /courses/minecraft-coding-for-kids-course
 /courses/mysql-database-complete-masterclass-college
 /courses/mysql-mastery-for-teens
+/courses/national-5-and-higher-maths-course
 /courses/olympiad-competition-mathematics-mastery
 /courses/olympiad-mathematics-premium-course
 /courses/orange-data-mining-machine-learning-course-for-college-students
@@ -1325,7 +1335,7 @@ Listed with titles in Appendix A.
 /courses/vibe-coding-for-teens-python-web-ai-projects-course
 ```
 
-### B.3 Blog posts (126)
+### B.3 Blog posts (176)
 
 Listed with titles in Appendix C.
 
@@ -1340,6 +1350,7 @@ Listed with titles in Appendix C.
 /blog/ap-computer-science-a-changes-2026
 /blog/ap-csp-vs-ap-csa-which-to-take-first
 /blog/app-idea-to-app-store-60-days-teen-developer-roadmap
+/blog/area-and-perimeter-difference
 /blog/armstrong-number-python-complete-guide-examples-code
 /blog/best-ai-coding-tools-for-students-2026
 /blog/best-byjus-alternative
@@ -1348,6 +1359,9 @@ Listed with titles in Appendix C.
 /blog/best-free-platforms-for-vibe-coding
 /blog/best-java-ides-for-beginners
 /blog/best-programming-languages-college-students-2026
+/blog/big-o-notation-explained-simply
+/blog/binary-numbers-explained
+/blog/bodmas-rule-explained
 /blog/cambridge-9618-paper-4-python-java-or-visual-basic
 /blog/canadian-computing-competition-junior-or-senior
 /blog/career-transition-guide-moving-non-tech-to-tech-roles
@@ -1360,40 +1374,65 @@ Listed with titles in Appendix C.
 /blog/coding-for-7-year-olds-what-how-kids-should-learn-programming
 /blog/coding-for-kids-guide
 /blog/coding-for-kids-parents-complete-guide-2026
+/blog/coding-interview-preparation-for-freshers
 /blog/coding-is-the-new-english-why-2026-is-the-year-to-start
 /blog/coding-mathematics-engineering-science
 /blog/coding-vs-ai-what-should-my-child-learn
 /blog/common-myths-about-coding-for-school-students
 /blog/competitive-coding-vs-development-skills-what-students-focus
+/blog/conways-game-of-life-python
 /blog/custom-software-vs-ready-made-software
 /blog/data-analytics-math-help-businesses-better-decisions
 /blog/data-science-ai-math-skills-professionals
 /blog/data-science-course-india
+/blog/dijkstras-algorithm-fastest-route
+/blog/do-ai-detectors-work
 /blog/does-online-maths-tuition-work
+/blog/estimation-in-maths
 /blog/exception-handling-in-python
 /blog/fibonacci-series-in-python
 /blog/file-built-in-methods-python-guide
 /blog/file-organization-in-python
 /blog/file-types-in-python-complete-guide
 /blog/full-stack-vs-ai-engineer-salary-india
+/blog/git-vs-github-difference
 /blog/group-vs-1-on-1-coding-classes
 /blog/help-child-with-maths-anxiety
 /blog/help-child-with-maths-homework
+/blog/how-are-passwords-stored
 /blog/how-coding-education-changing-future-india
 /blog/how-coding-improves-mathematical-thinking-children
 /blog/how-college-students-build-real-world-projects-while-studying
+/blog/how-do-computers-store-images
+/blog/how-do-search-engines-work
+/blog/how-do-spam-filters-work
+/blog/how-does-encryption-work
+/blog/how-does-file-compression-work
+/blog/how-does-gps-work
+/blog/how-long-does-it-take-to-learn-python
 /blog/how-schools-parents-prepare-children-future-tech-careers
 /blog/how-to-build-menu-driven-program-in-python
+/blog/how-to-calculate-percentages
 /blog/how-to-choose-a-coding-class-for-your-child
+/blog/how-to-explain-division-to-a-child
 /blog/how-to-find-hcf-and-lcm-in-python
 /blog/how-to-get-a-5-in-ap-computer-science-a
 /blog/how-to-get-better-at-maths
+/blog/how-to-help-a-child-understand-fractions
+/blog/how-to-learn-times-tables-fast
+/blog/how-to-make-a-text-adventure-game-in-python
 /blog/how-to-make-maths-fun-for-kids
 /blog/how-to-read-and-write-files-in-python
 /blog/how-to-reverse-a-string-in-python
 /blog/how-to-revise-gcse-computer-science
+/blog/how-to-solve-maths-word-problems
+/blog/how-to-solve-quadratic-equations
+/blog/how-to-solve-simultaneous-equations
+/blog/how-to-start-learning-data-structures-and-algorithms
 /blog/how-to-teach-kids-ai-at-home
+/blog/how-to-use-chatgpt-to-study-without-cheating
 /blog/how-to-write-a-leap-year-program-in-python
+/blog/how-to-write-a-maths-proof
 /blog/html-css-javascript-project-ideas
 /blog/ib-computer-science-ia-client-rule-2027
 /blog/icse-class-10-computer-applications-revision
@@ -1407,16 +1446,27 @@ Listed with titles in Appendix C.
 /blog/java-constructors-explained
 /blog/java-for-kids-complete-guide-learning-programming-2026
 /blog/javascript-basics
+/blog/javascript-to-learn-before-react
 /blog/learn-python-step-by-step
 /blog/learn-to-code-career-change-2026
+/blog/logic-gates-for-beginners
+/blog/long-division-step-by-step
+/blog/mean-median-mode-explained
 /blog/mental-maths-tricks-for-kids
 /blog/minecraft-vs-roblox-which-teaches-kids-to-code
 /blog/mobile-apps-increase-customer-engagement-businesses
 /blog/modern-age-coders-certificate-earned-not-given
+/blog/modular-arithmetic-explained
+/blog/negative-numbers-explained
 /blog/outsourcing-software-development-vs-hiring-inhouse-developers
 /blog/parents-guide-starting-coding-education-home
 /blog/pcep-vs-pcap-which-python-certification
+/blog/pigeonhole-principle-explained
+/blog/place-value-explained
+/blog/prime-numbers-explained
+/blog/probability-for-beginners
 /blog/project-based-learning-why-theory-alone-not-enough-coding
+/blog/pythagoras-theorem-explained
 /blog/python-basic-programs-for-beginners
 /blog/python-dictionary-complete-guide
 /blog/python-for-beginners
@@ -1424,12 +1474,16 @@ Listed with titles in Appendix C.
 /blog/python-list-comprehension-explained
 /blog/python-oop-tutorial-for-beginners
 /blog/python-programs-for-cbse-class-12
+/blog/python-vs-java-which-to-learn-first
 /blog/python-vs-javascript-which-to-learn-first
+/blog/recursion-explained-for-beginners
 /blog/robotics-coding-stem-kits-build-logical-thinking
 /blog/role-of-mathematics-programming-logical-problem-solving
 /blog/safe-ai-tools-for-kids-homework-2025
 /blog/scratch-vs-python-which-better-young-learners
 /blog/signs-your-child-is-ready-to-learn-coding
+/blog/sohcahtoa-trigonometry-for-beginners
+/blog/sql-or-python-first
 /blog/star-pattern-programs-in-python
 /blog/stem-education-for-girls-india
 /blog/string-handling-in-java
@@ -1438,10 +1492,13 @@ Listed with titles in Appendix C.
 /blog/top-20-java-programs-for-icse-class-10
 /blog/top-coding-games-platforms-make-learning-fun-kids
 /blog/top-emerging-tech-skills-learn-2025-ai-low-code-cloud
+/blog/touch-typing-for-kids
 /blog/uae-ai-curriculum-schools-what-it-means
 /blog/usaco-bronze-to-silver-what-blocks-most-students
 /blog/vibe-coding-vs-learning-to-code-properly
 /blog/what-is-ai-complete-beginners-guide-how-to-start
+/blog/what-is-an-algorithm
+/blog/what-is-an-api-explained-simply
 /blog/what-is-blockly-for-kids
 /blog/what-is-floor-division-in-python
 /blog/what-is-the-responsibility-of-developers-using-generative-AI
@@ -1449,10 +1506,13 @@ Listed with titles in Appendix C.
 /blog/what-type-of-data-is-generative-ai-most-suitable-for
 /blog/whitehat-jr-alternative
 /blog/who-are-modern-age-coders-why-choose-us
+/blog/why-can-i-understand-solutions-but-not-solve-problems
 /blog/why-coding-is-new-literacy-kids-2025
+/blog/why-do-machine-learning-models-make-mistakes
 /blog/why-early-exposure-coding-gives-students-competitive-advantage
 /blog/why-every-business-needs-website-mobile-app-2025
 /blog/why-every-teen-should-learn-coding
+/blog/why-is-0-1-plus-0-2-not-0-3
 /blog/why-is-my-child-struggling-with-maths
 /blog/why-python-most-powerful-skill-professionals-today
 /blog/working-professionals-upskill-coding-without-quitting-job
@@ -1468,7 +1528,7 @@ Listed with titles in Appendix C.
 | `/blog/topic/maths` | Maths Learning Guides |
 | `/blog/topic/python` | Python Tutorials & Guides |
 
-### B.6 Indian city pages (259)
+### B.6 Indian city pages (262)
 
 | URL path | Page title |
 |---|---|
@@ -1619,6 +1679,7 @@ Listed with titles in Appendix C.
 | `/best-coding-class-in-longford` | Best Coding Class in Longford Town |
 | `/best-coding-class-in-lucknow` | Best Coding Classes in Lucknow |
 | `/best-coding-class-in-ludhiana` | Best Coding Classes in Ludhiana |
+| `/best-coding-class-in-luton` | Best Coding Classes in Luton |
 | `/best-coding-class-in-madurai` | Best Coding Classes in Madurai |
 | `/best-coding-class-in-malahide` | Best Coding Class in Malahide |
 | `/best-coding-class-in-mallow` | Best Coding Class in Mallow |
@@ -1668,6 +1729,7 @@ Listed with titles in Appendix C.
 | `/best-coding-class-in-rajkot` | Best Coding Classes in Rajkot |
 | `/best-coding-class-in-ranchi` | Best Coding Classes in Ranchi |
 | `/best-coding-class-in-ratoath` | Best Coding Class in Ratoath |
+| `/best-coding-class-in-reading` | Best Coding Classes in Reading |
 | `/best-coding-class-in-ripon` | Best Coding Classes in Ripon |
 | `/best-coding-class-in-rishikesh` | Best Coding Classes in Rishikesh |
 | `/best-coding-class-in-rohtak` | Best Coding Classes in Rohtak |
@@ -1686,6 +1748,7 @@ Listed with titles in Appendix C.
 | `/best-coding-class-in-siliguri` | Best Coding Classes in Siliguri |
 | `/best-coding-class-in-skerries` | Best Coding Class in Skerries |
 | `/best-coding-class-in-sligo` | Best Coding Class in Sligo |
+| `/best-coding-class-in-slough` | Best Coding Classes in Slough |
 | `/best-coding-class-in-solapur` | Best Coding Classes in Solapur |
 | `/best-coding-class-in-sonipat` | Best Coding Classes in Sonipat |
 | `/best-coding-class-in-southampton` | Best Coding Classes in Southampton |
@@ -1758,7 +1821,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-for-la-martiniere-boys-kolkata` | Coding Classes for La Martiniere for Boys Students |
 | `/coding-classes-for-la-martiniere-girls-kolkata` | Coding Classes for La Martiniere for Girls Students |
 
-### B.8 Country and international pages (410)
+### B.8 Country and international pages (553)
 
 | URL path | Page title |
 |---|---|
@@ -1787,16 +1850,32 @@ Listed with titles in Appendix C.
 | `/ai-classes-in-dubai` | AI Classes in Dubai |
 | `/ai-classes-in-qatar` | AI Classes in Qatar |
 | `/ai-classes-in-saudi-arabia` | AI Classes in Saudi Arabia |
+| `/coding-classes-cost-australia` | Coding Classes Cost in Australia 2026: Per Lesson and Term |
 | `/coding-classes-cost-india-2026` | Coding Classes Cost in India 2026: Honest Price Guide |
+| `/coding-classes-for-11-and-12-year-olds-australia` | Coding Classes for 11 and 12 Year Olds in Australia |
+| `/coding-classes-for-5-and-6-year-olds-australia` | Coding Classes for 5 and 6 Year Olds in Australia |
+| `/coding-classes-for-7-and-8-year-olds-australia` | Coding Classes for 7 and 8 Year Olds in Australia |
+| `/coding-classes-for-9-and-10-year-olds-australia` | Coding Classes for 9 and 10 Year Olds in Australia |
 | `/coding-classes-for-adults` | Coding Classes for Adults: Live, Small Batches, Ages 18 to 67 |
+| `/coding-classes-for-adults-australia` | Coding Classes for Adults in Australia |
 | `/coding-classes-for-girls` | Coding Classes for Girls |
+| `/coding-classes-for-kids-adelaide` | Coding Classes for Kids in Adelaide |
+| `/coding-classes-for-kids-brisbane` | Coding Classes for Kids in Brisbane |
+| `/coding-classes-for-kids-canberra` | Coding Classes for Kids in Canberra |
 | `/coding-classes-for-kids-cost` | Coding Classes for Kids Cost 2026: US Prices by Format |
+| `/coding-classes-for-kids-gold-coast` | Coding Classes for Kids on the Gold Coast |
 | `/coding-classes-for-kids-in-doha` | Coding Classes for Kids in Doha |
 | `/coding-classes-for-kids-in-dubai` | Coding Classes for Kids in Dubai |
 | `/coding-classes-for-kids-in-nassau` | Coding Classes for Kids in Nassau |
 | `/coding-classes-for-kids-in-riyadh` | Coding Classes for Kids in Riyadh |
+| `/coding-classes-for-kids-melbourne` | Coding Classes for Kids in Melbourne |
 | `/coding-classes-for-kids-netherlands` | Coding Classes for Kids in the Netherlands |
+| `/coding-classes-for-kids-newcastle` | Coding Classes for Kids in Newcastle NSW |
+| `/coding-classes-for-kids-perth` | Coding Classes for Kids in Perth |
+| `/coding-classes-for-kids-sydney` | Coding Classes for Kids in Sydney |
+| `/coding-classes-for-teens-australia` | Coding Classes for Teens in Australia |
 | `/coding-classes-for-teens-netherlands` | Coding Classes for Teens in the Netherlands |
+| `/coding-classes-in-aberdeenshire` | Coding Classes in Aberdeenshire |
 | `/coding-classes-in-abu-dhabi` | Coding Classes in Abu Dhabi |
 | `/coding-classes-in-ad-dakhiliyah` | Coding Classes in Ad Dakhiliyah |
 | `/coding-classes-in-adam` | Coding Classes in Adam |
@@ -1835,7 +1914,11 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-amsterdam-zuid` | Coding Classes in Amsterdam-Zuid |
 | `/coding-classes-in-amsterdam-zuidoost` | Coding Classes in Amsterdam-Zuidoost |
 | `/coding-classes-in-andhra-pradesh` | Coding Classes in Andhra Pradesh |
+| `/coding-classes-in-anglesey` | Coding Classes in Anglesey, Ynys Môn |
+| `/coding-classes-in-angus` | Coding Classes in Angus |
+| `/coding-classes-in-antrim-and-newtownabbey` | Coding Classes in Antrim and Newtownabbey |
 | `/coding-classes-in-apeldoorn` | Coding Classes in Apeldoorn |
+| `/coding-classes-in-argyll-and-bute` | Coding Classes in Argyll and Bute |
 | `/coding-classes-in-arnhem` | Coding Classes in Arnhem |
 | `/coding-classes-in-as-suwaiq` | Coding Classes in As Suwaiq |
 | `/coding-classes-in-ash-sharqiyah-north` | Coding Classes in Ash Sharqiyah North |
@@ -1852,33 +1935,54 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-ballymun-dublin` | Coding Classes in Ballymun, Dublin |
 | `/coding-classes-in-bandar-seri-begawan` | Coding Classes in Bandar Seri Begawan |
 | `/coding-classes-in-barka` | Coding Classes in Barka |
+| `/coding-classes-in-barking-and-dagenham-london` | Coding Classes in Barking and Dagenham |
+| `/coding-classes-in-barnet-london` | Coding Classes in Barnet, Finchley, Hendon |
 | `/coding-classes-in-bawshar` | Online Coding Classes in Bawshar |
+| `/coding-classes-in-bedfordshire` | Coding Classes in Bedfordshire |
 | `/coding-classes-in-bergen-op-zoom` | Coding Classes in Bergen op Zoom |
+| `/coding-classes-in-berkshire` | Coding Classes in Berkshire |
+| `/coding-classes-in-bexley-london` | Coding Classes in Bexley, Sidcup and Erith |
 | `/coding-classes-in-bidbid` | Coding Classes in Bidbid |
 | `/coding-classes-in-bidiyah` | Coding Classes in Bidiyah |
 | `/coding-classes-in-bihar` | Coding Classes in Bihar |
 | `/coding-classes-in-birmingham` | Online Coding Classes in Birmingham |
 | `/coding-classes-in-bishopstown-cork` | Coding Classes in Bishopstown, Cork |
 | `/coding-classes-in-blackrock-dublin` | Coding Classes in Blackrock, Dublin |
+| `/coding-classes-in-blaenau-gwent` | Coding Classes in Blaenau Gwent |
 | `/coding-classes-in-blanchardstown-dublin` | Coding Classes in Blanchardstown, Dublin 15 |
 | `/coding-classes-in-breda` | Coding Classes in Breda |
+| `/coding-classes-in-brent-london` | Coding Classes in Brent, Wembley and Kilburn |
+| `/coding-classes-in-bridgend` | Coding Classes in Bridgend |
 | `/coding-classes-in-british-columbia` | Online Coding Classes in British Columbia |
+| `/coding-classes-in-bromley-london` | Coding Classes in Bromley and Beckenham |
 | `/coding-classes-in-brunei` | Online Coding Classes in Brunei |
+| `/coding-classes-in-buckinghamshire` | Coding Classes in Buckinghamshire |
+| `/coding-classes-in-caerphilly-county-borough` | Coding Classes in Caerphilly |
 | `/coding-classes-in-calcutta-riverside` | Coding & Maths Classes near Calcutta Riverside |
 | `/coding-classes-in-california` | Coding Classes in California |
+| `/coding-classes-in-cambridgeshire` | Coding Classes in Cambridgeshire |
+| `/coding-classes-in-camden-london` | Coding Classes in Camden and Hampstead |
 | `/coding-classes-in-canada` | Coding & AI Classes in Canada |
 | `/coding-classes-in-capelle-aan-den-ijssel` | Coding Classes in Capelle aan den IJssel |
+| `/coding-classes-in-carmarthenshire` | Coding Classes in Carmarthenshire |
 | `/coding-classes-in-castleknock-dublin` | Coding Classes in Castleknock, Dublin 15 |
 | `/coding-classes-in-castletroy-limerick` | Coding Classes in Castletroy, Limerick |
+| `/coding-classes-in-causeway-coast-and-glens` | Coding Classes in Causeway Coast and Glens |
+| `/coding-classes-in-ceredigion` | Coding Classes in Ceredigion |
 | `/coding-classes-in-charlois` | Coding Classes in Charlois, Rotterdam |
+| `/coding-classes-in-cheshire` | Coding Classes in Cheshire |
 | `/coding-classes-in-chhattisgarh` | Coding Classes in Chhattisgarh |
+| `/coding-classes-in-clackmannanshire` | Coding Classes in Clackmannanshire |
 | `/coding-classes-in-clondalkin-dublin` | Coding Classes in Clondalkin, Dublin 22 |
 | `/coding-classes-in-clontarf-dublin` | Coding Classes in Clontarf, Dublin |
+| `/coding-classes-in-conwy` | Coding Classes in Conwy |
+| `/coding-classes-in-cornwall` | Coding Classes in Cornwall |
 | `/coding-classes-in-county-carlow` | Coding Classes in County Carlow |
 | `/coding-classes-in-county-cavan` | Coding Classes in County Cavan |
 | `/coding-classes-in-county-clare` | Coding Classes in County Clare |
 | `/coding-classes-in-county-cork` | Coding Classes in County Cork |
 | `/coding-classes-in-county-donegal` | Coding Classes in County Donegal |
+| `/coding-classes-in-county-durham` | Coding Classes in County Durham |
 | `/coding-classes-in-county-galway` | Coding Classes in County Galway |
 | `/coding-classes-in-county-kerry` | Coding Classes in County Kerry |
 | `/coding-classes-in-county-kildare` | Coding Classes in County Kildare |
@@ -1897,13 +2001,18 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-county-westmeath` | Coding Classes in County Westmeath |
 | `/coding-classes-in-county-wexford` | Coding Classes in County Wexford |
 | `/coding-classes-in-county-wicklow` | Coding Classes in County Wicklow |
+| `/coding-classes-in-croydon-london` | Coding Classes in Croydon, Purley, Norbury |
 | `/coding-classes-in-crumlin-dublin` | Coding Classes in Crumlin, Dublin |
+| `/coding-classes-in-cumbria` | Coding Classes in Cumbria |
 | `/coding-classes-in-daba-al-bayah` | Coding Classes in Daba Al Bayah |
 | `/coding-classes-in-dammam` | Coding Classes in Dammam & Khobar |
 | `/coding-classes-in-delfshaven` | Coding Classes in Delfshaven, Rotterdam |
 | `/coding-classes-in-delft` | Coding Classes in Delft |
 | `/coding-classes-in-den-bosch` | Coding Classes in Den Bosch |
+| `/coding-classes-in-denbighshire` | Coding Classes in Denbighshire |
+| `/coding-classes-in-derbyshire` | Coding Classes in Derbyshire |
 | `/coding-classes-in-deventer` | Coding Classes in Deventer |
+| `/coding-classes-in-devon` | Coding Classes in Devon |
 | `/coding-classes-in-dhank` | Coding Classes in Dhank |
 | `/coding-classes-in-dhofar` | Coding Classes in Dhofar |
 | `/coding-classes-in-diamond-city-north` | Coding & Maths Classes at Diamond City North |
@@ -1913,26 +2022,41 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-dlf-new-town-heights` | Coding & Maths Classes at DLF New Town Heights |
 | `/coding-classes-in-doha` | Coding Classes in Doha |
 | `/coding-classes-in-dordrecht` | Coding Classes in Dordrecht |
+| `/coding-classes-in-dorset` | Coding Classes in Dorset |
 | `/coding-classes-in-douglas-cork` | Coding Classes in Douglas, Cork |
 | `/coding-classes-in-drenthe` | Coding Classes in Drenthe |
 | `/coding-classes-in-drumcondra-dublin` | Coding Classes in Drumcondra, Dublin |
 | `/coding-classes-in-dubai` | Coding Classes in Dubai |
+| `/coding-classes-in-dumfries-and-galloway` | Coding Classes in Dumfries and Galloway |
 | `/coding-classes-in-dun-laoghaire-dublin` | Coding Classes in Dún Laoghaire, Dublin |
 | `/coding-classes-in-dun-laoghaire-rathdown` | Coding Classes in Dún Laoghaire-Rathdown |
 | `/coding-classes-in-dundrum-dublin` | Coding Classes in Dundrum, Dublin 14 |
 | `/coding-classes-in-duqm` | Coding Classes in Duqm |
+| `/coding-classes-in-ealing-london` | Coding Classes in Ealing, Acton, Southall |
+| `/coding-classes-in-east-ayrshire` | Coding Classes in East Ayrshire |
+| `/coding-classes-in-east-dunbartonshire` | Coding Classes in East Dunbartonshire |
+| `/coding-classes-in-east-lothian` | Coding Classes in East Lothian |
+| `/coding-classes-in-east-renfrewshire` | Coding Classes in East Renfrewshire |
+| `/coding-classes-in-east-riding-of-yorkshire` | Coding Classes in the East Riding |
+| `/coding-classes-in-east-sussex` | Coding Classes in East Sussex |
 | `/coding-classes-in-ede` | Coding Classes in Ede |
 | `/coding-classes-in-eden-city-maheshtala` | Coding & Maths Classes in Eden City, Maheshtala |
 | `/coding-classes-in-eindhoven` | Coding Classes in Eindhoven |
 | `/coding-classes-in-eindhoven-centrum` | Coding Classes in Eindhoven Centrum |
 | `/coding-classes-in-elita-garden-vista` | Coding & Maths Classes near Elita Garden Vista |
 | `/coding-classes-in-emmen` | Coding Classes in Emmen |
+| `/coding-classes-in-enfield-london` | Coding Classes in Enfield and Edmonton |
 | `/coding-classes-in-enschede` | Coding Classes in Enschede |
 | `/coding-classes-in-escamp` | Coding Classes in Escamp, The Hague |
+| `/coding-classes-in-essex` | Coding Classes in Essex |
+| `/coding-classes-in-falkirk` | Coding Classes in Falkirk |
 | `/coding-classes-in-feijenoord` | Coding Classes in Feijenoord, Rotterdam |
+| `/coding-classes-in-fermanagh-and-omagh` | Coding Classes in Fermanagh and Omagh |
+| `/coding-classes-in-fife` | Coding Classes in Fife |
 | `/coding-classes-in-fingal` | Coding Classes in Fingal |
 | `/coding-classes-in-finglas-dublin` | Coding Classes in Finglas, Dublin |
 | `/coding-classes-in-flevoland` | Coding Classes in Flevoland |
+| `/coding-classes-in-flintshire` | Coding Classes in Flintshire |
 | `/coding-classes-in-friesland` | Coding Classes in Friesland (Fryslân) |
 | `/coding-classes-in-gadong` | Coding Classes in Gadong, Brunei |
 | `/coding-classes-in-gelderland` | Coding Classes in Gelderland |
@@ -1942,37 +2066,54 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-gestel` | Coding Classes in Gestel, Eindhoven |
 | `/coding-classes-in-glanmire-cork` | Coding Classes in Glanmire, Cork |
 | `/coding-classes-in-glasnevin-dublin` | Coding Classes in Glasnevin, Dublin |
+| `/coding-classes-in-gloucestershire` | Coding Classes in Gloucestershire |
 | `/coding-classes-in-goa` | Coding Classes in Goa |
 | `/coding-classes-in-godrej-prakriti` | Coding & Maths Classes at Godrej Prakriti, Sodepur |
 | `/coding-classes-in-gouda` | Coding Classes in Gouda |
+| `/coding-classes-in-greater-manchester` | Coding Classes in Greater Manchester |
 | `/coding-classes-in-greenfield-city-behala` | Coding & Maths Classes in Greenfield City, Behala |
+| `/coding-classes-in-greenwich-london` | Coding Classes in Greenwich and Woolwich |
 | `/coding-classes-in-groningen` | Coding Classes in Groningen |
 | `/coding-classes-in-groningen-province` | Coding Classes in the Province of Groningen |
 | `/coding-classes-in-gujarat` | Coding Classes in Gujarat |
+| `/coding-classes-in-gwynedd` | Coding Classes in Gwynedd |
 | `/coding-classes-in-haagse-hout` | Coding Classes in Haagse Hout, The Hague |
 | `/coding-classes-in-haarlem` | Coding Classes in Haarlem |
 | `/coding-classes-in-haarlemmermeer` | Coding Classes in Haarlemmermeer, Hoofddorp |
+| `/coding-classes-in-hackney-london` | Coding Classes in Hackney and Shoreditch |
 | `/coding-classes-in-haima` | Coding Classes in Haima |
+| `/coding-classes-in-hammersmith-and-fulham-london` | Coding Classes in Hammersmith and Fulham |
+| `/coding-classes-in-hampshire` | Coding Classes in Hampshire |
+| `/coding-classes-in-haringey-london` | Coding Classes in Haringey and Tottenham |
 | `/coding-classes-in-harrow-london` | Coding Classes in Harrow, London |
 | `/coding-classes-in-haryana` | Coding Classes in Haryana |
+| `/coding-classes-in-havering-london` | Coding Classes in Havering and Romford |
 | `/coding-classes-in-heerlen` | Coding Classes in Heerlen |
 | `/coding-classes-in-helmond` | Coding Classes in Helmond |
 | `/coding-classes-in-hengelo` | Coding Classes in Hengelo |
+| `/coding-classes-in-herefordshire` | Coding Classes in Herefordshire |
+| `/coding-classes-in-hertfordshire` | Coding Classes in Hertfordshire |
+| `/coding-classes-in-highland` | Coding Classes in the Highlands |
 | `/coding-classes-in-hiland-park` | Coding & Maths Classes near Hiland Park |
 | `/coding-classes-in-hiland-willows` | Coding & Maths Classes near Hiland Willows |
 | `/coding-classes-in-hillegersberg-schiebroek` | Coding Classes in Hillegersberg-Schiebroek |
+| `/coding-classes-in-hillingdon-london` | Coding Classes in Hillingdon, Uxbridge, Hayes |
 | `/coding-classes-in-hilversum` | Coding Classes in Hilversum |
 | `/coding-classes-in-himachal-pradesh` | Coding Classes in Himachal Pradesh |
 | `/coding-classes-in-hong-kong` | Online Coding Classes in Hong Kong |
 | `/coding-classes-in-hoorn` | Coding Classes in Hoorn |
+| `/coding-classes-in-hounslow-london` | Coding Classes in Hounslow, Chiswick, Feltham |
 | `/coding-classes-in-howth-dublin` | Coding Classes in Howth, Dublin |
 | `/coding-classes-in-ibra` | Coding Classes in Ibra |
 | `/coding-classes-in-ibri` | Coding Classes in Ibri |
 | `/coding-classes-in-ideal-niketan-tangra` | Coding & Maths Classes near Ideal Niketan, Tangra |
 | `/coding-classes-in-ijsselmonde` | Coding Classes in IJsselmonde, Rotterdam |
 | `/coding-classes-in-illinois` | Coding Classes in Illinois |
-| `/coding-classes-in-india` | Coding Classes in India |
+| `/coding-classes-in-india` | Coding Classes in India: Live Online in 130+ Cities |
+| `/coding-classes-in-inverclyde` | Coding Classes in Inverclyde |
 | `/coding-classes-in-ireland` | Online Coding & AI Classes in Ireland |
+| `/coding-classes-in-isle-of-wight` | Coding Classes on the Isle of Wight |
+| `/coding-classes-in-islington-london` | Coding Classes in Islington and Clerkenwell |
 | `/coding-classes-in-izki` | Coding Classes in Izki |
 | `/coding-classes-in-jalan-bani-bu-ali` | Coding Classes in Jalan Bani Bu Ali |
 | `/coding-classes-in-jalan-bani-bu-hassan` | Coding Classes in Jalan Bani Bu Hassan |
@@ -1980,21 +2121,29 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-jerudong` | Coding Classes in Jerudong, Brunei |
 | `/coding-classes-in-jharkhand` | Coding Classes in Jharkhand |
 | `/coding-classes-in-karnataka` | Coding Classes in Karnataka |
+| `/coding-classes-in-kensington-and-chelsea-london` | Coding Classes in Kensington and Chelsea |
+| `/coding-classes-in-kent` | Coding Classes in Kent |
 | `/coding-classes-in-kerala` | Coding Classes in Kerala |
 | `/coding-classes-in-khasab` | Coding Classes in Khasab |
+| `/coding-classes-in-kingston-upon-thames-london` | Coding Classes in Kingston upon Thames |
 | `/coding-classes-in-knocknacarra-galway` | Coding Classes in Knocknacarra, Galway |
 | `/coding-classes-in-kralingen-crooswijk` | Coding Classes in Kralingen-Crooswijk |
 | `/coding-classes-in-kuala-belait` | Coding Classes in Kuala Belait and Seria |
 | `/coding-classes-in-kuwait` | Online Coding Classes in Kuwait |
 | `/coding-classes-in-laak` | Coding Classes in Laak, The Hague |
+| `/coding-classes-in-lambeth-london` | Coding Classes in Lambeth, Brixton, Clapham |
+| `/coding-classes-in-lancashire` | Coding Classes in Lancashire |
 | `/coding-classes-in-leeuwarden` | Coding Classes in Leeuwarden |
 | `/coding-classes-in-leicester` | Online Coding Classes in Leicester |
+| `/coding-classes-in-leicestershire` | Coding Classes in Leicestershire |
 | `/coding-classes-in-leiden` | Coding Classes in Leiden |
 | `/coding-classes-in-leidschendam-voorburg` | Coding Classes in Leidschendam-Voorburg |
 | `/coding-classes-in-leidschenveen-ypenburg` | Coding Classes in Leidschenveen-Ypenburg |
 | `/coding-classes-in-lelystad` | Coding Classes in Lelystad |
+| `/coding-classes-in-lewisham-london` | Coding Classes in Lewisham, Catford, Deptford |
 | `/coding-classes-in-liang` | Coding Classes in Liang and Lumut, Brunei |
 | `/coding-classes-in-limburg` | Coding Classes in Limburg |
+| `/coding-classes-in-lincolnshire` | Coding Classes in Lincolnshire |
 | `/coding-classes-in-liwa` | Coding Classes in Liwa |
 | `/coding-classes-in-loosduinen` | Coding Classes in Loosduinen, The Hague |
 | `/coding-classes-in-lucan-dublin` | Coding Classes in Lucan, Dublin |
@@ -2011,28 +2160,51 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-masirah` | Coding Classes in Masirah |
 | `/coding-classes-in-mawaleh` | Coding Classes in Mawaleh |
 | `/coding-classes-in-meierijstad` | Coding Classes in Meierijstad |
+| `/coding-classes-in-merseyside` | Coding Classes in Merseyside |
+| `/coding-classes-in-merthyr-tydfil-county-borough` | Coding Classes in Merthyr Tydfil |
+| `/coding-classes-in-merton-london` | Coding Classes in Merton, Wimbledon, Mitcham |
+| `/coding-classes-in-mid-and-east-antrim` | Coding Classes in Mid and East Antrim |
+| `/coding-classes-in-mid-ulster` | Coding Classes in Mid Ulster |
 | `/coding-classes-in-middelburg` | Coding Classes in Middelburg |
+| `/coding-classes-in-midlothian` | Coding Classes in Midlothian |
 | `/coding-classes-in-mirbat` | Coding Classes in Mirbat |
+| `/coding-classes-in-monmouthshire` | Coding Classes in Monmouthshire |
+| `/coding-classes-in-moray` | Coding Classes in Moray |
 | `/coding-classes-in-musandam` | Coding Classes in Musandam |
 | `/coding-classes-in-muscat` | Online Coding Classes in Muscat |
 | `/coding-classes-in-muttrah` | Online Coding Classes in Muttrah |
+| `/coding-classes-in-na-h-eileanan-siar` | Coding Classes in the Western Isles |
 | `/coding-classes-in-nakhal` | Coding Classes in Nakhal |
 | `/coding-classes-in-natural-city-garia` | Coding & Maths Classes in Garia, Kolkata |
+| `/coding-classes-in-neath-port-talbot` | Coding Classes in Neath Port Talbot |
 | `/coding-classes-in-netherlands` | Online Coding Classes in the Netherlands |
 | `/coding-classes-in-new-jersey` | Coding Classes in New Jersey |
 | `/coding-classes-in-new-york` | Coding Classes in New York |
 | `/coding-classes-in-new-zealand` | Online Coding & AI Classes in New Zealand |
+| `/coding-classes-in-newham-london` | Coding Classes in Newham, Stratford, East Ham |
 | `/coding-classes-in-nijmegen` | Coding Classes in Nijmegen |
 | `/coding-classes-in-nissewaard` | Coding Classes in Nissewaard |
 | `/coding-classes-in-nizwa` | Coding Classes in Nizwa |
 | `/coding-classes-in-noord-brabant` | Coding Classes in Noord-Brabant |
 | `/coding-classes-in-noord-holland` | Coding Classes in Noord-Holland |
+| `/coding-classes-in-norfolk` | Coding Classes in Norfolk |
+| `/coding-classes-in-north-ayrshire` | Coding Classes in North Ayrshire |
+| `/coding-classes-in-north-lanarkshire` | Coding Classes in North Lanarkshire |
+| `/coding-classes-in-north-yorkshire` | Coding Classes in North Yorkshire |
+| `/coding-classes-in-northamptonshire` | Coding Classes in Northamptonshire |
+| `/coding-classes-in-northumberland` | Coding Classes in Northumberland |
+| `/coding-classes-in-nottinghamshire` | Coding Classes in Nottinghamshire |
 | `/coding-classes-in-odisha` | Coding Classes in Odisha |
 | `/coding-classes-in-oegstgeest` | Coding Classes in Oegstgeest |
 | `/coding-classes-in-oman` | Online Coding Classes in Oman |
 | `/coding-classes-in-ontario` | Coding Classes in Ontario |
+| `/coding-classes-in-orkney` | Coding Classes in the Orkney Islands |
 | `/coding-classes-in-oss` | Coding Classes in Oss |
 | `/coding-classes-in-overijssel` | Coding Classes in Overijssel |
+| `/coding-classes-in-oxfordshire` | Coding Classes in Oxfordshire |
+| `/coding-classes-in-pembrokeshire` | Coding Classes in Pembrokeshire |
+| `/coding-classes-in-perth-and-kinross` | Coding Classes in Perth and Kinross |
+| `/coding-classes-in-powys` | Coding Classes in Powys |
 | `/coding-classes-in-prins-alexander` | Coding Classes in Prins Alexander, Rotterdam |
 | `/coding-classes-in-punjab` | Coding Classes in Punjab |
 | `/coding-classes-in-purmerend` | Coding Classes in Purmerend |
@@ -2042,6 +2214,10 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-rajasthan` | Coding Classes in Rajasthan |
 | `/coding-classes-in-rathfarnham-dublin` | Coding Classes in Rathfarnham, Dublin |
 | `/coding-classes-in-rathmines-dublin` | Coding Classes in Rathmines, Dublin |
+| `/coding-classes-in-redbridge-london` | Coding Classes in Redbridge, Ilford, Woodford |
+| `/coding-classes-in-renfrewshire` | Coding Classes in Renfrewshire |
+| `/coding-classes-in-rhondda-cynon-taf` | Coding Classes in Rhondda Cynon Taf |
+| `/coding-classes-in-richmond-upon-thames-london` | Coding Classes in Richmond, Twickenham, Kew |
 | `/coding-classes-in-rijswijk` | Coding Classes in Rijswijk |
 | `/coding-classes-in-riyadh` | Coding Classes in Riyadh |
 | `/coding-classes-in-roermond` | Coding Classes in Roermond |
@@ -2050,6 +2226,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-rotterdam` | Coding Classes in Rotterdam |
 | `/coding-classes-in-rotterdam-centrum` | Coding Classes in Rotterdam Centrum |
 | `/coding-classes-in-rustaq` | Coding Classes in Rustaq |
+| `/coding-classes-in-rutland` | Coding Classes in Rutland |
 | `/coding-classes-in-saham` | Coding Classes in Saham |
 | `/coding-classes-in-salalah` | Coding Classes in Salalah |
 | `/coding-classes-in-samail` | Coding Classes in Samail |
@@ -2057,26 +2234,37 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-saudi-arabia` | Coding Classes in Saudi Arabia |
 | `/coding-classes-in-scheveningen` | Coding Classes in Scheveningen, The Hague |
 | `/coding-classes-in-schiedam` | Coding Classes in Schiedam |
+| `/coding-classes-in-scottish-borders` | Coding Classes in the Scottish Borders |
 | `/coding-classes-in-seeb` | Online Coding Classes in Seeb |
 | `/coding-classes-in-segbroek` | Coding Classes in Segbroek, The Hague |
 | `/coding-classes-in-seria` | Coding Classes in Seria, Brunei |
 | `/coding-classes-in-shalim` | Coding Classes in Shalim |
 | `/coding-classes-in-sharjah` | Coding Classes in Sharjah |
 | `/coding-classes-in-sherwood-estate` | Coding & Maths Classes near Sherwood Estate |
+| `/coding-classes-in-shetland` | Coding Classes in the Shetland Islands |
 | `/coding-classes-in-shinas` | Coding Classes in Shinas |
+| `/coding-classes-in-shropshire` | Coding Classes in Shropshire |
 | `/coding-classes-in-siddha-town-madhyamgram` | Coding & Maths Classes in Siddha Town, Madhyamgram |
 | `/coding-classes-in-singapore` | Coding & AI Classes in Singapore |
 | `/coding-classes-in-sittard-geleen` | Coding Classes in Sittard-Geleen |
 | `/coding-classes-in-sohar` | Coding Classes in Sohar |
+| `/coding-classes-in-somerset` | Coding Classes in Somerset |
+| `/coding-classes-in-south-ayrshire` | Coding Classes in South Ayrshire |
 | `/coding-classes-in-south-city` | Coding & Maths Classes near South City |
 | `/coding-classes-in-south-dublin` | Coding Classes in South Dublin |
+| `/coding-classes-in-south-lanarkshire` | Coding Classes in South Lanarkshire |
+| `/coding-classes-in-south-yorkshire` | Coding Classes in South Yorkshire |
+| `/coding-classes-in-southwark-london` | Coding Classes in Southwark and Peckham |
+| `/coding-classes-in-staffordshire` | Coding Classes in Staffordshire |
 | `/coding-classes-in-stillorgan-dublin` | Coding Classes in Stillorgan, Dublin |
 | `/coding-classes-in-stratum` | Coding Classes in Stratum, Eindhoven |
 | `/coding-classes-in-strijp` | Coding Classes in Strijp, Eindhoven |
+| `/coding-classes-in-suffolk` | Coding Classes in Suffolk |
 | `/coding-classes-in-sugam-habitat` | Coding & Maths Classes near Sugam Habitat |
 | `/coding-classes-in-sukhobrishti` | Coding & Maths Classes near Sukhobrishti |
 | `/coding-classes-in-sur` | Coding Classes in Sur |
 | `/coding-classes-in-surrey` | Coding Classes in Surrey |
+| `/coding-classes-in-sutton-london` | Coding Classes in Sutton, Cheam, Carshalton |
 | `/coding-classes-in-sweden` | Online Coding & AI Classes in Sweden |
 | `/coding-classes-in-switzerland` | Online Coding & AI Classes in Switzerland |
 | `/coding-classes-in-tallaght-dublin` | Coding Classes in Tallaght, Dublin 24 |
@@ -2086,12 +2274,17 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-temburong` | Coding Classes in Temburong and Bangar |
 | `/coding-classes-in-terenure-dublin` | Coding Classes in Terenure, Dublin |
 | `/coding-classes-in-texas` | Coding Classes in Texas |
+| `/coding-classes-in-the-city-of-london` | Coding Classes in the City of London |
 | `/coding-classes-in-the-hague` | Coding Classes in The Hague |
 | `/coding-classes-in-the-hague-centrum` | Coding Classes in Den Haag Centrum |
+| `/coding-classes-in-the-west-midlands` | Coding Classes in the West Midlands |
 | `/coding-classes-in-thumrait` | Coding Classes in Thumrait |
 | `/coding-classes-in-tilburg` | Coding Classes in Tilburg |
 | `/coding-classes-in-tongelre` | Coding Classes in Tongelre, Eindhoven |
+| `/coding-classes-in-torfaen` | Coding Classes in Torfaen |
+| `/coding-classes-in-tower-hamlets-london` | Coding Classes in Tower Hamlets, Canary Wharf |
 | `/coding-classes-in-tutong` | Coding Classes in Tutong |
+| `/coding-classes-in-tyne-and-wear` | Coding Classes in Tyne and Wear |
 | `/coding-classes-in-uae` | Online Coding & AI Classes in the UAE |
 | `/coding-classes-in-udayan-condoville-em-bypass` | Coding & Maths Classes near Udayan Condoville |
 | `/coding-classes-in-uithoorn` | Coding Classes in Uithoorn |
@@ -2104,6 +2297,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-utrecht-province` | Coding Classes in the Province of Utrecht |
 | `/coding-classes-in-uttar-pradesh` | Coding Classes in Uttar Pradesh |
 | `/coding-classes-in-uttarakhand` | Coding Classes in Uttarakhand |
+| `/coding-classes-in-vale-of-glamorgan` | Coding Classes in the Vale of Glamorgan |
 | `/coding-classes-in-veenendaal` | Coding Classes in Veenendaal |
 | `/coding-classes-in-velsen` | Coding Classes in Velsen |
 | `/coding-classes-in-venlo` | Coding Classes in Venlo |
@@ -2112,13 +2306,23 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-voorschoten` | Coding Classes in Voorschoten |
 | `/coding-classes-in-wadi-al-maawil` | Coding Classes in Wadi Al Maawil |
 | `/coding-classes-in-wadi-bani-khalid` | Coding Classes in Wadi Bani Khalid |
+| `/coding-classes-in-waltham-forest-london` | Coding Classes in Waltham Forest, Walthamstow |
+| `/coding-classes-in-wandsworth-london` | Coding Classes in Wandsworth and Putney |
+| `/coding-classes-in-warwickshire` | Coding Classes in Warwickshire |
 | `/coding-classes-in-washington` | Coding Classes in Washington State |
 | `/coding-classes-in-wassenaar` | Coding Classes in Wassenaar |
 | `/coding-classes-in-weesp` | Coding Classes in Weesp |
 | `/coding-classes-in-west-bengal` | Coding Classes in West Bengal |
+| `/coding-classes-in-west-dunbartonshire` | Coding Classes in West Dunbartonshire |
+| `/coding-classes-in-west-lothian` | Coding Classes in West Lothian |
+| `/coding-classes-in-west-sussex` | Coding Classes in West Sussex |
+| `/coding-classes-in-west-yorkshire` | Coding Classes in West Yorkshire |
 | `/coding-classes-in-westland` | Coding Classes in Westland |
+| `/coding-classes-in-westminster-london` | Coding Classes in Westminster and Marylebone |
+| `/coding-classes-in-wiltshire` | Coding Classes in Wiltshire |
 | `/coding-classes-in-woensel-noord` | Coding Classes in Woensel-Noord, Eindhoven |
 | `/coding-classes-in-woensel-zuid` | Coding Classes in Woensel-Zuid, Eindhoven |
+| `/coding-classes-in-worcestershire` | Coding Classes in Worcestershire |
 | `/coding-classes-in-yanqul` | Coding Classes in Yanqul |
 | `/coding-classes-in-zaanstad` | Coding Classes in Zaanstad and Zaandam |
 | `/coding-classes-in-zeeland` | Coding Classes in Zeeland |
@@ -2155,6 +2359,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-near-liluah-howrah` | Live Online Coding & Maths Classes near Liluah, Howrah |
 | `/coding-classes-near-loudon-street-kolkata` | Live Online Coding & Maths Classes near Loudon Street |
 | `/coding-classes-near-mandirtala-howrah` | Live Online Coding & Maths Classes near Mandirtala, Howrah |
+| `/coding-classes-near-me-australia-online-or-local` | Coding Classes Near Me in Australia: Online or Local? |
 | `/coding-classes-near-nager-bazar-kolkata` | Live Online Coding & Maths Classes near Nager Bazar |
 | `/coding-classes-near-new-alipore-kolkata` | Live Online Coding & Maths Classes near New Alipore |
 | `/coding-classes-near-new-town-kolkata` | Coding & Maths Classes near New Town, Kolkata |
@@ -2172,6 +2377,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-near-tollygunge-kolkata` | Coding & Maths Classes near Tollygunge, Kolkata |
 | `/coding-classes-near-uluberia-howrah` | Live Online Coding & Maths Classes near Uluberia, Howrah |
 | `/coding-classes-near-vip-road-kolkata` | Live Online Coding & Maths Classes near VIP Road, Kolkata |
+| `/coding-classes-vs-coding-camps-australia` | Coding Classes vs Coding Camps in Australia: Which Sticks? |
 
 ### B.9 Coding and Python by age (19)
 
@@ -2219,10 +2425,12 @@ Listed with titles in Appendix C.
 | `/python-for-class-8` | Python for Class 8: OOP, Flask API, sklearn, Kaggle Datasets & DSA Intro |
 | `/python-for-class-9` | Python for Class 9: CBSE Code 402 Python, Flask, Django Intro & Kaggle |
 
-### B.11 Comparison and alternative pages (25)
+### B.11 Comparison and alternative pages (36)
 
 | URL path | Page title |
 |---|---|
+| `/after-school-coding-club-vs-online-class-australia` | After-School Coding Club vs Online Class in Australia |
+| `/aqa-vs-edexcel-vs-ocr-gcse-maths` | AQA vs Edexcel vs OCR GCSE Maths: How the Boards Differ |
 | `/bhanzu-alternative` | Bhanzu Alternative for 2026: Live Maths and Coding, Ages 6 to 67 |
 | `/brightchamps-alternative` | BrightChamps Alternative 2026: Focused Depth, Not Breadth |
 | `/byjus-coding-alternative` | BYJU'S Coding Alternative 2026: Live, Small-Batch, Honest |
@@ -2232,7 +2440,12 @@ Listed with titles in Appendix C.
 | `/codingal-alternative` | Codingal Alternative 2026: Depth-First Coding and Maths |
 | `/cuemath-alternative` | Cuemath Alternative for 2026: A Live Coding and Maths School |
 | `/free-demo-vs-priority-demo` | Free Demo vs Priority Demo |
+| `/functional-skills-maths-vs-gcse-maths` | Functional Skills Maths vs GCSE Maths: Which Should You Take? |
+| `/gcse-maths-calculator-vs-non-calculator-papers` | GCSE Maths Calculator vs Non-Calculator Papers Explained |
+| `/gcse-maths-foundation-vs-higher` | GCSE Maths Foundation vs Higher Tier: Which Should You Sit? |
+| `/group-vs-one-to-one-maths-tuition` | Group vs One-to-One Maths Tuition: Cost, Evidence, Fit |
 | `/live-vs-recorded-coding-classes` | Live vs Recorded Coding Classes for Kids: Which Is Better? |
+| `/maths-tutor-vs-tuition-centre-uk` | Maths Tutor vs Tuition Centre UK: Kumon, Explore Learning, Cost |
 | `/modern-age-coders-vs-codingal` | Modern Age Coders vs Codingal: Honest 2026 Comparison |
 | `/modern-age-coders-vs-cuemath` | Modern Age Coders vs Cuemath: Honest 2026 Comparison |
 | `/modern-age-coders-vs-juni-learning` | Modern Age Coders vs Juni Learning: 2026 Comparison |
@@ -2241,7 +2454,11 @@ Listed with titles in Appendix C.
 | `/modern-age-coders-vs-outschool` | Modern Age Coders vs Outschool: School or Marketplace? (2026) |
 | `/modern-age-coders-vs-tynker` | Modern Age Coders vs Tynker: App or Live Teaching? (2026) |
 | `/modern-age-coders-vs-whitehat-jr-cuemath-codingal` | Modern Age Coders vs WhiteHat Jr, Cuemath & Codingal - Honest Comparison |
+| `/national-5-vs-higher-maths` | National 5 vs Higher Maths: Papers, Topics and the Jump |
+| `/online-vs-face-to-face-maths-tuition-uk` | Online vs Face-to-Face Maths Tuition UK: Cost Compared |
+| `/online-vs-in-person-coding-classes-australia` | Online vs In-Person Coding Classes in Australia Compared |
 | `/private-math-tutor-vs-online-tutoring` | Private Math Tutor vs Online Tutoring: 2026 Decision Guide |
+| `/tutor-vs-tutoring-centre-maths-australia` | Maths Tutor vs Tutoring Centre in Australia: How to Choose |
 | `/tynker-alternative` | Tynker Alternative 2026: A Live Teacher, Not an App Alone |
 | `/vedantu-alternative` | Vedantu Alternative for 2026: Live Coding and Maths Classes |
 | `/vibe-coding-vs-building-ai-netherlands` | Vibe Coding vs Building AI in the Netherlands |
@@ -2249,7 +2466,7 @@ Listed with titles in Appendix C.
 | `/whitehat-jr-alternative` | WhiteHat Jr Alternative in 2026: Real Mentors, Not Scripts |
 | `/year-round-coding-classes-vs-summer-camps-bahamas` | Year-Round Coding Classes vs Summer Camps in The Bahamas |
 
-### B.12 Camps (summer and winter) (9)
+### B.12 Camps (summer and winter) (10)
 
 | URL path | Page title |
 |---|---|
@@ -2258,18 +2475,43 @@ Listed with titles in Appendix C.
 | `/summer-coding-camp-adults` | Summer Coding Bootcamp for Adults 2026 (18+) |
 | `/summer-coding-camp-kids` | Summer Coding Camp for Kids 2026 - Ages 6-12 |
 | `/summer-coding-camp-teens` | Summer Coding Camp for Teens 2026 (Ages 12-17) |
+| `/vibe-coding-and-ai-agents-classes-in-campbelltown-nsw` | Vibe Coding and AI Agents Classes in Campbelltown, NSW |
 | `/winter-coding-camp` | Winter Coding Camp 2026 |
 | `/winter-coding-camp-adults` | Winter Coding Camp for Adults 2026 (Ages 18+) |
 | `/winter-coding-camp-kids` | Winter Coding Camp for Kids 2026 (Ages 6-11) |
 | `/winter-coding-camp-teens` | Winter Coding Camp for Teens 2026 (Ages 12-17) |
 
-### B.13 Mathematics landing pages (86)
+### B.13 Mathematics landing pages (178)
 
 | URL path | Page title |
 |---|---|
 | `/11-plus-maths-tuition` | 11 Plus Maths Tuition Online · 1:1 GL & CEM 11+ Maths Prep |
+| `/11-plus-maths-tuition-barnet` | 11 Plus Maths Tuition Barnet |
+| `/11-plus-maths-tuition-bexley` | 11 Plus Maths Tuition Bexley |
+| `/11-plus-maths-tuition-birmingham` | 11 Plus Maths Tuition Birmingham |
+| `/11-plus-maths-tuition-bournemouth-christchurch-and-poole` | 11 Plus Maths Tuition Bournemouth and Poole |
+| `/11-plus-maths-tuition-buckinghamshire` | 11 Plus Maths Tuition Buckinghamshire |
+| `/11-plus-maths-tuition-calderdale` | 11 Plus Maths Tuition Calderdale |
+| `/11-plus-maths-tuition-enfield` | 11 Plus Maths Tuition Enfield |
+| `/11-plus-maths-tuition-essex` | 11 Plus Maths Tuition Essex |
+| `/11-plus-maths-tuition-gloucestershire` | 11 Plus Maths Tuition Gloucestershire |
+| `/11-plus-maths-tuition-hertfordshire` | 11 Plus Maths Tuition Hertfordshire |
 | `/11-plus-maths-tuition-kent` | 11 Plus Maths Tuition Kent |
+| `/11-plus-maths-tuition-kingston` | 11 Plus Maths Tuition Kingston |
+| `/11-plus-maths-tuition-medway` | 11 Plus Maths Tuition Medway |
+| `/11-plus-maths-tuition-plymouth` | 11 Plus Maths Tuition Plymouth |
+| `/11-plus-maths-tuition-reading` | 11 Plus Maths Tuition Reading |
+| `/11-plus-maths-tuition-redbridge` | 11 Plus Maths Tuition Redbridge |
+| `/11-plus-maths-tuition-slough` | 11 Plus Maths Tuition Slough |
+| `/11-plus-maths-tuition-southend` | 11 Plus Maths Tuition Southend |
+| `/11-plus-maths-tuition-sutton` | 11 Plus Maths Tuition Sutton |
+| `/11-plus-maths-tuition-torbay` | 11 Plus Maths Tuition Torbay |
+| `/11-plus-maths-tuition-trafford` | 11 Plus Maths Tuition Trafford |
+| `/11-plus-maths-tuition-warwickshire` | 11 Plus Maths Tuition Warwickshire |
+| `/11-plus-maths-tuition-wirral` | 11 Plus Maths Tuition Wirral |
+| `/11-plus-maths-tuition-wolverhampton-and-walsall` | 11 Plus Maths Tuition Wolverhampton and Walsall |
 | `/a-level-maths-tuition-online` | A-Level Maths Tuition Online · 1:1 Pure, Mechanics & Statistics |
+| `/a-level-maths-tutor-cost-uk` | A Level Maths Tutor Cost UK 2026: Hourly Rates Compared |
 | `/a-level-maths-tutor-uae` | A-Level Maths Tutor in the UAE · 1:1 Online Pure, Mechanics & Statistics |
 | `/act-math-tutoring-online` | ACT Math Tutoring Online · 1:1 ACT Math Prep |
 | `/advanced-higher-maths-tuition-online` | Advanced Higher Maths Tuition Online |
@@ -2280,6 +2522,10 @@ Listed with titles in Appendix C.
 | `/ap-computer-science-a-online-classes` | AP Computer Science A Online Classes |
 | `/ap-computer-science-principles-online-coaching` | AP Computer Science Principles Online Coaching |
 | `/ap-statistics-tutoring-online` | AP Statistics Tutoring Online · 1:1 AP Stats Prep |
+| `/apsmo-maths-olympiad-practice` | APSMO Maths Olympiad Practice |
+| `/australian-coding-maths-and-ai-competitions-calendar` | Coding and Maths Competitions in Australia: 2026 Calendar |
+| `/australian-curriculum-maths-year-7-to-10-help` | Australian Curriculum Maths Years 7 to 10 Help |
+| `/australian-maths-competitions-for-primary-kids` | Maths Competitions for Primary Kids in Australia: A Guide |
 | `/australian-maths-trust-amc-aio-cat-preparation` | Australian Maths Trust Prep: AMC, AIO and CAT, Live Online |
 | `/best-online-math-tutoring-2026` | Best Online Math Tutoring 2026: Ranked Honestly, With Sources |
 | `/best-online-maths-classes-2026` | Best Online Maths Classes for Kids 2026: Ranked Honestly |
@@ -2287,35 +2533,88 @@ Listed with titles in Appendix C.
 | `/cbse-icse-maths-tuition-online` | CBSE and ICSE Maths Tuition Online, Class 6 to 12: Live Batches |
 | `/cbse-maths-tutor-uae` | CBSE Maths Tutor in the UAE · 1:1 Online CBSE & ICSE: Class 6 to 12 |
 | `/ccea-gcse-maths-help` | CCEA GCSE Maths Help |
+| `/coding-class-or-maths-tutor-first-australia` | Coding Class or Maths Tutor First? A Guide for Australian Parents |
 | `/common-entrance-maths-tuition` | Common Entrance Maths Tuition · 1:1 ISEB 13+ & 11+ Maths |
+| `/functional-skills-maths-course-cost-uk` | Functional Skills Maths Course Cost UK 2026: Free or Paid? |
 | `/functional-skills-maths-tuition-online` | Functional Skills Maths Tuition Online · 1:1 Entry 3, Level 1 & Level 2 |
 | `/further-maths-tuition-online` | Further Maths Tuition Online · 1:1 A-Level Further Mathematics |
+| `/further-maths-tutor-cost-uk` | Further Maths Tutor Cost UK 2026: Rates and What You Pay For |
 | `/gcse-maths-and-numeracy-wales-help` | GCSE Maths and Numeracy Help, Wales |
+| `/gcse-maths-grades-explained` | GCSE Maths Grades 1 to 9 Explained: What 4 and 5 Mean |
+| `/gcse-maths-resit-explained` | GCSE Maths Resit Explained: Rules, November Series, Adults |
 | `/gcse-maths-tuition-online` | GCSE Maths Tuition Online · 1:1 AQA, Edexcel & OCR |
+| `/gcse-maths-tutor-cost-uk` | GCSE Maths Tutor Cost UK 2026: Hourly Rates by Format |
 | `/gcse-maths-tutor-uae` | GCSE Maths Tutor in the UAE · 1:1 Online IGCSE & GCSE: AQA, Edexcel, OCR, CIE |
 | `/geometry-tutoring-online-usa` | Geometry Tutoring Online (USA) · 1:1 High School Geometry & Proofs |
 | `/higher-maths-tuition-online` | Higher Maths Tuition Online |
 | `/homeschool-math-curriculum-usa` | Homeschool Math Curriculum (USA) · 1:1 Online Math for Homeschoolers |
+| `/hsc-maths-advanced-tutoring` | HSC Maths Advanced Tutoring |
+| `/hsc-maths-extension-1-tutoring` | HSC Maths Extension 1 Tutoring |
+| `/hsc-maths-extension-2-tutoring` | HSC Maths Extension 2 Tutoring |
+| `/hsc-maths-standard-tutoring` | HSC Maths Standard Tutoring |
 | `/ib-maths-tuition-online` | IB Maths Tuition Online |
 | `/ib-maths-tutor-uae` | IB Maths Tutor in the UAE · 1:1 Maths AA & AI (SL & HL) |
+| `/icas-maths-practice-online` | ICAS Maths Practice Online |
 | `/igcse-maths-tuition-online` | IGCSE Maths Tuition Online |
+| `/is-a-level-further-maths-worth-it` | Is A Level Further Maths Worth It? What It Adds and Costs |
+| `/is-maths-tuition-worth-it-uk` | Is Maths Tuition Worth It? An Honest UK Guide for 2026 |
 | `/isee-ssat-math-prep` | ISEE & SSAT Math Prep Online |
+| `/ks2-and-11-plus-maths-tutor-cost-uk` | KS2 and 11 Plus Maths Tutor Cost UK 2026: What to Budget |
 | `/ks2-maths-tuition-online` | KS2 Maths Tuition Online · 1:1 Year 3-6 & SATs Maths |
+| `/ks2-sats-maths-papers-explained` | KS2 SATs Maths Papers Explained: Arithmetic and Reasoning |
 | `/ks3-maths-tuition-online` | KS3 Maths Tuition Online · 1:1 Year 7-9 Maths |
 | `/math-catch-up-program` | Math Catch-Up Program |
 | `/math-kangaroo-usa-preparation` | Math Kangaroo USA Preparation: Live Online, Grades 1 to 12 |
 | `/math-olympiad-amc-tutoring` | Math Olympiad & AMC Tutoring Online · 1:1 AMC 8/10/12 & MATHCOUNTS Coaching |
 | `/maths-behind-machine-learning` | The Maths Behind Machine Learning - Linear Algebra, Calculus & Probability for AI |
-| `/maths-class-10` | Maths Tuition for Class 10 |
+| `/maths-challenge-for-young-australians-practice` | Maths Challenge for Young Australians Practice |
+| `/maths-class-10` | Maths Tuition for Class 10: CBSE & ICSE Board Exam Prep |
 | `/maths-classes-for-adults-uae` | Maths Classes for Adults in the UAE · 1:1 Online: Work, Study & GMAT/GRE |
 | `/maths-olympiad-classes-online` | Maths Olympiad Classes Online: Which Contest, and How to Enter |
 | `/maths-olympiad-training-uk` | Maths Olympiad Training UK |
 | `/maths-tuition-for-kids-uae` | Maths Tuition for Kids in the UAE · 1:1 Online Primary Maths |
 | `/maths-tuition-for-teens-uae` | Maths Tuition for Teens in the UAE · 1:1 Online Secondary Maths |
+| `/maths-tuition-in-belfast` | Maths Tuition in Belfast |
+| `/maths-tuition-in-birmingham` | Maths Tuition in Birmingham |
+| `/maths-tuition-in-bristol` | Maths Tuition in Bristol |
+| `/maths-tuition-in-cambridge` | Maths Tuition in Cambridge |
+| `/maths-tuition-in-cardiff` | Maths Tuition in Cardiff |
+| `/maths-tuition-in-coventry` | Maths Tuition in Coventry |
+| `/maths-tuition-in-edinburgh` | Maths Tuition in Edinburgh |
+| `/maths-tuition-in-glasgow` | Maths Tuition in Glasgow |
+| `/maths-tuition-in-leeds` | Maths Tuition in Leeds |
+| `/maths-tuition-in-leicester` | Maths Tuition in Leicester |
+| `/maths-tuition-in-liverpool` | Maths Tuition in Liverpool |
+| `/maths-tuition-in-london` | Maths Tuition in London |
+| `/maths-tuition-in-luton` | Maths Tuition in Luton |
+| `/maths-tuition-in-manchester` | Maths Tuition in Manchester |
+| `/maths-tuition-in-milton-keynes` | Maths Tuition in Milton Keynes |
+| `/maths-tuition-in-nottingham` | Maths Tuition in Nottingham |
+| `/maths-tuition-in-oxford` | Maths Tuition in Oxford |
+| `/maths-tuition-in-reading` | Maths Tuition in Reading |
+| `/maths-tuition-in-sheffield` | Maths Tuition in Sheffield |
+| `/maths-tuition-in-slough` | Maths Tuition in Slough |
+| `/maths-tutor-adelaide` | Maths Tutor in Adelaide |
+| `/maths-tutor-box-hill` | Maths Tutor in Box Hill |
+| `/maths-tutor-brisbane` | Maths Tutor in Brisbane |
+| `/maths-tutor-canberra` | Maths Tutor in Canberra |
+| `/maths-tutor-chatswood` | Maths Tutor in Chatswood |
+| `/maths-tutor-cost-australia-explained` | Maths Tutor Cost in Australia 2026: Rates Explained |
+| `/maths-tutor-cost-scotland` | Maths Tutor Cost in Scotland 2026: National 5 and Higher |
+| `/maths-tutor-glen-waverley` | Maths Tutor in Glen Waverley |
+| `/maths-tutor-gold-coast` | Maths Tutor Gold Coast |
+| `/maths-tutor-hobart` | Maths Tutor in Hobart |
 | `/maths-tutor-in-abu-dhabi` | Maths Tutor in Abu Dhabi · 1:1 Online Maths Tuition, Every Curriculum |
 | `/maths-tutor-in-dubai` | Maths Tutor in Dubai · 1:1 Online Maths Tuition, Every Curriculum |
 | `/maths-tutor-in-sharjah` | Maths Tutor in Sharjah · 1:1 Online Maths Tuition, Every Curriculum |
+| `/maths-tutor-melbourne` | Maths Tutor in Melbourne |
+| `/maths-tutor-newcastle-nsw` | Maths Tutor Newcastle NSW |
+| `/maths-tutor-parramatta` | Maths Tutor in Parramatta |
+| `/maths-tutor-perth-wa` | Maths Tutor in Perth, WA |
+| `/maths-tutor-sunnybank` | Maths Tutor in Sunnybank |
+| `/maths-tutor-sydney` | Maths Tutor in Sydney |
 | `/national-5-maths-tuition-online` | National 5 Maths Tuition Online |
+| `/oc-test-maths-practice-nsw` | OC Test Maths Practice NSW |
 | `/online-math-tutor-10th-grade` | Online Math Tutor for 10th Grade |
 | `/online-math-tutor-11th-grade` | Online Math Tutor for 11th Grade |
 | `/online-math-tutor-12th-grade` | Online Math Tutor for 12th Grade |
@@ -2333,7 +2632,7 @@ Listed with titles in Appendix C.
 | `/online-math-tutor-kindergarten` | Online Math Tutor for Kindergarten |
 | `/online-maths-classes-for-adults-in-uk` | Online Maths Classes for Adults in the UK · 1:1 Numeracy, GCSE Resit & Functional Skills |
 | `/online-maths-classes-for-adults-in-usa` | Online Maths Classes for Adults in the USA · 1:1 Math for Work, Study & Confidence |
-| `/online-maths-tuition` | Online Maths Tuition for All Ages |
+| `/online-maths-tuition` | Online Maths Tuition for Class 1-12, CBSE & ICSE |
 | `/online-maths-tuition-for-college-students-in-uk` | Online Maths Tuition for College & Sixth Form in the UK · 1:1 A-Level & University Maths |
 | `/online-maths-tuition-for-kids-in-uk` | Online Maths Tuition for Kids in the UK · 1:1 Primary Maths (KS1 & KS2) |
 | `/online-maths-tuition-for-teens-in-uk` | Online Maths Tuition for Teens in the UK · 1:1 KS3 & GCSE Maths |
@@ -2344,7 +2643,10 @@ Listed with titles in Appendix C.
 | `/online-maths-tutoring-for-kids-in-usa` | Online Maths Tutoring for Kids in the USA · 1:1 Elementary Math (K-5) |
 | `/online-maths-tutoring-for-teens-in-usa` | Online Maths Tutoring for Teens in the USA · 1:1 Middle & High School Math |
 | `/precalculus-tutoring-online` | Precalculus Tutoring Online |
+| `/preliminary-hsc-maths-year-11-help` | Year 11 Maths Help NSW |
 | `/primary-maths-challenge-practice` | Primary Maths Challenge Practice |
+| `/queensland-academies-entry-maths-practice` | Queensland Academies Entrance Test Maths Practice |
+| `/sa-ignite-entry-maths-practice` | SA Ignite Assessment Maths Practice |
 | `/sat-math-tutoring-online` | SAT Math Tutoring Online · 1:1 Digital SAT Math Prep |
 | `/singapore-math-method-tutoring` | Singapore Math Method Tutoring Online |
 | `/summer-math-program-online` | Online Summer Math Program 2026 |
@@ -2352,17 +2654,27 @@ Listed with titles in Appendix C.
 | `/uk-coding-maths-and-ai-competitions-calendar` | UK Coding, Maths and AI Competitions 2026-27 |
 | `/ukmt-maths-challenge-tutoring` | UKMT Maths Challenge Tutoring · 1:1 Junior, Intermediate & Senior Challenge |
 | `/ukmt-team-maths-challenge-practice` | UKMT Team Maths Challenge Practice |
+| `/vce-foundation-maths-help` | VCE Foundation Maths Help |
+| `/vce-general-maths-tutoring` | VCE General Maths Tutoring |
+| `/vce-maths-methods-tutoring` | VCE Maths Methods Tutoring |
+| `/vce-specialist-maths-tutoring` | VCE Specialist Maths Tutoring |
+| `/victorian-selective-entry-exam-maths-practice` | Victorian Selective Entry Exam Maths Practice |
+| `/wa-gate-aset-maths-practice` | WA GATE ASET Maths Practice |
 | `/why-coding-and-maths-together` | Why Coding and Maths Together |
+| `/year-10-maths-methods-preparation` | Year 10 Maths Methods Preparation |
+| `/year-12-maths-holiday-revision-australia` | Year 12 Maths Holiday Revision |
 
-### B.14 AI and machine learning pages (63)
+### B.14 AI and machine learning pages (188)
 
 | URL path | Page title |
 |---|---|
 | `/ai-agents-and-automation` | AI Agents & Automation for Business |
 | `/ai-agents-course` | AI Agents Course |
+| `/ai-agents-course-for-professionals-australia` | AI Agents Course for Professionals in Australia |
 | `/ai-agents-course-for-professionals-ireland` | AI Agents Course for Professionals in Ireland |
 | `/ai-agents-course-for-professionals-netherlands` | AI Agents Course for Professionals, Netherlands |
 | `/ai-agents-course-for-professionals-uk` | AI Agents Course for Professionals in the UK |
+| `/ai-agents-course-for-students-australia` | AI Agents Course for Students in Australia |
 | `/ai-agents-course-for-students-ireland` | AI Agents Course for Students in Ireland |
 | `/ai-agents-course-for-students-netherlands` | AI Agents Course for Students in the Netherlands |
 | `/ai-agents-course-for-students-oman` | AI Agents Course for Students in Oman |
@@ -2370,8 +2682,129 @@ Listed with titles in Appendix C.
 | `/ai-agents-explained` | AI Agents Explained: How to Actually Build One That Doesn't Hallucinate Itself Into Pieces |
 | `/ai-agents-for-teens` | AI Agents for Teens |
 | `/ai-and-machine-learning-for-working-professionals` | AI & Machine Learning for Working Professionals |
+| `/ai-and-programming-classes-in-aberdare` | AI and Programming Classes in Aberdare |
+| `/ai-and-programming-classes-in-adelaide` | AI and Programming Classes in Adelaide |
+| `/ai-and-programming-classes-in-andover` | AI and Programming Classes in Andover, Hampshire |
+| `/ai-and-programming-classes-in-aylesbury` | AI and Programming Classes in Aylesbury |
+| `/ai-and-programming-classes-in-baldivis-perth` | AI and Programming Classes in Baldivis, Perth |
+| `/ai-and-programming-classes-in-banbridge` | AI and Programming Classes in Banbridge |
+| `/ai-and-programming-classes-in-banbury` | AI and Programming Classes in Banbury, Oxfordshire |
+| `/ai-and-programming-classes-in-bankstown-sydney` | AI and Programming Classes in Bankstown, Sydney |
+| `/ai-and-programming-classes-in-barnsley` | AI and Programming Classes in Barnsley |
+| `/ai-and-programming-classes-in-barrow-in-furness` | AI and Programming Classes in Barrow-in-Furness |
+| `/ai-and-programming-classes-in-barry` | AI and Programming Classes in Barry |
+| `/ai-and-programming-classes-in-basingstoke` | AI and Programming Classes in Basingstoke |
+| `/ai-and-programming-classes-in-bathurst` | AI and Programming Classes in Bathurst |
+| `/ai-and-programming-classes-in-bendigo` | AI and Programming Classes in Bendigo |
+| `/ai-and-programming-classes-in-berwick-melbourne` | AI and Programming Classes in Berwick, Melbourne |
+| `/ai-and-programming-classes-in-blackburn` | AI and Programming Classes in Blackburn |
+| `/ai-and-programming-classes-in-bloxwich` | AI and Programming Classes in Bloxwich |
+| `/ai-and-programming-classes-in-bootle` | AI and Programming Classes in Bootle, Merseyside |
+| `/ai-and-programming-classes-in-browns-plains-brisbane` | AI and Programming Classes in Browns Plains, Brisbane |
+| `/ai-and-programming-classes-in-burton-upon-trent` | AI and Programming Classes in Burton upon Trent |
+| `/ai-and-programming-classes-in-burwood-sydney` | AI and Programming Classes in Burwood, Sydney |
+| `/ai-and-programming-classes-in-bury-st-edmunds` | AI and Programming Classes in Bury St Edmunds |
+| `/ai-and-programming-classes-in-camden-sydney` | AI and Programming Classes in Camden, Sydney |
+| `/ai-and-programming-classes-in-carindale-brisbane` | AI and Programming Classes in Carindale, Brisbane |
+| `/ai-and-programming-classes-in-caroline-springs-melbourne` | AI and Programming Classes in Caroline Springs, Melbourne |
+| `/ai-and-programming-classes-in-casuarina-darwin` | AI and Programming Classes in Casuarina, Darwin |
+| `/ai-and-programming-classes-in-charlestown-newcastle` | AI and Programming Classes in Charlestown, Newcastle |
+| `/ai-and-programming-classes-in-chatham` | AI and Programming Classes in Chatham |
+| `/ai-and-programming-classes-in-cherrybrook-sydney` | AI and Programming Classes in Cherrybrook, Sydney |
+| `/ai-and-programming-classes-in-chesterfield` | AI and Programming Classes in Chesterfield |
+| `/ai-and-programming-classes-in-chorlton-manchester` | AI and Programming Classes in Chorlton, Manchester |
+| `/ai-and-programming-classes-in-clayton-melbourne` | AI and Programming Classes in Clayton, Melbourne |
+| `/ai-and-programming-classes-in-cockburn-perth` | AI and Programming Classes in Cockburn, Perth |
+| `/ai-and-programming-classes-in-coomera-gold-coast` | AI and Programming Classes in Coomera, Gold Coast |
+| `/ai-and-programming-classes-in-cranbourne-melbourne` | AI and Programming Classes in Cranbourne, Melbourne |
+| `/ai-and-programming-classes-in-devonport` | AI and Programming Classes in Devonport, Tasmania |
+| `/ai-and-programming-classes-in-dewsbury` | AI and Programming Classes in Dewsbury |
+| `/ai-and-programming-classes-in-dubbo` | AI and Programming Classes in Dubbo |
+| `/ai-and-programming-classes-in-dulwich-london` | AI and Programming Classes in Dulwich |
+| `/ai-and-programming-classes-in-dumfries` | AI and Programming Classes in Dumfries |
+| `/ai-and-programming-classes-in-earlsdon-coventry` | AI and Programming Classes in Earlsdon, Coventry |
+| `/ai-and-programming-classes-in-east-kilbride` | AI and Programming Classes in East Kilbride |
+| `/ai-and-programming-classes-in-edgware-london` | AI and Programming Classes in Edgware, London |
+| `/ai-and-programming-classes-in-eight-mile-plains-brisbane` | AI and Programming Classes in Eight Mile Plains, Brisbane |
+| `/ai-and-programming-classes-in-elgin` | AI and Programming Classes in Elgin |
+| `/ai-and-programming-classes-in-ellesmere-port` | AI and Programming Classes in Ellesmere Port |
+| `/ai-and-programming-classes-in-evington-leicester` | AI and Programming Classes in Evington, Leicester |
+| `/ai-and-programming-classes-in-gateshead` | AI and Programming Classes in Gateshead |
+| `/ai-and-programming-classes-in-gillingham` | AI and Programming Classes in Gillingham |
+| `/ai-and-programming-classes-in-grafton` | AI and Programming Classes in Grafton |
+| `/ai-and-programming-classes-in-grantham` | AI and Programming Classes in Grantham, Lincolnshire |
+| `/ai-and-programming-classes-in-gravesend` | AI and Programming Classes in Gravesend |
+| `/ai-and-programming-classes-in-greenock` | AI and Programming Classes in Greenock |
+| `/ai-and-programming-classes-in-grimsby` | AI and Programming Classes in Grimsby |
+| `/ai-and-programming-classes-in-guildford` | AI and Programming Classes in Guildford |
+| `/ai-and-programming-classes-in-gympie` | AI and Programming Classes in Gympie |
+| `/ai-and-programming-classes-in-halifax` | AI and Programming Classes in Halifax |
+| `/ai-and-programming-classes-in-harborne-birmingham` | AI and Programming Classes in Harborne, Birmingham |
+| `/ai-and-programming-classes-in-harrogate` | AI and Programming Classes in Harrogate |
+| `/ai-and-programming-classes-in-hoddesdon` | AI and Programming Classes in Hoddesdon |
+| `/ai-and-programming-classes-in-horsham` | AI and Programming Classes in Horsham |
+| `/ai-and-programming-classes-in-hume-melbourne` | AI and Programming Classes in Hume, Melbourne |
+| `/ai-and-programming-classes-in-inner-south-canberra` | AI and Programming Classes in Inner South Canberra |
+| `/ai-and-programming-classes-in-karratha` | AI and Programming Classes in Karratha |
+| `/ai-and-programming-classes-in-kenmore-brisbane` | AI and Programming Classes in Kenmore, Brisbane |
+| `/ai-and-programming-classes-in-kingston-melbourne` | AI and Programming Classes in Kingston, Melbourne |
+| `/ai-and-programming-classes-in-kingston-tas-hobart` | AI and Programming Classes in Kingston, Tasmania |
+| `/ai-and-programming-classes-in-kirkcaldy` | AI and Programming Classes in Kirkcaldy |
+| `/ai-and-programming-classes-in-ku-ring-gai-sydney` | AI and Programming Classes in Ku-ring-gai, Sydney |
+| `/ai-and-programming-classes-in-leighton-buzzard` | AI and Programming Classes in Leighton Buzzard |
+| `/ai-and-programming-classes-in-leith-edinburgh` | AI and Programming Classes in Leith, Edinburgh |
+| `/ai-and-programming-classes-in-llanelli` | AI and Programming Classes in Llanelli, Carmarthenshire |
+| `/ai-and-programming-classes-in-lowestoft` | AI and Programming Classes in Lowestoft |
+| `/ai-and-programming-classes-in-maidenhead` | AI and Programming Classes in Maidenhead |
+| `/ai-and-programming-classes-in-mandurah` | AI and Programming Classes in Mandurah |
+| `/ai-and-programming-classes-in-manningham-melbourne` | AI and Programming Classes in Manningham, Melbourne |
+| `/ai-and-programming-classes-in-marion-adelaide` | AI and Programming Classes in Marion, Adelaide |
+| `/ai-and-programming-classes-in-marrickville-sydney` | AI and Programming Classes in Marrickville, Sydney |
+| `/ai-and-programming-classes-in-maryborough-qld` | AI and Programming Classes in Maryborough, Queensland |
+| `/ai-and-programming-classes-in-melton` | AI and Programming Classes in Melton |
+| `/ai-and-programming-classes-in-melville-perth` | AI and Programming Classes in Melville, Perth |
+| `/ai-and-programming-classes-in-middlesbrough` | AI and Programming Classes in Middlesbrough |
+| `/ai-and-programming-classes-in-middleton` | AI and Programming Classes in Middleton, Rochdale |
+| `/ai-and-programming-classes-in-midland-perth` | AI and Programming Classes in Midland, Perth |
+| `/ai-and-programming-classes-in-mildura` | AI and Programming Classes in Mildura |
+| `/ai-and-programming-classes-in-mitcham-sa-adelaide` | AI and Programming Classes in Mitcham, Adelaide |
+| `/ai-and-programming-classes-in-moonee-valley-melbourne` | AI and Programming Classes in Moonee Valley, Melbourne |
+| `/ai-and-programming-classes-in-newtownards` | AI and Programming Classes in Newtownards |
+| `/ai-and-programming-classes-in-north-sydney-sydney` | AI and Programming Classes in North Sydney, NSW |
+| `/ai-and-programming-classes-in-northern-beaches-sydney` | AI and Programming Classes in the Northern Beaches, Sydney |
+| `/ai-and-programming-classes-in-oldham` | AI and Programming Classes in Oldham |
+| `/ai-and-programming-classes-in-ormeau-belfast` | AI and Programming Classes in Ormeau, Belfast |
+| `/ai-and-programming-classes-in-penrith-nsw` | AI and Programming Classes in Penrith, NSW |
+| `/ai-and-programming-classes-in-point-cook-melbourne` | AI and Programming Classes in Point Cook, Melbourne |
+| `/ai-and-programming-classes-in-pontypool` | AI and Programming Classes in Pontypool |
+| `/ai-and-programming-classes-in-redditch` | AI and Programming Classes in Redditch |
+| `/ai-and-programming-classes-in-reservoir-melbourne` | AI and Programming Classes in Reservoir, Melbourne |
+| `/ai-and-programming-classes-in-rhodes-sydney` | AI and Programming Classes in Rhodes, Sydney |
+| `/ai-and-programming-classes-in-rockhampton` | AI and Programming Classes in Rockhampton |
+| `/ai-and-programming-classes-in-roundhay-leeds` | AI and Programming Classes in Roundhay, Leeds |
+| `/ai-and-programming-classes-in-royal-tunbridge-wells` | AI and Programming Classes in Royal Tunbridge Wells |
+| `/ai-and-programming-classes-in-sale` | AI and Programming Classes in Sale |
+| `/ai-and-programming-classes-in-stevenage` | AI and Programming Classes in Stevenage |
+| `/ai-and-programming-classes-in-stockport` | AI and Programming Classes in Stockport |
+| `/ai-and-programming-classes-in-strabane` | AI and Programming Classes in Strabane |
+| `/ai-and-programming-classes-in-sunshine-coast` | AI and Programming Classes on the Sunshine Coast |
+| `/ai-and-programming-classes-in-swindon` | AI and Programming Classes in Swindon |
+| `/ai-and-programming-classes-in-taree` | AI and Programming Classes in Taree |
+| `/ai-and-programming-classes-in-telford` | AI and Programming Classes in Telford |
+| `/ai-and-programming-classes-in-tipton` | AI and Programming Classes in Tipton, Sandwell |
+| `/ai-and-programming-classes-in-townsville` | AI and Programming Classes in Townsville |
+| `/ai-and-programming-classes-in-traralgon` | AI and Programming Classes in Traralgon |
+| `/ai-and-programming-classes-in-trowbridge` | AI and Programming Classes in Trowbridge |
+| `/ai-and-programming-classes-in-unley-adelaide` | AI and Programming Classes in Unley, Adelaide |
+| `/ai-and-programming-classes-in-wallsend` | AI and Programming Classes in Wallsend, North Tyneside |
+| `/ai-and-programming-classes-in-wentworthville-sydney` | AI and Programming Classes in Wentworthville, Sydney |
+| `/ai-and-programming-classes-in-west-end-glasgow` | AI and Programming Classes in the West End, Glasgow |
+| `/ai-and-programming-classes-in-willenhall` | AI and Programming Classes in Willenhall, Walsall |
+| `/ai-and-programming-classes-in-wimbledon-london` | AI and Programming Classes in Wimbledon, London |
+| `/ai-and-programming-classes-in-woden-canberra` | AI and Programming Classes in Woden, Canberra |
 | `/ai-and-python-academy-amsterdam` | AI and Python Academy, Amsterdam |
 | `/ai-and-python-academy-eindhoven` | AI and Python Academy, Eindhoven |
+| `/ai-and-python-academy-for-girls-australia` | AI and Python Academy for Girls in Australia |
 | `/ai-and-python-academy-for-girls-ireland` | AI and Python Academy for Girls in Ireland |
 | `/ai-and-python-academy-for-girls-netherlands` | AI and Python Academy for Girls, Netherlands |
 | `/ai-and-python-academy-for-girls-oman` | Coding and AI Classes for Girls in Oman |
@@ -2392,8 +2825,10 @@ Listed with titles in Appendix C.
 | `/ai-classes-for-kids-in-uae` | AI Classes for Kids in UAE |
 | `/ai-classes-for-kids-uk` | AI Classes for Kids in the UK |
 | `/ai-classes-for-teenagers` | AI Classes for Teenagers (13-18) - Build Real AI Projects & a Portfolio |
+| `/ai-classes-for-teens-australia` | AI Classes for Teens in Australia |
 | `/ai-coding-course` | AI Coding Course |
 | `/ai-course-for-beginners` | AI Course for Beginners |
+| `/ai-courses-for-kids-australia` | AI Courses for Kids in Australia |
 | `/ai-development-services` | AI Development Company |
 | `/ai-engineer-roadmap-2026` | The AI Engineer Roadmap 2026: From Python Day One to Shipping AI in Production |
 | `/ai-evaluations-course` | AI Evaluations Course |
@@ -2422,7 +2857,7 @@ Listed with titles in Appendix C.
 | `/python-for-machine-learning` | Python for Machine Learning |
 | `/uk-olympiad-in-artificial-intelligence-preparation` | UK Olympiad in AI Preparation |
 
-### B.15 Programming language and topic pages (261)
+### B.15 Programming language and topic pages (701)
 
 | URL path | Page title |
 |---|---|
@@ -2431,22 +2866,156 @@ Listed with titles in Appendix C.
 | `/after-code-club-next-step-coding-uk` | After Code Club: The Next Step in Coding, UK |
 | `/after-coderdojo-next-step-coding-ireland` | After CoderDojo: The Next Step in Coding in Ireland |
 | `/after-microbit-next-step-python-uk` | After the micro:bit: The Next Step to Python, UK |
+| `/after-scratch-next-step-python-australia` | After Scratch: Moving to Python, for Australian Kids |
 | `/agentic-coding-classes` | Agentic Coding Classes |
+| `/aio-to-ioi-pathway-australia` | AIO to IOI Pathway in Australia |
+| `/app-development-course-australia` | App Development Course in Australia |
 | `/app-development-course-ireland` | App Development Course in Ireland |
 | `/app-development-course-netherlands` | App Development Course in the Netherlands |
 | `/app-development-course-uk` | App Development Course in the UK |
 | `/aqa-a-level-computer-science-7517-help` | AQA A-level Computer Science 7517 Help |
 | `/aqa-gcse-computer-science-8525-help` | AQA GCSE Computer Science 8525 Help |
 | `/astro-pi-mission-zero-and-space-lab-help` | Astro Pi Mission Zero Help |
+| `/atar-explained-for-coding-students` | ATAR Explained for Coding Students |
+| `/australian-coding-competitions-for-primary-kids` | Coding Competitions for Primary Kids in Australia: A Guide |
+| `/australian-curriculum-digital-technologies-help` | Australian Curriculum Digital Technologies Help |
+| `/australian-informatics-olympiad-preparation` | Australian Informatics Olympiad Preparation |
+| `/australian-mathematical-olympiad-preparation` | Australian Mathematical Olympiad Preparation: AMO Explained |
+| `/australian-mathematics-competition-practice-by-year` | Australian Mathematics Competition Practice by Year |
+| `/australian-student-hackathons` | Student Hackathons in Australia: Who Can Enter, How to Prepare |
+| `/bebras-challenge-australia-practice` | Bebras Challenge Australia Practice |
 | `/bebras-computational-thinking-challenge-practice-uk` | UK Bebras Challenge Practice |
 | `/best-age-to-start-coding` | Best Age to Start Coding? The Honest Age-by-Age Answer |
 | `/best-ai-courses-for-teens-2026` | Best AI Courses for Teens 2026 |
 | `/best-c-plus-plus-classes-in-india` | Best C++ Classes in India |
+| `/best-coding-and-ai-classes-in-ayr` | Coding and AI Classes in Ayr |
+| `/best-coding-and-ai-classes-in-bamber-bridge` | Coding and AI Classes in Bamber Bridge |
+| `/best-coding-and-ai-classes-in-basildon` | Coding and AI Classes in Basildon |
+| `/best-coding-and-ai-classes-in-batley` | Coding and AI Classes in Batley, West Yorkshire |
+| `/best-coding-and-ai-classes-in-baulkham-hills-sydney` | Best Coding and AI Classes in Baulkham Hills, Sydney |
+| `/best-coding-and-ai-classes-in-bayside-melbourne` | Best Coding and AI Classes in Bayside, Melbourne |
+| `/best-coding-and-ai-classes-in-bebington` | Coding and AI Classes in Bebington, Wirral |
+| `/best-coding-and-ai-classes-in-belconnen-canberra` | Best Coding and AI Classes in Belconnen, Canberra |
+| `/best-coding-and-ai-classes-in-birkenhead` | Coding and AI Classes in Birkenhead |
+| `/best-coding-and-ai-classes-in-boroondara-melbourne` | Best Coding and AI Classes in Boroondara, Melbourne |
+| `/best-coding-and-ai-classes-in-boston` | Coding and AI Classes in Boston, Lincolnshire |
+| `/best-coding-and-ai-classes-in-bournemouth` | Coding and AI Classes in Bournemouth |
+| `/best-coding-and-ai-classes-in-brimbank-melbourne` | Coding and AI Classes in Brimbank, Melbourne |
+| `/best-coding-and-ai-classes-in-burleigh-heads-gold-coast` | Best Coding and AI Classes in Burleigh Heads, Gold Coast |
+| `/best-coding-and-ai-classes-in-burnside-adelaide` | Best Coding and AI Classes in Burnside, Adelaide |
+| `/best-coding-and-ai-classes-in-cannock` | Coding and AI Classes in Cannock |
+| `/best-coding-and-ai-classes-in-canterbury-bankstown-sydney` | Best Coding and AI Classes in Canterbury-Bankstown |
+| `/best-coding-and-ai-classes-in-carlton` | Coding and AI Classes in Carlton, Nottinghamshire |
+| `/best-coding-and-ai-classes-in-carrickfergus` | Coding and AI Classes in Carrickfergus |
+| `/best-coding-and-ai-classes-in-cheshunt` | Coding and AI Classes in Cheshunt, Hertfordshire |
+| `/best-coding-and-ai-classes-in-christchurch` | Coding and AI Classes in Christchurch, Dorset |
+| `/best-coding-and-ai-classes-in-clifton-bristol` | Coding and AI Classes in Clifton, Bristol |
+| `/best-coding-and-ai-classes-in-dandenong-melbourne` | Best Coding and AI Classes in Dandenong, Melbourne |
+| `/best-coding-and-ai-classes-in-darebin-melbourne` | Best Coding and AI Classes in Darebin, Melbourne |
+| `/best-coding-and-ai-classes-in-dartford` | Coding and AI Classes in Dartford |
+| `/best-coding-and-ai-classes-in-eastleigh` | Coding and AI Classes in Eastleigh, Hampshire |
+| `/best-coding-and-ai-classes-in-eccles` | Coding and AI Classes in Eccles, Salford |
+| `/best-coding-and-ai-classes-in-ecclesall-sheffield` | Coding and AI Classes in Ecclesall, Sheffield |
+| `/best-coding-and-ai-classes-in-enniskillen` | Coding and AI Classes in Enniskillen |
+| `/best-coding-and-ai-classes-in-farnborough` | Coding and AI Classes in Farnborough |
+| `/best-coding-and-ai-classes-in-finchley-london` | Coding and AI Classes in Finchley, London |
+| `/best-coding-and-ai-classes-in-frankston-melbourne` | Best Coding and AI Classes in Frankston, Melbourne |
+| `/best-coding-and-ai-classes-in-georges-river-sydney` | Best Coding and AI Classes in Georges River, Sydney |
+| `/best-coding-and-ai-classes-in-glen-waverley-melbourne` | Best Coding and AI Classes in Glen Waverley, Melbourne |
+| `/best-coding-and-ai-classes-in-glenorchy-hobart` | Best Coding and AI Classes in Glenorchy, Hobart |
+| `/best-coding-and-ai-classes-in-glenrothes` | Coding and AI Classes in Glenrothes |
+| `/best-coding-and-ai-classes-in-gosport` | Coding and AI Classes in Gosport |
+| `/best-coding-and-ai-classes-in-hampstead-london` | Coding and AI Classes in Hampstead, London |
+| `/best-coding-and-ai-classes-in-harlow` | Coding and AI Classes in Harlow |
+| `/best-coding-and-ai-classes-in-hemel-hempstead` | Coding and AI Classes in Hemel Hempstead |
+| `/best-coding-and-ai-classes-in-high-wycombe` | Coding and AI Classes in High Wycombe |
+| `/best-coding-and-ai-classes-in-hinckley` | Coding and AI Classes in Hinckley |
+| `/best-coding-and-ai-classes-in-horsforth-leeds` | Coding and AI Classes in Horsforth, Leeds |
+| `/best-coding-and-ai-classes-in-huddersfield` | Coding and AI Classes in Huddersfield |
+| `/best-coding-and-ai-classes-in-inner-west-sydney` | Best Coding and AI Classes in the Inner West, Sydney |
+| `/best-coding-and-ai-classes-in-ipswich` | Coding and AI Classes in Ipswich |
+| `/best-coding-and-ai-classes-in-joondalup-perth` | Best Coding and AI Classes in Joondalup, Perth |
+| `/best-coding-and-ai-classes-in-kellyville-sydney` | Best Coding and AI Classes in Kellyville, Sydney |
+| `/best-coding-and-ai-classes-in-kirkby` | Coding and AI Classes in Kirkby, Merseyside |
+| `/best-coding-and-ai-classes-in-livingston` | Coding and AI Classes in Livingston |
+| `/best-coding-and-ai-classes-in-loughborough` | Coding and AI Classes in Loughborough |
+| `/best-coding-and-ai-classes-in-lytham-st-annes` | Coding and AI Classes in Lytham St Annes |
+| `/best-coding-and-ai-classes-in-macquarie-park-sydney` | Best Coding and AI Classes in Macquarie Park, Sydney |
+| `/best-coding-and-ai-classes-in-mansfield-brisbane` | Best Coding and AI Classes in Mansfield, Brisbane |
+| `/best-coding-and-ai-classes-in-mawson-lakes-adelaide` | Best Coding and AI Classes in Mawson Lakes, Adelaide |
+| `/best-coding-and-ai-classes-in-moseley-birmingham` | Coding and AI Classes in Moseley, Birmingham |
+| `/best-coding-and-ai-classes-in-motherwell` | Coding and AI Classes in Motherwell |
+| `/best-coding-and-ai-classes-in-nightcliff-darwin` | Best Coding and AI Classes in Nightcliff, Darwin |
+| `/best-coding-and-ai-classes-in-northampton` | Coding and AI Classes in Northampton |
+| `/best-coding-and-ai-classes-in-paignton` | Coding and AI Classes in Paignton |
+| `/best-coding-and-ai-classes-in-pakenham-melbourne` | Best Coding and AI Classes in Pakenham, Melbourne |
+| `/best-coding-and-ai-classes-in-parramatta-sydney` | Best Coding and AI Classes in Parramatta, Sydney |
+| `/best-coding-and-ai-classes-in-penarth` | Coding and AI Classes in Penarth |
+| `/best-coding-and-ai-classes-in-pontypridd` | Coding and AI Classes in Pontypridd |
+| `/best-coding-and-ai-classes-in-portadown` | Coding and AI Classes in Portadown |
+| `/best-coding-and-ai-classes-in-ramsgate` | Coding and AI Classes in Ramsgate, Kent |
+| `/best-coding-and-ai-classes-in-roath-cardiff` | Coding and AI Classes in Roath, Cardiff |
+| `/best-coding-and-ai-classes-in-rochester` | Coding and AI Classes in Rochester |
+| `/best-coding-and-ai-classes-in-rockingham-perth` | Best Coding and AI Classes in Rockingham, Perth |
+| `/best-coding-and-ai-classes-in-rotherham` | Coding and AI Classes in Rotherham |
+| `/best-coding-and-ai-classes-in-rouse-hill-sydney` | Best Coding and AI Classes in Rouse Hill, Sydney |
+| `/best-coding-and-ai-classes-in-salisbury-adelaide` | Best Coding and AI Classes in Salisbury, Adelaide |
+| `/best-coding-and-ai-classes-in-shawlands-glasgow` | Coding and AI Classes in Shawlands, Glasgow |
+| `/best-coding-and-ai-classes-in-shrewsbury` | Coding and AI Classes in Shrewsbury |
+| `/best-coding-and-ai-classes-in-smethwick` | Coding and AI Classes in Smethwick |
+| `/best-coding-and-ai-classes-in-south-shields` | Coding and AI Classes in South Shields |
+| `/best-coding-and-ai-classes-in-southport` | Coding and AI Classes in Southport |
+| `/best-coding-and-ai-classes-in-southport-gold-coast` | Best Coding and AI Classes in Southport, Gold Coast |
+| `/best-coding-and-ai-classes-in-springfield-brisbane` | Best Coding and AI Classes in Springfield, Brisbane |
+| `/best-coding-and-ai-classes-in-st-helens` | Coding and AI Classes in St Helens |
+| `/best-coding-and-ai-classes-in-stanmore-london` | Coding and AI Classes in Stanmore, London |
+| `/best-coding-and-ai-classes-in-subiaco-perth` | Best Coding and AI Classes in Subiaco, Perth |
+| `/best-coding-and-ai-classes-in-sunbury-melbourne` | Best Coding and AI Classes in Sunbury, Melbourne |
+| `/best-coding-and-ai-classes-in-sunnybank-brisbane` | Best Coding and AI Classes in Sunnybank, Brisbane |
+| `/best-coding-and-ai-classes-in-tamworth` | Coding and AI Classes in Tamworth |
+| `/best-coding-and-ai-classes-in-the-gap-brisbane` | Best Coding and AI Classes in The Gap, Brisbane |
+| `/best-coding-and-ai-classes-in-the-hills-shire-sydney` | Best Coding and AI Classes in The Hills Shire, Sydney |
+| `/best-coding-and-ai-classes-in-torquay` | Coding and AI Classes in Torquay, Devon |
+| `/best-coding-and-ai-classes-in-walsall` | Coding and AI Classes in Walsall |
+| `/best-coding-and-ai-classes-in-watford` | Coding and AI Classes in Watford |
+| `/best-coding-and-ai-classes-in-wellingborough` | Coding and AI Classes in Wellingborough |
+| `/best-coding-and-ai-classes-in-welwyn-garden-city` | Coding and AI Classes in Welwyn Garden City |
+| `/best-coding-and-ai-classes-in-wembley-london` | Coding and AI Classes in Wembley, London |
+| `/best-coding-and-ai-classes-in-werribee-melbourne` | Best Coding and AI Classes in Werribee, Melbourne |
+| `/best-coding-and-ai-classes-in-west-molesey` | Coding and AI Classes in West Molesey, Surrey |
+| `/best-coding-and-ai-classes-in-weston-creek-canberra` | Best Coding and AI Classes in Weston Creek, Canberra |
+| `/best-coding-and-ai-classes-in-widnes` | Coding and AI Classes in Widnes |
+| `/best-coding-and-ai-classes-in-willetton-perth` | Best Coding and AI Classes in Willetton, Perth |
+| `/best-coding-and-ai-classes-in-willoughby-sydney` | Best Coding and AI Classes in Willoughby, Sydney |
+| `/best-coding-and-ai-classes-in-withington-manchester` | Coding and AI Classes in Withington, Manchester |
+| `/best-coding-and-ai-classes-in-woking` | Coding and AI Classes in Woking |
+| `/best-coding-and-ai-classes-in-worthing` | Coding and AI Classes in Worthing |
+| `/best-coding-and-ai-classes-in-yeovil` | Coding and AI Classes in Yeovil |
 | `/best-coding-classes-for-adults-ireland` | Best Coding Classes for Adults in Ireland |
 | `/best-coding-classes-for-adults-uk` | Best Coding Classes for Adults in the UK |
 | `/best-coding-classes-for-kids-ireland` | Best Coding Classes for Kids in Ireland |
 | `/best-coding-classes-for-teens-ireland` | Best Coding Classes for Teens in Ireland |
 | `/best-coding-classes-for-teens-uk` | Best Coding Classes for Teens in the UK |
+| `/best-coding-classes-in-alice-springs` | Best Coding Classes in Alice Springs |
+| `/best-coding-classes-in-armidale` | Best Coding Classes in Armidale |
+| `/best-coding-classes-in-brisbane` | Best Coding Classes in Brisbane |
+| `/best-coding-classes-in-busselton` | Best Coding Classes in Busselton |
+| `/best-coding-classes-in-coffs-harbour` | Best Coding Classes in Coffs Harbour |
+| `/best-coding-classes-in-geraldton` | Best Coding Classes in Geraldton |
+| `/best-coding-classes-in-gladstone` | Best Coding Classes in Gladstone |
+| `/best-coding-classes-in-gold-coast` | Best Coding Classes on the Gold Coast |
+| `/best-coding-classes-in-griffith` | Best Coding Classes in Griffith NSW |
+| `/best-coding-classes-in-hobart` | Best Coding Classes in Hobart |
+| `/best-coding-classes-in-kalgoorlie` | Best Coding Classes in Kalgoorlie |
+| `/best-coding-classes-in-launceston` | Best Coding Classes in Launceston |
+| `/best-coding-classes-in-lismore` | Best Coding Classes in Lismore |
+| `/best-coding-classes-in-logan` | Best Coding Classes in Logan |
+| `/best-coding-classes-in-mount-isa` | Best Coding Classes in Mount Isa |
+| `/best-coding-classes-in-port-lincoln` | Best Coding Classes in Port Lincoln |
+| `/best-coding-classes-in-sydney` | Best Coding Classes in Sydney |
+| `/best-coding-classes-in-toowoomba` | Best Coding Classes in Toowoomba |
+| `/best-coding-classes-in-wagga-wagga` | Best Coding Classes in Wagga Wagga |
+| `/best-coding-classes-in-wollongong` | Best Coding Classes in Wollongong |
 | `/best-coding-classes-online` | Best Online Coding Classes for Kids, Teens and Adults |
 | `/best-java-classes-in-india` | Best Java Classes in India |
 | `/best-online-coding-classes-for-kids-2026` | Online Coding Classes for Kids: Best Live Options, Ranked (2026) |
@@ -2459,6 +3028,7 @@ Listed with titles in Appendix C.
 | `/british-informatics-olympiad-preparation` | British Informatics Olympiad Preparation |
 | `/british-mathematical-olympiad-bmo-preparation` | British Mathematical Olympiad Preparation |
 | `/build-apps-with-ai` | Build Apps with AI |
+| `/build-real-ai-projects-australia` | Build Real AI Projects in Australia |
 | `/build-real-ai-projects-ireland` | Build Real AI Projects in Ireland |
 | `/build-real-ai-projects-netherlands` | Build Real AI Projects in the Netherlands |
 | `/build-real-ai-projects-oman` | Build Real AI Projects: Oman Student Portfolios |
@@ -2467,6 +3037,7 @@ Listed with titles in Appendix C.
 | `/c-plus-plus-certification-course` | C++ Certification Course |
 | `/c-plus-plus-classes-for-college-students` | C++ Classes for College Students |
 | `/c-plus-plus-classes-for-teens` | C++ Classes for Teens |
+| `/c-plus-plus-classes-online-australia` | C++ Classes Online in Australia |
 | `/c-plus-plus-dsa-course` | C++ DSA Course |
 | `/c-plus-plus-for-beginners` | C++ for Beginners |
 | `/c-plus-plus-for-competitive-programming` | C++ for Competitive Programming |
@@ -2487,31 +3058,54 @@ Listed with titles in Appendix C.
 | `/ccea-gcse-digital-technology-programming-help` | CCEA GCSE Digital Technology Programming Help |
 | `/cemc-waterloo-contests-preparation` | CEMC Waterloo Contest Preparation: Gauss to Euclid, Live Online |
 | `/choosing-gcse-computer-science-year-9-options` | Choosing GCSE Computer Science |
+| `/choosing-year-11-computing-subjects-australia` | Choosing Year 11 Computing Subjects |
 | `/coding-alongside-informatica-havo-vwo-netherlands` | Coding Alongside Informatica, Havo and Vwo |
 | `/coding-and-ai-alongside-bjc-and-bgcse-bahamas` | Coding and AI Alongside BJC and BGCSE in The Bahamas |
 | `/coding-and-ai-classes-for-adults-netherlands` | Coding and AI Classes for Adults, Netherlands |
+| `/coding-and-ai-classes-in-australian-capital-territory` | Coding and AI Classes in the ACT |
 | `/coding-and-ai-classes-in-bahamas` | Coding and AI Classes in The Bahamas |
 | `/coding-and-ai-classes-in-connacht` | Coding and AI Classes in Connacht |
+| `/coding-and-ai-classes-in-east-midlands` | Coding and AI Classes in the East Midlands |
+| `/coding-and-ai-classes-in-east-of-england` | Coding and AI Classes in the East of England |
 | `/coding-and-ai-classes-in-england` | Coding and AI Classes in England |
 | `/coding-and-ai-classes-in-leinster` | Coding and AI Classes in Leinster |
 | `/coding-and-ai-classes-in-munster` | Coding and AI Classes in Munster |
 | `/coding-and-ai-classes-in-nassau` | Coding and AI Classes in Nassau, Bahamas |
+| `/coding-and-ai-classes-in-new-south-wales` | Coding and AI Classes in New South Wales |
+| `/coding-and-ai-classes-in-north-east-england` | Coding and AI Classes in North East England |
+| `/coding-and-ai-classes-in-north-west-england` | Coding and AI Classes in North West England |
 | `/coding-and-ai-classes-in-northern-ireland` | Coding and AI Classes in Northern Ireland |
+| `/coding-and-ai-classes-in-northern-territory` | Coding and AI Classes in the Northern Territory |
+| `/coding-and-ai-classes-in-queensland` | Coding and AI Classes in Queensland |
 | `/coding-and-ai-classes-in-scotland` | Coding and AI Classes in Scotland |
+| `/coding-and-ai-classes-in-south-australia` | Coding and AI Classes in South Australia |
+| `/coding-and-ai-classes-in-south-east-england` | Coding and AI Classes in South East England |
+| `/coding-and-ai-classes-in-south-west-england` | Coding and AI Classes in South West England |
+| `/coding-and-ai-classes-in-tasmania` | Coding and AI Classes in Tasmania |
 | `/coding-and-ai-classes-in-ulster` | Coding and AI Classes in Ulster |
+| `/coding-and-ai-classes-in-victoria` | Coding and AI Classes in Victoria |
 | `/coding-and-ai-classes-in-wales` | Coding and AI Classes in Wales |
+| `/coding-and-ai-classes-in-west-midlands-region` | Coding and AI Classes in the West Midlands Region |
+| `/coding-and-ai-classes-in-western-australia` | Coding and AI Classes in Western Australia |
+| `/coding-and-ai-classes-in-yorkshire-and-the-humber` | Coding and AI Classes in Yorkshire and the Humber |
 | `/coding-before-a-degree-apprenticeship-uk` | Coding Before a Degree Apprenticeship, UK |
 | `/coding-comeback-women` | Coding Comeback for Women: Return to Tech After a Career Break, Maternity Pause or Sabb... |
 | `/coding-competitions-for-students-bahamas` | Coding Competitions for Students in The Bahamas |
+| `/coding-for-career-changers-australia` | Coding for Career Changers in Australia |
 | `/coding-for-cbse-students` | Coding for CBSE Students: Python, CS & Informatics Practices from Class 6 to 12 |
 | `/coding-for-college-students-ireland` | Coding for College Students in Ireland |
 | `/coding-for-college-students-netherlands` | Coding for College Students in the Netherlands |
 | `/coding-for-home-educated-children-uk` | Coding for Home-Educated Children, UK |
+| `/coding-for-homeschool-kids-australia` | Coding for Homeschool Kids in Australia |
 | `/coding-for-icse-students` | Coding for ICSE Students: Java BlueJ, Computer Applications & ISC CS |
 | `/coding-for-igcse-students` | Coding for IGCSE Students: Cambridge CS 0478, 0984, ICT & Python |
+| `/coding-for-university-students-australia` | Coding for University Students in Australia |
 | `/coding-for-university-students-uk` | Coding for University Students in the UK |
+| `/coding-for-year-7-australia` | Coding for Year 7 in Australia: From Blocks to Python |
+| `/coding-games-for-kids-australia` | Coding Games for Kids in Australia |
 | `/coding-lang` | Programming Languages, Frameworks and Tools to Learn in 2026: The Complete Guide |
 | `/coding-olympiad-medal-track` | Coding Olympiad Medal Track: IOQI, ZIO, INOI, IOI, Bebras, Math Kangaroo Coaching |
+| `/competitive-programming-australia` | Competitive Programming in Australia |
 | `/computer-applications-icse-class-10` | Computer Applications ICSE Class 10: Java BlueJ Tuition, Project & Viva Prep |
 | `/computer-science-class-11-cbse` | Computer Science Class 11 CBSE: Python, Boolean Logic & Full Syllabus Tuition |
 | `/computer-science-class-11-icse` | Computer Science Class 11 ICSE: Java OOP, Boolean Algebra & ISC Full Syllabus |
@@ -2521,21 +3115,30 @@ Listed with titles in Appendix C.
 | `/context-engineering-course` | Context Engineering Course |
 | `/coolest-projects-uk-project-ideas` | Coolest Projects UK |
 | `/cpa-cpp-certification-prep` | CPA C++ Certification (CPA-21-02): Full Exam Guide, Syllabus & Live Coaching |
+| `/cyber-security-course-for-teens-australia` | Cyber Security Course for Teens in Australia |
 | `/cyber-security-course-for-teens-uk` | Cyber Security Course for Teens in the UK |
 | `/cyberfirst-girls-competition-preparation` | CyberFirst Girls Competition Preparation |
 | `/data-analytics-course` | Data Analytics Course |
 | `/data-science-course` | Data Science Course |
+| `/data-science-course-australia` | Data Science Course in Australia |
 | `/data-science-course-ireland` | Data Science Course in Ireland |
 | `/data-science-course-netherlands` | Data Science Course in the Netherlands |
 | `/data-science-course-uk` | Data Science Course in the UK |
 | `/data-structures-and-algorithms-course` | DSA Course: Build Your Logic with Data Structures & Algorithms |
+| `/digital-technologies-primary-coding-help` | Primary Digital Technologies Coding Help |
+| `/digital-technologies-years-7-to-10-coding` | Digital Technologies Years 7 to 10 Coding |
 | `/edexcel-gcse-computer-science-1cp2-help` | Edexcel GCSE Computer Science 1CP2 Help |
 | `/first-competitions-for-primary-school-children-uk` | First Competitions for Primary School Children UK |
+| `/first-lego-league-australia-coding-help` | FIRST LEGO League Australia: Coding Help for Teams |
 | `/first-lego-league-uk-coding-help` | FIRST LEGO League UK Coding Help |
+| `/free-coding-classes-for-kids-australia-what-you-get` | Free Coding Classes for Kids in Australia: What You Get |
 | `/full-stack-software-development-course-ireland` | Full Stack Software Development Course |
 | `/full-stack-software-development-course-netherlands` | Full Stack Software Development Course, Netherlands |
 | `/full-stack-software-development-course-uk` | Full Stack Software Development Course, UK |
+| `/game-development-for-kids-australia` | Game Development for Kids in Australia |
+| `/game-programming-course-australia` | Game Programming Course in Australia |
 | `/gazette` | The Modern Age Coders Gazette |
+| `/girls-programming-network-next-step-australia` | After a Girls' Programming Network Workshop: Next Steps |
 | `/github-portfolio-for-students-bahamas` | GitHub Portfolios for Bahamian Students |
 | `/hackathon` | Modern Age Coders Hackathon 1.0 (June 2026): ₹30,000 Prize Pool |
 | `/hackathon-guide` | Hackathon 1.0 Guide (June 2026): How It Worked, 3 Rounds, Rules & What to Build |
@@ -2551,7 +3154,10 @@ Listed with titles in Appendix C.
 | `/how-to-debug-code` | How to Debug Code: Search, Do Not Guess |
 | `/how-to-read-code` | How to Read Code: A Method, Not a Talent |
 | `/how-to-think-like-a-programmer` | How to Think Like a Programmer |
+| `/hsc-enterprise-computing-help` | HSC Enterprise Computing Help |
+| `/hsc-software-engineering-help` | HSC Software Engineering Help |
 | `/ib-computer-science-online-tuition` | IB Computer Science Online Tuition |
+| `/icas-digital-technologies-practice` | ICAS Digital Technologies Practice: Papers by Year Level |
 | `/icse-class-10-bluej-java-coaching` | ICSE Class 10 BlueJ Java Coaching |
 | `/icse-class-10-computer-applications-board-exam-preparation` | ICSE Class 10 Computer Applications Board Exam Preparation |
 | `/icse-class-10-computer-applications-syllabus-explained` | ICSE Class 10 Computer Applications Syllabus 2026-27 Explained |
@@ -2567,6 +3173,7 @@ Listed with titles in Appendix C.
 | `/java-classes-for-teens` | Java Classes for Teens |
 | `/java-classes-ireland` | Java Classes in Ireland |
 | `/java-classes-netherlands` | Java Classes in the Netherlands |
+| `/java-classes-online-australia` | Java Classes Online in Australia |
 | `/java-classes-uk` | Java Classes in the UK |
 | `/java-dsa-course` | Java DSA Course |
 | `/java-for-beginners` | Java for Beginners |
@@ -2574,9 +3181,11 @@ Listed with titles in Appendix C.
 | `/java-programming-for-icse-students` | Java for ICSE & ISC Students |
 | `/java-programming-for-kids-teens` | Java Programming for Kids & Teens: Learn Java Online |
 | `/java-projects-for-students` | Java Projects for Students |
+| `/javascript-classes-online-australia` | JavaScript Classes Online in Australia |
 | `/jee-aspirant-coding-track` | JEE Aspirant Coding Track: Python & Computational Maths for Class 11 & 12 Without Distu... |
 | `/junior-cycle-coding-short-course-help` | Junior Cycle Coding Short Course Help |
 | `/junior-mathematical-olympiad-preparation` | Junior Mathematical Olympiad Preparation |
+| `/kids-coding-languages-australia` | Kids Coding Languages: Which One First? Australia Guide |
 | `/ks2-coding-lessons-online` | Key Stage 2 Coding Lessons Online |
 | `/ks3-computing-tuition-online` | Key Stage 3 Computing Tuition Online |
 | `/large-language-models-course` | Large Language Models Course (LLMs) |
@@ -2584,10 +3193,13 @@ Listed with titles in Appendix C.
 | `/learn-coding-by-class` | Learn Coding by Class (4-12) |
 | `/learn-coding-from-first-principles` | Learn Coding From First Principles: Understand How Code Actually Works |
 | `/learn-to-build-ai` | Learn to Build AI, Not Just Use It |
+| `/learn-to-code-over-50-australia` | Learn to Code Over 50 in Australia |
 | `/learn-to-code-over-50-uk` | Learn to Code Over 50, UK |
 | `/learn-to-code-with-ai` | Learn to Code with AI |
+| `/learn-to-think-not-just-use-ai-tools-australia` | Learn to Think, Not Just Use AI Tools |
 | `/learn-to-think-not-just-use-ai-tools-ireland` | Learn to Think, Not Just Use AI Tools |
 | `/learn-to-think-not-just-use-ai-tools-uk` | Learn to Think, Not Just Use AI Tools |
+| `/learn-to-train-ai-not-just-prompt-it-australia` | Learn to Train AI, Not Just Prompt It |
 | `/learn-to-train-ai-not-just-prompt-it-ireland` | Learn to Train AI, Not Just Prompt It |
 | `/learn-to-train-ai-not-just-prompt-it-uk` | Learn to Train AI, Not Just Prompt It |
 | `/leaving-cert-computer-science-grinds-online` | Leaving Cert Computer Science Grinds Online |
@@ -2599,29 +3211,162 @@ Listed with titles in Appendix C.
 | `/master-ai-ml-python-java` | Master AI, ML, Python & Java: Go Deeper |
 | `/mathcounts-preparation` | MATHCOUNTS Preparation Online: Sprint, Target, Team, Countdown |
 | `/mathematical-olympiad-for-girls-preparation` | Mathematical Olympiad for Girls Preparation |
+| `/minecraft-coding-classes-australia` | Minecraft Coding Classes in Australia |
 | `/minecraft-coding-classes-for-kids` | Minecraft Coding Classes for Kids |
 | `/mobile-app-development-services` | Mobile App Development Company |
 | `/model-context-protocol-mcp-course` | Model Context Protocol (MCP) Course |
 | `/multiplication-tables-check-year-4-practice` | Multiplication Tables Check Practice, Year 4 |
 | `/mvp-development-company` | MVP Development Company for Startups |
+| `/naplan-numeracy-practice-online` | NAPLAN Numeracy Practice Online |
+| `/naplan-year-3-numeracy-practice` | NAPLAN Year 3 Numeracy Practice |
+| `/naplan-year-5-numeracy-practice` | NAPLAN Year 5 Numeracy Practice |
+| `/naplan-year-7-numeracy-practice` | NAPLAN Year 7 Numeracy Practice |
+| `/naplan-year-9-numeracy-practice` | NAPLAN Year 9 Numeracy Practice |
 | `/national-5-computing-science-help` | National 5 Computing Science Help |
 | `/national-cipher-challenge-preparation` | National Cipher Challenge Preparation |
 | `/natural-language-processing-course` | Natural Language Processing Course (NLP) |
 | `/neural-networks-course` | Neural Networks Course |
 | `/new-computing-gcse-explained` | The New Computing GCSE Explained |
+| `/nsw-selective-test-mathematical-reasoning-practice` | NSW Selective Test Mathematical Reasoning Practice |
+| `/nsw-selective-test-thinking-skills-practice` | NSW Selective Test Thinking Skills Practice |
 | `/numpy-pandas-matplotlib-masterclass` | NumPy, Pandas & Matplotlib Masterclass: Python Data Analysis in Depth |
 | `/oca-java-certification-prep` | OCA Java SE 8 Certification (1Z0-808): Full Exam Guide, Objectives & Live Coaching |
 | `/ocr-a-level-computer-science-h446-help` | OCR A-level Computer Science H446 Help |
 | `/ocr-gcse-computer-science-j277-help` | OCR GCSE Computer Science J277 Help |
 | `/one-on-one-ai-classes` | One to One AI Classes |
+| `/one-on-one-coding-tutor-australia` | One-on-One Coding Tutor in Australia |
 | `/one-to-one-coding-classes-in-nassau` | One to One Coding Classes in Nassau |
 | `/one-to-one-coding-classes-netherlands` | One-to-One Coding Classes in the Netherlands |
 | `/online-c-plus-plus-classes` | Online C++ Classes |
+| `/online-coding-and-python-classes-in-altrincham` | Online Coding and Python Classes in Altrincham |
+| `/online-coding-and-python-classes-in-arnold` | Online Coding and Python Classes in Arnold, Nottingham |
+| `/online-coding-and-python-classes-in-ashford` | Online Coding and Python Classes in Ashford, Kent |
+| `/online-coding-and-python-classes-in-ashton-under-lyne` | Online Coding and Python Classes in Ashton-under-Lyne, Tameside |
+| `/online-coding-and-python-classes-in-ballarat` | Online Coding and Python Classes in Ballarat |
+| `/online-coding-and-python-classes-in-ballina` | Online Coding and Python Classes in Ballina |
+| `/online-coding-and-python-classes-in-ballymena` | Online Coding and Python Classes in Ballymena |
+| `/online-coding-and-python-classes-in-balwyn-melbourne` | Online Coding and Python Classes in Balwyn, Melbourne |
+| `/online-coding-and-python-classes-in-bedford` | Online Coding and Python Classes in Bedford |
+| `/online-coding-and-python-classes-in-beeston` | Online Coding and Python Classes in Beeston, Nottinghamshire |
+| `/online-coding-and-python-classes-in-bexhill-on-sea` | Online Coding and Python Classes, Bexhill-on-Sea |
+| `/online-coding-and-python-classes-in-blackpool` | Online Coding and Python Classes in Blackpool |
+| `/online-coding-and-python-classes-in-bletchley` | Online Coding and Python Classes in Bletchley, Milton Keynes |
+| `/online-coding-and-python-classes-in-bolton` | Online Coding and Python Classes in Bolton |
+| `/online-coding-and-python-classes-in-bowral` | Online Coding and Python Classes in Bowral |
+| `/online-coding-and-python-classes-in-bracknell` | Online Coding and Python Classes in Bracknell |
+| `/online-coding-and-python-classes-in-braintree` | Online Coding and Python Classes in Braintree |
+| `/online-coding-and-python-classes-in-brentwood` | Online Coding and Python Classes in Brentwood |
+| `/online-coding-and-python-classes-in-broken-hill` | Online Coding and Python Classes in Broken Hill |
+| `/online-coding-and-python-classes-in-bundaberg` | Online Coding and Python Classes in Bundaberg |
+| `/online-coding-and-python-classes-in-burwood-east-melbourne` | Online Coding and Python Classes in Burwood East, Melbourne |
+| `/online-coding-and-python-classes-in-bury` | Online Coding and Python Classes in Bury |
+| `/online-coding-and-python-classes-in-calamvale-brisbane` | Online Coding and Python Classes in Calamvale, Brisbane |
+| `/online-coding-and-python-classes-in-canning-vale-perth` | Online Coding and Python Classes in Canning Vale, Perth |
+| `/online-coding-and-python-classes-in-carlingford-sydney` | Online Coding and Python Classes in Carlingford, Sydney |
+| `/online-coding-and-python-classes-in-casey-melbourne` | Online Coding and Python Classes in Casey, Melbourne |
+| `/online-coding-and-python-classes-in-castle-hill-sydney` | Online Coding and Python Classes in Castle Hill, Sydney |
+| `/online-coding-and-python-classes-in-castleford` | Online Coding and Python Classes in Castleford, West Yorkshire |
+| `/online-coding-and-python-classes-in-cheltenham` | Online Coding and Python Classes in Cheltenham |
+| `/online-coding-and-python-classes-in-chermside-brisbane` | Online Coding and Python Classes in Chermside, Brisbane |
+| `/online-coding-and-python-classes-in-chiswick-london` | Online Coding and Python Classes in Chiswick |
+| `/online-coding-and-python-classes-in-coatbridge` | Online Coding and Python Classes in Coatbridge |
+| `/online-coding-and-python-classes-in-colwyn-bay` | Online Coding and Python Classes in Colwyn Bay |
+| `/online-coding-and-python-classes-in-corby` | Online Coding and Python Classes in Corby |
+| `/online-coding-and-python-classes-in-craigieburn-melbourne` | Online Coding and Python Classes in Craigieburn, Melbourne |
+| `/online-coding-and-python-classes-in-crawley` | Online Coding and Python Classes in Crawley |
+| `/online-coding-and-python-classes-in-crosby` | Online Coding and Python Classes in Crosby |
+| `/online-coding-and-python-classes-in-cumbernauld` | Online Coding and Python Classes in Cumbernauld |
+| `/online-coding-and-python-classes-in-darwin` | Online Coding and Python Classes in Darwin |
+| `/online-coding-and-python-classes-in-didsbury-manchester` | Online Coding and Python Classes in Didsbury, Manchester |
+| `/online-coding-and-python-classes-in-doncaster-melbourne` | Online Coding and Python Classes in Doncaster, Melbourne |
+| `/online-coding-and-python-classes-in-downpatrick` | Online Coding and Python Classes in Downpatrick |
+| `/online-coding-and-python-classes-in-dudley` | Online Coding and Python Classes in Dudley |
+| `/online-coding-and-python-classes-in-eastbourne` | Online Coding and Python Classes in Eastbourne |
+| `/online-coding-and-python-classes-in-edgbaston-birmingham` | Online Coding and Python Classes in Edgbaston, Birmingham |
+| `/online-coding-and-python-classes-in-ellenbrook-perth` | Online Coding and Python Classes in Ellenbrook, Perth |
+| `/online-coding-and-python-classes-in-epping-vic-melbourne` | Online Coding and Python Classes in Epping, Melbourne |
+| `/online-coding-and-python-classes-in-forest-lake-brisbane` | Online Coding and Python Classes in Forest Lake, Brisbane |
+| `/online-coding-and-python-classes-in-geelong` | Online Coding and Python Classes in Geelong |
+| `/online-coding-and-python-classes-in-hartlepool` | Online Coding and Python Classes in Hartlepool |
+| `/online-coding-and-python-classes-in-hastings` | Online Coding and Python Classes in Hastings |
+| `/online-coding-and-python-classes-in-hatfield` | Online Coding and Python Classes in Hatfield |
+| `/online-coding-and-python-classes-in-havant` | Online Coding and Python Classes in Havant |
+| `/online-coding-and-python-classes-in-hayes-london` | Online Coding and Python Classes in Hayes, London |
+| `/online-coding-and-python-classes-in-headingley-leeds` | Online Coding and Python Classes in Headingley, Leeds |
+| `/online-coding-and-python-classes-in-homebush-sydney` | Online Coding and Python Classes in Homebush, Sydney |
+| `/online-coding-and-python-classes-in-hornsby-sydney` | Online Coding and Python Classes in Hornsby, Sydney |
+| `/online-coding-and-python-classes-in-hurstville-sydney` | Online Coding and Python Classes in Hurstville, Sydney |
+| `/online-coding-and-python-classes-in-ilford-london` | Online Coding and Python Classes in Ilford, London |
+| `/online-coding-and-python-classes-in-inner-north-canberra` | Online Coding and Python Classes in Inner North Canberra |
+| `/online-coding-and-python-classes-in-irvine` | Online Coding and Python Classes in Irvine |
+| `/online-coding-and-python-classes-in-kings-lynn` | Online Coding and Python Classes in King's Lynn |
+| `/online-coding-and-python-classes-in-kingswinford` | Online Coding and Python Classes in Kingswinford |
+| `/online-coding-and-python-classes-in-kingswood-bristol` | Online Coding and Python Classes in Kingswood |
+| `/online-coding-and-python-classes-in-larne` | Online Coding and Python Classes in Larne |
+| `/online-coding-and-python-classes-in-macclesfield` | Online Coding and Python Classes in Macclesfield |
+| `/online-coding-and-python-classes-in-mackay` | Online Coding and Python Classes in Mackay |
+| `/online-coding-and-python-classes-in-maidstone` | Online Coding and Python Classes in Maidstone |
+| `/online-coding-and-python-classes-in-maitland-newcastle` | Online Coding and Python Classes in Maitland, Newcastle |
+| `/online-coding-and-python-classes-in-malone-belfast` | Online Coding and Python Classes in Malone, Belfast |
+| `/online-coding-and-python-classes-in-mansfield` | Online Coding and Python Classes in Mansfield |
+| `/online-coding-and-python-classes-in-margate` | Online Coding and Python Classes in Margate |
+| `/online-coding-and-python-classes-in-maroondah-melbourne` | Online Coding and Python Classes in Maroondah, Melbourne |
+| `/online-coding-and-python-classes-in-modbury-adelaide` | Online Coding and Python Classes in Modbury, Adelaide |
+| `/online-coding-and-python-classes-in-moreton-bay` | Online Coding and Python Classes in Moreton Bay |
+| `/online-coding-and-python-classes-in-mosman-sydney` | Online Coding and Python Classes in Mosman, Sydney |
+| `/online-coding-and-python-classes-in-musselburgh` | Online Coding and Python Classes in Musselburgh |
+| `/online-coding-and-python-classes-in-neath` | Online Coding and Python Classes in Neath |
+| `/online-coding-and-python-classes-in-nelson-bay` | Online Coding and Python Classes in Nelson Bay |
+| `/online-coding-and-python-classes-in-newbury` | Online Coding and Python Classes in Newbury |
+| `/online-coding-and-python-classes-in-newcastle-nsw` | Online Coding and Python Classes in Newcastle NSW |
+| `/online-coding-and-python-classes-in-norwood-adelaide` | Online Coding and Python Classes in Norwood, Adelaide |
+| `/online-coding-and-python-classes-in-nowra` | Online Coding and Python Classes in Nowra |
+| `/online-coding-and-python-classes-in-oran-park-sydney` | Online Coding and Python Classes in Oran Park, Sydney |
+| `/online-coding-and-python-classes-in-paisley` | Online Coding and Python Classes in Paisley |
+| `/online-coding-and-python-classes-in-palmerston-nt-darwin` | Online Coding and Python Classes in Palmerston, Darwin |
+| `/online-coding-and-python-classes-in-perth-western-australia` | Online Coding and Python Classes in Perth, WA |
+| `/online-coding-and-python-classes-in-poole` | Online Coding and Python Classes in Poole |
+| `/online-coding-and-python-classes-in-prospect-sa-adelaide` | Online Coding and Python Classes in Prospect, Adelaide |
+| `/online-coding-and-python-classes-in-queanbeyan` | Online Coding and Python Classes in Queanbeyan |
+| `/online-coding-and-python-classes-in-redlands-brisbane` | Online Coding and Python Classes in Redlands, Brisbane |
+| `/online-coding-and-python-classes-in-rochdale` | Online Coding and Python Classes in Rochdale |
+| `/online-coding-and-python-classes-in-royal-leamington-spa` | Online Coding and Python Classes in Royal Leamington Spa |
+| `/online-coding-and-python-classes-in-rugby` | Online Coding and Python Classes in Rugby |
+| `/online-coding-and-python-classes-in-runcorn` | Online Coding and Python Classes in Runcorn |
+| `/online-coding-and-python-classes-in-sandy-bay-hobart` | Online Coding and Python Classes in Sandy Bay, Hobart |
+| `/online-coding-and-python-classes-in-scarborough` | Online Coding and Python Classes in Scarborough |
+| `/online-coding-and-python-classes-in-scarborough-wa-perth` | Online Coding and Python Classes in Scarborough, Perth |
+| `/online-coding-and-python-classes-in-shepparton` | Online Coding and Python Classes in Shepparton |
+| `/online-coding-and-python-classes-in-solihull` | Online Coding and Python Classes in Solihull |
+| `/online-coding-and-python-classes-in-stafford` | Online Coding and Python Classes in Stafford |
+| `/online-coding-and-python-classes-in-stockbridge-edinburgh` | Online Coding and Python Classes in Stockbridge, Edinburgh |
+| `/online-coding-and-python-classes-in-stonnington-melbourne` | Online Coding and Python Classes in Stonnington, Melbourne |
+| `/online-coding-and-python-classes-in-stourbridge` | Online Coding and Python Classes in Stourbridge |
+| `/online-coding-and-python-classes-in-strathfield-sydney` | Online Coding and Python Classes in Strathfield, Sydney |
+| `/online-coding-and-python-classes-in-surfers-paradise-gold-coast` | Online Coding and Python Classes in Surfers Paradise, Gold Coast |
+| `/online-coding-and-python-classes-in-sutherland-shire-sydney` | Online Coding and Python Classes in Sutherland Shire, Sydney |
+| `/online-coding-and-python-classes-in-tamworth-nsw` | Online Coding and Python Classes in Tamworth NSW |
+| `/online-coding-and-python-classes-in-tuggeranong-canberra` | Online Coding and Python Classes in Tuggeranong, Canberra |
+| `/online-coding-and-python-classes-in-wangaratta` | Online Coding and Python Classes in Wangaratta |
+| `/online-coding-and-python-classes-in-wanneroo-perth` | Online Coding and Python Classes in Wanneroo, Perth |
+| `/online-coding-and-python-classes-in-warragul` | Online Coding and Python Classes in Warragul |
+| `/online-coding-and-python-classes-in-warrington` | Online Coding and Python Classes in Warrington |
+| `/online-coding-and-python-classes-in-waverley-sydney` | Online Coding and Python Classes in Waverley, Sydney |
+| `/online-coding-and-python-classes-in-west-bridgford-nottingham` | Online Coding and Python Classes in West Bridgford |
+| `/online-coding-and-python-classes-in-weston-super-mare` | Online Coding and Python Classes in Weston-super-Mare |
+| `/online-coding-and-python-classes-in-whitehorse-melbourne` | Online Coding and Python Classes in Whitehorse, Melbourne |
+| `/online-coding-and-python-classes-in-whyalla` | Online Coding and Python Classes in Whyalla |
+| `/online-coding-and-python-classes-in-wigan` | Online Coding and Python Classes in Wigan |
+| `/online-coding-and-python-classes-in-wigston-leicester` | Online Coding and Python Classes in Wigston |
+| `/online-coding-and-python-classes-in-yarra-ranges-melbourne` | Online Coding and Python Classes in Yarra Ranges, Melbourne |
+| `/online-coding-classes-australia-compared` | Online Coding Classes in Australia Compared: What to Check |
 | `/online-coding-classes-cost` | How Much Do Coding Classes Cost in 2026? Fees by Format |
+| `/online-coding-classes-for-kids-australia` | Online Coding Classes for Kids in Australia |
 | `/online-coding-classes-for-kids-uk` | Online Coding Classes for Kids in the UK |
 | `/online-coding-classes-for-kids-usa` | Online Coding Classes for Kids in the USA |
 | `/online-coding-summer-course-ireland` | Online Coding Summer Course in Ireland |
 | `/online-coding-summer-course-uk` | Online Coding Summer Course, UK |
+| `/online-coding-tutor-australia` | Online Coding Tutor in Australia |
 | `/online-coding-tutor-uk` | Online Coding Tutor UK |
 | `/online-java-classes` | Online Java Classes |
 | `/oxford-university-computing-challenge-preparation` | Oxford University Computing Challenge |
@@ -2632,7 +3377,9 @@ Listed with titles in Appendix C.
 | `/priority-demo` | Priority Live Demo Class |
 | `/problem-solving-skills-through-coding-ireland` | Problem Solving Skills Through Coding |
 | `/problem-solving-skills-through-coding-uk` | Problem-Solving Skills Through Coding |
+| `/problem-solving-through-coding-australia` | Problem Solving Through Coding |
 | `/prompt-engineering-course` | Prompt Engineering Course |
+| `/python-ai-course-for-kids-australia` | Python AI Course for Kids in Australia |
 | `/python-and-ai-classes-for-kids-teens` | Python for Kids & Teens |
 | `/python-and-ai-track-for-students-bahamas` | The 12-Month Python and AI Track for Bahamian Students |
 | `/python-certification-pcep-pcap-course` | Python Certification Course |
@@ -2640,6 +3387,7 @@ Listed with titles in Appendix C.
 | `/python-classes-in-qatar` | Python Classes in Qatar |
 | `/python-classes-in-saudi-arabia` | Python Classes in Saudi Arabia |
 | `/python-classes-netherlands` | Python Classes in the Netherlands |
+| `/python-classes-online-australia` | Python Classes Online in Australia |
 | `/python-for-beginners-kids` | Python for Beginners Kids: Absolute Zero Start, Fun Projects, Live 1-on-1 Classes |
 | `/python-for-cbse-class-10-ai` | Python for CBSE Class 10 AI (417) |
 | `/python-for-data-science` | Python for Data Science |
@@ -2652,7 +3400,13 @@ Listed with titles in Appendix C.
 | `/raspberry-pi-coding-projects-uk` | Raspberry Pi Coding Projects for Kids and Teens, UK |
 | `/real-coding-classes` | Real Coding Classes: Learn How Code Actually Works, How to Think Like a Programmer & Bu... |
 | `/results` | Our Results |
+| `/roblox-coding-classes-australia` | Roblox Coding Classes in Australia |
 | `/roblox-coding-classes-for-kids` | Roblox Coding Classes for Kids |
+| `/robocup-junior-australia-coding-help` | RoboCup Junior Australia Coding Help: Challenges Explained |
+| `/sace-digital-technologies-help` | SACE Digital Technologies Help |
+| `/sace-mathematical-methods-tutoring` | SACE Mathematical Methods Tutoring |
+| `/sace-specialist-mathematics-tutoring` | SACE Specialist Mathematics Tutoring |
+| `/school-holiday-coding-course-australia` | School Holiday Coding Course in Australia |
 | `/science-fair-project-ideas-ai` | AI Science Fair Project Ideas That Follow the Actual Rules |
 | `/scottish-mathematical-challenge-practice` | Scottish Mathematical Challenge Practice |
 | `/scratch-coding-classes-for-kids` | Scratch Coding Classes for Kids |
@@ -2662,40 +3416,218 @@ Listed with titles in Appendix C.
 | `/small-batches-and-1-on-1-classes` | Small Live Batches and 1-on-1 Classes |
 | `/sof-icso-preparation` | SOF ICSO (NCO) Preparation Classes Online, Classes 1 to 10 |
 | `/sof-imo-preparation` | SOF IMO Preparation Classes Online, Classes 1 to 12 |
+| `/software-development-course-australia` | Software Development Course in Australia |
+| `/software-engineering-major-project-help-hsc` | HSC Software Engineering Project Help |
 | `/software-maintenance-and-support` | Bug Fixing, QA & Software Maintenance Services |
 | `/software-scaling-and-modernization` | Software Scaling & Modernization Services |
 | `/student-hackathons-uk` | Student Hackathons UK |
 | `/summer-research-programs-coding` | Summer Research Programs in Coding and AI |
 | `/t-level-digital-coding-help` | T Level Digital Software Development Help |
+| `/tasc-computer-science-help` | TASC Computer Science Help |
+| `/tasc-mathematics-methods-tutoring` | TASC Mathematics Methods Tutoring |
 | `/team` | Our Team |
 | `/think-like-a-software-engineer` | Think Like a Software Engineer |
 | `/transition-year-coding-course-ireland` | Transition Year Coding Course in Ireland |
 | `/uk-gcse-computer-science-tutoring` | GCSE Computer Science Tutoring |
 | `/ukmt-kangaroo-rounds-practice` | UKMT Kangaroo Practice |
+| `/understand-the-code-dont-copy-paste-australia` | Understand the Code, Don't Copy-Paste |
 | `/understand-the-code-dont-copy-paste-ireland` | Understand the Code, Don't Copy-Paste |
 | `/understand-the-code-dont-copy-paste-uk` | Understand the Code, Do Not Copy-Paste It |
 | `/usaco-preparation-online-coaching` | USACO Preparation Online Coaching |
+| `/vce-algorithmics-hess-help` | VCE Algorithmics (HESS) Help |
+| `/vce-applied-computing-data-analytics-help` | VCE Data Analytics Help |
+| `/vce-applied-computing-software-development-help` | VCE Software Development Help |
+| `/vibe-coding-and-ai-agents-classes-in-airdrie` | Vibe Coding and AI Agents Classes in Airdrie |
+| `/vibe-coding-and-ai-agents-classes-in-albany-wa` | Vibe Coding and AI Agents Classes in Albany, WA |
+| `/vibe-coding-and-ai-agents-classes-in-albury-wodonga` | Vibe Coding and AI Agents Classes in Albury-Wodonga |
+| `/vibe-coding-and-ai-agents-classes-in-applecross-perth` | Vibe Coding and AI Agents Classes in Applecross, Perth |
+| `/vibe-coding-and-ai-agents-classes-in-armadale-perth` | Vibe Coding and AI Agents Classes in Armadale, Perth |
+| `/vibe-coding-and-ai-agents-classes-in-aspley-brisbane` | Vibe Coding and AI Agents Classes in Aspley, Brisbane |
+| `/vibe-coding-and-ai-agents-classes-in-auburn-sydney` | Vibe Coding and AI Agents Classes in Auburn, Sydney |
+| `/vibe-coding-and-ai-agents-classes-in-banyule-melbourne` | Vibe Coding and AI Agent Classes in Banyule, Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-bishops-stortford` | Vibe Coding and AI Agents Classes in Bishop's Stortford |
+| `/vibe-coding-and-ai-agents-classes-in-bishopston-bristol` | Vibe Coding and AI Agents Classes in Bishopston, Bristol |
+| `/vibe-coding-and-ai-agents-classes-in-blacktown-sydney` | Vibe Coding and AI Agents Classes in Blacktown, Sydney |
+| `/vibe-coding-and-ai-agents-classes-in-bognor-regis` | Vibe Coding and AI Agents Classes in Bognor Regis |
+| `/vibe-coding-and-ai-agents-classes-in-box-hill-melbourne` | Vibe Coding and AI Agents Classes in Box Hill, Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-bridgwater` | Vibe Coding and AI Agents Classes in Bridgwater, Somerset |
+| `/vibe-coding-and-ai-agents-classes-in-bunbury` | Vibe Coding and AI Agents Classes in Bunbury |
+| `/vibe-coding-and-ai-agents-classes-in-burnie` | Vibe Coding and AI Agents Classes in Burnie |
+| `/vibe-coding-and-ai-agents-classes-in-burnley` | Vibe Coding and AI Agents Classes in Burnley |
+| `/vibe-coding-and-ai-agents-classes-in-cairns` | Vibe Coding and AI Agents Classes in Cairns |
+| `/vibe-coding-and-ai-agents-classes-in-camberwell-melbourne` | Vibe Coding and AI Agents Classes in Camberwell, Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-canberra` | Vibe Coding and AI Agents Classes in Canberra |
+| `/vibe-coding-and-ai-agents-classes-in-central-coast-nsw` | Vibe Coding and AI Agents Classes on the Central Coast NSW |
+| `/vibe-coding-and-ai-agents-classes-in-chatswood-sydney` | Vibe Coding and AI Agents Classes in Chatswood, Sydney |
+| `/vibe-coding-and-ai-agents-classes-in-clacton-on-sea` | Vibe Coding and AI Agents Classes in Clacton-on-Sea |
+| `/vibe-coding-and-ai-agents-classes-in-clarence-hobart` | Vibe Coding and AI Agents Classes in Clarence, Hobart |
+| `/vibe-coding-and-ai-agents-classes-in-coleraine` | Vibe Coding and AI Agents Classes in Coleraine |
+| `/vibe-coding-and-ai-agents-classes-in-crewe` | Vibe Coding and AI Agents Classes in Crewe |
+| `/vibe-coding-and-ai-agents-classes-in-crookes-sheffield` | Vibe Coding and AI Agents Classes in Crookes, Sheffield |
+| `/vibe-coding-and-ai-agents-classes-in-cwmbran` | Vibe Coding and AI Agents Classes in Cwmbran |
+| `/vibe-coding-and-ai-agents-classes-in-darlington` | Vibe Coding and AI Agents Classes in Darlington |
+| `/vibe-coding-and-ai-agents-classes-in-dungannon` | Vibe Coding and AI Agents Classes in Dungannon |
+| `/vibe-coding-and-ai-agents-classes-in-echuca` | Vibe Coding and AI Agents Classes in Echuca |
+| `/vibe-coding-and-ai-agents-classes-in-epping-sydney` | Vibe Coding and AI Agents Classes in Epping, Sydney |
+| `/vibe-coding-and-ai-agents-classes-in-fareham` | Vibe Coding and AI Agents Classes in Fareham, Hampshire |
+| `/vibe-coding-and-ai-agents-classes-in-folkestone` | Vibe Coding and AI Agents Classes in Folkestone |
+| `/vibe-coding-and-ai-agents-classes-in-fremantle-perth` | Vibe Coding and AI Agents Classes in Fremantle, Perth |
+| `/vibe-coding-and-ai-agents-classes-in-glen-eira-melbourne` | Vibe Coding and AI Agents Classes in Glen Eira, Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-glenelg-adelaide` | Vibe Coding and AI Agents Classes in Glenelg, Adelaide |
+| `/vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide` | Vibe Coding and AI Agents Classes in Golden Grove, Adelaide |
+| `/vibe-coding-and-ai-agents-classes-in-goulburn` | Vibe Coding and AI Agents Classes in Goulburn |
+| `/vibe-coding-and-ai-agents-classes-in-grays` | Vibe Coding and AI Agents Classes in Grays, Essex |
+| `/vibe-coding-and-ai-agents-classes-in-gungahlin-canberra` | Vibe Coding and AI Agents Classes in Gungahlin, Canberra |
+| `/vibe-coding-and-ai-agents-classes-in-halesowen` | Vibe Coding and AI Agents Classes in Halesowen |
+| `/vibe-coding-and-ai-agents-classes-in-hamilton-scotland` | Vibe Coding and AI Agents Classes in Hamilton |
+| `/vibe-coding-and-ai-agents-classes-in-haywards-heath` | Vibe Coding and AI Agents Classes in Haywards Heath |
+| `/vibe-coding-and-ai-agents-classes-in-helensvale-gold-coast` | Vibe Coding and AI Agents Classes in Helensvale, Gold Coast |
+| `/vibe-coding-and-ai-agents-classes-in-hervey-bay` | Vibe Coding and AI Agents Classes in Hervey Bay |
+| `/vibe-coding-and-ai-agents-classes-in-horsham-victoria` | Vibe Coding and AI Agents Classes in Horsham, Victoria |
+| `/vibe-coding-and-ai-agents-classes-in-huyton-with-roby` | Vibe Coding and AI Agents Classes in Huyton with Roby |
+| `/vibe-coding-and-ai-agents-classes-in-indooroopilly-brisbane` | Vibe Coding and AI Agents Classes in Indooroopilly, Brisbane |
+| `/vibe-coding-and-ai-agents-classes-in-ipswich-qld` | Vibe Coding and AI Agents Classes in Ipswich, Queensland |
+| `/vibe-coding-and-ai-agents-classes-in-keighley` | Vibe Coding and AI Agents Classes in Keighley, West Yorkshire |
+| `/vibe-coding-and-ai-agents-classes-in-kettering` | Vibe Coding and AI Agents Classes in Kettering |
+| `/vibe-coding-and-ai-agents-classes-in-kidderminster` | Vibe Coding and AI Agents Classes in Kidderminster |
+| `/vibe-coding-and-ai-agents-classes-in-kilmarnock` | Vibe Coding and AI Agents Classes in Kilmarnock |
+| `/vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham` | Vibe Coding and AI Agents Classes in Kings Heath |
+| `/vibe-coding-and-ai-agents-classes-in-knox-melbourne` | Vibe Coding and AI Agents Classes in Knox, Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle` | Vibe Coding and AI Agents Classes in Lake Macquarie |
+| `/vibe-coding-and-ai-agents-classes-in-lane-cove-sydney` | Vibe Coding and AI Agents Classes in Lane Cove, Sydney |
+| `/vibe-coding-and-ai-agents-classes-in-leigh` | Vibe Coding and AI Agents Classes in Leigh, Wigan |
+| `/vibe-coding-and-ai-agents-classes-in-liverpool-sydney` | Vibe Coding and AI Agents Classes in Liverpool, Sydney |
+| `/vibe-coding-and-ai-agents-classes-in-llandaff-cardiff` | Vibe Coding and AI Agents Classes in Llandaff, Cardiff |
+| `/vibe-coding-and-ai-agents-classes-in-lurgan` | Vibe Coding and AI Agents Classes in Lurgan |
+| `/vibe-coding-and-ai-agents-classes-in-melbourne` | Vibe Coding and AI Agents Classes in Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-molonglo-canberra` | Vibe Coding and AI Agents Classes in Molonglo, Canberra |
+| `/vibe-coding-and-ai-agents-classes-in-monash-melbourne` | Vibe Coding and AI Agents Classes in Monash, Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-morningside-edinburgh` | Vibe Coding and AI Agents Classes in Morningside, Edinburgh |
+| `/vibe-coding-and-ai-agents-classes-in-mount-gambier` | Vibe Coding and AI Agents Classes in Mount Gambier |
+| `/vibe-coding-and-ai-agents-classes-in-mount-waverley-melbourne` | Vibe Coding and AI Agents Classes in Mount Waverley, Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-murray-bridge` | Vibe Coding and AI Agents Classes in Murray Bridge |
+| `/vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme` | Vibe Coding and AI Agents Classes in Newcastle-under-Lyme |
+| `/vibe-coding-and-ai-agents-classes-in-north-lakes-brisbane` | Vibe Coding and AI Agents Classes in North Lakes, Brisbane |
+| `/vibe-coding-and-ai-agents-classes-in-nuneaton` | Vibe Coding and AI Agents Classes in Nuneaton |
+| `/vibe-coding-and-ai-agents-classes-in-oadby-leicester` | Vibe Coding and AI Agents Classes in Oadby |
+| `/vibe-coding-and-ai-agents-classes-in-oldbury` | Vibe Coding and AI Agents Classes in Oldbury, Sandwell |
+| `/vibe-coding-and-ai-agents-classes-in-orange` | Vibe Coding and AI Agents Classes in Orange |
+| `/vibe-coding-and-ai-agents-classes-in-pennant-hills-sydney` | Vibe Coding and AI Agents Classes in Pennant Hills, Sydney |
+| `/vibe-coding-and-ai-agents-classes-in-pinner-london` | Vibe Coding and AI Agents Classes in Pinner |
+| `/vibe-coding-and-ai-agents-classes-in-port-macquarie` | Vibe Coding and AI Agents Classes in Port Macquarie |
+| `/vibe-coding-and-ai-agents-classes-in-port-talbot` | Vibe Coding and AI Agents Classes in Port Talbot |
+| `/vibe-coding-and-ai-agents-classes-in-randwick-sydney` | Vibe Coding and AI Agents Classes in Randwick, Sydney |
+| `/vibe-coding-and-ai-agents-classes-in-rhyl` | Vibe Coding and AI Agents Classes in Rhyl |
+| `/vibe-coding-and-ai-agents-classes-in-robina-gold-coast` | Vibe Coding and AI Agents Classes in Robina, Gold Coast |
+| `/vibe-coding-and-ai-agents-classes-in-ryde-sydney` | Vibe Coding and AI Agents Classes in Ryde, Sydney |
+| `/vibe-coding-and-ai-agents-classes-in-schofields-sydney` | Vibe Coding and AI Agents Classes in Schofields, Sydney |
+| `/vibe-coding-and-ai-agents-classes-in-scunthorpe` | Vibe Coding and AI Agents Classes in Scunthorpe |
+| `/vibe-coding-and-ai-agents-classes-in-sittingbourne` | Vibe Coding and AI Agents Classes in Sittingbourne |
+| `/vibe-coding-and-ai-agents-classes-in-south-morang-melbourne` | Vibe Coding and AI Agents Classes in South Morang, Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-southall-london` | Vibe Coding and AI Agents Classes in Southall |
+| `/vibe-coding-and-ai-agents-classes-in-st-andrews` | Vibe Coding and AI Agents Classes in St Andrews |
+| `/vibe-coding-and-ai-agents-classes-in-stirling-perth` | Vibe Coding and AI Agents Classes in Stirling, Perth |
+| `/vibe-coding-and-ai-agents-classes-in-stockton-on-tees` | Vibe Coding and AI Agents Classes in Stockton-on-Tees |
+| `/vibe-coding-and-ai-agents-classes-in-sutton-coldfield-birmingham` | Vibe Coding and AI Agents Classes in Sutton Coldfield |
+| `/vibe-coding-and-ai-agents-classes-in-tarneit-melbourne` | Vibe Coding and AI Agents Classes in Tarneit, Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-taunton` | Vibe Coding and AI Agents Classes in Taunton |
+| `/vibe-coding-and-ai-agents-classes-in-tea-tree-gully-adelaide` | Vibe Coding and AI Agents Classes in Tea Tree Gully, Adelaide |
+| `/vibe-coding-and-ai-agents-classes-in-thundersley-and-south-benfleet` | Vibe Coding and AI Agents Classes: Thundersley, South Benfleet |
+| `/vibe-coding-and-ai-agents-classes-in-toowong-brisbane` | Vibe Coding and AI Agents Classes in Toowong, Brisbane |
+| `/vibe-coding-and-ai-agents-classes-in-twickenham-london` | Vibe Coding and AI Agents Classes in Twickenham |
+| `/vibe-coding-and-ai-agents-classes-in-tynemouth` | Vibe Coding and AI Agents Classes in Tynemouth |
+| `/vibe-coding-and-ai-agents-classes-in-urmston` | Vibe Coding and AI Agents Classes in Urmston, Trafford |
+| `/vibe-coding-and-ai-agents-classes-in-wallasey` | Vibe Coding and AI Agents Classes in Wallasey |
+| `/vibe-coding-and-ai-agents-classes-in-warrnambool` | Vibe Coding and AI Agents Classes in Warrnambool |
+| `/vibe-coding-and-ai-agents-classes-in-washington` | Vibe Coding and AI Agents Classes in Washington, Tyne and Wear |
+| `/vibe-coding-and-ai-agents-classes-in-west-bromwich` | Vibe Coding and AI Agents Classes in West Bromwich |
+| `/vibe-coding-and-ai-agents-classes-in-weymouth` | Vibe Coding and AI Agents Classes in Weymouth |
+| `/vibe-coding-and-ai-agents-classes-in-wokingham` | Vibe Coding and AI Agents Classes in Wokingham |
+| `/vibe-coding-and-ai-agents-classes-in-worksop` | Vibe Coding and AI Agents Classes in Worksop |
+| `/vibe-coding-and-ai-agents-classes-in-wyndham-melbourne` | Vibe Coding and AI Agents Classes in Wyndham, Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-wythenshawe-manchester` | Vibe Coding and AI Agents Classes in Wythenshawe, Manchester |
 | `/vibe-coding-classes` | Vibe Coding Classes for Kids, Teens & College |
 | `/vibe-coding-for-beginners` | Vibe Coding for Beginners |
 | `/vibe-coding-for-teens` | Vibe Coding for Teens |
 | `/vibe-coding-projects-for-students` | Vibe Coding Projects for Students |
+| `/video-game-design-for-kids-australia` | Video Game Design for Kids in Australia |
 | `/we-teach-you-how-to-think` | We Teach You How to Think |
 | `/web-application-development-services` | Web Application Development Company |
+| `/web-development-course-for-teens-australia` | Web Development Course for Teens in Australia |
 | `/what-happens-in-a-demo-class` | What Happens in a Demo Class |
 | `/what-is-vibe-coding` | What Is Vibe Coding? A Plain Explanation for Families |
 | `/why-trust-modern-age-coders` | Why Trust Modern Age Coders |
 | `/why-we-charge-for-a-priority-demo` | Why We Charge for a Priority Demo |
 | `/wjec-gcse-computer-science-help-wales` | WJEC GCSE Computer Science Help, Wales |
 | `/wjec-gcse-digital-technology-help-wales` | WJEC GCSE Digital Technology Help, Wales |
+| `/year-4-multiplication-tables-check-explained` | Year 4 Multiplication Tables Check Explained (2027) |
+| `/young-ict-explorers-project-help` | Young ICT Explorers Project Help: Plan, Build, Present |
 
 ---
 
-## APPENDIX C: EVERY BLOG POST (126 posts)
+## APPENDIX C: EVERY BLOG POST (176 posts)
 
 All posts live at `https://learn.modernagecoders.com/blog/<slug>`. Use these when a customer asks a question a post already answers in depth.
 
 
-### Education (39)
+### Programming (52)
+
+| Post | URL path |
+|---|---|
+| 20 Python Programs for CBSE Class 12 Board Exam (083) | `/blog/python-programs-for-cbse-class-12` |
+| 30+ Best Java Programs for Class 8 Students: Easy Projects to Start Coding | `/blog/30-best-java-programs-for-class-8-students` |
+| 35 Basic Python Programs for Beginners, With Code and Output | `/blog/python-basic-programs-for-beginners` |
+| Advantages of Functions in Python: 8 Benefits With Examples | `/blog/advantages-functions-python-why-every-coder-should-use-them` |
+| Armstrong Number: Definition, Full List and Python Program | `/blog/armstrong-number-python-complete-guide-examples-code` |
+| Best Java IDE for Beginners in 2026: 7 Free IDEs Compared | `/blog/best-java-ides-for-beginners` |
+| Big O Notation Explained Simply, With Real Code | `/blog/big-o-notation-explained-simply` |
+| Binary Numbers Explained: Convert, Count and Add | `/blog/binary-numbers-explained` |
+| CCC Junior or Senior? How to Choose and How to Score | `/blog/canadian-computing-competition-junior-or-senior` |
+| Conway's Game of Life in Python: Rules, Patterns and Code | `/blog/conways-game-of-life-python` |
+| Exception Handling in Python: Try, Except, Finally | `/blog/exception-handling-in-python` |
+| Fibonacci Series in Python: 7 Ways to Write It | `/blog/fibonacci-series-in-python` |
+| File Built-in Methods in Python: Complete Guide for Beginners | `/blog/file-built-in-methods-python-guide` |
+| File Organization in Python: A Beginner's Guide to Managing Your Code Like a Pro | `/blog/file-organization-in-python` |
+| File Types in Python: A Complete Beginner's Guide to Working with Different Files | `/blog/file-types-in-python-complete-guide` |
+| Git vs GitHub: The Difference, With a Real Session | `/blog/git-vs-github-difference` |
+| How Are Passwords Stored? Hashing, Salting and Strength | `/blog/how-are-passwords-stored` |
+| How Do Computers Store Images? Pixels, RGB and File Size | `/blog/how-do-computers-store-images` |
+| How Do Maps Find the Fastest Route? Dijkstra's Algorithm | `/blog/dijkstras-algorithm-fastest-route` |
+| How Do Search Engines Work? Build a Tiny One in Python | `/blog/how-do-search-engines-work` |
+| How Does Encryption Work? From Caesar Ciphers to HTTPS | `/blog/how-does-encryption-work` |
+| How Does File Compression Work? RLE and Huffman in Python | `/blog/how-does-file-compression-work` |
+| How Long Does It Take to Learn Python? (Real Hours) | `/blog/how-long-does-it-take-to-learn-python` |
+| How to Find HCF and LCM in Python (5 Easy Methods) | `/blog/how-to-find-hcf-and-lcm-in-python` |
+| How to Make a Text Adventure Game in Python | `/blog/how-to-make-a-text-adventure-game-in-python` |
+| How to Read and Write Files in Python (The Complete Guide) | `/blog/how-to-read-and-write-files-in-python` |
+| How to Reverse a String in Python: 5 Easy Methods | `/blog/how-to-reverse-a-string-in-python` |
+| How to Start Learning Data Structures and Algorithms | `/blog/how-to-start-learning-data-structures-and-algorithms` |
+| Leap Year Program in Python: Logic, Code and Output | `/blog/how-to-write-a-leap-year-program-in-python` |
+| Learn Python for Beginners: Complete Step-by-Step Guide (2026) | `/blog/python-for-beginners` |
+| Learn Python Step by Step: The Free Tutorial Library | `/blog/learn-python-step-by-step` |
+| Learn Web Development with JavaScript - Basics, Projects & Hands-On Guide | `/blog/javascript-basics` |
+| Logic Gates for Beginners: AND, OR, NOT and a Binary Adder | `/blog/logic-gates-for-beginners` |
+| Menu Driven Program in Python (With a Daily Menu Script) | `/blog/how-to-build-menu-driven-program-in-python` |
+| Python Dictionary: The Complete Guide With 20 Examples | `/blog/python-dictionary-complete-guide` |
+| Python Lambda Functions: When to Use Them, 10 Examples | `/blog/python-lambda-functions` |
+| Python List Comprehension: 15 Examples, Simple to Advanced | `/blog/python-list-comprehension-explained` |
+| Python OOP Tutorial: Classes, Objects, and Inheritance | `/blog/python-oop-tutorial-for-beginners` |
+| Python vs Java: Which Should You Learn First? | `/blog/python-vs-java-which-to-learn-first` |
+| Python vs JavaScript: Which Should You Learn First? | `/blog/python-vs-javascript-which-to-learn-first` |
+| Recursion Explained for Beginners, With a Call Trace | `/blog/recursion-explained-for-beginners` |
+| SQL or Python First? How to Choose for Your Goal | `/blog/sql-or-python-first` |
+| Star Pattern Programs in Python: 30 Patterns With Code | `/blog/star-pattern-programs-in-python` |
+| The IOI Syllabus Excludes More Than You Expect | `/blog/ioi-syllabus-what-to-learn-and-what-to-skip` |
+| Top 10 Java Programs Every College Student Must Know (With Solutions) | `/blog/top-10-java-programs-every-college-student-must-know` |
+| Top 10 Java Programs Every School Student Should Know (With Solutions) | `/blog/top-10-java-programs-for-school-students` |
+| USACO Bronze to Silver: What Actually Blocks You | `/blog/usaco-bronze-to-silver-what-blocks-most-students` |
+| What Is an Algorithm? Simple Examples for Kids and Beginners | `/blog/what-is-an-algorithm` |
+| What Is an API? Explained Simply, With a Real One | `/blog/what-is-an-api-explained-simply` |
+| What is Floor Division in Python? Complete Guide with Examples | `/blog/what-is-floor-division-in-python` |
+| What JavaScript to Learn Before React (with Examples) | `/blog/javascript-to-learn-before-react` |
+| Why Is 0.1 + 0.2 Not 0.3? Floating Point in Python | `/blog/why-is-0-1-plus-0-2-not-0-3` |
+
+### Education (40)
 
 | Post | URL path |
 |---|---|
@@ -2735,52 +3667,72 @@ All posts live at `https://learn.modernagecoders.com/blog/<slug>`. Use these whe
 | The Ultimate Guide to Teaching Kids Coding in 2025 | `/blog/coding-for-kids-guide` |
 | What Is Blockly? Block Coding for Kids, Explained | `/blog/what-is-blockly-for-kids` |
 | What is Coding for Kids? A Parent's Complete Guide to Getting Started in 2026 | `/blog/coding-for-kids-parents-complete-guide-2026` |
+| Why Can I Understand Solutions but Not Solve Problems? | `/blog/why-can-i-understand-solutions-but-not-solve-problems` |
 | Why Coding is the New Literacy for Kids in 2025 | `/blog/why-coding-is-new-literacy-kids-2025` |
 | Why Early Exposure to Coding Gives Students a Competitive Advantage | `/blog/why-early-exposure-coding-gives-students-competitive-advantage` |
 | Why Every Teen Should Learn Coding: The Ultimate Guide for 2025 | `/blog/why-every-teen-should-learn-coding` |
 
-### Programming (31)
+### Mathematics (32)
 
 | Post | URL path |
 |---|---|
-| 20 Python Programs for CBSE Class 12 Board Exam (083) | `/blog/python-programs-for-cbse-class-12` |
-| 30+ Best Java Programs for Class 8 Students: Easy Projects to Start Coding | `/blog/30-best-java-programs-for-class-8-students` |
-| 35 Basic Python Programs for Beginners, With Code and Output | `/blog/python-basic-programs-for-beginners` |
-| Advantages of Functions in Python: 8 Benefits With Examples | `/blog/advantages-functions-python-why-every-coder-should-use-them` |
-| Armstrong Number: Definition, Full List and Python Program | `/blog/armstrong-number-python-complete-guide-examples-code` |
-| Best Java IDE for Beginners in 2026: 7 Free IDEs Compared | `/blog/best-java-ides-for-beginners` |
-| CCC Junior or Senior? How to Choose and How to Score | `/blog/canadian-computing-competition-junior-or-senior` |
-| Exception Handling in Python: Try, Except, Finally | `/blog/exception-handling-in-python` |
-| Fibonacci Series in Python: 7 Ways to Write It | `/blog/fibonacci-series-in-python` |
-| File Built-in Methods in Python: Complete Guide for Beginners | `/blog/file-built-in-methods-python-guide` |
-| File Organization in Python: A Beginner's Guide to Managing Your Code Like a Pro | `/blog/file-organization-in-python` |
-| File Types in Python: A Complete Beginner's Guide to Working with Different Files | `/blog/file-types-in-python-complete-guide` |
-| How to Find HCF and LCM in Python (5 Easy Methods) | `/blog/how-to-find-hcf-and-lcm-in-python` |
-| How to Read and Write Files in Python (The Complete Guide) | `/blog/how-to-read-and-write-files-in-python` |
-| How to Reverse a String in Python: 5 Easy Methods | `/blog/how-to-reverse-a-string-in-python` |
-| Leap Year Program in Python: Logic, Code and Output | `/blog/how-to-write-a-leap-year-program-in-python` |
-| Learn Python for Beginners: Complete Step-by-Step Guide (2026) | `/blog/python-for-beginners` |
-| Learn Python Step by Step: The Free Tutorial Library | `/blog/learn-python-step-by-step` |
-| Learn Web Development with JavaScript - Basics, Projects & Hands-On Guide | `/blog/javascript-basics` |
-| Menu Driven Program in Python (With a Daily Menu Script) | `/blog/how-to-build-menu-driven-program-in-python` |
-| Python Dictionary: The Complete Guide With 20 Examples | `/blog/python-dictionary-complete-guide` |
-| Python Lambda Functions: When to Use Them, 10 Examples | `/blog/python-lambda-functions` |
-| Python List Comprehension: 15 Examples, Simple to Advanced | `/blog/python-list-comprehension-explained` |
-| Python OOP Tutorial: Classes, Objects, and Inheritance | `/blog/python-oop-tutorial-for-beginners` |
-| Python vs JavaScript: Which Should You Learn First? | `/blog/python-vs-javascript-which-to-learn-first` |
-| Star Pattern Programs in Python: 30 Patterns With Code | `/blog/star-pattern-programs-in-python` |
-| The IOI Syllabus Excludes More Than You Expect | `/blog/ioi-syllabus-what-to-learn-and-what-to-skip` |
-| Top 10 Java Programs Every College Student Must Know (With Solutions) | `/blog/top-10-java-programs-every-college-student-must-know` |
-| Top 10 Java Programs Every School Student Should Know (With Solutions) | `/blog/top-10-java-programs-for-school-students` |
-| USACO Bronze to Silver: What Actually Blocks You | `/blog/usaco-bronze-to-silver-what-blocks-most-students` |
-| What is Floor Division in Python? Complete Guide with Examples | `/blog/what-is-floor-division-in-python` |
+| 10 Mental Maths Tricks for Kids, With Worked Examples | `/blog/mental-maths-tricks-for-kids` |
+| Abacus vs Vedic vs Mental Maths: A Clear Comparison | `/blog/abacus-vs-vedic-vs-mental-maths` |
+| Area and Perimeter: The Difference, Explained Simply | `/blog/area-and-perimeter-difference` |
+| Best Online CBSE Maths Tuition for Class 6-12 in India (2026 Guide) | `/blog/cbse-maths-tuition-online` |
+| BODMAS Rule Explained: The Left to Right Step | `/blog/bodmas-rule-explained` |
+| Does Online Maths Tuition Really Work? An Honest 2026 Answer | `/blog/does-online-maths-tuition-work` |
+| Estimation in Maths: Rounding, Fermi Problems and Checks | `/blog/estimation-in-maths` |
+| How Does GPS Work? Trilateration, Clocks and Relativity | `/blog/how-does-gps-work` |
+| How to Calculate Percentages: Every Method Explained | `/blog/how-to-calculate-percentages` |
+| How to Explain Division to a Child: Share or Group | `/blog/how-to-explain-division-to-a-child` |
+| How to Get Better at Maths: 8 Methods That Actually Work | `/blog/how-to-get-better-at-maths` |
+| How to Help a Child Understand Fractions | `/blog/how-to-help-a-child-understand-fractions` |
+| How to Help a Child with Maths Anxiety: A 2026 Parent Guide | `/blog/help-child-with-maths-anxiety` |
+| How to Help With Maths Homework (Without Solving It) | `/blog/help-child-with-maths-homework` |
+| How to Learn Times Tables Fast: The 21-Fact Method | `/blog/how-to-learn-times-tables-fast` |
+| How to Make Maths Fun for Kids: 9 Ideas That Really Work | `/blog/how-to-make-maths-fun-for-kids` |
+| How to Solve Maths Word Problems (Without Keywords) | `/blog/how-to-solve-maths-word-problems` |
+| How to Solve Quadratic Equations: 3 Methods with Examples | `/blog/how-to-solve-quadratic-equations` |
+| How to Solve Simultaneous Equations: 3 Methods and Examples | `/blog/how-to-solve-simultaneous-equations` |
+| How to Write a Maths Proof: A Beginner's Guide with Examples | `/blog/how-to-write-a-maths-proof` |
+| Is Vedic Maths Actually Useful? An Honest 2026 Guide | `/blog/is-vedic-maths-actually-useful` |
+| Long Division Step by Step: The Four-Move Method | `/blog/long-division-step-by-step` |
+| Mean, Median and Mode Explained, With Examples | `/blog/mean-median-mode-explained` |
+| Modular Arithmetic: Clock Maths for Olympiads and Code | `/blog/modular-arithmetic-explained` |
+| Negative Numbers Explained: Rules and Reasons | `/blog/negative-numbers-explained` |
+| Place Value Explained: Blocks, Zero and Lakhs | `/blog/place-value-explained` |
+| Prime Numbers Explained: Sieve, Factors and Proof | `/blog/prime-numbers-explained` |
+| Probability for Beginners: Rules, Examples and Simulations | `/blog/probability-for-beginners` |
+| Pythagoras Theorem Explained, With a Visual Proof | `/blog/pythagoras-theorem-explained` |
+| SOH CAH TOA: Trigonometry for Beginners with Examples | `/blog/sohcahtoa-trigonometry-for-beginners` |
+| The Pigeonhole Principle: 4 Olympiad Problems Solved | `/blog/pigeonhole-principle-explained` |
+| Why Is My Child Struggling with Maths? The Real Reasons | `/blog/why-is-my-child-struggling-with-maths` |
 
-### Career (11)
+### Artificial Intelligence (12)
+
+| Post | URL path |
+|---|---|
+| Agent Terminology in AI: A Simple Guide to Understanding AI Agents | `/blog/agentic-terminology-in-ai` |
+| Best AI Coding Tools for Students in 2026 | `/blog/best-ai-coding-tools-for-students-2026` |
+| Do AI Detectors Work? What Students and Parents Should Know | `/blog/do-ai-detectors-work` |
+| How Do Spam Filters Work? Build a Simple One in Python | `/blog/how-do-spam-filters-work` |
+| How to Teach Kids AI at Home: A Safe 2026 Parent Guide | `/blog/how-to-teach-kids-ai-at-home` |
+| How to Use ChatGPT to Study Without Cheating | `/blog/how-to-use-chatgpt-to-study-without-cheating` |
+| UAE Made AI Mandatory in Schools: What It Means | `/blog/uae-ai-curriculum-schools-what-it-means` |
+| Vibe Coding vs Learning to Code Properly | `/blog/vibe-coding-vs-learning-to-code-properly` |
+| What is AI? Complete Beginner's Guide: How to Start, Which Languages, and How Deep to Go | `/blog/what-is-ai-complete-beginners-guide-how-to-start` |
+| What is the Responsibility of Developers Using Generative AI? A Complete Guide | `/blog/what-is-the-responsibility-of-developers-using-generative-AI` |
+| What Type of Data is Generative AI Most Suitable For? A Complete Guide | `/blog/what-type-of-data-is-generative-ai-most-suitable-for` |
+| Why Do AI Models Make Mistakes? 5 Reasons, Tested | `/blog/why-do-machine-learning-models-make-mistakes` |
+
+### Career (12)
 
 | Post | URL path |
 |---|---|
 | Best Programming Languages for College Students to Learn in 2026 | `/blog/best-programming-languages-college-students-2026` |
 | Career Transition Guide: Moving from Non-Tech to Tech Roles | `/blog/career-transition-guide-moving-non-tech-to-tech-roles` |
+| Coding Interview Preparation for Freshers: A Plan | `/blog/coding-interview-preparation-for-freshers` |
 | Competitive Coding vs Development Skills: What Should Students Focus On? | `/blog/competitive-coding-vs-development-skills-what-students-focus` |
 | Data Science, AI, and Math: Skills Every Tech Professional Must Learn | `/blog/data-science-ai-math-skills-professionals` |
 | Full Stack vs. AI Engineer: Which Career Path Pays More in India? | `/blog/full-stack-vs-ai-engineer-salary-india` |
@@ -2790,34 +3742,6 @@ All posts live at `https://learn.modernagecoders.com/blog/<slug>`. Use these whe
 | PCEP vs PCAP: Which Python Certification Is Worth It? | `/blog/pcep-vs-pcap-which-python-certification` |
 | Top Emerging Tech Skills to Learn in 2025 (AI, Low-Code, Cloud) | `/blog/top-emerging-tech-skills-learn-2025-ai-low-code-cloud` |
 | Why Python is the Most Powerful Skill for Professionals Today | `/blog/why-python-most-powerful-skill-professionals-today` |
-
-### Mathematics (10)
-
-| Post | URL path |
-|---|---|
-| 10 Mental Maths Tricks for Kids, With Worked Examples | `/blog/mental-maths-tricks-for-kids` |
-| Abacus vs Vedic vs Mental Maths: A Clear Comparison | `/blog/abacus-vs-vedic-vs-mental-maths` |
-| Best Online CBSE Maths Tuition for Class 6-12 in India (2026 Guide) | `/blog/cbse-maths-tuition-online` |
-| Does Online Maths Tuition Really Work? An Honest 2026 Answer | `/blog/does-online-maths-tuition-work` |
-| How to Get Better at Maths: 8 Methods That Actually Work | `/blog/how-to-get-better-at-maths` |
-| How to Help a Child with Maths Anxiety: A 2026 Parent Guide | `/blog/help-child-with-maths-anxiety` |
-| How to Help With Maths Homework (Without Solving It) | `/blog/help-child-with-maths-homework` |
-| How to Make Maths Fun for Kids: 9 Ideas That Really Work | `/blog/how-to-make-maths-fun-for-kids` |
-| Is Vedic Maths Actually Useful? An Honest 2026 Guide | `/blog/is-vedic-maths-actually-useful` |
-| Why Is My Child Struggling with Maths? The Real Reasons | `/blog/why-is-my-child-struggling-with-maths` |
-
-### Artificial Intelligence (8)
-
-| Post | URL path |
-|---|---|
-| Agent Terminology in AI: A Simple Guide to Understanding AI Agents | `/blog/agentic-terminology-in-ai` |
-| Best AI Coding Tools for Students in 2026 | `/blog/best-ai-coding-tools-for-students-2026` |
-| How to Teach Kids AI at Home: A Safe 2026 Parent Guide | `/blog/how-to-teach-kids-ai-at-home` |
-| UAE Made AI Mandatory in Schools: What It Means | `/blog/uae-ai-curriculum-schools-what-it-means` |
-| Vibe Coding vs Learning to Code Properly | `/blog/vibe-coding-vs-learning-to-code-properly` |
-| What is AI? Complete Beginner's Guide: How to Start, Which Languages, and How Deep to Go | `/blog/what-is-ai-complete-beginners-guide-how-to-start` |
-| What is the Responsibility of Developers Using Generative AI? A Complete Guide | `/blog/what-is-the-responsibility-of-developers-using-generative-AI` |
-| What Type of Data is Generative AI Most Suitable For? A Complete Guide | `/blog/what-type-of-data-is-generative-ai-most-suitable-for` |
 
 ### Business (7)
 
@@ -2842,7 +3766,7 @@ All posts live at `https://learn.modernagecoders.com/blog/<slug>`. Use these whe
 | String Handling in Java: The ICSE and CBSE Guide | `/blog/string-handling-in-java` |
 | Top 20 Java Programs for ICSE Class 10 (With Code) | `/blog/top-20-java-programs-for-icse-class-10` |
 
-### Kids Coding (5)
+### Kids Coding (6)
 
 | Post | URL path |
 |---|---|
@@ -2851,6 +3775,7 @@ All posts live at `https://learn.modernagecoders.com/blog/<slug>`. Use these whe
 | Group vs 1-on-1 Coding Classes: Which Is Better? | `/blog/group-vs-1-on-1-coding-classes` |
 | How to Choose a Coding Class for Your Child | `/blog/how-to-choose-a-coding-class-for-your-child` |
 | Is Coding Good for Kids? What It Really Teaches | `/blog/is-coding-good-for-kids` |
+| Touch Typing for Kids: When to Start and How to Practise | `/blog/touch-typing-for-kids` |
 
 ### About Us (2)
 
@@ -2932,9 +3857,9 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
     "one_to_one": 1,
     "custom_group": "3-10"
   },
-  "courses_live": 122,
-  "blog_posts": 126,
-  "live_urls": 1458,
+  "courses_live": 127,
+  "blog_posts": 176,
+  "live_urls": 2328,
   "pricing": {
     "coding": {
       "india": {
@@ -3104,6 +4029,77 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Weeks 31-32: Final Papers and a Calm Finish
 
 **Projects students build:** Speed grid week: a daily 5-minute arithmetic grid, times recorded so the child can watch their own speed climb; Personal tables map: each child's slowest facts identified and drilled until they match their fastest; Number detective set: 12 who-am-I number puzzles solved using properties, the kind the 11 plus loves; First mini-paper: a 15-question arithmetic paper under generous timing, reviewed question by question in class; Fraction wall build: each child makes their own fraction wall and uses it to settle five comparison arguments; Conversion pack: a self-made table of the equivalences worth knowing cold, from a half down to a twentieth; Recipe rescale: one real family recipe scaled for 2, 6 and 9 people, with the working presented neatly; Supermarket challenge: real price comparisons worked as best-value problems and written up as answers with reasons; Puzzle exchange: each child writes three think-of-a-number puzzles and solves three written by classmates; Shape fact file: a one-page reference of shape and angle facts in the child's own words and drawings; Room plan: the child's own room measured, drawn to scale and its floor area calculated; Family survey: a small data set collected at home, charted by hand, and turned into three test-style questions; Problem autopsy set: 10 hard word problems dissected in writing, what was given, what was asked, what was the trap; Technique card: each child writes their own one-page test plan, timings, skip rules and reset routine included; Error log finalised: each child's recurring mistakes named, with the fix written next to each - plus 1 more on the course page.
+
+### A Level Further Maths: Core Pure and Applied Options
+
+`/courses/a-level-further-maths-course` · 18 months (72 weeks), taught alongside A Level Maths · Year 12 and 13 students (or equivalent) taking Further Maths with AQA, Edexcel or OCR
+
+  - PHASE 1: Core Pure, First Year (Months 1-5, Weeks 1-20)
+    The compulsory core every board examines, taught to AS depth. Each topic is introduced after the A level Maths skill it needs, and proof is practised from the first fortnight.
+    - Month 1: Proof and Series
+      - Weeks 1-2: Diagnostic and Proof by Induction
+      - Weeks 3-4: Standard Series and the Method of Differences
+    - Month 2: Complex Numbers
+      - Weeks 5-6: Complex Arithmetic and the Argand Diagram
+      - Weeks 7-8: Loci and Regions
+    - Month 3: Matrices
+      - Weeks 9-10: Matrix Algebra and Transformations
+      - Weeks 11-12: Determinants, Inverses and Linear Systems
+    - Month 4: Roots of Polynomials and Rational Functions
+      - Weeks 13-14: Roots of Polynomials
+      - Weeks 15-16: Curve Sketching and Inequalities
+    - Month 5: Vectors and First Further Calculus
+      - Weeks 17-18: Lines and Planes in Three Dimensions
+      - Weeks 19-20: Volumes of Revolution and Mean Values
+  - PHASE 2: Applied Option One (Months 6-9, Weeks 21-36)
+    The first of the options your board and centre have chosen. The topics below show the mechanics route; statistics, decision or discrete students follow the same timetable with their own option content.
+    - Month 6: Momentum and Impulse
+      - Weeks 21-22: Momentum, Impulse and Collisions
+      - Weeks 23-24: Successive Collisions and Impulse in Two Dimensions
+    - Month 7: Work, Energy and Power
+      - Weeks 25-26: Work, Energy and Power
+      - Weeks 27-28: Elastic Strings and Springs
+    - Month 8: Circular Motion and Dimensional Analysis
+      - Weeks 29-30: Horizontal and Vertical Circular Motion
+      - Weeks 31-32: Dimensional Analysis and Modelling
+    - Month 9: AS Checkpoint
+      - Weeks 33-34: Consolidation of Core and Option
+      - Weeks 35-36: AS-Standard Mock
+  - PHASE 3: Core Pure, Second Year (Months 10-14, Weeks 37-56)
+    The A level half of the core, where the subject becomes recognisably university mathematics: de Moivre, further calculus, polar curves, hyperbolic functions and differential equations.
+    - Month 10: Further Complex Numbers
+      - Weeks 37-38: Exponential Form and de Moivre's Theorem
+      - Weeks 39-40: Roots of Unity and Complex Roots
+    - Month 11: Further Calculus and Series
+      - Weeks 41-42: Improper Integrals and Inverse Trigonometric Functions
+      - Weeks 43-44: Maclaurin Series
+    - Month 12: Polar Coordinates and Hyperbolic Functions
+      - Weeks 45-46: Polar Coordinates
+      - Weeks 47-48: Hyperbolic Functions
+    - Month 13: Differential Equations
+      - Weeks 49-50: First and Second Order Differential Equations
+      - Weeks 51-52: Modelling with Differential Equations
+    - Month 14: Core Pure Consolidation
+      - Weeks 53-54: Mixed Core Pure Problems
+      - Weeks 55-56: Core Pure Mock
+  - PHASE 4: Applied Option Two and Option Depth (Months 15-16, Weeks 57-64)
+    The second option, taught at the depth your board sets, and the first option extended to full A level standard. Students on a further pure route take their extra pure option here.
+    - Month 15: Second Option
+      - Weeks 57-58: Second Option Foundations
+      - Weeks 59-60: Second Option Applications
+    - Month 16: Both Options at Full Depth
+      - Weeks 61-62: First Option to A Level Depth
+      - Weeks 63-64: Options Mock
+  - PHASE 5: Revision and the Past-Paper Cycle (Months 17-18, Weeks 65-72)
+    No new content. Structured revision by strand, then full past papers under real timing for your board, marked against official schemes.
+    - Month 17: Structured Revision
+      - Weeks 65-66: Core Pure Revision by Strand
+      - Weeks 67-68: Option Revision by Strand
+    - Month 18: Past Papers Under Timing
+      - Weeks 69-70: Full Past Papers, Core
+      - Weeks 71-72: Full Past Papers, Options and Final Review
+
+**Projects students build:** Proof portfolio opened: six induction proofs written to exam standard and checked line by line; Question bank entry: 15 solved series questions, each checked by a second method; Complex number reference sheet built by the student, with one worked example per rule; Locus atlas: eight annotated sketches of standard loci and combined regions; Transformation catalogue: each standard 2 by 2 matrix with its effect drawn on the unit square; Three-planes casebook: every arrangement of three planes, with a system that produces it; Question bank entry: 12 roots questions solved two ways, by sums of roots and by substitution; Graph file: ten sketches with asymptotes, intercepts and turning points labelled; 3D geometry sheet: every distance and angle method on one page with a worked example; Modelling task: the volume of a real container estimated by a volume of revolution and compared with its label; Collision file: worked solutions for every collision type, with a diagram for each; Question bank entry: 10 multi-stage collision problems with the decision points marked; Energy method sheet: when to use energy and when to use Newton's second law; Modelling task: a bungee jump modelled with energy methods and its assumptions criticised; Circular motion casebook: six standard set-ups with force diagrams - plus 21 more on the course page.
 
 ### A-Level Maths: Pure, Mechanics, Statistics (Edexcel/AQA)
 
@@ -5753,6 +6749,39 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Personal profile page; Favorite band/artist fan page; School project presentation website; Multi-page school website; Survey form for friends; Restaurant menu with ordering form; Style your HTML projects beautifully; Create a magazine-style layout; Design product cards like Amazon; Responsive portfolio website; Animated landing page; Instagram-style photo grid; Interactive calculator; Mad libs game generator; Grade calculator for school - plus 92 more on the course page.
 
+### Functional Skills Maths Level 1 and Level 2 Course Online
+
+`/courses/functional-skills-maths-course` · 6 months (24 weeks) for a full level; shorter for learners who start part-way · Adults, apprentices and post-16 learners working towards Functional Skills maths at Level 1 or Level 2
+
+  - PHASE 1: Using Numbers (Months 1-2, Weeks 1-8)
+    The number skills every other part of the course depends on. Level 1 learners build the foundations; Level 2 learners extend them to percentage change, ratio and inverse proportion.
+    - Month 1: Whole Numbers, Fractions and Decimals
+      - Weeks 1-2: Starting Check and Whole Numbers
+      - Weeks 3-4: Fractions and Decimals
+    - Month 2: Percentages, Ratio and Proportion
+      - Weeks 5-6: Percentages
+      - Weeks 7-8: Ratio, Proportion and Formulae
+  - PHASE 2: Measures, Shape and Space (Months 3-4, Weeks 9-16)
+    Maths for money, measuring and making things fit. Contexts include budgets, travel, decorating, delivery and the workplace.
+    - Month 3: Money, Time and Units
+      - Weeks 9-10: Money and Budgeting
+      - Weeks 11-12: Time, Units and Compound Measures
+    - Month 4: Shape and Space
+      - Weeks 13-14: Perimeter, Area and Volume
+      - Weeks 15-16: Scale, Plans and Position
+  - PHASE 3: Handling Information and Data (Month 5, Weeks 17-20)
+    Reading, presenting and questioning data, the skill employers notice most when it is missing.
+    - Month 5: Data, Averages and Probability
+      - Weeks 17-18: Tables, Charts and Graphs
+      - Weeks 19-20: Averages, Range and Probability
+  - PHASE 4: Exam Practice (Month 6, Weeks 21-24)
+    Full practice assessments in the style of your exam centre's awarding organisation, with the non-calculator and calculator sections taken under real timing.
+    - Month 6: Practice Assessments
+      - Weeks 21-22: Underpinning Skills and Problem Solving
+      - Weeks 23-24: Final Practice and Exam Readiness
+
+**Projects students build:** Personal method sheet: one worked example of each written method; Real-life problem set: a recipe scaled and a bill split, solved with fractions; Shopping comparison: three offers compared with percentages and a written recommendation; Workplace task: a staffing or mixing problem solved and explained in a short note; Monthly budget: a realistic household or event budget built and checked; Journey plan: a trip timed and costed from a real timetable; Room project: flooring and paint worked out for a real room plan, with costs; Scale plan: a simple floor plan drawn to scale from real measurements; Data report: a small real data set presented two ways with a written comparison; Comparison task: two shops, teams or months compared with averages and range; Error log started from the first practice assessment; Completed error log and method sheet, kept for revision.
+
 ### Game Development Course: Unity, C# & Unreal Engine
 
 `/courses/game-development-complete-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
@@ -5936,6 +6965,39 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Targeted Repair
       - Second Full Set
       - Exam Week Readiness
+
+### GCSE Maths Resit Course Online: Post-16 and Adults
+
+`/courses/gcse-maths-resit-course` · 6 months (24 weeks) for a summer entry; a shorter plan for the November series · Learners aged 16 and over, and adults, resitting GCSE Maths with AQA, Edexcel or OCR
+
+  - PHASE 1: Diagnostic and Number (Months 1-2, Weeks 1-8)
+    Find the lost marks first, then repair number, the strand that runs through every paper and dominates the non-calculator paper.
+    - Month 1: Diagnostic and the Lost-Marks Map
+      - Weeks 1-2: The Diagnostic Paper
+      - Weeks 3-4: Number Without a Calculator
+    - Month 2: Fractions, Decimals and Percentages
+      - Weeks 5-6: Fractions and Decimals
+      - Weeks 7-8: Percentages and Money
+  - PHASE 2: Algebra and Ratio (Months 3-4, Weeks 9-16)
+    The strands where resit learners most often lose marks they could win: forming and solving equations, reading graphs, and ratio in context.
+    - Month 3: Expressions, Equations and Graphs
+      - Weeks 9-10: Expressions and Equations
+      - Weeks 11-12: Sequences and Graphs
+    - Month 4: Ratio, Proportion and Rates
+      - Weeks 13-14: Ratio and Proportion
+      - Weeks 15-16: Rates and Compound Measures
+  - PHASE 3: Geometry, Probability and Statistics (Month 5, Weeks 17-20)
+    Shape, space and data, taught to the depth your tier needs and practised in exam-style questions.
+    - Month 5: Geometry, Probability and Statistics
+      - Weeks 17-18: Geometry and Measures
+      - Weeks 19-20: Probability and Statistics
+  - PHASE 4: Full Papers (Month 6, Weeks 21-24)
+    No new content. Full sets of three papers at your tier under real timing, marked against published mark schemes, with repair lessons between papers.
+    - Month 6: Paper Sets and Repair
+      - Weeks 21-22: Full Sets Under Timing
+      - Weeks 23-24: Final Set and Exam Readiness
+
+**Projects students build:** Lost-marks map: every topic coloured by how many marks it cost; Non-calculator method sheet: one worked example of every written method; Repair log: each fraction slip from the diagnostic re-done correctly; Money problem set: interest, discounts and comparisons solved two ways; Equation bank: one solved example of each equation type, with a check by substitution; Graph file: six graph types drawn and annotated; Ratio problem set: five real contexts solved with a bar model and then algebra; Repair log updated: ratio and rate errors from the diagnostic re-done; Geometry sheet: every formula and angle fact with a worked example; Data question bank: one solved example of every chart and average type; Paper tracker: every paper's score on one chart; Completed paper tracker and lost-marks map, kept for revision.
 
 ### GCSE Maths: Foundation & Higher (9-1), AQA, Edexcel, OCR
 
@@ -6953,6 +8015,45 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Hello World variations with string templates; Simple output programs using println; Personal information display with string interpolation; ASCII art generator in Kotlin; Interactive REPL experiments; Null-safe calculator with Kotlin operators; Temperature converter with smart casts; Age calculator with null safety; BMI calculator with safe operations; Currency converter with type-safe design; Area calculator using when expressions; Compound interest calculator with ranges; String manipulation utility; Number guessing game with when expression; Grade calculator using when - plus 249 more on the course page.
 
+### KS2 SATs Maths: Arithmetic, Reasoning and Times Tables
+
+`/courses/ks2-sats-maths-course` · 8 months (32 weeks), timed to finish before the May tests · Children in Years 4, 5 and 6 at primary schools in England, ages 8 to 11
+
+  - PHASE 1: Times Tables to Instant Recall (Months 1-2, Weeks 1-8)
+    Every table up to 12 by 12 and its division facts, learned through patterns first and speed second. Year 4 children practise in the format of the multiplication tables check; older children use it as a warm-up for the papers.
+    - Month 1: Tables by Pattern
+      - Weeks 1-2: Diagnostic and the Easy Tables
+      - Weeks 3-4: The Harder Tables
+    - Month 2: Speed and Division Facts
+      - Weeks 5-6: Division Facts and Missing Numbers
+      - Weeks 7-8: Six-Second Recall
+  - PHASE 2: The Arithmetic Paper (Months 3-4, Weeks 9-16)
+    Paper 1 is 40 marks in 30 minutes, all calculation. Each written method is taught, practised and checked until it is automatic, then mixed under time.
+    - Month 3: Whole Numbers and Written Methods
+      - Weeks 9-10: Place Value and Addition and Subtraction
+      - Weeks 11-12: Multiplication and Division
+    - Month 4: Fractions, Decimals and Percentages
+      - Weeks 13-14: Fraction Calculations
+      - Weeks 15-16: Decimals, Percentages and the Full Paper
+  - PHASE 3: The Reasoning Papers (Months 5-6, Weeks 17-24)
+    Papers 2 and 3 are 35 marks and 40 minutes each, and they test whether a child can use maths in context and explain it. Each question type is taught on its own, then mixed.
+    - Month 5: Number Reasoning and Measures
+      - Weeks 17-18: Multi-Step Word Problems
+      - Weeks 19-20: Measures, Money and Time
+    - Month 6: Geometry, Statistics and Explaining
+      - Weeks 21-22: Geometry and Statistics
+      - Weeks 23-24: Explain, Show and Check
+  - PHASE 4: Full Papers Under Timing (Months 7-8, Weeks 25-32)
+    No new content. Full sets of three papers under real timing, marked against the published mark schemes, with a short review after each one and a calm plan for test week.
+    - Month 7: Paper Sets
+      - Weeks 25-26: First Full Sets
+      - Weeks 27-28: Targeted Repair
+    - Month 8: Ready for Test Week
+      - Weeks 29-30: Final Sets
+      - Weeks 31-32: Calm Before the Tests
+
+**Projects students build:** Fact chart started: every fact up to 12 by 12 coloured by speed after the diagnostic; Fact chart updated: amber and red facts listed with a hook for each; Fact family cards made for the ten facts the child finds slowest; Fact chart completed: the aim is every fact green; Method book started: one worked example per method, written by the child; Method book entry: long multiplication and long division set out step by step; Method book entry: every fraction method with a worked example; Arithmetic tracker: score and time recorded for every practice paper; Problem journal started: one solved problem per question type with a bar model; Problem journal entry: a measures question for each unit type; Problem journal entry: geometry and statistics questions with labelled diagrams; Explanation bank: model answers to ten explain questions, written in the child's own words; Paper tracker: scores for each paper on one chart; Repair list: each weak area with the date it was fixed; Paper tracker completed - plus 1 more on the course page.
+
 ### Maths for Data Science: Statistics, Linear Algebra and ML
 
 `/courses/data-analytics-mathematics-masterclass` · 12-14 months (48-56 weeks) · School-level maths assumed; built for college students and working professionals
@@ -7432,6 +8533,57 @@ Share this freely and in detail when a parent or student asks what a course cove
     - Demo Day and Final Exam
 
 **Projects students build:** Install and configure MySQL environment; Create 'MyLife' database for personal data; Design a simple contact list database; School database with students and classes; Gaming stats tracker database; Music library database structure; Populate school database with student data; Create and query a movie ratings database; Build a sports team roster system; Grade management system with updates; Inventory system with stock updates; Social media profile manager; Username generator with string functions; Grade calculator with numeric functions; Data cleaning toolkit - plus 41 more on the course page.
+
+### National 5 and Higher Maths Course Online (Scotland)
+
+`/courses/national-5-and-higher-maths-course` · About 6 months per level: National 5, then Higher (12 months for both) · S3 to S6 learners and adults in Scotland taking National 5 or Higher Mathematics
+
+  - PHASE 1: National 5 Skills (Months 1-5, Weeks 1-20)
+    The skills sampled in National 5 Mathematics, taught strand by strand with reasoning questions in every month.
+    - Month 1: Numerical Skills
+      - Weeks 1-2: Diagnostic, Surds and Indices
+      - Weeks 3-4: Percentages, Fractions and Appreciation
+    - Month 2: Algebraic Skills, Part One
+      - Weeks 5-6: Expressions and Factorising
+      - Weeks 7-8: Straight Lines and Equations
+    - Month 3: Algebraic Skills, Part Two
+      - Weeks 9-10: Quadratics
+      - Weeks 11-12: Functions and Mixed Algebra
+    - Month 4: Geometric Skills
+      - Weeks 13-14: Shape, Area and Volume
+      - Weeks 15-16: Vectors and Coordinates
+    - Month 5: Trigonometric and Statistical Skills
+      - Weeks 17-18: Trigonometry
+      - Weeks 19-20: Statistics
+  - PHASE 2: National 5 Papers (Month 6, Weeks 21-24)
+    Full National 5 papers under real timing: Paper 1 without a calculator, 40 marks in 1 hour, and Paper 2, 50 marks in 1 hour 30 minutes.
+    - Month 6: Full National 5 Papers
+      - Weeks 21-22: Prelim-Style Papers
+      - Weeks 23-24: Final Papers and Next Steps
+  - PHASE 3: Higher Skills (Months 7-11, Weeks 25-44)
+    The skills sampled in Higher Mathematics: algebraic and trigonometric, geometric and calculus skills, with reasoning throughout. Learners joining at Higher start here after a diagnostic.
+    - Month 7: Algebra and Functions
+      - Weeks 25-26: Polynomials and Quadratic Theory
+      - Weeks 27-28: Functions and Graphs
+    - Month 8: Trigonometry at Higher
+      - Weeks 29-30: Radians, Formulae and Identities
+      - Weeks 31-32: The Wave Function
+    - Month 9: Straight Line, Circle, Vectors and Recurrence
+      - Weeks 33-34: The Straight Line and the Circle
+      - Weeks 35-36: Vectors and Recurrence Relations
+    - Month 10: Differentiation
+      - Weeks 37-38: Differentiating Functions
+      - Weeks 39-40: Applying Differentiation
+    - Month 11: Integration
+      - Weeks 41-42: Integrating Functions
+      - Weeks 43-44: Areas and Mixed Calculus
+  - PHASE 4: Higher Papers (Month 12, Weeks 45-48)
+    Full Higher papers under real timing: Paper 1 without a calculator, 55 marks in 1 hour 15 minutes, and Paper 2, 65 marks in 1 hour 30 minutes.
+    - Month 12: Full Higher Papers
+      - Weeks 45-46: Prelim-Style Papers
+      - Weeks 47-48: Final Papers and Next Steps
+
+**Projects students build:** Skills checklist started: every National 5 skill coloured by confidence; Money file: interest and depreciation problems solved and explained; Algebra method sheet: one worked example of every technique; Equation bank: simultaneous equation problems built from real contexts; Parabola file: six quadratics sketched with roots and turning points; Skills checklist updated after the first three months; Geometry sheet: every formula and property with a worked example; Vector diagram set: five shapes with pathways labelled; Triangle casebook: when to use each rule, with a solved example; Skills checklist completed for National 5; Paper tracker started for National 5; Completed National 5 paper tracker and error log; Higher skills checklist started; Graph file: transformations and log graphs annotated; Trigonometry sheet: exact values, formulae and identities - plus 9 more on the course page.
 
 ### Olympiad Mathematics: IOQM, INMO and AMC Preparation
 
