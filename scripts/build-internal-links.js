@@ -419,7 +419,7 @@ ${ctas([{ slug: 'coding-classes-in-india', label: 'Coding Classes in India' }])}
     ];
     const inner = `      <nav aria-label="Breadcrumb" style="${S.crumb}">${crumb(breadcrumb)}</nav>
       <h2 style="${S.h2}">Browse coding classes by state &amp; city</h2>
-      <p style="${S.lead}">Live online coding and maths classes for kids, teens and adults across India, small 4&ndash;8 student batches, expert mentors, real projects. Choose your state, city or neighbourhood below.</p>
+      <p style="${S.lead}">Live online coding and maths classes for kids, teens and adults across India, groups of 15 to 20, mini batches of up to 6 or 1-on-1, expert mentors, real projects. Choose your state, city or neighbourhood below.</p>
 ${group('Coding classes by state', stateItems)}
 ${cityGroupsHtml.filter(Boolean).join('\n')}
 ${areaGroupsHtml.filter(Boolean).join('\n')}
