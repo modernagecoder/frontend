@@ -382,7 +382,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 354 | coding-for-university-students-australia (unau, #444785) | ag- age and career door | 3,092 | 1% vs ai-agents-course-for-students-australia | does renaming variables make copied code different? | winnowing code similarity on normalised tokens | 67e0845a |
 | 355 | ai-agents-course-for-students-australia (agst, #106228) | ag- age and career door | 3,224 | 1% vs coding-for-university-students-australia | a study-planner agent saved from itself by schema validation | tool-call argument validation against a schema | 8e1f3cc6 |
 | 356 | ai-agents-course-for-professionals-australia (agpr, #561F0E) | ag- age and career door | 3,091 | 0.5% vs coding-classes-for-adults-australia | how much personal information survives redaction before text reaches an AI service | pre-send redaction of personal information | 64bc98b7 |
-| 357 | build-real-ai-projects-australia (rapa, #4A6D11) | ag- language and track door | 3,235 | 0.9% vs ai-and-python-academy-for-girls-australia | how far ahead a model can forecast ABS building approvals before simple baselines catch up | forecast error growing with horizon against baselines | (this commit) |
+| 357 | build-real-ai-projects-australia (rapa, #4A6D11) | ag- language and track door | 3,235 | 0.9% vs ai-and-python-academy-for-girls-australia | how far ahead a model can forecast ABS building approvals before simple baselines catch up | forecast error growing with horizon against baselines | dec1b4cb |
+| 358 | python-classes-online-australia (pyon, #863737) | ag- language and track door | 3,131 | 1.4% vs game-development-for-kids-australia | zero is not missing: one line that inflated an ABS average by 55% | truthiness bug dropping legitimate zeros | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
