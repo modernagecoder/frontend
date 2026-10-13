@@ -66,6 +66,18 @@
 .bx-root.bx-moc { --bx-accent: #6B2F5E; --bx-accent-soft: rgba(107,47,94,.09); }
 .bx-root.bx-cim { --bx-accent: #3F5A2A; --bx-accent-soft: rgba(63,90,42,.09); }
 .bx-root.bx-ibe { --bx-accent: #8A3A20; --bx-accent-soft: rgba(138,58,32,.09); }
+/* Board-prep wave two (2026-10): exam dates, sample papers and mocks, important
+   questions, Part A / ICSE project, and the overseas page for each board */
+.bx-root.bx-cxd { --bx-accent: #2B4A80; --bx-accent-soft: rgba(43,74,128,.09); }
+.bx-root.bx-csq { --bx-accent: #1D5A6E; --bx-accent-soft: rgba(29,90,110,.09); }
+.bx-root.bx-ciq { --bx-accent: #334E7A; --bx-accent-soft: rgba(51,78,122,.09); }
+.bx-root.bx-cpa { --bx-accent: #2F5A47; --bx-accent-soft: rgba(47,90,71,.09); }
+.bx-root.bx-cgl { --bx-accent: #1F4F66; --bx-accent-soft: rgba(31,79,102,.09); }
+.bx-root.bx-ixd { --bx-accent: #7E2E3E; --bx-accent-soft: rgba(126,46,62,.09); }
+.bx-root.bx-isq { --bx-accent: #8A3326; --bx-accent-soft: rgba(138,51,38,.09); }
+.bx-root.bx-iiq { --bx-accent: #73304A; --bx-accent-soft: rgba(115,48,74,.09); }
+.bx-root.bx-ipj { --bx-accent: #6A3A2A; --bx-accent-soft: rgba(106,58,42,.09); }
+.bx-root.bx-igl { --bx-accent: #5E2F4E; --bx-accent-soft: rgba(94,47,78,.09); }
 
 /* ---------------------------------------------------------------- base */
 *, *::before, *::after { box-sizing: border-box; }
@@ -320,6 +332,56 @@
 .bx-footer p { color: var(--bx-paper); }
 .bx-footer-bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-top: 36px; padding-top: 18px; border-top: 1px solid rgba(251, 248, 242, .18); font-family: var(--bx-mono); font-size: 0.75rem; opacity: .8; }
 
+/* ------------------------------------------------- priority demo (2026-10) */
+/* The paid, sooner option is filled in ink so it reads apart from the accent
+   free-demo button. .bx-root a.x matches the (0,1,1) reset above. */
+.bx-root a.bx-btn--pd { background: var(--bx-ink); border-color: var(--bx-ink); color: #fff; }
+.bx-root a.bx-btn--pd:hover { background: var(--bx-accent); border-color: var(--bx-accent); }
+.bx-pd-card { margin-top: 18px; padding: 18px 20px; border: 1px solid var(--bx-ink); border-radius: 4px; background: var(--bx-paper); }
+.bx-pd-card h3 { font-size: 1.05rem; margin: 0 0 6px; }
+.bx-pd-card p { font-size: .94rem; margin: 0 0 12px; }
+.bx-pd-card .bx-btn { width: 100%; }
+
+/* ------------------------------------------------- choose your format */
+.bx-choose { display: grid; gap: var(--bx-gap); grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.bx-choose-card { background: #fff; border: 1px solid var(--bx-rule); border-top: 4px solid var(--bx-accent); border-radius: 4px; padding: 24px; display: flex; flex-direction: column; }
+.bx-choose-card--alt { border-top-color: var(--bx-ink); }
+.bx-choose-tag { font-family: var(--bx-mono); font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; color: var(--bx-accent); margin: 0 0 8px; }
+.bx-choose-card h3 { font-size: 1.3rem; }
+.bx-choose-card ul { padding-left: 18px; margin: 0 0 18px; color: var(--bx-ink-2); font-size: .95rem; flex: 1; }
+.bx-choose-card li { margin-bottom: 6px; }
+
+/* ------------------------------------------------- time-zone table */
+.bx-zones td:first-child { font-weight: 600; color: var(--bx-ink); }
+.bx-fit { display: inline-block; font-family: var(--bx-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; padding: 3px 8px; border-radius: 3px; border: 1px solid var(--bx-accent); color: var(--bx-accent); white-space: nowrap; }
+.bx-fit--no { border-color: var(--bx-muted); color: var(--bx-muted); }
+
+/* ------------------------------------------------- dated callout */
+.bx-dated { background: #fff; border: 1px solid var(--bx-rule); border-left: 4px solid var(--bx-margin); border-radius: 4px; padding: 18px 22px; }
+.bx-dated p:last-child { margin-bottom: 0; }
+.bx-src { font-family: var(--bx-mono); font-size: .75rem; color: var(--bx-muted); }
+
+/* ------------------------------------------------- phone sticky bar */
+.bx-sticky { display: none; }
+@media (max-width: 767px) {
+  .bx-sticky {
+    display: flex; gap: 8px; position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+    background: var(--bx-paper); border-top: 1px solid var(--bx-rule);
+    box-shadow: 0 -2px 10px rgba(28,24,20,.08);
+    padding: 8px max(12px, env(safe-area-inset-left)) calc(8px + env(safe-area-inset-bottom));
+  }
+  .bx-root .bx-sticky a {
+    flex: 1 1 0; display: flex; align-items: center; justify-content: center; text-align: center;
+    min-height: 44px; padding: 8px 10px; border-radius: 3px; text-decoration: none;
+    font-family: var(--bx-sans); font-size: .88rem; font-weight: 600;
+    border: 1px solid var(--bx-accent); color: var(--bx-accent); background: transparent;
+  }
+  .bx-root .bx-sticky a:first-child { background: var(--bx-accent); color: #fff; }
+  .bx-root .bx-sticky a.bx-sticky-pd { background: var(--bx-ink); border-color: var(--bx-ink); color: #fff; }
+  .bx-root.bx-has-sticky { padding-bottom: 68px; }
+}
+@media print { .bx-sticky { display: none; } }
+
 /* ------------------------------------------------------------ responsive */
 @media (max-width: 1000px) {
   .bx-grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -327,7 +389,7 @@
 @media (max-width: 860px) {
   .bx-root { font-size: 16px; }
   .bx-hero::before { left: 14px; }
-  .bx-hero-grid, .bx-grid-2, .bx-grid-3, .bx-code-pair, .bx-picks, .bx-siblings { grid-template-columns: minmax(0, 1fr); }
+  .bx-hero-grid, .bx-grid-2, .bx-grid-3, .bx-code-pair, .bx-picks, .bx-siblings, .bx-choose { grid-template-columns: minmax(0, 1fr); }
   .bx-nav-links a:not(.bx-btn) { display: none; }
   .bx-nav-brand { font-size: 0.98rem; }
   .bx-nav-brand > span:first-of-type { white-space: nowrap; }

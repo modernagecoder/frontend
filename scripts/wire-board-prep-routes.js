@@ -38,6 +38,16 @@ const SLUGS = [
   'icse-class-10-java-programs-practice',
   'icse-class-10-bluej-java-coaching',
   'icse-class-10-computer-applications-board-exam-preparation',
+  'cbse-class-10-ai-exam-date-and-paper-pattern',
+  'cbse-class-10-ai-sample-paper-and-mock-tests',
+  'cbse-class-10-ai-important-questions',
+  'cbse-class-10-ai-employability-skills-part-a',
+  'cbse-class-10-ai-online-classes-gulf-and-abroad',
+  'icse-class-10-computer-applications-exam-date-and-paper-pattern',
+  'icse-class-10-computer-applications-specimen-paper-and-mock-tests',
+  'icse-class-10-computer-applications-important-questions',
+  'icse-class-10-computer-applications-project-and-internal-assessment',
+  'icse-class-10-computer-applications-classes-gulf-and-abroad',
   'sof-imo-preparation',
   'sof-icso-preparation',
   'cemc-waterloo-contests-preparation',
@@ -61,7 +71,17 @@ const LLMS_LABELS = {
   'icse-class-10-computer-applications-syllabus-explained': 'ICSE Class 10 Computer Applications syllabus explained',
   'icse-class-10-java-programs-practice': 'ICSE Class 10 Java programs practice for Section B',
   'icse-class-10-bluej-java-coaching': 'ICSE Class 10 BlueJ Java coaching',
-  'icse-class-10-computer-applications-board-exam-preparation': 'ICSE Class 10 Computer Applications board exam preparation'
+  'icse-class-10-computer-applications-board-exam-preparation': 'ICSE Class 10 Computer Applications board exam preparation',
+  'cbse-class-10-ai-exam-date-and-paper-pattern': 'CBSE Class 10 AI (417) exam date 2027, date sheet and paper pattern',
+  'cbse-class-10-ai-sample-paper-and-mock-tests': 'CBSE Class 10 AI sample paper 2026-27 solved live, timed mock tests',
+  'cbse-class-10-ai-important-questions': 'CBSE Class 10 AI important questions, unit by unit with model answers',
+  'cbse-class-10-ai-employability-skills-part-a': 'CBSE Class 10 AI Part A employability skills (10 marks) explained',
+  'cbse-class-10-ai-online-classes-gulf-and-abroad': 'CBSE Class 10 AI online classes for students in the Gulf and abroad',
+  'icse-class-10-computer-applications-exam-date-and-paper-pattern': 'ICSE Class 10 Computer Applications exam date 2027 and paper pattern',
+  'icse-class-10-computer-applications-specimen-paper-and-mock-tests': 'ICSE Class 10 Computer Applications specimen paper solved live, timed mock tests',
+  'icse-class-10-computer-applications-important-questions': 'ICSE Class 10 Computer Applications important questions and Java programs',
+  'icse-class-10-computer-applications-project-and-internal-assessment': 'ICSE Class 10 Computer Applications project and internal assessment',
+  'icse-class-10-computer-applications-classes-gulf-and-abroad': 'ICSE Class 10 Computer Applications (Java) classes for students abroad'
 };
 
 function read(f) { return fs.readFileSync(path.join(ROOT, f), 'utf8'); }
