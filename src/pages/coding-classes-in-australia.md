@@ -610,6 +610,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Casuarina](/ai-and-programming-classes-in-casuarina-darwin)
 - [Coding and AI classes in Nightcliff](/best-coding-and-ai-classes-in-nightcliff-darwin)
 - [Vibe coding and AI agent classes in Lake Macquarie](/vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle)
+- [Online coding and Python classes in Maitland](/online-coding-and-python-classes-in-maitland-newcastle)
 <!-- AU-LINKS -->
 
 
