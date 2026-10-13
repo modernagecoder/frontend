@@ -617,6 +617,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Learn to code over 50](/learn-to-code-over-50-australia)
 - [Coding for university students](/coding-for-university-students-australia)
 - [AI agents course for students](/ai-agents-course-for-students-australia)
+- [AI agents course for professionals](/ai-agents-course-for-professionals-australia)
 <!-- AU-LINKS -->
 
 

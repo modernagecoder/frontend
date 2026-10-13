@@ -380,7 +380,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 352 | coding-classes-for-adults-australia (cadu, #5B4D35) | ag- age and career door | 3,176 | 0.9% vs java-classes-online-australia | grouping 3,000 differently written phone numbers back into 1,000 people | phone number normalisation | ea47f1a5 |
 | 353 | learn-to-code-over-50-australia (ofau, #446139) | ag- age and career door | 3,202 | 0.7% vs coding-classes-for-teens-australia | scoring a five-letter word puzzle fairly when a guess repeats a letter | repeated-letter scoring in a word-guessing game | afc388fa |
 | 354 | coding-for-university-students-australia (unau, #444785) | ag- age and career door | 3,092 | 1% vs ai-agents-course-for-students-australia | does renaming variables make copied code different? | winnowing code similarity on normalised tokens | 67e0845a |
-| 355 | ai-agents-course-for-students-australia (agst, #106228) | ag- age and career door | 3,224 | 1% vs coding-for-university-students-australia | a study-planner agent saved from itself by schema validation | tool-call argument validation against a schema | (this commit) |
+| 355 | ai-agents-course-for-students-australia (agst, #106228) | ag- age and career door | 3,224 | 1% vs coding-for-university-students-australia | a study-planner agent saved from itself by schema validation | tool-call argument validation against a schema | 8e1f3cc6 |
+| 356 | ai-agents-course-for-professionals-australia (agpr, #561F0E) | ag- age and career door | 3,091 | 0.5% vs coding-classes-for-adults-australia | how much personal information survives redaction before text reaches an AI service | pre-send redaction of personal information | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
