@@ -371,7 +371,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 339 | best-coding-and-ai-classes-in-burleigh-heads-gold-coast (burl, #274B78) | cg- district page | 2,348 | 1.9% vs online-coding-and-python-classes-in-surfers-paradise-gold-coast | an R-tree finds everything near each Burleigh Heads stop with a fraction of the checks | R-tree spatial index | 6ab0e1cf |
 | 340 | vibe-coding-and-ai-agents-classes-in-helensvale-gold-coast (hlnv, #92284E) | cg- district page | 2,412 | 1.7% vs vibe-coding-and-ai-agents-classes-in-molonglo-canberra | an agent validates every train-to-tram change at Helensvale before offering a plan | connection-time constraints in an agent trip plan | 88d4fc5a |
 | 345 | online-coding-and-python-classes-in-palmerston-nt-darwin (plmn, #253E54) | cg- district page | 2,445 | 1.3% vs best-coding-and-ai-classes-in-belconnen-canberra | pairing consecutive Palmerston bus stops with itertools.pairwise without crossing trips | itertools.pairwise within groups | f5de54fd |
-| 346 | ai-and-programming-classes-in-casuarina-darwin (casu, #531E30) | cg- district page | 2,344 | 1.3% vs ai-and-programming-classes-in-woden-canberra | factorising the Darwin bus timetable into morning, afternoon and all-day patterns around Casuarina | non-negative matrix factorisation | (this commit) |
+| 346 | ai-and-programming-classes-in-casuarina-darwin (casu, #531E30) | cg- district page | 2,344 | 1.3% vs ai-and-programming-classes-in-woden-canberra | factorising the Darwin bus timetable into morning, afternoon and all-day patterns around Casuarina | non-negative matrix factorisation | 720a2247 |
+| 347 | best-coding-and-ai-classes-in-nightcliff-darwin (ntcf, #984A1F) | cg- district page | 2,399 | 0.8% vs best-coding-and-ai-classes-in-inner-west-sydney | takewhile counts no Nightcliff buses before nine until the rows are sorted | itertools.takewhile vs filter | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
