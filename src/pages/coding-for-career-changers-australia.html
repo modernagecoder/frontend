@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding for Career Changers in Australia | From Spreadsheets</title>
+  <meta name="description" content="Coding for Australian career changers: move from spreadsheets to Python and data with a realistic plan, around your working week. Live online, first class free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-for-career-changers-australia">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-for-career-changers-australia.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#785E48">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-for-career-changers-australia">
+  <meta property="og:title" content="Coding for Career Changers in Australia | From Spreadsheets">
+  <meta property="og:description" content="Twenty lookups, twenty confident answers, all of them wrong. Why career changers who know spreadsheets make strong programmers once they learn exact matching.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding for Career Changers in Australia">
+  <meta name="twitter:description" content="Coding for Australian career changers: spreadsheets to Python, around work. Live online, first class free.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ccau .ag-hero h1 { letter-spacing: -0.018em; }
+.ag-root.ag-ccau .ag-capsule { border-left-width: 4px; border-radius: 3px; }
+.ag-root.ag-ccau .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-ccau .ag-table caption { text-align: left; font-weight: 605; }
+.ag-root.ag-ccau .ag-band-head h3 { letter-spacing: -0.012em; }
+.ag-root.ag-ccau .ag-slots { gap: 1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-for-career-changers-australia#page","url":"https://learn.modernagecoders.com/coding-for-career-changers-australia","name":"Coding for Career Changers in Australia","description":"A guide for Australian adults changing into programming: what transfers from spreadsheet work, an honest plan, and a worked example on lookup errors.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":4,"name":"Coding for career changers","item":"https://learn.modernagecoders.com/coding-for-career-changers-australia"}]},{"@type":"Course","name":"Coding for Career Changers in Australia","description":"Live online coding lessons for Australian career changers: Python, data and automation built on existing spreadsheet and office skills, scheduled around work.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-for-career-changers-australia"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-career-changers-australia"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-career-changers-australia"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I learn to code while working full time?","acceptedAnswer":{"@type":"Answer","text":"Yes. Lessons are live online, timed around work, two a week plus some practice, and the plan adjusts to busy periods."}},{"@type":"Question","name":"Do my spreadsheet skills help?","acceptedAnswer":{"@type":"Answer","text":"A lot. Formulas, lookups and data checking map directly onto functions, joins and testing in Python."}},{"@type":"Question","name":"What is the difference between exact and approximate lookup?","acceptedAnswer":{"@type":"Answer","text":"Exact match returns an error when a key is missing. Approximate match returns the nearest earlier row instead; in our 20-lookup test it gave 20 believable answers, all wrong."}},{"@type":"Question","name":"Which language should a career changer learn first?","acceptedAnswer":{"@type":"Answer","text":"Python for most people, then SQL for data. Web or other languages follow once the basics are solid."}},{"@type":"Question","name":"Do I need a degree to work in software?","acceptedAnswer":{"@type":"Answer","text":"Employers set their own requirements. ANZSCO 2022 notes that relevant experience or vendor certification may substitute for formal qualifications, but that is a classification note, not a hiring rule."}},{"@type":"Question","name":"What is OSCA?","acceptedAnswer":{"@type":"Answer","text":"The Occupation Standard Classification for Australia, released by the ABS on 6 December 2024 as the successor to ANZSCO."}},{"@type":"Question","name":"Will this get me a job?","acceptedAnswer":{"@type":"Answer","text":"We do not promise jobs or salaries. We help you build skills and a portfolio you can show and explain."}},{"@type":"Question","name":"Am I too old to start?","acceptedAnswer":{"@type":"Answer","text":"No. Our students range from 6 to 67. Regular practice matters far more than age."}},{"@type":"Question","name":"Group or one to one?","acceptedAnswer":{"@type":"Answer","text":"Groups suit regular schedules and peer support; one to one suits irregular hours or a specific goal."}},{"@type":"Question","name":"What will it cost me?","acceptedAnswer":{"@type":"Answer","text":"Nothing for the first class, and no card details. Monthly fees for group and private lessons are in the fees panel."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-for-career-changers-australia","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-ccau">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#transfer">What transfers</a></li>
+      <li><a href="#lookup">A worked example</a></li>
+      <li><a href="#plan">A realistic plan</a></li>
+      <li><a href="#honest">Honest answers</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Coding for career changers
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Adults &middot; From your current work to code</p>
+        <h1>Coding for career changers</h1>
+        <p class="ag-lede">Many adults who decide to learn programming already do half of it at work: they build spreadsheets, clean up lists, match records from two systems and notice when the numbers look wrong. Our coding for career changers programme starts from those skills instead of pretending you are a beginner at everything. Lessons are live online and timed around a working week, and the plan is honest about how long things take. This page shows what carries over, works through a spreadsheet mistake that Python makes visible, and answers the questions career changers usually ask, without promising jobs or salaries.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#lookup" class="ag-btn ag-btn--ghost">See the worked example</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20an%20adult%20in%20Australia%20thinking%20about%20changing%20into%20programming.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ccau'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Built on the skills you already use at work</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Adults changing or adding a skill</dd>
+          <dt>Start</dt><dd>From spreadsheets and office work</dd>
+          <dt>Language</dt><dd>Python, then SQL</dd>
+          <dt>Focus</dt><dd>Data, automation, real projects</dd>
+          <dt>Pace</dt><dd>Two lessons a week around work</dd>
+          <dt>Format</dt><dd>Live online</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>First step</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Coding for career changers helps adults in other fields learn programming by building on what they already know, such as spreadsheets, data checking and process work, then moving to Python, SQL and real projects. It is honest about timescales and makes no job promises. Modern Age Coders teaches career changers in Australia live online around a working week, in small groups or one to one, and the first class is free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three starting points for adults</h2>
+      <p class="ag-lede">Chosen by where you are now. Each card opens the syllabus.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/data-and-ai-analytics-for-non-programmers-course">
+        <div class="ag-pick-shot"><img src="/images/data-ai-analytics-non-programmers.webp" alt="Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCAU / 01</p>
+          <h3>Data and AI for Non-Programmers</h3>
+          <p>For people who live in spreadsheets: Excel, Sheets and Power BI, then the step to code.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCAU / 02</p>
+          <h3>Python Masterclass</h3>
+          <p>Python from zero for adults, at a pace that fits around work.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-analysis-mastery-course-college">
+        <div class="ag-pick-shot"><img src="/images/data-analysis-college.webp" alt="Data Analysis Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCAU / 03</p>
+          <h3>Data Analysis Course</h3>
+          <p>Excel, SQL, Python and dashboards for adults moving into data work.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="transfer">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What transfers</p><h2>You are not starting from zero</h2><p class="ag-lede">Office, admin, finance, retail and trades work all build habits programmers need. The course names them and builds on them.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Skills career changers already have</caption><thead><tr><th scope="col">Skill from current work</th><th scope="col">Where it shows up in programming</th></tr></thead><tbody><tr><td>Building spreadsheet formulas</td><td>Writing functions and expressions</td></tr><tr><td>Matching records from two systems</td><td>Joining tables in Python or SQL</td></tr><tr><td>Noticing a total that looks wrong</td><td>Testing and debugging</td></tr><tr><td>Following and improving a process</td><td>Turning steps into automation</td></tr><tr><td>Explaining things to customers or colleagues</td><td>Documentation and code review</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why spreadsheet people do well</h3><p>Spreadsheets are programming with a friendly face: cells are variables, formulas are expressions, and a lookup is a join. Moving to Python makes those ideas explicit and repeatable.</p>
+<p>The first projects usually automate something learners do by hand at work today.</p></div><div><h3>What is genuinely new</h3><p>Writing code from a blank file, version control, and testing. These take practice, and the course gives them time.</p>
+<p>Reading error messages calmly is a skill in itself, and an early one.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="lookup">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked example</p><h2>Twenty confident answers, all wrong</h2><p class="ag-lede">A lookup is the most common spreadsheet operation, and one setting decides whether a missing match shows as an error or as a believable wrong number.</p></div>
+    <p>We took Transport for NSW's monthly station usage file and kept the August 2026 entry counts for the <strong>289</strong> train stations with an August entry row, sorted A to Z by name, as a lookup table would be. The names in the file end in the word Station. We picked 20 stations at random and typed them the way a person would, without the word Station, then looked each one up in Python two ways: an exact match, and an imitation of a spreadsheet's approximate match, which returns the last row whose key is not above the lookup value.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>20 lookups of station names typed without the word Station (our run, 14 October 2026)</caption><thead><tr><th scope="col">Method</th><th scope="col">Result</th><th scope="col">Right answers</th></tr></thead><tbody><tr><td>Exact match</td><td>#N/A for all 20</td><td>0, but every failure is visible</td></tr><tr><td>Approximate match</td><td>A number for all 20</td><td>0, and nothing looks wrong</td></tr><tr><td>Exact match after cleaning both sides the same way</td><td>A number for all 20</td><td>20</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>The quiet failure</h3><p>Approximate match returned a figure for every name, taken from whichever station sorted just before it. Coniston came back as 49,767 entries; its real August figure is 6,375.</p></div><div><h3>The loud failure is better</h3><p>Exact match failed all 20, but it failed with #N/A where anyone can see it. A visible error is a gift; a plausible wrong number can travel into a report.</p></div><div><h3>The fix</h3><p>Decide what a key is, clean both sides to that form, then match exactly. All 20 lookups were then correct, including Warwick Farm at 55,679 entries.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why this matters for a career change</h3><p>The habit being taught, preferring a loud error to a quiet wrong answer, is one of the most valuable a programmer has. Career changers who have been burned by a bad lookup at work grasp it immediately.</p>
+<p>In Python the exact behaviour is written in the code, so a reviewer can see it.</p></div><div><h3>What learners build next</h3><p>A small script that joins two real files, reports every key it could not match, and refuses to guess.</p>
+<p>It replaces a spreadsheet task many learners do weekly at work.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Data: Transport for NSW, <a class="ag-inline-link" href="https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data" rel="noopener" target="_blank">Train, Metro and Light Rail Station Monthly Usage</a> (Opal-based, Creative Commons Attribution), downloaded 14 October 2026. The lookups and counts are our own; the approximate match is our Python imitation of the spreadsheet rule.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A realistic plan</p><h2>A plan that fits around work</h2><p class="ag-lede">Two live lessons a week plus some practice. Each stage ends with something real you can show and explain.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A typical route for a career changer</caption><thead><tr><th scope="col">Stage</th><th scope="col">Focus</th><th scope="col">Ends with</th></tr></thead><tbody><tr><td>First stage</td><td>Python basics through work-style tasks</td><td>A script that tidies a messy file</td></tr><tr><td>Second stage</td><td>Data with Python and SQL</td><td>A report built from two joined sources</td></tr><tr><td>Third stage</td><td>Automation and testing</td><td>A tested tool that replaces a manual task</td></tr><tr><td>Fourth stage</td><td>A portfolio project in your own field</td><td>A project you can demonstrate and explain</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How occupations are classified</h3><p>The ABS released OSCA, the Occupation Standard Classification for Australia, 2024, Version 1.0, on 6/12/2024. ANZSCO 2022 is now listed as the previous release.</p>
+<p>Career changers reading job descriptions or official occupation lists may meet either name.</p></div><div><h3>What ANZSCO said about experience</h3><p>For software and applications programmers, ANZSCO 2022 notes: "At least five years of relevant experience and/or relevant vendor certification may substitute for the formal qualification."</p>
+<p>That describes how the classification groups jobs. It is not a hiring rule, and we do not treat it as a promise of anything.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 14 October 2026: ABS, <a class="ag-inline-link" href="https://www.abs.gov.au/statistics/classifications/osca-occupation-standard-classification-australia/2024-version-1-0/browse-classification" rel="noopener" target="_blank">OSCA 2024, Version 1.0</a>; ABS, <a class="ag-inline-link" href="https://www.abs.gov.au/statistics/classifications/anzsco-australian-and-new-zealand-standard-classification-occupations/2022/browse-classification/2/26/261/2613" rel="noopener" target="_blank">ANZSCO 2022, unit group 2613</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="honest">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Honest answers</p><h2>What we will and will not tell you</h2><p class="ag-lede">Career changers deserve straight answers. These are ours.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our position on common promises</caption><thead><tr><th scope="col">Question</th><th scope="col">Our answer</th></tr></thead><tbody><tr><td>Will I get a programming job?</td><td>We do not promise jobs. Hiring depends on far more than one course.</td></tr><tr><td>How much will I earn?</td><td>We make no salary claims.</td></tr><tr><td>How long will it take?</td><td>It depends on time per week and starting point; we agree a plan after the first class.</td></tr><tr><td>Do I need a degree?</td><td>Not to learn. Employers set their own requirements.</td></tr><tr><td>Is it too late for me?</td><td>Our students range from 6 to 67. Age is not the barrier; regular practice is the requirement.</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Adults learning for interest rather than a change of career may prefer <a class="ag-inline-link" href="/coding-classes-for-adults-australia">coding classes for adults</a>. Those set on building software can go further with the <a class="ag-inline-link" href="/software-development-course-australia">software development course</a>, and those drawn to analysis with the <a class="ag-inline-link" href="/data-science-course-australia">data science course</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="automate">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">First automation</p><h2>Picking the first task to automate</h2><p class="ag-lede">The ideal first project is a dull task you already do every week. It gives a working tool and a clear before-and-after.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Common weekly tasks and the Python that replaces them</caption><thead><tr><th scope="col">Task done by hand</th><th scope="col">Python approach</th><th scope="col">Skill learnt</th></tr></thead><tbody><tr><td>Combining monthly spreadsheets into one</td><td>Read every file in a folder and stack the rows</td><td>Files, loops and tables</td></tr><tr><td>Matching two lists of names or codes</td><td>Clean both keys, then join exactly and report misses</td><td>Joins and data cleaning</td></tr><tr><td>Checking a report for missing values</td><td>Count blanks and odd values per column</td><td>Validation</td></tr><tr><td>Renaming or sorting many files</td><td>Build new names from a rule and apply them</td><td>Strings and the file system</td></tr><tr><td>Copying figures into a summary</td><td>Calculate the summary and write it to a new file</td><td>Grouping and output</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Keep it safe</h3><p>Work on a copy of the data, never the original, and keep personal information out of practice files.</p>
+<p>Check your employer's rules before using work data at all; many learners rebuild the task with public data instead.</p></div><div><h3>Measure the result</h3><p>Learners note how long the task took by hand and how long the script takes, including the time spent writing it.</p>
+<p>For a task done once, doing it by hand can still be quicker. For a weekly task, the script can repay the time spent writing it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="balance">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Study and life</p><h2>Keeping learning going around work and family</h2><p class="ag-lede">Most career changers study alongside a job and other responsibilities. A sustainable rhythm beats an intense start.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>A rhythm that lasts</h3><p>Two fixed lessons a week give structure; short practice sessions on other days keep the ideas fresh. Missing a week is normal and recoverable.</p>
+<p>Learners keep a short log of what they built each week, which doubles as a record of progress.</p></div><div><h3>When life gets busy</h3><p>Lessons can be paused month by month, and one-to-one times can move. The plan is reviewed rather than abandoned.</p>
+<p>Coming back after a break usually takes one revision lesson, not a restart.</p></div></div>
+    <p class="ag-mt-40">Adults who want private lessons around shift work can also look at <a class="ag-inline-link" href="/online-coding-tutor-australia">an online coding tutor</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>Four stages from spreadsheet user to programmer</h2>
+      <p class="ag-lede">Each stage is a set of skills, checked by a project rather than a date on a calendar.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From formulas to code</caption><thead><tr><th scope="col">Stage</th><th scope="col">What you can do</th></tr></thead><tbody><tr><td>1. Scripter</td><td class="ag-num">Write short Python programs that read and tidy a file</td></tr><tr><td>2. Analyst</td><td class="ag-num">Join, group and summarise data from more than one source</td></tr><tr><td>3. Automator</td><td class="ag-num">Build a tested tool that replaces a manual process</td></tr><tr><td>4. Developer</td><td class="ag-num">Plan, build, document and explain a portfolio project</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How many hours a week?</h3><p>Two live lessons plus a few hours of practice is a pace most working adults can keep.</p>
+<p>Busy weeks happen; the plan bends rather than breaks.</p></div><div><h3>Group or one to one?</h3><p>Groups of five to ten give you peers at the same stage. One to one suits irregular hours or a specific goal.</p>
+<p>Many adults start in a group and switch if their week changes.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Courses for career changers</h2>
+      <p class="ag-lede">Grouped by direction. The free class decides where you start.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>From spreadsheets</h3>
+        <span class="ag-band-sub">No coding yet</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCAU / SHT / 01</p>
+          <h4>Data and AI for Non-Programmers</h4>
+          <p>Excel, Sheets and Power BI.</p>
+          <a class="ag-course-link" href="/courses/data-and-ai-analytics-for-non-programmers-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCAU / SHT / 02</p>
+          <h4>Data Analysis Course</h4>
+          <p>Excel, SQL, Python and BI.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCAU / SHT / 03</p>
+          <h4>MySQL Course</h4>
+          <p>Databases and SQL.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Into code</h3>
+        <span class="ag-band-sub">Python and automation</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCAU / COD / 01</p>
+          <h4>Python Masterclass</h4>
+          <p>Zero to advanced.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCAU / COD / 02</p>
+          <h4>Python Automation Course</h4>
+          <p>Scripts, scraping and applied AI.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCAU / COD / 03</p>
+          <h4>Git and GitHub</h4>
+          <p>Team-ready version control.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Choose a direction</h3>
+        <span class="ag-band-sub">Once the basics are solid</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCAU / DIR / 01</p>
+          <h4>Full Stack Developer Course</h4>
+          <p>Built for career switchers, 18+.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCAU / DIR / 02</p>
+          <h4>Data Science Course</h4>
+          <p>Python, ML and deep learning.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCAU / DIR / 03</p>
+          <h4>AI Coding Agents for Professionals</h4>
+          <p>Working with coding agents, 18+.</p>
+          <a class="ag-course-link" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Lessons around a working week</h2>
+      <p class="ag-lede">Teachers are based in India, whose working day overlaps Australian afternoons and evenings. Times are agreed in your state's time and adjusted for daylight saving.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Evening</p><p class="ag-slot-l">After work, by arrangement.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Longer project sessions.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Daytime</p><p class="ag-slot-l">For shift workers and those between jobs.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Free first class</h3><p>A short script on a messy file, and an honest plan.</p></div>
+      <div><h3>Adult groups</h3><p>Five to ten adults at a similar stage.</p></div>
+      <div><h3>One to one</h3><p>For irregular hours or a specific project.</p></div>
+      <div><h3>Your field's data</h3><p>Projects built around the kind of work you know.</p></div>
+      <div><h3>No jargon wall</h3><p>Terms are explained the first time they appear.</p></div>
+      <div><h3>Your keyboard</h3><p>You write every line; the teacher guides.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects from our learners</h2>
+      <p class="ag-lede">Work our students built and published. More in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for career changers</h2>
+      <p class="ag-lede">Learners outside India pay a monthly fee in US dollars, with nothing due at sign-up and no contract.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A first script on a messy file</li><li>An honest plan and starting course</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten adults per class</li><li>Projects from real work</li><li>A regular teacher</li><li>Stop after any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Lessons shaped around your goal</li><li>Flexible pace and times</li><li>Your own project data</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews from our Google profile, reproduced without edits.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Career changers ask</p>
+      <h2>Questions about changing into coding in Australia</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Can I learn to code while working full time?</h3>
+        <p>Yes. Lessons are live online, timed around work, two a week plus some practice, and the plan adjusts to busy periods.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do my spreadsheet skills help?</h3>
+        <p>A lot. Formulas, lookups and data checking map directly onto functions, joins and testing in Python.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the difference between exact and approximate lookup?</h3>
+        <p>Exact match returns an error when a key is missing. Approximate match returns the nearest earlier row instead; in our 20-lookup test it gave 20 believable answers, all wrong.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which language should a career changer learn first?</h3>
+        <p>Python for most people, then SQL for data. Web or other languages follow once the basics are solid.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need a degree to work in software?</h3>
+        <p>Employers set their own requirements. ANZSCO 2022 notes that relevant experience or vendor certification may substitute for formal qualifications, but that is a classification note, not a hiring rule.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is OSCA?</h3>
+        <p>The Occupation Standard Classification for Australia, released by the ABS on 6 December 2024 as the successor to ANZSCO.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will this get me a job?</h3>
+        <p>We do not promise jobs or salaries. We help you build skills and a portfolio you can show and explain.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Am I too old to start?</h3>
+        <p>No. Our students range from 6 to 67. Regular practice matters far more than age.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Group or one to one?</h3>
+        <p>Groups suit regular schedules and peer support; one to one suits irregular hours or a specific goal.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What will it cost me?</h3>
+        <p>Nothing for the first class, and no card details. Monthly fees for group and private lessons are in the fees panel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Also on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Other pages for adult learners.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-adults-australia">Coding classes for adults</a></h3><p>Learning for interest at any age.</p></div>
+      <div><h3><a class="ag-inline-link" href="/software-development-course-australia">Software development course</a></h3><p>Testing, Git and debugging.</p></div>
+      <div><h3><a class="ag-inline-link" href="/data-science-course-australia">Data science course</a></h3><p>From questions to answers with data.</p></div>
+      <div><h3><a class="ag-inline-link" href="/javascript-classes-online-australia">JavaScript classes online</a></h3><p>The language of the web.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>All Australian pages in one place.</p></div>
+      <div><h3><a class="ag-inline-link" href="/one-on-one-coding-tutor-australia">One-on-one coding tutor</a></h3><p>Private lessons around your hours.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Leave your details and we will call when it suits you. The first class writes a short script on a messy file and ends with an honest plan.</p>
+        <p class="ag-mt-40">Read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or browse the <a class="ag-inline-link" href="/courses">course list</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20an%20adult%20in%20Australia%20thinking%20about%20changing%20into%20programming.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ccau',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Working adults often find WhatsApp easiest. Our number begins +91 since the team is in India, and we have no Australian office to visit.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ccau(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Adults</h4><ul><li><a href="/coding-classes-for-adults-australia">Coding classes for adults</a></li><li><a href="/data-science-course-australia">Data science course</a></li><li><a href="/one-on-one-coding-tutor-australia">One-on-one tutor</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/software-development-course-australia">Software development</a></li><li><a href="/javascript-classes-online-australia">JavaScript classes</a></li><li><a href="/c-plus-plus-classes-online-australia">C++ classes</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>A loud error beats a quiet wrong answer</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ccau = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'coding-for-career-changers-australia-inline', meta: { name: name, age: age, page: 'coding-for-career-changers-australia' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

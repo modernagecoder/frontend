@@ -391,7 +391,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 363 | data-science-course-australia (dsau, #4E360E) | ag- national door | 3,126 | 2% vs coding-for-career-changers-australia | the average council that does not exist | mean vs median on skewed data | b8322d9f |
 | 364 | cyber-security-course-for-teens-australia (csta, #7A2842) | ag- national door | 3,194 | 1.8% vs ai-and-python-academy-for-girls-australia | a plain allow-list beats a similarity score on lookalike domains | defensive lookalike-domain checks | 3bbe8416 |
 | 365 | ai-and-python-academy-for-girls-australia (gaau, #463E68) | ag- national door | 3,124 | 1.8% vs cyber-security-course-for-teens-australia | an AI that learns patterns cannot beat a random player | pattern-learning rock, paper, scissors | 3f304f1e |
-| 366 | competitive-programming-australia (cpau, #8E3816) | ag- national door | 3,101 | 1.6% vs javascript-classes-online-australia | the same program reads input three times faster | fast input reading | (this commit) |
+| 366 | competitive-programming-australia (cpau, #8E3816) | ag- national door | 3,101 | 1.6% vs javascript-classes-online-australia | the same program reads input three times faster | fast input reading | 94ce4de0 |
+| 367 | coding-for-career-changers-australia (ccau, #785E48) | ag- national door | 3,131 | 2% vs data-science-course-australia | approximate lookup gives twenty confident wrong answers | exact vs approximate lookup | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
