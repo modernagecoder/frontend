@@ -389,7 +389,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 361 | software-development-course-australia (sdau, #122A72) | ag- national door | 3,144 | 1.4% vs ai-and-python-academy-for-girls-australia | git bisect finds the commit that broke change(145) | git bisect | 990f6331 |
 | 362 | web-development-course-for-teens-australia (wdtn, #106A10) | ag- national door | 3,152 | 1.5% vs cyber-security-course-for-teens-australia | the same picture in four formats, and JPEG loses on a wireframe | choosing an image format by content | ec16170e |
 | 363 | data-science-course-australia (dsau, #4E360E) | ag- national door | 3,126 | 2% vs coding-for-career-changers-australia | the average council that does not exist | mean vs median on skewed data | b8322d9f |
-| 364 | cyber-security-course-for-teens-australia (csta, #7A2842) | ag- national door | 3,194 | 1.8% vs ai-and-python-academy-for-girls-australia | a plain allow-list beats a similarity score on lookalike domains | defensive lookalike-domain checks | (this commit) |
+| 364 | cyber-security-course-for-teens-australia (csta, #7A2842) | ag- national door | 3,194 | 1.8% vs ai-and-python-academy-for-girls-australia | a plain allow-list beats a similarity score on lookalike domains | defensive lookalike-domain checks | 3bbe8416 |
+| 365 | ai-and-python-academy-for-girls-australia (gaau, #463E68) | ag- national door | 3,124 | 1.8% vs cyber-security-course-for-teens-australia | an AI that learns patterns cannot beat a random player | pattern-learning rock, paper, scissors | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -623,6 +623,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Coding for career changers, Australia: https://learn.modernagecoders.com/coding-for-career-changers-australia
 - JavaScript classes online, Australia: https://learn.modernagecoders.com/javascript-classes-online-australia
 - C++ classes online, Australia: https://learn.modernagecoders.com/c-plus-plus-classes-online-australia
+- Maths tutor in Sydney: https://learn.modernagecoders.com/maths-tutor-sydney
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

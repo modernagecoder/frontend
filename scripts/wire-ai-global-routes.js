@@ -392,6 +392,7 @@ const SLUGS = [
   'coding-for-career-changers-australia',
   'javascript-classes-online-australia',
   'c-plus-plus-classes-online-australia',
+  'maths-tutor-sydney',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -863,6 +864,7 @@ const LLMS_LABELS = {
   'coding-for-career-changers-australia': 'Coding for career changers, Australia',
   'javascript-classes-online-australia': 'JavaScript classes online, Australia',
   'c-plus-plus-classes-online-australia': 'C++ classes online, Australia',
+  'maths-tutor-sydney': 'Maths tutor in Sydney',
 };
 
 function wireLlms(slugs) {
