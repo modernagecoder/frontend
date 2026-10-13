@@ -615,6 +615,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes for teens](/coding-classes-for-teens-australia)
 - [Coding classes for adults](/coding-classes-for-adults-australia)
 - [Learn to code over 50](/learn-to-code-over-50-australia)
+- [Coding for university students](/coding-for-university-students-australia)
 <!-- AU-LINKS -->
 
 

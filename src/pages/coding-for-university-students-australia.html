@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding for University Students in Australia | Live Support</title>
+  <meta name="description" content="Coding support for Australian university students: the concepts behind first-year units, testing habits and academic integrity, taught live online. First class free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-for-university-students-australia">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-for-university-students-australia.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#444785">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-for-university-students-australia">
+  <meta property="og:title" content="Coding for University Students in Australia | Live Support">
+  <meta property="og:description" content="A renamed copy scored 20% on a line diff and 100% on token fingerprints. What Australian uni students should know about code similarity, and how we teach.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding for University Students in Australia">
+  <meta name="twitter:description" content="Coding support for Australian university students: concepts ahead of the unit, tests, integrity. Live online, first class free.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-unau .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-unau .ag-capsule { border-left-width: 4px; border-radius: 2px; }
+.ag-root.ag-unau .ag-section-head h2 { max-width: 36ch; }
+.ag-root.ag-unau .ag-table caption { text-align: left; font-weight: 650; }
+.ag-root.ag-unau .ag-band-head h3 { letter-spacing: -0.006em; }
+.ag-root.ag-unau .ag-slots { gap: 0.8rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-for-university-students-australia#page","url":"https://learn.modernagecoders.com/coding-for-university-students-australia","name":"Coding for University Students in Australia","description":"A guide for Australian university students learning to code: how first-year units differ, the semester rhythm, how code similarity is measured, and concept-only support.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":4,"name":"Coding for university students","item":"https://learn.modernagecoders.com/coding-for-university-students-australia"}]},{"@type":"Course","name":"Coding for University Students in Australia","description":"Live online coding lessons for Australian university students: programming concepts, data structures, testing and version control, taught alongside a unit and never on assessed work.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-for-university-students-australia"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-university-students-australia"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-university-students-australia"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is coding support for university students?","acceptedAnswer":{"@type":"Answer","text":"It is live teaching of the programming concepts a university unit expects, such as functions, recursion, data structures and testing, given alongside the unit and never on assessed work."}},{"@type":"Question","name":"Will you help with my assignment?","acceptedAnswer":{"@type":"Answer","text":"No. We teach the concepts with our own examples and practice problems. We do not read, write, rewrite or debug assessed work, in line with university academic integrity rules."}},{"@type":"Question","name":"Which language does my first-year unit use?","acceptedAnswer":{"@type":"Answer","text":"It varies. ANU's COMP1100 uses a functional language, Sydney's INFO1110 teaches procedural programming, and other universities differ again. Check your unit outline; we teach the concepts in that language."}},{"@type":"Question","name":"Does renaming variables make copied code original?","acceptedAnswer":{"@type":"Answer","text":"No. In our experiment, a copy with every name changed matched only 20.0% of lines but 100.0% of structural fingerprints. Writing your own solution is the only real answer."}},{"@type":"Question","name":"What is winnowing?","acceptedAnswer":{"@type":"Answer","text":"It is a way of fingerprinting documents or code: hash every short sequence of tokens and keep only the smallest hash in each window, so two texts can be compared by the fingerprints they share."}},{"@type":"Question","name":"I study engineering, not computing. Can I join?","acceptedAnswer":{"@type":"Answer","text":"Yes. Many of our university students take one programming unit inside another degree."}},{"@type":"Question","name":"Can lessons happen in the evening?","acceptedAnswer":{"@type":"Answer","text":"Yes. Evening and weekend lessons are arranged in your own state time."}},{"@type":"Question","name":"How much does it cost?","acceptedAnswer":{"@type":"Answer","text":"The first class is free and needs no card. Monthly fees for groups and one-to-one lessons are in the fees section."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-for-university-students-australia","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-unau">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#units">First-year units</a></li>
+      <li><a href="#semester">The semester</a></li>
+      <li><a href="#similarity">A worked example</a></li>
+      <li><a href="#integrity">Integrity</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Coding for university students
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; University students &middot; Concepts, not assignments</p>
+        <h1>Coding for university students</h1>
+        <p class="ag-lede">Starting a programming unit at an Australian university can feel like joining a conversation halfway through. Lectures move quickly, practicals assume last week is settled, and the first assessment arrives before the ideas have. Students from engineering, science, commerce and the arts meet code too, often with no school computing behind them. Our live online lessons run alongside the unit: we teach the concepts a week ahead, build testing and version-control habits, and stay well clear of anything assessed. This page compares how different universities open their programming sequence, sets out the semester rhythm, and shows a small experiment in how code similarity is measured, because understanding it explains why your own work must be your own.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#similarity" class="ag-btn ag-btn--ghost">See the experiment</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20university%20student%20in%20Australia%20and%20would%20like%20coding%20support%20alongside%20my%20unit.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'unau'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; concepts ahead of the lecture, never the assignment</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>University students, any discipline</dd>
+          <dt>Timing</dt><dd>A week ahead of the unit</dd>
+          <dt>Core</dt><dd>Concepts, tests, version control</dd>
+          <dt>Languages</dt><dd>Python, Java, C, Haskell and more</dd>
+          <dt>Assessed work</dt><dd>Never written or checked by us</dd>
+          <dt>Format</dt><dd>Live online lessons</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Coding for university students means learning the programming concepts a unit expects, such as functions, data structures, recursion and testing, alongside the lectures rather than after them. First-year units differ: ANU's COMP1100 uses a functional language, while Sydney's INFO1110 teaches procedural programming. Modern Age Coders gives Australian university students live online concept lessons, never help with assessed work, and the first class is free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses that sit alongside a degree</h2>
+      <p class="ag-lede">Data structures for the second-year wall, C for systems units, and Git for every group project. The syllabus is one click away on each card.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures &amp; Algorithms Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UNAU / 01</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>Lists, stacks, trees, hashing and graphs, with the complexity reasoning lecturers expect.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/c-programming-course-for-college-beginners">
+        <div class="ag-pick-shot"><img src="/images/c-programming-college.webp" alt="C Programming for Beginners course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UNAU / 02</p>
+          <h3>C Programming for Beginners</h3>
+          <p>Pointers, memory and structs, for systems and embedded units that start in C.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/git-github-version-control-course-for-college-students">
+        <div class="ag-pick-shot"><img src="/images/git-github-college.webp" alt="Git &amp; GitHub Course for College Students course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UNAU / 03</p>
+          <h3>Git and GitHub for Students</h3>
+          <p>Branches, merges and pull requests, so group projects stop losing work.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="units">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">First-year units</p><h2>Australian universities open programming in different ways</h2><p class="ag-lede">Students often assume every first-year unit teaches the same thing in the same language. The official unit pages say otherwise.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Opening programming units, read at each university on 13 October 2026</caption><thead><tr><th scope="col">University and unit</th><th scope="col">What the unit page says</th><th scope="col">What it suggests</th></tr></thead><tbody><tr><td>ANU, COMP1100</td><td>"Apply fundamental programming concepts, using a functional programming language, to solve problems." The reading list is a Haskell text.</td><td>Functions and types come before loops and objects</td></tr><tr><td>University of Sydney, INFO1110</td><td>"Students will obtain knowledge and skills with procedural programming."</td><td>Step-by-step programs, memory and recursion</td></tr><tr><td>UQ, CSSE1001</td><td>Programming taught "using an exploratory problem-based approach"</td><td>Learning by building and debugging</td></tr><tr><td>Monash, FIT1045</td><td>"This unit introduces programming fundamentals."; students design, construct and test programs with their own functions and data structures</td><td>Fundamentals with testing from the start</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the differences matter less than they seem</h3><p>A function, a test, a data structure and a recursive definition mean the same thing in Haskell, Python, C or Java. Students who understand the idea in one language pick up the syntax of the next within weeks.</p>
+<p>Our lessons teach the idea first, then show it in the language the unit uses.</p></div><div><h3>Students from other faculties</h3><p>Engineering, science and business students often take one programming unit with little school computing behind them. They are usually the fastest to improve with a weekly hour, because every concept is new rather than half-remembered.</p>
+<p>We start from their own discipline's examples wherever we can.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 13 October 2026: <a class="ag-inline-link" href="https://programsandcourses.anu.edu.au/2026/course/COMP1100" rel="noopener" target="_blank">ANU COMP1100</a>; <a class="ag-inline-link" href="https://www.sydney.edu.au/units/INFO1110" rel="noopener" target="_blank">University of Sydney INFO1110</a>; <a class="ag-inline-link" href="https://programs-courses.uq.edu.au/course.html?course_code=CSSE1001" rel="noopener" target="_blank">UQ CSSE1001</a>; <a class="ag-inline-link" href="https://handbook.monash.edu/2026/units/FIT1045" rel="noopener" target="_blank">Monash FIT1045</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="semester">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The semester</p><h2>The rhythm of a programming unit</h2><p class="ag-lede">A semester is short. UQ's page for CSSE1001, for example, lists Semester 1, 2027 as running from 22/02/2027 to 19/06/2027, with a lecture, an applied class and a practical every week.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>One unit, one week, as published for UQ CSSE1001</caption><thead><tr><th scope="col">Item</th><th scope="col">Published value</th><th scope="col">Our reading</th></tr></thead><tbody><tr><td>Units of credit</td><td>2</td><td>One of several units taken at once</td></tr><tr><td>Standard load</td><td>"A standard study load is 8 units per semester"</td><td>About four units like this one together</td></tr><tr><td>Lecture</td><td>2 hours a week</td><td>New concepts arrive weekly</td></tr><tr><td>Applied class</td><td>1 hour a week</td><td>Worked problems with a tutor</td></tr><tr><td>Practical</td><td>2 hours a week</td><td>Hands-on coding, where gaps show</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Weeks 1 to 4</h3><p>Concepts stack quickly. We run one week ahead, so lectures become revision rather than first contact.</p></div><div><h3>Middle weeks</h3><p>Assessment pressure arrives. Lessons switch to our own practice problems on the same ideas, and to testing habits that catch errors early.</p></div><div><h3>Final weeks</h3><p>Exam-style reasoning: tracing code by hand, predicting output and explaining why, with nothing taken from the unit's own papers.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="similarity">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked example</p><h2>How code similarity is measured: renamed is not different</h2><p class="ag-lede">Students sometimes believe that renaming variables makes copied code "different". We tested that belief with seven short programs and two ways of comparing them.</p></div>
+    <p>We wrote one Python program that counts words in a file and prints the five most common, then six others: an identical copy, a copy with every name changed, a copy that was renamed, reordered and given new comments, two solutions written independently in different styles, and an unrelated program. We compared each with the original in two ways. A plain diff measures matching lines and characters. The second method replaces every variable name with the same placeholder, splits the code into five-token sequences, hashes them and keeps a small set of fingerprints by <em>winnowing</em> (the smallest hash in each window of four). Similarity is the share of fingerprints two programs have in common.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Similarity to the original program (our calculation; Python difflib and our winnowing script)</caption><thead><tr><th scope="col">Program compared with the original</th><th scope="col">Matching lines</th><th scope="col">Matching characters</th><th scope="col">Shared fingerprints</th></tr></thead><tbody><tr><td>Identical copy</td><td class="ag-num">100.0%</td><td class="ag-num">100.0%</td><td class="ag-num">100.0%</td></tr><tr><td>Every name changed</td><td class="ag-num">20.0%</td><td class="ag-num">40.7%</td><td class="ag-num">100.0%</td></tr><tr><td>Renamed, reordered, new comments</td><td class="ag-num">16.9%</td><td class="ag-num">14.6%</td><td class="ag-num">72.7%</td></tr><tr><td>Independent solution, hand-built dictionary</td><td class="ag-num">15.4%</td><td class="ag-num">12.5%</td><td class="ag-num">16.0%</td></tr><tr><td>Independent solution, library counter</td><td class="ag-num">12.1%</td><td class="ag-num">6.2%</td><td class="ag-num">7.8%</td></tr><tr><td>Unrelated temperature table</td><td class="ag-num">6.5%</td><td class="ag-num">21.0%</td><td class="ag-num">1.4%</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Renaming fools the diff, not the fingerprints</h3><p>The renamed copy matched only 20.0% of lines, barely above the hand-built independent solution at 15.4%. On fingerprints it scored 100.0%, because the structure under the names never changed.</p></div><div><h3>Disguise only goes so far</h3><p>Reordering functions and adding comments brought fingerprints down to 72.7%, still far above the independent solutions at 16.0% and 7.8%. The effort of disguising code is larger than the effort of writing it.</p></div><div><h3>Honest work overlaps a little</h3><p>Two people solving the same small task share some structure by necessity: the hand-built solution shares 16.0% of fingerprints with ours. That is why a similarity score starts a conversation with a person rather than ending one.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>When the simple baseline wins</h3><p>For a word-for-word copy, the plain diff and the fingerprints agree at 100.0%. If verbatim copying were the only worry, a diff would be enough and far simpler.</p>
+<p>The character diff is the weakest of the three: it gave the unrelated program 21.0%, more than the library-counter solution, simply because short programs share common letters and symbols.</p></div><div><h3>What this is, and what it is not</h3><p>This is a teaching experiment with seven programs we wrote ourselves, not a description of any university's software, which we have not seen. Real similarity tools also strip boilerplate shared by a whole class.</p>
+<p>The point for students is simple: write your own solution, and the question never arises.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="integrity">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Integrity</p><h2>Academic integrity, AI and authorship of code</h2><p class="ag-lede">Australian universities now name AI and code authorship directly in their programming outcomes.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>What one university writes</h3><p>ANU's COMP1110 lists as a learning outcome that students "Understand their ethical responsibilities as a programmer with respect to Academic integrity, the use of Artificial Intelligence and authorship of code."</p>
+<p>Its course pages also state that ANU uses Turnitin "to assess assignment submissions as a component of the University's approach to managing Academic Integrity".</p></div><div><h3>How our lessons stay on the right side</h3><p>We teach with our own examples and our own practice problems. We do not look at, write, rewrite or debug any assessed task, and we decline when asked.</p>
+<p>If a unit allows AI tools under conditions, the student follows the unit outline; our lessons explain the concepts so the student can do the work alone.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Where we draw the line</caption><thead><tr><th scope="col">We do</th><th scope="col">We do not</th></tr></thead><tbody><tr><td>Teach the concept behind a topic in the unit outline</td><td>Read, write or fix an assignment</td></tr><tr><td>Set our own practice problems on the same ideas</td><td>Solve past or current assessment questions</td></tr><tr><td>Explain error messages in code written for our lessons</td><td>Debug code that will be submitted</td></tr><tr><td>Build testing and version-control habits</td><td>Advise on getting around any similarity check</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section" id="topics">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What we cover</p><h2>Concepts students ask for most</h2><p class="ag-lede">Requests cluster around the same ideas, whichever university or language.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Common requests and how we teach them</caption><thead><tr><th scope="col">Concept</th><th scope="col">Where students meet it</th><th scope="col">How a lesson approaches it</th></tr></thead><tbody><tr><td>Recursion</td><td>Functional and procedural first-year units</td><td>Trace small calls by hand before writing any</td></tr><tr><td>References and memory</td><td>Procedural units and Java units</td><td>Draw boxes and arrows until the picture is automatic</td></tr><tr><td>Testing</td><td>Most units, as an explicit outcome</td><td>Write the test first, then the code that passes it</td></tr><tr><td>Complexity</td><td>Data structures units</td><td>Count operations on growing inputs, then name the pattern</td></tr><tr><td>Version control</td><td>Group projects</td><td>Branch, commit, merge and recover from a conflict on purpose</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>Four signs a student is on top of a unit</h2>
+      <p class="ag-lede">Students who meet weekly from the first week usually reach the third sign by mid-semester.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From catching up to running ahead</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Following</td><td class="ag-num">Lectures make sense on the day, with notes</td></tr><tr><td>2. Practising</td><td class="ag-num">Practicals are finished in the time given</td></tr><tr><td>3. Testing</td><td class="ag-num">Own code is checked with tests before anyone else sees it</td></tr><tr><td>4. Explaining</td><td class="ag-num">Can teach a classmate why a solution works, without the code in front of them</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>I failed a programming unit. Is it too late?</h3><p>No. A repeated unit is often the easiest one to prepare for, because the topics are known. We rebuild the foundations before the semester starts.</p>
+<p>What changes most is the habit of testing early.</p></div><div><h3>Can you help before I start university?</h3><p>Yes. A summer of weekly lessons on functions, data and testing makes the first weeks far calmer.</p>
+<p>Tell us the unit code and we will read its public page with you.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Courses for university students</h2>
+      <p class="ag-lede">Organised by what the degree demands. Pick by the unit you are taking now.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Programming</h3>
+        <span class="ag-band-sub">First and second year</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UNAU / PRG / 01</p>
+          <h4>Python Masterclass</h4>
+          <p>Zero to advanced Python.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UNAU / PRG / 02</p>
+          <h4>Java Course</h4>
+          <p>Core Java to Spring Boot.</p>
+          <a class="ag-course-link" href="/courses/complete-java-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UNAU / PRG / 03</p>
+          <h4>C++ Masterclass</h4>
+          <p>Fundamentals to modern C++.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Theory and maths</h3>
+        <span class="ag-band-sub">The second-year wall</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UNAU / THY / 01</p>
+          <h4>Data Structures and Algorithms</h4>
+          <p>The core of most degrees.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UNAU / THY / 02</p>
+          <h4>University Maths</h4>
+          <p>Calculus and linear algebra.</p>
+          <a class="ag-course-link" href="/courses/college-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UNAU / THY / 03</p>
+          <h4>Competitive Programming</h4>
+          <p>Speed and correctness.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Beyond the unit</h3>
+        <span class="ag-band-sub">Projects and data</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UNAU / BYD / 01</p>
+          <h4>Git and GitHub</h4>
+          <p>Team-ready version control.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UNAU / BYD / 02</p>
+          <h4>MySQL and Databases</h4>
+          <p>Design and query.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UNAU / BYD / 03</p>
+          <h4>Data Science</h4>
+          <p>Python, ML and deep learning.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Lessons around a university timetable</h2>
+      <p class="ag-lede">Our teachers are in India, where the day overlaps Australian afternoons and evenings comfortably. Each booking uses the student's own state time, adjusted whenever daylight saving starts or ends there.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday evening</p><p class="ag-slot-l">After lectures and practicals.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Longer sessions before a busy week.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Semester break</p><p class="ag-slot-l">Foundations before the next unit.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Free first class</h3><p>A short concept check against the unit's public outline.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten students, often from different universities.</p></div>
+      <div><h3>One to one</h3><p>For one unit, one language or a repeat attempt.</p></div>
+      <div><h3>A week ahead</h3><p>Concepts taught before the lecture covers them.</p></div>
+      <div><h3>Our own problems</h3><p>Practice written by us, never taken from the unit.</p></div>
+      <div><h3>Integrity kept</h3><p>No assessed work, in any form.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Software our students have released</h2>
+      <p class="ag-lede">Projects our learners built for themselves and published. The <a class="ag-inline-link" href="/student-labs">student labs</a> show more of them.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for university coding support</h2>
+      <p class="ag-lede">University students in Australia pay one monthly fee in US dollars. There is no joining charge, and lessons can end with any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A concept check against your unit</li><li>An honest plan for the semester</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students per group</li><li>Practice problems written by us</li><li>One teacher all semester</li><li>Leave at any month's end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Built around one unit and language</li><li>Pace matched to the semester</li><li>Evening and weekend times</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Unedited reviews from our Google business profile, exactly as their authors posted them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Students ask</p>
+      <h2>Questions about coding support for university students</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is coding support for university students?</h3>
+        <p>It is live teaching of the programming concepts a university unit expects, such as functions, recursion, data structures and testing, given alongside the unit and never on assessed work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you help with my assignment?</h3>
+        <p>No. We teach the concepts with our own examples and practice problems. We do not read, write, rewrite or debug assessed work, in line with university academic integrity rules.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which language does my first-year unit use?</h3>
+        <p>It varies. ANU's COMP1100 uses a functional language, Sydney's INFO1110 teaches procedural programming, and other universities differ again. Check your unit outline; we teach the concepts in that language.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does renaming variables make copied code original?</h3>
+        <p>No. In our experiment, a copy with every name changed matched only 20.0% of lines but 100.0% of structural fingerprints. Writing your own solution is the only real answer.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is winnowing?</h3>
+        <p>It is a way of fingerprinting documents or code: hash every short sequence of tokens and keep only the smallest hash in each window, so two texts can be compared by the fingerprints they share.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>I study engineering, not computing. Can I join?</h3>
+        <p>Yes. Many of our university students take one programming unit inside another degree.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can lessons happen in the evening?</h3>
+        <p>Yes. Evening and weekend lessons are arranged in your own state time.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does it cost?</h3>
+        <p>The first class is free and needs no card. Monthly fees for groups and one-to-one lessons are in the fees section.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Also on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Language guides and other Australian pages.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>The front door to every Australian guide.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-classes-online-australia">Java classes online</a></h3><p>For Java units and the equality contract.</p></div>
+      <div><h3><a class="ag-inline-link" href="/understand-the-code-dont-copy-paste-australia">Understand the code</a></h3><p>Why pasted code fails its own promises.</p></div>
+      <div><h3><a class="ag-inline-link" href="/atar-explained-for-coding-students">ATAR explained for coding students</a></h3><p>For those still choosing a course.</p></div>
+      <div><h3><a class="ag-inline-link" href="/one-on-one-coding-tutor-australia">One-on-one coding tutor</a></h3><p>Private lessons for one unit.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-think-not-just-use-ai-tools-australia">Learn to think with AI</a></h3><p>Checking AI output instead of trusting it.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us your unit code and a time to call. The first lesson checks one concept from the unit's public outline and ends with a semester plan.</p>
+        <p class="ag-mt-40">Before booking, you can read <a class="ag-inline-link" href="/how-we-teach">how our lessons are run</a> or scan <a class="ag-inline-link" href="/courses">the full catalogue</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20university%20student%20in%20Australia%20and%20would%20like%20coding%20support%20alongside%20my%20unit.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'unau',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our team works from India, so replies come from a +91 number; we keep no Australian office. On an Australian mobile, a WhatsApp message usually gets the quickest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_unau(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Study</h4><ul><li><a href="/java-classes-online-australia">Java classes online</a></li><li><a href="/understand-the-code-dont-copy-paste-australia">Understand the code</a></li><li><a href="/problem-solving-through-coding-australia">Problem solving through coding</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/atar-explained-for-coding-students">ATAR for coding students</a></li><li><a href="/australian-student-hackathons">Student hackathons</a></li><li><a href="/one-on-one-coding-tutor-australia">One-on-one coding tutor</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Your own code, every time</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_unau = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'coding-for-university-students-australia-inline', meta: { name: name, age: age, page: 'coding-for-university-students-australia' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
