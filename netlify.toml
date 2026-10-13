@@ -22945,6 +22945,222 @@
   to = "/src/pages/java-classes-online-australia.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/app-development-course-australia"
+  to = "/src/pages/app-development-course-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/app-development-course-australia.md"
+  to = "/src/pages/app-development-course-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-for-university-students-australia"
+  to = "/src/pages/coding-for-university-students-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-for-university-students-australia.md"
+  to = "/src/pages/coding-for-university-students-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/learn-to-code-over-50-australia"
+  to = "/src/pages/learn-to-code-over-50-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/learn-to-code-over-50-australia.md"
+  to = "/src/pages/learn-to-code-over-50-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-for-adults-australia"
+  to = "/src/pages/coding-classes-for-adults-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-adults-australia.md"
+  to = "/src/pages/coding-classes-for-adults-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-for-teens-australia"
+  to = "/src/pages/coding-classes-for-teens-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-teens-australia.md"
+  to = "/src/pages/coding-classes-for-teens-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-agents-course-for-students-australia"
+  to = "/src/pages/ai-agents-course-for-students-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-agents-course-for-students-australia.md"
+  to = "/src/pages/ai-agents-course-for-students-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-agents-course-for-professionals-australia"
+  to = "/src/pages/ai-agents-course-for-professionals-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-agents-course-for-professionals-australia.md"
+  to = "/src/pages/ai-agents-course-for-professionals-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/build-real-ai-projects-australia"
+  to = "/src/pages/build-real-ai-projects-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/build-real-ai-projects-australia.md"
+  to = "/src/pages/build-real-ai-projects-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/software-development-course-australia"
+  to = "/src/pages/software-development-course-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/software-development-course-australia.md"
+  to = "/src/pages/software-development-course-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/python-classes-online-australia"
+  to = "/src/pages/python-classes-online-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/python-classes-online-australia.md"
+  to = "/src/pages/python-classes-online-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/web-development-course-for-teens-australia"
+  to = "/src/pages/web-development-course-for-teens-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/web-development-course-for-teens-australia.md"
+  to = "/src/pages/web-development-course-for-teens-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/data-science-course-australia"
+  to = "/src/pages/data-science-course-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/data-science-course-australia.md"
+  to = "/src/pages/data-science-course-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cyber-security-course-for-teens-australia"
+  to = "/src/pages/cyber-security-course-for-teens-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/cyber-security-course-for-teens-australia.md"
+  to = "/src/pages/cyber-security-course-for-teens-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-python-academy-for-girls-australia"
+  to = "/src/pages/ai-and-python-academy-for-girls-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-python-academy-for-girls-australia.md"
+  to = "/src/pages/ai-and-python-academy-for-girls-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/competitive-programming-australia"
+  to = "/src/pages/competitive-programming-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/competitive-programming-australia.md"
+  to = "/src/pages/competitive-programming-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-for-career-changers-australia"
+  to = "/src/pages/coding-for-career-changers-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-for-career-changers-australia.md"
+  to = "/src/pages/coding-for-career-changers-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/javascript-classes-online-australia"
+  to = "/src/pages/javascript-classes-online-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/javascript-classes-online-australia.md"
+  to = "/src/pages/javascript-classes-online-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/c-plus-plus-classes-online-australia"
+  to = "/src/pages/c-plus-plus-classes-online-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-classes-online-australia.md"
+  to = "/src/pages/c-plus-plus-classes-online-australia.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

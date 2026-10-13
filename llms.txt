@@ -605,6 +605,24 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Online coding classes compared, Australia: https://learn.modernagecoders.com/online-coding-classes-australia-compared
 - After-school coding club vs online class, Australia: https://learn.modernagecoders.com/after-school-coding-club-vs-online-class-australia
 - Java classes online, Australia: https://learn.modernagecoders.com/java-classes-online-australia
+- App development course, Australia: https://learn.modernagecoders.com/app-development-course-australia
+- Coding for university students, Australia: https://learn.modernagecoders.com/coding-for-university-students-australia
+- Learn to code over 50, Australia: https://learn.modernagecoders.com/learn-to-code-over-50-australia
+- Coding classes for adults, Australia: https://learn.modernagecoders.com/coding-classes-for-adults-australia
+- Coding classes for teens, Australia: https://learn.modernagecoders.com/coding-classes-for-teens-australia
+- AI agents course for students, Australia: https://learn.modernagecoders.com/ai-agents-course-for-students-australia
+- AI agents course for professionals, Australia: https://learn.modernagecoders.com/ai-agents-course-for-professionals-australia
+- Build real AI projects, Australia: https://learn.modernagecoders.com/build-real-ai-projects-australia
+- Software development course, Australia: https://learn.modernagecoders.com/software-development-course-australia
+- Python classes online, Australia: https://learn.modernagecoders.com/python-classes-online-australia
+- Web development course for teens, Australia: https://learn.modernagecoders.com/web-development-course-for-teens-australia
+- Data science course, Australia: https://learn.modernagecoders.com/data-science-course-australia
+- Cyber security course for teens, Australia: https://learn.modernagecoders.com/cyber-security-course-for-teens-australia
+- AI and Python academy for girls, Australia: https://learn.modernagecoders.com/ai-and-python-academy-for-girls-australia
+- Competitive programming, Australia: https://learn.modernagecoders.com/competitive-programming-australia
+- Coding for career changers, Australia: https://learn.modernagecoders.com/coding-for-career-changers-australia
+- JavaScript classes online, Australia: https://learn.modernagecoders.com/javascript-classes-online-australia
+- C++ classes online, Australia: https://learn.modernagecoders.com/c-plus-plus-classes-online-australia
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
