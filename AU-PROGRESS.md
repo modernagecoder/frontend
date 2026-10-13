@@ -395,7 +395,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 367 | coding-for-career-changers-australia (ccau, #785E48) | ag- national door | 3,131 | 2% vs data-science-course-australia | approximate lookup gives twenty confident wrong answers | exact vs approximate lookup | 3458cabd |
 | 368 | javascript-classes-online-australia (jsau, #244E0C) | ag- national door | 3,101 | 1.9% vs data-science-course-australia | awaiting one at a time vs Promise.all, and forEach that does not wait | sequential await vs Promise.all | 19897315 |
 | 369 | c-plus-plus-classes-online-australia (cppa, #5C3620) | ag- national door | 3,091 | 0.9% vs game-development-for-kids-australia | one ampersand saves 2.7 seconds | pass by value vs const reference | b8beacba |
-| 379 | maths-tutor-hobart (mthb, #365284) | ag- maths by city | 3,333 | 1.1% vs maths-tutor-sunnybank | how steep is the road up kunanyi | gradient as rise over run, percent and angle | (this commit) |
+| 379 | maths-tutor-hobart (mthb, #365284) | ag- maths by city | 3,333 | 1.1% vs maths-tutor-sunnybank | how steep is the road up kunanyi | gradient as rise over run, percent and angle | 07270312 |
+| 381 | maths-tutor-parramatta (mtpr, #296D66) | ag- maths by city | 3,053 | 1.5% vs maths-tutor-glen-waverley | how big is 85 hectares | area units, square metres to hectares | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
