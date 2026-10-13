@@ -599,6 +599,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Sandy Bay](/online-coding-and-python-classes-in-sandy-bay-hobart)
 - [AI and programming classes in Kingston](/ai-and-programming-classes-in-kingston-tas-hobart)
 - [Coding and AI classes in Glenorchy](/best-coding-and-ai-classes-in-glenorchy-hobart)
+- [Vibe coding and AI agent classes in Clarence](/vibe-coding-and-ai-agents-classes-in-clarence-hobart)
 <!-- AU-LINKS -->
 
 
