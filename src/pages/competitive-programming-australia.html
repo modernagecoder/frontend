@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Competitive Programming in Australia | Algorithms and Speed</title>
+  <meta name="description" content="Competitive programming coaching for Australians of any age: algorithms, online judges, time limits and fast input and output. Live online classes, first class free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/competitive-programming-australia">
+  <link rel="alternate" type="text/markdown" href="/src/pages/competitive-programming-australia.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#8E3816">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/competitive-programming-australia">
+  <meta property="og:title" content="Competitive Programming in Australia | Algorithms and Speed">
+  <meta property="og:description" content="Reading a million numbers took 0.735 s one way and 0.208 s another, in the same language. The details that decide competitive programming marks.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Competitive Programming in Australia">
+  <meta name="twitter:description" content="Competitive programming for Australians: algorithms, judges, time limits, fast input. Live online, first class free.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cpau .ag-hero h1 { letter-spacing: -0.023em; }
+.ag-root.ag-cpau .ag-capsule { border-left-width: 5px; border-radius: 2px; }
+.ag-root.ag-cpau .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-cpau .ag-table caption { text-align: left; font-weight: 625; }
+.ag-root.ag-cpau .ag-band-head h3 { letter-spacing: -0.013em; }
+.ag-root.ag-cpau .ag-slots { gap: 0.85rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/competitive-programming-australia#page","url":"https://learn.modernagecoders.com/competitive-programming-australia","name":"Competitive Programming in Australia","description":"A guide to competitive programming for Australian students and adults: how contests are judged, what to practise, and a measured example on reading input quickly.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":4,"name":"Competitive programming","item":"https://learn.modernagecoders.com/competitive-programming-australia"}]},{"@type":"Course","name":"Competitive Programming in Australia","description":"Live online competitive programming coaching for Australian teens and adults: algorithms, data structures, judge systems, time limits and efficient input and output.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/competitive-programming-australia"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/competitive-programming-australia"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/competitive-programming-australia"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is competitive programming?","acceptedAnswer":{"@type":"Answer","text":"Solving algorithm problems with code against time and memory limits, with answers checked automatically by a judge on correctness and speed."}},{"@type":"Question","name":"Which language should I use for competitive programming?","acceptedAnswer":{"@type":"Answer","text":"Python is quickest to write and enough for many problems; C++ gives more speed when limits are tight. The Australian Informatics Olympiad allows C, C++, Java or Python 3."}},{"@type":"Question","name":"Does reading input really affect speed?","acceptedAnswer":{"@type":"Answer","text":"Yes, for large inputs. In our test, reading a million numbers took 0.735 s with input() per line and 0.208 s with one bulk read in the same Python program."}},{"@type":"Question","name":"What does sync_with_stdio(false) do in C++?","acceptedAnswer":{"@type":"Answer","text":"It stops C++ streams keeping in step with C's input and output, so they can buffer independently. In our run it cut reading a million numbers from 1.434 s to 0.840 s."}},{"@type":"Question","name":"Is competitive programming only for school students?","acceptedAnswer":{"@type":"Answer","text":"No. University students compete in team contests such as the ICPC, and adults practise on online judges. We coach all ages."}},{"@type":"Question","name":"How is this page different from the AIO pages?","acceptedAnswer":{"@type":"Answer","text":"The AIO pages cover the school olympiad itself: dates, divisions and selection. This page covers the skill and contests for every age."}},{"@type":"Question","name":"How much maths do I need?","acceptedAnswer":{"@type":"Answer","text":"School maths is enough to start. Harder contests use more, which is taught as needed."}},{"@type":"Question","name":"How long until I improve?","acceptedAnswer":{"@type":"Answer","text":"It varies from learner to learner. Steady weekly practice matters more than talent, and the review after each timed set shows the progress."}},{"@type":"Question","name":"Will it help with programming jobs or school results?","acceptedAnswer":{"@type":"Answer","text":"We make no job, salary or grade promises. It builds algorithmic thinking and testing habits that are useful in any programming."}},{"@type":"Question","name":"How is coaching priced?","acceptedAnswer":{"@type":"Answer","text":"The first session is free and no card is needed. Monthly prices for group and individual coaching are shown in the fees panel."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/competitive-programming-australia","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-cpau">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#what">What it is</a></li>
+      <li><a href="#input">A worked example</a></li>
+      <li><a href="#practice">How to practise</a></li>
+      <li><a href="#routes">Routes</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Competitive programming
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Teens, uni students and adults &middot; Algorithms against the clock</p>
+        <h1>Competitive programming</h1>
+        <p class="ag-lede">Competitive programming is solving well-defined problems with code, fast and correctly, while a computer judges the answer. It rewards clear thinking about algorithms, but marks are often won or lost on smaller things: an off-by-one boundary, a slow way of reading input, an untested edge case. Our coaching covers both the big ideas and the small ones, live online, for Australian school students, university students and adults who simply enjoy puzzles. This page explains how contests work, measures one of those small things with real timings, and shows where it leads, including the school olympiad route.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#input" class="ag-btn ag-btn--ghost">See the worked example</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Australia%20and%20interested%20in%20competitive%20programming%20coaching.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cpau'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Algorithms, then the details that decide marks</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Teens, uni students and adults</dd>
+          <dt>Languages</dt><dd>Python or C++, also Java</dd>
+          <dt>Core</dt><dd>Algorithms and data structures</dd>
+          <dt>Judge</dt><dd>Automatic, timed, unforgiving</dd>
+          <dt>Practice</dt><dd>Past problems and mock contests</dd>
+          <dt>Habits</dt><dd>Testing and timing every solution</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Competitive programming is solving algorithm problems with code against a time limit, judged automatically on correctness and speed. Success depends on algorithms and data structures, but also on careful testing and efficient input and output. Modern Age Coders coaches competitive programming live online for Australian teens, university students and adults, in small groups or one to one, and the first class is free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses for contest programmers</h2>
+      <p class="ag-lede">Chosen by age and experience. Each card opens the syllabus.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="ag-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CPAU / 01</p>
+          <h3>Competitive Programming for Teens</h3>
+          <p>Ages 13 to 18 who can already write basic programs and want contest-level problem solving.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/competitive-programming-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/placement-prep-college.webp" alt="Competitive Programming Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CPAU / 02</p>
+          <h3>Competitive Programming Course</h3>
+          <p>For 18 and over, from first contests to university team competitions.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CPAU / 03</p>
+          <h3>Problem Solving and DSA for Teens</h3>
+          <p>The algorithms and data structures underneath every contest, from scratch.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="what">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What it is</p><h2>A problem, a time limit and a judge</h2><p class="ag-lede">Every contest follows the same shape, whichever organisation runs it.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Parts of a competitive programming problem</caption><thead><tr><th scope="col">Part</th><th scope="col">What it says</th><th scope="col">Common mistake</th></tr></thead><tbody><tr><td>Statement</td><td>The task in plain words, often a short story</td><td>Solving the story instead of the task</td></tr><tr><td>Input format</td><td>Exactly what the program will read</td><td>Reading it in a way that is too slow</td></tr><tr><td>Constraints</td><td>How large the input can be</td><td>Ignoring them and choosing a slow algorithm</td></tr><tr><td>Time and memory limits</td><td>How long and how much memory the program may use</td><td>Testing only on the small sample</td></tr><tr><td>Sample tests</td><td>One or two small examples</td><td>Assuming passing them means the solution is right</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Who takes part</h3><p>School students meet it first through the Australian Informatics Olympiad, which accepts four languages: "Allowed languages are C, C++, Java or Python 3."</p>
+<p>University students compete in team contests such as the ICPC, and adults keep practising on online judges for the pleasure of the puzzles.</p></div><div><h3>What it builds</h3><p>Precise reading, algorithmic thinking, and the discipline of testing before submitting.</p>
+<p>Those habits carry into any programming work, even for people who never enter a contest.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="input">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked example</p><h2>Same language, same answer, over three times faster</h2><p class="ag-lede">Problems often begin with a long list of numbers. How a program reads them can matter as much as the algorithm.</p></div>
+    <p>We generated files of 1,000, 100,000 and 1,000,000 random integers with a fixed seed and wrote programs that add them up. Each was run three times and the fastest whole-program time kept, start-up included, on an ordinary Windows laptop. Every version printed the same sum.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Time to read and add n integers (our timings, 14 October 2026)</caption><thead><tr><th scope="col">Program</th><th scope="col">n = 1,000</th><th scope="col">n = 100,000</th><th scope="col">n = 1,000,000</th></tr></thead><tbody><tr><td>Python, input() once per line</td><td>0.080 s</td><td>0.144 s</td><td>0.735 s</td></tr><tr><td>Python, sys.stdin.buffer read all at once</td><td>0.075 s</td><td>0.089 s</td><td>0.208 s</td></tr><tr><td>C++, cin with default settings</td><td>0.055 s</td><td>not run</td><td>1.434 s</td></tr><tr><td>C++, cin with sync_with_stdio(false)</td><td>0.052 s</td><td>not run</td><td>0.840 s</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Small inputs: no difference</h3><p>At 1,000 numbers every version finishes in well under a tenth of a second. The plain input() loop is fine, and simpler to write.</p></div><div><h3>Large inputs: a big one</h3><p>At a million numbers, reading everything at once is about 3.5 times faster in Python. That can be the gap between passing and a time-limit failure.</p></div><div><h3>The surprise</h3><p>On this machine's older compiler, Python's bulk read beat C++ cin even with synchronisation turned off. The language matters less than the reading method.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why C++ cin is slower by default</h3><p>By default C++ streams stay in step with C's input functions. cppreference explains the switch: "If the synchronization is turned off, the C++ standard streams are allowed to buffer their I/O independently, which may be considerably faster in some cases."</p>
+<p>In our run, turning it off cut 1.434 s to 0.840 s.</p></div><div><h3>The lesson students keep</h3><p>Measure on input as large as the constraints allow, not on the sample. Simple code is right for small inputs; switch to bulk reading only when the numbers say it matters.</p>
+<p>Our timings depend on the machine and compiler, so students repeat them on their own.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 14 October 2026: <a class="ag-inline-link" href="https://en.cppreference.com/w/cpp/io/ios_base/sync_with_stdio" rel="noopener" target="_blank">cppreference, std::ios_base::sync_with_stdio</a>; <a class="ag-inline-link" href="https://www.amt.edu.au/australian-informatics-olympiad" rel="noopener" target="_blank">Australian Maths Trust, Australian Informatics Olympiad</a>. Programs, inputs and timings are our own.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How to practise</p><h2>A weekly routine that works</h2><p class="ag-lede">Progress in competitive programming comes from steady practice with honest review, not from cramming.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A typical week for a coached learner</caption><thead><tr><th scope="col">Session</th><th scope="col">Activity</th><th scope="col">Purpose</th></tr></thead><tbody><tr><td>Lesson 1</td><td>A new topic, such as prefix sums or graph search, with worked problems</td><td>Add one idea to the toolkit</td></tr><tr><td>Lesson 2</td><td>A timed set of three problems, then a review of every attempt</td><td>Practise under pressure, learn from mistakes</td></tr><tr><td>Own time</td><td>Two or three problems on an online judge at the right level</td><td>Keep the habit going</td></tr><tr><td>Every few weeks</td><td>A full mock contest</td><td>Pacing, choosing which problem to try first</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Testing before submitting</h3><p>Students write a slow but obviously correct version, generate random small inputs, and compare it with the fast version before they submit.</p>
+<p>They also build the largest input the constraints allow and time the program on it, exactly as in the example above.</p></div><div><h3>Choosing a language</h3><p>Python is quickest to write and fine for most problems at school level. C++ gives more headroom when time limits are tight.</p>
+<p>Many learners start in Python and add C++ later; our <a class="ag-inline-link" href="/c-plus-plus-classes-online-australia">C++ classes</a> cover the language itself.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="routes">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Routes</p><h2>Where competitive programming leads in Australia</h2><p class="ag-lede">Different ages follow different routes. This page covers the skill; dedicated pages cover the school olympiad.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Routes by stage</caption><thead><tr><th scope="col">Stage</th><th scope="col">Route</th><th scope="col">Where to read more</th></tr></thead><tbody><tr><td>School, up to Year 12</td><td>The Australian Informatics Olympiad and the training that follows it</td><td>AIO preparation and the AIO to IOI pathway pages</td></tr><tr><td>University</td><td>Team contests such as the ICPC, and university programming clubs</td><td>This page and our adult course</td></tr><tr><td>Adults</td><td>Online judges and rated contests, for skill and enjoyment</td><td>This page</td></tr><tr><td>Anyone</td><td>Algorithm practice to sharpen general programming</td><td>The software development course</td></tr></tbody></table></div>
+    <p class="ag-mt-40">School students should read <a class="ag-inline-link" href="/australian-informatics-olympiad-preparation">Australian Informatics Olympiad preparation</a> and <a class="ag-inline-link" href="/aio-to-ioi-pathway-australia">the AIO to IOI pathway</a> for dates, divisions and the selection route. This page does not repeat them.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="mistakes">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Common mistakes</p><h2>Why correct ideas still fail the judge</h2><p class="ag-lede">Many failed submissions have the right algorithm and a small slip around it. Reviews focus on these as much as on the big idea.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Frequent reasons a good idea is marked wrong</caption><thead><tr><th scope="col">Slip</th><th scope="col">What happens</th><th scope="col">The habit that prevents it</th></tr></thead><tbody><tr><td>Output format</td><td>An extra space or missing line fails an exact checker</td><td>Copy the sample output format exactly</td></tr><tr><td>Boundary values</td><td>The smallest or largest allowed input breaks the code</td><td>Test n = 1 and the maximum before submitting</td></tr><tr><td>Leftover debug prints</td><td>Extra text in the output is marked wrong</td><td>Print debugging to the error stream, not the output</td></tr><tr><td>Slow input or output</td><td>Correct answers arrive after the time limit</td><td>Time the program on the largest input</td></tr><tr><td>Integer size in C or C++</td><td>Sums overflow a 32-bit int</td><td>Use 64-bit types when values can grow large</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reviewing an attempt</h3><p>After a timed set, each learner explains one wrong submission: what the judge said, what they guessed, and what the fault really was.</p>
+<p>Writing the fault down turns one mistake into a rule they keep.</p></div><div><h3>Not every failure is a slip</h3><p>Sometimes the algorithm itself is too slow or wrong, and no amount of tidying will fix it. Telling the two apart quickly is a skill that grows with practice.</p>
+<p>The review asks which kind each failure was.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="mindset">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Mindset</p><h2>Getting better at problems you cannot yet solve</h2><p class="ag-lede">Competitive programming means being stuck often. Learning how to be stuck productively is part of the coaching.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What to do when stuck on a problem</caption><thead><tr><th scope="col">Minutes stuck</th><th scope="col">Next step</th></tr></thead><tbody><tr><td>10</td><td>Reread the statement and work a small example by hand</td></tr><tr><td>20</td><td>Write the slowest correct solution you can think of</td></tr><tr><td>40</td><td>Look for a pattern in the brute force outputs</td></tr><tr><td>60 or more</td><td>Read a hint or editorial, then solve it again from scratch the next day</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the brute force helps</h3><p>A slow correct answer is never wasted. It confirms the problem is understood and gives a way to test a faster idea later.</p>
+<p>Many solutions are found by looking hard at what the brute force prints.</p></div><div><h3>Reading solutions is allowed</h3><p>After a fair attempt, reading someone else's solution is how most competitors learn new techniques.</p>
+<p>The rule is to close it and write your own version without looking.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>Four levels of contest skill</h2>
+      <p class="ag-lede">Each level is a set of skills, not a fixed timetable; the reviews show when a learner is ready for the next.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From first solve to contest-ready</caption><thead><tr><th scope="col">Level</th><th scope="col">What you can do</th></tr></thead><tbody><tr><td>1. Solver</td><td class="ag-num">Read a problem precisely and solve easy ones with loops and arrays</td></tr><tr><td>2. Analyst</td><td class="ag-num">Estimate whether an approach fits the constraints before coding it</td></tr><tr><td>3. Toolkit</td><td class="ag-num">Use sorting, prefix sums, binary search, graphs and simple dynamic programming</td></tr><tr><td>4. Competitor</td><td class="ag-num">Pace a full contest, test under time pressure, and review afterwards</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Is it only for maths prodigies?</h3><p>No. It rewards persistence and careful reading more than talent. Most of the skill is learnable patterns plus practice.</p>
+<p>School maths is enough to begin.</p></div><div><h3>Can adults start now?</h3><p>Yes. Many adults take it up for enjoyment or to sharpen their programming. The adult course starts from the basics.</p>
+<p>There is no age limit on online judges.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Courses for competitive programmers</h2>
+      <p class="ag-lede">Grouped by stage. The free class decides where a learner starts.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">Before contests</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CPAU / FND / 01</p>
+          <h4>Problem Solving and DSA for Teens</h4>
+          <p>Logic and algorithms, 13 to 18.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPAU / FND / 02</p>
+          <h4>Python for Teens</h4>
+          <p>The fastest language to start in.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPAU / FND / 03</p>
+          <h4>Data Structures and Algorithms</h4>
+          <p>For 18 and over.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Contest training</h3>
+        <span class="ag-band-sub">Timed problem solving</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CPAU / CON / 01</p>
+          <h4>Competitive Programming for Teens</h4>
+          <p>Contest problems, 13 to 18.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPAU / CON / 02</p>
+          <h4>Competitive Programming Course</h4>
+          <p>Online judges to team contests, 18+.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPAU / CON / 03</p>
+          <h4>Maths Olympiad and Competition Course</h4>
+          <p>The maths behind harder problems.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Faster languages</h3>
+        <span class="ag-band-sub">When time is tight</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CPAU / LNG / 01</p>
+          <h4>C++ for Teens</h4>
+          <p>STL and speed, 13 to 18.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPAU / LNG / 02</p>
+          <h4>C++ Masterclass</h4>
+          <p>Modern C++ for adults.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPAU / LNG / 03</p>
+          <h4>Java for Teens</h4>
+          <p>Another allowed contest language.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Coaching in Australian time</h2>
+      <p class="ag-lede">Coaches are based in India, where the working day overlaps Australian afternoons and evenings. Times are set in your own state's time and follow daylight saving.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Weekday lessons for school students.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evening</p><p class="ag-slot-l">For university students and adults, by arrangement.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Mock contests and long reviews.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Free first class</h3><p>One problem solved together and a check of the learner's current level.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten learners at the same level, comparing solutions.</p></div>
+      <div><h3>One to one</h3><p>For a particular contest, language or gap.</p></div>
+      <div><h3>Every attempt reviewed</h3><p>Wrong answers are studied, not skipped.</p></div>
+      <div><h3>Timed on real sizes</h3><p>Solutions are tested on inputs as big as the constraints allow.</p></div>
+      <div><h3>Learner's own code</h3><p>Coaches guide; learners write every solution.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Built by our learners</h2>
+      <p class="ag-lede">Work our students built and published. The <a class="ag-inline-link" href="/student-labs">student labs</a> list more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for competitive programming coaching</h2>
+      <p class="ag-lede">Learners outside India pay one monthly fee in US dollars. There is nothing to pay at sign-up and no contract.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>One problem solved together</li><li>An honest view of the learner's level</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten learners at one level</li><li>Timed sets and group review</li><li>A regular coach</li><li>Stop after any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Coaching around one learner's goals</li><li>Any of Python, C++ or Java</li><li>Times around school, uni or work</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Published reviews from our Google profile, quoted exactly.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learners ask</p>
+      <h2>Questions about competitive programming in Australia</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is competitive programming?</h3>
+        <p>Solving algorithm problems with code against time and memory limits, with answers checked automatically by a judge on correctness and speed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which language should I use for competitive programming?</h3>
+        <p>Python is quickest to write and enough for many problems; C++ gives more speed when limits are tight. The Australian Informatics Olympiad allows C, C++, Java or Python 3.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does reading input really affect speed?</h3>
+        <p>Yes, for large inputs. In our test, reading a million numbers took 0.735 s with input() per line and 0.208 s with one bulk read in the same Python program.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does sync_with_stdio(false) do in C++?</h3>
+        <p>It stops C++ streams keeping in step with C's input and output, so they can buffer independently. In our run it cut reading a million numbers from 1.434 s to 0.840 s.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is competitive programming only for school students?</h3>
+        <p>No. University students compete in team contests such as the ICPC, and adults practise on online judges. We coach all ages.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is this page different from the AIO pages?</h3>
+        <p>The AIO pages cover the school olympiad itself: dates, divisions and selection. This page covers the skill and contests for every age.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much maths do I need?</h3>
+        <p>School maths is enough to start. Harder contests use more, which is taught as needed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long until I improve?</h3>
+        <p>It varies from learner to learner. Steady weekly practice matters more than talent, and the review after each timed set shows the progress.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will it help with programming jobs or school results?</h3>
+        <p>We make no job, salary or grade promises. It builds algorithmic thinking and testing habits that are useful in any programming.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is coaching priced?</h3>
+        <p>The first session is free and no card is needed. Monthly prices for group and individual coaching are shown in the fees panel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Also on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Pages beside this one.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/australian-informatics-olympiad-preparation">AIO preparation</a></h3><p>For the school olympiad.</p></div>
+      <div><h3><a class="ag-inline-link" href="/aio-to-ioi-pathway-australia">AIO to IOI pathway</a></h3><p>The selection route.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-classes-online-australia">C++ classes online</a></h3><p>The language in depth.</p></div>
+      <div><h3><a class="ag-inline-link" href="/software-development-course-australia">Software development course</a></h3><p>Testing, Git and debugging.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></h3><p>Contest dates through the year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>The starting point for every Australian topic.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free coaching session</h2>
+        <p class="ag-lede">Leave your details and we will call at a good time. The first class solves a problem together and ends with a clear recommendation.</p>
+        <p class="ag-mt-40">Read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or see the <a class="ag-inline-link" href="/courses">full course list</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Australia%20and%20interested%20in%20competitive%20programming%20coaching.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cpau',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp from an Australian phone is the fastest route to a coach. The +91 number is our India office; nothing is based in Australia.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cpau(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Algorithms</h4><ul><li><a href="/australian-informatics-olympiad-preparation">AIO preparation</a></li><li><a href="/aio-to-ioi-pathway-australia">AIO to IOI pathway</a></li><li><a href="/c-plus-plus-classes-online-australia">C++ classes</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/software-development-course-australia">Software development</a></li><li><a href="/javascript-classes-online-australia">JavaScript classes</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Time it on the biggest input</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cpau = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'competitive-programming-australia-inline', meta: { name: name, age: age, page: 'competitive-programming-australia' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

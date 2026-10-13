@@ -627,6 +627,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Data science course](/data-science-course-australia)
 - [Cyber security course for teens](/cyber-security-course-for-teens-australia)
 - [AI and Python academy for girls](/ai-and-python-academy-for-girls-australia)
+- [Competitive programming](/competitive-programming-australia)
 <!-- AU-LINKS -->
 
 
