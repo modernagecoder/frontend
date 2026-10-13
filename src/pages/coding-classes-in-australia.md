@@ -589,6 +589,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Tuggeranong](/online-coding-and-python-classes-in-tuggeranong-canberra)
 - [AI and programming classes in Woden](/ai-and-programming-classes-in-woden-canberra)
 - [Coding and AI classes in Weston Creek](/best-coding-and-ai-classes-in-weston-creek-canberra)
+- [Vibe coding and AI agents classes in Molonglo](/vibe-coding-and-ai-agents-classes-in-molonglo-canberra)
 <!-- AU-LINKS -->
 
 
