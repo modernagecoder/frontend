@@ -387,7 +387,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 359 | java-classes-online-australia (jvau, #8A525E) | ag- language and track door | 3,514 | 0.9% vs coding-classes-for-adults-australia | the library set that held 1,000 books for 119 titles | the equals and hashCode contract | 6350eaae |
 | 360 | app-development-course-australia (apdv, #435272) | ag- language and track door | 3,324 | 0.6% vs coding-for-university-students-australia | measuring every tappable target on the page against WCAG 2.2 | touch target size audit | 598e6b65 |
 | 361 | software-development-course-australia (sdau, #122A72) | ag- national door | 3,144 | 1.4% vs ai-and-python-academy-for-girls-australia | git bisect finds the commit that broke change(145) | git bisect | 990f6331 |
-| 362 | web-development-course-for-teens-australia (wdtn, #106A10) | ag- national door | 3,152 | 1.5% vs cyber-security-course-for-teens-australia | the same picture in four formats, and JPEG loses on a wireframe | choosing an image format by content | (this commit) |
+| 362 | web-development-course-for-teens-australia (wdtn, #106A10) | ag- national door | 3,152 | 1.5% vs cyber-security-course-for-teens-australia | the same picture in four formats, and JPEG loses on a wireframe | choosing an image format by content | ec16170e |
+| 363 | data-science-course-australia (dsau, #4E360E) | ag- national door | 3,126 | 2% vs coding-for-career-changers-australia | the average council that does not exist | mean vs median on skewed data | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
