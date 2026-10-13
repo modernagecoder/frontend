@@ -14,7 +14,7 @@ United Kingdom · Training models · Ages 12 to 67
 
 The UK government publishes an introduction to AI assurance, and in it there is a list of six techniques an organisation can apply to an AI system. Risk assessment. Impact assessment. Bias audit. Compliance audit. Conformity assessment. Formal verification. Read them together and something becomes obvious: every single one operates on a system somebody built, with input data somebody chose and outputs somebody can measure against a benchmark. Not one of them can be applied to a prompt. That is the practical difference between training a model and typing at one, and it is the reason this page exists. Prompting is a thing you do to a product. Training is a thing you can be held to account for, and therefore a thing worth learning.
 
-At a glance: The question: Can the work be checked?; Prompting: No inputs, no benchmark, no audit; Training: All six assurance techniques apply; We teach: Data, training, evaluation, failure; Ages: About 12 upwards, and adults; Group: Five to ten at one level; Or: One to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: The question: Can the work be checked?; Prompting: No inputs, no benchmark, no audit; Training: All six assurance techniques apply; We teach: Data, training, evaluation, failure; Ages: About 12 upwards, and adults; Group: Fifteen to twenty at one level; Or: One to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses about building, not using
 

@@ -172,7 +172,7 @@ Honest comparison
 
 - Zero commute, no Ramrajatala level-crossing, no Andul Road or GT Road traffic, no auto-swap at Santragachi, no bridge to Kolkata; about 90 minutes saved each class day.
 - Access to full-time engineers and maths graduates a small Howrah locality could never staff offline.
-- Small live batches of 15–20 with real-time screen sharing and instant doubt-clearing.
+- Live batches of 15–20 with real-time screen sharing and instant doubt-clearing.
 - The same premium teacher and curriculum as a Salt Lake child, true equity, not a watered-down local version.
 - Safer for kids and girls, no evening travel through crowded crossings; learning happens at home.
 - Recorded revision support and shared notes after each live class for missed concepts.

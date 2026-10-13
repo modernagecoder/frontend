@@ -10,9 +10,9 @@ AI/ML Projects • **a portfolio that gets you hired**
 
 # AI & ML Projects for Students
 
-Marks open doors; projects walk through them. Build a portfolio of real, mentor-reviewed AI/ML projects in Python, each one explained so you can speak to it in interviews. Perfect for internships, placements and final-year projects. Live, hands-on, small batches.
+Marks open doors; projects walk through them. Build a portfolio of real, mentor-reviewed AI/ML projects in Python, each one explained so you can speak to it in interviews. Perfect for internships, placements and final-year projects. Live, hands-on, batches.
 
-Book a Free DemoSee the Roadmap**Portfolio**Real projects**5–8**Students per batch**GitHub**Show your work**Live**Mentor-reviewed
+Book a Free DemoSee the Roadmap**Portfolio**Real projects**15–20**Students per batch**GitHub**Show your work**Live**Mentor-reviewed
 
 ## Quick answer
 

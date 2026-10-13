@@ -52,7 +52,7 @@ module.exports = {
     ['Languages', 'Python first, then Java or JavaScript'],
     ['Integrity', 'We never write assessed work'],
     ['Format', 'Live online video'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
@@ -222,7 +222,7 @@ module.exports = {
       { h3: 'Contracts written', p: 'Students state what each function promises before writing it.' },
       { h3: 'Tests by the student', p: 'Students write their own checks, including the awkward cases.' },
       { h3: 'Explain it back', p: 'A program is finished when the student can explain every line.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students, or one to one.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students, or one to one.' },
       { h3: 'Never your assessment', p: 'We teach technique; assessed work stays the student\'s own.' }
     ]
   },

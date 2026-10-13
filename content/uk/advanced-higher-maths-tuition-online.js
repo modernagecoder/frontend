@@ -64,7 +64,7 @@ module.exports = {
     ['Content', 'Algebra and proof, calculus, matrices and complex numbers'],
     ['Entries in 2025', '4,469 resulted'],
     ['Entry', 'Higher Mathematics or equivalent'],
-    ['Group', 'Five to ten at one stage'],
+    ['Group', 'Fifteen to twenty at one stage'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',

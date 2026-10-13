@@ -204,7 +204,7 @@ The first lesson is free. After that a group place is USD 100 a month for about 
 
 ### How many learners are in a group?
 
-Five to ten, matched by level, pace and goals rather than age or address. If no group runs at a time that suits, lessons are one to one.
+Fifteen to twenty, matched by level, pace and goals rather than age or address. If no group runs at a time that suits, lessons are one to one.
 
 ## Around Finglas
 

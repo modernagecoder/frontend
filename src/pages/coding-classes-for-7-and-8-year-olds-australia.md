@@ -14,7 +14,7 @@ Australia · Ages 7 and 8 · Live online
 
 Seven and eight is often the age when coding clicks. Children of this age read well enough to follow block labels, control a mouse with real precision and, most importantly, have opinions about what they want to make: a story where their dog is the hero, a game where the floor is lava, a quiz for their little brother. That combination of skill and ambition makes this a wonderful age to start properly. This page explains what a seven or eight year old can realistically build, works through the single idea that most changes how they code (the loop), shows how it lines up with Years 2 to 4 of the Australian Curriculum, and describes our live online lessons for this age group.
 
-At a glance: For: Children aged 7 and 8; School years: Usually Years 2 and 3; Main tool: Scratch; Big new idea: Loops; Projects: Stories, games, quizzes; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children aged 7 and 8; School years: Usually Years 2 and 3; Main tool: Scratch; Big new idea: Loops; Projects: Stories, games, quizzes; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three good first courses at seven and eight
 
@@ -221,7 +221,7 @@ We teach from India, and every Australian state is some hours ahead of us. An af
 - **Sunday** For families with Saturday sport.
 
 - **A free first class** Your child makes a small animation with a teacher, and you see how they respond.
-- **Small groups** Fifteen to twenty children of similar age who enjoy showing each other their projects.
+- **Groups** Fifteen to twenty children of similar age who enjoy showing each other their projects.
 - **One to one** For a child who wants to race ahead or needs a quieter start.
 - **Hands on the mouse** The child builds every project. Teachers ask questions instead of taking over.
 - **Families can join** Lessons are live, and a parent is always welcome to watch.

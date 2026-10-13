@@ -64,7 +64,7 @@ module.exports = {
     ['Coursework', 'None'],
     ['Entries in 2025', '34,846 resulted'],
     ['Awarded by', 'Qualifications Scotland, since February 2026'],
-    ['Group', 'Five to ten at one stage'],
+    ['Group', 'Fifteen to twenty at one stage'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',

@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Hull learners
 canonical: https://learn.modernagecoders.com/best-coding-class-in-hull
 source: src/pages/best-coding-class-in-hull.html
 ---
-> Census 2021 counted 267,014 usual residents in Kingston upon Hull, where children aged five to nine made up 6.5% of the population against 5.9% in England. Hull has run its own telephone network since its first exchange opened in 1904, which is why its phone boxes are cream. We teach Hull learners aged six to sixty-seven in live online lessons, in a level-matched group of fifteen to twenty or one to one, with teachers based in India and times set in UK hours. There is no charge for the first lesson; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
+> Census 2021 counted 267,014 usual residents in Kingston upon Hull, where children aged five to nine made up 6.5% of the population against 5.9% in England. Hull has run its own telephone network since its first exchange opened in 1904, which is why its phone boxes are cream. We teach Hull learners aged six to sixty-seven in live online lessons, in an level-matched group of fifteen to twenty or one to one, with teachers based in India and times set in UK hours. There is no charge for the first lesson; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Hull
 
@@ -12,7 +12,7 @@ Kingston upon Hull, East Yorkshire / Live online
 
 # Coding classes in Hull
 
-**What are the best coding classes in Hull?** Census 2021 counted 267,014 usual residents in Kingston upon Hull, where children aged five to nine made up 6.5% of the population against 5.9% in England. Hull has run its own telephone network since its first exchange opened in 1904, which is why its phone boxes are cream. We teach Hull learners aged six to sixty-seven in live online lessons, in a level-matched group of fifteen to twenty or one to one, with teachers based in India and times set in UK hours. There is no charge for the first lesson; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
+**What are the best coding classes in Hull?** Census 2021 counted 267,014 usual residents in Kingston upon Hull, where children aged five to nine made up 6.5% of the population against 5.9% in England. Hull has run its own telephone network since its first exchange opened in 1904, which is why its phone boxes are cream. We teach Hull learners aged six to sixty-seven in live online lessons, in an level-matched group of fifteen to twenty or one to one, with teachers based in India and times set in UK hours. There is no charge for the first lesson; after it, a group place is USD 100 a month and one-to-one teaching USD 150 a month.
 
 At 07:00 GMT on 13 September 2026 the Environment Agency gauge at the Hull Barrier read 4.235 metres above Ordnance Datum, the highest tide in four weeks of readings. Ordnance Survey's 50-metre height grid puts 86.9% of Hull's land at or below that level. Does that mean the tide could cover most of Hull? No, because the grid knows heights and nothing else. A flood fill starting in the Humber can move into any low cell next to one already reached, and it reports almost all of that land as connected. The embankments, dock walls and tidal barrier that actually hold the water back are narrower than one cell, so the model never sees them. Our teenagers write the fill, then learn to say exactly what it proves and what it cannot.
 

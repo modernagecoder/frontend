@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'Student-led typing', p: 'With the screen shared, the learner writes prompts and code; the tutor steers by asking questions.' },
       { h3: 'Trial sets the start', p: 'We learn in the first lesson what can be taken as known, and ask about exam boards.' },
       { h3: 'Free opening lesson', p: 'It is a real lesson, without charge, that ends in a course suggestion.' },
-      { h3: 'Same-level classes', p: 'Groups have five to ten UK learners who are at one stage together.' },
+      { h3: 'Same-level classes', p: 'Groups have fifteen to twenty UK learners who are at one stage together.' },
       { h3: 'Two lessons weekly', p: 'Holiday weeks are skipped when you let us know.' },
       { h3: 'Time that stays put', p: 'Clock changes in March and October do not move your slot.' }
     ],

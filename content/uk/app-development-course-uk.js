@@ -63,7 +63,7 @@ module.exports = {
     ['Children\'s code', 'ICO, 15 standards'],
     ['Designed in', 'Minimal permissions, data deletion'],
     ['Default', 'High privacy, location off'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -241,7 +241,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'We check your starting point and choose a framework with you.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners of similar age and level.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners of similar age and level.' },
       { h3: 'One to one', p: 'For a specific app idea or a faster pace.' },
       { h3: 'Your own device', p: 'Apps run on your phone or an emulator from the early weeks.' },
       { h3: 'Privacy checklist', p: 'Every project passes the same short checklist before it counts as done.' },

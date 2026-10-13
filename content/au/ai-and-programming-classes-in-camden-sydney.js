@@ -314,7 +314,7 @@ module.exports = {
       { h3: 'Watched as it is written', p: 'Every program is typed during the class with the teacher following the learner\'s screen.' },
       { h3: 'Speaking the NSW language', p: 'Teachers refer to Stages and Years the way Camden schools do, so progress is easy to place.' },
       { h3: 'A first lesson on us', p: 'The opening class costs nothing; afterwards the teacher proposes where to start and when.' },
-      { h3: 'Matched classmates', p: 'A group holds five to ten people working at the same stage; one-to-one is there for anyone who wants it.' },
+      { h3: 'Matched classmates', p: 'A group holds fifteen to twenty people working at the same stage; one-to-one is there for anyone who wants it.' },
       { h3: 'Same slot each week', p: 'Classes run twice weekly, close to eight in a month, and any gaps are announced well in advance.' },
       { h3: 'Teachers in India', p: 'A 5pm Camden lesson is 11:30am India time under Sydney summer time and 12:30pm outside it.' }
     ],

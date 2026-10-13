@@ -58,7 +58,7 @@ module.exports = {
     ['Covers', 'Python, C, Java, DSA, web, AI'],
     ['Fits', 'Irish semesters and exams'],
     ['Builds', 'A portfolio, from first year'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Never', 'Work submitted for assessment'],
     ['Start', 'A free first class']

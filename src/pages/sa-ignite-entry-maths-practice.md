@@ -175,7 +175,7 @@ Our teachers are in India, behind Adelaide. During daylight saving Adelaide is f
 
 - **Boards and dominoes** Students colour, cut and test ideas by hand.
 - **Arguments written down** Every claim of impossibility needs a reason.
-- **Fifteen to twenty per group** Small groups that discuss together.
+- **Fifteen to twenty per group** Groups that discuss together.
 - **One-to-one lessons** For a student who wants to go deep alone.
 - **Not Ignite coaching** We teach mathematics, not assessment drills.
 - **No offer claims** Entry decisions rest with the schools.

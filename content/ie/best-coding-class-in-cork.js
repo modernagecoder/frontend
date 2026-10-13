@@ -205,7 +205,7 @@ module.exports = {
       { h3: 'Wherever the laptop is', p: 'Carrigaline and Blackpool sit in the same group without either learner leaving the house at half four.' },
       { h3: 'Your school year, your words', p: 'Teachers use the Irish stages by name, from First Year through Transition Year to sixth, so nothing has to be translated for a parent.' },
       { h3: 'Nothing to pay to try', p: 'The opening lesson is genuine teaching on a genuine task; a level, a course and an hour are proposed afterwards, and no payment details are requested.' },
-      { h3: 'Small groups, many countries', p: 'Each group holds fifteen to twenty learners of matching ability, drawn from Cork and elsewhere, which is what makes a sensible hour possible at every level.' },
+      { h3: 'Groups, many countries', p: 'Each group holds fifteen to twenty learners of matching ability, drawn from Cork and elsewhere, which is what makes a sensible hour possible at every level.' },
       { h3: 'Planned around term', p: 'The usual rhythm is two lessons a week, about eight in a month, held at the same time, and families decide with the teacher when to pause for mid-terms or exams.' },
       { h3: 'A clock that does not move', p: 'India stays on one time all year while Ireland changes twice, leaving our teachers four and a half hours ahead in summer and five and a half in winter; Cork afternoons, evenings and weekend mornings all land comfortably.' }
     ],

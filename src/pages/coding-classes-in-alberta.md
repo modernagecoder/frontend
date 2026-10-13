@@ -256,7 +256,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 Group$100per month, 8 classes
 
-For a learner who gains from hearing how others approached the same problem, at the shared level of a five to eight person group.
+For a learner who gains from hearing how others approached the same problem, at the shared level of a fifteen to twenty person group.
 
 Private$150per month, 8 classes
 

@@ -206,9 +206,9 @@ Live for the whole hour, watching the student work rather than presenting at the
 
 HOPE is decided on rigor credits and a grade point average together. Splitting the two subjects across two providers makes that harder to manage, not easier.
 
-### Five to eight, one teacher
+### Fifteen to twenty, one teacher
 
-Small groups that keep the same teacher every week, or one to one where a student needs the hour to themselves.
+Groups that keep the same teacher every week, or one to one where a student needs the hour to themselves.
 
 ### An exam somebody else marks
 

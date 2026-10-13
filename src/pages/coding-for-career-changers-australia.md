@@ -14,7 +14,7 @@ Australia · Adults · From your current work to code
 
 Many adults who decide to learn programming already do half of it at work: they build spreadsheets, clean up lists, match records from two systems and notice when the numbers look wrong. Our coding for career changers programme starts from those skills instead of pretending you are a beginner at everything. Lessons are live online and timed around a working week, and the plan is honest about how long things take. This page shows what carries over, works through a spreadsheet mistake that Python makes visible, and answers the questions career changers usually ask, without promising jobs or salaries.
 
-At a glance: For: Adults changing or adding a skill; Start: From spreadsheets and office work; Language: Python, then SQL; Focus: Data, automation, real projects; Pace: Two lessons a week around work; Format: Live online; Group: Five to ten, or one to one; First step: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Adults changing or adding a skill; Start: From spreadsheets and office work; Language: Python, then SQL; Focus: Data, automation, real projects; Pace: Two lessons a week around work; Format: Live online; Group: Fifteen to twenty, or one to one; First step: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three starting points for adults
 
@@ -237,7 +237,7 @@ Teachers are based in India, whose working day overlaps Australian afternoons an
 - **Daytime** For shift workers and those between jobs.
 
 - **Free first class** A short script on a messy file, and an honest plan.
-- **Adult groups** Five to ten adults at a similar stage.
+- **Adult groups** Fifteen to twenty adults at a similar stage.
 - **One to one** For irregular hours or a specific project.
 - **Your field's data** Projects built around the kind of work you know.
 - **No jargon wall** Terms are explained the first time they appear.

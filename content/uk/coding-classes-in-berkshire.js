@@ -178,7 +178,7 @@ module.exports = {
       { h3: 'Wherever the learner is', p: 'A bedroom in Sandhurst, a dining table in Twyford, a study in Cookham. The teacher shares a screen, the learner types and talks.' },
       { h3: 'The words UK schools use', p: 'Key Stages, GCSE options and A levels are called what families here call them, and everything is taught in English.' },
       { h3: 'A free class to begin', p: 'A real session of work, ending with a clear view of the right level and course. No card details are needed.' },
-      { h3: 'Classmates at your stage', p: 'A group holds five to ten people who can already do roughly the same things, drawn from many towns and countries, which is what makes an evening slot at the right level possible.' },
+      { h3: 'Classmates at your stage', p: 'A group holds fifteen to twenty people who can already do roughly the same things, drawn from many towns and countries, which is what makes an evening slot at the right level possible.' },
       { h3: 'Breaks agreed per family', p: 'Two lessons a week is typical. With six councils and many academies setting dates, holidays are fixed with each family, not assumed.' },
       { h3: 'Booked in UK time', p: 'Teaching happens from India, where the clock runs 4.5 hours ahead of British Summer Time and 5.5 ahead of Greenwich Mean Time; whatever the season, your slot is written in UK time.' }
     ],

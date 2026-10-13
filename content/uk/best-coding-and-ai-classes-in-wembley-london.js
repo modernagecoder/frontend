@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'The learner types', p: 'Students write and run every line; the tutor follows the shared screen and asks what each result shows.' },
       { h3: 'Found in the first hour', p: 'The trial shows us the right opening topic and which exam board, if any, lies ahead.' },
       { h3: 'Free first lesson', p: 'Lesson one costs nothing and ends with a course suggestion.' },
-      { h3: 'Matched peers', p: 'Groups hold five to ten British learners at a similar level, wherever they live.' },
+      { h3: 'Matched peers', p: 'Groups hold fifteen to twenty British learners at a similar level, wherever they live.' },
       { h3: 'Two a week', p: 'Lessons pause during school holidays.' },
       { h3: 'A slot that holds', p: 'When UK clocks change our tutors move, so your lesson time does not.' }
     ],

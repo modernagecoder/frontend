@@ -14,7 +14,7 @@ Australia · Ages 5 and 6 · Live online from 6
 
 Five and six year olds can absolutely start thinking like programmers, but what that looks like is very different from what most parents picture. At this age, coding is not about typing or screens. It is about putting steps in order, noticing when the order matters, and spotting when the same step happens again and again. Australian schools start exactly there: the Foundation year of the Australian Curriculum talks about representing ideas with symbols and pictures, and Years 1 and 2 talk about following and describing sequences of steps. This page explains what is realistic at five and at six, gives you a simple arrow-card game that teaches a real programming idea at the kitchen table, and sets out how our live online lessons begin once a child turns six.
 
-At a glance: For: Children aged 5 and 6; School years: Foundation year and Year 1; Live classes: From age 6; At age 5: Unplugged games at home; First tool: Scratch, with blocks; Reading needed: Simple words only; Group: Five to ten, or one to one; Start: A free first class at 6. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children aged 5 and 6; School years: Foundation year and Year 1; Live classes: From age 6; At age 5: Unplugged games at home; First tool: Scratch, with blocks; Reading needed: Simple words only; Group: Fifteen to twenty, or one to one; Start: A free first class at 6. Rated 4.9 across 547 Google reviews.
 
 ## First courses for the youngest coders
 
@@ -212,7 +212,7 @@ Our teachers are in India, and India time is behind every Australian state, so w
 - **One to one** For a shy child or a family with an unusual timetable.
 
 - **A free first class** The teacher checks whether your six year old is ready, and tells you honestly if waiting would be better.
-- **Small groups** Fifteen to twenty children of a similar age and level, with plenty of turns.
+- **Groups** Fifteen to twenty children of a similar age and level, with plenty of turns.
 - **One to one** Every minute is your child's, at exactly their pace.
 - **Their own clicks** The child moves every block. The teacher guides with questions and demonstrations.
 - **Parents in the room** For this age we encourage it, and you will see exactly what your child learns.

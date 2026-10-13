@@ -274,7 +274,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'We see where you are and suggest a route towards the option you are interested in.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students at the same level.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students at the same level.' },
       { h3: 'One to one', p: 'For a faster pace or a specific deadline.' },
       { h3: 'Projects you choose', p: 'Your project, in your own GitHub account, so it stays yours.' },
       { h3: 'Code read line by line', p: 'A teacher reads your program and explains what to improve.' },

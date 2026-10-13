@@ -72,7 +72,7 @@ module.exports = {
     ['Covers', 'Networks, passwords, phishing, malware, encryption'],
     ['Ends with', 'Instructor-built capture-the-flag puzzles'],
     ['Practice on', 'Own devices and built puzzles only'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',

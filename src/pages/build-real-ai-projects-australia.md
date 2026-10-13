@@ -14,7 +14,7 @@ Australia · Ages 9 to 67 · Real data, real baselines
 
 Most "AI projects" online are tutorials in disguise: a famous dataset, a model copied from a notebook, an accuracy figure nobody questions. A real project is different. It uses data you are allowed to use, it has a simple baseline the model must beat, it is tested on data it never saw, and it ends with an honest account of where it fails. Our live online lessons help Australians from 9 to 67 build projects like that, at a level that fits their age. This page sets out the four tests a real project passes, explains how Australian Bureau of Statistics data is licensed, and works through a full forecasting project on national building approvals in which the simple baselines sometimes win.
 
-At a glance: For: Ages 9 to 67; Data: Licensed public sources; Rule one: Beat a simple baseline; Testing: On unseen, later data; Output: A written project report; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 9 to 67; Data: Licensed public sources; Rule one: Beat a simple baseline; Testing: On unseen, later data; Output: A written project report; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three project courses, by age
 
@@ -229,7 +229,7 @@ Lessons come from our team in India, at times that fall in Australian after-scho
 - **Weekend** Longer data and modelling sessions.
 
 - **Free first class** A baseline scored on real data, in one lesson.
-- **Small groups** Fifteen to twenty learners reviewing each other's reports.
+- **Groups** Fifteen to twenty learners reviewing each other's reports.
 - **One to one** For one project, at your depth.
 - **Licensed data** Every dataset's licence noted.
 - **Baselines first** No model without something to beat.

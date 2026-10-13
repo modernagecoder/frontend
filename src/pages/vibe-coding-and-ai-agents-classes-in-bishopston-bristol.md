@@ -135,7 +135,7 @@ You will want a proper computer, not a phone, with a working camera and a steady
 - **Twice every week** School holidays are left free.
 - **One UK time, kept** Clock changes are handled at the tutor's end.
 
-**Why online** To fill a level-matched class we draw on the whole UK. A few streets could not supply it, and a video call removes the need.
+**Why online** To fill an level-matched class we draw on the whole UK. A few streets could not supply it, and a video call removes the need.
 
 ## Fees for Bishopston learners
 

@@ -14,7 +14,7 @@ United Kingdom · Ages 13 to 18 · Live online
 
 Ofcom asked British children this year whether the AI summaries they read at the top of search results are always accurate. Among those who read them, 46 per cent said yes. Twenty-one per cent disagreed. That is the situation a coding class for a British teenager walks into: not a shortage of access to AI, and not a shortage of confidence, but a shortage of checking. Programming happens to be the one subject at school where a teenager can settle an argument in four seconds by running the thing. This page sets out what Ofcom actually measured, a data project built from the small print of its own report, and how our lessons fit around GCSEs, Nationals, CCEA courses and A levels.
 
-At a glance: Ages: 13 to 18; Covers: Python, web, data, AI; Fits: GCSE, National 5, Higher, CCEA, A level; Group: Five to ten at one level; Or: One to one; Teacher: Named, and the same one; Habit: Predict, run, compare; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Ages: 13 to 18; Covers: Python, web, data, AI; Fits: GCSE, National 5, Higher, CCEA, A level; Group: Fifteen to twenty at one level; Or: One to one; Teacher: Named, and the same one; Habit: Predict, run, compare; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for UK teenagers
 

@@ -299,7 +299,7 @@ module.exports = {
       { h3: 'Shared code and notebooks', p: 'The teacher sees the learner\'s code and plots as they are written.' },
       { h3: 'Victorian calendar', p: 'Lesson plans follow state school terms and break for holidays.' },
       { h3: 'A genuine first class', p: 'The free trial is a full lesson that ends with a level and a course suggestion.' },
-      { h3: 'Small, matched groups', p: 'Groups of fifteen to twenty are formed by level and pace, sometimes across states.' },
+      { h3: 'Matched groups', p: 'Groups of fifteen to twenty are formed by level and pace, sometimes across states.' },
       { h3: 'Twice a week', p: 'Two fixed lessons each week, about eight a month, with planned breaks.' },
       { h3: 'Teachers in India', p: 'A 4pm Moonee Valley class in daylight saving starts at 10:30am India time, and at 11:30am there after April.' }
     ],
@@ -362,7 +362,7 @@ module.exports = {
       },
       {
         q: 'How many learners are in each group?',
-        a: 'Five to ten, matched by level, pace and goal. If no group suits the learner\'s schedule, one-to-one lessons are offered instead.',
+        a: 'Fifteen to twenty, matched by level, pace and goal. If no group suits the learner\'s schedule, one-to-one lessons are offered instead.',
         boiler: true
       },
       {

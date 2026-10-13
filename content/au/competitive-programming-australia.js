@@ -118,7 +118,7 @@ module.exports = {
     ],
     [
       "Group",
-      "Five to ten, or one to one"
+      "Fifteen to twenty, or one to one"
     ],
     [
       "Start",
@@ -655,7 +655,7 @@ module.exports = {
         "p": "One problem solved together and a check of the learner's current level."
       },
       {
-        "h3": "Small groups",
+        "h3": "Groups",
         "p": "Fifteen to twenty learners at the same level, comparing solutions."
       },
       {

@@ -136,7 +136,7 @@ Any home in the district with a computer and broadband is ready for lessons.
 - **Hands on the code** The learner writes and prompts everything; the tutor watches over screen share and steers with questions.
 - **Right level from day one** Year 5 or Year 11, the free lesson decides the starting topic, and the exam board is noted.
 - **Free first lesson** A whole lesson with no charge, followed by a clear suggestion.
-- **Level-matched groups** Five to ten UK learners at the same stage.
+- **Level-matched groups** Fifteen to twenty UK learners at the same stage.
 - **Two a week** School holidays are lesson-free.
 - **Fixed UK time** Tutors adjust for the clock changes, so your hour holds.
 

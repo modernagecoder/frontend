@@ -244,7 +244,7 @@ The first lesson is free. After it, a group place costs USD 100 a month, which c
 
 ### How many learners in a group?
 
-Five to ten, grouped by ability, pace and goal rather than age or address. Where no suitable group runs at a workable hour, we offer one-to-one lessons instead.
+Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where no suitable group runs at a workable hour, we offer one-to-one lessons instead.
 
 ## The rest of the country
 

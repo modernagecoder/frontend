@@ -218,7 +218,7 @@ module.exports = {
       { h3: 'Wherever the learner is', p: 'Valleys, coast or city. The lesson travels to the child instead of a parent driving across a county.' },
       { h3: 'Welsh vocabulary used', p: 'Progression steps, Areas of Learning and Experience and the Made-for-Wales GCSE, called what Wales calls them.' },
       { h3: 'A free lesson first', p: 'A real piece of teaching that ends with an honest view of level and course. No card needed.' },
-      { h3: 'Small groups by level', p: 'Fifteen to twenty learners at the same stage, drawn from Wales and beyond so a group exists at a sensible hour.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at the same stage, drawn from Wales and beyond so a group exists at a sensible hour.' },
       { h3: 'Taught in English', p: 'We do not teach through Welsh. A bilingual learner is very welcome; a Welsh-medium lesson is not something we can offer.' },
       { h3: 'Times in UK time', p: 'Teachers work from India, five and a half hours ahead in winter and four and a half in summer, and every lesson is agreed in UK time.' }
     ],

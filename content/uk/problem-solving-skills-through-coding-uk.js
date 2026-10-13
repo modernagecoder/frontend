@@ -86,7 +86,7 @@ module.exports = {
     ['What works', 'Domain-specific knowledge'],
     ['How', 'Worked examples, then faded'],
     ['Test', 'Predict the output first'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Start', 'One free lesson']
   ],

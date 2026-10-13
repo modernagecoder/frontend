@@ -219,7 +219,7 @@ Every lesson is taught live, with the learner's code visible to the teacher thro
 
 - **Screen sharing** The teacher reads the learner's actual code.
 - **Same teacher** One teacher, week after week.
-- **Small groups** Fifteen to twenty learners, or one to one.
+- **Groups** Fifteen to twenty learners, or one to one.
 - **No travel** Lessons start at home, on time.
 - **Family welcome** Parents can sit in on any lesson.
 - **Own computer** Projects carry on between lessons.

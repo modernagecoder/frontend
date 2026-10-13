@@ -65,7 +65,7 @@ module.exports = {
     ['Named in it', 'Sequence, selection, repetition'],
     ['Also named', 'Variables, input and output'],
     ['And', 'Debugging, and explaining algorithms'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Start', 'One free lesson']
   ],

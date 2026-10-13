@@ -14,7 +14,7 @@ Australia · Years 7 and 8 · Live online
 
 Year 7 is a turning point for young programmers in Australia, and few families notice it happening. Through primary school, coding in class mostly means dragging blocks on a screen. From Year 7 the Australian Curriculum expects students to write programs in a general-purpose language, the kind professionals type every day, and to plan them first with flowcharts and pseudocode. At the same moment, students are changing schools, meeting new teachers and juggling a timetable full of subjects. This page explains exactly what the curriculum asks of Years 7 and 8, why the move from blocks to text catches some students out, and how a child can arrive in Year 7 already comfortable rather than scrambling to catch up.
 
-At a glance: For: Years 6, 7 and 8; Language: Usually Python; Also covers: Flowcharts and pseudocode; Skills: Tracing, debugging, functions; Curriculum: Australian Curriculum v9; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Years 6, 7 and 8; Language: Usually Python; Also covers: Flowcharts and pseudocode; Skills: Tracing, debugging, functions; Curriculum: Australian Curriculum v9; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three ways to get ready for Year 7
 
@@ -226,7 +226,7 @@ Our teachers are based in India. Every Australian state is ahead of India time, 
 - **Saturday or Sunday** A longer session for project work.
 
 - **A free first class** The teacher checks what your child can already read and write in code.
-- **Small groups** Fifteen to twenty students of a similar level, usually all in Years 6 to 8.
+- **Groups** Fifteen to twenty students of a similar level, usually all in Years 6 to 8.
 - **One to one** Helpful for a student who is anxious about text coding or far ahead of their class.
 - **Their own code** The student types every line. Teachers explain, ask and point at errors.
 - **Parents can watch** Every lesson is live, so you can see exactly how your child is taught.

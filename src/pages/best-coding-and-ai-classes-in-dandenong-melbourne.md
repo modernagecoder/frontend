@@ -182,7 +182,7 @@ All teaching is live on screen, so a learner near the station and one in a quiet
 - **One link** The learner opens a link at lesson time, shares a screen and starts writing code with the teacher.
 - **School terms** Lesson plans follow the Victorian term calendar and pause during state school holidays.
 - **Trial lesson** The free first class is a full lesson; afterwards we suggest a course and a regular time.
-- **Small groups** Groups hold fifteen to twenty learners at the same level, gathered from across Australia.
+- **Groups** Groups hold fifteen to twenty learners at the same level, gathered from across Australia.
 - **Twice weekly** Two fixed lessons each week, about eight a month, with breaks agreed in advance.
 - **Teachers in India** Our teachers are based in India, so a Dandenong lesson at 4:30pm during daylight saving is 11am India time, and noon once Melbourne clocks go back.
 

@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'Learner at the controls', p: 'Every line is typed and run by the learner, with the tutor questioning as it goes.' },
       { h3: 'Level found by trial', p: 'We watch the first lesson before suggesting any course.' },
       { h3: 'Try before paying', p: 'The first lesson is free and asks for no card.' },
-      { h3: 'Small matched groups', p: 'Fifteen to twenty classmates at the same stage, joining from around the UK.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty classmates at the same stage, joining from around the UK.' },
       { h3: 'Two a week in term', p: 'About eight lessons a month, with West Sussex holidays kept free on request.' },
       { h3: 'Fixed UK hour', p: 'Your lesson keeps its UK time through both clock changes.' }
     ],

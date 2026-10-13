@@ -196,7 +196,7 @@ module.exports = {
       { h3: 'No trip across town', p: 'A learner near Lake Burley Griffin and one in Tuggeranong share the lesson from home, with nothing to travel to.' },
       { h3: 'Familiar year levels', p: 'Teachers use the year levels ACT schools use, from Year 7 to Year 12, and work around the territory\'s school terms. All teaching is in English.' },
       { h3: 'A genuine trial', p: 'You complete a real task with a teacher and leave with a suggested level, course and lesson time. No card details are taken.' },
-      { h3: 'Small level-matched groups', p: 'Fifteen to twenty learners at the same stage, from Canberra and further afield, so a suitable evening slot is easy to find.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at the same stage, from Canberra and further afield, so a suitable evening slot is easy to find.' },
       { h3: 'Two lessons a week', p: 'Roughly eight lessons a month at a regular time. Holidays and exam weeks are planned with the teacher ahead of time.' },
       { h3: 'India time, four and a half or five and a half hours behind', p: 'Canberra is 4 hours 30 minutes ahead of India time in winter and 5 hours 30 minutes ahead from Sunday 4 October 2026 until Sunday 4 April 2027.' }
     ],

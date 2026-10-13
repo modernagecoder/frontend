@@ -52,7 +52,7 @@ module.exports = {
     ['Big new idea', 'Loops'],
     ['Projects', 'Stories, games, quizzes'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -245,7 +245,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'Your child makes a small animation with a teacher, and you see how they respond.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children of similar age who enjoy showing each other their projects.' },
+      { h3: 'Groups', p: 'Fifteen to twenty children of similar age who enjoy showing each other their projects.' },
       { h3: 'One to one', p: 'For a child who wants to race ahead or needs a quieter start.' },
       { h3: 'Hands on the mouse', p: 'The child builds every project. Teachers ask questions instead of taking over.' },
       { h3: 'Families can join', p: 'Lessons are live, and a parent is always welcome to watch.' },

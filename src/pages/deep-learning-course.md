@@ -12,7 +12,7 @@ Deep Learning • **Neural Networks & Beyond**
 
 Go beyond classical ML into the deep learning that powers vision, speech and language. Master neural networks, backpropagation, CNNs and transformers, and build and train real deep models with TensorFlow/Keras and PyTorch. Live small-batch classes for college students, professionals and serious teens.
 
-Book a Free Deep Learning DemoSee the Roadmap**NN**Build from scratch**TF + PyTorch**Both frameworks**5–8**Students per batch**Live**Train deep models
+Book a Free Deep Learning DemoSee the Roadmap**NN**Build from scratch**TF + PyTorch**Both frameworks**15–20**Students per batch**Live**Train deep models
 
 ## Quick answer
 

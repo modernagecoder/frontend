@@ -376,7 +376,7 @@ module.exports = {
       },
       {
         q: 'How many learners are in a class?',
-        a: 'Five to ten, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner\'s time.',
+        a: 'Fifteen to twenty, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner\'s time.',
         boiler: true
       },
       { q: 'Do you teach adults?', a: 'Yes, in adult groups or one to one, often working towards data or AI tasks in their jobs.' }

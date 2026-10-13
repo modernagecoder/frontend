@@ -207,7 +207,7 @@ We teach from India, during hours that overlap Australian afternoons and evening
 - **Weekend** Longer build and evaluation sessions.
 
 - **Free first class** A tiny agent on a stub model, built together.
-- **Small groups** Fifteen to twenty students comparing agent logs.
+- **Groups** Fifteen to twenty students comparing agent logs.
 - **One to one** For a specific idea or a faster pace.
 - **No account to start** Stub models first, for every age.
 - **Age rules kept** No provider used below its minimum age.

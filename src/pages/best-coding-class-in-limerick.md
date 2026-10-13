@@ -248,7 +248,7 @@ The first lesson is free. Continuing costs USD 100 a month for a group place, wh
 
 ### How many learners share a group?
 
-Five to ten. Learners are matched on ability, working pace and what they want to build, not on age or address. Where no suitable group meets at a workable hour, private lessons are offered instead.
+Fifteen to twenty. Learners are matched on ability, working pace and what they want to build, not on age or address. Where no suitable group meets at a workable hour, private lessons are offered instead.
 
 ## Down the country and up to the capital
 

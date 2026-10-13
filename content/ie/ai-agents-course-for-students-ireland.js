@@ -52,7 +52,7 @@ module.exports = {
     ['Tests', 'Every agent against known answers'],
     ['Discloses', 'Models, versions, what you wrote'],
     ['Respects', 'Your college\'s integrity policy'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Hours', 'Evenings and weekends, Irish time'],
     ['Start', 'A free first class']
   ],

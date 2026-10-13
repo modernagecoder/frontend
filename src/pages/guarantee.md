@@ -46,7 +46,7 @@ No contracts, no 6 or 12 month packs. Stop any month, with no cancellation fee.
 
 The price on our pricing page is the whole price. Nothing is added later.
 
-### Small live batches
+### Live batches
 
 Group classes are capped at 20 students, mini batches of up to 6, and full 1-on-1 is available.
 

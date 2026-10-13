@@ -199,7 +199,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 GroupUSD 100per month, 8 lessons
 
-Five to eight learners after ability matching.
+Fifteen to twenty learners after ability matching.
 
 PrivateUSD 150per month, 8 lessons
 

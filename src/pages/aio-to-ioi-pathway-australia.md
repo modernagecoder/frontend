@@ -180,7 +180,7 @@ Our coaches work from India, behind every Australian time zone. An 8 pm session 
 
 - **Estimate first** Every problem starts with an operations budget.
 - **Prove, then code** Students explain why a method is correct before writing it.
-- **Small groups** Fifteen to twenty students of similar level.
+- **Groups** Fifteen to twenty students of similar level.
 - **One-to-one coaching** The usual choice at this level.
 - **Honest feedback** Clear advice on readiness, without inflating it.
 - **No selection promises** Invitations and teams are the Trust's decisions alone.

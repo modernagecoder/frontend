@@ -14,7 +14,7 @@ Australia · Ages 6 to 18 · Holidays, planned
 
 School holidays are the most-loved weeks of the year and, for many children, the only time long enough to finish a real coding project. They are also different in every state: a Brisbane family and a Hobart family can be weeks apart in January and a few days apart in April. This page sets out the 2026 to 2027 school holiday dates for five states, read from each state's education department, shows the weeks when all five are on holiday together, and explains how a child can plan a holiday coding project with a Gantt chart, the same tool used to plan real software.
 
-At a glance: For: Ages 6 to 18; When: Any school holiday, any state; Dates shown: NSW, Victoria, Queensland, WA, Tasmania; Project tool: A Gantt chart; Format: Live online video; Group: Five to ten, or one to one; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 6 to 18; When: Any school holiday, any state; Dates shown: NSW, Victoria, Queensland, WA, Tasmania; Project tool: A Gantt chart; Format: Live online video; Group: Fifteen to twenty, or one to one; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that suit a holiday push
 
@@ -197,7 +197,7 @@ In the holidays, every lesson points at a finished project by the first day of t
 - **A plan** A Gantt chart of the days available.
 - **Check-ins** A teacher reviews progress against the plan.
 - **Your state's dates** Planned around your own holiday window.
-- **Small groups** Fifteen to twenty learners, or one to one.
+- **Groups** Fifteen to twenty learners, or one to one.
 - **Pause if you prefer** Taking the holidays off is fine too.
 
 ## Fees

@@ -176,7 +176,7 @@ Lessons are live over video, so learners join from an apartment in Braddon or a 
 - **Live and guided** A teacher leads every lesson and reviews code as it is written.
 - **School calendar** Lessons follow ACT terms and pause for holidays.
 - **Trial lesson** One free class, then a written recommendation.
-- **Group size** Small level-matched groups of fifteen to twenty, or private.
+- **Group size** Level-matched groups of fifteen to twenty, or private.
 - **Pace** Two lessons a week, about eight a month.
 - **India hours** In summer a 7pm Inner North lesson begins at 1:30pm in India.
 

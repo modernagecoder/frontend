@@ -49,7 +49,7 @@ module.exports = {
     ['What', 'Python, data, forecasts, agents'],
     ['Habit', 'Every prediction scored against the outcome'],
     ['Format', 'Live online, never recorded'],
-    ['Group', 'Five to ten, or a private teacher'],
+    ['Group', 'Fifteen to twenty, or a private teacher'],
     ['Hours', 'Afternoons, evenings, weekends'],
     ['Language', 'English'],
     ['Begin with', 'A free lesson']

@@ -12,7 +12,7 @@ Uttar Pradesh • **Live Online Classes**
 
 From Lucknow and Kanpur to Agra, Varanasi and Meerut: Modern Age Coders teaches Scratch, Python, Java, Web Development and AI through live, small-batch online classes. Quality tech education that reaches every family in India's largest state, right at home.
 
-Book a Free Demo ClassExplore Courses**4.9/5**Parent rating**5–8**Students per batch**100%**Live & online**6–60+**Ages we teach
+Book a Free Demo ClassExplore Courses**4.9/5**Parent rating**15–20**Students per batch**100%**Live & online**6–60+**Ages we teach
 
 ## Quick answer
 
@@ -99,7 +99,7 @@ The Difference
 
 ## Why Uttar Pradesh Families Choose Modern Age Coders
 
-### Small live batches (15–20)
+### Live batches (15–20)
 
 Every student gets real attention from the instructor. No pre-recorded videos pretending to be a class, these are live, two-way sessions.
 

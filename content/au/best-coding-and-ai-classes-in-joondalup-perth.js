@@ -310,7 +310,7 @@ module.exports = {
       { h3: 'A real teacher', p: 'Each session is taught in real time, with questions answered and code reviewed as it is written.' },
       { h3: 'WA school year', p: 'Classes follow the Western Australian terms and pause for school holidays.' },
       { h3: 'Placement first', p: 'The first lesson is free and ends with a written course suggestion.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at a similar level, or one-to-one lessons.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at a similar level, or one-to-one lessons.' },
       { h3: 'Steady pace', p: 'Two lessons a week, roughly eight in a month.' },
       { h3: 'Time in India', p: 'A 5pm Joondalup lesson is 2:30pm in India on every day of the year.' }
     ],

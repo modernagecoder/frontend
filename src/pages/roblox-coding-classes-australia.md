@@ -14,7 +14,7 @@ Australia · Ages 8 to 16 · Luau and Roblox Studio
 
 Many Australian children already spend hours in Roblox. Far fewer know that every obby, tycoon and simulator they play was built by someone writing code, often a teenager, in a free tool called Roblox Studio. That makes Roblox one of the most motivating ways into programming: children are learning to build the very thing they love. It also raises fair questions for parents. Is it real coding or just dragging blocks around? Is it safe? What will my child actually learn? This page answers all three. It explains the language Roblox uses, what children build at each stage, one serious programming lesson worked through in full, and what Roblox itself publishes about safety and age checks.
 
-At a glance: For: Kids and teens, 8 to 16; Language: Luau, based on Lua; Tool: Roblox Studio, free; Big idea: Client and server code; Builds: Obbies, tycoons, simulators; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Kids and teens, 8 to 16; Language: Luau, based on Lua; Tool: Roblox Studio, free; Big idea: Client and server code; Builds: Obbies, tycoons, simulators; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for young Roblox builders
 

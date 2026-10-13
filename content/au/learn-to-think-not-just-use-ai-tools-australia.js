@@ -49,7 +49,7 @@ module.exports = {
     ['Curriculum', 'Digital Technologies, Years 7 to 10'],
     ['Age rules', 'Followed for every AI tool'],
     ['Format', 'Live online video'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
@@ -217,7 +217,7 @@ module.exports = {
       { h3: 'Predict, then run', p: 'Students say what they expect before any code or tool runs.' },
       { h3: 'Explain it back', p: 'An answer counts only once the student can explain it.' },
       { h3: 'Age-appropriate tools', p: 'We follow each tool\'s terms on minimum age.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students, or one to one.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students, or one to one.' },
       { h3: 'Their own work', p: 'Teachers question and guide; they do not do the work.' },
       { h3: 'Real checks', p: 'Students write tests and samplers, not just opinions.' }
     ]

@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'No travel', p: 'A student in Westdale and another in Nemingha can sit in the same group without anyone crossing town.' },
       { h3: 'NSW school language', p: 'Teachers refer to New South Wales stages and year levels and plan revision around the state\'s terms.' },
       { h3: 'Trial before anything else', p: 'The first lesson is a full teaching session that finishes with a recommended course and time; it involves no sales pitch and no card.' },
-      { h3: 'Small groups', p: 'Groups hold fifteen to twenty learners matched by level, drawn from Tamworth and other places so a slot always fills.' },
+      { h3: 'Groups', p: 'Groups hold fifteen to twenty learners matched by level, drawn from Tamworth and other places so a slot always fills.' },
       { h3: 'A steady rhythm', p: 'Two lessons a week, roughly eight a month, at the same time, with exam periods and holidays arranged in advance.' },
       { h3: 'Teachers in India', p: 'During daylight saving Tamworth runs five and a half hours ahead of India time, otherwise four and a half, so a 6pm lesson is 12:30pm or 1:30pm for the teacher.' }
     ],

@@ -262,7 +262,7 @@ module.exports = {
       { h3: 'Both ways round', p: '4 x 12 and 12 x 4 practised together as one fact.' },
       { h3: 'Six-second windows', p: 'Timed practice only once recall is secure, and never in a way that frightens a child.' },
       { h3: 'Understanding first', p: 'Arrays and derivations taught properly, so recall rests on meaning.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children at one stage, with games that keep it light.' }
+      { h3: 'Groups', p: 'Fifteen to twenty children at one stage, with games that keep it light.' }
     ]
   },
 

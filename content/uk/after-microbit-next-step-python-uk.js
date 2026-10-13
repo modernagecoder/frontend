@@ -59,7 +59,7 @@ module.exports = {
     ['Schools signed up', 'Nearly 20,000'],
     ['Next language', 'Python, on the board and then the computer'],
     ['Boards', 'We do not sell or ship them'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
@@ -225,7 +225,7 @@ module.exports = {
       { h3: 'Errors as clues', p: 'Error messages read together until they stop being scary.' },
       { h3: 'Code reviewed', p: 'A teacher reads every child\'s program and gives specific next steps.' },
       { h3: 'Their own ideas', p: 'Children choose projects; the teacher picks the skills each one needs.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children at one level.' }
+      { h3: 'Groups', p: 'Fifteen to twenty children at one level.' }
     ]
   },
 

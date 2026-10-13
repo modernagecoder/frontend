@@ -4,7 +4,7 @@ description: "Live online vibe coding, AI agents and Python classes for Ryde tee
 canonical: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-ryde-sydney
 source: src/pages/vibe-coding-and-ai-agents-classes-in-ryde-sydney.html
 ---
-> In live online lessons where a teacher shows Ryde teenagers and adults how to have an AI write code, check what it wrote, and build agents that look things up before they answer. The 2021 Census counted 129,123 people in the City of Ryde council area, 46.4% of those aged 15 and over with a bachelor degree or higher. Teaching is private or in a level-matched small group, and the opening lesson is free.
+> In live online lessons where a teacher shows Ryde teenagers and adults how to have an AI write code, check what it wrote, and build agents that look things up before they answer. The 2021 Census counted 129,123 people in the City of Ryde council area, 46.4% of those aged 15 and over with a bachelor degree or higher. Teaching is private or in an level-matched small group, and the opening lesson is free.
 
 [Home](/) / [Australia](/coding-classes-in-australia) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / [Sydney](/best-coding-classes-in-sydney) / Ryde
 
@@ -12,7 +12,7 @@ City of Ryde, Sydney, New South Wales / Live online
 
 # Vibe coding and AI agents classes in Ryde
 
-**Where do Ryde learners find the best vibe coding and AI agents classes?** In live online lessons where a teacher shows Ryde teenagers and adults how to have an AI write code, check what it wrote, and build agents that look things up before they answer. The 2021 Census counted 129,123 people in the City of Ryde council area, 46.4% of those aged 15 and over with a bachelor degree or higher. Teaching is private or in a level-matched small group, and the opening lesson is free.
+**Where do Ryde learners find the best vibe coding and AI agents classes?** In live online lessons where a teacher shows Ryde teenagers and adults how to have an AI write code, check what it wrote, and build agents that look things up before they answer. The 2021 Census counted 129,123 people in the City of Ryde council area, 46.4% of those aged 15 and over with a bachelor degree or higher. Teaching is private or in an level-matched small group, and the opening lesson is free.
 
 Many AI agents answer questions by first fetching a piece of text and then reading only that piece. Which piece they can fetch depends on how the document was cut up beforehand, a step called chunking. We wrote one plain sentence for each of the 19 government schools in the City of Ryde, from the state's open schools file, and asked an agent when each school first had a teacher. Cut the text into 60-character chunks and the agent never sees a complete answer: 0 out of 19. Cut it at sentence boundaries and it gets 16 right. The three it still misses are instructive, because each one is a school whose name is also the name of a suburb.
 
@@ -198,7 +198,7 @@ The schools in our project have addresses from Gladesville to Marsfield, and a l
 Three amounts make up the whole price list.
 
 - First class: USD 0. The first lesson costs nothing and ends with a clear recommendation.
-- Group tuition: USD 100 a month. A month of small-group lessons, normally eight, with fifteen to twenty learners.
+- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Roughly eight lessons a month, one teacher and one learner.
 
 Outside India every invoice is in US dollars, which means one rate for all of Ryde rather than a suburb tariff. Nothing is charged until course and time are fixed after the trial; holidays, absences and format changes are covered on the pricing page.
@@ -243,7 +243,7 @@ The first lesson is free. After that, group lessons cost USD 100 a month for two
 
 ### How many people are in a group?
 
-Five to ten, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner's time.
+Fifteen to twenty, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner's time.
 
 ## More for Ryde learners
 

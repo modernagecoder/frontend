@@ -12,7 +12,7 @@ Learn By Building • **Project-Based Java**
 
 You don't learn Java by watching. You learn it by building. In these live project-based classes, students design and code real programs (a calculator, a bank system, a quiz app, games) and finish with strong logic, a portfolio, and the confidence to write their own programs.
 
-Book a Free Project DemoSee the Projects**Build**Real working programs**Portfolio**Show your skill**5–8**Per batch**Live**Mentor-guided
+Book a Free Project DemoSee the Projects**Build**Real working programs**Portfolio**Show your skill**15–20**Per batch**Live**Mentor-guided
 
 ## Quick answer
 

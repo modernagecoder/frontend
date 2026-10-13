@@ -12,7 +12,7 @@ Live Online Coding & Maths · Lake Town · North-East Kolkata
 
 Modern Age Coders runs premium live online coding and mathematics classes for families across Lake Town, Bangur Avenue, Sreebhumi and the VIP Road belt. Every class is taught live in small batches by full-time engineers and maths graduates, never pre-recorded. Children learn Python, Java, AI/ML and school maths from their own dining table, so you skip the Lake Town crossing and Patipukur underpass traffic entirely. Book a free demo class today.
 
-100% Live, never pre-recordedBatches of 15-20, 3-4 or 1-on-1Full-time engineer & maths-graduate tutorsICSE · CBSE · WBBSE · IGCSE ready[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)100% LiveNever pre-recorded6-8Max per batchAges 6-67Kids to professionals₹1,499Starting fee/monthAt a glance
+100% Live, never pre-recordedBatches of 15-20, up to 6 or 1-on-1Full-time engineer & maths-graduate tutorsICSE · CBSE · WBBSE · IGCSE ready[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)100% LiveNever pre-recorded6-8Max per batchAges 6-67Kids to professionals₹1,499Starting fee/monthAt a glance
 
 ## The essentials, in one place
 
@@ -26,9 +26,9 @@ Modern Age Coders is a premium, high-quality live online coding and maths school
 
 Every single class is taught live, in real time, by a tutor who can see your child's screen and respond the moment they get stuck. There are no canned video lectures and no chatbots standing in for a teacher. This is the same calibre of structured tech education South Kolkata families pay for, now reaching North Kolkata doorsteps.
 
-### Small batches by design
+### Batches by design
 
-Group batches are capped at twenty, mini batches of up to six, and 1-on-1 means exactly one child. In a small batch, every learner writes code in every class and gets individually reviewed, no child hides at the back the way they do in a 30-seat coaching hall near the Lake Town crossing.
+Group batches are capped at twenty, mini batches of up to six, and 1-on-1 means exactly one child. In a batch, every learner writes code in every class and gets individually reviewed, no child hides at the back the way they do in a 30-seat coaching hall near the Lake Town crossing.
 
 ### Taught by full-time engineers and maths graduates
 
@@ -174,7 +174,7 @@ An honest comparison
 - Your child learns from the safety of home, with no late-evening auto changes at VIP Road.
 - Access to full-time engineer and maths-graduate tutors, not just whoever the nearest centre could hire.
 - Screen-share teaching means the tutor sees the exact line of code that broke, in real time.
-- Batches of 15-20, 3-4 or 1-on-1, genuinely individual attention, not a 30-seat hall.
+- Batches of 15-20, up to 6 or 1-on-1, genuinely individual attention, not a 30-seat hall.
 - Easy make-ups: miss a class and get a recording of that specific session or a replacement slot.
 - Siblings in the same Bangur Avenue or Dum Dum Park flat can each join their own age-and-level batch without extra travel.
 

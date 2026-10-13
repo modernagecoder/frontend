@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'The learner writes it', p: 'Code and prompts are the student\'s own work, with the tutor on screen share asking what each output means.' },
       { h3: 'Trial sets the start', p: 'The free lesson shows us the level; CCEA courses are noted where they apply.' },
       { h3: 'First lesson without charge', p: 'Lesson one is free and finishes with a course recommendation.' },
-      { h3: 'Small matched classes', p: 'Each class is fifteen to twenty learners at a shared level, from anywhere in the UK.' },
+      { h3: 'Matched classes', p: 'Each class is fifteen to twenty learners at a shared level, from anywhere in the UK.' },
       { h3: 'Two a week', p: 'Term time only.' },
       { h3: 'Time that holds', p: 'Tutors shift with the UK clocks, so your slot never moves.' }
     ],

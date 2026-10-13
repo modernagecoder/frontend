@@ -236,7 +236,7 @@ Teachers are in India, where the working day overlaps Australian afternoons. Les
 - **Weekend** Longer project sessions.
 
 - **Free first class** A first Python program and a look at what the AI project does.
-- **Small groups** Fifteen to twenty students at the same level.
+- **Groups** Fifteen to twenty students at the same level.
 - **One to one** For any student who prefers it, at any stage.
 - **Her projects** Students choose what to build within each unit.
 - **Show and tell** Students present their work and give feedback.

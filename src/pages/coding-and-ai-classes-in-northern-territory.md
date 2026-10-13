@@ -236,7 +236,7 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 ### How many learners are in a group?
 
-Five to ten, grouped by level, pace and goals rather than age or town. If no group meets at a suitable hour, the learner is offered one-to-one lessons.
+Fifteen to twenty, grouped by level, pace and goals rather than age or town. If no group meets at a suitable hour, the learner is offered one-to-one lessons.
 
 ## More for Territory learners
 

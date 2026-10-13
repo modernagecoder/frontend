@@ -200,7 +200,7 @@ Lessons are live and come from our tutors in India. Adelaide runs four hours ahe
 - **Invented briefs** Every project we work on in class is made up, never the assessed one.
 - **Explain aloud** Students talk through code the way a walkthrough requires.
 - **Design before code** Pseudocode or a structure chart before the editor opens.
-- **Small groups** Fifteen to twenty students at one level, reviewing each other's practice code.
+- **Groups** Fifteen to twenty students at one level, reviewing each other's practice code.
 - **One-to-one sessions** For one skill, such as data cleaning, that needs focused repair.
 - **No grade forecasts** We never predict a SACE grade; the work and the result belong to the student.
 

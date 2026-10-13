@@ -138,7 +138,7 @@ Any home in Medway with a computer and reliable broadband is ready.
 - **Code by the learner** Students type every program themselves, and the tutor, watching by screen share, helps them along with questions.
 - **Placed by ability** A Year 5 or a Year 12 begins at the level the free lesson finds, with the exam board noted.
 - **Opening lesson free** A complete lesson with no charge, ending in a clear course suggestion.
-- **One level per group** Five to ten UK learners at a shared stage.
+- **One level per group** Fifteen to twenty UK learners at a shared stage.
 - **Two lessons a week** None in the school holidays.
 - **A time that stays put** Our tutors handle the UK clock changes.
 

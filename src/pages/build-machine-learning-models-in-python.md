@@ -12,7 +12,7 @@ Hands-On ML • **build real models in Python**
 
 The most hands-on way to learn machine learning: build it. This project-based course has you constructing real models in Python with scikit-learn, regression, classification, clustering and more, from raw data to a trained, evaluated model. You finish with projects, not just notes.
 
-Book a Free DemoSee the Roadmap**Build**Real models, hands-on**5–8**Students per batch**sklearn**Python ML stack**Live**Mentor-led
+Book a Free DemoSee the Roadmap**Build**Real models, hands-on**15–20**Students per batch**sklearn**Python ML stack**Live**Mentor-led
 
 ## Quick answer
 

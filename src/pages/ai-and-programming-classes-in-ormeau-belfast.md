@@ -131,7 +131,7 @@ Needed at home: a computer, a webcam and broadband that can manage a video call.
 - **The learner writes it** Code and prompts are the student's own work, with the tutor on screen share asking what each output means.
 - **Trial sets the start** The free lesson shows us the level; CCEA courses are noted where they apply.
 - **First lesson without charge** Lesson one is free and finishes with a course recommendation.
-- **Small matched classes** Each class is fifteen to twenty learners at a shared level, from anywhere in the UK.
+- **Matched classes** Each class is fifteen to twenty learners at a shared level, from anywhere in the UK.
 - **Two a week** Term time only.
 - **Time that holds** Tutors shift with the UK clocks, so your slot never moves.
 

@@ -296,7 +296,7 @@ Beginning with the one this page exists to answer.
 
 ### There must be plenty of children near us. Why would we go online?
 
-Because proximity is the wrong denominator. Kampong Gadong has 3,356 residents of all ages, and even taking both Gadong mukims at 73,491, those learners are spread across many schools with very different amounts of prior computing and nobody is sorting them by ability for you. A class needs five to eight people at one level, in one subject, free at one hour. Our groups are drawn from an intake across twenty-five countries on demonstrated ability, which is the only basis that reliably produces a class instead of a waiting list.
+Because proximity is the wrong denominator. Kampong Gadong has 3,356 residents of all ages, and even taking both Gadong mukims at 73,491, those learners are spread across many schools with very different amounts of prior computing and nobody is sorting them by ability for you. A class needs fifteen to twenty people at one level, in one subject, free at one hour. Our groups are drawn from an intake across twenty-five countries on demonstrated ability, which is the only basis that reliably produces a class instead of a waiting list.
 
 ### Do you have a centre in Gadong?
 

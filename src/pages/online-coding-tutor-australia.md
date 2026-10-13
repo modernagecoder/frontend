@@ -14,7 +14,7 @@ Australia · Ages 6 to 67 · Live online tuition
 
 Hiring a coding tutor is different from enrolling in a course. A tutor works with your learner's own code, notices the misunderstandings a course would roll past, and adjusts every week. For a child, a tutor is also an adult you are inviting into your home, even when the visit is through a screen, so the checks matter as much as the teaching. This page sets out what a good online coding tutor should do, the checks New South Wales asks parents to make of private tutors, how our teachers in India differ from a local tutor, and the three-step method we use to move learners from running code to writing their own.
 
-At a glance: For: Ages 6 to 67; Subjects: Scratch, Python, web, apps, AI; Teachers: Based in India; Format: Live online video; Group: Five to ten, or one to one; Times: Set for your state; Parents: Welcome to sit in; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 6 to 67; Subjects: Scratch, Python, web, apps, AI; Teachers: Based in India; Format: Live online video; Group: Fifteen to twenty, or one to one; Times: Set for your state; Parents: Welcome to sit in; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses families ask a tutor for
 

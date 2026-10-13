@@ -10,7 +10,7 @@ Jadavpur · Kolkata's University Town
 
 # Live Online Coding & Maths Classes near Jadavpur
 
-Modern Age Coders runs premium, live online coding and mathematics classes for families near Jadavpur, Kolkata, from six-year-olds on Scratch to Jadavpur University students sharpening DSA for placements. We teach Python, Java (BlueJ), AI/ML and ICSE/CBSE board prep in small live batches of 15–20, led by full-time engineers and maths graduates. No pre-recorded videos, no commute down Raja S.C. Mallick Road. Every class is real, live and project-based.
+Modern Age Coders runs premium, live online coding and mathematics classes for families near Jadavpur, Kolkata, from six-year-olds on Scratch to Jadavpur University students sharpening DSA for placements. We teach Python, Java (BlueJ), AI/ML and ICSE/CBSE board prep in live batches of 15–20, led by full-time engineers and maths graduates. No pre-recorded videos, no commute down Raja S.C. Mallick Road. Every class is real, live and project-based.
 
 Live, not pre-recordedSmall batches (15–20)Taught by full-time engineersICSE · CBSE · WBBSE aligned[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)10,000+Students taught online4.9/5Parent rating4–8Students per live batchFreeFirst demo classLive Online · Jadavpur, Kolkata
 
@@ -175,7 +175,7 @@ Online vs Offline
 
 - Zero commute, no 60–90 minute evening auto run down Raja S.C. Mallick Road or Prince Anwar Shah Road
 - The whole city of teachers, not just one Jadavpur-8B coaching hall. You get a full-time engineer regardless of locality
-- Small live batches of 15–20 with screen-sharing, so the teacher sees exactly where your child is stuck
+- Live batches of 15–20 with screen-sharing, so the teacher sees exactly where your child is stuck
 - Sessions are recorded for revision, so a missed concept can be reviewed before the next class
 - Safer for younger children, learning from home, parents nearby, no evening traffic to navigate
 - Easy 1-on-1 escalation when a Class 12 board student needs deeper, individual attention

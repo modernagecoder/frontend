@@ -371,7 +371,7 @@ module.exports = {
       },
       {
         q: 'How many learners are in each group?',
-        a: 'Five to ten, grouped by level, pace and goals rather than age or suburb. Private lessons are available if no group time suits.',
+        a: 'Fifteen to twenty, grouped by level, pace and goals rather than age or suburb. Private lessons are available if no group time suits.',
         boiler: true
       },
       { q: 'Can adults join?', a: 'Yes. Adults study in adult groups or one to one, and SQL for work is a common starting point.' }

@@ -14,7 +14,7 @@ Rotterdam · Live online · Ages 6 to 67
 
 Every day the Port of Rotterdam needs to know which ships will come in and go out, and when. Its Authority now has an AI tool for that: trained on ship positions, past port calls, basic navigation rules and the weather, it forecasts the traffic of the next 24 hours and advises the Harbour Master on planning the fairway. What makes the port's own account worth reading is its honesty. The tool is good at some things and struggles with others, departures in particular, and the port says it is still working to quantify what the forecasts actually gain. That is the most useful lesson in applied AI: a forecast is a claim about the future, and it is worth only what you can show about it afterwards. Rotterdam has a long history with that lesson; the economist who built the first national economic model taught here. This page teaches AI and Python, from a first program to forecasting models that are scored honestly, live online for learners in Rotterdam.
 
-At a glance: Who: Rotterdam learners, 6 to 67; What: Python, data, forecasts, agents; Habit: Every prediction scored against the outcome; Format: Live online, never recorded; Group: Five to ten, or a private teacher; Hours: Afternoons, evenings, weekends; Language: English; Begin with: A free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Who: Rotterdam learners, 6 to 67; What: Python, data, forecasts, agents; Habit: Every prediction scored against the outcome; Format: Live online, never recorded; Group: Fifteen to twenty, or a private teacher; Hours: Afternoons, evenings, weekends; Language: English; Begin with: A free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for Rotterdam learners who like to predict things
 

@@ -58,7 +58,7 @@ module.exports = {
     ['Covers', 'Objects, collections, data structures'],
     ['Includes', 'Testing and tooling'],
     ['Suits', 'Second-year modules and work'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Hours', 'Evenings and weekends, Irish time'],
     ['Start', 'A free first class']

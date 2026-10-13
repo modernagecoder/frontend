@@ -14,7 +14,7 @@ Australia · Ages 13 to adult · Modern C++
 
 C++ gives a programmer control that most languages hide: where data lives in memory, when it is copied, and how much each line costs. That control is why it is used for games, simulations, contest programming and systems software, and why small mistakes can be expensive. In our classes, Australian teenagers and adults work through modern C++ over live video, starting with a first program and ending with the standard library and their own classes. This page shows what we cover, measures what one missing character costs, and explains where C++ fits for Australian students and adults.
 
-At a glance: For: Teens 13+ and adults; Standard: Modern C++ (C++17 and later); Core: Types, functions, references; Library: Vectors, strings, maps, algorithms; Design: Classes and objects; Speed: Measured, not guessed; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens 13+ and adults; Standard: Modern C++ (C++17 and later); Core: Types, functions, references; Library: Vectors, strings, maps, algorithms; Design: Classes and objects; Speed: Measured, not guessed; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three C++ courses
 

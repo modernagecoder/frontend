@@ -14,7 +14,7 @@ Australia · Ages 6 to 14 · Play to learn
 
 A good coding game is a puzzle where the only way to win is to give a computer exact instructions. Children who would never sit through a lecture on loops will happily spend an afternoon trying to get a robot through a maze in fewer moves. The trouble is that the app stores are full of games that only look like coding: you tap, something moves, a star appears, and nothing is learned. This page is for Australian parents who want to tell the two apart. It explains what the strongest coding games actually teach, how to check one against what your child meets at school, one idea worked through in full, and what to do on the day your child finishes the last level and asks for something harder.
 
-At a glance: For: Children aged 6 to 14; Good for: Sequence, loops, conditions, functions; Free options: Blockly Games, CS Unplugged; Limit: Puzzles end; programming does not; Next step: Scratch, then Python; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children aged 6 to 14; Good for: Sequence, loops, conditions, functions; Free options: Blockly Games, CS Unplugged; Limit: Puzzles end; programming does not; Next step: Scratch, then Python; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for children who have outgrown coding games
 

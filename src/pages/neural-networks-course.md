@@ -12,7 +12,7 @@ Neural Networks • **the engine of deep learning**
 
 Neural networks power modern AI, and they're more understandable than they look. Learn how neurons, layers, weights and backpropagation work, then build and train your own network in Python. The heart of deep learning, taught clearly and hands-on, live with a mentor.
 
-Book a Free DemoSee the Roadmap**layers**Built from neurons**5–8**Students per batch**backprop**How they learn**Live**Mentor-led
+Book a Free DemoSee the Roadmap**layers**Built from neurons**15–20**Students per batch**backprop**How they learn**Live**Mentor-led
 
 ## Quick answer
 

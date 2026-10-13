@@ -12,7 +12,7 @@ Artificial Intelligence • **The Complete AI Course**
 
 See the entire AI landscape and learn to build in it. One complete course takes you through Python, Machine Learning, Deep Learning, Neural Networks, NLP, Computer Vision and Generative AI, each hands-on with real projects. Live small-batch classes for college students, professionals and serious teens who want the full AI picture.
 
-Book a Free AI Demo ClassSee the Curriculum**Full AI**ML to Generative AI**5–8**Students per batch**Projects**Across every area**Live**Expert mentor
+Book a Free AI Demo ClassSee the Curriculum**Full AI**ML to Generative AI**15–20**Students per batch**Projects**Across every area**Live**Expert mentor
 
 ## Quick answer
 

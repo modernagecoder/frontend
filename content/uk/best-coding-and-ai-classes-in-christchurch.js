@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Hands on the keyboard', p: 'It is the learner who writes the code, with the screen shared. Our tutor follows along and asks what makes them confident.' },
       { h3: 'Starting point checked', p: 'The opening session tells us the right level and, for exam years, the board.' },
       { h3: 'Trial at no charge', p: 'Full length, no card, and a course suggestion at the end.' },
-      { h3: 'Classes by level', p: 'Groups hold five to ten UK learners who are all at a similar point.' },
+      { h3: 'Classes by level', p: 'Groups hold fifteen to twenty UK learners who are all at a similar point.' },
       { h3: 'Two sessions weekly', p: 'We leave out the holiday weeks you name.' },
       { h3: 'A fixed UK hour', p: 'The tutors move with British Summer Time, so your lesson does not.' }
     ],

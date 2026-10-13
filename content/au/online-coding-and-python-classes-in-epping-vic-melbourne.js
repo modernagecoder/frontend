@@ -348,7 +348,7 @@ module.exports = {
       },
       {
         q: 'How many learners in each group?',
-        a: 'Five to ten, grouped on level, pace and goals, with one-to-one lessons if no group time works.',
+        a: 'Fifteen to twenty, grouped on level, pace and goals, with one-to-one lessons if no group time works.',
         boiler: true
       },
       {

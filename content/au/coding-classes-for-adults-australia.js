@@ -79,7 +79,7 @@ module.exports = {
     ['Projects', 'From your own tasks'],
     ['Timing', 'Evenings and weekends'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',

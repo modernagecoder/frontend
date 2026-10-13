@@ -229,7 +229,7 @@ The first lesson is free. Group classes then cost USD 100 a month for two live l
 
 ### How many learners in each group?
 
-Five to ten, grouped on level, pace and goals, with one-to-one lessons if no group time works.
+Fifteen to twenty, grouped on level, pace and goals, with one-to-one lessons if no group time works.
 
 ### Do adults learn pandas with you?
 

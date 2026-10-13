@@ -14,7 +14,7 @@ Netherlands · Data science · Live online
 
 The Dutch national statistics office, CBS, has run its own centre for big data since September 2016. It works with satellite images, social media and sensors, uses machine learning, deep learning and text mining, and trains data scientists. One line in its description matters more than any of the technology: the centre acquires new data sources and examines their quality. That is the heart of data science, and the part most short courses skip. A dataset can be enormous and still describe the wrong people, measure the wrong thing or miss exactly the cases that matter. This page is for learners in the Netherlands, from teenagers to working adults, who want to learn data science properly: Python and statistics, SQL, cleaning and visualisation, and machine learning, with the question of whether the data is any good asked first, every time. Lessons are live online and in English.
 
-At a glance: Core: Python, statistics, SQL; Then: Cleaning, visualisation, machine learning; Habit: Coverage and quality checked first; For: Teens, students, adults; Format: Live video with a teacher; Groups: Five to ten, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Core: Python, statistics, SQL; Then: Cleaning, visualisation, machine learning; Habit: Coverage and quality checked first; For: Teens, students, adults; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three data science courses for three starting points
 

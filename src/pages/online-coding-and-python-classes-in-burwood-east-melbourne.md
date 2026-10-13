@@ -198,7 +198,7 @@ Lessons are live video calls, so there is no bus to catch to class.
 One free lesson and two monthly prices.
 
 - First class: USD 0. The opening lesson costs nothing and finishes with a recommendation.
-- Group tuition: USD 100 a month. A month in a level-matched group of fifteen to twenty, usually eight lessons.
+- Group tuition: USD 100 a month. A month in an level-matched group of fifteen to twenty, usually eight lessons.
 - Private tuition: USD 150 a month. Around eight private lessons a month with one teacher.
 
 Outside India, fees are in US dollars, the same for Burwood East as for every other overseas family. Nothing is charged until after the trial, once course and time are settled; holidays, missed lessons and format changes are explained on the pricing page.
@@ -239,7 +239,7 @@ The first lesson is free. Group classes then cost USD 100 a month for two live l
 
 ### How many learners are in each group?
 
-Five to ten, grouped on level, pace and goals, with one-to-one lessons when no group time fits.
+Fifteen to twenty, grouped on level, pace and goals, with one-to-one lessons when no group time fits.
 
 ### Can adults learn Python with you?
 

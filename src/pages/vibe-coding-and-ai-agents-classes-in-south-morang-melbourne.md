@@ -228,7 +228,7 @@ The first lesson is free. Group classes then cost USD 100 a month for two live l
 
 ### How many learners are in a class?
 
-Five to ten, grouped by level, pace and goals, with one-to-one lessons when no group time suits.
+Fifteen to twenty, grouped by level, pace and goals, with one-to-one lessons when no group time suits.
 
 ### Do adults take vibe coding classes?
 

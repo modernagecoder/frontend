@@ -14,7 +14,7 @@ Australia · Ages 9 to 67 · One language, every stage
 
 Python is the rare language that suits a ten year old drawing shapes, a teenager analysing a dataset and an adult automating a report, without changing its rules. That is why so many Australians learn it, and why our live online Python classes run from age 9 to 67. The language is the same at every age; the projects, pace and examples change. This page sets out the Python track by age, works through one small mistake on real Australian Bureau of Statistics data that changes an answer by more than half, shows where Python appears in school and university, and lists the habits we teach so that code stays right after the lesson ends.
 
-At a glance: For: Ages 9 to 67; Language: Python 3; Children: Games, drawing, small tools; Teens: Data, algorithms, projects; Adults: Automation, data, the web; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 9 to 67; Language: Python 3; Children: Games, drawing, small tools; Teens: Data, algorithms, projects; Adults: Automation, data, the web; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## One Python course for each age group
 

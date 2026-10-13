@@ -14,7 +14,7 @@ Australia · Ages 7 to 14 · Blocks to real code
 
 Minecraft already teaches children to plan, build and experiment. Coding inside Minecraft adds one powerful idea: instead of placing ten thousand blocks by hand, you can write a short program that places them for you, the same way every time. Towers rise in seconds, bridges cross ravines, and a little robot called the Agent digs tunnels while your child watches. Behind all of it sit real programming ideas: coordinates, loops, functions, conditions and, later, typed JavaScript and Python. This page is for Australian parents whose children love Minecraft and might love coding too. It explains the tool most children start with, works through one idea that trips up nearly every beginner, and shows the path from blocks to text.
 
-At a glance: For: Children aged 7 to 14; Tool: MakeCode for Minecraft; Starts in: Blocks; Moves to: JavaScript and Python; Big ideas: Coordinates, loops, functions; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children aged 7 to 14; Tool: MakeCode for Minecraft; Starts in: Blocks; Moves to: JavaScript and Python; Big ideas: Coordinates, loops, functions; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for young Minecraft coders
 
@@ -211,7 +211,7 @@ Our teachers are based in India. Australian after-school hours fall in the India
 - **Sunday** For families with busy weekdays.
 
 - **Free first class** Your child writes a first building program with a teacher. No card needed.
-- **Small groups** Fifteen to twenty children sharing builds and ideas.
+- **Groups** Fifteen to twenty children sharing builds and ideas.
 - **One to one** For a child who wants to race ahead or go deeper.
 - **Their own code** Children write every program; teachers ask questions instead of giving answers.
 - **Own world only** No public servers and no chatting with strangers during lessons.

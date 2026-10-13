@@ -61,7 +61,7 @@ module.exports = {
     ['Moves to', 'JavaScript and Python'],
     ['Big ideas', 'Coordinates, loops, functions'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -250,7 +250,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'Your child writes a first building program with a teacher. No card needed.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children sharing builds and ideas.' },
+      { h3: 'Groups', p: 'Fifteen to twenty children sharing builds and ideas.' },
       { h3: 'One to one', p: 'For a child who wants to race ahead or go deeper.' },
       { h3: 'Their own code', p: 'Children write every program; teachers ask questions instead of giving answers.' },
       { h3: 'Own world only', p: 'No public servers and no chatting with strangers during lessons.' },

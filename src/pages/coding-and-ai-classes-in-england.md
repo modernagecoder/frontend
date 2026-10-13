@@ -182,7 +182,7 @@ A country this varied is exactly where placing by ability beats placing by postc
 - **Placed by what they can do** Not by year group. Two Year 8s from different English schools can be years apart, and pretending otherwise wastes a term.
 - **Curriculum language used** Key stages, programmes of study and the textual-language requirement, named the way the Department for Education names them.
 - **A free lesson first** Real teaching, closing with an honest view of where the learner is and what to take next.
-- **Small groups** Fifteen to twenty learners at one stage, so nobody waits and nobody drowns.
+- **Groups** Fifteen to twenty learners at one stage, so nobody waits and nobody drowns.
 - **Or one to one** For a learner a long way ahead or a long way behind, where a group would be the wrong room.
 - **Fixed in UK time** Teachers work from India, four and a half hours ahead in summer and five and a half in winter, and every slot is agreed in UK time.
 

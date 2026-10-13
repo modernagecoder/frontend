@@ -14,7 +14,7 @@ Australia · Ages 8 and up · Think it through, then code it
 
 Parents are often told that coding teaches problem solving, and it can, but only when children are given real problems rather than step-by-step instructions to follow. A real problem has an unclear path, needs breaking into parts, and rewards a child who tests an idea, notices a pattern and asks why. This page shows what that looks like in practice, using the Australian Curriculum's own description of problem decomposition and one of the most famous unsolved puzzles in mathematics, which a ten-year-old can explore with a short loop and which no mathematician has yet managed to prove.
 
-At a glance: For: Ages 8 and up; Focus: Defining, decomposing and testing; Example: The Collatz puzzle; Languages: Scratch, then Python; Curriculum: Digital Technologies, F to 10; Format: Live online video; Group: Five to ten, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 8 and up; Focus: Defining, decomposing and testing; Example: The Collatz puzzle; Languages: Scratch, then Python; Curriculum: Digital Technologies, F to 10; Format: Live online video; Group: Fifteen to twenty, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses built around real problems
 
@@ -211,7 +211,7 @@ Teachers bring a problem; students do the thinking. The teacher's job is to ask 
 - **Small parts** Every solution is built and tested in pieces.
 - **Mistakes welcome** A wrong guess is the start of the next idea.
 - **Explain it** Students describe their solution and its limits.
-- **Small groups** Fifteen to twenty learners, or one to one.
+- **Groups** Fifteen to twenty learners, or one to one.
 - **Same teacher** One teacher who knows how each student thinks.
 
 ## Fees

@@ -332,7 +332,7 @@ module.exports = {
     h2: 'Canterbury-Bankstown class fees',
     intro: 'Three amounts are the whole story.',
     first: 'The first lesson is free and ends with a recommendation.',
-    group: 'A month of small-group lessons, normally eight, with fifteen to twenty learners.',
+    group: 'A month of group lessons, normally eight, with fifteen to twenty learners.',
     private: 'Roughly eight lessons a month with one teacher and one learner.',
     closer: 'Outside India every invoice is in US dollars, the same across the council area. Payment starts only after the trial, when course and times are agreed; holidays and absences are explained on the pricing page.'
   },
@@ -386,7 +386,7 @@ module.exports = {
       },
       {
         q: 'How many learners are in a group?',
-        a: 'Five to ten, grouped by level and pace. One-to-one lessons are available if no group suits.',
+        a: 'Fifteen to twenty, grouped by level and pace. One-to-one lessons are available if no group suits.',
         boiler: true
       }
     ]

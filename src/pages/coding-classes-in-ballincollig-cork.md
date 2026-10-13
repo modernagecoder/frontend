@@ -201,7 +201,7 @@ The first lesson is free. After that a group place is USD 100 a month for about 
 
 ### How many learners are in a group?
 
-Five to ten, sorted by level, pace and goals rather than by age or address. If no group fits at a workable time, lessons are one to one.
+Fifteen to twenty, sorted by level, pace and goals rather than by age or address. If no group fits at a workable time, lessons are one to one.
 
 ## Around Ballincollig and the Lee valley
 

@@ -14,7 +14,7 @@ England · Years 7 to 9 · Ages 11 to 14
 
 The statutory computing curriculum for Years 7 to 9 opens with two lines that almost nobody teaches properly. The first asks pupils to "design, use and evaluate computational abstractions that model the state and behaviour of real-world problems and physical systems". The second asks them to "use logical reasoning to compare the utility of alternative algorithms for the same problem". Modelling state, and choosing between algorithms. Neither produces a colourful result to show at a parents' evening, both take real thought to teach, and both are exactly what a GCSE Computer Science course will assume a student has already met. This page sets out the whole programme of study, those two lines in particular, and what a student who has genuinely done key stage 3 can do when they walk into Year 10.
 
-At a glance: For: Years 7 to 9, ages 11 to 14; Curriculum: Statutory key stage 3 computing; Often skipped: Modelling state, comparing algorithms; Also required: A textual language, data structures; And: Binary arithmetic, Boolean logic; Group: Five to ten at one level; Or: One to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Years 7 to 9, ages 11 to 14; Curriculum: Statutory key stage 3 computing; Often skipped: Modelling state, comparing algorithms; Also required: A textual language, data structures; And: Binary arithmetic, Boolean logic; Group: Fifteen to twenty at one level; Or: One to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for Years 7 to 9
 

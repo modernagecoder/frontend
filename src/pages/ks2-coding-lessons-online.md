@@ -14,7 +14,7 @@ England · Years 3 to 6 · Ages 7 to 11
 
 Ask most parents what coding at primary school involves and they will describe a Scratch animation with a cat in it. Then read what the statutory curriculum actually requires by the end of Year 6: pupils should be taught to "use sequence, selection, and repetition in programs; work with variables and various forms of input and output", to "design, write and debug programs that accomplish specific goals", and to "use logical reasoning to explain how some simple algorithms work and to detect and correct errors in algorithms and programs". Variables. Selection. Debugging. Explaining an algorithm. Those are named requirements for eleven-year-olds, and a great many Year 6 children have never met one of them. This page sets out the whole programme of study, plainly, and what it looks like taught properly.
 
-At a glance: For: Years 3 to 6, ages 7 to 11; Curriculum: Statutory key stage 2 computing; Named in it: Sequence, selection, repetition; Also named: Variables, input and output; And: Debugging, and explaining algorithms; Group: Five to ten at one level; Or: One to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Years 3 to 6, ages 7 to 11; Curriculum: Statutory key stage 2 computing; Named in it: Sequence, selection, repetition; Also named: Variables, input and output; And: Debugging, and explaining algorithms; Group: Fifteen to twenty at one level; Or: One to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for Years 3 to 6
 

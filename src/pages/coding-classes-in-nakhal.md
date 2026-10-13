@@ -179,7 +179,7 @@ Where the falaj goes, the fields and the houses go. A shape drawn by irrigation 
 
 A real class with a real task, ending in a named recommendation. No payment details are taken to arrange it and nothing is committed to before a teacher has been watched at work.
 
-### Five to eight, matched on what they can do
+### Fifteen to twenty, matched on what they can do
 
 Groups are built from present ability and intended destination. Location is not part of the matching, which is the one thing proximity can never provide.
 

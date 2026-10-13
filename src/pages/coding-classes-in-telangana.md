@@ -12,7 +12,7 @@ Telangana • **Live Online Classes**
 
 From Hyderabad's HITEC City and Cyberabad to Warangal and every district: Modern Age Coders teaches Scratch, Python, Java, Web Development and AI through live, small-batch online classes. World-class tech education for one of India's fastest-growing IT states, right at home.
 
-Book a Free Demo ClassExplore Courses**4.9/5**Parent rating**5–8**Students per batch**100%**Live & online**6–60+**Ages we teach
+Book a Free Demo ClassExplore Courses**4.9/5**Parent rating**15–20**Students per batch**100%**Live & online**6–60+**Ages we teach
 
 ## Quick answer
 
@@ -99,7 +99,7 @@ The Difference
 
 ## Why Telangana Families Choose Modern Age Coders
 
-### Small live batches (15–20)
+### Live batches (15–20)
 
 Every student gets real attention from the instructor. No pre-recorded videos pretending to be a class, these are live, two-way sessions.
 

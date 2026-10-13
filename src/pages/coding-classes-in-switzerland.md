@@ -524,7 +524,7 @@ No quiz, no sign-up wall, no "convert your interest" pop-up. Leave a number, a S
 
 ## Live online coding classes for students in Switzerland
 
-Modern Age Coders teaches students worldwide over live video, in small 4–8 batches, with timings that suit your timezone. Explore other regions or book a free demo.
+Modern Age Coders teaches students worldwide over live video, in 15–20 batches, with timings that suit your timezone. Explore other regions or book a free demo.
 
 ### Coding classes in other countries
 

@@ -142,7 +142,7 @@ You need a computer with a camera and a home connection that can carry video.
 - **Typed by the learner** Code is written and run on the student's own shared screen. The tutor's part is to ask why it should work.
 - **Level from the trial** What we see in the free session decides the first unit, and we note an exam board where relevant.
 - **Nothing to pay at first** The first lesson is complete, free and card-free, with a course suggestion to finish.
-- **Matched groups** A class is five to ten people at one stage, joining from all over the UK.
+- **Matched groups** A class is fifteen to twenty people at one stage, joining from all over the UK.
 - **Twice a week** Two lessons weekly, with your holiday dates left clear.
 - **Steady UK slot** When the clocks go forward or back, the tutor shifts and you do not.
 

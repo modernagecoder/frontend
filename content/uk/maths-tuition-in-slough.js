@@ -258,7 +258,7 @@ module.exports = {
     cells: [
       { h3: 'Continuity', p: 'Your teacher stays the same, so nothing has to be explained twice.' },
       { h3: 'Parents kept informed', p: 'A brief note after lessons on what went well and what comes next.' },
-      { h3: 'Small, matched classes', p: 'Fifteen to twenty learners, all at a similar point.' },
+      { h3: 'Matched classes', p: 'Fifteen to twenty learners, all at a similar point.' },
       { h3: 'Local numbers', p: 'Census tables and other real data, not only textbook exercises.' },
       { h3: 'Private option', p: 'One to one for a near exam or a stubborn topic.' },
       { h3: 'Understanding first', p: 'We show why a method works before practising it.' }

@@ -49,7 +49,7 @@ module.exports = {
     ['First steps', 'Scratch and games'],
     ['Then', 'Apps, typed Python, AI explained'],
     ['Format', 'Live video with a teacher'],
-    ['Groups', '5 to 10 at one level, or one to one'],
+    ['Groups', '15 to 20 at one level, or one to one'],
     ['Times', 'After school and weekends'],
     ['Language', 'English'],
     ['Start', 'A free first lesson']
@@ -188,7 +188,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'The child makes something real while the teacher watches how they think. By the end, the teacher knows where to start and the child usually wants to come back.' },
-      { h3: 'Small groups by level', p: 'Fifteen to twenty children who can already do the same things, from several countries, so a quick seven-year-old and a careful ten-year-old can each be in the right group.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty children who can already do the same things, from several countries, so a quick seven-year-old and a careful ten-year-old can each be in the right group.' },
       { h3: 'One to one if it suits', p: 'For a child who is shy in groups, needs extra attention, or is racing ahead and wants their own pace.' },
       { h3: 'A parent in the loop', p: 'We speak with a parent before anything is booked, and younger children often have a parent nearby for the first lessons.' },
       { h3: 'In English', p: 'Lessons are in English. Children at Dutch schools usually pick up the programming words quickly, and teachers keep instructions simple and visual.' },

@@ -67,7 +67,7 @@ module.exports = {
     ['Quality bar', 'WCAG 2.2 AA accessibility'],
     ['Practice', 'Code in the open, secrets out'],
     ['For', 'Teens 13 to 18 and adults'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -239,7 +239,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'We check your level and choose a route through the stack with you.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners of similar age and level.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners of similar age and level.' },
       { h3: 'One to one', p: 'For a career switch deadline or a faster pace.' },
       { h3: 'Accessibility checked', p: 'Every project is tried with a keyboard and checked for contrast before it counts as done.' },
       { h3: 'Your repository', p: 'Projects live in your own GitHub account, with secrets kept out.' },

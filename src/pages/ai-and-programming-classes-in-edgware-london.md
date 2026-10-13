@@ -132,7 +132,7 @@ You will need a computer with a camera and an internet line good enough for vide
 - **Pupil writes, tutor questions** The learner types and runs each step; on the shared screen the tutor keeps asking where a result came from.
 - **First topic from the trial** The free lesson tells us what is already known; we also note the exam board.
 - **Trial without charge** Lesson one is free and ends with a course suggestion.
-- **Small classes, one level** Fifteen to twenty learners from around the UK who are at the same stage.
+- **Classes, one level** Fifteen to twenty learners from around the UK who are at the same stage.
 - **Two sessions weekly** Not during school holidays.
 - **No drifting timetable** UK clock changes are handled by our tutors, so your slot stays where it is.
 

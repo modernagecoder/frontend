@@ -14,7 +14,7 @@ Ireland · Working professionals · Live online
 
 Irish businesses have moved quickly. The Central Statistics Office found that 20.2% of enterprises used AI in some capacity in 2025, up from just over 15% in 2024 and about 8% in 2023, and that almost six in ten large enterprises now use it. What most of them do not have is somebody who can build an agent, measure whether it works, and say plainly where it should not be used. That gap is what this course fills. It is for professionals who already have a job to protect and improve: analysts, engineers, operations managers, people in finance, marketing and administration who want to put a well-understood agent into a real workflow rather than run another pilot. It covers what an agent is, how to ground it in your own documents, how to test it against cases with known answers, and how to hand it over with a log and an honest account of its limits.
 
-At a glance: For: Working professionals; Builds: Agents with tools and retrieval; Proves: Test sets with known answers; Delivers: Logs, limits and a handover; Format: Live, around a working week; Group: Five to ten, or one to one; Note: The Copilot Studio course is one to one only; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Working professionals; Builds: Agents with tools and retrieval; Proves: Test sets with known answers; Delivers: Logs, limits and a handover; Format: Live, around a working week; Group: Fifteen to twenty, or one to one; Note: The Copilot Studio course is one to one only; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three routes for working professionals
 

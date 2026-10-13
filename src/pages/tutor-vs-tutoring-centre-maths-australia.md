@@ -35,7 +35,7 @@ The labels vary, but most Australian maths help falls into three shapes.
 | Private tutor | One child, one tutor, at home, at the tutor's place or online | Every minute is about your child | Tutor's qualifications and screening vary widely |
 | Tutoring centre | Several children at desks working through programs, one supervising teacher | Structure, routine and a lower fee per child | How much individual teaching each child actually gets |
 | Coaching college | Larger classes aimed at exams, selective tests or senior years | Exam focus and practice volume | Pace set for the class, not the child |
-| Live online small group | Fifteen to twenty children of a similar level with one teacher on video | Teacher sees each child's working on screen, lower fee than one to one | Needs a quiet spot and a working computer at home |
+| Live online group | Fifteen to twenty children of a similar level with one teacher on video | Teacher sees each child's working on screen, lower fee than one to one | Needs a quiet spot and a working computer at home |
 
 The Australian Tutoring Association, the national peak body for tutoring, explains the price side neatly: "One-to-one sessions tend to levy a higher fee for the student/family. Where the ratio of students to tutor is higher (such as in a class) the individual fee may be significantly lower and the tutor rate overall higher." In plain terms, a centre or class spreads one teacher across several children, so each family pays less and each child gets a share of the teacher.
 
@@ -149,7 +149,7 @@ Whatever you choose, give it a term and then ask for a specific report: which to
 
 We are neither a centre nor a single private tutor. Here is how our format lines up against the questions above.
 
-### Small groups or one to one
+### Groups or one to one
 
 Fifteen to twenty learners at a similar level, or a teacher to yourself, chosen after the free first lesson.
 
@@ -235,7 +235,7 @@ Answers matter; the working behind them matters more.
 - **Working shown** The teacher sees how each answer was reached.
 - **Errors read** Patterns in mistakes guide the next lesson.
 - **Same teacher** Week after week.
-- **Small groups** Five to ten, or one to one.
+- **Groups** Fifteen to twenty, or one to one.
 - **Live, online** No travel, any state.
 - **Plain reports** Topics secure and topics to work on.
 

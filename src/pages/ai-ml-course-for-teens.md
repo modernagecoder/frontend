@@ -198,7 +198,7 @@ There are thousands of AI courses out there. Here's why parents and students con
 
 ### Groups Capped at 10
 
-Recorded courses have no teacher watching, and big coaching halls hold 30 or more. Our groups hold 5 to 10, so every student gets asked questions, gets their code reviewed and gets unstuck in every class.
+Recorded courses have no teacher watching, and big coaching halls hold 30 or more. Our groups hold 15 to 20, so every student gets asked questions, gets their code reviewed and gets unstuck in every class.
 
 ### Live Coding: Every Class
 

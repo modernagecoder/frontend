@@ -189,7 +189,7 @@ Lessons are live online, so learners anywhere in the council area join the same 
 - **Join from home** The learner logs in from a desk at home and spends the whole lesson building.
 - **Built around NSW terms** Lessons track NSW syllabus stages and pause in the state school holidays.
 - **A genuine trial** The free first class is a full lesson, finishing with a course, level and time suggestion.
-- **Small groups** Fifteen to twenty learners per group, matched by level and pace, Randwick learners alongside others.
+- **Groups** Fifteen to twenty learners per group, matched by level and pace, Randwick learners alongside others.
 - **Two a week** Two fixed lessons weekly, about eight a month, with breaks agreed in advance.
 - **Teachers in India** A 4pm Randwick lesson during daylight saving begins at 10:30am in India; in Sydney standard time it begins at 11:30am there.
 

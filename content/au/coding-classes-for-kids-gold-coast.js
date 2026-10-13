@@ -193,7 +193,7 @@ module.exports = {
       { h3: 'Equipment', p: 'A laptop or desktop with sound is ideal; for the very first lesson a parent nearby helps a young child settle.' },
       { h3: 'Queensland year names', p: 'Teachers use the words Gold Coast children hear at school, starting with Prep.' },
       { h3: 'A free first lesson', p: 'Your child completes a small project, then we suggest a course and a regular time. No card is needed.' },
-      { h3: 'Small groups or one to one', p: 'Groups of fifteen to twenty children ready for the same next step, or private lessons if you prefer.' },
+      { h3: 'Groups or one to one', p: 'Groups of fifteen to twenty children ready for the same next step, or private lessons if you prefer.' },
       { h3: 'Around eight lessons a month', p: 'Usually two a week at the same time, so coding becomes a steady habit.' },
       { h3: 'Teachers on India time', p: 'A 4pm lesson on the coast is 11:30am for our teachers in India, and that gap never moves.' }
     ],

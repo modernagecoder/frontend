@@ -12,7 +12,7 @@ Project-Based C++ • **Build a Real Portfolio**
 
 Stop watching tutorials and start shipping. Build real, working C++ projects with a mentor, games, a bank system, an inventory manager and a capstone of your own, from beginner to advanced. Finish with a portfolio you can show for college, internships and interviews.
 
-Book a Free Projects DemoSee Project Ideas**10+**Projects to build**5–8**Students per batch**Live**Mentor-guided builds**Yours**A real portfolio
+Book a Free Projects DemoSee Project Ideas**10+**Projects to build**15–20**Students per batch**Live**Mentor-guided builds**Yours**A real portfolio
 
 ## Quick answer
 

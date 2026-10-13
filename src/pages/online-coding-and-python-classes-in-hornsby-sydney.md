@@ -186,7 +186,7 @@ In the department's file the most northerly school in the shire is Brooklyn Publ
 - **No travel** Wherever in the shire a learner lives, the lesson starts at home and the hour goes on programming rather than travelling.
 - **In step with NSW** Lessons follow the NSW stages and year levels, take breaks with the state school holidays, and can support senior computing subjects.
 - **A real first class** The free trial is a proper lesson; afterwards the teacher suggests a course, level and time, and nothing is billed.
-- **Small, matched groups** Groups hold fifteen to twenty learners at one level, mixing Hornsby learners with others from different places.
+- **Matched groups** Groups hold fifteen to twenty learners at one level, mixing Hornsby learners with others from different places.
 - **Twice weekly** Two fixed lessons each week, about eight a month, with holiday pauses arranged ahead of time.
 - **Teachers in India** A 5pm Hornsby lesson in summer starts at 11:30am India time, and at 12:30pm there once Sydney leaves daylight saving.
 

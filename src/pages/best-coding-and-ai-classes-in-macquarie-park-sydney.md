@@ -185,7 +185,7 @@ With nearly nine in ten Macquarie Park homes counted as flats or apartments, mos
 - **No commute** The learner logs in and the full hour goes on coding, with no travel at either end.
 - **NSW calendar** Plans follow the NSW stages and pause for state school holidays, with senior projects that suit computing subjects.
 - **Trial first** The free lesson is a real class, finishing with a suggested course, level and time and no payment taken.
-- **Small groups** Fifteen to twenty learners at a similar level, drawn from Macquarie Park and elsewhere.
+- **Groups** Fifteen to twenty learners at a similar level, drawn from Macquarie Park and elsewhere.
 - **A steady rhythm** Two set lessons a week, about eight a month, with breaks agreed in advance.
 - **Teachers in India** A 7pm lesson in Macquarie Park during daylight saving begins at 1:30pm India time; once Sydney returns to standard time it begins at 2:30pm there.
 
@@ -196,7 +196,7 @@ With nearly nine in ten Macquarie Park homes counted as flats or apartments, mos
 The full price list has three lines.
 
 - First class: USD 0. The first lesson is free and ends with a clear recommendation.
-- Group tuition: USD 100 a month. A month of small-group lessons, usually eight, with fifteen to twenty learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. About eight one-to-one lessons a month with a single teacher.
 
 Outside India, fees are invoiced in US dollars, so every Macquarie Park family pays the same rate. Payment starts only once the course and lesson time are settled after the trial; holidays, missed lessons and changes of format are explained on the pricing page.
@@ -237,7 +237,7 @@ The first lesson is free. After that, group lessons cost USD 100 a month for two
 
 ### How many people are in a group?
 
-Five to ten, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner's time.
+Fifteen to twenty, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner's time.
 
 ### What does a learner need for lessons?
 

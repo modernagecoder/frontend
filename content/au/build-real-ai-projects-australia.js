@@ -79,7 +79,7 @@ module.exports = {
     ['Testing', 'On unseen, later data'],
     ['Output', 'A written project report'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -414,7 +414,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'A baseline scored on real data, in one lesson.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners reviewing each other\'s reports.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners reviewing each other\'s reports.' },
       { h3: 'One to one', p: 'For one project, at your depth.' },
       { h3: 'Licensed data', p: 'Every dataset\'s licence noted.' },
       { h3: 'Baselines first', p: 'No model without something to beat.' },

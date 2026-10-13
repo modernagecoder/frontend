@@ -211,7 +211,7 @@ module.exports = {
     cells: [
       { h3: 'Say it before coding it', p: 'Children describe the steps before building them.' },
       { h3: 'Testing as a game', p: 'Children try to break each other\'s programs, then fix their own.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children at a similar stage.' },
+      { h3: 'Groups', p: 'Fifteen to twenty children at a similar stage.' },
       { h3: 'One-to-one option', p: 'For children who need a slower or faster pace.' },
       { h3: 'A note home', p: 'One line on what was learned and one thing to ask about.' },
       { h3: 'Homework stays theirs', p: 'We teach the idea; school tasks remain the child\'s own.' }

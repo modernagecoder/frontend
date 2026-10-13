@@ -512,7 +512,7 @@
   ],
   "course_guarantees": {
     "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
-    "small_batches": "Small batches only: group classes are capped at 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
+    "small_batches": "Batches only: group classes are capped at 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
     "structured_curriculum": "A structured curriculum that teaches Java from scratch and follows the current four-unit exam, with hands-on coding in every session.",
     "doubt_support": "Doubt support between classes over WhatsApp, so a stuck problem does not cost you a week.",
     "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",

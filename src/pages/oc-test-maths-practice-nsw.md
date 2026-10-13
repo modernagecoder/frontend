@@ -180,7 +180,7 @@ Teachers work from India, behind Sydney. During daylight saving a 4 pm Sydney cl
 
 - **Short tasks** Young children work in bursts with plenty of variety.
 - **Lists on paper** Children learn to write possibilities down in order.
-- **Fifteen to twenty per group** Small groups where every child is heard.
+- **Fifteen to twenty per group** Groups where every child is heard.
 - **One-to-one lessons** For a child who prefers quiet, individual time.
 - **Not OC coaching** We teach maths, in line with the department's advice.
 - **No placement claims** Placement is the department's decision alone.

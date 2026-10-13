@@ -14,7 +14,7 @@ Australia · Ages 6 to 18 · Live online
 
 Parents usually ask the language question first, and it is a fair one: there are dozens of programming languages, every one has fans, and a child only has so many afternoons. The good news is that the choice matters less than it looks. Every language a child is likely to meet does the same few things underneath: it stores values, repeats steps, makes decisions and responds to input. What changes from one language to the next is how much a child must type, how forgiving it is of small mistakes, and what kind of thing it is good at making. This guide compares the five languages Australian children most often start with, shows exactly how much typing one tiny program needs in each, and suggests an order that fits both a child's age and what they want to build.
 
-At a glance: For: Children and teens, 6 to 18; Youngest start: Scratch, with blocks; First text language: Usually Python; For the web: JavaScript; For Roblox: Luau, a dialect of Lua; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children and teens, 6 to 18; Youngest start: Scratch, with blocks; First text language: Usually Python; For the web: JavaScript; For Roblox: Luau, a dialect of Lua; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## One course per language stage
 
@@ -233,7 +233,7 @@ Our teachers are in India, which sits behind every Australian state: by two and 
 - **Weekend** Longer project sessions for keen coders.
 
 - **A free first class** The teacher tries blocks and text with your child and recommends a language from what they see.
-- **Small groups** Fifteen to twenty children at a similar level and learning the same language.
+- **Groups** Fifteen to twenty children at a similar level and learning the same language.
 - **One to one** Useful when a child already knows one language and wants to move quickly to a second.
 - **Code they type** Teachers explain and question. The child types or snaps in every line.
 - **Watch a lesson** Every class happens live, so a parent can pull up a chair whenever they like.

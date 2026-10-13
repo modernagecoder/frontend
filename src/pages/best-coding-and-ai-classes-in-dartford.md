@@ -138,7 +138,7 @@ Any home in the borough with a computer and a dependable connection can join.
 - **The learner works** Students do the typing, prompting and testing; the tutor follows via screen share and asks the next useful question.
 - **Level set by the trial** A Year 4 or Year 13 learner starts where the free lesson places them, with the exam board in view.
 - **Opening lesson free** A whole lesson, no fee, ending with a straightforward suggestion.
-- **Stage-matched groups** Five to ten UK learners progressing at a similar pace.
+- **Stage-matched groups** Fifteen to twenty UK learners progressing at a similar pace.
 - **Two per week** School holidays stay lesson-free.
 - **The same hour** Our tutors deal with the UK clock changes.
 

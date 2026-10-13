@@ -198,7 +198,7 @@ Live teaching, live questions, live code review. Nothing pre-recorded and nothin
 
 Free, and its job is to answer one question: what should this learner be doing? One problem, watched rather than marked.
 
-### Five to eight
+### Fifteen to twenty
 
 Sorted by what a learner can do today, drawn from our intake across twenty-five countries rather than from one postcode.
 

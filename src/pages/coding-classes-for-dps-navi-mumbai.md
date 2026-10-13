@@ -351,7 +351,7 @@ Start with 1-on-1 Class
 
 Situated in the heart of the extensively planned Nerul township, **DPS Navi Mumbai** hosts the brightest young minds escaping the chaos of mainland Mumbai. Yet, staying competitive in Maharashtra's increasingly digital academic landscape requires more than standard CBSE textbooks. **Modern Age Coders** provides elite online Python, Java, and Artificial Intelligence curriculums heavily customized to boost the specific mathematical and computational demands faced by DPS students. Our approach immediately translates to superior scores in school Computer Science examinations while nurturing a genuine love for logic.
 
-By engaging in small, exclusive online batches of just 15-20 students, children avoid exhaustive commutes across Vashi and Seawoods. This allows them to seamlessly balance their demanding DPS homework alongside cutting-edge programming projects. Give your child the definitive advantage in engineering entrances, Ivy League preparation, or local technological dominance. Contact us today to arrange a free, personalized online demo lesson tailored perfectly for the Navi Mumbai academic ecosystem.
+By engaging in small, exclusive online batches of 15-20 students, children avoid exhaustive commutes across Vashi and Seawoods. This allows them to seamlessly balance their demanding DPS homework alongside cutting-edge programming projects. Give your child the definitive advantage in engineering entrances, Ivy League preparation, or local technological dominance. Contact us today to arrange a free, personalized online demo lesson tailored perfectly for the Navi Mumbai academic ecosystem.
 
 ## Affordable Coding & Maths Classes for DPS Navi Mumbai
 

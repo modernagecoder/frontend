@@ -199,7 +199,7 @@ module.exports = {
       { q: 'Can I join as an adult?', a: 'Yes. Grown-up learners up to sixty-seven are welcome, complete beginners included, and they pick a same-level group or private lessons once the free lesson is done.' },
       { q: 'Will my child be with other Finglas children?', a: 'Only by chance, because groups are formed by level and classmates may be anywhere in Ireland or abroad.' },
       { q: 'What do coding classes in Finglas cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, matched by level, pace and goals rather than age or address. If no group runs at a time that suits, lessons are one to one.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, matched by level, pace and goals rather than age or address. If no group runs at a time that suits, lessons are one to one.', boiler: true }
     ]
   },
 

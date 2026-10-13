@@ -14,7 +14,7 @@ UK · Sixth formers and adults · Python
 
 Every student taking A level maths in England already works with real data. The Department for Education's subject content requires specifications to make students "become familiar with one or more specific large data set(s) in advance of the final assessment", data that "must be real and sufficiently rich", explored with "spreadsheets or specialist statistical packages". Ofqual adds that the data "should not be cleansed by the awarding organisation": missing values and awkward units stay in. Then comes the exam, where, in OCR's words, "Students will not have access to the data set in the exam", and the analysis is done with a calculator's statistical functions. Code is nowhere in that picture. Yet the thing students are practising, turning a messy real table into a defensible conclusion, is exactly what data scientists do in Python every day. This course fills that gap for UK sixth formers who want to go further than the exam asks, and for adults who want data skills for work: loading real data, cleaning it honestly, summarising and charting it, and building first models.
 
-At a glance: A level maths: A real large data set, studied in advance; The data: Real, and not cleansed by the board; In the exam: No data set; a calculator; Our course: Python, pandas and charts; Then: Sampling, correlation, first models; For: Ages 14 to 18 and adults; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: A level maths: A real large data set, studied in advance; The data: Real, and not cleansed by the board; In the exam: No data set; a calculator; Our course: Python, pandas and charts; Then: Sampling, correlation, first models; For: Ages 14 to 18 and adults; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for working with data
 
@@ -204,7 +204,7 @@ Lessons are taught from India, where there is no clock change, so the UK sits fo
 - **Weekend** Longer sessions for a data project.
 
 - **A free first class** We look at your maths and coding, and pick a route and a first data set.
-- **Small groups** Fifteen to twenty learners at the same level.
+- **Groups** Fifteen to twenty learners at the same level.
 - **One to one** For a faster pace or a particular project.
 - **Notebooks you keep** Every analysis is saved in your own repository.
 - **Sources on every chart** Students record where each data set came from.

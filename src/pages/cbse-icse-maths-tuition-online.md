@@ -275,7 +275,7 @@ Any class from 6 to 12. Most families start in Class 6 to 8, where the foundatio
 
 ### How many students are in a batch?
 
-Five to ten, from the same class and board, with one teacher for the whole year. That size is small enough that every student is asked questions by name and the teacher knows which chapter each child is stuck on, and large enough that a student hears other people's questions, which are often better than the textbook's. A mini batch of up to six and one-to-one tuition are also available.
+Fifteen to twenty, from the same class and board, with one teacher for the whole year. That size is small enough that every student is asked questions by name and the teacher knows which chapter each child is stuck on, and large enough that a student hears other people's questions, which are often better than the textbook's. A mini batch of up to six and one-to-one tuition are also available.
 
 ### Is it the 2026-27 syllabus?
 

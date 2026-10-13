@@ -14,7 +14,7 @@ Australia · Ages 9 and 10 · Live online
 
 Nine and ten year olds are often the most productive young coders of all. They read fluently, type with growing confidence, follow a multi-step plan and, crucially, they can hold an abstract idea in their head: a number that stands for a score, a position described by two numbers, a rule that applies to every enemy in a game. That is when games stop being toys and start being real programs. This page explains what children of this age typically build, works through the single idea that unlocks most of their games (the Scratch stage as a coordinate grid), shows where variables come in, maps it all to Years 4 to 6 of the Australian Curriculum, and explains when to take the first step from blocks into Python.
 
-At a glance: For: Children aged 9 and 10; School years: Usually Years 4 and 5; Main tools: Scratch, then Python; Big new ideas: Variables and coordinates; Projects: Complete games with scores; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children aged 9 and 10; School years: Usually Years 4 and 5; Main tools: Scratch, then Python; Big new ideas: Variables and coordinates; Projects: Complete games with scores; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three strong courses for ages 9 and 10
 
@@ -222,7 +222,7 @@ The teaching team works in India, behind Australia by a few hours whichever stat
 - **Weekend** A longer session for ambitious game builders.
 
 - **A free first class** Your child builds part of a small game and the teacher judges whether Scratch or Python suits better.
-- **Small groups** Fifteen to twenty children of similar ability who play-test each other's games.
+- **Groups** Fifteen to twenty children of similar ability who play-test each other's games.
 - **One to one** For a child who wants to move faster or build one big project.
 - **Built by the child** Teachers explain and question. Every block and line is the child's.
 - **Watch any time** Lessons are live, so parents can see exactly how they run.

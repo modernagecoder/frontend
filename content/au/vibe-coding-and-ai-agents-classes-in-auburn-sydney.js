@@ -321,7 +321,7 @@ module.exports = {
       { h3: 'At home', p: 'A computer, a stable connection and headphones are all a learner needs.' },
       { h3: 'NSW terms', p: 'Lessons pause for the NSW school holidays when families ask.' },
       { h3: 'Free first lesson', p: 'A complete trial lesson, then a suggested course and timetable.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners matched by level, or a private teacher.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners matched by level, or a private teacher.' },
       { h3: 'Two a week', p: 'Two fixed lessons weekly, about eight a month, with agreed breaks.' },
       { h3: 'India time', p: 'A 6pm Auburn lesson starts at 12:30pm India time during daylight saving and 1:30pm after it ends.' }
     ],
@@ -334,7 +334,7 @@ module.exports = {
     h2: 'Auburn class fees',
     intro: 'The fees come down to three numbers.',
     first: 'The first lesson costs nothing and ends with honest advice on level.',
-    group: 'A month in a small group, usually eight lessons, with fifteen to twenty learners.',
+    group: 'A month in a group, usually eight lessons, with fifteen to twenty learners.',
     private: 'About eight private lessons a month with one teacher.',
     closer: 'Families outside India are invoiced in US dollars. Nothing is paid until after the trial and an agreed timetable; the pricing page explains holidays and missed lessons.'
   },
@@ -385,7 +385,7 @@ module.exports = {
       },
       {
         q: 'How many learners are in a group?',
-        a: 'Five to ten, grouped by level and pace. One-to-one lessons are available if no group suits.',
+        a: 'Fifteen to twenty, grouped by level and pace. One-to-one lessons are available if no group suits.',
         boiler: true
       }
     ]

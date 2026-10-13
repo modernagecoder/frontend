@@ -232,7 +232,7 @@ module.exports = {
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly hour is fixed during the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Wexford?', a: 'No, and none is claimed. All teaching is live online, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the phone number on this page is an Indian one.', boiler: true },
       { q: 'What do County Wexford coding classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month, covering two live lessons a week and roughly eight a month with fifteen to twenty learners, or USD 150 a month taught privately on the same schedule. Everything is agreed before payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than by age or address. Where no suitable group runs at a workable hour, we offer one-to-one lessons instead.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, grouped by ability, pace and goal rather than by age or address. Where no suitable group runs at a workable hour, we offer one-to-one lessons instead.', boiler: true }
     ]
   },
 

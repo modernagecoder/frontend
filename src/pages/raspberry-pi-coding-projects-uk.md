@@ -14,7 +14,7 @@ UK · Ages 10 to 17 · Physical computing
 
 Many families buy a Raspberry Pi and discover a slightly awkward truth: used with a screen and keyboard, it is a small computer that does much of what the family laptop already does. The part that makes it special sits along one edge. Raspberry Pi's official documentation puts it plainly: "You can find a 40-pin GPIO (general-purpose input/output) header on all current Raspberry Pi boards." Those pins let code reach out into the physical world, switching lights, reading buttons, measuring the room. Raspberry Pi OS comes with Python already installed, and the documentation's own example lights an LED from Python in a handful of lines using the GPIO Zero library, which is installed by default. This page is about the projects that use the pins, how to build them safely, and when a Raspberry Pi Pico is the better tool.
 
-At a glance: What makes it special: The 40-pin GPIO header; Language: Python 3, pre-installed; Pin library: GPIO Zero, installed by default; Editor: Thonny, in Raspberry Pi OS; Smaller sibling: Pico, runs MicroPython; Hardware: We do not sell it; Group: Five to ten at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: What makes it special: The 40-pin GPIO header; Language: Python 3, pre-installed; Pin library: GPIO Zero, installed by default; Editor: Thonny, in Raspberry Pi OS; Smaller sibling: Pico, runs MicroPython; Hardware: We do not sell it; Group: Fifteen to twenty at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for Raspberry Pi owners
 
@@ -204,7 +204,7 @@ Our teachers work from India, whose clocks stay fixed, so the UK is four and a h
 - **Code reviewed** A teacher reads each program and suggests the next improvement.
 - **Loops to events** From checking in a loop to responding to events, as the official examples show.
 - **Safety habits** The documentation's three rules repeated until they are automatic.
-- **Small groups** Fifteen to twenty learners at one level.
+- **Groups** Fifteen to twenty learners at one level.
 
 ## Fees for Python lessons
 

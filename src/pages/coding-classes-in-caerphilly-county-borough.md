@@ -138,7 +138,7 @@ Towns throughout the county borough join by video in the same way.
 - **Learners write the code** Each program is typed by the pupil while the teacher watches the shared screen and nudges when needed.
 - **Matched to Welsh schooling** Whether it is Year 5 in Oakdale or Year 12 in Bargod, we look at the year and the Curriculum for Wales, and exam work follows the WJEC specifications. Lessons are in English.
 - **Free trial lesson** A full lesson without charge, then an honest recommendation.
-- **Small classes at one level** Fifteen to twenty learners at the same level, from many places.
+- **Classes at one level** Fifteen to twenty learners at the same level, from many places.
 - **Term-time timetable** Two lessons a week in term, with holidays off.
 - **Stays at UK time** Clock changes do not move your lesson; our teachers on India time adjust instead.
 

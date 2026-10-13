@@ -12,7 +12,7 @@ AI & Machine Learning • **Live Online Across India**
 
 Learn AI the way it's actually done, by building and training real models. Go from Python to Machine Learning, Deep Learning, Neural Networks, Data Science and Generative AI, in live small-batch classes built for college students, working professionals and serious teens who want real, job-ready AI skills, not just theory.
 
-Book a Free AI/ML Demo ClassSee the Curriculum**4.9/5**Learner rating**5–8**Students per batch**Build**& train real models**Live**Expert mentor, every class
+Book a Free AI/ML Demo ClassSee the Curriculum**4.9/5**Learner rating**15–20**Students per batch**Build**& train real models**Live**Expert mentor, every class
 
 ## Quick answer
 
@@ -135,7 +135,7 @@ The Difference
 
 ## Why Learners Choose Our AI & ML Course
 
-### Small live batches (15–20)
+### Live batches (15–20)
 
 Real two-way mentoring, never pre-recorded videos. Your code and models are reviewed live, every class.
 

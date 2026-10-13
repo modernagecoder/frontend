@@ -157,7 +157,7 @@ module.exports = {
       { h3: 'Hands on the keyboard', p: 'The learner shares a screen and types; the tutor watches, questions and nudges instead of lecturing.' },
       { h3: 'Placement by evidence', p: 'We suggest a course only after seeing the learner work in the free session.' },
       { h3: 'No card for the trial', p: 'Booking the first lesson costs nothing and asks for no payment details.' },
-      { h3: 'Small, level-matched groups', p: 'Fifteen to twenty learners at the same stage, drawn from across the UK.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at the same stage, drawn from across the UK.' },
       { h3: 'Two lessons most weeks', p: 'Tell us the Kent term dates your school follows and we skip the holidays.' },
       { h3: 'Your slot stays put', p: 'When UK clocks move in spring and autumn, the tutor adjusts, not you.' }
     ],

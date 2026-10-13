@@ -167,7 +167,7 @@ Online vs offline
 ### Where live online wins
 
 - No commute through the Jodhpur Park signal or Lake Mall traffic: 75–90 minutes saved every class day.
-- Small live batches of 15–20 mean more teacher attention than a crowded Gariahat coaching room.
+- Live batches of 15–20 mean more teacher attention than a crowded Gariahat coaching room.
 - Your child learns on the same computer they will code on, building real screen-and-keyboard fluency.
 - Access to full-time software engineers and maths graduates, not limited to whoever teaches locally.
 - Every class is recordable for revision, and parents can see exactly what was taught.

@@ -208,11 +208,11 @@ module.exports = {
       { q: 'So which town is most like Castlebar?', a: 'On these census shares, Ballina is the most stable answer: it is among the five closest in seven of the eight set-ups and sixth in the other. But the closest single town depends on the features compared and how they are scaled.' },
       { q: 'How do Castlebar residents get to work?', a: 'Of 5,632 working residents in the travel table, 3,228 drive, 874 walk, 353 work mainly at or from home, 313 go by van and 273 as a car passenger.' },
       { q: 'When are lessons?', a: 'After school, in the evening and at weekends, scheduled on Irish time. India is four and a half hours ahead while Irish summer time lasts and five and a half hours ahead for the rest of the year, and we choose slots that suit teachers there in both periods.' },
-      { q: 'Do you teach adults?', a: 'Yes, up to sixty-seven, and complete beginners are welcome. An adult\'s first lesson is where we see whether a level-matched group or private lessons will suit better.' },
+      { q: 'Do you teach adults?', a: 'Yes, up to sixty-seven, and complete beginners are welcome. An adult\'s first lesson is where we see whether an level-matched group or private lessons will suit better.' },
       { q: 'Will a Castlebar learner be grouped with local learners?', a: 'Groups are formed by level, not by town, so the others in a lesson may be in Mayo, elsewhere in Ireland or overseas.' },
       { q: 'Is there a Modern Age Coders classroom in Castlebar?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
       { q: 'What do coding classes in Castlebar cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },
 

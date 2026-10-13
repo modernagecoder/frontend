@@ -52,7 +52,7 @@ module.exports = {
     ['Our free part', 'A full first lesson'],
     ['After that', 'Monthly fees, no lock-in'],
     ['Format', 'Live online video'],
-    ['Group', 'Five to ten, or one to one']
+    ['Group', 'Fifteen to twenty, or one to one']
   ],
   capsuleQ: 'In short',
   capsule: 'Free coding for kids in Australia is real and worth using. Code Club Australia runs volunteer-led clubs for ages 8 to 13, the Australian Government\'s Digital Technologies Hub points families to after-school options, and global activities such as the Hour of Code cost nothing. Free options rarely include a regular teacher who reviews a child\'s work. Modern Age Coders offers a free first lesson so families can compare.',
@@ -238,7 +238,7 @@ module.exports = {
     cells: [
       { h3: 'The same teacher', p: 'Your child keeps one teacher, who remembers last week\'s project.' },
       { h3: 'A planned sequence', p: 'Each lesson builds on the one before, towards a clear next stage.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children close in age and ability, or one to one.' },
+      { h3: 'Groups', p: 'Fifteen to twenty children close in age and ability, or one to one.' },
       { h3: 'Their own work', p: 'Children build every project themselves; teachers ask questions rather than take over.' },
       { h3: 'Stuck for minutes, not weeks', p: 'Help arrives in the lesson, which keeps momentum going.' },
       { h3: 'Free clubs still welcome', p: 'Many of our students keep going to a Code Club too. The two fit well together.' }

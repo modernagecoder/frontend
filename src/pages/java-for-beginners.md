@@ -12,7 +12,7 @@ No Experience Needed • **Start From Zero**
 
 Never written a line of code? Perfect. This live, beginner-friendly Java course starts at absolute zero and guides you, one small step at a time, from your first program to loops, methods and the basics of Object-Oriented Programming. No fear, no jargon, just a patient mentor and real code you write yourself.
 
-Book a Free Beginner DemoSee the Journey**Zero**Experience needed**Class 1**Your first program**5–8**Per batch**Live**Patient mentor
+Book a Free Beginner DemoSee the Journey**Zero**Experience needed**Class 1**Your first program**15–20**Per batch**Live**Patient mentor
 
 ## Quick answer
 

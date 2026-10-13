@@ -136,7 +136,7 @@ Wherever you are in the borough, a computer and a reliable connection are all it
 - **Student-led coding** The learner writes, prompts and tests; the tutor follows the shared screen and poses questions.
 - **Start at the right level** The free lesson decides the first topic for anyone from Year 4 to Year 13, with exam boards noted.
 - **Trial at no cost** A full first lesson free, ending in a course suggestion.
-- **Level-based groups** Five to ten UK learners at the same stage.
+- **Level-based groups** Fifteen to twenty UK learners at the same stage.
 - **Twice weekly** School holidays stay free.
 - **Fixed UK time** Clock changes are handled on our side.
 

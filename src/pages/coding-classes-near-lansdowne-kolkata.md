@@ -10,7 +10,7 @@ LIVE ONLINE · LANSDOWNE · SARAT BOSE ROAD
 
 # Live Online Coding & Maths Classes near Lansdowne, Kolkata
 
-Modern Age Coders runs premium, live online coding and maths classes for families near Lansdowne and Sarat Bose Road, Kolkata. We teach Python, Java, AI/ML and all-boards maths in small live batches of 15–20, never pre-recorded videos, led by full-time engineers and maths graduates. Your child finishes 6 PM maths with the local tutor and starts 7:30 PM Python from the same chair, no commute through Lansdowne crossing traffic.
+Modern Age Coders runs premium, live online coding and maths classes for families near Lansdowne and Sarat Bose Road, Kolkata. We teach Python, Java, AI/ML and all-boards maths in live batches of 15–20, never pre-recorded videos, led by full-time engineers and maths graduates. Your child finishes 6 PM maths with the local tutor and starts 7:30 PM Python from the same chair, no commute through Lansdowne crossing traffic.
 
 Live & teacher-led, never recordedSmall batches of 6–8ICSE · ISC · CBSE · IGCSE alignedBangla / Hindi / English on request[Book Free Demo Class](/book-demo)[Explore Courses](/courses)6–8Students per live batch₹1,499Starting fee per month2xFixed live sessions a week0Minutes of commuteLIVE ONLINE · LANSDOWNE, KOLKATA
 
@@ -26,7 +26,7 @@ Every Modern Age Coders class near Lansdowne is live, small-batch and taught by 
 
 Every session is a real teacher on a real call, watching your child code line by line. When a program throws an error, the instructor fixes it with the student on the spot, the way a good Sarat Bose Road tutor would lean over a notebook. Nothing is left to a video your child half-watches and forgets.
 
-### Small live batches of 15–20
+### Live batches of 15–20
 
 We cap group batches at 20 students so every child is seen, questioned and corrected in each class. This is the quiet-competence model Lansdowne families recognise from their best tutors, attention over crowd size. Mini batches of up to 6 and 1-on-1 are available when a child needs closer pacing.
 

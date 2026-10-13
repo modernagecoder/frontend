@@ -139,7 +139,7 @@ A computer and a good connection are all any Kirklees home needs.
 - **The student at the keys** Learners type, prompt and test every program; the tutor follows over screen share and asks the next question.
 - **The trial finds the start** A Year 3 or a Year 12 begins where the free lesson places them, with their exam board in mind.
 - **A free start** Your opening lesson is on us and finishes with a suggested next step.
-- **Same-level groups** Five to ten UK learners at one stage per class.
+- **Same-level groups** Fifteen to twenty UK learners at one stage per class.
 - **Two sessions a week** Paused in the school holidays.
 - **Your hour, all year** Tutors shift with the UK clocks, so the lesson time holds.
 

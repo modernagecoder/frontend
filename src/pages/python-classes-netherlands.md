@@ -14,7 +14,7 @@ Netherlands · Python · Ages 6 to 67
 
 The most widely taught programming language in the world was designed in Amsterdam. In December 1989 Guido van Rossum, working at the national research institute for mathematics and computer science, CWI, began a language he later named after Monty Python's Flying Circus. Version 0.9.0 was released to the public in February 1991, and for many years since Python has been among the ten most used languages, running everything from school projects to systems at NASA and CERN. For a learner in the Netherlands that is a pleasing piece of history, but the practical reasons to start with Python are better still. It reads almost like English, it is the language of data and artificial intelligence, and it grows with a learner: the same language serves a ten-year-old's first game and a professional's machine learning pipeline. This page covers Python classes for every age, live online and in English.
 
-At a glance: Language: Python; Ages: 6 to 67; Routes: First code, full language, data, AI, web; Certification: PCEP and PCAP preparation; Format: Live video with a teacher; Groups: Five to ten, or one to one; Taught in: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Language: Python; Ages: 6 to 67; Routes: First code, full language, data, AI, web; Certification: PCEP and PCAP preparation; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Taught in: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three Python courses, three stages of life
 

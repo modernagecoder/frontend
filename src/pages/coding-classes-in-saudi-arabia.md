@@ -125,7 +125,7 @@ Our teachers are trained instructors, not gig workers reading slides. Many stude
 
 ### Batches of fifteen to twenty
 
-Small groups are the whole model. Attention is the product, and everything else follows from it.
+Groups are the whole model. Attention is the product, and everything else follows from it.
 
 ### Projects over worksheets
 

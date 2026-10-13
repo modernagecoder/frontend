@@ -14,7 +14,7 @@ Netherlands · University and hbo · Live online
 
 Every student in the Netherlands now works under written rules for artificial intelligence. At the University of Groningen they fit on one page: use AI as a study tool if you like, say so when it produces new content, name the tool and its version, and never submit work that no longer reflects what you yourself know and can do. At the University of Amsterdam the starting point is that students must still demonstrably reach their learning goals on their own. Those rules are sensible, and they point to an important distinction. Using an agent to do your coursework may break them. Building an agent, understanding how it plans, which tools it calls, where it goes wrong and how to show your own contribution, is a subject worth studying in its own right. This page is for students who want that second thing, taught live online and in English.
 
-At a glance: For: University and hbo students; Builds: Agents with tools, retrieval and logs; Within: Your university's AI rules; Habits: Evaluation, logging, disclosure; Format: Live video with a teacher; Groups: Five to ten, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: University and hbo students; Builds: Agents with tools, retrieval and logs; Within: Your university's AI rules; Habits: Evaluation, logging, disclosure; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three agent courses for students
 

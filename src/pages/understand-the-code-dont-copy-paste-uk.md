@@ -14,7 +14,7 @@ United Kingdom · Coursework and NEA · All boards
 
 Most UK students have absorbed a version of the AI rule that goes: you are allowed to use it, you just have to say so. That is half of it, and the missing half is the half that costs marks. The guidance the awarding bodies publish says that reproduced elements must be identified, and then adds that doing so "will not allow them to demonstrate that they have independently met the marking criteria and therefore will not be rewarded". Declaring protects you from a malpractice charge. It does not earn you a single mark. So a pasted function is worth nothing at the very most, and at the other end it is a disqualification. This page sets out what the guidance actually requires, the acknowledgement steps almost nobody completes, and how to reach the point where pasting stops being tempting.
 
-At a glance: Applies to: NEA, coursework, internal assessment; Rule: Work must be demonstrably your own; Declared AI: Permitted, and not rewarded; Sanctions: Up to disqualification and debarment; We teach: Reading, predicting, rebuilding; We never: Work on a candidate's task; Group: Five to ten at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Applies to: NEA, coursework, internal assessment; Rule: Work must be demonstrably your own; Declared AI: Permitted, and not rewarded; Sanctions: Up to disqualification and debarment; We teach: Reading, predicting, rebuilding; We never: Work on a candidate's task; Group: Fifteen to twenty at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that make pasting unnecessary
 
@@ -184,7 +184,7 @@ India keeps one clock all year, which puts the UK five and a half hours behind b
 - **Rebuild from memory** Close the file, write it again working. The second version is where the understanding actually forms.
 - **An AI record** What the tool suggested, what was kept and why, on ordinary projects, so the coursework version is already a habit.
 - **A hard line on coursework** We do not work on a candidate's NEA, coursework or controlled assessment at any board, in any nation.
-- **Small groups** Fifteen to twenty learners at one level, reading each other's code, which is where most of the real arguing happens.
+- **Groups** Fifteen to twenty learners at one level, reading each other's code, which is where most of the real arguing happens.
 
 ## What it costs
 

@@ -490,7 +490,7 @@ module.exports = {
               "p": "One teacher, one learner: ideal for a gap, a deadline or a learner who prefers it."
             },
             {
-              "h3": "Small classes",
+              "h3": "Classes",
               "p": "Fifteen to twenty learners at one level, with questions that help everyone."
             },
             {

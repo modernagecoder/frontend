@@ -14,7 +14,7 @@ Australia · Kids, teens and adults · Local or online
 
 Type "coding classes near me" into a phone in Australia and the results mix three different things: a room down the road, a holiday program in the next suburb, and online classes that are "near" only in the sense that they come to your kitchen table. We belong to the third group, and we would rather say so in the first line than pretend otherwise. This page explains what a local class gives that an online one cannot, what online gives that local cannot, how much distance really matters across a country this spread out, and a five-minute method any parent can use to check a provider before handing over a child's afternoons.
 
-At a glance: We are: Online only, taught from India; Near you: Wherever you have internet; Ages: 6 to 67; Subjects: Coding, AI and maths; Format: Live video lessons; Group: Five to ten, or one to one; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: We are: Online only, taught from India; Near you: Wherever you have internet; Ages: 6 to 67; Subjects: Coding, AI and maths; Format: Live video lessons; Group: Fifteen to twenty, or one to one; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three places Australian families start online
 
@@ -224,7 +224,7 @@ The things that make a local class work, a regular teacher, a regular slot and a
 
 - **One teacher** The same person each week, who knows your child's projects.
 - **One slot** A fixed weekly time, like a local class, so it becomes routine.
-- **One small group** Fifteen to twenty learners at a similar level, or private lessons.
+- **One group** Fifteen to twenty learners at a similar level, or private lessons.
 - **No travel** No drop-off, no car park, no waiting in a foyer.
 - **Every postcode** The same class in Broome, Ballarat or Bondi.
 - **Parents welcome** Sit in on any lesson, especially at the start.

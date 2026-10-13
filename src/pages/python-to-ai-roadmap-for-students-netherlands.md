@@ -14,7 +14,7 @@ Netherlands · Groep 6 to vwo 6 · Live online
 
 Parents often ask two questions: when should my child start, and how will I know it is working? This page answers both against the Dutch school system itself. The system has three main routes through secondary school, vmbo, havo and vwo, lasting four, five and six years, and each has moments that shape what comes next: a profile chosen in the upper years, a profielwerkstuk in havo and vwo, final exams in seven or more subjects. A route from first Python to real AI fits around those moments rather than competing with them. Below, stage by stage, is what a learner should be learning, and, just as useful, what a parent should see at home: the programs, projects and questions that show real progress. The route is the same for every learner in our classes, taught live online and in English, and the free first lesson shows where a child actually starts.
 
-At a glance: Starts: Around groep 6; Runs to: The end of havo or vwo, and beyond; Covers: Python, data, models, agents; Fits: Vmbo, havo, vwo, international schools; Format: Live video with a teacher; Groups: Five to ten, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Starts: Around groep 6; Runs to: The end of havo or vwo, and beyond; Covers: Python, data, models, agents; Fits: Vmbo, havo, vwo, international schools; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses along the roadmap
 

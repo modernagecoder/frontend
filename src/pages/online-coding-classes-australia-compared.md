@@ -205,7 +205,7 @@ Our own answers to the checklist, so you can compare like with like.
 - **Weekends** Saturday and Sunday slots.
 
 - **Live minutes** Every lesson is live with a teacher.
-- **Group size** Five to ten, or one to one.
+- **Group size** Fifteen to twenty, or one to one.
 - **Continuity** The same teacher each week.
 - **Building** Learners write and explain their code.
 - **Contract** Monthly, no joining fee, no lock-in.

@@ -155,7 +155,7 @@ module.exports = {
       { h3: 'Learner writes, tutor asks', p: 'Code and prompts come from the student; the tutor watches the screen share and asks what each step is for.' },
       { h3: 'Level found in the trial', p: 'The free lesson shows what to teach first, and exam boards are recorded.' },
       { h3: 'Trial at no cost', p: 'The first lesson is free and ends with the course we recommend.' },
-      { h3: 'Small matched classes', p: 'Fifteen to twenty learners at one level, from around the UK.' },
+      { h3: 'Matched classes', p: 'Fifteen to twenty learners at one level, from around the UK.' },
       { h3: 'Two a week', p: 'Not in school holidays.' },
       { h3: 'Your slot stays put', p: 'UK clock changes are absorbed at our end.' }
     ],

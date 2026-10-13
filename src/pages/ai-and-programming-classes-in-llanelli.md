@@ -130,7 +130,7 @@ Lessons are live video sessions. Please join from a computer with a physical key
 - **Learner at the controls** The learner writes and runs the code while the tutor asks the questions.
 - **Placed by the trial** The free lesson shows where to begin, and the course suggestion follows.
 - **Trial without payment** The first lesson is free and needs no card.
-- **Groups by level** Each class holds five to ten people at a shared stage, from all corners of Britain.
+- **Groups by level** Each class holds fifteen to twenty people at a shared stage, from all corners of Britain.
 - **About eight a month** Two lessons a week in term time, with holiday weeks dropped when you ask.
 - **A fixed UK slot** We handle the clock changes, so the lesson hour does not move.
 

@@ -12,7 +12,7 @@ Generative AI • **Build With LLMs**
 
 Learn the AI everyone's talking about, and actually build with it. Master Large Language Models, prompt engineering, LLM APIs and retrieval-augmented generation (RAG), and ship real GenAI apps like chatbots and AI assistants. Live small-batch classes for college students, professionals and serious teens who want the most in-demand AI skill of 2026.
 
-Book a Free Generative AI DemoSee the Roadmap**LLMs**The latest GenAI**5–8**Students per batch**Build**Real AI apps**Live**Hands-on with a mentor
+Book a Free Generative AI DemoSee the Roadmap**LLMs**The latest GenAI**15–20**Students per batch**Build**Real AI apps**Live**Hands-on with a mentor
 
 ## Quick answer
 

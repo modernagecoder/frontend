@@ -184,7 +184,7 @@ Lessons come to you live from India. Melbourne clocks read four and a half hours
 - **By hand first** Every method practised without technology before the calculator comes out.
 - **Point tracking** Transformations checked one point at a time, every time.
 - **Exam-length sets** Short timed practice that mirrors a one-hour paper.
-- **Small groups** Fifteen to twenty students at one level, each explaining a method aloud.
+- **Groups** Fifteen to twenty students at one level, each explaining a method aloud.
 - **One-to-one sessions** For a single topic that needs repair before the exams.
 - **Honest about outcomes** We never forecast a study score or an ATAR; the effort and the result are the student's.
 

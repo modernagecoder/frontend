@@ -197,7 +197,7 @@ module.exports = {
       { q: 'Can an adult learn with you?', a: 'Yes, at any age up to sixty-seven and from any starting point. After the free lesson an adult chooses a same-level group or private lessons.' },
       { q: 'Will my child be with other children from Ballymun?', a: 'Possibly, but groups are made by level, so the rest of the class may be anywhere in Ireland or beyond.' },
       { q: 'What do coding classes in Ballymun cost?', a: 'The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, grouped by level, pace and goals rather than by age or address. If no group runs at a workable time, lessons are one to one.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, grouped by level, pace and goals rather than by age or address. If no group runs at a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

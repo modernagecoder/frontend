@@ -48,7 +48,7 @@ module.exports = {
     ['Track', 'Python, data, models, agents'],
     ['Built in', 'Error rates checked group by group'],
     ['Format', 'Live video with a teacher'],
-    ['Groups', '5 to 10, or one to one'],
+    ['Groups', '15 to 20, or one to one'],
     ['Hours', 'Dutch afternoons, evenings, weekends'],
     ['Taught in', 'English'],
     ['To begin', 'A free lesson, no card']

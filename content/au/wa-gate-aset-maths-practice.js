@@ -231,7 +231,7 @@ module.exports = {
     cells: [
       { h3: 'Draw, count, rule', p: 'Students build patterns before writing rules.' },
       { h3: 'Explain the plus one', p: 'Every rule must be explained, not just found.' },
-      { h3: 'Fifteen to twenty per group', p: 'Small groups at a shared level.' },
+      { h3: 'Fifteen to twenty per group', p: 'Groups at a shared level.' },
       { h3: 'One-to-one', p: 'For focused individual work.' },
       { h3: 'Not ASET coaching', p: 'We teach maths and reasoning, consistent with the department\'s advice.' },
       { h3: 'No offer promises', p: 'Offers are the department\'s decision.' }

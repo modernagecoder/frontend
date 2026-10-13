@@ -223,7 +223,7 @@ Live teaching, live questions, live code review. Nothing here is pre-recorded.
 
 One task suited to the learner, and a specific recommendation afterwards. No fee, no card.
 
-### Five to eight
+### Fifteen to twenty
 
 Grouped by what a learner can currently do, drawn from the whole intake.
 
@@ -263,7 +263,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 Group$100per month, 8 classes
 
-For a learner who works well hearing how others approached the same problem, at the shared level of a five to eight person group.
+For a learner who works well hearing how others approached the same problem, at the shared level of a fifteen to twenty person group.
 
 Private$150per month, 8 classes
 

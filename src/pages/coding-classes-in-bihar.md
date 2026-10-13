@@ -12,7 +12,7 @@ Bihar • **Live Online Classes**
 
 From Patna to Gaya, Bhagalpur, Muzaffarpur and Darbhanga: Modern Age Coders teaches Scratch, Python, Java, Web Development and AI through live, small-batch online classes. Bihar's students are famous for cracking the toughest exams; coding is the next skill that sets them apart.
 
-Book a Free Demo ClassExplore Courses**4.9/5**Parent rating**5–8**Students per batch**100%**Live & online**6–60+**Ages we teach
+Book a Free Demo ClassExplore Courses**4.9/5**Parent rating**15–20**Students per batch**100%**Live & online**6–60+**Ages we teach
 
 ## Quick answer
 
@@ -105,7 +105,7 @@ The Difference
 
 ## Why Bihar Families Choose Modern Age Coders
 
-### Small live batches (15–20)
+### Live batches (15–20)
 
 Every student gets real attention from the instructor. No pre-recorded videos pretending to be a class, these are live, two-way sessions.
 

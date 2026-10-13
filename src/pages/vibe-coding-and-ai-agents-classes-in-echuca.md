@@ -180,7 +180,7 @@ Classes are live on video, so learners on either side of the river join the same
 - **Home set-up** A computer, a microphone and a steady internet connection are enough to join.
 - **Either state** Teachers know both the Victorian and New South Wales school years, and plan around the learner's own school.
 - **Trial class** The free first class teaches real material and ends with a suggested course and weekly time.
-- **Small groups** Groups hold fifteen to twenty learners at one level, drawn from many towns.
+- **Groups** Groups hold fifteen to twenty learners at one level, drawn from many towns.
 - **Weekly rhythm** Two group lessons a week on fixed days, close to eight each month.
 - **Teaching team** Teachers are based in India and confirm every time in Echuca time.
 

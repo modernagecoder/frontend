@@ -50,7 +50,7 @@ module.exports = {
     ['Within', 'Your university\'s AI rules'],
     ['Habits', 'Evaluation, logging, disclosure'],
     ['Format', 'Live video with a teacher'],
-    ['Groups', 'Five to ten, or one to one'],
+    ['Groups', 'Fifteen to twenty, or one to one'],
     ['Language', 'English'],
     ['Start', 'A free first lesson']
   ],

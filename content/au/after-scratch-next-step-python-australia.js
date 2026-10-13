@@ -53,7 +53,7 @@ module.exports = {
     ['First project', 'A game they already built'],
     ['Biggest change', 'Typing instead of snapping'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -228,7 +228,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'Your child translates a few Scratch blocks into Python with a teacher, which shows quickly whether they are ready.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children making the same move from blocks to text.' },
+      { h3: 'Groups', p: 'Fifteen to twenty children making the same move from blocks to text.' },
       { h3: 'One to one', p: 'For a child who wants to bring a big Scratch project across.' },
       { h3: 'Their keyboard', p: 'The child types every line; teachers point, question and explain.' },
       { h3: 'Parents can see', p: 'Lessons are live, so you can watch the first Python steps.' },

@@ -14,7 +14,7 @@ England · Year 9 options · Ages 13 to 14
 
 Options evening feels like the moment of decision. The evidence suggests it is mostly the moment of recording one. Ofsted's research review on computing cites a Wellcome Trust finding that "by Year 9, there was a large gender divide in the subject, with less than half the number of girls finding the subject interesting compared with boys", and that "from Year 7 to Year 9, computing was the least enjoyed subject for girls". Whatever a family concludes in February of Year 9, two years of lessons have already shaped it. This page sets out what the research actually says, the second choice nobody mentions at options evening, and an honest account of who the subject suits and who it does not.
 
-At a glance: The question: Take Computer Science or not; When decided: Largely before Year 9, say the studies; Girls at GCSE: 21 per cent of entries, 2021 data; Also choosing: A board, without being told; The fixable part: Fluency, and therefore confidence; Good age to start: Year 8 or 9; Group: Five to ten at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: The question: Take Computer Science or not; When decided: Largely before Year 9, say the studies; Girls at GCSE: 21 per cent of entries, 2021 data; Also choosing: A board, without being told; The fixable part: Fluency, and therefore confidence; Good age to start: Year 8 or 9; Group: Fifteen to twenty at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for Years 8 to 10
 

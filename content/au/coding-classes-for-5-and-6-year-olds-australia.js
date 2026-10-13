@@ -53,7 +53,7 @@ module.exports = {
     ['At age 5', 'Unplugged games at home'],
     ['First tool', 'Scratch, with blocks'],
     ['Reading needed', 'Simple words only'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class at 6']
   ],
   capsuleQ: 'In short',
@@ -239,7 +239,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'The teacher checks whether your six year old is ready, and tells you honestly if waiting would be better.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children of a similar age and level, with plenty of turns.' },
+      { h3: 'Groups', p: 'Fifteen to twenty children of a similar age and level, with plenty of turns.' },
       { h3: 'One to one', p: 'Every minute is your child\'s, at exactly their pace.' },
       { h3: 'Their own clicks', p: 'The child moves every block. The teacher guides with questions and demonstrations.' },
       { h3: 'Parents in the room', p: 'For this age we encourage it, and you will see exactly what your child learns.' },

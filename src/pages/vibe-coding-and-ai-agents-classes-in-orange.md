@@ -182,7 +182,7 @@ Everything happens on a video call, from anywhere in the Central West.
 - **At your desk** Learners join from home on a laptop or desktop, with no trip into town after school.
 - **NSW year levels** Teachers know NSW stages and year levels and plan around the four NSW terms. Lessons are in English.
 - **A useful trial** The free first lesson teaches something real and ends with a recommended course and weekly slot.
-- **Small groups** Fifteen to twenty learners at one level, gathered from Orange and other places so the group stays the right size.
+- **Groups** Fifteen to twenty learners at one level, gathered from Orange and other places so the group stays the right size.
 - **Steady rhythm** Two live lessons a week, roughly eight a month, at a time agreed once the trial is done.
 - **Teachers in India** Orange is four and a half hours ahead of India time in winter and five and a half hours ahead during daylight saving.
 

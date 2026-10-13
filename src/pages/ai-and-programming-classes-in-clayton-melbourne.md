@@ -237,7 +237,7 @@ The first lesson is free. Group classes then cost USD 100 a month for two live l
 
 ### How many people are in a group?
 
-Five to ten, grouped by level, pace and aims rather than age or suburb, with private lessons if no group time works.
+Fifteen to twenty, grouped by level, pace and aims rather than age or suburb, with private lessons if no group time works.
 
 ### What age can children start?
 

@@ -161,7 +161,7 @@ HONEST COMPARISON
 - Zero commute, no forty-to-fifty-minute crawl through the Rashbehari–Lansdowne crossing, saving roughly 90 minutes per class day.
 - Children stay safely home instead of crossing busy Rashbehari Avenue and Gariahat after dark.
 - Access to full-time engineer and maths-graduate tutors, not just whoever teaches locally.
-- Small live batches of 15–20 keep the intimacy of a home tutor with the structure of a real school.
+- Live batches of 15–20 keep the intimacy of a home tutor with the structure of a real school.
 - The exact screen, code editor and BlueJ environment are shared live, closer than peering over a shoulder.
 - Recordings of your own class for revision, plus shared notes and project files.
 - Easy to keep continuity through Pujo travel, exams or a move within the city.

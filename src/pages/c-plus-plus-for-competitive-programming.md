@@ -12,7 +12,7 @@ Competitive Programming • **Codeforces · CodeChef · ICPC**
 
 Climb the leaderboard. Master competitive programming in C++, fast I/O, the STL, time complexity, problem-solving patterns and contest strategy, with live mentoring, real contests and editorial analysis. Built to grow your Codeforces and CodeChef rating and prepare you for the ICPC.
 
-Book a Free CP Demo ClassSee the Roadmap**CF/CC**Codeforces & CodeChef**5–8**Students per batch**Live**Contests & upsolving**ICPC**Advanced track
+Book a Free CP Demo ClassSee the Roadmap**CF/CC**Codeforces & CodeChef**15–20**Students per batch**Live**Contests & upsolving**ICPC**Advanced track
 
 ## Quick answer
 

@@ -186,7 +186,7 @@ Lessons run on a video call for learners in Ringwood, Croydon or anywhere in Mar
 - **Working together** The learner shares their screen and the teacher guides changes in their own code.
 - **Victorian terms** The class calendar follows state school terms, with holiday breaks.
 - **Free first session** One whole lesson with no charge, ending with our course advice.
-- **Small groups** Fifteen to twenty learners per group, matched on level rather than location.
+- **Groups** Fifteen to twenty learners per group, matched on level rather than location.
 - **Twice weekly** Two regular lessons each week, near eight per month.
 - **Across time zones** A 3:30pm Maroondah lesson is 10am India time while Melbourne is on daylight saving, and 11am after it ends.
 

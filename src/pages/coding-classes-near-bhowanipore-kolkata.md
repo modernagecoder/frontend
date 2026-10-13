@@ -10,7 +10,7 @@ LIVE ONLINE · BHOWANIPORE & SOUTH KOLKATA
 
 # Premium Coding & Maths Classes near Bhowanipore, Kolkata
 
-Modern Age Coders runs premium, live online coding and mathematics classes for Bhowanipore families, never pre-recorded. Children and college students learn Python, Java, AI/ML and school maths in small live batches of 15-20, taught by full-time engineers and maths graduates. We map straight onto the neighbourhood's mixed board landscape, IGCSE, CBSE, ICSE and WBBSE, and delete the Hazra crossing commute. Class simply comes home. Book a free demo today.
+Modern Age Coders runs premium, live online coding and mathematics classes for Bhowanipore families, never pre-recorded. Children and college students learn Python, Java, AI/ML and school maths in live batches of 15-20, taught by full-time engineers and maths graduates. We map straight onto the neighbourhood's mixed board landscape, IGCSE, CBSE, ICSE and WBBSE, and delete the Hazra crossing commute. Class simply comes home. Book a free demo today.
 
 Live, never recordedBatches of 6-8Full-time engineersIGCSE · CBSE · ICSE · WBBSE6-8Students Per Live Batch100%Live, Never Pre-Recorded24 hrsFrom Demo To First Class₹1,499Per Month, Starting From[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)AT A GLANCE
 
@@ -167,7 +167,7 @@ AN HONEST COMPARISON
 - No commute through the Hazra crossing or the Harish Mukherjee Road bottleneck: 60-90 minutes returned to every evening.
 - No parking hunt near Jadu Babu Bazaar; class begins on time, every time.
 - Access to full-time engineers and maths graduates, not just whichever tutor happens to live nearby.
-- Small live batches of 15-20 with cameras on, every child seen, heard and corrected.
+- Live batches of 15-20 with cameras on, every child seen, heard and corrected.
 - Sessions can be safely revised at home; parents can sit in on a class whenever they wish.
 - Fits a packed Bhowanipore week of 3-4 tuitions without adding a single minute of travel.
 - Same teacher and same batch each week, building real continuity instead of a rotating roster.

@@ -14,7 +14,7 @@ Ireland · Python · Ages 6 to 67
 
 Python is the language most people in Ireland should learn first, and the reason is not fashion. It reads almost like English, it is what the machine learning world runs on, and, usefully for anyone here, it is the language Ireland's own public data is built for. The Central Statistics Office publishes its statistics through a portal that hands out data in formats designed to be read by code, and the CSO itself says it uses open-source Python libraries in statistical production. So an Irish learner does not have to practise on invented examples. They can pull real population figures into a program in their first month, and discover, in their second, why those figures are harder to add up than they look. This page explains how we teach Python, live and in small groups, from six year olds writing their first lines to adults automating a working week.
 
-At a glance: For: Ages 6 to 67; Starts: No experience needed; Reaches: APIs, analysis, automation, AI; Practises on: Irish open data; Group: Five to ten at one level; Or: One to one; Hours: After school and evenings, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 6 to 67; Starts: No experience needed; Reaches: APIs, analysis, automation, AI; Practises on: Irish open data; Group: Fifteen to twenty at one level; Or: One to one; Hours: After school and evenings, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three Python courses, by age
 

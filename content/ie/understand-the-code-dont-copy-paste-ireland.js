@@ -57,7 +57,7 @@ module.exports = {
     ['AI tools', 'Allowed, recorded, never hidden'],
     ['Method', 'Predict, write, change, explain'],
     ['Format', 'Live, with a teacher'],
-    ['Groups', 'Five to ten, or one to one'],
+    ['Groups', 'Fifteen to twenty, or one to one'],
     ['Hours', 'Irish afternoons and evenings'],
     ['Start', 'A free first class']
   ],

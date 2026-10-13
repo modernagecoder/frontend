@@ -77,7 +77,7 @@ module.exports = {
     ['AI literacy', 'Understand, evaluate, then use'],
     ['Weighting', 'Nine of seventeen are how it works'],
     ['We teach', 'The how, with code to prove it'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Start', 'One free lesson']
   ],

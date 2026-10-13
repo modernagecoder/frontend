@@ -132,7 +132,7 @@ Any reasonably modern computer with a camera will do, given internet that can ca
 - **Learner writes, tutor asks** Code and prompts come from the student; the tutor watches the screen share and asks what each step is for.
 - **Level found in the trial** The free lesson shows what to teach first, and exam boards are recorded.
 - **Trial at no cost** The first lesson is free and ends with the course we recommend.
-- **Small matched classes** Fifteen to twenty learners at one level, from around the UK.
+- **Matched classes** Fifteen to twenty learners at one level, from around the UK.
 - **Two a week** Not in school holidays.
 - **Your slot stays put** UK clock changes are absorbed at our end.
 

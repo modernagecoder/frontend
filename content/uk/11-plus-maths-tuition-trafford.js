@@ -267,7 +267,7 @@ module.exports = {
     cells: [
       { h3: 'A teacher who stays', p: 'The same person each week knows which slips your child makes.' },
       { h3: 'Straight feedback', p: 'A brief, candid note after lessons: progress and problems both.' },
-      { h3: 'Small matched groups', p: 'Fifteen to twenty children at one level, so nobody coasts or drowns.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty children at one level, so nobody coasts or drowns.' },
       { h3: 'Original practice', p: 'Our own questions and real data sets, never copied test material.' },
       { h3: 'Individual option', p: 'One to one lessons for a particular gap or a quieter child.' },
       { h3: 'Maths is our lane', p: 'No reasoning coaching and no views on school choice or allocation.' }

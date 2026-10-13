@@ -229,7 +229,7 @@ Yes. We prioritise high-value foundation topics, fix the costly gaps, and drill 
 
 How much does it cost?
 
-A flat monthly fee, shown in your own currency in the pricing section of this page: private one-to-one with eight live lessons a month, two each week, or a small-group batch of 15 to 20 at a lower fee. No enrolment charge and no contract; stop at any month end.
+A flat monthly fee, shown in your own currency in the pricing section of this page: private one-to-one with eight live lessons a month, two each week, or a group batch of 15 to 20 at a lower fee. No enrolment charge and no contract; stop at any month end.
 
 Can we try a class before enrolling?
 

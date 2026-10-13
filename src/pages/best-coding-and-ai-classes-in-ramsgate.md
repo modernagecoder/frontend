@@ -134,7 +134,7 @@ Lessons take place live on video. A laptop or desktop with a keyboard is needed;
 - **Hands on keyboard** Learners write and run their own code, with the tutor prompting rather than typing.
 - **Right level first** We decide where to start from what the free lesson shows.
 - **Nothing to pay upfront** The trial is free, and no card is requested.
-- **Small groups** Fifteen to twenty learners at a matching level, from across the UK.
+- **Groups** Fifteen to twenty learners at a matching level, from across the UK.
 - **Weekly routine** Two lessons a week during term, about eight a month, holidays skipped on request.
 - **Time that stays put** Our tutors absorb the UK clock changes, not your timetable.
 

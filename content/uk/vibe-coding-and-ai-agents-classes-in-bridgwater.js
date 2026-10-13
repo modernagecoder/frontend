@@ -155,7 +155,7 @@ module.exports = {
       { h3: 'Built by the learner', p: 'Each student codes on their own shared screen. Tutors prompt, question and wait for an explanation.' },
       { h3: 'Seen before placed', p: 'The free lesson lets us watch a learner think, and the course suggestion comes from that.' },
       { h3: 'Opening lesson free', p: 'There is nothing to pay and no card to give for lesson one.' },
-      { h3: 'Small matched classes', p: 'Fifteen to twenty learners at a single stage, joining from anywhere in the UK.' },
+      { h3: 'Matched classes', p: 'Fifteen to twenty learners at a single stage, joining from anywhere in the UK.' },
       { h3: 'Two lessons a week', p: 'Somerset term breaks are kept free once we know the dates.' },
       { h3: 'One UK time, all year', p: 'The tutor handles both clock changes.' }
     ],

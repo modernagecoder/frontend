@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'At your desk', p: 'Learners join from home on a laptop or desktop, with no trip into town after school.' },
       { h3: 'NSW year levels', p: 'Teachers know NSW stages and year levels and plan around the four NSW terms. Lessons are in English.' },
       { h3: 'A useful trial', p: 'The free first lesson teaches something real and ends with a recommended course and weekly slot.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at one level, gathered from Orange and other places so the group stays the right size.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at one level, gathered from Orange and other places so the group stays the right size.' },
       { h3: 'Steady rhythm', p: 'Two live lessons a week, roughly eight a month, at a time agreed once the trial is done.' },
       { h3: 'Teachers in India', p: 'Orange is four and a half hours ahead of India time in winter and five and a half hours ahead during daylight saving.' }
     ],

@@ -183,7 +183,7 @@ Every lesson runs online with a live teacher, so nobody travels.
 - **At home** A computer, a stable connection and headphones are all a learner needs.
 - **NSW terms** Lessons pause for the NSW school holidays when families ask.
 - **Free first lesson** A complete trial lesson, then a suggested course and timetable.
-- **Small groups** Fifteen to twenty learners matched by level, or a private teacher.
+- **Groups** Fifteen to twenty learners matched by level, or a private teacher.
 - **Two a week** Two fixed lessons weekly, about eight a month, with agreed breaks.
 - **India time** A 6pm Auburn lesson starts at 12:30pm India time during daylight saving and 1:30pm after it ends.
 
@@ -194,7 +194,7 @@ Every lesson runs online with a live teacher, so nobody travels.
 The fees come down to three numbers.
 
 - First class: USD 0. The first lesson costs nothing and ends with honest advice on level.
-- Group tuition: USD 100 a month. A month in a small group, usually eight lessons, with fifteen to twenty learners.
+- Group tuition: USD 100 a month. A month in a group, usually eight lessons, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. About eight private lessons a month with one teacher.
 
 Families outside India are invoiced in US dollars. Nothing is paid until after the trial and an agreed timetable; the pricing page explains holidays and missed lessons.
@@ -239,7 +239,7 @@ The first lesson is free. After that a group place costs USD 100 a month for two
 
 ### How many learners are in a group?
 
-Five to ten, grouped by level and pace. One-to-one lessons are available if no group suits.
+Fifteen to twenty, grouped by level and pace. One-to-one lessons are available if no group suits.
 
 ## More for Auburn learners
 

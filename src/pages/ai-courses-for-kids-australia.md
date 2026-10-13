@@ -14,7 +14,7 @@ Australia · Ages 6 to 12 · Understand AI, then build it
 
 Search for an AI course for children and you will find everything from serious introductions to machine learning to sessions that amount to typing questions into a chatbot. They are not the same thing, and the difference matters. A child who learns how AI learns from examples, and how it fails, becomes a sharp and safe user for life. A child who only learns to ask a chatbot for answers may never find out that the confident reply can be wrong. This page is for Australian parents choosing an AI course for a child aged about six to twelve. It sets out what a good course should teach, works through one AI failure that children can understand completely, quotes the age rules some AI companies publish, and gives a short checklist for comparing courses.
 
-At a glance: For: Children aged about 6 to 12; Core idea: How AI learns from examples; Also: Where AI goes wrong, and why; Built with: Scratch, then Python; Chatbot accounts: Not needed; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children aged about 6 to 12; Core idea: How AI learns from examples; Also: Where AI goes wrong, and why; Built with: Scratch, then Python; Chatbot accounts: Not needed; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three AI courses for Australian children
 
@@ -210,7 +210,7 @@ Lessons are live and online, with teachers based in India. Australian afternoons
 - **Sunday** Handy when the week is packed.
 
 - **Trial lesson free** Your child sorts, trains and tests something small with a teacher. No card is asked for.
-- **Fifteen to twenty children** Small groups that compare results and argue about mistakes.
+- **Fifteen to twenty children** Groups that compare results and argue about mistakes.
 - **Private option** Lessons tailored to one child's pace and curiosity.
 - **No adult chatbots** Children's courses do not need any adult AI account.
 - **Mistakes on purpose** Children break models deliberately to see why they fail.

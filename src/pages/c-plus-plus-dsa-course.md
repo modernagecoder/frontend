@@ -12,7 +12,7 @@ Data Structures & Algorithms • **In C++ with the STL**
 
 The DSA course that actually sticks. Learn every core data structure and algorithm in C++ using the STL, arrays, linked lists, stacks, queues, trees, graphs, hashing, recursion and dynamic programming, with a mentor reviewing your code and interview-style problems in every class. Built for placements and competitive programming.
 
-Book a Free DSA Demo ClassSee the Syllabus**STL**Vectors, maps, sets & more**5–8**Students per batch**Live**Code reviewed every class**Problems**Interview-style practice
+Book a Free DSA Demo ClassSee the Syllabus**STL**Vectors, maps, sets & more**15–20**Students per batch**Live**Code reviewed every class**Problems**Interview-style practice
 
 ## Quick answer
 

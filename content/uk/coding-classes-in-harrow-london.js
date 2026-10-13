@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'Learn where you are', p: 'At home, or at a library computer when home is busy. The lesson moves with the learner, not the other way round.' },
       { h3: 'School stages as you know them', p: 'Key Stages, Year 9 options, GCSEs and A levels are called by their English names, and every lesson is in English.' },
       { h3: 'Try it before paying', p: 'The opening lesson is a real piece of work with a teacher, and ends with an honest suggestion of level and course. No card is needed.' },
-      { h3: 'Small, matched groups', p: 'Fifteen to twenty learners at the same stage, some from Harrow and some from further afield, so that a group exists at a sensible hour.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at the same stage, some from Harrow and some from further afield, so that a group exists at a sensible hour.' },
       { h3: 'Around the school calendar', p: 'Lessons usually run twice a week, and the family and teacher agree breaks for holidays, half terms and revision.' },
       { h3: 'Time zones handled', p: 'Teachers work on India time, five and a half hours ahead of the UK in winter and four and a half in summer, and every lesson is booked and shown in UK time.' }
     ],

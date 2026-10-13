@@ -204,7 +204,7 @@ Each lesson starts with what the learner remembers from the last.
 - **Projects that grow** Each term builds on the last.
 - **Holiday projects** Optional work to keep skills warm.
 - **Live, online** No travel, any state.
-- **Small groups** Five to ten, or one to one.
+- **Groups** Fifteen to twenty, or one to one.
 
 ## Fees
 

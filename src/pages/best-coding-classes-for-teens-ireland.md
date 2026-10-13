@@ -14,7 +14,7 @@ Ireland · Secondary school · Ages 12 to 18
 
 An Irish teenager in 2026 is online for most of the waking day and may well have already asked an AI tool to write something for them. The Central Statistics Office found that 99% of internet users aged 16 to 29 go online every day, that 57% are online almost constantly, and that 65% had used generative AI, which the CSO defines to include programming code. None of that makes a teenager a programmer. The gap between using technology and understanding it is exactly where a good coding class earns its place: Python written and read by the student, websites and apps built and explained, AI trained rather than merely prompted. This page sets out how secondary school in Ireland is structured today, what the numbers say about teenagers online, and a data project on Irish school enrolments that shows how easily a confident answer can be wrong. Then it explains how our live classes fit around the Junior Cycle, Transition Year and the Leaving Cert.
 
-At a glance: For: First Year to Sixth Year; Covers: Python, web, apps, data, AI; Fits: Junior Cycle, TY, Leaving Cert; Group: Five to ten at one level; Or: One to one; Teacher: The same one all year; Hours: Evenings and weekends, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: First Year to Sixth Year; Covers: Python, web, apps, data, AI; Fits: Junior Cycle, TY, Leaving Cert; Group: Fifteen to twenty at one level; Or: One to one; Teacher: The same one all year; Hours: Evenings and weekends, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for Irish teenagers
 

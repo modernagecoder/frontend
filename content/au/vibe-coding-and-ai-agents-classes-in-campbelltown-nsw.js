@@ -183,7 +183,7 @@ module.exports = {
       { h3: 'Booked in Sydney time', p: 'Slots are agreed in Campbelltown time and stay fixed when the clocks change.' },
       { h3: 'Matched to the NSW syllabus years', p: 'Lessons are pitched at the learner\'s NSW year, Year 11 and 12 HSC candidates included, and taught in English.' },
       { h3: 'Start by building', p: 'The free session is practical work with an AI tool and a teacher. A course and time are suggested at the end, and no payment details are ever taken.' },
-      { h3: 'Level-based groups', p: 'Each class holds five to ten people working at the same stage, recruited widely enough that every stage gets a sensible hour.' },
+      { h3: 'Level-based groups', p: 'Each class holds fifteen to twenty people working at the same stage, recruited widely enough that every stage gets a sensible hour.' },
       { h3: 'Twice weekly', p: 'Around eight sessions each month, with holidays and exams scheduled around in advance.' },
       { h3: 'Age-appropriate tools', p: 'Under-18s only use AI tools whose terms allow their age, and teachers choose accordingly.' }
     ],

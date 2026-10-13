@@ -243,7 +243,7 @@ The first lesson is free. Group classes then cost USD 100 a month for two live l
 
 ### How many learners per group?
 
-Five to ten, grouped by level, pace and goals; private lessons are available if no group time fits.
+Fifteen to twenty, grouped by level, pace and goals; private lessons are available if no group time fits.
 
 ### Do you teach adults to build agents?
 

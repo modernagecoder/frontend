@@ -14,7 +14,7 @@ Ireland · Primary to Leaving Cert · Live online
 
 An Irish parent searching for coding classes meets a crowded field: free clubs, summer camps, exam grinds, recorded courses and live online classes, each promising the best. They are not the same thing, and the best one for a child in Second Class is not the best one for a Fifth Year choosing between Leaving Cert subjects or an adult changing career. This page does three things. It sets out where coding actually sits in Irish schooling, stage by stage, from the official descriptions. It gives six checks any online coding class in Ireland should pass, with the question to ask a provider for each. And it explains what each kind of option is genuinely good for, so you can choose the right one even if it is not ours. Our own answer to each check is at the end, limits included, and the first class is free so that you can test the answers yourself.
 
-At a glance: For: Ages 6 to 67; Fits: Primary, Junior Cycle, TY, Senior Cycle; Hours: Irish afternoons, evenings, weekends; Format: Live, with a teacher; Groups: Five to ten, or one to one; Method: Read, predict, then write; AI tools: Used openly, always acknowledged; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 6 to 67; Fits: Primary, Junior Cycle, TY, Senior Cycle; Hours: Irish afternoons, evenings, weekends; Format: Live, with a teacher; Groups: Fifteen to twenty, or one to one; Method: Read, predict, then write; AI tools: Used openly, always acknowledged; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for three points on the Irish path
 

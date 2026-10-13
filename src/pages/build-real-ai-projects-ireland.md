@@ -14,7 +14,7 @@ Ireland · AI projects · Teens and adults
 
 Most AI projects you see online are demonstrations. A clean dataset goes in, a model comes out with an impressive accuracy, and nobody asks what the number means. A real project is different, and much more useful: you choose a question, find data that might answer it, discover the data is untidy in ways nobody documented, build a baseline, train something, and then spend the rest of your time trying to prove your own result wrong. This page walks through one such project on Irish data anybody can download, weather records from Dublin Airport going back to 1942. Along the way it shows a model scoring 92%, explains why that score is worthless, and shows the honest version scoring 67% against a baseline of 63.5%. If that sounds like a let-down, it is the single most valuable thing an AI learner can understand, and it is what our project classes teach.
 
-At a glance: For: Teens, students and adults; Builds: One finished, tested project; Teaches: Baselines and honest evaluation; Catches: Leakage and bad labels; Data: Open Irish datasets; Group: Five to ten at one level; Or: One to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens, students and adults; Builds: One finished, tested project; Teaches: Baselines and honest evaluation; Catches: Leakage and bad labels; Data: Open Irish datasets; Group: Fifteen to twenty at one level; Or: One to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that end in a finished project
 

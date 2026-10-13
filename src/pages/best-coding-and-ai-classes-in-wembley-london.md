@@ -134,7 +134,7 @@ The only kit is a computer, a webcam and an internet connection that can carry a
 - **The learner types** Students write and run every line; the tutor follows the shared screen and asks what each result shows.
 - **Found in the first hour** The trial shows us the right opening topic and which exam board, if any, lies ahead.
 - **Free first lesson** Lesson one costs nothing and ends with a course suggestion.
-- **Matched peers** Groups hold five to ten British learners at a similar level, wherever they live.
+- **Matched peers** Groups hold fifteen to twenty British learners at a similar level, wherever they live.
 - **Two a week** Lessons pause during school holidays.
 - **A slot that holds** When UK clocks change our tutors move, so your lesson time does not.
 

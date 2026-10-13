@@ -71,7 +71,7 @@ module.exports = {
     ['Ages', '13 to 18'],
     ['Covers', 'Python, web, data, AI'],
     ['Fits', 'GCSE, National 5, Higher, CCEA, A level'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Teacher', 'Named, and the same one'],
     ['Habit', 'Predict, run, compare'],

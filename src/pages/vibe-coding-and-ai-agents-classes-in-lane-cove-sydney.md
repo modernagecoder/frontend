@@ -194,7 +194,7 @@ The council area runs from Greenwich to Lane Cove West, and a live online lesson
 There are three prices and nothing else.
 
 - First class: USD 0. The first class is free and finishes with a recommendation.
-- Group tuition: USD 100 a month. A month of small-group lessons, normally eight, with fifteen to twenty learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. Roughly eight private lessons each month with one teacher.
 
 Outside India we invoice in US dollars, so every Lane Cove household is charged the same rate. Nothing is billed until the course and time are agreed after the trial; holidays, missed lessons and switching format are set out on the pricing page.
@@ -235,7 +235,7 @@ The first lesson is free. After that, group lessons cost USD 100 a month for two
 
 ### How many people are in a group?
 
-Five to ten, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner's time.
+Fifteen to twenty, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner's time.
 
 ### Will my teenager just copy what the AI writes?
 

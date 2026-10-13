@@ -78,7 +78,7 @@ module.exports = {
     ['Adults', 'Cross-platform or native'],
     ['Standard', 'WCAG 2.2 from screen one'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -420,7 +420,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'One screen designed and built together, then advice on the right route.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners testing each other\'s apps.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners testing each other\'s apps.' },
       { h3: 'One to one', p: 'For a specific app idea, a unit or a deadline.' },
       { h3: 'Phones in the loop', p: 'Students test on real devices whenever they can.' },
       { h3: 'Accessibility checked', p: 'Every app gets a target and label audit.' },

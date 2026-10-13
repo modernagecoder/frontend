@@ -183,7 +183,7 @@ module.exports = {
       { h3: 'Across the council area', p: 'A learner in Kelso and another in Eglinton can join the same lesson without travelling at all.' },
       { h3: 'NSW stages and years', p: 'Teachers work with NSW year levels and the HSC, and every lesson is taught in English.' },
       { h3: 'Trial first', p: 'You build something real with a teacher, then hear a suggested level, course and time, with no payment details requested.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at one level, drawn from Bathurst, the rest of Australia and abroad.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at one level, drawn from Bathurst, the rest of Australia and abroad.' },
       { h3: 'Two a week, mostly', p: 'Around eight lessons a month, with exam periods and holidays agreed in advance.' },
       { h3: 'University schedules', p: 'Evening and weekend slots suit students and working adults as well as school learners.' }
     ],

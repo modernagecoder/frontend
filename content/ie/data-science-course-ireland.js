@@ -60,7 +60,7 @@ module.exports = {
     ['Tools', 'Python, pandas, SQL, charts'],
     ['Starts with', 'Cleaning, not modelling'],
     ['Includes', 'Licences and attribution'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Hours', 'Evenings and weekends, Irish time'],
     ['Start', 'A free first class']

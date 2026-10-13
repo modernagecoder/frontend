@@ -10,7 +10,7 @@ LIVE ONLINE CODING & MATHS: SHAKESPEARE SARANI, CENTRAL KOLKATA
 
 # Coding & Maths Classes near Shakespeare Sarani, Kolkata
 
-Modern Age Coders runs premium, live online coding and mathematics classes for families near Shakespeare Sarani, the old Theatre Road, in Central Kolkata's diplomatic quarter. Children from St. Xavier's, La Martiniere, Loreto House and Modern High learn Python, Java, AI/ML and board-level maths in small live batches of fifteen to twenty, taught by full-time engineers and maths graduates. Every class is project-based and interactive, never pre-recorded. Book a free demo.
+Modern Age Coders runs premium, live online coding and mathematics classes for families near Shakespeare Sarani, the old Theatre Road, in Central Kolkata's diplomatic quarter. Children from St. Xavier's, La Martiniere, Loreto House and Modern High learn Python, Java, AI/ML and board-level maths in live batches of fifteen to twenty, taught by full-time engineers and maths graduates. Every class is project-based and interactive, never pre-recorded. Book a free demo.
 
 Live, never pre-recordedSmall batches of 6-8Taught by full-time engineersZero commute from Camac Street6-8Students per live batch4.9/5Parent rating6-67Ages we teach100%Live, project-based[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)
 
@@ -32,7 +32,7 @@ Modern Age Coders is a premium, live online coding and maths school, every Shake
 
 Every class is a live session with a real teacher on screen, not a recording your child watches alone. Questions get answered the moment they come up, and the teacher adapts the pace to the child in the room. This is structured tuition, delivered online, the opposite of a passive video course.
 
-### Small live batches of 15-20
+### Live batches of 15-20
 
 We cap group batches at twenty students so every child is seen, heard and corrected in each class. For families who want even closer attention, mini batches take up to six, and 1-on-1 is available at ₹4,999/month. No child hides at the back of a forty-seat room here. See [pricing](/pricing).
 
@@ -179,7 +179,7 @@ Online vs offline
 
 - No travel, zero time lost to the 5-7 pm Shakespeare Sarani, Camac Street and AJC Bose Road crawl, around ninety minutes saved per class day.
 - Access to full-time engineers and maths graduates, not whichever home tutor lives nearby.
-- Small live batches of 15-20, so the class is genuinely interactive, not a recorded lecture.
+- Live batches of 15-20, so the class is genuinely interactive, not a recorded lecture.
 - The screen is the whiteboard. Your child sees real code run live and can share their own screen instantly.
 - Recordings and notes for revision, on top of the live class, useful during ISC/ICSE exam weeks.
 - Easy continuity for globally mobile diplomatic families who relocate between Kolkata, Singapore and London.

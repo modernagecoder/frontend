@@ -12,7 +12,7 @@ C++ Certification • **Certificate + Project Portfolio**
 
 Finish with more than a piece of paper. Earn a Modern Age Coders C++ course-completion certificate **backed by a real portfolio of programs you built and can explain**: Core C++, OOP, the STL, DSA and a capstone. Demonstrated skill, the thing colleges and interviewers actually trust.
 
-Book a Free Demo ClassHow You Get Certified**Cert**On course completion**Portfolio**Real projects you built**5–8**Students per batch**Live**Mentor-led, recorded
+Book a Free Demo ClassHow You Get Certified**Cert**On course completion**Portfolio**Real projects you built**15–20**Students per batch**Live**Mentor-led, recorded
 
 ## Quick answer
 

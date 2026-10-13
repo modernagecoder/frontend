@@ -14,7 +14,7 @@ Australia · Ages 6 to 18 · Live online
 
 Most children who ask to make games have already spent hundreds of hours playing them, so they arrive knowing exactly what a good game feels like and nothing about why. That gap is where the learning lives. Making a game means deciding what counts as a win, what the player sees first, what happens when two things touch and how fast anything moves. Each of those is a small programming problem in disguise. This page sets out how Australian kids can go from a first Scratch game in primary school to Python and Pygame around Year 7 and a real engine by Year 9 or 10, which mirrors the order the Australian Curriculum itself uses: visual programs first, then a general-purpose language, then object-oriented code. It also shows one idea worked all the way through, the hitbox, so you can see what a lesson actually contains.
 
-At a glance: For: Kids and teens, ages 6 to 18; Starts with: Scratch, a free visual language; Then: Python and the Pygame library; Later: Unity and C#, or Godot; Also: Roblox Studio and Minecraft; Format: Live online, after school; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Kids and teens, ages 6 to 18; Starts with: Scratch, a free visual language; Then: Python and the Pygame library; Later: Unity and C#, or Godot; Also: Roblox Studio and Minecraft; Format: Live online, after school; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three ways into making games
 
@@ -224,7 +224,7 @@ Our teachers are in India. In winter, Sydney, Melbourne, Brisbane, Canberra and 
 - **Sunday** For families with busy Saturday sport.
 
 - **Try before paying** The opening class costs nothing; it shows the teacher how far your child has already got.
-- **Small groups** Fifteen to twenty children of a similar level, playing and testing each other's games.
+- **Groups** Fifteen to twenty children of a similar level, playing and testing each other's games.
 - **Private lessons** Suited to a quick learner, a quiet child or a teenager chasing one ambitious game.
 - **Their own games** Every line is typed or snapped in by the child. Teachers explain and question; they do not build it for them.
 - **Parents can watch** Lessons are live, so you can sit in, and finished games can be played at home.

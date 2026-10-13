@@ -59,7 +59,7 @@ module.exports = {
     ['Teaches', 'Reasoning before tools'],
     ['Habit', 'Predict, run, explain'],
     ['Tools', 'Introduced, then examined'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Hours', 'After school and evenings, Irish time'],
     ['Start', 'A free first class']

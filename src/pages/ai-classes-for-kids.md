@@ -74,9 +74,9 @@ Why families trust us
 
 Thousands of families across more than fifteen countries have brought their children to our live classes, and many arrive a little nervous. They wonder if their child is too young, whether AI is too advanced, or whether this is just more screen time in disguise. Within a session or two, those worries usually melt away. Here is what keeps families coming back, and what we promise you from the very first class.
 
-### Live small batches
+### Live batches
 
-Classes stay small, usually fifteen to twenty children, so your child is seen, heard and helped. No one fades into the back row.
+Classes usually have fifteen to twenty children, so your child is seen, heard and helped. No one fades into the back row.
 
 ### Patient, vetted mentors
 

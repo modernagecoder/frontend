@@ -134,7 +134,7 @@ Any reasonably recent computer with a camera and steady internet will do.
 - **The learner drives** Code is typed and run by the student while the tutor watches the screen share and probes the reasoning.
 - **Level found first** We use the trial to see where to begin and to write down the exam board if there is one.
 - **Trial without payment** Session one costs nothing and ends with the course we think fits.
-- **Small matched classes** Groups are fifteen to twenty learners at a similar stage, drawn from all over the UK.
+- **Matched classes** Groups are fifteen to twenty learners at a similar stage, drawn from all over the UK.
 - **Two sessions a week** Term-time rhythm, with school holidays left free on request.
 - **One fixed hour** Tutors move their own clocks when British Summer Time changes; yours stays as booked.
 

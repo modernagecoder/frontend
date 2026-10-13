@@ -216,7 +216,7 @@ module.exports = {
       { h3: 'By hand first', p: 'Every method practised without technology before the calculator comes out.' },
       { h3: 'Point tracking', p: 'Transformations checked one point at a time, every time.' },
       { h3: 'Exam-length sets', p: 'Short timed practice that mirrors a one-hour paper.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students at one level, each explaining a method aloud.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students at one level, each explaining a method aloud.' },
       { h3: 'One-to-one sessions', p: 'For a single topic that needs repair before the exams.' },
       { h3: 'Honest about outcomes', p: 'We never forecast a study score or an ATAR; the effort and the result are the student\'s.' }
     ]

@@ -296,7 +296,7 @@ module.exports = {
       { h3: 'Shared screen', p: 'Prompts, code and test results are all read together.' },
       { h3: 'Term-time rhythm', p: 'Classes follow South Australian school terms with holiday breaks.' },
       { h3: 'Opening class free', p: 'A real first lesson, then honest advice on next steps.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at a matching level, or private lessons.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at a matching level, or private lessons.' },
       { h3: 'Twice a week', p: 'Regular slots, roughly eight lessons a month.' },
       { h3: 'India time', p: 'Our teachers are in India: a 6pm Glenelg class is 1pm India time until early April, then 2pm.' }
     ],

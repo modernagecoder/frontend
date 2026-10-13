@@ -52,7 +52,7 @@ module.exports = {
     ['Languages', 'Scratch, then Python'],
     ['Curriculum', 'Digital Technologies, F to 10'],
     ['Format', 'Live online video'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
@@ -233,7 +233,7 @@ module.exports = {
       { h3: 'Small parts', p: 'Every solution is built and tested in pieces.' },
       { h3: 'Mistakes welcome', p: 'A wrong guess is the start of the next idea.' },
       { h3: 'Explain it', p: 'Students describe their solution and its limits.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners, or one to one.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners, or one to one.' },
       { h3: 'Same teacher', p: 'One teacher who knows how each student thinks.' }
     ]
   },

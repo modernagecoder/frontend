@@ -364,7 +364,7 @@ module.exports = {
       },
       {
         q: 'What size are the groups?',
-        a: 'Five to ten, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner\'s time.',
+        a: 'Fifteen to twenty, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner\'s time.',
         boiler: true
       },
       { q: 'Do adults learn Python with you?', a: 'Yes, in adult groups or privately, often to automate reports or analyse data at work.' }

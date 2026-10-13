@@ -253,7 +253,7 @@ The first lesson is free. After that, group tuition is USD 100 a month for two l
 
 ### How many learners are in a group?
 
-Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means one learner with one teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
+Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means one learner with one teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
 ## North up the tram line, out to the province, and up to the country
 

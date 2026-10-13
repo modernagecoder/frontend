@@ -191,7 +191,7 @@ Families in Kellyville can skip the drive to a coding centre; the lesson comes t
 - **At home** A laptop or desktop with sound is enough. Younger children usually have a parent nearby for the first lesson.
 - **NSW calendar** Plans follow NSW stages and pause for the state holidays, so the teaching rhythm matches the school year.
 - **Free first class** The trial is a real lesson, after which the teacher recommends a course and time, with nothing to pay.
-- **Small groups** Fifteen to twenty learners at a matched level, drawn from many places, or one to one if preferred.
+- **Groups** Fifteen to twenty learners at a matched level, drawn from many places, or one to one if preferred.
 - **Twice weekly** A fixed slot on two days a week, around eight lessons a month, with breaks agreed in advance.
 - **India time** Our teachers work in India. A 5pm Kellyville lesson in summer is 11:30am India time, and 12:30pm there once Sydney leaves daylight saving.
 

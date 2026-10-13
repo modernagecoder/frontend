@@ -198,7 +198,7 @@ Lessons are live and online. India, where our teachers work, is five and a half 
 
 - **Written solutions read** The teacher reads the full argument or program, not just the final answer.
 - **Fresh practice problems** Written in each competition's style, never lifted from its papers.
-- **Small matched groups** Fifteen to twenty learners at a similar level, so explanations are shared and argued over.
+- **Matched groups** Fifteen to twenty learners at a similar level, so explanations are shared and argued over.
 - **One to one for a target** For a learner aiming at a particular round with little time left.
 - **Honest feedback** Clear notes on what went wrong and which idea to learn next.
 - **Nothing promised** No scores, medals or selections are promised, because no teacher can deliver them.

@@ -213,7 +213,7 @@ module.exports = {
       { h3: 'Placed by what they can do', p: 'Not by year group. Two Year 8s from different English schools can be years apart, and pretending otherwise wastes a term.' },
       { h3: 'Curriculum language used', p: 'Key stages, programmes of study and the textual-language requirement, named the way the Department for Education names them.' },
       { h3: 'A free lesson first', p: 'Real teaching, closing with an honest view of where the learner is and what to take next.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at one stage, so nobody waits and nobody drowns.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at one stage, so nobody waits and nobody drowns.' },
       { h3: 'Or one to one', p: 'For a learner a long way ahead or a long way behind, where a group would be the wrong room.' },
       { h3: 'Fixed in UK time', p: 'Teachers work from India, four and a half hours ahead in summer and five and a half in winter, and every slot is agreed in UK time.' }
     ],

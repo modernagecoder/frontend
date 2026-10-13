@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'From home', p: 'A laptop or desktop, a headset and a steady connection are enough; nobody travels for a lesson.' },
       { h3: 'South Australian years', p: 'Teachers plan with South Australian year levels in mind, and every lesson is in English.' },
       { h3: 'A real first lesson', p: 'The free trial is a proper class that ends with a suggested course and a regular weekly time.' },
-      { h3: 'Small matched groups', p: 'Groups hold fifteen to twenty learners at the same level, drawn from Whyalla and further afield.' },
+      { h3: 'Matched groups', p: 'Groups hold fifteen to twenty learners at the same level, drawn from Whyalla and further afield.' },
       { h3: 'Twice a week', p: 'Group learners meet on two fixed days, which comes to about eight lessons in a month.' },
       { h3: 'Teachers in India', p: 'Lessons are booked in Whyalla time; our teachers work in India, four or five hours behind depending on the season.' }
     ],

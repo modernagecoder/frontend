@@ -212,7 +212,7 @@ module.exports = {
     cells: [
       { h3: 'Boards and dominoes', p: 'Students colour, cut and test ideas by hand.' },
       { h3: 'Arguments written down', p: 'Every claim of impossibility needs a reason.' },
-      { h3: 'Fifteen to twenty per group', p: 'Small groups that discuss together.' },
+      { h3: 'Fifteen to twenty per group', p: 'Groups that discuss together.' },
       { h3: 'One-to-one lessons', p: 'For a student who wants to go deep alone.' },
       { h3: 'Not Ignite coaching', p: 'We teach mathematics, not assessment drills.' },
       { h3: 'No offer claims', p: 'Entry decisions rest with the schools.' }

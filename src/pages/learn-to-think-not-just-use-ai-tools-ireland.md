@@ -14,7 +14,7 @@ Ireland · Thinking first · Every age
 
 It has never been easier to produce work without understanding it. Ask a chat tool for a program and you get one, whether or not you could have written it, and whether or not it is right. That is a problem worth taking seriously, and Irish education already has the language for it. The Framework for Junior Cycle names eight key skills that every subject must build, and one of them is managing information and thinking, with elements that read like a description of a good programmer: being curious, gathering and evaluating information, thinking creatively and critically, reflecting on your own learning. The redeveloped senior cycle puts thinking and solving problems first among its seven key competencies. And the Department of Education's own guidance on artificial intelligence, published in October 2025, asks schools to build the judgement to use these tools critically. This page sets out what those documents actually say, and how a coding class can teach a learner to think rather than to prompt.
 
-At a glance: For: Ages 6 to 67; Teaches: Reasoning before tools; Habit: Predict, run, explain; Tools: Introduced, then examined; Group: Five to ten at one level; Or: One to one; Hours: After school and evenings, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 6 to 67; Teaches: Reasoning before tools; Habit: Predict, run, explain; Tools: Introduced, then examined; Group: Fifteen to twenty at one level; Or: One to one; Hours: After school and evenings, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that build reasoning
 

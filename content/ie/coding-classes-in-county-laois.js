@@ -229,7 +229,7 @@ module.exports = {
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings, with evening slots most popular here because of the commute. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders classroom in Laois?', a: 'No, and we never imply one. All teaching is live online, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a reliable connection, and the number shown here is an Indian one.', boiler: true },
       { q: 'What do County Laois coding classes cost?', a: 'The first lesson is free. Continuing costs USD 100 a month for a group place, covering two live lessons a week and about eight a month with fifteen to twenty learners, or USD 150 a month privately on the same schedule. Everything is settled before payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable runs at a workable hour, we offer one-to-one lessons instead.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable runs at a workable hour, we offer one-to-one lessons instead.', boiler: true }
     ]
   },
 

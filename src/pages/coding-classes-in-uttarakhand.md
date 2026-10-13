@@ -12,7 +12,7 @@ Uttarakhand • **Live Online Classes**
 
 From the capital Dehradun to Haridwar, Roorkee and Haldwani: Modern Age Coders teaches Scratch, Python, Java, Web Development and AI through live, small-batch online classes. Home to IIT Roorkee, the Devbhumi now learns to build the future, from the hills to the plains.
 
-Book a Free Demo ClassExplore Courses**4.9/5**Parent rating**5–8**Students per batch**100%**Live & online**6–60+**Ages we teach
+Book a Free Demo ClassExplore Courses**4.9/5**Parent rating**15–20**Students per batch**100%**Live & online**6–60+**Ages we teach
 
 ## Quick answer
 
@@ -105,7 +105,7 @@ The Difference
 
 ## Why Uttarakhand Families Choose Modern Age Coders
 
-### Small live batches (15–20)
+### Live batches (15–20)
 
 Every student gets real attention from the instructor. No pre-recorded videos pretending to be a class, these are live, two-way sessions.
 

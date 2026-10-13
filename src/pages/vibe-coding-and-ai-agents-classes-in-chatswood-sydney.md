@@ -194,7 +194,7 @@ Most Chatswood homes are apartments, and a live online lesson needs nothing more
 The price list has three lines.
 
 - First class: USD 0. The first lesson is free and ends with a clear suggestion.
-- Group tuition: USD 100 a month. A month of small-group lessons, normally eight, with fifteen to twenty learners.
+- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Around eight one-to-one lessons a month.
 
 Outside India we invoice in US dollars, with one rate for every suburb. Nothing is charged until course and timing are fixed after the trial, and the pricing page explains holidays and absences.
@@ -239,7 +239,7 @@ The first lesson is free. Then a group place is USD 100 a month for two live les
 
 ### How many learners are in each group?
 
-Five to ten, grouped by level and pace. If no group fits, one-to-one lessons are offered.
+Fifteen to twenty, grouped by level and pace. If no group fits, one-to-one lessons are offered.
 
 ## More for Chatswood learners
 

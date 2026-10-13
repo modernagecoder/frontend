@@ -201,7 +201,7 @@ module.exports = {
       { q: 'Are lessons open to adults?', a: 'Yes, up to sixty-seven and at any starting level. Once the free lesson is over, a grown-up learner decides whether a group at their level or teaching on their own suits them better.' },
       { q: 'Will my child be grouped with other Bishopstown children?', a: 'Sometimes, though we build groups around ability rather than area, so the other learners could be in another county or another country.' },
       { q: 'What do coding classes in Bishopstown cost?', a: 'The first lesson is free. After that a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

@@ -390,7 +390,7 @@ module.exports = {
       },
       {
         q: 'How many learners share a group?',
-        a: 'Five to ten, grouped by level, pace and goals; one-to-one lessons are there when no group time works.',
+        a: 'Fifteen to twenty, grouped by level, pace and goals; one-to-one lessons are there when no group time works.',
         boiler: true
       },
       {

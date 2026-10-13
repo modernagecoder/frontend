@@ -199,7 +199,7 @@ The eight stations in our project run the length of the council area's railway, 
 Simple pricing in three parts.
 
 - First class: USD 0. A free first lesson that ends with a recommended course.
-- Group tuition: USD 100 a month. A month of small-group lessons, usually eight, with fifteen to twenty learners.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Around eight private lessons a month with one teacher.
 
 Invoices outside India are in US dollars, so every Ku-ring-gai family pays the same rate and no local price list exists. Payment starts only after the trial has fixed a course and time, and the pricing page sets out holidays, missed lessons and format changes.

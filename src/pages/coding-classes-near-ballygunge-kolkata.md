@@ -1,10 +1,10 @@
 ---
 title: "Coding & Maths Classes near Ballygunge, Kolkata"
-description: "Live online coding & maths classes for Ballygunge families. Small 6-8 batches, ICSE Java & CBSE Python, taught by full-time engineers. Book a free demo today."
+description: "Live online coding & maths classes for Ballygunge families. 15-20 batches, ICSE Java & CBSE Python, taught by full-time engineers. Book a free demo today."
 canonical: https://learn.modernagecoders.com/coding-classes-near-ballygunge-kolkata
 source: src/pages/coding-classes-near-ballygunge-kolkata.html
 ---
-> Live online coding & maths classes for Ballygunge families. Small 6-8 batches, ICSE Java & CBSE Python, taught by full-time engineers. Book a free demo today.
+> Live online coding & maths classes for Ballygunge families. 15-20 batches, ICSE Java & CBSE Python, taught by full-time engineers. Book a free demo today.
 
 Live Online · South Kolkata · Ballygunge
 
@@ -28,7 +28,7 @@ Your child learns from a real teacher in real time, asks questions the moment th
 
 ### Batches of 15-20
 
-We cap live batches at 20 students so every child is seen, heard and stretched, the small-batch rigour Ballygunge parents specifically ask for. For those who want even closer attention, mini batches of up to 6 and fully personalised 1-on-1 are available. No child hides at the back of the room.
+We cap live batches at 20 students so every child is seen, heard and stretched, the batch rigour Ballygunge parents specifically ask for. For those who want even closer attention, mini batches of up to 6 and fully personalised 1-on-1 are available. No child hides at the back of the room.
 
 ### Taught by full-time engineers
 
@@ -162,7 +162,7 @@ Honest comparison
 
 - No daily fight through Ballygunge Phari or Gariahat Junction, roughly 90 minutes saved per class day
 - No parking hunt around Quest Mall or Gariahat Market
-- The same small 6-8 batch and the same full-time engineer, every single session
+- The same 15-20 batch and the same full-time engineer, every single session
 - Your child learns from your own Ballygunge Circular Road flat, safe and supervised
 - Easy to fit around heavy school-bus and tuition timetables
 - Sessions can be reviewed and a missed class made up, no lost lesson, no lost fee
@@ -223,7 +223,7 @@ Yes. Our [Java programming track](/java-programming-for-kids-teens) follows the 
 
 ## Give your child Ballygunge-grade rigour: minus the Gariahat traffic.
 
-Premium, live online coding and maths in small 6-8 batches, taught by full-time engineers. Book a free demo and see a real class before you decide.
+Premium, live online coding and maths in 15-20 batches, taught by full-time engineers. Book a free demo and see a real class before you decide.
 
 [Book Free Demo Class](/book-demo)[View Pricing](/pricing)Explore nearby
 

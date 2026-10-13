@@ -14,7 +14,7 @@ Australia · Home education · Live online
 
 Home-schooling families tend to be the most thoughtful about what their children learn and why. Coding fits naturally into a home education program: it is creative, it is cross-curricular (maths, writing, design and logic all turn up), and it can be taught live online by a specialist while you handle the subjects you most enjoy teaching. It also has one big practical advantage for home educators: lessons can happen during the school day, when most children are in class and teachers' timetables are open. This page explains how families typically fit coding in, what two state governments say about home education (quoted, not interpreted), how to use the Australian Curriculum as a planning tool, and a simple record-keeping habit called the exit ticket that our students use after every lesson.
 
-At a glance: For: Home-schooled children, 6 to 18; Lesson times: School-day slots available; Records: An exit ticket after each lesson; Planning aid: Australian Curriculum v9; Subjects: Coding, AI, web, apps, maths; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Home-schooled children, 6 to 18; Lesson times: School-day slots available; Records: An exit ticket after each lesson; Planning aid: Australian Curriculum v9; Subjects: Coding, AI, web, apps, maths; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three ways to add coding to a home program
 
@@ -197,7 +197,7 @@ Because India time is behind every Australian state, our teachers can offer Aust
 - **After school or weekend** For families who mix home and part-time school.
 
 - **A free first class** Your child tries a short project, and we discuss how coding could fit your program.
-- **Small groups** Fifteen to twenty learners at a similar level, sometimes including other home-schooled children.
+- **Groups** Fifteen to twenty learners at a similar level, sometimes including other home-schooled children.
 - **One to one** Shaped entirely around your child and your program.
 - **Exit tickets** A short written record after every lesson, in your child's words.
 - **Parents welcome** Sit in on any lesson; many parents learn too.

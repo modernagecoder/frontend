@@ -54,7 +54,7 @@ module.exports = {
     ['Fits', 'Primary, Junior Cycle, TY, Senior Cycle'],
     ['Hours', 'Irish afternoons, evenings, weekends'],
     ['Format', 'Live, with a teacher'],
-    ['Groups', 'Five to ten, or one to one'],
+    ['Groups', 'Fifteen to twenty, or one to one'],
     ['Method', 'Read, predict, then write'],
     ['AI tools', 'Used openly, always acknowledged'],
     ['Start', 'A free first class']

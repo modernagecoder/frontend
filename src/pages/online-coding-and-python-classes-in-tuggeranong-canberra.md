@@ -177,7 +177,7 @@ Lessons are live over video, so nobody has to drive into town after school.
 - **Live lessons** A teacher leads every class and checks code as it is typed.
 - **School terms** Classes follow ACT terms and pause during holidays.
 - **Free trial** One free lesson, then a written course plan.
-- **Small groups** Fifteen to twenty learners at one level, or one to one.
+- **Groups** Fifteen to twenty learners at one level, or one to one.
 - **Rhythm** Two lessons a week, roughly eight a month.
 - **India timing** In winter a 5pm Tuggeranong lesson is 12:30pm in India; in summer it is 11:30am.
 

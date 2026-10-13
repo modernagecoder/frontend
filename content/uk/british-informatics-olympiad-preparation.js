@@ -212,7 +212,7 @@ module.exports = {
       { h3: 'Problems written fresh', p: 'Every practice question is our own, in the competition\'s style; the organiser\'s papers stay on the organiser\'s site.' },
       { h3: 'Programs read line by line', p: 'The teacher reads the code and the written explanation, not just the final output.' },
       { h3: 'Testing every week', p: 'A generator and a brute force are part of the routine, not an afterthought.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students at a similar level, comparing approaches to the same problem.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students at a similar level, comparing approaches to the same problem.' },
       { h3: 'One to one before a sitting', p: 'For a student with a date in the diary and specific gaps to close.' },
       { h3: 'Honest limits', p: 'No promises about scores or selection, and no help during the paper itself.' }
     ]

@@ -254,7 +254,7 @@ module.exports = {
     cells: [
       { h3: 'Written solutions read', p: 'The teacher reads the full argument or program, not just the final answer.' },
       { h3: 'Fresh practice problems', p: 'Written in each competition\'s style, never lifted from its papers.' },
-      { h3: 'Small matched groups', p: 'Fifteen to twenty learners at a similar level, so explanations are shared and argued over.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at a similar level, so explanations are shared and argued over.' },
       { h3: 'One to one for a target', p: 'For a learner aiming at a particular round with little time left.' },
       { h3: 'Honest feedback', p: 'Clear notes on what went wrong and which idea to learn next.' },
       { h3: 'Nothing promised', p: 'No scores, medals or selections are promised, because no teacher can deliver them.' }

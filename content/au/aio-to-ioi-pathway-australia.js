@@ -212,7 +212,7 @@ module.exports = {
     cells: [
       { h3: 'Estimate first', p: 'Every problem starts with an operations budget.' },
       { h3: 'Prove, then code', p: 'Students explain why a method is correct before writing it.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students of similar level.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students of similar level.' },
       { h3: 'One-to-one coaching', p: 'The usual choice at this level.' },
       { h3: 'Honest feedback', p: 'Clear advice on readiness, without inflating it.' },
       { h3: 'No selection promises', p: 'Invitations and teams are the Trust\'s decisions alone.' }

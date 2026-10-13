@@ -281,7 +281,7 @@ module.exports = {
       { h3: 'Live lessons', p: 'A teacher leads every class and checks code as it is typed.' },
       { h3: 'School terms', p: 'Classes follow ACT terms and pause during holidays.' },
       { h3: 'Free trial', p: 'One free lesson, then a written course plan.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at one level, or one to one.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at one level, or one to one.' },
       { h3: 'Rhythm', p: 'Two lessons a week, roughly eight a month.' },
       { h3: 'India timing', p: 'In winter a 5pm Tuggeranong lesson is 12:30pm in India; in summer it is 11:30am.' }
     ],

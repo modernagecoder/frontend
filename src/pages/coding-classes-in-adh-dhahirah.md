@@ -263,7 +263,7 @@ Adh Dhahirah is large and its three centres are far apart, so the lesson travels
 
 A learner in Yanqul or Dhank joins the same live class as one in Ibri.
 
-### Five to eight in a room
+### Fifteen to twenty in a room
 
 Compatible learners, one teacher, and feedback said out loud rather than posted later.
 

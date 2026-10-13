@@ -179,7 +179,7 @@ function buildKeyFacts() {
     return `## Quick Facts
 
 - **Pricing (India):** ${tiers.join('. ')}. Visitors outside India see a price set for their own country, shown in their local currency.
-- **Class size:** 15 to 20 students per group batch, up to 6 in a mini batch, or 1-on-1 (small batches, not 100+).
+- **Class size:** 15 to 20 students per group batch, up to 6 in a mini batch, or 1-on-1 (batches, not 100+).
 - **Format:** Live and interactive over video. Recorded for revision.
 - **Trial:** Free demo class (a waiting list, no promised date) at ${SITE}/book-demo, or the paid Priority Live Demo at ${SITE}/priority-demo: a guaranteed full class of about 45 to 60 minutes today or tomorrow, with a written skill report afterwards, and the fee adjusted against the first month on enrolment.
 - **Audience:** Kids (6-12), Teens (13-17), College students, Working professionals, Corporate teams.

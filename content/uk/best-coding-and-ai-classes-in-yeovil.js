@@ -170,7 +170,7 @@ module.exports = {
       { h3: 'Learner-led typing', p: 'The learner shares a screen and writes the code. The tutor steers by asking questions.' },
       { h3: 'Free first session', p: 'It is a real lesson, and we use it to work out which course fits.' },
       { h3: 'Book without paying', p: 'No card or deposit is needed for the trial.' },
-      { h3: 'Small matched groups', p: 'Fifteen to twenty learners at one level, joining from across the country.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at one level, joining from across the country.' },
       { h3: 'Twice each week', p: 'In school terms, with Somerset holiday weeks skipped when you send the dates.' },
       { h3: 'Your time stays fixed', p: 'Tutors move their own schedule at the clock change so yours is untouched.' }
     ],
@@ -181,7 +181,7 @@ module.exports = {
     h2: 'Fees for Yeovil',
     intro: 'The international fee below is what all learners outside India pay.',
     first: 'Free first lesson, full length, ending in a course suggestion.',
-    group: 'Small group, fifteen to twenty learners, close to eight lessons monthly.',
+    group: 'Group, fifteen to twenty learners, close to eight lessons monthly.',
     private: 'Your own tutor, close to eight lessons monthly.',
     closer: 'We price in US dollars and publish no figure in sterling. Charging starts after the trial, when you have picked a course and a regular time. The pricing page explains holiday breaks, missed lessons and changing between formats.'
   },

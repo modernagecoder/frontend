@@ -192,7 +192,7 @@ Lessons are taught live by teachers in India. Australia is ahead of India on the
 
 - **Play first** Young children learn best through puzzles and making things.
 - **Our own puzzles** Competition-style practice written by us, never copied.
-- **Small classes** Fifteen to twenty children at a similar level.
+- **Classes** Fifteen to twenty children at a similar level.
 - **One-to-one option** For a child who needs a different pace.
 - **Team-friendly** We teach the coding; teams keep their own projects.
 - **No result promised** Organisers set and mark every competition.

@@ -14,7 +14,7 @@ United Kingdom · AI literacy · Ages 10 to 67
 
 There is a table buried in a government-supported evidence review that deserves a much wider audience. It lists five things everybody assumes about software, and next to each one it says what AI does to that assumption. You are the user. You choose the inputs. The same input gives the same output. You can check how the answer was produced. You know when you are using it. All five, the review reports, are broken. The same paper quotes researchers describing systems in which "artifacts use users to achieve their objectives", which is a sentence worth sitting with. A tool you cannot assume any of those things about does not need a better prompter. It needs a user who understands what is happening, and that is a teachable thing.
 
-At a glance: The problem: AI breaks five software assumptions; The evidence: A DSIT-supported review, 2026; AI literacy: Understand, evaluate, then use; Weighting: Nine of seventeen are how it works; We teach: The how, with code to prove it; Group: Five to ten at one level; Or: One to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: The problem: AI breaks five software assumptions; The evidence: A DSIT-supported review, 2026; AI literacy: Understand, evaluate, then use; Weighting: Nine of seventeen are how it works; We teach: The how, with code to prove it; Group: Fifteen to twenty at one level; Or: One to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that teach the how
 

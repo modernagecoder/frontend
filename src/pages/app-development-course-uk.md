@@ -14,7 +14,7 @@ UK · Teens and adults · iOS and Android
 
 Most app courses start with a button and end with a store listing. In the UK, two sets of rules sit between those points. The Department for Science, Innovation and Technology's code of practice for app store operators and app developers asks developers, among other things, not to "request permissions and privileges which are not functionally required by the app", to let people delete the personal data an app gathers, and to keep fixing security problems after launch. And if children are likely to use an app, the Information Commissioner's Office says its Children's code needs to be considered, whether or not children were ever the intended audience: "Settings must be 'high privacy' by default", geolocation off unless there is a compelling reason, no nudging children into giving away more data. The code covers what the law calls information society services, which the ICO says includes most for-profit online services, so a young developer planning to publish needs to know it exists. This course teaches UK teenagers and adults to build real apps in React Native, Flutter, Swift or Kotlin with both rulebooks designed in from the first screen, because retrofitting privacy is harder than building it.
 
-At a glance: Teens: React Native, ages 13 to 18; Adults: Flutter, Swift and Kotlin; App code: DSIT, eight principles; Children's code: ICO, 15 standards; Designed in: Minimal permissions, data deletion; Default: High privacy, location off; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: Teens: React Native, ages 13 to 18; Adults: Flutter, Swift and Kotlin; App code: DSIT, eight principles; Children's code: ICO, 15 standards; Designed in: Minimal permissions, data deletion; Default: High privacy, location off; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three ways into app development
 
@@ -202,7 +202,7 @@ Teaching comes from India, which keeps one clock all year; the UK is four and a 
 - **Weekend** Longer sessions for building features.
 
 - **A free first class** We check your starting point and choose a framework with you.
-- **Small groups** Fifteen to twenty learners of similar age and level.
+- **Groups** Fifteen to twenty learners of similar age and level.
 - **One to one** For a specific app idea or a faster pace.
 - **Your own device** Apps run on your phone or an emulator from the early weeks.
 - **Privacy checklist** Every project passes the same short checklist before it counts as done.

@@ -190,7 +190,7 @@ module.exports = {
       { h3: 'Home set-up', p: 'A computer, a microphone and a steady internet connection are enough to join.' },
       { h3: 'Either state', p: 'Teachers know both the Victorian and New South Wales school years, and plan around the learner\'s own school.' },
       { h3: 'Trial class', p: 'The free first class teaches real material and ends with a suggested course and weekly time.' },
-      { h3: 'Small groups', p: 'Groups hold fifteen to twenty learners at one level, drawn from many towns.' },
+      { h3: 'Groups', p: 'Groups hold fifteen to twenty learners at one level, drawn from many towns.' },
       { h3: 'Weekly rhythm', p: 'Two group lessons a week on fixed days, close to eight each month.' },
       { h3: 'Teaching team', p: 'Teachers are based in India and confirm every time in Echuca time.' }
     ],

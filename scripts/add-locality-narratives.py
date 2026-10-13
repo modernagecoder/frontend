@@ -495,7 +495,7 @@ N["kasba-kolkata"] = {
             Children here go to DPS Ruby Park, Don Bosco, Birla High, and increasingly The Heritage School &mdash; the CBSE-heavy belt. The parents are often themselves Python users in their day jobs (data analytics, finance, IT) and they are unambiguously certain about why coding matters. They don't need convincing; they need a teacher who keeps the kid engaged.
         </p>
         <p style="color:#cbd5e1; line-height:1.95; font-size:15.5px; margin:0;">
-            Our small batches do exactly that. With 15&ndash;20 students per class, every child is asked questions, called on, and prevented from drifting. The Kasba parents we've taught say their kids actually look forward to class &mdash; which, for any after-school activity, is the highest compliment.
+            Our batches do exactly that. With 15&ndash;20 students per class, every child is asked questions, called on, and prevented from drifting. The Kasba parents we've taught say their kids actually look forward to class &mdash; which, for any after-school activity, is the highest compliment.
         </p>
     """,
     "projects": [

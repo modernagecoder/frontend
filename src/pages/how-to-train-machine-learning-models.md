@@ -12,7 +12,7 @@ Model Training • **make models truly learn**
 
 Training is where a model actually learns, and where most go wrong. Learn the training process properly: loss and gradient descent, epochs, validation, overfitting and tuning, so your models genuinely learn and perform on data they've never seen. Hands-on in Python, live with a mentor.
 
-Book a Free DemoSee the Roadmap**loss↓**Watch it learn**5–8**Students per batch**val**No overfitting**Live**Mentor-led
+Book a Free DemoSee the Roadmap**loss↓**Watch it learn**15–20**Students per batch**val**No overfitting**Live**Mentor-led
 
 ## Quick answer
 

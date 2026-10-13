@@ -14,7 +14,7 @@ Ireland · Training, not prompting · Live online
 
 Prompting is a genuine skill, and it is a shallow one. It takes a weekend to get good at, the tools change every few months, and none of it tells you whether the answer you got is right. Training is the other half of AI, the half that decides what a model learns and how you would know if it had learned nothing useful. It involves choices no tool makes for you: what exactly are you predicting, what evidence would have been available at the moment of the prediction, how do you split the data so the test is honest, and what is the simplest possible approach your model has to beat? Ireland's 2024 National AI Strategy refresh makes a related point about people rather than models: "the skills needed for AI are not only digital skills, and the continued development of empathetic and cognitive skills will be crucial to the success of AI adoption in Ireland." This page shows the training half being done properly, on an Irish dataset anyone can download.
 
-At a glance: For: Teens, students and adults; Teaches: Labels, features, splits, baselines; Catches: Overfitting and group leakage; Uses: Open Irish data; Needs: Python, at least the basics; Group: Five to ten at one level; Or: One to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens, students and adults; Teaches: Labels, features, splits, baselines; Catches: Overfitting and group leakage; Uses: Open Irish data; Needs: Python, at least the basics; Group: Fifteen to twenty at one level; Or: One to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses where you train the model
 

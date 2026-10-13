@@ -12,7 +12,7 @@ Building AI Models • **problem → data → model**
 
 Go beyond tutorials and learn the real, repeatable process of building an AI model, framing the problem, preparing the data, choosing and building the model, then evaluating and improving it until it actually works. Hands-on in Python, live with a mentor.
 
-Book a Free DemoSee the Roadmap**E2E**Full build process**5–8**Students per batch**Python**Hands-on building**Live**Mentor-led
+Book a Free DemoSee the Roadmap**E2E**Full build process**15–20**Students per batch**Python**Hands-on building**Live**Mentor-led
 
 ## Quick answer
 

@@ -175,7 +175,7 @@ Each lesson is a live video class; there is no venue to visit.
 - **Shared screen** Prompts, code and test results are all read together.
 - **Term-time rhythm** Classes follow South Australian school terms with holiday breaks.
 - **Opening class free** A real first lesson, then honest advice on next steps.
-- **Small groups** Fifteen to twenty learners at a matching level, or private lessons.
+- **Groups** Fifteen to twenty learners at a matching level, or private lessons.
 - **Twice a week** Regular slots, roughly eight lessons a month.
 - **India time** Our teachers are in India: a 6pm Glenelg class is 1pm India time until early April, then 2pm.
 

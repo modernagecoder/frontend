@@ -66,7 +66,7 @@ module.exports = {
     ['Models', 'Trained, fine-tuned or grounded by you'],
     ['Evaluation', 'Open tools such as Inspect'],
     ['For', 'Teens and adults'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',

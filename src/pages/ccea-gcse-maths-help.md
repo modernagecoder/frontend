@@ -14,7 +14,7 @@ Northern Ireland · CCEA GCSE · Years 11 and 12
 
 CCEA's GCSE Mathematics works differently from the English boards. Every pupil sits exactly two units: one from M1, M2, M3 or M4, and one completion test from M5, M6, M7 or M8. Each pairing comes with a fixed range of grades. A pupil entered for M3 and M7 can be awarded a B and no higher; only M4 and M8 open the way to A and A*. So the most consequential decision in a Northern Irish pupil's maths GCSE is often made by the school, before any paper is sat. CCEA's 2025 Chief Examiner's report shows why it matters: of one Higher paper it wrote that "Some candidates with very high scores would be better suited to the M8 papers and those with very low scores to the M6 papers." This page explains the pathways, the C* grade, what the 2025 examiners saw, and how to prepare for whichever units a pupil is entered for.
 
-At a glance: Qualification: CCEA GCSE Mathematics; Units sat: Two: one of M1 to M4, one of M5 to M8; First unit: Calculator paper, 45 per cent; Completion test: Non-calculator and calculator papers, 55 per cent; Grades: A*, A, B, C*, C, D, E, F, G; Pathway: Fixes the grades available; Group: Five to ten at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Qualification: CCEA GCSE Mathematics; Units sat: Two: one of M1 to M4, one of M5 to M8; First unit: Calculator paper, 45 per cent; Completion test: Non-calculator and calculator papers, 55 per cent; Grades: A*, A, B, C*, C, D, E, F, G; Pathway: Fixes the grades available; Group: Fifteen to twenty at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for CCEA GCSE Maths
 
@@ -202,7 +202,7 @@ Our teachers are in India, which never changes its clocks, so Northern Ireland i
 - **One clear answer** Abandoned attempts crossed out, so the better work is the one marked.
 - **Instruction words** Estimate, show and explain treated as instructions, never as decoration.
 - **Honest placement** A clear view of whether a pupil is secure on their pathway or ready for the next.
-- **Small groups** Fifteen to twenty pupils at one rung, on the same pathway.
+- **Groups** Fifteen to twenty pupils at one rung, on the same pathway.
 
 ## Fees for CCEA GCSE maths lessons
 

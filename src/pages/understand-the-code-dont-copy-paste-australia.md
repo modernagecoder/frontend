@@ -14,7 +14,7 @@ Australia · Years 7 to 12 and adults · Own every line
 
 Copying code has never been easier. A forum answer, a tutorial or an AI assistant will hand a student a function that runs first time, and it is tempting to drop it in and move on. The trouble is that code which runs is not the same as code which is right, and a student who does not understand a function cannot tell the difference. This page shows the problem with a real experiment: one short, pasted function, ten thousand test inputs, and two ways of checking it. One check passed it every time. The other caught it failing thousands of times. The difference was whether the person checking understood what the function was supposed to do.
 
-At a glance: For: Secondary students and adults; Focus: Reading, predicting and testing code; Tools: Assertions and written contracts; Languages: Python first, then Java or JavaScript; Integrity: We never write assessed work; Format: Live online video; Group: Five to ten, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Secondary students and adults; Focus: Reading, predicting and testing code; Tools: Assertions and written contracts; Languages: Python first, then Java or JavaScript; Integrity: We never write assessed work; Format: Live online video; Group: Fifteen to twenty, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses built on reading and testing code
 
@@ -189,7 +189,7 @@ Students type, predict and test everything they keep. Teachers ask "what will th
 - **Contracts written** Students state what each function promises before writing it.
 - **Tests by the student** Students write their own checks, including the awkward cases.
 - **Explain it back** A program is finished when the student can explain every line.
-- **Small groups** Fifteen to twenty students, or one to one.
+- **Groups** Fifteen to twenty students, or one to one.
 - **Never your assessment** We teach technique; assessed work stays the student's own.
 
 ## Fees

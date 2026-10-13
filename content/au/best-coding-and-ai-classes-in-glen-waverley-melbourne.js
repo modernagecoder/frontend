@@ -311,7 +311,7 @@ module.exports = {
       { h3: 'No commute', p: 'Sign in, share a screen and start writing code with the teacher straight away.' },
       { h3: 'Victorian terms', p: 'Plans follow Victorian school terms and pause for the state school holidays.' },
       { h3: 'A full first class', p: 'The trial is a real lesson, finishing with a suggested course, level and time.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners grouped by level and pace, from several suburbs at once.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners grouped by level and pace, from several suburbs at once.' },
       { h3: 'Twice a week', p: 'Two fixed lessons each week, around eight a month, with breaks agreed ahead.' },
       { h3: 'Teachers in India', p: 'A 5pm Glen Waverley lesson during daylight saving begins at 11:30am India time; after April it begins at 12:30pm there.' }
     ],

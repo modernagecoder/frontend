@@ -12,7 +12,7 @@ LLMs • **the tech behind GPT**
 
 Understand the AI everyone's talking about, and build with it. Learn how large language models like GPT actually work (tokens, embeddings, attention, transformers), then build real applications using LLM APIs, embeddings and RAG in Python. Live, hands-on, mentor-led.
 
-Book a Free DemoSee the Roadmap**GPT**How it works**5–8**Students per batch**RAG**Build real apps**Live**Mentor-led
+Book a Free DemoSee the Roadmap**GPT**How it works**15–20**Students per batch**RAG**Build real apps**Live**Mentor-led
 
 ## Quick answer
 

@@ -1310,7 +1310,7 @@ optimizer.<span class="fn">step</span>()      <span class="cm"># on GPU if avail
         "learn_sub": "The structure that makes online learning genuinely work.",
         "learn_cards": [
             (IC['video'], "#06b6d4", "Live, Not Recorded", "Real-time classes with a mentor you can interact with — the engagement and accountability recorded courses can't give."),
-            (IC['chat'], "#8b5cf6", "Small Batches &amp; Doubts", "Just 15–20 learners so your questions get answered live, with ongoing doubt support between classes."),
+            (IC['chat'], "#8b5cf6", "Batches &amp; Doubts", "Just 15–20 learners so your questions get answered live, with ongoing doubt support between classes."),
             (IC['layers'], "#06b6d4", "Projects &amp; Recordings", "Hands-on projects reviewed by your mentor, plus every session recorded so you can revise anytime."),
         ],
         "road_h": "How Your Online Journey Works", "road_sub": "Four stages, all live and supported, from anywhere.",

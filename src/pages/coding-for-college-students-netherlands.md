@@ -14,7 +14,7 @@ Netherlands · University and hbo · Live online
 
 Three in four Dutch students aged 18 to 25 now use AI for their studies, the national statistics office reported in 2026. When nearly everyone has the same assistant, it stops being an advantage. What sets a student apart is what the assistant cannot do for them: understanding data structures and the cost of an algorithm, debugging code nobody else can see, reading a pull request, working in a team through Git, and building something real enough to show an employer. Those are the skills technical interviews and internships test, and many degree programmes teach them only in passing. This page is for students at Dutch universities and hogescholen, Dutch and international, who want those skills alongside their degree, taught live online in English, in the evenings, at weekends or one to one around a changing timetable.
 
-At a glance: For: University and hbo students; Core: Algorithms, debugging, Git, systems; Tracks: Software, data science, AI; Format: Live video with a teacher; Groups: 5 to 10 at one level, or one to one; Times: Evenings, weekends, around your rooster; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: University and hbo students; Core: Algorithms, debugging, Git, systems; Tracks: Software, data science, AI; Format: Live video with a teacher; Groups: 15 to 20 at one level, or one to one; Times: Evenings, weekends, around your rooster; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses Dutch students most often take
 

@@ -137,7 +137,7 @@ $150 / month
 
 [Book a free first lesson](/book-demo?subject=maths)
 
-### Small-group A level maths
+### Group A level maths
 
 $100 / month
 

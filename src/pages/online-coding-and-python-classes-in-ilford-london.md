@@ -132,7 +132,7 @@ A computer with a webcam and a video-ready connection is all that is required.
 - **Learner at the keyboard** Students write and run the code; the tutor follows the shared screen and asks what answer they expect first.
 - **Trial sets the start** The free lesson shows where to begin, and any GCSE or A level board is noted.
 - **Opening lesson free** No charge for lesson one, which finishes with a course suggestion.
-- **Level-matched groups** Five to ten UK learners at one stage in every class.
+- **Level-matched groups** Fifteen to twenty UK learners at one stage in every class.
 - **Twice weekly** Holiday weeks off.
 - **Constant time** Tutors adjust for UK clock changes so your lesson hour holds.
 

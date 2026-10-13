@@ -137,7 +137,7 @@ A computer and a stable connection are all that is needed in any Hartlepool home
 - **Code by the student** Learners prompt, write and test everything; the tutor sees the shared screen and guides with questions.
 - **Placed by the trial** From Year 4 to Year 13, the free lesson sets the first topic, with exam boards noted.
 - **Free first session** A whole lesson at no cost, then a clear recommendation.
-- **Classmates who match** Each group holds five to ten UK learners progressing at a similar rate.
+- **Classmates who match** Each group holds fifteen to twenty UK learners progressing at a similar rate.
 - **Two a week** Paused in school holidays.
 - **An unchanging slot** When the UK clocks go forward or back, our tutors adjust, not you.
 

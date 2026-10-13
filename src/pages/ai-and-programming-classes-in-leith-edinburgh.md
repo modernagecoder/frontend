@@ -141,7 +141,7 @@ You will need a computer with a working camera and an internet line that carries
 - **Two sessions weekly** During the school term.
 - **Your hour is fixed** Tutors shift with the UK clock changes so you never have to.
 
-**Why online** Matching five to ten people by level and free hour is hard inside one district and easy across a country. Video makes that possible.
+**Why online** Matching fifteen to twenty people by level and free hour is hard inside one district and easy across a country. Video makes that possible.
 
 ## Fees for Leith
 

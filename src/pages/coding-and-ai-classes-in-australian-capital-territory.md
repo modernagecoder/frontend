@@ -234,7 +234,7 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 ### How many learners are in each group?
 
-Five to ten, grouped by level, pace and what they want to achieve rather than by age or suburb. If no group suits a learner's hours, one-to-one lessons are offered instead.
+Fifteen to twenty, grouped by level, pace and what they want to achieve rather than by age or suburb. If no group suits a learner's hours, one-to-one lessons are offered instead.
 
 ## More for ACT learners
 

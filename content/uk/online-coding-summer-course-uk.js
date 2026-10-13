@@ -58,7 +58,7 @@ module.exports = {
     ['England example', 'Nottinghamshire, term to 28 July 2027'],
     ['Start date', 'Whenever your holiday begins'],
     ['Pricing', 'The usual monthly fee, no surcharge'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',

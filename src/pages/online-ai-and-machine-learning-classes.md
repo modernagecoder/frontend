@@ -38,7 +38,7 @@ The structure that makes online learning genuinely work.
 
 Real-time classes with a mentor you can interact with, the engagement and accountability recorded courses can't give.
 
-### Small Batches & Doubts
+### Batches & Doubts
 
 Just 15–20 learners so your questions get answered live, with ongoing doubt support between classes.
 

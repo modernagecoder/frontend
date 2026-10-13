@@ -154,7 +154,7 @@ A computer and a reliable connection are all a Walsall household needs.
 - **Hands on the keyboard** Learners write, prompt and run their own programs, with the tutor following their screen and asking questions as they go.
 - **Started at the right level** Whether in Year 4 or Year 12, a learner starts where the trial lesson shows they should, with any exam board noted.
 - **Free to try** The first lesson costs nothing and ends with a suggested course.
-- **Matched groups** Five to ten UK learners at about the same point share a class.
+- **Matched groups** Fifteen to twenty UK learners at about the same point share a class.
 - **Two lessons weekly** No lessons in the school holidays.
 - **Times that hold** Tutors adjust when UK clocks change, so the lesson hour does not move.
 

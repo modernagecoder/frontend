@@ -14,7 +14,7 @@ Australia · Ages 8 to 67 · Apps for phones and tablets
 
 An app is judged in the first few seconds by a thumb, not a mouse. Buttons that are too small, too close together or impossible to reach one-handed make good code feel broken. Our app development course teaches Australians from age 8 to 67 to design for touch from the first screen, then build, test on a real phone and improve. Children start with blocks, teenagers move to a cross-platform framework, and adults or university students go further into native tools. On this page we show where app development appears in Australian schools and universities, compare the three main ways to build an app, explain publishing for under-18s, and measure every tappable target on this very page against the international accessibility standard.
 
-At a glance: For: Ages 8 to 67; Children: Block-based app making; Teens: Cross-platform frameworks; Adults: Cross-platform or native; Standard: WCAG 2.2 from screen one; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 8 to 67; Children: Block-based app making; Teens: Cross-platform frameworks; Adults: Cross-platform or native; Standard: WCAG 2.2 from screen one; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three app courses for three stages
 
@@ -218,7 +218,7 @@ The team teaches from India during hours that line up with Australian after-scho
 - **Weekend** Longer build and testing sessions.
 
 - **Free first class** One screen designed and built together, then advice on the right route.
-- **Small groups** Fifteen to twenty learners testing each other's apps.
+- **Groups** Fifteen to twenty learners testing each other's apps.
 - **One to one** For a specific app idea, a unit or a deadline.
 - **Phones in the loop** Students test on real devices whenever they can.
 - **Accessibility checked** Every app gets a target and label audit.

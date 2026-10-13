@@ -60,7 +60,7 @@ module.exports = {
     ['Coursework', 'None'],
     ['Entries in 2025', '19,767 resulted'],
     ['Entry', 'National 5 Mathematics or equivalent'],
-    ['Group', 'Five to ten at one stage'],
+    ['Group', 'Fifteen to twenty at one stage'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',

@@ -246,7 +246,7 @@ module.exports = {
       { h3: 'By hand for Unit 2', p: 'Non-calculator number and algebra practised every week.' },
       { h3: 'Whole course for Unit 3', p: 'Statistics, geometry and measures covered in full, not left to the end.' },
       { h3: 'Tier by unit', p: 'Each unit taught at the tier the school has chosen for it.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty pupils at one rung, comparing methods.' }
+      { h3: 'Groups', p: 'Fifteen to twenty pupils at one rung, comparing methods.' }
     ]
   },
 

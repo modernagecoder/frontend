@@ -73,7 +73,7 @@ module.exports = {
     ['Unit 4 in 2025', '120 marks in 90 minutes'],
     ['Unit 5', 'Controlled assessment, up to 36 hours, 30 per cent'],
     ['Unit 5 languages', 'Python, Java or C#'],
-    ['Group', 'Five to ten at one stage'],
+    ['Group', 'Fifteen to twenty at one stage'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',

@@ -325,7 +325,7 @@ module.exports = {
           kind: 'three',
           cells: [
             { h3: 'Private', p: 'One learner, one teacher, a fixed time each week.' },
-            { h3: 'Small classes', p: 'Fifteen to twenty learners at one level, working through the same topic together.' },
+            { h3: 'Classes', p: 'Fifteen to twenty learners at one level, working through the same topic together.' },
             { h3: 'Visible thinking', p: 'Students write their steps on a shared screen so the teacher can respond to each one.' }
           ]
         },

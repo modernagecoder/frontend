@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Learners write the code', p: 'Each program is typed by the pupil while the teacher watches the shared screen and nudges when needed.' },
       { h3: 'Matched to Welsh schooling', p: 'Whether it is Year 5 in Oakdale or Year 12 in Bargod, we look at the year and the Curriculum for Wales, and exam work follows the WJEC specifications. Lessons are in English.' },
       { h3: 'Free trial lesson', p: 'A full lesson without charge, then an honest recommendation.' },
-      { h3: 'Small classes at one level', p: 'Fifteen to twenty learners at the same level, from many places.' },
+      { h3: 'Classes at one level', p: 'Fifteen to twenty learners at the same level, from many places.' },
       { h3: 'Term-time timetable', p: 'Two lessons a week in term, with holidays off.' },
       { h3: 'Stays at UK time', p: 'Clock changes do not move your lesson; our teachers on India time adjust instead.' }
     ],

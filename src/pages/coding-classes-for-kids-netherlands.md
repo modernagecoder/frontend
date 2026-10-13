@@ -14,7 +14,7 @@ Netherlands · Ages 6 to 12 · Live online
 
 In June 2025 the Dutch government published its first national guidelines on children, screens and social media. They set limits, no screens at all under two and no social media before fifteen, but their main message is about the kind of screen time, not only the amount: balance it with play and movement, use media together, and look for positive experiences. A coding lesson is about as far from scrolling as a screen can get. A child plans something, builds it, sees it go wrong, works out why and fixes it, with a teacher on the other side of the screen and, often, a parent in the room. This page is for Dutch families with a child in groep 3 to 8 who want that kind of screen time: Scratch and games first, then apps, then typed Python and an honest picture of what AI is, live online and in English.
 
-At a glance: Ages: 6 to 12, groep 3 to 8; First steps: Scratch and games; Then: Apps, typed Python, AI explained; Format: Live video with a teacher; Groups: 5 to 10 at one level, or one to one; Times: After school and weekends; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Ages: 6 to 12, groep 3 to 8; First steps: Scratch and games; Then: Apps, typed Python, AI explained; Format: Live video with a teacher; Groups: 15 to 20 at one level, or one to one; Times: After school and weekends; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses most Dutch children start with
 
@@ -147,7 +147,7 @@ Our teachers work from India, which keeps one time all year while the Netherland
 - **Weekend** Saturday or Sunday morning. Popular with families whose weekdays are full of sport and music.
 
 - **A free first lesson** The child makes something real while the teacher watches how they think. By the end, the teacher knows where to start and the child usually wants to come back.
-- **Small groups by level** Fifteen to twenty children who can already do the same things, from several countries, so a quick seven-year-old and a careful ten-year-old can each be in the right group.
+- **Groups by level** Fifteen to twenty children who can already do the same things, from several countries, so a quick seven-year-old and a careful ten-year-old can each be in the right group.
 - **One to one if it suits** For a child who is shy in groups, needs extra attention, or is racing ahead and wants their own pace.
 - **A parent in the loop** We speak with a parent before anything is booked, and younger children often have a parent nearby for the first lessons.
 - **In English** Lessons are in English. Children at Dutch schools usually pick up the programming words quickly, and teachers keep instructions simple and visual.

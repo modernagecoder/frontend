@@ -136,7 +136,7 @@ All a Darlington home needs is a computer and a dependable internet connection.
 - **Their prompts, their code** The learner writes everything, and the tutor, seeing the same screen, steps in with a question rather than a fix.
 - **Right level from the start** Whether Year 4 or Year 13, the free lesson decides where to begin, with the exam board in mind.
 - **Try before paying** The opening lesson is free and closes with advice on which course fits.
-- **Same-level groups** Five to ten UK learners at a similar stage.
+- **Same-level groups** Fifteen to twenty UK learners at a similar stage.
 - **Two a week** Nothing scheduled in school holidays.
 - **Steady UK time** Tutors move with the clock changes so your slot holds.
 

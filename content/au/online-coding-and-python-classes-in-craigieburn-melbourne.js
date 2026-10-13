@@ -360,7 +360,7 @@ module.exports = {
       },
       {
         q: 'How many learners share a class?',
-        a: 'Five to ten, grouped by level, pace and goals, not by age or suburb. One-to-one lessons cover anyone no group time suits.',
+        a: 'Fifteen to twenty, grouped by level, pace and goals, not by age or suburb. One-to-one lessons cover anyone no group time suits.',
         boiler: true
       },
       { q: 'Can adults learn Python with you?', a: 'Yes. Adults learn in adult groups or privately, often starting with data from their own job.' }

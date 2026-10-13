@@ -131,7 +131,7 @@ Learners join from home with a computer, a camera and a steady connection.
 - **Built by the learner** Each student codes on their own shared screen. Tutors prompt, question and wait for an explanation.
 - **Seen before placed** The free lesson lets us watch a learner think, and the course suggestion comes from that.
 - **Opening lesson free** There is nothing to pay and no card to give for lesson one.
-- **Small matched classes** Fifteen to twenty learners at a single stage, joining from anywhere in the UK.
+- **Matched classes** Fifteen to twenty learners at a single stage, joining from anywhere in the UK.
 - **Two lessons a week** Somerset term breaks are kept free once we know the dates.
 - **One UK time, all year** The tutor handles both clock changes.
 

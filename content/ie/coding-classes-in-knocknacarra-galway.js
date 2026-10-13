@@ -161,7 +161,7 @@ module.exports = {
     intro: 'The details that matter.',
     cells: [
       { h3: 'With a teacher, live', p: 'The teacher runs every lesson in real time and works through each learner\'s code with them.' },
-      { h3: 'Matched by ability', p: 'Each group has five to ten members at a similar stage, whether they log in from Knocknacarra, another county or another country.' },
+      { h3: 'Matched by ability', p: 'Each group has fifteen to twenty members at a similar stage, whether they log in from Knocknacarra, another county or another country.' },
       { h3: 'Fixed days', p: 'Lessons on the same two days each week, roughly eight in a month.' },
       { h3: 'Term-friendly', p: 'The plan allows for school holidays, mid-terms and exam weeks.' },
       { h3: 'What to have', p: 'A laptop or desktop computer, a microphone, headphones or speakers, and broadband that handles video.' },
@@ -199,7 +199,7 @@ module.exports = {
       { q: 'Do you teach adults?', a: 'We do, from complete beginners up to learners of sixty-seven; once the free lesson is done they settle on a same-level group or one-to-one teaching.' },
       { q: 'Will my child be with other Knocknacarra children?', a: 'Possibly, but groups are made by level, so classmates may be anywhere in Ireland or abroad.' },
       { q: 'What do coding classes in Knocknacarra cost?', a: 'The first lesson is free. Then a group place costs USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule cost USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

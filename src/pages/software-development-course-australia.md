@@ -14,7 +14,7 @@ Australia · Ages 13 to adult · Build, test, ship
 
 Writing code that runs once is the start. Software development is everything after that: deciding what the program must do, proving it does it, keeping a history of every change, and finding the change that broke it when something goes wrong. The Australian occupation classification describes the work in five verbs, and only one of them is writing code. Our software development course teaches all five, live online, to teenagers and adults across Australia. This page shows the approach, works through one real debugging exercise with our own numbers, and shows where the same habits already sit in the Australian Curriculum.
 
-At a glance: For: Teens 13+ and adults; Languages: Python first, then JavaScript or Java; Testing: Automated, from week one; History: Git on every project; Debugging: Systematic, not guesswork; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens 13+ and adults; Languages: Python first, then JavaScript or Java; Testing: Automated, from week one; History: Git on every project; Debugging: Systematic, not guesswork; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three ways into software development
 
@@ -220,7 +220,7 @@ Teachers work from India, whose day overlaps Australian afternoons and evenings.
 - **Weekend** Longer project sessions.
 
 - **Free first class** A short coding task and its first test, then advice on where to begin.
-- **Small groups** Fifteen to twenty learners reviewing each other's code.
+- **Groups** Fifteen to twenty learners reviewing each other's code.
 - **One to one** For a specific project, pace or language.
 - **Real repositories** Every project lives in Git from the first lesson.
 - **Code review** Teachers comment on pull requests as a team lead would.

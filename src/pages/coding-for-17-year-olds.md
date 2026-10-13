@@ -12,7 +12,7 @@ For parents of 17 year olds · Class 12 / pre-college
 
 Class 12 is the last structured year before college. Our programme keeps CBSE/ICSE CS and IP marks safe, finishes a serious portfolio piece, and sharpens DSA or CP for college CS entry. 1 hour live, 1:1 or small group.
 
-[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or group**5 to 10**Students in a group batch17Age cohortBoard-safeCollege-readyPortfolio doneIn short
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or group**15 to 20**Students in a group batch17Age cohortBoard-safeCollege-readyPortfolio doneIn short
 
 Coding classes for 17 year olds at Modern Age Coders are live, one hour per class, in a batch of 15 to 20 teens or 1-on-1, and are planned around the Class 12 board year: CS or IP taught a chapter ahead of school, DSA and competitive programming for the teen aiming at a CS degree, and a portfolio of finished projects that college applications can point to. Board-first students can start on [CBSE Class 12 CS](/computer-science-class-12-cbse) or [ISC Class 12 CS](/computer-science-class-12-icse).
 

@@ -58,7 +58,7 @@ module.exports = {
     ['Teaches', 'Baselines and honest evaluation'],
     ['Catches', 'Leakage and bad labels'],
     ['Data', 'Open Irish datasets'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Start', 'A free first class']
   ],

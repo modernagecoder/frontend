@@ -12,7 +12,7 @@ Class 9–12 • **ICSE & ISC · BlueJ**
 
 Java is the official language of ICSE Class 9–10 Computer Applications and ISC Class 11–12 Computer Science. We teach it with BlueJ, the exact environment used in your syllabus, so students stop memorising programs and start writing their own. Better understanding, better marks, real confidence.
 
-Book a Free Demo ClassSee Syllabus Coverage**BlueJ**Board's environment**9–12**ICSE & ISC**5–8**Students per batch**4.9/5**Parent rating
+Book a Free Demo ClassSee Syllabus Coverage**BlueJ**Board's environment**9–12**ICSE & ISC**15–20**Students per batch**4.9/5**Parent rating
 
 ## Quick answer
 
@@ -185,7 +185,7 @@ How much do ICSE/ISC Java classes cost?+
 
 Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available first.
 
-Are the classes live and in small batches?+
+Are the classes live and in batches?+
 
 Yes. Every class is live with a real mentor, in batches of 15–20 students (or up to 6 in a Mini Batch), so each student gets attention and their code is reviewed. Sessions are recorded for revision before exams.
 

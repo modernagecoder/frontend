@@ -166,7 +166,7 @@ HONEST COMPARISON
 - Zero commute, no 30–45 minute crawl down Alipore Road or the Diamond Harbour Road signal at Belvedere, and no parking fight near the Zoo.
 - Roughly 90 minutes per class day recovered for study, rest and family.
 - Access to full-time engineers and maths graduates who ship real code, not just whoever is local.
-- Small live batches of 15–20, the same attention as a home tutor, with a wider curriculum.
+- Live batches of 15–20, the same attention as a home tutor, with a wider curriculum.
 - Every class is screen-shared and interactive; your child codes live, not from the back of a room.
 - Sessions can be reviewed and missed classes made up, no lost evening, no lost lesson.
 - Safe, supervised and at home, no evening travel through busy South Kolkata roads.

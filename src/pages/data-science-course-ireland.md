@@ -14,7 +14,7 @@ Ireland · Data science · Live online
 
 Data science is taught almost everywhere as modelling, and practised almost everywhere as cleaning. The gap between those two is where beginners lose months. This course closes it by working on Ireland's own public data from the first week: the national portal lists more than twenty-two thousand datasets from government bodies, councils, agencies and the Central Statistics Office, and almost all of it is free to use if you follow the licence. Working with it teaches the things a tidy training dataset never can, starting with two questions every professional asks before writing a line of analysis. Am I allowed to publish anything derived from this? And does this column mean what its name suggests? This page shows both questions being answered on real Irish data, and explains how we teach the craft, live and in small groups, to teenagers, students and adults.
 
-At a glance: For: Teens, students and adults; Tools: Python, pandas, SQL, charts; Starts with: Cleaning, not modelling; Includes: Licences and attribution; Group: Five to ten at one level; Or: One to one; Hours: Evenings and weekends, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens, students and adults; Tools: Python, pandas, SQL, charts; Starts with: Cleaning, not modelling; Includes: Licences and attribution; Group: Fifteen to twenty at one level; Or: One to one; Hours: Evenings and weekends, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three ways into data science
 

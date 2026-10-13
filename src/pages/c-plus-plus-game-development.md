@@ -12,7 +12,7 @@ Game Development • **Build Games with C++**
 
 Turn "I want to make games" into real, playable games. Learn game development in C++, the game loop, graphics with SFML, sprites, input, collisions and Object-Oriented game design, building from console games up to real 2D graphical games. The most fun way to master serious C++.
 
-Book a Free Game-Dev DemoWhat You'll Build**SFML**Real 2D graphics**5–8**Students per batch**Live**Build games with a mentor**Fun**Serious C++, playable result
+Book a Free Game-Dev DemoWhat You'll Build**SFML**Real 2D graphics**15–20**Students per batch**Live**Build games with a mentor**Fun**Serious C++, playable result
 
 ## Quick answer
 

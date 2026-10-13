@@ -14,7 +14,7 @@ Ireland · Girls in coding · Live online
 
 In Ireland, as across Europe, women are a minority in computing: about a fifth of the people working as ICT specialists and under a quarter of the students in ICT courses. Irish programmes have worked hard on this, and they have learned something important: it is not difficult to spark a girl's interest in coding, but it is difficult to keep it. One national initiative found that while more than 30% of its participants intended to study Computer Science, only 17% applied two years later. This page is for girls in Ireland who want to learn Python and AI, and for their parents. It sets out the numbers as the official sources give them, what Irish programmes have found, and how a weekly class can supply the one thing short programmes cannot: years of steady, visible progress. Our classes are for everyone and are mixed; we do not run separate classes for girls, and we do not teach girls differently. We teach every learner well.
 
-At a glance: For: Girls aged 6 to 18, and adults; Classes: Mixed, placed by ability; Learns: Python, data, AI; Teacher: The same one each week; Groups: Five to ten, or one to one; Builds: A portfolio for third level; Hours: After school, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Girls aged 6 to 18, and adults; Classes: Mixed, placed by ability; Learns: Python, data, AI; Teacher: The same one each week; Groups: Fifteen to twenty, or one to one; Builds: A portfolio for third level; Hours: After school, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that lead somewhere
 

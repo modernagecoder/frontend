@@ -1,10 +1,10 @@
 ---
 title: "Java Programming for Kids & Teens: Learn Java Online | Modern Age Coders"
-description: "Java programming course for kids aged 10+ and teens. Build Android apps, learn OOP, and prepare for AP Computer Science. Live one-to-one or small-group classes (15 to 20 students), real projects. Free demo class!"
+description: "Java programming course for kids aged 10+ and teens. Build Android apps, learn OOP, and prepare for AP Computer Science. Live one-to-one or group classes (15 to 20 students), real projects. Free demo class!"
 canonical: https://learn.modernagecoders.com/java-programming-for-kids-teens
 source: src/pages/java-programming-for-kids-teens.html
 ---
-> Java programming course for kids aged 10+ and teens. Build Android apps, learn OOP, and prepare for AP Computer Science. Live one-to-one or small-group classes (15 to 20 students), real projects. Free demo class!
+> Java programming course for kids aged 10+ and teens. Build Android apps, learn OOP, and prepare for AP Computer Science. Live one-to-one or group classes (15 to 20 students), real projects. Free demo class!
 
 India's Most Loved Java Course for Kids & Teens
 
@@ -271,7 +271,7 @@ We have one job: make your child love Java and get genuinely good at it. Here's 
 
 ### Groups Capped at 10: Every Class
 
-Coaching centres have 25 to 40 kids. Our groups hold 5 to 10. Your child's name is remembered, their code is seen, their questions are answered, in every single class, not once in a while.
+Coaching centres have 25 to 40 kids. Our groups hold 15 to 20. Your child's name is remembered, their code is seen, their questions are answered, in every single class, not once in a while.
 
 ### Two Age-Specific Tracks
 

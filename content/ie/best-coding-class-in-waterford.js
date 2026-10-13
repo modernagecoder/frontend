@@ -235,7 +235,7 @@ module.exports = {
       { q: 'What hours suit Waterford learners?', a: 'Evenings mostly, with weekend mornings also popular. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the hour is fixed in the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Waterford?', a: 'No, and none is claimed. All teaching happens live online, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the phone number on this page is an Indian one.', boiler: true },
       { q: 'What do Waterford coding classes cost?', a: 'The first lesson is free. After it, a group place costs USD 100 a month, which covers two live lessons a week and roughly eight a month with fifteen to twenty learners, while private tuition is USD 150 a month on the same rhythm. Course, format and hour are agreed before any payment.', boiler: true },
-      { q: 'How many learners in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where no suitable group runs at a workable hour, we offer one-to-one lessons instead.', boiler: true }
+      { q: 'How many learners in a group?', a: 'Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where no suitable group runs at a workable hour, we offer one-to-one lessons instead.', boiler: true }
     ]
   },
 

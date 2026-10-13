@@ -219,7 +219,7 @@ Live teaching, live questions, live code review. Nothing pre-recorded.
 
 Free, and it exists to answer one question: what should this learner actually be doing? One task, watched rather than marked.
 
-### Five to eight
+### Fifteen to twenty
 
 Sorted by what a learner can do today, drawn from every country we teach. A population of 458,604 is never the reason a group cannot be formed.
 
@@ -251,7 +251,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 Group$100per month, 8 classes
 
-For a learner who gains from hearing how other people approached the same problem, at the shared level of a five to eight person group.
+For a learner who gains from hearing how other people approached the same problem, at the shared level of a fifteen to twenty person group.
 
 Private$150per month, 8 classes
 

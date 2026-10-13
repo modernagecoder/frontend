@@ -352,7 +352,7 @@ module.exports = {
           kind: 'three',
           cells: [
             { h3: 'Private', p: 'One learner and one teacher, ideal before a SAC block or exam, or to rebuild a single topic.' },
-            { h3: 'Small group', p: 'Fifteen to twenty learners at one level, with discussion that often makes the idea click.' },
+            { h3: 'Group', p: 'Fifteen to twenty learners at one level, with discussion that often makes the idea click.' },
             { h3: 'Working on screen', p: 'Learners write on a shared whiteboard so the teacher sees every step, not only the answer.' }
           ]
         }

@@ -222,7 +222,7 @@ The arrangement
 
 Live video for the whole hour. Your child writes code while somebody watches, so a misunderstanding is caught in the minute it appears rather than the term it compounds.
 
-### Five to eight, and the same face
+### Fifteen to twenty, and the same face
 
 Group classes stay small and keep one teacher. A teacher who remembers last week's sticking point is worth more than any platform feature.
 
@@ -248,7 +248,7 @@ Fees
 
 Monthly, in US dollars, with no enrolment fee and no annual contract.
 
-Small group$100per month, 8 classes
+Group$100per month, 8 classes
 
 Fifteen to twenty students, one consistent teacher. The default, and where most Texas families stay.
 
@@ -348,7 +348,7 @@ Ages 6 to 67. Elementary students start in blocks, middle school moves to Python
 
 ### How many students share a class?
 
-Five to eight in a small group, with the same teacher every week, or one student and one teacher if the pace needs to belong to one person. Teachers do not rotate between weeks. Continuity is most of what keeps a hesitant learner turning up, and it is the first thing large providers give away.
+Fifteen to twenty in a group, with the same teacher every week, or one student and one teacher if the pace needs to belong to one person. Teachers do not rotate between weeks. Continuity is most of what keeps a hesitant learner turning up, and it is the first thing large providers give away.
 
 ### Is the class live or a recording?
 

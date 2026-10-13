@@ -66,7 +66,7 @@ module.exports = {
     ['Editor', 'Thonny, in Raspberry Pi OS'],
     ['Smaller sibling', 'Pico, runs MicroPython'],
     ['Hardware', 'We do not sell it'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
@@ -244,7 +244,7 @@ module.exports = {
       { h3: 'Code reviewed', p: 'A teacher reads each program and suggests the next improvement.' },
       { h3: 'Loops to events', p: 'From checking in a loop to responding to events, as the official examples show.' },
       { h3: 'Safety habits', p: 'The documentation\'s three rules repeated until they are automatic.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at one level.' }
+      { h3: 'Groups', p: 'Fifteen to twenty learners at one level.' }
     ]
   },
 

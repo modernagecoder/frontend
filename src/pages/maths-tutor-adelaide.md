@@ -243,7 +243,7 @@ Bookings are made and confirmed in Adelaide time, half an hour behind the easter
 
 - **Continuity** The same teacher week after week.
 - **Updates** Short notes for parents.
-- **Five to ten** Groups matched by level.
+- **Fifteen to twenty** Groups matched by level.
 - **Real geometry** Maps and measurements alongside exercises.
 - **Private choice** One to one when it suits.
 - **Why it works** Every method explained before practice.

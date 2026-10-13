@@ -247,7 +247,7 @@ The first lesson is free. Continuing costs USD 100 a month for a group place, co
 
 ### How many learners are in a group?
 
-Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable runs at a workable hour, we offer one-to-one lessons instead.
+Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable runs at a workable hour, we offer one-to-one lessons instead.
 
 ## The neighbours, and the national page
 

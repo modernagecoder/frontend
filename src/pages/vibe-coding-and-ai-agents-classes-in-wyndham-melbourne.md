@@ -194,7 +194,7 @@ Learners join from home anywhere in the council, from Werribee to Truganina, wit
 Three plain options.
 
 - First class: USD 0. Lesson one is free and finishes with a recommendation.
-- Group tuition: USD 100 a month. A month of small-group lessons, typically eight, with fifteen to twenty learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, typically eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one-to-one lessons, typically eight, with a dedicated teacher.
 
 Wyndham families, like every family outside India, pay in US dollars. We take no payment until the trial has settled the course and the time, and the pricing page sets out holidays and missed lessons.

@@ -363,7 +363,7 @@ module.exports = {
       },
       {
         q: 'How many people are in a group?',
-        a: 'Five to ten, grouped by level, pace and aims rather than age or suburb, with private lessons if no group time works.',
+        a: 'Fifteen to twenty, grouped by level, pace and aims rather than age or suburb, with private lessons if no group time works.',
         boiler: true
       },
       { q: 'What age can children start?', a: 'From about six with Scratch, moving to Python at around ten.' }

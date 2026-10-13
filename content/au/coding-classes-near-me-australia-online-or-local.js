@@ -51,7 +51,7 @@ module.exports = {
     ['Ages', '6 to 67'],
     ['Subjects', 'Coding, AI and maths'],
     ['Format', 'Live video lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Times', 'Set for your state'],
     ['Start', 'A free first lesson']
   ],
@@ -242,7 +242,7 @@ module.exports = {
     cells: [
       { h3: 'One teacher', p: 'The same person each week, who knows your child\'s projects.' },
       { h3: 'One slot', p: 'A fixed weekly time, like a local class, so it becomes routine.' },
-      { h3: 'One small group', p: 'Fifteen to twenty learners at a similar level, or private lessons.' },
+      { h3: 'One group', p: 'Fifteen to twenty learners at a similar level, or private lessons.' },
       { h3: 'No travel', p: 'No drop-off, no car park, no waiting in a foyer.' },
       { h3: 'Every postcode', p: 'The same class in Broome, Ballarat or Bondi.' },
       { h3: 'Parents welcome', p: 'Sit in on any lesson, especially at the start.' }

@@ -14,7 +14,7 @@ UK · Summer holidays · Ages 6 to 18
 
 There is no single UK summer holiday. School dates are set locally, and the four nations follow different calendars. In the 2026 to 2027 school year, pupils in West Lothian finish on Friday 25 June 2027 and Dundee's term ends on Friday 2 July, while Nottinghamshire's summer term runs to 28 July and Gwynedd's summer holidays, on dates directed by Welsh ministers, begin on 21 July. Northern Ireland's Department of Education has published the summer holiday starting on 1 July. At the other end, Scottish schools are back in mid-August, a fortnight or more before most of England, Wales and Northern Ireland return in early September. A summer coding course built around one start date suits nobody everywhere. This page explains the four summers and how to plan coding around the one your child actually has.
 
-At a glance: Earliest finish shown: Friday 25 June 2027, West Lothian; Northern Ireland: Summer holiday from 1 July; Wales example: Gwynedd, from 21 July 2027; England example: Nottinghamshire, term to 28 July 2027; Start date: Whenever your holiday begins; Pricing: The usual monthly fee, no surcharge; Group: Five to ten at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Earliest finish shown: Friday 25 June 2027, West Lothian; Northern Ireland: Summer holiday from 1 July; Wales example: Gwynedd, from 21 July 2027; England example: Nottinghamshire, term to 28 July 2027; Start date: Whenever your holiday begins; Pricing: The usual monthly fee, no surcharge; Group: Fifteen to twenty at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three summer-friendly courses
 

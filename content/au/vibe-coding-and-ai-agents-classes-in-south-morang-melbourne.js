@@ -367,7 +367,7 @@ module.exports = {
       },
       {
         q: 'How many learners are in a class?',
-        a: 'Five to ten, grouped by level, pace and goals, with one-to-one lessons when no group time suits.',
+        a: 'Fifteen to twenty, grouped by level, pace and goals, with one-to-one lessons when no group time suits.',
         boiler: true
       },
       { q: 'Do adults take vibe coding classes?', a: 'Yes. Adults join their own groups or learn one to one, often to build small agents for tasks at work.' }

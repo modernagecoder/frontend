@@ -328,7 +328,7 @@ module.exports = {
     h2: 'Burwood East class fees',
     intro: 'One free lesson and two monthly prices.',
     first: 'The opening lesson costs nothing and finishes with a recommendation.',
-    group: 'A month in a level-matched group of fifteen to twenty, usually eight lessons.',
+    group: 'A month in an level-matched group of fifteen to twenty, usually eight lessons.',
     private: 'Around eight private lessons a month with one teacher.',
     closer: 'Outside India, fees are in US dollars, the same for Burwood East as for every other overseas family. Nothing is charged until after the trial, once course and time are settled; holidays, missed lessons and format changes are explained on the pricing page.'
   },
@@ -375,7 +375,7 @@ module.exports = {
       },
       {
         q: 'How many learners are in each group?',
-        a: 'Five to ten, grouped on level, pace and goals, with one-to-one lessons when no group time fits.',
+        a: 'Fifteen to twenty, grouped on level, pace and goals, with one-to-one lessons when no group time fits.',
         boiler: true
       },
       {

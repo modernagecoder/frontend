@@ -356,7 +356,7 @@ Harnoor Kaur0:31Adishree0:59Muqeem0:48Ayushi0:51Aarya Shee0:53Sahreen1:00Pratik0
 
 Real skills, real projects, real mentorship - not another boring course.
 
-### Small Batches, Big Impact
+### Batches, Big Impact
 
 15-20 students per batch means you actually get attention, not lost in a crowd of 100.
 
@@ -380,7 +380,7 @@ We have courses for everyone! Kids (ages 6-12) can start with Scratch and visual
 
 Not at all! Most of our courses are designed for complete beginners. We start from "what is a computer?" level and build up your skills step by step. If you already have some experience, we have intermediate and advanced courses too. During enrollment, we'll help you pick the right level.
 
-Our classes are live and interactive with small batch sizes (typically 15-20 students). You'll work on real projects, get personalized feedback, and can ask questions anytime. We also provide recorded sessions for revision. Think of it as having a personal tutor, but in a fun group setting.
+Our classes are live and interactive with batch sizes (typically 15-20 students). You'll work on real projects, get personalized feedback, and can ask questions anytime. We also provide recorded sessions for revision. Think of it as having a personal tutor, but in a fun group setting.
 
 Three things: structure, accountability, and mentorship. YouTube is great for random topics, but our courses follow a proven curriculum that builds skills systematically. You get regular assignments and feedback (not just "like and subscribe"). And you have a mentor who guides you through challenges - someone who notices when you're stuck and helps you push through.
 

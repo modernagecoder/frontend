@@ -75,7 +75,7 @@ module.exports = {
     ['Often skipped', 'Modelling state, comparing algorithms'],
     ['Also required', 'A textual language, data structures'],
     ['And', 'Binary arithmetic, Boolean logic'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Start', 'One free lesson']
   ],

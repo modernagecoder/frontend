@@ -57,7 +57,7 @@ module.exports = {
     ['Aim', 'Judging what AI produces'],
     ['For', 'Kids, teens, students, adults'],
     ['Format', 'Live video with a teacher'],
-    ['Groups', 'Five to ten, or one to one'],
+    ['Groups', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
@@ -193,7 +193,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first lesson', p: 'The learner builds something with an AI assistant and then explains it to the teacher, which shows quickly which rung they are on.' },
-      { h3: 'Small groups by level', p: 'Fifteen to twenty learners at the same stage, from several countries, comparing what their tools produced.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at the same stage, from several countries, comparing what their tools produced.' },
       { h3: 'One to one when it helps', p: 'For a learner far ahead of their age, a specific project, or an adult with a deadline.' },
       { h3: 'Tools used openly', p: 'Assistants are part of the lesson, not a secret. The teacher shows when to use them and when to switch them off.' },
       { h3: 'Data handled carefully', p: 'Learners are taught what not to paste into an online tool, from passwords to other people\'s personal data.' },

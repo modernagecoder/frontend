@@ -14,7 +14,7 @@ Australia · Ages 9 to 14 · Live online
 
 Sooner or later most keen Scratch coders hit a wall. Their projects have grown so large that scrolling around the blocks is a chore, they want something Scratch cannot easily do, or an older cousin has shown them "real code" and they want in. That moment is the right time to move to Python, and it is far gentler than parents fear. Almost every idea a child has used in Scratch has a direct Python equivalent; what changes is that they now type it. This page explains how to tell when a child is ready, translates one complete Scratch game into Python block by block, and lists the four traps that catch almost every new Python programmer so you can spot them coming.
 
-At a glance: For: Scratch coders, about 9 to 14; Moving to: Python; Usual timing: After a year or so of Scratch; First project: A game they already built; Biggest change: Typing instead of snapping; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Scratch coders, about 9 to 14; Moving to: Python; Usual timing: After a year or so of Scratch; First project: A game they already built; Biggest change: Typing instead of snapping; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Courses for the move from Scratch to Python
 
@@ -198,7 +198,7 @@ We teach from India, a few hours behind every Australian state, so after-school 
 - **Weekend** Longer sessions for translating bigger projects.
 
 - **A free first class** Your child translates a few Scratch blocks into Python with a teacher, which shows quickly whether they are ready.
-- **Small groups** Fifteen to twenty children making the same move from blocks to text.
+- **Groups** Fifteen to twenty children making the same move from blocks to text.
 - **One to one** For a child who wants to bring a big Scratch project across.
 - **Their keyboard** The child types every line; teachers point, question and explain.
 - **Parents can see** Lessons are live, so you can watch the first Python steps.

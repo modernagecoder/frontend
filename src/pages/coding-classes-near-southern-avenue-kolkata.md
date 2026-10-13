@@ -16,7 +16,7 @@ Modern Age Coders runs premium, live online coding and mathematics classes for f
 
 ## The format, in plain numbers
 
-Format**100% live online**, taught in real time by a full-time engineer or maths graduate, never a recordingBatch sizeSmall batches of **3-8**; mini batches of up to 6; or 1-on-1 personalisedAges**6 to 67**, kids, teens, college students and working professionalsSubjectsCoding (Python, Java, web, AI/ML, DSA) and Mathematics (Grade 1 to college, plus Olympiad)Boards**ICSE, CBSE, ISC and IGCSE**, board-aligned Computer Science and MathsFeesGroup ₹1,499/month (max 20) · Mini batch ₹2,999/month (3-4) · 1-on-1 ₹4,999/monthFree demoYes, a free live demo with no commitment; classes can start within 24 hoursServingSouthern Avenue, Lansdowne, Dover Lane, Hindustan Park, Ballygunge Phari, Lake Market, Deshapriya Park, Golpark and the wider South Kolkata lakeside beltWHY LIVE, WHY PREMIUM
+Format**100% live online**, taught in real time by a full-time engineer or maths graduate, never a recordingBatch sizeSmall batches of **3-8**; mini batches of up to 6; or 1-on-1 personalisedAges**6 to 67**, kids, teens, college students and working professionalsSubjectsCoding (Python, Java, web, AI/ML, DSA) and Mathematics (Grade 1 to college, plus Olympiad)Boards**ICSE, CBSE, ISC and IGCSE**, board-aligned Computer Science and MathsFeesGroup ₹1,499/month (max 20) · Mini batch ₹2,999/month (up to 6) · 1-on-1 ₹4,999/monthFree demoYes, a free live demo with no commitment; classes can start within 24 hoursServingSouthern Avenue, Lansdowne, Dover Lane, Hindustan Park, Ballygunge Phari, Lake Market, Deshapriya Park, Golpark and the wider South Kolkata lakeside beltWHY LIVE, WHY PREMIUM
 
 ## Live online, taught to a private-tutor standard
 
@@ -30,7 +30,7 @@ Every session is taught live by a real instructor who can see your child's code 
 
 Classes are led by full-time software engineers and mathematics graduates, not college students filling a slot between exams. They have shipped real software and solved real maths, so a curious Southern Avenue child asking "but why does this work?" gets a proper answer, not a deflection.
 
-### Genuinely small batches
+### Genuinely batches
 
 Group batches are capped at 20, mini batches of up to 6, and 1-on-1 is always available. In a small live room every child speaks, codes and is questioned each session, the same individual attention these families expect from the best tutors on Dover Lane and Hindustan Park.
 
@@ -164,7 +164,7 @@ ONLINE VS OFFLINE
 
 - No commute across Gariahat, Rashbehari or Lake Market, roughly 60-90 minutes saved per class day, returned to homework, riyaaz or rest.
 - Your child is taught by a full-time engineer or maths graduate, not whoever a local centre could roster that week.
-- Genuinely small live batches of 15-20, so every child is questioned and corrected each session.
+- Genuinely live batches of 15-20, so every child is questioned and corrected each session.
 - Class continues uninterrupted through monsoon waterlogging, Dover Lane Conference traffic or pandal season.
 - The full 24-30 week written curriculum is visible upfront, with module-by-module progress you can check.
 - Flexible slots that bend around music, recitation and sport, the holistic balance these families insist on.

@@ -834,7 +834,7 @@ No quiz, no pop-up, no sales pressure. Leave a +971 number, a mentor working in 
 
 ## Live online coding classes for students in the UAE
 
-Modern Age Coders teaches students worldwide over live video, in small 4–8 batches, with timings that suit your timezone. Explore other regions or book a free demo.
+Modern Age Coders teaches students worldwide over live video, in 15–20 batches, with timings that suit your timezone. Explore other regions or book a free demo.
 
 ### Coding classes in other countries
 

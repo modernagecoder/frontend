@@ -324,7 +324,7 @@ module.exports = {
       { h3: 'No commute', p: 'The learner logs in and the full hour goes on coding, with no travel at either end.' },
       { h3: 'NSW calendar', p: 'Plans follow the NSW stages and pause for state school holidays, with senior projects that suit computing subjects.' },
       { h3: 'Trial first', p: 'The free lesson is a real class, finishing with a suggested course, level and time and no payment taken.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at a similar level, drawn from Macquarie Park and elsewhere.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at a similar level, drawn from Macquarie Park and elsewhere.' },
       { h3: 'A steady rhythm', p: 'Two set lessons a week, about eight a month, with breaks agreed in advance.' },
       {
         h3: 'Teachers in India',
@@ -340,7 +340,7 @@ module.exports = {
     h2: 'Macquarie Park class fees',
     intro: 'The full price list has three lines.',
     first: 'The first lesson is free and ends with a clear recommendation.',
-    group: 'A month of small-group lessons, usually eight, with fifteen to twenty learners at one level.',
+    group: 'A month of group lessons, usually eight, with fifteen to twenty learners at one level.',
     private: 'About eight one-to-one lessons a month with a single teacher.',
     closer: 'Outside India, fees are invoiced in US dollars, so every Macquarie Park family pays the same rate. Payment starts only once the course and lesson time are settled after the trial; holidays, missed lessons and changes of format are explained on the pricing page.'
   },
@@ -390,7 +390,7 @@ module.exports = {
       },
       {
         q: 'How many people are in a group?',
-        a: 'Five to ten, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner\'s time.',
+        a: 'Fifteen to twenty, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner\'s time.',
         boiler: true
       },
       {

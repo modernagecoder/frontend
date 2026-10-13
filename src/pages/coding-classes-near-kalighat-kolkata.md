@@ -26,7 +26,7 @@ Every Modern Age Coders class near Kalighat is live, premium, and project-based,
 
 Every class is taught live by a real teacher who can see your child's screen and code. There are no pre-recorded videos to watch alone. Questions get answered the moment they come up, exactly like a good neighbourhood tuition off Sarat Bose Road, only without the commute.
 
-### Small batches, full attention
+### Batches, full attention
 
 Group batches are capped at 20 students, mini batches of up to 6, and 1-on-1 is always available. No child hides at the back of a crowded room. The teacher knows each learner's pace, board and weak spots within the first fortnight.
 

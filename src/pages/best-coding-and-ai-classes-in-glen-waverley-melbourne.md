@@ -187,7 +187,7 @@ Lessons happen on screen at home, so a family near Syndal station joins exactly 
 - **No commute** Sign in, share a screen and start writing code with the teacher straight away.
 - **Victorian terms** Plans follow Victorian school terms and pause for the state school holidays.
 - **A full first class** The trial is a real lesson, finishing with a suggested course, level and time.
-- **Small groups** Fifteen to twenty learners grouped by level and pace, from several suburbs at once.
+- **Groups** Fifteen to twenty learners grouped by level and pace, from several suburbs at once.
 - **Twice a week** Two fixed lessons each week, around eight a month, with breaks agreed ahead.
 - **Teachers in India** A 5pm Glen Waverley lesson during daylight saving begins at 11:30am India time; after April it begins at 12:30pm there.
 

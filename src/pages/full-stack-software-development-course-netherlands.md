@@ -14,7 +14,7 @@ Netherlands · Full stack · Live online
 
 According to the Dutch employee insurance agency, UWV, 371,500 people work as software and application developers in the Netherlands, and at the end of 2024 their labour market was very tight. UWV's outlook to 2030, based on forecasts by the research centre ROA, expects it to become somewhat less tight. That combination matters for anyone learning to build software now. A very tight market has room for newcomers; a market that is slowly easing lets employers be more selective. The developers who stay in demand are those who understand the whole application, from the page a user sees to the data behind it and the server it runs on, rather than those who completed a short course in one framework. This page covers full stack development for learners in the Netherlands, from a teenager's first website to an adult's career change, taught live online and in English with depth as the aim.
 
-At a glance: Front end: HTML, CSS, JavaScript, React; Back end: Node.js, Python or Java; Data: SQL databases; Practice: Git, testing, deployment; For: Teens, students, career changers; Format: Live video with a teacher; Groups: Five to ten, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Front end: HTML, CSS, JavaScript, React; Back end: Node.js, Python or Java; Data: SQL databases; Practice: Git, testing, deployment; For: Teens, students, career changers; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three full stack courses for three starting points
 

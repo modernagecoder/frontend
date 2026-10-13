@@ -239,7 +239,7 @@ The first lesson is free. Group classes are then USD 100 a month for two live le
 
 ### How many learners are in each group?
 
-Five to ten, grouped by level, pace and goals rather than age or suburb. Private lessons are available if no group time suits.
+Fifteen to twenty, grouped by level, pace and goals rather than age or suburb. Private lessons are available if no group time suits.
 
 ### Can adults join?
 

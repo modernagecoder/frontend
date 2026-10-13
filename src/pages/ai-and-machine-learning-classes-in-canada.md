@@ -299,7 +299,7 @@ Vancouver time, 20:30 to 22:00 the same day in India. Built for British Columbia
 
 ### What a session is
 
-An hour and a half of live teaching with the same person each week, who arrives knowing where the student stopped. Both screens stay visible, so a mistake is corrected while it is still being typed. Groups run five to eight, or one to one for a learner who wants the syllabus bent to a goal.
+An hour and a half of live teaching with the same person each week, who arrives knowing where the student stopped. Both screens stay visible, so a mistake is corrected while it is still being typed. Groups run fifteen to twenty, or one to one for a learner who wants the syllabus bent to a goal.
 
 Homework is a thing to build, never a worksheet, and a question at nine in the evening reaches the teacher who set it rather than a queue. We will not sell a Canadian weekday evening, and the reason is arithmetic: 7:00 PM in Toronto is 4:30 the next morning in India, and 7:00 PM in Vancouver is 7:30. Nobody teaches well at either hour. Enrolment stays open all year.
 

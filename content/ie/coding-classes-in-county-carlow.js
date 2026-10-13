@@ -230,7 +230,7 @@ module.exports = {
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly hour is agreed in the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Carlow?', a: 'No, and we do not suggest one. Teaching is live online only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number on this page is an Indian one.', boiler: true },
       { q: 'What do County Carlow coding classes cost?', a: 'Nothing for the first lesson. After that a group place is USD 100 a month, which covers two live lessons a week and around eight a month with fifteen to twenty learners, or USD 150 a month taught privately. Course, format and hour are agreed before payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, matched by ability, pace and goal rather than by age or address. If no suitable group runs at a workable hour, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, matched by ability, pace and goal rather than by age or address. If no suitable group runs at a workable hour, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

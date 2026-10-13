@@ -12,7 +12,7 @@ NLP • **AI that understands text**
 
 Teach machines to understand human language. This NLP course takes you from text cleaning and tokenization to embeddings, sentiment analysis, text classification and transformers, building AI that reads, classifies and understands text. Hands-on in Python, live with a mentor.
 
-Book a Free DemoSee the Roadmap**text→AI**Language understood**5–8**Students per batch**Python**Hands-on NLP**Live**Mentor-led
+Book a Free DemoSee the Roadmap**text→AI**Language understood**15–20**Students per batch**Python**Hands-on NLP**Live**Mentor-led
 
 ## Quick answer
 

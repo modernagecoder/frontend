@@ -65,7 +65,7 @@ module.exports = {
     ['Back end', 'Server code and APIs'],
     ['Data', 'SQL databases, properly modelled'],
     ['Practice', 'Version control and deployment'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Start', 'A free first class']
   ],

@@ -63,7 +63,7 @@ module.exports = {
     ['Catches', 'Overfitting and group leakage'],
     ['Uses', 'Open Irish data'],
     ['Needs', 'Python, at least the basics'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Start', 'A free first class']
   ],

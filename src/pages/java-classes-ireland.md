@@ -14,7 +14,7 @@ Ireland · Java · Teens, students and adults
 
 There is a piece of folklore worth correcting before anyone spends a summer on it: Java is not the standard first language of Irish computing degrees. We read the module descriptors, and the picture is mixed. Trinity College Dublin does teach it in first year, in the second semester, where its Year 1 page says students write programs "in an object-oriented language (in this case Java)". Maynooth names it in its second first-year module. But the University of Galway states plainly that its students meet "C and Javascript in first year and then Java from second year onwards", Dublin City University's first programming modules are Python, and University College Dublin lists Introduction to Java as a second-level module. So Java matters in Irish computing, and it usually arrives once you can already program. This page sets out where it appears, and how we teach it to secondary students, college students and adults who need it for work.
 
-At a glance: For: Teens, students and adults; Covers: Objects, collections, data structures; Includes: Testing and tooling; Suits: Second-year modules and work; Group: Five to ten at one level; Or: One to one; Hours: Evenings and weekends, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens, students and adults; Covers: Objects, collections, data structures; Includes: Testing and tooling; Suits: Second-year modules and work; Group: Fifteen to twenty at one level; Or: One to one; Hours: Evenings and weekends, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three Java courses
 

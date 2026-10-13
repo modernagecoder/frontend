@@ -14,7 +14,7 @@ Australia · Years 5 to 12 and adults · AI with judgement
 
 An AI chatbot will write a paragraph, a program or a maths solution in seconds, and most of the time the result looks convincing. The skill that matters now is not getting an answer; it is knowing whether the answer is right, and knowing what you would have done without it. Australian schools are already teaching students to write prompts. This page sets out what the curriculum actually asks for, what the AI companies themselves say about age, and a piece of mathematics that answers a question every student should ask: if I cannot check every answer, how many do I need to check before I trust the rest?
 
-At a glance: For: Students from about Year 5, and adults; Focus: Understanding and checking AI; Builds: Programs that test AI answers; Curriculum: Digital Technologies, Years 7 to 10; Age rules: Followed for every AI tool; Format: Live online video; Group: Five to ten, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Students from about Year 5, and adults; Focus: Understanding and checking AI; Builds: Programs that test AI answers; Curriculum: Digital Technologies, Years 7 to 10; Age rules: Followed for every AI tool; Format: Live online video; Group: Fifteen to twenty, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that put understanding first
 
@@ -196,7 +196,7 @@ Whether or not an AI tool is involved, the student does the thinking, out loud, 
 - **Predict, then run** Students say what they expect before any code or tool runs.
 - **Explain it back** An answer counts only once the student can explain it.
 - **Age-appropriate tools** We follow each tool's terms on minimum age.
-- **Small groups** Fifteen to twenty students, or one to one.
+- **Groups** Fifteen to twenty students, or one to one.
 - **Their own work** Teachers question and guide; they do not do the work.
 - **Real checks** Students write tests and samplers, not just opinions.
 

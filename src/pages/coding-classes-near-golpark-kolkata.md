@@ -10,7 +10,7 @@ LIVE ONLINE CODING & MATHS · SOUTH KOLKATA
 
 # Premium Live Online Coding & Maths Classes near Golpark, Kolkata
 
-Modern Age Coders runs premium, live online coding and maths classes for families near Golpark, where Gariahat Road meets Rashbehari Avenue. We teach Python, Java, AI/ML and school maths in small live batches of fifteen to twenty students, taught by full-time engineers and maths graduates, never pre-recorded videos. Your child learns from home with zero commute, slotting cleanly between a 4 PM Carnatic lesson and homework.
+Modern Age Coders runs premium, live online coding and maths classes for families near Golpark, where Gariahat Road meets Rashbehari Avenue. We teach Python, Java, AI/ML and school maths in live batches of fifteen to twenty students, taught by full-time engineers and maths graduates, never pre-recorded videos. Your child learns from home with zero commute, slotting cleanly between a 4 PM Carnatic lesson and homework.
 
 Live · not recordedBatches of 6–8ICSE · CBSE · IGCSEZero commute6–8Students per live batch100%Live, taught by engineers24 hrsFrom demo to first class₹1,499Starting fee per month[Book a Free Demo](/book-demo)[Explore Courses](/courses)LIVE ONLINE · GOLPARK, KOLKATA
 
@@ -18,9 +18,9 @@ Live · not recordedBatches of 6–8ICSE · CBSE · IGCSEZero commute6–8Studen
 
 Format**Live online, small-batch**, taught in real time by full-time engineers and maths graduates, never pre-recordedBatch size6–8 students per group; mini batches of up to 6; or 1-on-1Ages**6 to 67**, kids, teens, college students and working professionalsSubjectsCoding (Python, Java, C++, AI/ML, DSA, web) and Mathematics (school, board, Olympiad)BoardsICSE, CBSE, IGCSE and WBBSE: Java/BlueJ and Python both coveredFeesFrom ₹1,499/month (group), ₹2,999/month (mini batch), ₹4,999/month (1-on-1)Free demoYes, one free live demo class, no commitmentServingGolpark, Gariahat, Southern Avenue, Lake Gardens, Jodhpur Park, Rashbehari, Dhakuria and all of South KolkataLIVE ONLINE · GOLPARK, KOLKATA
 
-## Genuinely live, small-batch and premium
+## Genuinely live, batch and premium
 
-Every Modern Age Coders class near Golpark is genuinely live and small-batch, a real engineer teaching fifteen to twenty students at once, watching every child code in real time, never a recorded video playing to a silent screen. This is premium, high-quality coding and maths education built for academically serious South Kolkata families who value substance over flash.
+Every Modern Age Coders class near Golpark is genuinely live and batch, a real engineer teaching fifteen to twenty students at once, watching every child code in real time, never a recorded video playing to a silent screen. This is premium, high-quality coding and maths education built for academically serious South Kolkata families who value substance over flash.
 
 ### Genuinely live, never recorded
 
@@ -171,7 +171,7 @@ LIVE ONLINE · GOLPARK, KOLKATA
 - No evening commute, saving around ninety minutes on a class day versus crossing Gariahat and the Rashbehari junction.
 - Classes slot between the 4 PM music or recitation lesson and a 5 PM coding session, with no travel in between.
 - The same full-time engineer teaches your child every week, with no substitute-tutor churn.
-- Small live batches of fifteen to twenty mean more teacher attention than a crowded offline coaching room.
+- Live batches of fifteen to twenty mean more teacher attention than a crowded offline coaching room.
 - Your child codes on their own laptop, building real habits on the device they will actually use.
 - Recordings of your own class are available for revision, so a missed concept is never lost.
 - Access to specialist engineers and maths graduates regardless of who happens to live near Golpark.

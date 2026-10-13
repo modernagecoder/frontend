@@ -48,7 +48,7 @@ module.exports = {
     ['Practice', 'Git, testing, deployment'],
     ['For', 'Teens, students, career changers'],
     ['Format', 'Live video with a teacher'],
-    ['Groups', 'Five to ten, or one to one'],
+    ['Groups', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',

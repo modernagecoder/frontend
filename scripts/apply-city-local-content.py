@@ -5,7 +5,7 @@ Reads scripts/city-local-content.json (one entry per city slug) and applies two 
   1. Replaces the cloned "What that looks like week to week: ..." paragraph in the
      "Why <city> families start here" section. That paragraph is on all 131 pages and only
      restates the pricing table further down the same page — the page already says "live",
-     "5-8 batch", "recordings" and "certificate" in BOTH "How a class actually runs" and
+     "15-20 batch", "recordings" and "certificate" in BOTH "How a class actually runs" and
      "Simple, honest pricing". Deleting it loses no fact; it deletes the third telling.
   2. Appends city-specific FAQs to BOTH the visible <details> list AND the FAQPage JSON-LD.
 

@@ -178,7 +178,7 @@ Our teachers are in India, behind every Australian state. A 4 pm lesson in Perth
 
 - **Say it before coding it** Children describe the steps before building them.
 - **Testing as a game** Children try to break each other's programs, then fix their own.
-- **Small groups** Fifteen to twenty children at a similar stage.
+- **Groups** Fifteen to twenty children at a similar stage.
 - **One-to-one option** For children who need a slower or faster pace.
 - **A note home** One line on what was learned and one thing to ask about.
 - **Homework stays theirs** We teach the idea; school tasks remain the child's own.

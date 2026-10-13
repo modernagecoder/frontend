@@ -65,7 +65,7 @@ module.exports = {
     ['Proves', 'Test sets with known answers'],
     ['Delivers', 'Logs, limits and a handover'],
     ['Format', 'Live, around a working week'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Note', 'The Copilot Studio course is one to one only'],
     ['Start', 'A free first class']
   ],

@@ -198,7 +198,7 @@ module.exports = {
       { q: 'Do you teach adults in Tallaght?', a: 'Yes, from beginners up, to the age of sixty-seven. An adult chooses a small group at their level or private lessons once the first lesson is done.' },
       { q: 'Will my child be grouped with local children?', a: 'Not deliberately. Groups are built on level, so classmates might be in Dublin 24 or a long way off.' },
       { q: 'What do coding classes in Tallaght cost?', a: 'The first lesson is free. Then a group place is USD 100 a month for around eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How many learners are in each group?', a: 'Five to ten, grouped by level, pace and aim rather than age or address. When no group fits at a workable hour, lessons are one to one.', boiler: true }
+      { q: 'How many learners are in each group?', a: 'Fifteen to twenty, grouped by level, pace and aim rather than age or address. When no group fits at a workable hour, lessons are one to one.', boiler: true }
     ]
   },
 

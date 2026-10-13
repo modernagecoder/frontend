@@ -14,7 +14,7 @@ Australia · University students · Concepts, not assignments
 
 Starting a programming unit at an Australian university can feel like joining a conversation halfway through. Lectures move quickly, practicals assume last week is settled, and the first assessment arrives before the ideas have. Students from engineering, science, commerce and the arts meet code too, often with no school computing behind them. Our live online lessons run alongside the unit: we teach the concepts a week ahead, build testing and version-control habits, and stay well clear of anything assessed. This page compares how different universities open their programming sequence, sets out the semester rhythm, and shows a small experiment in how code similarity is measured, because understanding it explains why your own work must be your own.
 
-At a glance: For: University students, any discipline; Timing: A week ahead of the unit; Core: Concepts, tests, version control; Languages: Python, Java, C, Haskell and more; Assessed work: Never written or checked by us; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: University students, any discipline; Timing: A week ahead of the unit; Core: Concepts, tests, version control; Languages: Python, Java, C, Haskell and more; Assessed work: Never written or checked by us; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that sit alongside a degree
 
@@ -217,7 +217,7 @@ Our teachers are in India, where the day overlaps Australian afternoons and even
 - **Semester break** Foundations before the next unit.
 
 - **Free first class** A short concept check against the unit's public outline.
-- **Small groups** Fifteen to twenty students, often from different universities.
+- **Groups** Fifteen to twenty students, often from different universities.
 - **One to one** For one unit, one language or a repeat attempt.
 - **A week ahead** Concepts taught before the lecture covers them.
 - **Our own problems** Practice written by us, never taken from the unit.

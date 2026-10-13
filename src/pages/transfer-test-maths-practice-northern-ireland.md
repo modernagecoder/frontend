@@ -196,7 +196,7 @@ Our teachers are in India, which keeps the same clock all year, so Northern Irel
 - **Free response** The last six maths questions practised with clear working and exact answers.
 - **Answer sheets** Transferring answers to a separate sheet, as in the real test.
 - **The shared hour** Full timed papers with both subjects, a chosen order and a half-time check.
-- **Small groups** Five to ten P7 children, with a calm, encouraging pace.
+- **Groups** Fifteen to twenty P7 children, with a calm, encouraging pace.
 
 ## Fees for transfer test maths lessons
 

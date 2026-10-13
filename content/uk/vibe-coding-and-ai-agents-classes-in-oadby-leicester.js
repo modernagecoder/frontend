@@ -159,7 +159,7 @@ module.exports = {
       { h3: 'Learners build it', p: 'Code and prompts are written by the student; the tutor follows on screen share and asks why each rule was chosen.' },
       { h3: 'Trial sets the start', p: 'The free session shows the level, and any exam board is noted.' },
       { h3: 'Try it free', p: 'The first session is on us and closes with our pick of course.' },
-      { h3: 'Small and matched', p: 'A class means five to ten people at a shared stage, wherever in Britain they log in from.' },
+      { h3: 'Small and matched', p: 'A class means fifteen to twenty people at a shared stage, wherever in Britain they log in from.' },
       { h3: 'Two a week', p: 'Lessons stop for school holidays.' },
       { h3: 'Time stays fixed', p: 'UK clock changes are absorbed by our tutors.' }
     ],

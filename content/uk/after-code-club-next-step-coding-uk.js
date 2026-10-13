@@ -64,7 +64,7 @@ module.exports = {
     ['Active clubs, 2025 survey', '7,494 in 102 countries'],
     ['Next step', 'A teacher who reads the code'],
     ['Languages', 'Deeper Scratch, then Python and web'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
@@ -145,7 +145,7 @@ module.exports = {
         { kind: 'two', mt: true,
           leftH3: 'What we offer',
           left: [
-            'Small live groups of fifteen to twenty children at the same level, with a teacher who reads every child\'s code and gives specific feedback.',
+            'Live groups of fifteen to twenty children at the same level, with a teacher who reads every child\'s code and gives specific feedback.',
             'Projects the children choose, with the skills taught in order so each week builds on the last.'
           ],
           rightH3: 'What we are not',
@@ -230,7 +230,7 @@ module.exports = {
       { h3: 'Skills in order', p: 'Variables, loops, lists and functions taught so each lesson builds on the last.' },
       { h3: 'Stuck is normal', p: 'Getting stuck treated as the lesson, not a failure, with a question rather than an answer.' },
       { h3: 'Show and tell', p: 'Children share what they made, as they did at club.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children at one level, so everyone is seen.' }
+      { h3: 'Groups', p: 'Fifteen to twenty children at one level, so everyone is seen.' }
     ]
   },
 

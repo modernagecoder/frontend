@@ -20,7 +20,7 @@ Facts last verified 12 October 2026. Teaching is online; no Chermside branch is 
 
 ## Python and coding courses to start with
 
-Each course is taught live in small groups or one to one. The trial lesson settles which fits.
+Each course is taught live in groups or one to one. The trial lesson settles which fits.
 
 - [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from first loop to small apps with search and files.
 - [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (University and adult): A full Python path, including timing and responsive programs.

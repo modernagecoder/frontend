@@ -58,7 +58,7 @@ module.exports = {
     ['Core skills', 'Rules, levels, feedback, fairness'],
     ['Habit', 'Test on real players'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',

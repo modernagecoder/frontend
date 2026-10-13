@@ -182,7 +182,7 @@ module.exports = {
       { h3: 'Eastern time, written down', p: 'Lessons are fixed in Queanbeyan time, which matches Canberra and Sydney all year round.' },
       { h3: 'Built for NSW students', p: 'Teachers plan around NSW stages and the HSC, and every lesson is in English.' },
       { h3: 'A coding lesson, not a pitch', p: 'The free first session is real Python with a teacher; you then get a suggested course and time, and we never take payment details.' },
-      { h3: 'Small groups by level', p: 'Fifteen to twenty learners at the same stage, drawn from many places so each level has a workable hour.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at the same stage, drawn from many places so each level has a workable hour.' },
       { h3: 'Two sessions a week', p: 'About eight a month; school holidays and exam periods are agreed beforehand.' },
       { h3: 'Public servants welcome', p: 'Adults working office hours can take evening groups or book one-to-one lessons.' }
     ],

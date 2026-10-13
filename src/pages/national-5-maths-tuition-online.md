@@ -14,7 +14,7 @@ Scotland · National 5 · S4
 
 National 5 Mathematics has no coursework, no assignment and no project. The whole award rests on two question papers sat in the exam diet, and the first of them, 40 of the 90 marks, is taken without a calculator. That is where the 2025 course report put its sharpest warning: "In question paper 1, many candidates miss out on valuable marks because they do not demonstrate the necessary basic number skills." Not advanced topics. Fractions, percentages, simplifying, the arithmetic a calculator normally hides. This page sets out how the course is assessed, where the 2025 candidates dropped marks, the exact wording markers look for, and why working only from recent past papers leaves gaps.
 
-At a glance: Course: National 5 Mathematics C847 75; Paper 1: No calculator, 40 marks, 1 hour; Paper 2: Calculator, 50 marks, 1 hour 30 minutes; Coursework: None; Entries in 2025: 34,846 resulted; Awarded by: Qualifications Scotland, since February 2026; Group: Five to ten at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Course: National 5 Mathematics C847 75; Paper 1: No calculator, 40 marks, 1 hour; Paper 2: Calculator, 50 marks, 1 hour 30 minutes; Coursework: None; Entries in 2025: 34,846 resulted; Awarded by: Qualifications Scotland, since February 2026; Group: Fifteen to twenty at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for National 5 Maths
 
@@ -196,7 +196,7 @@ Our teachers work from India, which keeps one clock all year, so Scotland is fou
 - **Expected wording** The phrases from the marking instructions practised until they are automatic.
 - **Whole specification** Every skill in the course covered, not only what recent papers asked.
 - **Timed papers** Past papers under exam timing in the spring, marked against the published instructions.
-- **Small groups** Five to ten S4 students at one rung, checking each other's working.
+- **Groups** Fifteen to twenty S4 students at one rung, checking each other's working.
 
 ## Fees for National 5 Maths lessons
 

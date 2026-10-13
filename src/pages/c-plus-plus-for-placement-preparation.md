@@ -12,7 +12,7 @@ Placement Preparation • **Coding Rounds & Interviews**
 
 Walk into your coding round already prepared. A focused C++ placement programme: Data Structures & Algorithms, the STL, OOP theory and the problem patterns interviewers ask, backed by timed coding-round practice and mock technical interviews. Built to get you from "studying" to "selected."
 
-Book a Free Placement DemoClear Every Round**DSA**The core of every round**Mock**Real interview practice**5–8**Students per batch**Live**Mentor-led, recorded
+Book a Free Placement DemoClear Every Round**DSA**The core of every round**Mock**Real interview practice**15–20**Students per batch**Live**Mentor-led, recorded
 
 ## Quick answer
 

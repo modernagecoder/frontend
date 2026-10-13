@@ -14,7 +14,7 @@ Australia · Ages 14 to adult · Question, clean, summarise, model
 
 Data science is the craft of turning a messy table into an answer you can defend. Before any model, it means choosing the right data, cleaning it, and summarising it in a way that does not mislead, which is harder than it sounds. Our data science course teaches Australians from 14 to adulthood to do all of that in Python, live online, using real public data from Australian agencies. This page sets out the approach, works through one example on the latest council population figures from the Australian Bureau of Statistics, and shows where the same skills appear in the Australian Curriculum and in the national occupation classification.
 
-At a glance: For: Teens 14+ and adults; Language: Python with pandas; Data: Public Australian sources; Statistics: Summaries that do not mislead; Charts: Built to answer a question; Models: First machine learning, tested; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens 14+ and adults; Language: Python with pandas; Data: Public Australian sources; Statistics: Summaries that do not mislead; Charts: Built to answer a question; Models: First machine learning, tested; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three data science courses
 
@@ -232,7 +232,7 @@ Teachers are based in India, and the Indian working day overlaps Australian afte
 - **Weekend** Longer analysis sessions.
 
 - **Free first class** A real dataset loaded and one honest summary written.
-- **Small groups** Fifteen to twenty learners comparing answers to the same question.
+- **Groups** Fifteen to twenty learners comparing answers to the same question.
 - **One to one** For a particular dataset, job need or pace.
 - **Sources shown** Every dataset is cited, with its licence and date.
 - **Reproducible** Every result comes from a script the learner can rerun.

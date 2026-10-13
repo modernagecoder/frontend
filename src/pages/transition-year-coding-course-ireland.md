@@ -14,7 +14,7 @@ Ireland · Transition Year · A project for the whole year
 
 Transition Year has a new rulebook. From September 2025 every Irish school has been working to the Transition Year Programme Statement, published in August 2024 to replace guidelines that had stood since 1994. It describes TY as a standalone year built on four Student Dimensions, lets each school design its own programme, and asks that students become more skilled with digital technologies "both as a user and a creator". That last phrase is the whole case for coding in TY. A student who spends the year building one real thing, an app, a website with its own data, or a small AI model, finishes with something to show in the portfolio, a clear sense of whether computing is for them, and the habit of sticking with a hard problem for months. This page explains what the statement asks, how outside learning has to fit a school's own programme, what the national numbers show, and how a live online course can run alongside the TY timetable from September to May.
 
-At a glance: For: Transition Year students; Runs: September to May; Builds: One finished project; Learns: Python, apps, web, data, AI; Fits: Your school's TY programme; Group: Five to ten, or one to one; Hours: Evenings, weekends or by arrangement; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Transition Year students; Runs: September to May; Builds: One finished project; Learns: Python, apps, web, data, AI; Fits: Your school's TY programme; Group: Fifteen to twenty, or one to one; Hours: Evenings, weekends or by arrangement; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three year-long projects for Transition Year
 

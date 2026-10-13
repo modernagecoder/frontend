@@ -186,7 +186,7 @@ Lessons happen on screen, so every Moonee Valley suburb is equally close.
 - **Shared code and notebooks** The teacher sees the learner's code and plots as they are written.
 - **Victorian calendar** Lesson plans follow state school terms and break for holidays.
 - **A genuine first class** The free trial is a full lesson that ends with a level and a course suggestion.
-- **Small, matched groups** Groups of fifteen to twenty are formed by level and pace, sometimes across states.
+- **Matched groups** Groups of fifteen to twenty are formed by level and pace, sometimes across states.
 - **Twice a week** Two fixed lessons each week, about eight a month, with planned breaks.
 - **Teachers in India** A 4pm Moonee Valley class in daylight saving starts at 10:30am India time, and at 11:30am there after April.
 
@@ -238,7 +238,7 @@ The first lesson is free. Group classes are USD 100 a month for two live lessons
 
 ### How many learners are in each group?
 
-Five to ten, matched by level, pace and goal. If no group suits the learner's schedule, one-to-one lessons are offered instead.
+Fifteen to twenty, matched by level, pace and goal. If no group suits the learner's schedule, one-to-one lessons are offered instead.
 
 ### Do I need a powerful computer?
 

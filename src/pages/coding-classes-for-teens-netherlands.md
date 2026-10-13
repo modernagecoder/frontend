@@ -14,7 +14,7 @@ Netherlands · Ages 12 to 18 · Live online
 
 In 2024 more than a third of Dutch 12-to-18-year-olds had used an AI program to make text, images or video, the national statistics office found. Very few of them had built anything with code. That gap is what these classes are for. A teenager who can write Python, train a small model, build an app or read what an AI coding tool has produced is in a different position from one who can only ask a chatbot for help. The Netherlands also draws some firm lines around teenagers and screens: parental consent below sixteen for many online services, no phones in secondary classrooms since January 2024, and age limits set by the tools themselves. A good course fits inside those lines. This page sets out what a Dutch teenager can learn with us, from the brugklas to the eindexamen year, live online and in English, alongside havo, vwo or an international school.
 
-At a glance: Ages: 12 to 18; Subjects: Python, AI, apps, web, Java, AI coding tools; Alongside: Havo, vwo, vmbo or an international school; Format: Live video, a teacher every lesson; Groups: 5 to 10 at one level, or one to one; Times: After school, evenings, weekends; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Ages: 12 to 18; Subjects: Python, AI, apps, web, Java, AI coding tools; Alongside: Havo, vwo, vmbo or an international school; Format: Live video, a teacher every lesson; Groups: 15 to 20 at one level, or one to one; Times: After school, evenings, weekends; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses most Dutch teenagers start with
 

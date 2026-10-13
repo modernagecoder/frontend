@@ -237,7 +237,7 @@ The first lesson is free. Afterwards a group place is USD 100 a month for two li
 
 ### How many learners share a group?
 
-Five to ten, matched by level and goals rather than age or town. If no group time fits, one-to-one lessons are offered.
+Fifteen to twenty, matched by level and goals rather than age or town. If no group time fits, one-to-one lessons are offered.
 
 ## More for New England and NSW
 

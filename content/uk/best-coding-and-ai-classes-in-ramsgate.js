@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'Hands on keyboard', p: 'Learners write and run their own code, with the tutor prompting rather than typing.' },
       { h3: 'Right level first', p: 'We decide where to start from what the free lesson shows.' },
       { h3: 'Nothing to pay upfront', p: 'The trial is free, and no card is requested.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at a matching level, from across the UK.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at a matching level, from across the UK.' },
       { h3: 'Weekly routine', p: 'Two lessons a week during term, about eight a month, holidays skipped on request.' },
       { h3: 'Time that stays put', p: 'Our tutors absorb the UK clock changes, not your timetable.' }
     ],

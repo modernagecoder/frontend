@@ -234,7 +234,7 @@ module.exports = {
       { q: 'Do adults join from the ACT?', a: 'Yes. Adults up to 67 learn with us, from complete beginners to professionals who want Python and data skills for their work.' },
       { q: 'Is there a Modern Age Coders office in the ACT?', a: 'No, and none is claimed. All teaching is live online with no premises in Australia; a learner needs a laptop or desktop, sound and a steady connection, and the number we show is in India.', boiler: true },
       { q: 'How much are coding lessons in the ACT?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
-      { q: 'How many learners are in each group?', a: 'Five to ten, grouped by level, pace and what they want to achieve rather than by age or suburb. If no group suits a learner\'s hours, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'How many learners are in each group?', a: 'Fifteen to twenty, grouped by level, pace and what they want to achieve rather than by age or suburb. If no group suits a learner\'s hours, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

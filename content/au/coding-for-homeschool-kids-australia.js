@@ -57,7 +57,7 @@ module.exports = {
     ['Planning aid', 'Australian Curriculum v9'],
     ['Subjects', 'Coding, AI, web, apps, maths'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -231,7 +231,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'Your child tries a short project, and we discuss how coding could fit your program.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at a similar level, sometimes including other home-schooled children.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at a similar level, sometimes including other home-schooled children.' },
       { h3: 'One to one', p: 'Shaped entirely around your child and your program.' },
       { h3: 'Exit tickets', p: 'A short written record after every lesson, in your child\'s words.' },
       { h3: 'Parents welcome', p: 'Sit in on any lesson; many parents learn too.' },

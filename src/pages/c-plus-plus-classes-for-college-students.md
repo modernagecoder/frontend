@@ -10,9 +10,9 @@ College & Engineering • **Placement-Ready C++**
 
 # C++ Classes for College Students: DSA, STL & Placements
 
-Turn C++ into your placement weapon. Master Core C++, OOP and the STL, then a full Data Structures & Algorithms track and competitive-programming patterns, everything you need to clear coding rounds and product-company interviews. Live, small-batch mentoring with real problem-solving and mock interviews.
+Turn C++ into your placement weapon. Master Core C++, OOP and the STL, then a full Data Structures & Algorithms track and competitive-programming patterns, everything you need to clear coding rounds and product-company interviews. Live, batch mentoring with real problem-solving and mock interviews.
 
-Book a Free C++ Demo ClassSee the Roadmap**4.9/5**Learner rating**5–8**Students per batch**DSA**Full placement track**Mock**Interviews & practice
+Book a Free C++ Demo ClassSee the Roadmap**4.9/5**Learner rating**15–20**Students per batch**DSA**Full placement track**Mock**Interviews & practice
 
 ## Quick answer
 

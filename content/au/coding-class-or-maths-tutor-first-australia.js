@@ -57,7 +57,7 @@ module.exports = {
     ['Combined course', 'Maths through coding'],
     ['Teacher', 'The same one each week'],
     ['Delivery', 'Live online video'],
-    ['Group size', 'Five to ten, or one to one'],
+    ['Group size', 'Fifteen to twenty, or one to one'],
     ['Times', 'Set for your state'],
     ['Start', 'A free first lesson']
   ],

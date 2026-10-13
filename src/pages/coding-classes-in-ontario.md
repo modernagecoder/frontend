@@ -80,7 +80,7 @@ Strand
 
 Social-Emotional Learning Skills and Mathematical Processes. Perseverance, and the habits of a mathematical thinker.
 
-The strand no worksheet can deliver and a small live class can. Fifteen to twenty students, a teacher who sees the moment somebody gives up, and a project that is allowed to be hard. See [how we teach](/how-we-teach).
+The strand no worksheet can deliver and a live class can. Fifteen to twenty students, a teacher who sees the moment somebody gives up, and a project that is allowed to be hard. See [how we teach](/how-we-teach).
 
 The diploma
 
@@ -225,7 +225,7 @@ Fees
 
 Ontario families are charged in USD. There is no registration fee and no term commitment, so a month that does not work is a month you can end.
 
-Small group$100per month, 8 classes
+Group$100per month, 8 classes
 
 Fifteen to twenty learners with a consistent teacher. Most Ontario students start here and stay, because the group is small enough that nobody hides in it.
 
@@ -325,7 +325,7 @@ From 6 to 67. Younger children begin in blocks and move to text code when they a
 
 ### How large is a class?
 
-Fifteen to twenty students in a small group, with the same teacher week after week, or one to one if a student needs the pace entirely to themselves. We do not rotate teachers between sessions. A teacher who remembers what a student struggled with last week is worth more than any curriculum document.
+Fifteen to twenty students in a group, with the same teacher week after week, or one to one if a student needs the pace entirely to themselves. We do not rotate teachers between sessions. A teacher who remembers what a student struggled with last week is worth more than any curriculum document.
 
 ### Are classes live or pre-recorded?
 

@@ -99,7 +99,7 @@ The base fee is the same. Different currencies and a regional cost adjustment ap
 
 What is included in the fee?
 
-Live online classes (small batch, 15–20 students), all course materials, project mentoring, monthly parent progress note, recorded class backup with 12 months of access, certificate of completion, and ongoing post-class mentor support on the Modern Age Coders student community. There is no separate fee for any of these.
+Live online classes (batch, 15–20 students), all course materials, project mentoring, monthly parent progress note, recorded class backup with 12 months of access, certificate of completion, and ongoing post-class mentor support on the Modern Age Coders student community. There is no separate fee for any of these.
 
 What about GST and taxes?
 

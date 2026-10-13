@@ -185,7 +185,7 @@ There is no class to travel to; the teacher and learner meet on video at a set t
 - **Live, not recorded** The teacher watches the learner build and prompt in real time and steps in the moment an AI suggestion goes astray.
 - **NSW-aware** Teachers know NSW stages and syllabus terms, and lessons pause for the state school holidays.
 - **A free trial lesson** The first class is complete and free, and closes with a recommended course, level and time slot.
-- **Small, level-matched groups** Fifteen to twenty classmates who are all working on similar material, or a private teacher if the timetable or pace needs it.
+- **Level-matched groups** Fifteen to twenty classmates who are all working on similar material, or a private teacher if the timetable or pace needs it.
 - **Two sessions a week** A fixed weekly pair of lessons, about eight a month, with breaks agreed in advance.
 - **Teachers in India** A 5:30pm Epping lesson in summer begins at noon India time; after daylight saving ends in Sydney it begins at 1pm there.
 
@@ -241,7 +241,7 @@ The first lesson is free. A group place is USD 100 a month for two live lessons 
 
 ### How many learners are in each group?
 
-Five to ten, grouped by level and pace rather than age. If no group suits the times needed, we offer one-to-one lessons instead.
+Fifteen to twenty, grouped by level and pace rather than age. If no group suits the times needed, we offer one-to-one lessons instead.
 
 ## More for Epping learners
 

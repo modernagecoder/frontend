@@ -137,7 +137,7 @@ $150 / month
 
 [Book a free first lesson](/book-demo?subject=maths)
 
-### Small-group Further Maths
+### Group Further Maths
 
 $100 / month
 

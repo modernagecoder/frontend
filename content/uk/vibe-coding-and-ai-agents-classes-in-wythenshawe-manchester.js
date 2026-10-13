@@ -168,7 +168,7 @@ module.exports = {
       { h3: 'Learner at the controls', p: 'Nobody watches a tutor type. The learner builds, shares the screen, and explains each choice when asked.' },
       { h3: 'Trial before timetable', p: 'The free lesson shows us the level and, where relevant, the exam specification.' },
       { h3: 'Free to begin', p: 'Lesson one has no charge and finishes with the course we suggest.' },
-      { h3: 'Small matched groups', p: 'Five to ten people at one stage, drawn from all over Britain.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty people at one stage, drawn from all over Britain.' },
       { h3: 'Twice each week', p: 'With a break in the school holidays.' },
       { h3: 'Same hour all year', p: 'Our tutors adjust at the UK clock changes, so your lesson hour stays put.' }
     ],

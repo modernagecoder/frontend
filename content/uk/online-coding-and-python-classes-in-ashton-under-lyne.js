@@ -163,7 +163,7 @@ module.exports = {
       { h3: 'Typed by the learner', p: 'Code is written and run on the student\'s own shared screen. The tutor\'s part is to ask why it should work.' },
       { h3: 'Level from the trial', p: 'What we see in the free session decides the first unit, and we note an exam board where relevant.' },
       { h3: 'Nothing to pay at first', p: 'The first lesson is complete, free and card-free, with a course suggestion to finish.' },
-      { h3: 'Matched groups', p: 'A class is five to ten people at one stage, joining from all over the UK.' },
+      { h3: 'Matched groups', p: 'A class is fifteen to twenty people at one stage, joining from all over the UK.' },
       { h3: 'Twice a week', p: 'Two lessons weekly, with your holiday dates left clear.' },
       { h3: 'Steady UK slot', p: 'When the clocks go forward or back, the tutor shifts and you do not.' }
     ],

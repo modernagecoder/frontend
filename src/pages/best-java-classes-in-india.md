@@ -12,7 +12,7 @@ Java • **Live Online Classes Across India**
 
 Master Java the right way, from your first line of code to Object-Oriented Programming, Data Structures and real, working projects. Live, small-batch online classes built for teens, ICSE/ISC students and working adults who want to truly understand Java, not just copy it.
 
-Book a Free Java Demo ClassSee the Curriculum**4.9/5**Learner rating**5–8**Students per batch**Live**Real mentor, every class**ICSE/ISC**Board-aligned Java
+Book a Free Java Demo ClassSee the Curriculum**4.9/5**Learner rating**15–20**Students per batch**Live**Real mentor, every class**ICSE/ISC**Board-aligned Java
 
 ## Quick answer
 
@@ -135,7 +135,7 @@ The Difference
 
 ## Why Learners Choose Our Java Classes
 
-### Small live batches (15–20)
+### Live batches (15–20)
 
 Real two-way mentoring, never pre-recorded videos. Your code is reviewed live, every class.
 

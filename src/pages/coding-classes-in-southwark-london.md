@@ -144,7 +144,7 @@ A learner by the river in Rotherhithe and another in Dulwich can share the same 
 
 ### A balanced class
 
-Groups are built the opposite way to the Tate list: no single member dominates, just fifteen to twenty learners at a shared stage.
+Groups are built the opposite way to the Tate list: no single member dominates, fifteen to twenty learners at a shared stage.
 
 **Southwark in London** Southwark is one of London's 32 boroughs. The [London page](/best-coding-class-in-london) covers them all and the City, linking each page as it goes live, including [Lambeth](/coding-classes-in-lambeth-london) to the west and [Lewisham](/coding-classes-in-lewisham-london) to the east.
 

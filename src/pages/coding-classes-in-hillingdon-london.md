@@ -177,7 +177,7 @@ Every postcode in Hillingdon is the same distance from an online lesson: none at
 - **Wherever the laptop is** Most learners join from home; a library table with headphones is a good plan B.
 - **Stages by their English names** Reception to Year 13, SATs, Year 9 options, GCSEs, A levels and T Levels are named as English schools name them. Teaching is in English.
 - **Try first, pay later** The first lesson is a real task with a teacher, ending with a suggested level and course. We ask for no card.
-- **Matched, small groups** Fifteen to twenty learners at one level, from Hillingdon and far beyond, so a group exists at a workable hour.
+- **Matched, groups** Fifteen to twenty learners at one level, from Hillingdon and far beyond, so a group exists at a workable hour.
 - **Two a week, school permitting** Most groups meet twice weekly, pausing for half terms, holidays and exams by agreement.
 - **Always in UK time** Teachers are in India, but the time on every invitation and reminder is the time on your own clock.
 

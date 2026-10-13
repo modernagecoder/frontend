@@ -185,7 +185,7 @@ Schools in the council area have addresses in Burwood, Croydon, Croydon Park and
 - **Code together** Learner and teacher work in the same notebook, so every line of a model is written and explained live.
 - **Fits the NSW year** Topics match the NSW stages, and lessons break when the state school holidays begin.
 - **A free lesson first** The trial is a full lesson, finishing with a recommended course, level and time and no charge.
-- **Small groups** Fifteen to twenty learners at one level per group, or one to one if preferred.
+- **Groups** Fifteen to twenty learners at one level per group, or one to one if preferred.
 - **Steady schedule** Two set lessons each week, around eight per month.
 - **Teachers in India** A 7pm Burwood lesson in daylight saving time begins at 1:30pm India time; in winter, at 2:30pm there.
 

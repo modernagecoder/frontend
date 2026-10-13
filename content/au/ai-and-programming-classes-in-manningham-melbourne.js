@@ -355,7 +355,7 @@ module.exports = {
         a: 'The first lesson is free. Group classes then cost USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, and one-to-one classes cost USD 150 a month. Course, format and time are agreed before any payment.',
         boiler: true
       },
-      { q: 'How many learners in a group?', a: 'Five to ten, grouped by level, pace and goals, with private lessons when no group time suits.', boiler: true },
+      { q: 'How many learners in a group?', a: 'Fifteen to twenty, grouped by level, pace and goals, with private lessons when no group time suits.', boiler: true },
       {
         q: 'Can adults study machine learning with you?',
         a: 'Yes. Adults join adult groups or learn privately, often to apply models to data they already handle at work.'

@@ -14,7 +14,7 @@ Netherlands · App development · Live online
 
 Ask which app matters most in Dutch daily life and the honest answer is not a game or a social network. It is DigiD, the login for dealing with the government. According to Logius, which runs it, DigiD was used 645 million times in 2025, and in the first half of 2026 almost three quarters of its logins went through the DigiD app. An app like that is judged less by its screens than by whether people can trust it with who they are, whether it works every time and whether it handles their data with care. Those are the qualities that separate a finished app from a demonstration, and they are what we teach alongside the code. This page covers app development for learners in the Netherlands, from a child's first block-built app to teenagers in React Native and adults in Flutter, Kotlin and Swift, live online and in English.
 
-At a glance: Children: Apps built with blocks; Teens: React Native; Adults: Flutter, Kotlin, Swift; Built in: Security and reliability from the start; Format: Live video with a teacher; Groups: Five to ten, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Children: Apps built with blocks; Teens: React Native; Adults: Flutter, Kotlin, Swift; Built in: Security and reliability from the start; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three app courses for three ages
 

@@ -73,7 +73,7 @@ module.exports = {
     ['Also choosing', 'A board, without being told'],
     ['The fixable part', 'Fluency, and therefore confidence'],
     ['Good age to start', 'Year 8 or 9'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',

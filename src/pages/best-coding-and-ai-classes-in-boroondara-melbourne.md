@@ -240,7 +240,7 @@ The first lesson is free. Group classes are USD 100 a month for two live lessons
 
 ### How many learners are in a group?
 
-Five to ten, matched on level and pace rather than age or suburb, with private lessons when no group time suits.
+Fifteen to twenty, matched on level and pace rather than age or suburb, with private lessons when no group time suits.
 
 ### Can adults join?
 

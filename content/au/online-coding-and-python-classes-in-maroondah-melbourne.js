@@ -302,7 +302,7 @@ module.exports = {
       { h3: 'Working together', p: 'The learner shares their screen and the teacher guides changes in their own code.' },
       { h3: 'Victorian terms', p: 'The class calendar follows state school terms, with holiday breaks.' },
       { h3: 'Free first session', p: 'One whole lesson with no charge, ending with our course advice.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners per group, matched on level rather than location.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners per group, matched on level rather than location.' },
       { h3: 'Twice weekly', p: 'Two regular lessons each week, near eight per month.' },
       { h3: 'Across time zones', p: 'A 3:30pm Maroondah lesson is 10am India time while Melbourne is on daylight saving, and 11am after it ends.' }
     ],

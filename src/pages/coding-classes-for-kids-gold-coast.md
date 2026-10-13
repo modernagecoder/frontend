@@ -185,7 +185,7 @@ The Gold Coast runs a long way along the coast, and an online lesson keeps the a
 - **Equipment** A laptop or desktop with sound is ideal; for the very first lesson a parent nearby helps a young child settle.
 - **Queensland year names** Teachers use the words Gold Coast children hear at school, starting with Prep.
 - **A free first lesson** Your child completes a small project, then we suggest a course and a regular time. No card is needed.
-- **Small groups or one to one** Groups of fifteen to twenty children ready for the same next step, or private lessons if you prefer.
+- **Groups or one to one** Groups of fifteen to twenty children ready for the same next step, or private lessons if you prefer.
 - **Around eight lessons a month** Usually two a week at the same time, so coding becomes a steady habit.
 - **Teachers on India time** A 4pm lesson on the coast is 11:30am for our teachers in India, and that gap never moves.
 

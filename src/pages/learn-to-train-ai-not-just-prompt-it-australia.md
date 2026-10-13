@@ -14,7 +14,7 @@ Australia · Ages 10 and up · Build the model
 
 Typing a request into a chatbot uses a model that someone else trained, on data someone else chose, tested in ways someone else decided. Training a model, even a tiny one, puts all three decisions in the student's hands. It is also where the most important lesson in machine learning becomes obvious: a model can only be as good as the labels it learns from. This page explains the difference between prompting and training, what the Australian Curriculum asks students to explore, and a short calculation every young model-builder should do before trusting their own results.
 
-At a glance: For: Ages 10 and up; Focus: Training and testing models; Starts with: Labelling your own data; Then: Python and real libraries; Curriculum: Digital Technologies, Years 7 to 10; Format: Live online video; Group: Five to ten, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 10 and up; Focus: Training and testing models; Starts with: Labelling your own data; Then: Python and real libraries; Curriculum: Digital Technologies, Years 7 to 10; Format: Live online video; Group: Fifteen to twenty, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses where students build the model
 
@@ -213,7 +213,7 @@ Students collect, label, train and test in every course. Teachers ask "how do yo
 - **Agreement checked** Labels are double-checked before any training.
 - **Tests held back** Every model is tested on data it has never seen.
 - **Errors explained** Students find out why a model got something wrong.
-- **Small groups** Fifteen to twenty learners, or one to one.
+- **Groups** Fifteen to twenty learners, or one to one.
 - **Age-appropriate tools** Younger students use tools that need no adult accounts.
 
 ## Fees

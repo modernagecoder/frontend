@@ -105,7 +105,7 @@ The people teaching these courses train models and use the APIs themselves, so s
 
 ### Groups that stay small
 
-Machine learning fails in private: a wrong split here, a leaking feature there. With only five to eight in the group, those failures get caught while they are still cheap.
+Machine learning fails in private: a wrong split here, a leaking feature there. With fifteen to twenty in the group, those failures get caught while they are still cheap.
 
 ### Honesty about hype
 

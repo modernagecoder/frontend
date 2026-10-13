@@ -14,7 +14,7 @@ Scotland · Advanced Higher · S6
 
 From session 2026 to 27, every Advanced Higher Computing Science candidate in Scotland is handed the same ten functional requirements for their project type and told not to add any. The scenario is still theirs, agreed with their teacher; the requirements now belong to Qualifications Scotland. That change arrived in September 2026 and it matters more than it looks. The project carries 80 of the 135 marks, and the 2025 course report found candidates still losing marks by writing more requirements than they could follow through to the end. It also means that everything the project assesses is known before the work begins. We teach those skills on a practice brief of our own, prepare the question paper, and stay out of the real project entirely.
 
-At a glance: Course: Advanced Higher Computing Science C816 77; Project: 80 marks, no more than 20 hours; Question paper: 55 marks, 2 hours; Requirements: Ten per project type, set for you; Your project: We never see or touch it; Entry: Higher or equivalent; Group: Five to ten at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Course: Advanced Higher Computing Science C816 77; Project: 80 marks, no more than 20 hours; Question paper: 55 marks, 2 hours; Requirements: Ten per project type, set for you; Your project: We never see or touch it; Entry: Higher or equivalent; Group: Fifteen to twenty at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses behind the ten requirements
 
@@ -231,7 +231,7 @@ Our teachers are in India, which keeps one clock all year. Scotland sits four an
 - **One test per requirement** Test plans written before the code, a planned test for each requirement, never several bundled into one.
 - **A brief of our own** The rehearsal project uses a scenario we set, closed before the candidate's formal project begins.
 - **Paper practice** Unfamiliar code and designs explained in writing, because the harder marks go to explanation.
-- **Small groups** Five to ten S6 candidates on the same rung, reading each other's designs aloud.
+- **Groups** Fifteen to twenty S6 candidates on the same rung, reading each other's designs aloud.
 
 ## Fees for Advanced Higher lessons
 

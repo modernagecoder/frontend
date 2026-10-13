@@ -181,7 +181,7 @@ Classes are live video lessons, so a learner in Whyalla has the same teachers as
 - **From home** A laptop or desktop, a headset and a steady connection are enough; nobody travels for a lesson.
 - **South Australian years** Teachers plan with South Australian year levels in mind, and every lesson is in English.
 - **A real first lesson** The free trial is a proper class that ends with a suggested course and a regular weekly time.
-- **Small matched groups** Groups hold fifteen to twenty learners at the same level, drawn from Whyalla and further afield.
+- **Matched groups** Groups hold fifteen to twenty learners at the same level, drawn from Whyalla and further afield.
 - **Twice a week** Group learners meet on two fixed days, which comes to about eight lessons in a month.
 - **Teachers in India** Lessons are booked in Whyalla time; our teachers work in India, four or five hours behind depending on the season.
 

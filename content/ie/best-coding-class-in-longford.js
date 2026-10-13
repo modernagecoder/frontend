@@ -178,7 +178,7 @@ module.exports = {
     intro: 'Details.',
     cells: [
       { h3: 'A teacher on every call', p: 'The teacher is present throughout and works directly with the code the learner writes.' },
-      { h3: 'One level per group', p: 'Each group has five to ten members, all at the same point in the course, from Longford, elsewhere in Ireland and overseas.' },
+      { h3: 'One level per group', p: 'Each group has fifteen to twenty members, all at the same point in the course, from Longford, elsewhere in Ireland and overseas.' },
       { h3: 'How often', p: 'Two lessons in a typical week, around eight in a month, at times fixed with the family.' },
       { h3: 'Term-aware', p: 'Holidays, mid-term breaks and exam weeks are part of the course plan from the start.' },
       { h3: 'What a home needs', p: 'A broadband line, which 430 Longford homes reported not having, plus a laptop or desktop and a microphone with speakers or headphones. Our lessons have the same coverage limit as an online survey.' },
@@ -217,7 +217,7 @@ module.exports = {
       { q: 'Will a Longford learner be grouped with others from the town?', a: 'Groups are formed by level, so classmates may be in Longford, elsewhere in Ireland or abroad.' },
       { q: 'Is there a Modern Age Coders classroom in Longford town?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
       { q: 'What do coding classes in Longford town cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },
 

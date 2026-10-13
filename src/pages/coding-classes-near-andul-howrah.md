@@ -178,7 +178,7 @@ Honest comparison
 ### Where live online wins
 
 - Zero commute, saves 75–90 minutes a class day versus crossing the Andul Mouri snarl and NH-16 traffic.
-- Small live batches of 15–20 instead of a 30–40 student offline coaching hall.
+- Live batches of 15–20 instead of a 30–40 student offline coaching hall.
 - Taught by full-time software engineers and maths graduates, not part-time local home tutors.
 - Salt-Lake-quality curriculum from ₹1,499/month, far cheaper than a city centre.
 - Every class is project-based and recorded for revision, so a missed class is never a lost class.

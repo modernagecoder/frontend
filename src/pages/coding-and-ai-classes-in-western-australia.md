@@ -245,7 +245,7 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 ### How many students share a group?
 
-Five to ten, grouped by level, pace and goals rather than age or suburb. When no group suits a learner at a workable hour, private lessons are offered instead.
+Fifteen to twenty, grouped by level, pace and goals rather than age or suburb. When no group suits a learner at a workable hour, private lessons are offered instead.
 
 ## More for WA and Australian learners
 

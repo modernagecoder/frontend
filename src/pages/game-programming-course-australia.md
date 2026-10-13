@@ -14,7 +14,7 @@ Australia · Year 9 to adult · Live online
 
 Plenty of online courses will walk you through clicking together a platformer in an afternoon. Far fewer explain why your character jumps higher on a slow laptop than on a fast one, why enemies sometimes pass through walls, or why the code that worked for one level collapses when you add the tenth. Those are game programming problems, and they are the subject of this course. It is for Australian secondary students from about Year 9, university students and working adults who want to write games properly: the loop that drives every game, how time is measured and stepped, how physics is made stable, and how a project is structured so it can keep growing. You work in real languages and real engines, live with a teacher, and you finish with games you understand line by line.
 
-At a glance: For: Year 9 students to adults; Languages: Python, C# and GDScript; Engines: Pygame, Unity and Godot; Core ideas: Loop, time, physics, state; Prior coding: Helpful, not required; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Year 9 students to adults; Languages: Python, C# and GDScript; Engines: Pygame, Unity and Godot; Core ideas: Loop, time, physics, state; Prior coding: Helpful, not required; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three ways into game programming
 
@@ -214,7 +214,7 @@ Teachers work from India. During the southern summer, Sydney, Melbourne, Canberr
 - **Weekend** Longer build sessions on bigger projects.
 
 - **Free first class** We look at code you have written, or start from nothing, and set a level honestly.
-- **Small groups** Fifteen to twenty students at a similar level, reviewing each other's code.
+- **Groups** Fifteen to twenty students at a similar level, reviewing each other's code.
 - **One to one** For a specific project, a tight timeline or a faster pace.
 - **Your own code** You type everything. Teachers question and guide; they never write your project for you.
 - **Code review** Each module ends with a review of structure, naming and tests, not just whether it runs.

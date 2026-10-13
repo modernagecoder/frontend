@@ -14,7 +14,7 @@ Northern Ireland · CCEA GCSE · Years 11 and 12
 
 On the programming route of CCEA's GCSE Digital Technology, the biggest single unit is a paper candidates answer with a pen. Unit 4, Digital Development Concepts, is worth 40 per cent, and in summer 2025 it carried 120 marks in 90 minutes: algorithms completed and written by hand, arrays processed in loops, trace tables filled in, binary added, and one extended answer marked for the quality of its writing. CCEA's own report on that paper is unusually direct about where the marks went. Candidates were strong at predicting output and spotting logic errors. They lost marks by skipping a bullet-pointed requirement, ignoring a variable name the question gave them, or leaving it unclear where a loop ended. "These requirements align closely to the mark scheme", the examiners wrote. This page is built on that report.
 
-At a glance: Qualification: CCEA GCSE Digital Technology (Programming); Unit 1, core: Written exam, 1 hour, 30 per cent; Unit 4: Written exam, 1 hour 30 minutes, 40 per cent; Unit 4 in 2025: 120 marks in 90 minutes; Unit 5: Controlled assessment, up to 36 hours, 30 per cent; Unit 5 languages: Python, Java or C#; Group: Five to ten at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Qualification: CCEA GCSE Digital Technology (Programming); Unit 1, core: Written exam, 1 hour, 30 per cent; Unit 4: Written exam, 1 hour 30 minutes, 40 per cent; Unit 4 in 2025: 120 marks in 90 minutes; Unit 5: Controlled assessment, up to 36 hours, 30 per cent; Unit 5 languages: Python, Java or C#; Group: Fifteen to twenty at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for the programming route
 

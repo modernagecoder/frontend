@@ -337,7 +337,7 @@ module.exports = {
       { h3: 'NSW-aware', p: 'Teachers know NSW stages and syllabus terms, and lessons pause for the state school holidays.' },
       { h3: 'A free trial lesson', p: 'The first class is complete and free, and closes with a recommended course, level and time slot.' },
       {
-        h3: 'Small, level-matched groups',
+        h3: 'Level-matched groups',
         p: 'Fifteen to twenty classmates who are all working on similar material, or a private teacher if the timetable or pace needs it.'
       },
       { h3: 'Two sessions a week', p: 'A fixed weekly pair of lessons, about eight a month, with breaks agreed in advance.' },
@@ -409,7 +409,7 @@ module.exports = {
       },
       {
         q: 'How many learners are in each group?',
-        a: 'Five to ten, grouped by level and pace rather than age. If no group suits the times needed, we offer one-to-one lessons instead.',
+        a: 'Fifteen to twenty, grouped by level and pace rather than age. If no group suits the times needed, we offer one-to-one lessons instead.',
         boiler: true
       }
     ]

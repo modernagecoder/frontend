@@ -14,7 +14,7 @@ Australia · Ages 6 to 13 · Free options compared
 
 Plenty of Australian children learn their first lines of code without their family spending anything, and that is a good thing. Volunteer clubs, government resources and short global activities are all there for the taking. What a parent searching for free coding classes rarely sees is a plain account of what each option contains: how often an adult is in the room, whether the projects build on one another, and what happens when a child gets stuck. This page gives that account, including where our own free first lesson fits, and it ends with a short program a child can write to help the family choose.
 
-At a glance: For: Children aged 6 to 13; Free club: Code Club Australia, ages 8 to 13; Free at home: Self-guided projects online; Free one-off: Hour of Code and Hour of AI; Our free part: A full first lesson; After that: Monthly fees, no lock-in; Format: Live online video; Group: Five to ten, or one to one. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children aged 6 to 13; Free club: Code Club Australia, ages 8 to 13; Free at home: Self-guided projects online; Free one-off: Hour of Code and Hour of AI; Our free part: A full first lesson; After that: Monthly fees, no lock-in; Format: Live online video; Group: Fifteen to twenty, or one to one. Rated 4.9 across 547 Google reviews.
 
 ## Three courses families move on to
 
@@ -213,7 +213,7 @@ The things a free option usually cannot promise are the things we build each les
 
 - **The same teacher** Your child keeps one teacher, who remembers last week's project.
 - **A planned sequence** Each lesson builds on the one before, towards a clear next stage.
-- **Small groups** Fifteen to twenty children close in age and ability, or one to one.
+- **Groups** Fifteen to twenty children close in age and ability, or one to one.
 - **Their own work** Children build every project themselves; teachers ask questions rather than take over.
 - **Stuck for minutes, not weeks** Help arrives in the lesson, which keeps momentum going.
 - **Free clubs still welcome** Many of our students keep going to a Code Club too. The two fit well together.

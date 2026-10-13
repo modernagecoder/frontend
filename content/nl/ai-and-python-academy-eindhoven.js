@@ -47,7 +47,7 @@ module.exports = {
     ['Focus', 'Python, vision, models, agents'],
     ['Angle', 'AI that works outside the screen'],
     ['Format', 'Live video, one teacher, no recordings'],
-    ['Group', '5 to 10 at one level, or one to one'],
+    ['Group', '15 to 20 at one level, or one to one'],
     ['Times', 'Dutch afternoons, evenings and weekends'],
     ['Language', 'English'],
     ['First class', 'Free, no card']

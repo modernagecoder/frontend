@@ -14,7 +14,7 @@ Australia · Ages 13 to adult · Browser, Node and async
 
 JavaScript runs in every web browser and, through Node, on servers and laptops too. That makes it one of the most useful languages to know, and one of the easiest to get subtly wrong, because so much of it is asynchronous: code that asks for something and carries on before the answer arrives. Our JavaScript classes teach the language properly, live online, to Australian teens and adults, from the first variable to promises and async functions. This page sets out what is covered, measures one asynchronous mistake with real requests to the Australian Bureau of Statistics, and shows where JavaScript sits in the Australian Curriculum.
 
-At a glance: For: Teens 13+ and adults; Core: Values, functions, objects, arrays; Browser: Events and the page; Node: Scripts and servers; Async: Promises and await; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens 13+ and adults; Core: Values, functions, objects, arrays; Browser: Events and the page; Node: Scripts and servers; Async: Promises and await; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three JavaScript courses
 
@@ -244,7 +244,7 @@ Teachers work from India, and their day overlaps Australian afternoons and eveni
 - **Weekend** Longer build sessions.
 
 - **Free first class** A first script in the browser and advice on where to start.
-- **Small groups** Fifteen to twenty learners at the same stage.
+- **Groups** Fifteen to twenty learners at the same stage.
 - **One to one** For a particular project or pace.
 - **Console open** Learners read errors in the browser console from day one.
 - **Real data** Public Australian data in the async projects.

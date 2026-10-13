@@ -841,7 +841,7 @@ We hope you've found this page useful even if you don't end up booking. Kiwi par
 
 ## Live online coding classes for students in New Zealand
 
-Modern Age Coders teaches students worldwide over live video, in small 4–8 batches, with timings that suit your timezone. Explore other regions or book a free demo.
+Modern Age Coders teaches students worldwide over live video, in 15–20 batches, with timings that suit your timezone. Explore other regions or book a free demo.
 
 ### Coding classes in other countries
 

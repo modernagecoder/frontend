@@ -78,7 +78,7 @@ module.exports = {
     ['Versus National 5', 'Same marks, 30 more minutes'],
     ['Entry', 'National 5 or equivalent'],
     ['Set and marked by', 'Qualifications Scotland, since February 2026'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',

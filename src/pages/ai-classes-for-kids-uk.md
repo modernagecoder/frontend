@@ -14,7 +14,7 @@ United Kingdom · Ages 8 to 13 · Live online
 
 In November 2025 the Government wrote a sentence that has not yet reached a single classroom. Responding to the Curriculum and Assessment Review, it said that through the reformed curriculum "pupils will know from a young age how computers can be trained using data". That is a commitment, and it is a good one, because training a model from data is the one thing about AI that a nine-year-old can genuinely be taught rather than merely shown. It also happens to need no chatbot, no account and no sign-up, which matters more than most parents realise. This page explains what was promised, what a lesson on it actually looks like, and why nothing we teach a primary-age child requires them to hold an account with an AI company.
 
-At a glance: Ages: About 8 to 13; Teaches: How machines learn from data; Needs: A computer and an adult nearby; Accounts: None with any AI company; Group: Five to ten at one level; Or: One to one; Output: A model the child trained and broke; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Ages: About 8 to 13; Teaches: How machines learn from data; Needs: A computer and an adult nearby; Accounts: None with any AI company; Group: Fifteen to twenty at one level; Or: One to one; Output: A model the child trained and broke; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three AI courses for UK children
 

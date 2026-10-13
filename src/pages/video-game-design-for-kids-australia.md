@@ -14,7 +14,7 @@ Australia · Ages 7 to 16 · Design, then build
 
 Ask a child what they want to make and the answer is usually enormous: an open world, twenty weapons, a boss that changes shape. Game design is the skill of turning that dream into something a stranger can pick up and enjoy in the first thirty seconds. It is about rules, choices, difficulty and fairness, and it can be practised with paper and a pencil before a single line of code exists. This page is for Australian parents whose child loves inventing games more than anything. It explains what video game design actually involves, works through one design idea in detail, shows how playtesting with real players changes a game, and links that work to what the Digital Technologies curriculum asks for at school.
 
-At a glance: For: Children and teens, 7 to 16; First tool: Paper, then Scratch; Later tools: Roblox Studio, Python, Godot; Core skills: Rules, levels, feedback, fairness; Habit: Test on real players; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children and teens, 7 to 16; First tool: Paper, then Scratch; Later tools: Roblox Studio, Python, Godot; Core skills: Rules, levels, feedback, fairness; Habit: Test on real players; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that turn designs into playable games
 

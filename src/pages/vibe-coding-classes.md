@@ -12,7 +12,7 @@ Live online · batches of 15–20 · ages 8 to 65
 
 Vibe coding is building real apps, games and AI projects by directing AI, while genuinely learning the code underneath. Our live, small-batch classes turn kids, teens and college students into makers who understand what they ship. Three structured 12-week tracks. A free trial before you enrol.
 
-[Book a free trial class](/book-demo)See the three tracks** **Live**, not recorded** **4–8** students per batch** Real projects from **week one**** Certificate & portfolioChoose your track
+[Book a free trial class](/book-demo)See the three tracks** **Live**, not recorded** **15–20** students per batch** Real projects from **week one**** Certificate & portfolioChoose your track
 
 ## Every Modern Age Coders vibe coding course, in one place.
 
@@ -240,7 +240,7 @@ Why families choose us
 
 ## Built for depth, not just demos.
 
-#### Small live batches
+#### Live batches
 
 Just fifteen to twenty students per class, so every learner is seen, heard and helped. No one fades into the back row.
 
@@ -310,7 +310,7 @@ Whichever track you choose, the pricing is the same, with a free trial before yo
 
 Group₹1,499/month
 
-Live small-batch classes, two sessions a week.
+Live batch classes, two sessions a week.
 
 - ** Batches of 15–20 students
 - ** Two live classes per week

@@ -179,7 +179,7 @@ Adults document sources, grouping and aggregation rules.
 
 [MySQL Database](/courses/mysql-database-complete-masterclass-college)[Data Analytics Mathematics](/courses/data-analytics-mathematics-masterclass)Delivery
 
-## Live online work in a small group or private class
+## Live online work in a group or private class
 
 ### Free first class
 
@@ -217,7 +217,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 GroupUSD 100per month, 8 lessons
 
-Five to eight learners at a compatible level.
+Fifteen to twenty learners at a compatible level.
 
 PrivateUSD 150per month, 8 lessons
 

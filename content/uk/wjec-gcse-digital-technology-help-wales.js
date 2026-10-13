@@ -266,7 +266,7 @@ module.exports = {
       { h3: 'Tested as built', p: 'Testing recorded throughout every practice product, because Task 5 grades the testing as well as the result.' },
       { h3: 'Spreadsheets early', p: 'Data cleaning and analysis first, since Task 1 opens the unit and sets up everything after it.' },
       { h3: 'Stop before control', p: 'Practice ends before the school\'s supervised hours start, and lessons turn to Unit 1.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students at one rung, reviewing each other\'s practice products.' }
+      { h3: 'Groups', p: 'Fifteen to twenty students at one rung, reviewing each other\'s practice products.' }
     ]
   },
 

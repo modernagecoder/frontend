@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'Wherever the laptop is', p: 'Most learners join from home; a library table with headphones is a good plan B.' },
       { h3: 'Stages by their English names', p: 'Reception to Year 13, SATs, Year 9 options, GCSEs, A levels and T Levels are named as English schools name them. Teaching is in English.' },
       { h3: 'Try first, pay later', p: 'The first lesson is a real task with a teacher, ending with a suggested level and course. We ask for no card.' },
-      { h3: 'Matched, small groups', p: 'Fifteen to twenty learners at one level, from Hillingdon and far beyond, so a group exists at a workable hour.' },
+      { h3: 'Matched, groups', p: 'Fifteen to twenty learners at one level, from Hillingdon and far beyond, so a group exists at a workable hour.' },
       { h3: 'Two a week, school permitting', p: 'Most groups meet twice weekly, pausing for half terms, holidays and exams by agreement.' },
       { h3: 'Always in UK time', p: 'Teachers are in India, but the time on every invitation and reminder is the time on your own clock.' }
     ],

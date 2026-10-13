@@ -193,7 +193,7 @@ Everything happens on live video, so there is no travel into or out of Camden.
 - **Watched as it is written** Every program is typed during the class with the teacher following the learner's screen.
 - **Speaking the NSW language** Teachers refer to Stages and Years the way Camden schools do, so progress is easy to place.
 - **A first lesson on us** The opening class costs nothing; afterwards the teacher proposes where to start and when.
-- **Matched classmates** A group holds five to ten people working at the same stage; one-to-one is there for anyone who wants it.
+- **Matched classmates** A group holds fifteen to twenty people working at the same stage; one-to-one is there for anyone who wants it.
 - **Same slot each week** Classes run twice weekly, close to eight in a month, and any gaps are announced well in advance.
 - **Teachers in India** A 5pm Camden lesson is 11:30am India time under Sydney summer time and 12:30pm outside it.
 

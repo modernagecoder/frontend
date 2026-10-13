@@ -235,7 +235,7 @@ module.exports = {
       { h3: 'No journey involved', p: 'A pupil in Fermanagh gets the teaching a pupil in south Belfast gets, without an hour in a car in each direction.' },
       { h3: 'CCEA vocabulary used', p: 'Units, routes, controlled assessment and the terminal rule, named the way the specification names them.' },
       { h3: 'A free lesson first', p: 'Real teaching, ending with a frank view of level and a recommended course. Nothing is taken until after it.' },
-      { h3: 'Small groups by level', p: 'Fifteen to twenty learners at one stage, drawn from across the UK and beyond so a group exists at a usable hour.' },
+      { h3: 'Groups by level', p: 'Fifteen to twenty learners at one stage, drawn from across the UK and beyond so a group exists at a usable hour.' },
       { h3: 'Taught in English', p: 'We do not teach through Irish or Ulster-Scots. A bilingual learner is welcome; a lesson in another language is not something we offer.' },
       { h3: 'Agreed in UK time', p: 'Teachers work from India, four and a half hours ahead in summer and five and a half in winter, and every slot is fixed in UK time.' }
     ],

@@ -14,7 +14,7 @@ Scotland · National 5 · S4
 
 National 5 Computing Science has a structure that rewards reading it once, carefully. Software design and development is compulsory in both parts of the assessment, and between them those compulsory parts carry 80 of the 120 marks. After that, a candidate makes a choice between database design and web design in the question paper, and then makes that choice again in the assignment. The course specification says "Section 1 is mandatory, and candidates have the option to complete either section 2 or section 3" for the paper, and "Task 1 is mandatory, and candidates have the option to complete either task 2 or task 3" for the assignment. The two choices are independent. Most candidates make them by default, often late, and they are worth making on purpose. This page explains both, and how to prepare for the compulsory two-thirds that decides most of the grade.
 
-At a glance: Course: National 5 Computing Science C816 75; Question paper: 80 marks, 1 hour 30 minutes; Assignment: 40 marks, within 6 hours; Compulsory: Software design, 80 of 120 marks; Choose twice: Database or web, paper and assignment; Awarding body: Qualifications Scotland; Group: Five to ten at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Course: National 5 Computing Science C816 75; Question paper: 80 marks, 1 hour 30 minutes; Assignment: 40 marks, within 6 hours; Compulsory: Software design, 80 of 120 marks; Choose twice: Database or web, paper and assignment; Awarding body: Qualifications Scotland; Group: Fifteen to twenty at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for National 5 candidates
 

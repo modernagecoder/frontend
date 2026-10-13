@@ -228,7 +228,7 @@ module.exports = {
       { h3: 'Invented briefs', p: 'Every project we work on in class is made up, never the assessed one.' },
       { h3: 'Explain aloud', p: 'Students talk through code the way a walkthrough requires.' },
       { h3: 'Design before code', p: 'Pseudocode or a structure chart before the editor opens.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students at one level, reviewing each other\'s practice code.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students at one level, reviewing each other\'s practice code.' },
       { h3: 'One-to-one sessions', p: 'For one skill, such as data cleaning, that needs focused repair.' },
       { h3: 'No grade forecasts', p: 'We never predict a SACE grade; the work and the result belong to the student.' }
     ]

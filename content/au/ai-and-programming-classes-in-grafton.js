@@ -228,7 +228,7 @@ module.exports = {
       { q: 'Is there anything for primary school children?', a: 'Yes. Children from six begin with Scratch and block coding; the federated project suits teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Grafton?', a: 'No. We have no premises in Australia and claim none. All classes are live online; learners need a computer and a dependable connection, and our listed phone number is in India.', boiler: true },
       { q: 'What do Grafton AI classes cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. All of it is agreed before payment.', boiler: true },
-      { q: 'How many learners share a group?', a: 'Five to ten, grouped by level and goals rather than age or town. If no group time suits, one-to-one lessons are offered.', boiler: true }
+      { q: 'How many learners share a group?', a: 'Fifteen to twenty, grouped by level and goals rather than age or town. If no group time suits, one-to-one lessons are offered.', boiler: true }
     ]
   },
 

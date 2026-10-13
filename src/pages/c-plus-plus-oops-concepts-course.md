@@ -10,9 +10,9 @@ Object-Oriented Programming • **The 4 Pillars, in C++**
 
 # C++ OOP Concepts: Think in Objects
 
-Stop fearing classes, inheritance and virtual functions. Master Object-Oriented Programming in C++, encapsulation, abstraction, inheritance and polymorphism, explained simply and applied to real projects you build. The exact OOP concepts asked in coding interviews, taught live in small batches.
+Stop fearing classes, inheritance and virtual functions. Master Object-Oriented Programming in C++, encapsulation, abstraction, inheritance and polymorphism, explained simply and applied to real projects you build. The exact OOP concepts asked in coding interviews, taught live in batches.
 
-Book a Free OOP Demo ClassThe 4 Pillars**4**Pillars of OOP mastered**5–8**Students per batch**Live**Project-based teaching**Interview**The concepts that matter
+Book a Free OOP Demo ClassThe 4 Pillars**4**Pillars of OOP mastered**15–20**Students per batch**Live**Project-based teaching**Interview**The concepts that matter
 
 ## Quick answer
 

@@ -181,7 +181,7 @@ Our teachers are in India, where the clocks never change, so the UK sits five an
 - **Saturday or Sunday morning** Good for longer lessons and for finishing projects.
 
 - **The opening lesson** A proper problem worked on with a teacher, ending in an honest recommendation about the right starting point.
-- **Small groups** Fifteen to twenty learners working at the same level, some from the UK and some from further away, who learn to read each other's code.
+- **Groups** Fifteen to twenty learners working at the same level, some from the UK and some from further away, who learn to read each other's code.
 - **Private lessons** Useful when a deadline is close, when a learner is far ahead, or when an adult has one specific target.
 - **Local school language** Teachers talk about Year 10, S4, CCEA or WJEC as the learner does; all teaching is in English.
 - **An AI log** Any suggestion from an AI tool goes into a short log, with a note of what the learner kept and why.

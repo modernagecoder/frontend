@@ -14,7 +14,7 @@ Australia · Ages 13 to 18 · Use, check, build
 
 Australian teenagers already use AI, often daily, for homework help, coding and curiosity. Schools are responding: in New South Wales, the Department of Education has given students from Year 5 to Year 12 its own generative AI tool. What most teens have not been taught is how to check what AI tells them, when not to use it, and how it actually works underneath. Our AI classes for teens cover all three. Students learn to use AI tools well and within each provider's own age rules, to break an AI answer into claims and verify each one, and to build machine learning themselves in Python. This page explains the approach, works through one verification in full with a real score, and connects it to what the Australian Curriculum and NSW schools already expect.
 
-At a glance: For: Teens aged 13 to 18; Use: Generative AI, within age rules; Check: Every claim against a source; Build: Machine learning in Python; School: Never writes assessed work; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens aged 13 to 18; Use: Generative AI, within age rules; Check: Every claim against a source; Build: Machine learning in Python; School: Never writes assessed work; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three AI courses for Australian teenagers
 
@@ -211,7 +211,7 @@ Teachers are based in India, and the Indian working day overlaps Australian afte
 - **Weekend** Longer build sessions.
 
 - **Free first class** A short verification exercise and a first look at building a model.
-- **Small groups** Five to ten teens comparing checks and results.
+- **Groups** Fifteen to twenty teens comparing checks and results.
 - **One to one** For a specific project, subject or pace.
 - **Age rules respected** No student uses a tool below its stated minimum age.
 - **School rules first** We never produce assessed work and we teach honest disclosure.

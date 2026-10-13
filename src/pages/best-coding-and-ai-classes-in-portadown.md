@@ -137,7 +137,7 @@ A computer with a webcam and a connection that manages video calls is all you ne
 - **Hands on the keys** Every keystroke is the learner's own. Watching via screen share, the tutor keeps asking what each figure tells us.
 - **Level from the trial** The free lesson shows where to start, and any CCEA exam is noted.
 - **First lesson free** We charge nothing for the opening lesson and suggest a course at the end.
-- **Small matched classes** Fifteen to twenty learners from around the UK, grouped by stage.
+- **Matched classes** Fifteen to twenty learners from around the UK, grouped by stage.
 - **Two a week in term** Lessons stop for school holidays.
 - **Clock changes handled** When summer time starts or ends, the tutor adjusts and your lesson hour does not move.
 

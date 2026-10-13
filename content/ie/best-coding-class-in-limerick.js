@@ -235,7 +235,7 @@ module.exports = {
       { q: 'Can lessons pause for the Junior Cycle or Leaving Cert?', a: 'Yes, and most families do exactly that. Pauses for exam weeks and school holidays are agreed with the teacher, and the course is chosen around the school year.' },
       { q: 'Is there a Modern Age Coders classroom in Limerick?', a: 'No, and we do not claim one. Teaching happens live online only, with no premises anywhere in Ireland. The learner needs a laptop or desktop, working sound and a steady connection, and the telephone number shown is an Indian one.', boiler: true },
       { q: 'What do Limerick coding classes cost?', a: 'The first lesson is free. Continuing costs USD 100 a month for a group place, which covers two live lessons a week and roughly eight a month with fifteen to twenty learners, or USD 150 a month for the same schedule taught privately. Course, format and hour are agreed before anything is paid.', boiler: true },
-      { q: 'How many learners share a group?', a: 'Five to ten. Learners are matched on ability, working pace and what they want to build, not on age or address. Where no suitable group meets at a workable hour, private lessons are offered instead.', boiler: true }
+      { q: 'How many learners share a group?', a: 'Fifteen to twenty. Learners are matched on ability, working pace and what they want to build, not on age or address. Where no suitable group meets at a workable hour, private lessons are offered instead.', boiler: true }
     ]
   },
 

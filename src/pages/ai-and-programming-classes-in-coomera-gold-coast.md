@@ -176,7 +176,7 @@ Lessons are live online, which suits busy northern Gold Coast family schedules.
 - **Live teacher** Every class is run in real time with feedback on each learner's code.
 - **Term calendar** Classes follow Queensland terms and break for holidays.
 - **Free first class** One trial class, then a short written recommendation.
-- **Groups** Five to ten per level, or private teaching.
+- **Groups** Fifteen to twenty per level, or private teaching.
 - **Two a week** Roughly eight classes a month.
 - **India time** A 4pm Coomera class begins at 11:30am in India.
 

@@ -137,7 +137,7 @@ Every home in the borough can join with a computer and a steady connection.
 - **The learner decides** Prompts, code and tests all come from the student; the tutor watches the shared screen and asks what should happen next.
 - **Pitched by the trial** Year 4 to Year 13, the free lesson sets the starting topic and notes the exam board.
 - **Free to start** The first lesson costs nothing and ends with clear advice.
-- **A class that fits** Each group has five to ten UK learners progressing together.
+- **A class that fits** Each group has fifteen to twenty UK learners progressing together.
 - **Twice a week** No lessons in school holidays.
 - **A fixed time** The UK clock changes are ours to handle.
 

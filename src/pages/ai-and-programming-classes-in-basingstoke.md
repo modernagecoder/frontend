@@ -136,7 +136,7 @@ From Kingsclere to Chineham, the lesson arrives on a screen at home.
 - **Their own keystrokes** Programs are built by the learner, line by line, while the tutor watches over screen share and nudges with a question when needed.
 - **A level that fits** Year 4 pupils and Year 13 students alike begin at a point set by their school year and the trial, with their own exam board in view.
 - **Nothing to pay first** A complete opening lesson costs nothing, and you finish it knowing exactly which course we suggest and why.
-- **One-stage groups** Five to ten UK learners, all at the same level.
+- **One-stage groups** Fifteen to twenty UK learners, all at the same level.
 - **Twice weekly in term** Two lessons a week during term; school holidays kept free.
 - **Constant time** Our teachers absorb the UK clock changes, so your lesson stays put.
 

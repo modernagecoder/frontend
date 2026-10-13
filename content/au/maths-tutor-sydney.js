@@ -337,7 +337,7 @@ module.exports = {
               p: 'A private lesson at a fixed weekly time, built around one learner\'s gaps or goals. Useful before an HSC exam block or after a difficult topic test.'
             },
             {
-              h3: 'Small groups',
+              h3: 'Groups',
               p: 'Fifteen to twenty learners at the same level, with the same teacher each week. Students hear other people\'s questions, which often answer their own.'
             },
             {

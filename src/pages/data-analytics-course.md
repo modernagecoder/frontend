@@ -12,7 +12,7 @@ Data Analytics • **turn data into decisions**
 
 Data is everywhere, analysts who can read it get hired. Learn SQL, Python with pandas, visualization and dashboards, and the analytical thinking that turns raw numbers into business decisions. Practical, hands-on, and built on real datasets, live with a mentor.
 
-Book a Free DemoSee the Roadmap**SQL**Query any data**5–8**Students per batch**pandas**Analyse in Python**Live**Mentor-led
+Book a Free DemoSee the Roadmap**SQL**Query any data**15–20**Students per batch**pandas**Analyse in Python**Live**Mentor-led
 
 ## Quick answer
 

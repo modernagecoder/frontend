@@ -49,7 +49,7 @@ module.exports = {
     ['Standard', 'Licences respected, limits measured'],
     ['For', 'Confident teens, students, adults'],
     ['Format', 'Live video with a teacher'],
-    ['Groups', 'Five to ten, or one to one'],
+    ['Groups', 'Fifteen to twenty, or one to one'],
     ['Language', 'English'],
     ['Start', 'A free first lesson']
   ],

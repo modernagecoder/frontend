@@ -210,7 +210,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 GroupUSD 100per month, 8 lessons
 
-Five to eight learners matched by working level.
+Fifteen to twenty learners matched by working level.
 
 PrivateUSD 150per month, 8 lessons
 

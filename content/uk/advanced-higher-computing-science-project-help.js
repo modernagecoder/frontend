@@ -85,7 +85,7 @@ module.exports = {
     ['Requirements', 'Ten per project type, set for you'],
     ['Your project', 'We never see or touch it'],
     ['Entry', 'Higher or equivalent'],
-    ['Group', 'Five to ten at one stage'],
+    ['Group', 'Fifteen to twenty at one stage'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',

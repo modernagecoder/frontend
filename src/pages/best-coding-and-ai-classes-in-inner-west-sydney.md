@@ -242,7 +242,7 @@ The first lesson is free. After that, group lessons cost USD 100 a month for two
 
 ### How many learners share a group?
 
-Five to ten, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner's time.
+Fifteen to twenty, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner's time.
 
 ### Do you teach adults?
 

@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'Learners do the typing', p: 'Each program is written, prompted and run by the student; the tutor sees their screen and poses the next question.' },
       { h3: 'Level over year group', p: 'The trial shows where to begin, whether the learner is in Year 3 or Year 13, and we note any exam board.' },
       { h3: 'Nothing to pay at first', p: 'The opening lesson is free and closes with our suggestion for what to take.' },
-      { h3: 'Classes by stage', p: 'Groups hold five to ten UK learners who are at a similar point.' },
+      { h3: 'Classes by stage', p: 'Groups hold fifteen to twenty UK learners who are at a similar point.' },
       { h3: 'Twice weekly', p: 'Lessons pause during school holidays.' },
       { h3: 'Steady lesson times', p: 'Our tutors follow the UK clock changes, so your slot stays put in spring and autumn.' }
     ],

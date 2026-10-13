@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'The learner decides', p: 'Prompts, code and tests all come from the student; the tutor watches the shared screen and asks what should happen next.' },
       { h3: 'Pitched by the trial', p: 'Year 4 to Year 13, the free lesson sets the starting topic and notes the exam board.' },
       { h3: 'Free to start', p: 'The first lesson costs nothing and ends with clear advice.' },
-      { h3: 'A class that fits', p: 'Each group has five to ten UK learners progressing together.' },
+      { h3: 'A class that fits', p: 'Each group has fifteen to twenty UK learners progressing together.' },
       { h3: 'Twice a week', p: 'No lessons in school holidays.' },
       { h3: 'A fixed time', p: 'The UK clock changes are ours to handle.' }
     ],

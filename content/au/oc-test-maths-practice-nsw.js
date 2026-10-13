@@ -211,7 +211,7 @@ module.exports = {
     cells: [
       { h3: 'Short tasks', p: 'Young children work in bursts with plenty of variety.' },
       { h3: 'Lists on paper', p: 'Children learn to write possibilities down in order.' },
-      { h3: 'Fifteen to twenty per group', p: 'Small groups where every child is heard.' },
+      { h3: 'Fifteen to twenty per group', p: 'Groups where every child is heard.' },
       { h3: 'One-to-one lessons', p: 'For a child who prefers quiet, individual time.' },
       { h3: 'Not OC coaching', p: 'We teach maths, in line with the department\'s advice.' },
       { h3: 'No placement claims', p: 'Placement is the department\'s decision alone.' }

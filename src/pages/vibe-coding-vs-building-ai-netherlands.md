@@ -14,7 +14,7 @@ Netherlands · Generative AI · Live online
 
 Vibe coding means describing what you want to an AI tool and letting it write the code. It is quick, it is fun, and it gets beginners to a working app in an afternoon. Building AI means something else: understanding how a model learns, testing whether it is right, and knowing when not to trust it. The Dutch government has walked the line between the two in public. In December 2023 it took a cautious provisional position on generative AI; in January 2024 it presented a vision on the technology as one of the first EU member states to do so; in April 2025 it gave civil servants more room, on condition of clear risk analyses and reliable models, and called its guidance a living document. The lesson for a learner is the same one the government drew: the tools are worth using, and someone has to understand them well enough to judge them. This page explains both skills and how our live online classes teach them, in that order.
 
-At a glance: Starts with: AI-assisted coding; Moves to: Python written by hand; Then: Models trained and tested; Aim: Judging what AI produces; For: Kids, teens, students, adults; Format: Live video with a teacher; Groups: Five to ten, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Starts with: AI-assisted coding; Moves to: Python written by hand; Then: Models trained and tested; Aim: Judging what AI produces; For: Kids, teens, students, adults; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses, from vibe coding to building AI
 
@@ -150,7 +150,7 @@ Teachers work from India, which does not use summer time, so they sit three and 
 - **Weekend** Saturday or Sunday, for longer building sessions.
 
 - **A free first lesson** The learner builds something with an AI assistant and then explains it to the teacher, which shows quickly which rung they are on.
-- **Small groups by level** Fifteen to twenty learners at the same stage, from several countries, comparing what their tools produced.
+- **Groups by level** Fifteen to twenty learners at the same stage, from several countries, comparing what their tools produced.
 - **One to one when it helps** For a learner far ahead of their age, a specific project, or an adult with a deadline.
 - **Tools used openly** Assistants are part of the lesson, not a secret. The teacher shows when to use them and when to switch them off.
 - **Data handled carefully** Learners are taught what not to paste into an online tool, from passwords to other people's personal data.

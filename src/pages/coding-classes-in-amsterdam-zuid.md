@@ -239,7 +239,7 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 ### How many learners are in a group?
 
-Five to ten, matched on level, pace and goal rather than on age, school or neighbourhood. One-to-one means a single learner with a single teacher. If no group at the right level happens to be running, a family can take one-to-one lessons or wait for the next group to form.
+Fifteen to twenty, matched on level, pace and goal rather than on age, school or neighbourhood. One-to-one means a single learner with a single teacher. If no group at the right level happens to be running, a family can take one-to-one lessons or wait for the next group to form.
 
 ## North to the canals, east to the islands, south to Amstelveen
 

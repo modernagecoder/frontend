@@ -218,7 +218,7 @@ module.exports = {
       { h3: 'Reasoning on paper', p: 'Every step written, because the criteria reward communication.' },
       { h3: 'Simulate, then prove', p: 'Short programs check results before the algebra explains them.' },
       { h3: 'Technology with judgement', p: 'Calculator answers interpreted, never just copied.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students at one level, explaining methods aloud.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students at one level, explaining methods aloud.' },
       { h3: 'One-to-one sessions', p: 'For one topic that needs repair before a task.' },
       { h3: 'No grade forecasts', p: 'We never predict a SACE grade or an ATAR.' }
     ]

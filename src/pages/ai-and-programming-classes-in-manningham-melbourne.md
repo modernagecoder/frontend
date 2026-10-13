@@ -228,7 +228,7 @@ The first lesson is free. Group classes then cost USD 100 a month for two live l
 
 ### How many learners in a group?
 
-Five to ten, grouped by level, pace and goals, with private lessons when no group time suits.
+Fifteen to twenty, grouped by level, pace and goals, with private lessons when no group time suits.
 
 ### Can adults study machine learning with you?
 

@@ -1,10 +1,10 @@
 ---
 title: "Live Online Coding & Maths Classes near Sreebhumi, Kolkata"
-description: "Premium live online coding & maths classes near Sreebhumi, Kolkata. Small 6-8 batches, project-based, taught by full-time engineers. Free demo, from ₹1,499/mo."
+description: "Premium live online coding & maths classes near Sreebhumi, Kolkata. 15-20 batches, project-based, taught by full-time engineers. Free demo, from ₹1,499/mo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-sreebhumi-kolkata
 source: src/pages/coding-classes-near-sreebhumi-kolkata.html
 ---
-> Premium live online coding & maths classes near Sreebhumi, Kolkata. Small 6-8 batches, project-based, taught by full-time engineers. Free demo, from ₹1,499/mo.
+> Premium live online coding & maths classes near Sreebhumi, Kolkata. 15-20 batches, project-based, taught by full-time engineers. Free demo, from ₹1,499/mo.
 
 LIVE ONLINE · SREEBHUMI · LAKE TOWN · VIP ROAD
 

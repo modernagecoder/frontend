@@ -46,7 +46,7 @@ module.exports = {
     ['Paths', 'Use AI well, automate, change career'],
     ['Subjects', 'Python, data, AI tools, ML, software'],
     ['Format', 'Live video with a teacher'],
-    ['Groups', '5 to 10 at one level, or one to one'],
+    ['Groups', '15 to 20 at one level, or one to one'],
     ['Times', 'Evenings and weekends'],
     ['Language', 'English'],
     ['Start', 'A free first lesson']

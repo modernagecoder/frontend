@@ -181,7 +181,7 @@ The capital is spread across separate town centres, and an online lesson brings 
 - **No trip across town** A learner near Lake Burley Griffin and one in Tuggeranong share the lesson from home, with nothing to travel to.
 - **Familiar year levels** Teachers use the year levels ACT schools use, from Year 7 to Year 12, and work around the territory's school terms. All teaching is in English.
 - **A genuine trial** You complete a real task with a teacher and leave with a suggested level, course and lesson time. No card details are taken.
-- **Small level-matched groups** Fifteen to twenty learners at the same stage, from Canberra and further afield, so a suitable evening slot is easy to find.
+- **Level-matched groups** Fifteen to twenty learners at the same stage, from Canberra and further afield, so a suitable evening slot is easy to find.
 - **Two lessons a week** Roughly eight lessons a month at a regular time. Holidays and exam weeks are planned with the teacher ahead of time.
 - **India time, four and a half or five and a half hours behind** Canberra is 4 hours 30 minutes ahead of India time in winter and 5 hours 30 minutes ahead from Sunday 4 October 2026 until Sunday 4 April 2027.
 

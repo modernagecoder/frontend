@@ -14,7 +14,7 @@ Ireland · Mobile apps · Ages 8 to adult
 
 Almost nobody learning to build apps ever sees a real one from the inside. Ireland is unusual here: when the State built its COVID Tracker app, it published the source code on GitHub on 26 June 2020, eleven days before the app itself appeared on the App Store and Google Play. Anyone can still read it. That single decision makes this country a better place to learn app development than most, because the gap between a tutorial app and a shipped one, the permissions, the privacy notices, the testing, the updates, the eventual retirement, is exactly where beginners are usually left guessing. This page uses two Irish public apps as worked examples, sets out what the national figures say about how people here actually use their phones, and explains how our classes take a learner from an idea to something published.
 
-At a glance: For: Ages 8 to adult; Builds: A real app, published; Covers: Design, code, test, release; Platforms: Android and iOS; Group: Five to ten at one level; Or: One to one; Hours: After school and evenings, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 8 to adult; Builds: A real app, published; Covers: Design, code, test, release; Platforms: Android and iOS; Group: Fifteen to twenty at one level; Or: One to one; Hours: After school and evenings, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three ways to build an app
 

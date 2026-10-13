@@ -133,7 +133,7 @@ A laptop or desktop with a webcam and an ordinary home connection is enough.
 - **Plan, then type** Learners write a short outline first and then the code themselves, sharing their screen so the tutor can question each step.
 - **Level found in the trial** We see what the learner can already do and note any exam board.
 - **Nothing to pay at first** The trial lesson is complete and free, and ends with a named course.
-- **Small, matched classes** Five to ten people at one stage, joining from all over Britain.
+- **Matched classes** Fifteen to twenty people at one stage, joining from all over Britain.
 - **Twice weekly** Paused in the school holidays when you ask.
 - **Fixed UK time** Clock changes are absorbed at the tutors' end.
 

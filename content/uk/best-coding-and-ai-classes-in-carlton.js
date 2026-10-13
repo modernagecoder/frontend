@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'The learner drives', p: 'Code is typed and run by the student while the tutor watches the screen share and probes the reasoning.' },
       { h3: 'Level found first', p: 'We use the trial to see where to begin and to write down the exam board if there is one.' },
       { h3: 'Trial without payment', p: 'Session one costs nothing and ends with the course we think fits.' },
-      { h3: 'Small matched classes', p: 'Groups are fifteen to twenty learners at a similar stage, drawn from all over the UK.' },
+      { h3: 'Matched classes', p: 'Groups are fifteen to twenty learners at a similar stage, drawn from all over the UK.' },
       { h3: 'Two sessions a week', p: 'Term-time rhythm, with school holidays left free on request.' },
       { h3: 'One fixed hour', p: 'Tutors move their own clocks when British Summer Time changes; yours stays as booked.' }
     ],

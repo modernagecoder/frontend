@@ -14,7 +14,7 @@ Australia · Ages 13 to 18 · Defensive and ethical
 
 Teenagers are online all day, and most of what goes wrong for them online is not clever hacking. It is a convincing message, a web address that is nearly right, or a password used in three places. Our cyber security course for teens teaches the defensive side of the field: how accounts are protected, how phishing works, how to recognise a lookalike address, and how real systems keep data safe. Every practical exercise happens on the student's own work or on systems built for practice. This page explains the approach, measures three ways of catching fake web addresses, and sets out what Australian law and the Australian Curriculum say.
 
-At a glance: For: Teens aged 13 to 18; Focus: Defence and ethics; Accounts: Passwords and multi-factor sign-in; Threats: Phishing and lookalike domains; Systems: How data is secured; Practice: Own projects and organised challenges; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens aged 13 to 18; Focus: Defence and ethics; Accounts: Passwords and multi-factor sign-in; Threats: Phishing and lookalike domains; Systems: How data is secured; Practice: Own projects and organised challenges; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for a teen interested in security
 
@@ -228,7 +228,7 @@ Teachers are based in India and teach Australian afternoons and evenings. Times 
 - **Weekend** Longer practice sessions.
 
 - **Free first class** A suspicious message taken apart safely, and a first look at domains.
-- **Small groups** Five to ten teens comparing what they spotted.
+- **Groups** Fifteen to twenty teens comparing what they spotted.
 - **One to one** For a particular interest or pace.
 - **Permission first** Every exercise is on the student's own work or a practice system.
 - **Parents informed** Families can see the topics and rules for each term.

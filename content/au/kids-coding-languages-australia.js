@@ -57,7 +57,7 @@ module.exports = {
     ['For the web', 'JavaScript'],
     ['For Roblox', 'Luau, a dialect of Lua'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -256,7 +256,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'The teacher tries blocks and text with your child and recommends a language from what they see.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children at a similar level and learning the same language.' },
+      { h3: 'Groups', p: 'Fifteen to twenty children at a similar level and learning the same language.' },
       { h3: 'One to one', p: 'Useful when a child already knows one language and wants to move quickly to a second.' },
       { h3: 'Code they type', p: 'Teachers explain and question. The child types or snaps in every line.' },
       { h3: 'Watch a lesson', p: 'Every class happens live, so a parent can pull up a chair whenever they like.' },

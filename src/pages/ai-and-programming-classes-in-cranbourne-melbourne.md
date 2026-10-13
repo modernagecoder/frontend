@@ -238,7 +238,7 @@ The first lesson is free. Group classes then cost USD 100 a month for two live l
 
 ### How many learners are in a group?
 
-Five to ten, matched by level, pace and goal. If no group fits the learner's time, one-to-one lessons are offered.
+Fifteen to twenty, matched by level, pace and goal. If no group fits the learner's time, one-to-one lessons are offered.
 
 ### Can Copilot Studio be learned in a Cranbourne group?
 

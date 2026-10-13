@@ -14,7 +14,7 @@ UK · Ages 9 to 13 · Physical computing
 
 If your child is in primary school in the UK, there is a good chance they have held a BBC micro:bit. In 2023 the BBC, the Micro:bit Educational Foundation and Nominet offered a free class set of 30 to every primary school, almost 700,000 devices, and nearly 20,000 schools signed up. Most children meet it through Microsoft MakeCode, whose colour-coded blocks, the Foundation notes, "are familiar to anyone who's previously used Scratch". What fewer families know is that the same little board also runs Python. The Foundation's own Python editor had over a million uses in its first year, and the Foundation calls Python "a great way to deepen your programming skills through text-based coding". So the step from blocks to real, typed code can start on a device your child already understands. This page explains that step, and the one after it.
 
-At a glance: For: Children who started on the micro:bit; Usual age: About 9 to 13; UK primary giveaway: 30 per school, almost 700,000 devices; Schools signed up: Nearly 20,000; Next language: Python, on the board and then the computer; Boards: We do not sell or ship them; Group: Five to ten at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children who started on the micro:bit; Usual age: About 9 to 13; UK primary giveaway: 30 per school, almost 700,000 devices; Schools signed up: Nearly 20,000; Next language: Python, on the board and then the computer; Boards: We do not sell or ship them; Group: Fifteen to twenty at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for micro:bit graduates
 
@@ -191,7 +191,7 @@ Teaching happens from India, which does not change its clocks, leaving the UK fo
 - **Errors as clues** Error messages read together until they stop being scary.
 - **Code reviewed** A teacher reads every child's program and gives specific next steps.
 - **Their own ideas** Children choose projects; the teacher picks the skills each one needs.
-- **Small groups** Fifteen to twenty children at one level.
+- **Groups** Fifteen to twenty children at one level.
 
 ## Fees for Python lessons
 

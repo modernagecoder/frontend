@@ -14,7 +14,7 @@ Australia · Ages 18 to 67 · Coding around work
 
 Most adults who want to code are not starting a new degree. They want to automate a report that eats every Monday, make sense of a spreadsheet that has grown too large, build a website for a business or club, or simply understand the technology their work now depends on. Our live online coding classes for adults in Australia, from 18 to 67, are built around that reality: short lessons that fit around work, projects drawn from real tasks, and a teacher who explains why as well as how. This page looks at what national figures say about adults and learning, compares the routes open to an Australian adult, and works through one everyday data problem from start to finish.
 
-At a glance: For: Adults, 18 to 67; Experience: None needed; Languages: Python, SQL, HTML and JavaScript; Projects: From your own tasks; Timing: Evenings and weekends; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Adults, 18 to 67; Experience: None needed; Languages: Python, SQL, HTML and JavaScript; Projects: From your own tasks; Timing: Evenings and weekends; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses adults start with most
 
@@ -215,7 +215,7 @@ Our teachers work from India, and their day lines up with Australian evenings an
 - **Lunchtime** Short one-to-one lessons, by arrangement.
 
 - **Free first class** A small program running on your own machine, and a plan.
-- **Adult groups** Five to ten adults at a similar stage.
+- **Adult groups** Fifteen to twenty adults at a similar stage.
 - **One to one** Built around a work project or a deadline.
 - **Real tasks** Projects drawn from your own week.
 - **Privacy first** We practise on generated data, never real customer records.

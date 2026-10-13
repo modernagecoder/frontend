@@ -134,7 +134,7 @@ The kit list is short: a laptop or desktop, and internet fast enough for a video
 - **Student-led typing** With the screen shared, the learner writes prompts and code; the tutor steers by asking questions.
 - **Trial sets the start** We learn in the first lesson what can be taken as known, and ask about exam boards.
 - **Free opening lesson** It is a real lesson, without charge, that ends in a course suggestion.
-- **Same-level classes** Groups have five to ten UK learners who are at one stage together.
+- **Same-level classes** Groups have fifteen to twenty UK learners who are at one stage together.
 - **Two lessons weekly** Holiday weeks are skipped when you let us know.
 - **Time that stays put** Clock changes in March and October do not move your slot.
 

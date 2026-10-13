@@ -136,7 +136,7 @@ All lessons are video calls. A learner needs a computer, a camera and a reasonab
 - **Learner-led typing** The learner shares a screen and writes the code. The tutor steers by asking questions.
 - **Free first session** It is a real lesson, and we use it to work out which course fits.
 - **Book without paying** No card or deposit is needed for the trial.
-- **Small matched groups** Fifteen to twenty learners at one level, joining from across the country.
+- **Matched groups** Fifteen to twenty learners at one level, joining from across the country.
 - **Twice each week** In school terms, with Somerset holiday weeks skipped when you send the dates.
 - **Your time stays fixed** Tutors move their own schedule at the clock change so yours is untouched.
 
@@ -147,7 +147,7 @@ All lessons are video calls. A learner needs a computer, a camera and a reasonab
 The international fee below is what all learners outside India pay.
 
 - First class: USD 0. Free first lesson, full length, ending in a course suggestion.
-- Group tuition: USD 100 a month. Small group, fifteen to twenty learners, close to eight lessons monthly.
+- Group tuition: USD 100 a month. Group, fifteen to twenty learners, close to eight lessons monthly.
 - Private tuition: USD 150 a month. Your own tutor, close to eight lessons monthly.
 
 We price in US dollars and publish no figure in sterling. Charging starts after the trial, when you have picked a course and a regular time. The pricing page explains holiday breaks, missed lessons and changing between formats.

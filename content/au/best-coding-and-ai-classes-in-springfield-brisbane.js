@@ -279,7 +279,7 @@ module.exports = {
       { h3: 'Real-time teaching', p: 'The teacher sees and discusses the learner\'s screen throughout.' },
       { h3: 'Terms and breaks', p: 'Lessons run through Queensland terms and rest in the school holidays.' },
       { h3: 'Trial at no cost', p: 'One free lesson and a written recommendation afterwards.' },
-      { h3: 'Small classes', p: 'Fifteen to twenty learners of one level, or one to one.' },
+      { h3: 'Classes', p: 'Fifteen to twenty learners of one level, or one to one.' },
       { h3: 'Weekly pattern', p: 'Two lessons each week, around eight a month.' },
       { h3: 'Across time zones', p: 'A 4pm Springfield class is 11:30am for our teachers in India.' }
     ],

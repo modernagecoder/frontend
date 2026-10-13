@@ -214,7 +214,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'The opening lesson', p: 'A proper problem worked on with a teacher, ending in an honest recommendation about the right starting point.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners working at the same level, some from the UK and some from further away, who learn to read each other\'s code.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners working at the same level, some from the UK and some from further away, who learn to read each other\'s code.' },
       { h3: 'Private lessons', p: 'Useful when a deadline is close, when a learner is far ahead, or when an adult has one specific target.' },
       { h3: 'Local school language', p: 'Teachers talk about Year 10, S4, CCEA or WJEC as the learner does; all teaching is in English.' },
       { h3: 'An AI log', p: 'Any suggestion from an AI tool goes into a short log, with a note of what the learner kept and why.' },

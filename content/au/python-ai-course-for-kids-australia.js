@@ -60,7 +60,7 @@ module.exports = {
     ['Accounts', 'No adult AI chatbots needed'],
     ['Before this', 'Scratch helps, not required'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -260,7 +260,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'Your child writes a first Python program, and a first rule, with a teacher.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children comparing how their models perform.' },
+      { h3: 'Groups', p: 'Fifteen to twenty children comparing how their models perform.' },
       { h3: 'Private lessons', p: 'When your child has one AI idea they want to chase.' },
       { h3: 'Code by the child', p: 'Teachers explain and question; children type every line.' },
       { h3: 'No chatbot accounts', p: 'Everything runs in the child\'s own Python code.' },

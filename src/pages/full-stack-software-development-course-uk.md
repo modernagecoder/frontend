@@ -14,7 +14,7 @@ UK · Teens and adults · Front end to database
 
 Most full stack courses measure success by whether the app runs. The UK government publishes a stricter test for its own web services, and anyone can read it. Its Service Standard sets 14 points, among them "Make sure everyone can use the service" and "Make new source code open", and its guidance on accessibility is blunt about why the first matters: "At least 1 in 5 people in the UK have a long term illness, impairment or disability". For public sector websites, meeting the Web Content Accessibility Guidelines at level WCAG 2.2 AA, and publishing an accessibility statement, is how a site meets the legal requirement; the same guidance reports a study that found "4 in 10 local council homepages failed basic tests for accessibility". Our course trains UK teenagers and adults to build complete web applications, front end, back end and database, and treats that published standard as the quality bar: keyboard-navigable interfaces, readable contrast, real HTML forms, code kept in the open without its secrets.
 
-At a glance: Front end: HTML, CSS, JavaScript, React; Back end: Node and Express, APIs; Data: SQL and MongoDB; Quality bar: WCAG 2.2 AA accessibility; Practice: Code in the open, secrets out; For: Teens 13 to 18 and adults; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: Front end: HTML, CSS, JavaScript, React; Back end: Node and Express, APIs; Data: SQL and MongoDB; Quality bar: WCAG 2.2 AA accessibility; Practice: Code in the open, secrets out; For: Teens 13 to 18 and adults; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three ways into full stack development
 
@@ -199,7 +199,7 @@ The team teaches from India, which has no daylight saving. That gap is four and 
 - **Saturday or Sunday** Two-hour blocks for wiring front end to back end.
 
 - **A free first class** We check your level and choose a route through the stack with you.
-- **Small groups** Fifteen to twenty learners of similar age and level.
+- **Groups** Fifteen to twenty learners of similar age and level.
 - **One to one** For a career switch deadline or a faster pace.
 - **Accessibility checked** Every project is tried with a keyboard and checked for contrast before it counts as done.
 - **Your repository** Projects live in your own GitHub account, with secrets kept out.

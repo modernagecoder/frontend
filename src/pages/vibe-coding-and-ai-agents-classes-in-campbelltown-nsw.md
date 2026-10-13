@@ -170,7 +170,7 @@ Online lessons reach Campbelltown without a trip into the city.
 - **Booked in Sydney time** Slots are agreed in Campbelltown time and stay fixed when the clocks change.
 - **Matched to the NSW syllabus years** Lessons are pitched at the learner's NSW year, Year 11 and 12 HSC candidates included, and taught in English.
 - **Start by building** The free session is practical work with an AI tool and a teacher. A course and time are suggested at the end, and no payment details are ever taken.
-- **Level-based groups** Each class holds five to ten people working at the same stage, recruited widely enough that every stage gets a sensible hour.
+- **Level-based groups** Each class holds fifteen to twenty people working at the same stage, recruited widely enough that every stage gets a sensible hour.
 - **Twice weekly** Around eight sessions each month, with holidays and exams scheduled around in advance.
 - **Age-appropriate tools** Under-18s only use AI tools whose terms allow their age, and teachers choose accordingly.
 

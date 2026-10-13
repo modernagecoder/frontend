@@ -66,7 +66,7 @@ module.exports = {
     ['Completion test', 'Non-calculator and calculator papers, 55 per cent'],
     ['Grades', 'A*, A, B, C*, C, D, E, F, G'],
     ['Pathway', 'Fixes the grades available'],
-    ['Group', 'Five to ten at one stage'],
+    ['Group', 'Fifteen to twenty at one stage'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
@@ -242,7 +242,7 @@ module.exports = {
       { h3: 'One clear answer', p: 'Abandoned attempts crossed out, so the better work is the one marked.' },
       { h3: 'Instruction words', p: 'Estimate, show and explain treated as instructions, never as decoration.' },
       { h3: 'Honest placement', p: 'A clear view of whether a pupil is secure on their pathway or ready for the next.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty pupils at one rung, on the same pathway.' }
+      { h3: 'Groups', p: 'Fifteen to twenty pupils at one rung, on the same pathway.' }
     ]
   },
 

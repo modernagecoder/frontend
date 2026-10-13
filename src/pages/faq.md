@@ -17,7 +17,7 @@ Straight answers about our live online classes, for parents, students and workin
 
 In one paragraph
 
-Modern Age Coders teaches live online coding and maths to students aged 6 to 67. Every class is one hour with a real mentor, in a group of 15 to 20, a small batch of 3 to 4, or 1-on-1. Students build projects, a recording is provided for any missed class, parents get regular progress updates, and every student receives a certificate on completing a course. We are rated 4.9 across 547 Google reviews.
+Modern Age Coders teaches live online coding and maths to students aged 6 to 67. Every class is one hour with a real mentor, in a group of 15 to 20, a mini batch of up to 6, or 1-on-1. Students build projects, a recording is provided for any missed class, parents get regular progress updates, and every student receives a certificate on completing a course. We are rated 4.9 across 547 Google reviews.
 
 - About Modern Age Coders 5
 - Classes and teaching 6
@@ -87,7 +87,7 @@ Every class is one hour. Group classes and small batches meet 8 times a month, w
 
 How many students are in a batch?
 
-A group class has 15 to 20 students and a small batch has 3 to 4. You can also choose 1-on-1 classes. Read [small batches and 1-on-1 classes](/small-batches-and-1-on-1-classes) to see which suits your child.
+A group class has 15 to 20 students and a mini batch has up to 6. You can also choose 1-on-1 classes. Read [batches and 1-on-1 classes](/batches-and-1-on-1-classes) to see which suits your child.
 
 Are classes live or pre-recorded?
 

@@ -14,7 +14,7 @@ Australia · Ages 13 to 18 · Projects, tests, real code
 
 By thirteen, many Australian students have outgrown block coding and want to write the real thing: games with proper logic, websites that do something, programs that solve problems they care about. Our live online coding classes for teens aged 13 to 18 teach text languages through projects, and they treat testing as part of programming rather than an afterthought. That matches what the Australian Curriculum asks of Years 9 and 10, and it is the habit senior computing subjects reward. This page sets out what those years expect, works through a small bug in a classic grid game with a simulation of 200,000 boards, maps the language paths that suit different starting points, and explains the tools and rules we follow with under-18s.
 
-At a glance: For: Teens aged 13 to 18; Languages: Python, JavaScript, Java, C++; Method: Projects with tests; Habits: Version control, debugging; School: Never writes assessed work; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens aged 13 to 18; Languages: Python, JavaScript, Java, C++; Method: Projects with tests; Habits: Version control, debugging; School: Never writes assessed work; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three first courses for teenage coders
 
@@ -210,7 +210,7 @@ The teaching team is in India, and its working hours cover Australian after-scho
 - **Weekend** Longer project and testing sessions.
 
 - **Free first class** A short coding task that shows the right starting level.
-- **Small groups** Five to ten teens, reviewing each other's code.
+- **Groups** Fifteen to twenty teens, reviewing each other's code.
 - **One to one** For a project, a competition or a faster pace.
 - **Tests first** Each project starts with the cases it must pass.
 - **Age rules kept** No service is used below its stated minimum age.

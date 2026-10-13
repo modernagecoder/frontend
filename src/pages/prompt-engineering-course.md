@@ -12,7 +12,7 @@ Prompt Engineering • **get more from every LLM**
 
 Prompting is a real skill, and a valuable one. Learn to get reliable, high-quality results from ChatGPT, Claude and other LLMs with prompt patterns, system prompts, few-shot and chain-of-thought, then turn prompts into software with LLM APIs in Python. Practical, hands-on, mentor-led.
 
-Book a Free DemoSee the Roadmap**patterns**Reliable results**5–8**Students per batch**APIs**Build, not just chat**Live**Mentor-led
+Book a Free DemoSee the Roadmap**patterns**Reliable results**15–20**Students per batch**APIs**Build, not just chat**Live**Mentor-led
 
 ## Quick answer
 

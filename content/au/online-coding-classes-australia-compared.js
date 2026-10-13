@@ -54,7 +54,7 @@ module.exports = {
   spec: [
     ['For', 'Ages 6 to 67'],
     ['Our format', 'Live online lessons'],
-    ['Group size', 'Five to ten, or one to one'],
+    ['Group size', 'Fifteen to twenty, or one to one'],
     ['Teacher', 'The same one each week'],
     ['Contract', 'Monthly, no term lock-in'],
     ['Joining fee', 'None'],

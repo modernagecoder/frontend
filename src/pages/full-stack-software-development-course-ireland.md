@@ -14,7 +14,7 @@ Ireland · Full stack · Live online
 
 Ask how many people write software in Ireland and you can get three correct answers. The Central Statistics Office counts 176,600 people working in information and communication in the second quarter of 2026. Inside that, the division that is actually software, computer programming and consultancy, holds 119,600. SOLAS, counting the occupation rather than the sector, put programmers and software developers at 54,800 in 2024. Each number counts something different, and the difference is the kind of thing a full stack developer has to notice every day, because the same trap lives in every database and every dashboard. This page does two things: it reads Ireland's software numbers carefully, including the parts that are not flattering, and it sets out what a full stack course should actually teach, ending with a real Irish system whose code you can read this evening.
 
-At a glance: For: Teens, students and adults; Front end: HTML, CSS, JavaScript, React; Back end: Server code and APIs; Data: SQL databases, properly modelled; Practice: Version control and deployment; Group: Five to ten at one level; Or: One to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens, students and adults; Front end: HTML, CSS, JavaScript, React; Back end: Server code and APIs; Data: SQL databases, properly modelled; Practice: Version control and deployment; Group: Fifteen to twenty at one level; Or: One to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three routes through the stack
 

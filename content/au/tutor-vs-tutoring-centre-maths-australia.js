@@ -56,7 +56,7 @@ module.exports = {
     ['For', 'Ages 6 to 67'],
     ['Subject', 'Maths, Foundation to Year 12'],
     ['Our format', 'Live online lessons'],
-    ['Group size', 'Five to ten, or one to one'],
+    ['Group size', 'Fifteen to twenty, or one to one'],
     ['Teacher', 'The same one each week'],
     ['Focus', 'Diagnosing errors early'],
     ['Times', 'Set for your state'],
@@ -86,7 +86,7 @@ module.exports = {
           ['Private tutor', 'One child, one tutor, at home, at the tutor\'s place or online', 'Every minute is about your child', 'Tutor\'s qualifications and screening vary widely'],
           ['Tutoring centre', 'Several children at desks working through programs, one supervising teacher', 'Structure, routine and a lower fee per child', 'How much individual teaching each child actually gets'],
           ['Coaching college', 'Larger classes aimed at exams, selective tests or senior years', 'Exam focus and practice volume', 'Pace set for the class, not the child'],
-          ['Live online small group', 'Fifteen to twenty children of a similar level with one teacher on video', 'Teacher sees each child\'s working on screen, lower fee than one to one', 'Needs a quiet spot and a working computer at home']
+          ['Live online group', 'Fifteen to twenty children of a similar level with one teacher on video', 'Teacher sees each child\'s working on screen, lower fee than one to one', 'Needs a quiet spot and a working computer at home']
         ] },
         { kind: 'p', mt: true, html: 'The Australian Tutoring Association, the national peak body for tutoring, explains the price side neatly: "One-to-one sessions tend to levy a higher fee for the student/family. Where the ratio of students to tutor is higher (such as in a class) the individual fee may be significantly lower and the tutor rate overall higher." In plain terms, a centre or class spreads one teacher across several children, so each family pays less and each child gets a share of the teacher.' },
         { kind: 'two', mt: true,
@@ -191,7 +191,7 @@ module.exports = {
       lede: 'We are neither a centre nor a single private tutor. Here is how our format lines up against the questions above.',
       body: [
         { kind: 'three', cells: [
-          { h3: 'Small groups or one to one', p: 'Fifteen to twenty learners at a similar level, or a teacher to yourself, chosen after the free first lesson.' },
+          { h3: 'Groups or one to one', p: 'Fifteen to twenty learners at a similar level, or a teacher to yourself, chosen after the free first lesson.' },
           { h3: 'Working on screen', p: 'Learners write their working where the teacher can see it, so mistakes are read, not just marked.' },
           { h3: 'Named gaps', p: 'Families hear which topics are secure and which need work, in plain words.' }
         ] },

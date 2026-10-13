@@ -206,7 +206,7 @@ Choose the right track from our [course catalogue](/courses) and a slot that fit
 
 04
 
-### Start small-batch learning
+### Start batch learning
 
 Begin from ₹1,499/month in a group of 15-20, or go closer with a mini batch or 1-on-1. See the [pricing page](/pricing).
 

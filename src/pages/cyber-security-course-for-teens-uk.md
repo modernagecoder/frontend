@@ -14,7 +14,7 @@ UK · Ages 13 to 18 · Defensive security
 
 Curiosity about how systems break is exactly what the cyber security industry wants. It is also where a lot of teenagers get into trouble without meaning to. The National Crime Agency reports that in a survey of children aged 10 to 16, 20% engaged in behaviours that violate the Computer Misuse Act, rising to 25% among those who game, and that many people involved in low-level cyber crime "are unaware that their actions are criminal". Logging into a friend's account with a password you watched them type, knocking a rival offline in a game with a booter tool, downloading software to get into someone else's laptop: the NCA uses all three as examples of offences. At the same time, the government's own research finds that nearly half of UK businesses have a basic cyber skills gap. This course sits between those two facts. It teaches UK teenagers how attacks work and how defence wins, and it keeps every exercise on the legal side of the line: their own devices and accounts, puzzles built by the instructor, and nothing touched without permission.
 
-At a glance: For: UK teenagers aged 13 to 18; Coding needed: None to start; Length: 24 weeks over six months; Covers: Networks, passwords, phishing, malware, encryption; Ends with: Instructor-built capture-the-flag puzzles; Practice on: Own devices and built puzzles only; Group: Five to ten, or one to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: UK teenagers aged 13 to 18; Coding needed: None to start; Length: 24 weeks over six months; Covers: Networks, passwords, phishing, malware, encryption; Ends with: Instructor-built capture-the-flag puzzles; Practice on: Own devices and built puzzles only; Group: Fifteen to twenty, or one to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for a teenager interested in security
 
@@ -199,7 +199,7 @@ Teachers work from India, which keeps one clock all year; the UK is four and a h
 - **Sunday** For teenagers busy on Saturdays.
 
 - **A free first lesson** We find out what the student knows and what draws them to security.
-- **Small groups** Five to ten teenagers at the same level.
+- **Groups** Fifteen to twenty teenagers at the same level.
 - **One to one** For a faster pace or a particular interest.
 - **Legal by design** Every exercise uses the student's own devices or puzzles built for the purpose.
 - **Explained, not just shown** Students write up how and why, not only what worked.

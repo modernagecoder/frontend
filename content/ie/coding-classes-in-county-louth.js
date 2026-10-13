@@ -230,7 +230,7 @@ module.exports = {
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly hour is set in the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Louth?', a: 'No, and we never imply one. Teaching is live online only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number on this page is an Indian one.', boiler: true },
       { q: 'What do County Louth coding classes cost?', a: 'The first lesson is free. Continuing costs USD 100 a month for a group place, which covers two live lessons a week and about eight a month with fifteen to twenty learners, or USD 150 a month taught privately on the same schedule. Everything is agreed before payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, matched on ability, pace and goal rather than age or address. Where nothing suitable runs at a workable hour, we offer one-to-one lessons instead.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, matched on ability, pace and goal rather than age or address. Where nothing suitable runs at a workable hour, we offer one-to-one lessons instead.', boiler: true }
     ]
   },
 

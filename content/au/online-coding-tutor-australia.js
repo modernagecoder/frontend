@@ -50,7 +50,7 @@ module.exports = {
     ['Subjects', 'Scratch, Python, web, apps, AI'],
     ['Teachers', 'Based in India'],
     ['Format', 'Live online video'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Times', 'Set for your state'],
     ['Parents', 'Welcome to sit in'],
     ['Start', 'A free first lesson']

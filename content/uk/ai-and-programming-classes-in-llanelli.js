@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'Learner at the controls', p: 'The learner writes and runs the code while the tutor asks the questions.' },
       { h3: 'Placed by the trial', p: 'The free lesson shows where to begin, and the course suggestion follows.' },
       { h3: 'Trial without payment', p: 'The first lesson is free and needs no card.' },
-      { h3: 'Groups by level', p: 'Each class holds five to ten people at a shared stage, from all corners of Britain.' },
+      { h3: 'Groups by level', p: 'Each class holds fifteen to twenty people at a shared stage, from all corners of Britain.' },
       { h3: 'About eight a month', p: 'Two lessons a week in term time, with holiday weeks dropped when you ask.' },
       { h3: 'A fixed UK slot', p: 'We handle the clock changes, so the lesson hour does not move.' }
     ],

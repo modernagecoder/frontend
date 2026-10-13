@@ -171,7 +171,7 @@ Greater Brisbane spreads across hundreds of suburbs, and a live online lesson re
 - **From any suburb** A learner in a unit near the river and one in a house out at Redbank Plains can share a lesson, each at their own desk.
 - **Queensland language** Teachers use the year levels Queensland schools use, from Year 7 through Year 12, and know that senior study leads to the QCE. Lessons are taught in English.
 - **A real first lesson** You do a genuine task with a genuine teacher and leave knowing which level, course and weekly slot would suit you. Nobody asks for payment details.
-- **Small, matched groups** Fifteen to twenty learners working at the same stage, drawn from Brisbane, the rest of Australia and further afield, so each level finds a workable slot.
+- **Matched groups** Fifteen to twenty learners working at the same stage, drawn from Brisbane, the rest of Australia and further afield, so each level finds a workable slot.
 - **A steady rhythm** Usually two lessons a week, around eight a month, in a fixed slot. Breaks for school holidays and exams are planned with the teacher ahead of time.
 - **A fixed gap to India time** Neither Queensland nor India moves its clocks, so Brisbane always runs 4 hours 30 minutes in front of our teachers: 5pm in Brisbane is 12:30pm for them.
 

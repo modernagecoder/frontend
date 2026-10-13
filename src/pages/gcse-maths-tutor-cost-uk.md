@@ -152,7 +152,7 @@ $150 / month
 
 [Book a free first lesson](/book-demo)
 
-### Small-group GCSE maths
+### Group GCSE maths
 
 $100 / month
 

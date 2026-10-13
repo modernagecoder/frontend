@@ -246,7 +246,7 @@ Nothing for the first lesson. After that a group place is USD 100 a month, which
 
 ### How many learners are in a group?
 
-Five to ten, matched by ability, pace and goal rather than by age or address. If no suitable group runs at a workable hour, one-to-one lessons are offered instead.
+Fifteen to twenty, matched by ability, pace and goal rather than by age or address. If no suitable group runs at a workable hour, one-to-one lessons are offered instead.
 
 ## Across the river and around the country
 

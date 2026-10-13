@@ -14,7 +14,7 @@ Scotland · Advanced Higher · S6
 
 Advanced Higher Mathematics is where Scottish school maths starts asking students to prove things, not just calculate them. The course lists proof by contradiction, by contrapositive, direct proof and proof by induction among its skills, and the 2025 course report gave a warning that surprises students used to method marks: in an induction proof, "omitting certain words or phrases can invalidate the proof". A proof is an argument, and an argument with a missing step is not a proof, however good the algebra around it. The rest of the paper rewards something just as exacting: established routines, such as the integrating factor, done without a sign slip, and notation that leaves a marker no doubt. This page sets out the course, what the 2025 candidates did well and badly, and how we teach it.
 
-At a glance: Course: Advanced Higher Mathematics C847 77; Paper 1: No calculator, 35 marks, 1 hour; Paper 2: Calculator, 80 marks, 2 hours 30 minutes; Content: Algebra and proof, calculus, matrices and complex numbers; Entries in 2025: 4,469 resulted; Entry: Higher Mathematics or equivalent; Group: Five to ten at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Course: Advanced Higher Mathematics C847 77; Paper 1: No calculator, 35 marks, 1 hour; Paper 2: Calculator, 80 marks, 2 hours 30 minutes; Content: Algebra and proof, calculus, matrices and complex numbers; Entries in 2025: 4,469 resulted; Entry: Higher Mathematics or equivalent; Group: Fifteen to twenty at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for Advanced Higher
 
@@ -211,7 +211,7 @@ Our teachers are based in India, which never moves its clocks, so Scotland is fo
 - **Common factors first** Expressions examined for shared factors before anything is expanded.
 - **Readable working** Corrections scored through and rewritten, never written over.
 - **Full timed papers** Two-and-a-half-hour papers in spring, worked to the end.
-- **Small groups** Five to ten S6 students, reading each other's proofs critically.
+- **Groups** Fifteen to twenty S6 students, reading each other's proofs critically.
 
 ## Fees for Advanced Higher lessons
 

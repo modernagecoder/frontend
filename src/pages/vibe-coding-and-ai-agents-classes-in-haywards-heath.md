@@ -135,7 +135,7 @@ Every class is live on video. The learner needs a computer with a keyboard, beca
 - **Learner at the controls** Every line is typed and run by the learner, with the tutor questioning as it goes.
 - **Level found by trial** We watch the first lesson before suggesting any course.
 - **Try before paying** The first lesson is free and asks for no card.
-- **Small matched groups** Fifteen to twenty classmates at the same stage, joining from around the UK.
+- **Matched groups** Fifteen to twenty classmates at the same stage, joining from around the UK.
 - **Two a week in term** About eight lessons a month, with West Sussex holidays kept free on request.
 - **Fixed UK hour** Your lesson keeps its UK time through both clock changes.
 

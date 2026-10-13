@@ -55,7 +55,7 @@ module.exports = {
     ['Classes', 'Mixed, placed by ability'],
     ['Learns', 'Python, data, AI'],
     ['Teacher', 'The same one each week'],
-    ['Groups', 'Five to ten, or one to one'],
+    ['Groups', 'Fifteen to twenty, or one to one'],
     ['Builds', 'A portfolio for third level'],
     ['Hours', 'After school, Irish time'],
     ['Start', 'A free first class']

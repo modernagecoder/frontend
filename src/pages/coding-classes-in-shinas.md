@@ -178,7 +178,7 @@ A wilayat at the top of the coast is a long way from most of the country's teach
 
 The placement lesson carries a real task and a real recommendation, with no card requested and no course committed to until a family has seen a lesson run.
 
-### Five to eight to a group
+### Fifteen to twenty to a group
 
 Grouped on level and objective rather than age. A port administrator and a sixteen year old wanting the same data skill belong in the same room.
 

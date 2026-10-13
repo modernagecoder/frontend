@@ -307,7 +307,7 @@ Irish time, for Leaving Cert coursework clinics. India: 15:30 to 16:30 in summer
 
 ### What a session is
 
-A weekday session is sixty minutes and a weekend session ninety, because a build task needs the longer block and a school night does not have it. The teacher does not rotate, which matters less for enthusiasm than continuity: whoever watched a bug appear on Saturday watches it fixed the Saturday after. Groups hold five to eight, or one to one.
+A weekday session is sixty minutes and a weekend session ninety, because a build task needs the longer block and a school night does not have it. The teacher does not rotate, which matters less for enthusiasm than continuity: whoever watched a bug appear on Saturday watches it fixed the Saturday after. Groups hold fifteen to twenty, or one to one.
 
 Each gap between sessions carries something to build and bring back, not a worksheet. We steer Irish families towards the weekend slots, comfortable at both ends of the call all year, whereas the weekday evening slot pushes the Indian side past 22:00 once the clocks change.
 

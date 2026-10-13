@@ -157,7 +157,7 @@ Berkshire runs along the Thames and the M4 for about as far as a Saturday journe
 - **Wherever the learner is** A bedroom in Sandhurst, a dining table in Twyford, a study in Cookham. The teacher shares a screen, the learner types and talks.
 - **The words UK schools use** Key Stages, GCSE options and A levels are called what families here call them, and everything is taught in English.
 - **A free class to begin** A real session of work, ending with a clear view of the right level and course. No card details are needed.
-- **Classmates at your stage** A group holds five to ten people who can already do roughly the same things, drawn from many towns and countries, which is what makes an evening slot at the right level possible.
+- **Classmates at your stage** A group holds fifteen to twenty people who can already do roughly the same things, drawn from many towns and countries, which is what makes an evening slot at the right level possible.
 - **Breaks agreed per family** Two lessons a week is typical. With six councils and many academies setting dates, holidays are fixed with each family, not assumed.
 - **Booked in UK time** Teaching happens from India, where the clock runs 4.5 hours ahead of British Summer Time and 5.5 ahead of Greenwich Mean Time; whatever the season, your slot is written in UK time.
 

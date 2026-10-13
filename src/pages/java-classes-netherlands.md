@@ -14,7 +14,7 @@ Netherlands · Java · Teens and adults
 
 Most learners should start with Python. Some should start with Java, and they usually know who they are. A teenager at an American-curriculum school preparing for AP Computer Science A has no choice: College Board teaches and examines the course in Java, and the 2027 exam falls on 12 May. A university student facing a first-year course in object-oriented programming, an adult heading for back-end or enterprise software, or a teenager who wants to understand how large, structured programs are built, all benefit from Java's strict, explicit style. This page is for those learners in the Netherlands, taught live online and in English, with a teacher who knows exactly where AP candidates lose marks and where university first-years get stuck.
 
-At a glance: Language: Java; For: AP candidates, students, adults; AP exam: 12 May 2027; Covers: Objects, data structures, Spring Boot; Format: Live video with a teacher; Groups: Five to ten, or one to one; Language of teaching: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Language: Java; For: AP candidates, students, adults; AP exam: 12 May 2027; Covers: Objects, data structures, Spring Boot; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Language of teaching: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three Java courses for three different goals
 

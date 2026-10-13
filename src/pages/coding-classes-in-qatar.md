@@ -129,7 +129,7 @@ The person on the call is a trained instructor whose whole job is teaching. We k
 
 ### Fifteen to twenty per batch
 
-Small batches are not a premium add-on. They are the entire model, because attention is what you are actually paying for.
+Batches are not a premium add-on. They are the entire model, because attention is what you are actually paying for.
 
 ### Projects over worksheets
 

@@ -142,7 +142,7 @@ Any reasonably recent computer with a webcam, plus household broadband, will do.
 - **Hands on the keyboard** It is the learner who writes the code, with the screen shared. Our tutor follows along and asks what makes them confident.
 - **Starting point checked** The opening session tells us the right level and, for exam years, the board.
 - **Trial at no charge** Full length, no card, and a course suggestion at the end.
-- **Classes by level** Groups hold five to ten UK learners who are all at a similar point.
+- **Classes by level** Groups hold fifteen to twenty UK learners who are all at a similar point.
 - **Two sessions weekly** We leave out the holiday weeks you name.
 - **A fixed UK hour** The tutors move with British Summer Time, so your lesson does not.
 

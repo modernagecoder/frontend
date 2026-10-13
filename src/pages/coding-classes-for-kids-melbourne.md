@@ -177,7 +177,7 @@ Greater Melbourne is wide, and after-school traffic is no one's favourite activi
 - **At the kitchen table** A laptop or desktop, a working microphone and a parent nearby for the first session is all a young learner needs.
 - **School words, not new jargon** Teachers use the year names Melbourne children hear at school, from Prep to Year 8, so nothing feels foreign.
 - **A real first lesson** Your child builds something small but complete, then you get a suggested level, course and weekly time. No card details are asked for.
-- **Small, matched groups** Fifteen to twenty children working at the same stage, so no one is left behind or held back. One to one is available instead.
+- **Matched groups** Fifteen to twenty children working at the same stage, so no one is left behind or held back. One to one is available instead.
 - **Twice a week as standard** Around eight lessons a month in a fixed slot, which suits most children better than one long weekend session.
 - **Teachers working on India time** Melbourne is four and a half hours ahead of India time in winter and five and a half hours ahead during daylight saving, so a 4pm Melbourne lesson sits in our teachers' late morning or early afternoon.
 

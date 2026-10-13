@@ -12,7 +12,7 @@ AI Agents • **AI that takes action**
 
 The next wave of AI doesn't just answer. It acts. Learn to build autonomous AI agents that reason, use tools and complete multi-step tasks with LLMs. The think-act-observe loop, tool use, memory and reliable agent design, built hands-on in Python, live with a mentor.
 
-Book a Free DemoSee the Roadmap**act**AI that does**5 to 10**Students per batch**tools**Agents use tools**Live**Mentor-led
+Book a Free DemoSee the Roadmap**act**AI that does**15 to 20**Students per batch**tools**Agents use tools**Live**Mentor-led
 
 ## Quick answer
 

@@ -133,7 +133,7 @@ A webcam-equipped computer and broadband that streams smoothly: nothing more.
 - **Learners build it** Code and prompts are written by the student; the tutor follows on screen share and asks why each rule was chosen.
 - **Trial sets the start** The free session shows the level, and any exam board is noted.
 - **Try it free** The first session is on us and closes with our pick of course.
-- **Small and matched** A class means five to ten people at a shared stage, wherever in Britain they log in from.
+- **Small and matched** A class means fifteen to twenty people at a shared stage, wherever in Britain they log in from.
 - **Two a week** Lessons stop for school holidays.
 - **Time stays fixed** UK clock changes are absorbed by our tutors.
 

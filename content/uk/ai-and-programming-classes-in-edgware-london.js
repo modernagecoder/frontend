@@ -158,7 +158,7 @@ module.exports = {
       { h3: 'Pupil writes, tutor questions', p: 'The learner types and runs each step; on the shared screen the tutor keeps asking where a result came from.' },
       { h3: 'First topic from the trial', p: 'The free lesson tells us what is already known; we also note the exam board.' },
       { h3: 'Trial without charge', p: 'Lesson one is free and ends with a course suggestion.' },
-      { h3: 'Small classes, one level', p: 'Fifteen to twenty learners from around the UK who are at the same stage.' },
+      { h3: 'Classes, one level', p: 'Fifteen to twenty learners from around the UK who are at the same stage.' },
       { h3: 'Two sessions weekly', p: 'Not during school holidays.' },
       { h3: 'No drifting timetable', p: 'UK clock changes are handled by our tutors, so your slot stays where it is.' }
     ],

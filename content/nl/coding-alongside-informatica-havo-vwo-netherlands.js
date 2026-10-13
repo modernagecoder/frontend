@@ -49,7 +49,7 @@ module.exports = {
     ['Covers', 'Python, algorithms, data, databases'],
     ['Also for', 'Pupils whose school does not offer it'],
     ['Format', 'Live video with a teacher'],
-    ['Groups', 'Five to ten, or one to one'],
+    ['Groups', 'Fifteen to twenty, or one to one'],
     ['Language', 'English'],
     ['Start', 'A free first lesson']
   ],

@@ -14,7 +14,7 @@ Australia · Teens, uni students and adults · Algorithms against the clock
 
 Competitive programming is solving well-defined problems with code, fast and correctly, while a computer judges the answer. It rewards clear thinking about algorithms, but marks are often won or lost on smaller things: an off-by-one boundary, a slow way of reading input, an untested edge case. Our coaching covers both the big ideas and the small ones, live online, for Australian school students, university students and adults who simply enjoy puzzles. This page explains how contests work, measures one of those small things with real timings, and shows where it leads, including the school olympiad route.
 
-At a glance: For: Teens, uni students and adults; Languages: Python or C++, also Java; Core: Algorithms and data structures; Judge: Automatic, timed, unforgiving; Practice: Past problems and mock contests; Habits: Testing and timing every solution; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens, uni students and adults; Languages: Python or C++, also Java; Core: Algorithms and data structures; Judge: Automatic, timed, unforgiving; Practice: Past problems and mock contests; Habits: Testing and timing every solution; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for contest programmers
 
@@ -242,7 +242,7 @@ Coaches are based in India, where the working day overlaps Australian afternoons
 - **Weekend** Mock contests and long reviews.
 
 - **Free first class** One problem solved together and a check of the learner's current level.
-- **Small groups** Fifteen to twenty learners at the same level, comparing solutions.
+- **Groups** Fifteen to twenty learners at the same level, comparing solutions.
 - **One to one** For a particular contest, language or gap.
 - **Every attempt reviewed** Wrong answers are studied, not skipped.
 - **Timed on real sizes** Solutions are tested on inputs as big as the constraints allow.

@@ -46,7 +46,7 @@ module.exports = {
     ['Track', 'Python, data, models, agents'],
     ['Questions', 'How it works, whether it thinks, why we believe it, what it does with words'],
     ['Delivery', 'Live over video, never recorded'],
-    ['Class size', 'Five to ten, or private'],
+    ['Class size', 'Fifteen to twenty, or private'],
     ['Times', 'Dutch afternoons, evenings, weekends'],
     ['Language', 'English'],
     ['First step', 'A free lesson']
@@ -194,7 +194,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'The free lesson', p: 'Not a sales conversation but a lesson: the learner works on something real and the teacher sees how they think, which settles the starting rung.' },
-      { h3: 'Small groups, one level', p: 'Fifteen to twenty learners from several countries who can already do the same things, so no one in Utrecht waits for others or races to keep up.' },
+      { h3: 'Groups, one level', p: 'Fifteen to twenty learners from several countries who can already do the same things, so no one in Utrecht waits for others or races to keep up.' },
       { h3: 'Private tuition too', p: 'For students with changing timetables, adults with a specific goal, and the Copilot Studio courses, taught only one to one.' },
       { h3: 'Work visible live', p: 'The teacher follows the learner\'s screen as code is written and questions are answered, so confusion never gets a week to settle.' },
       { h3: 'English, Dutch where it belongs', p: 'All teaching is in English. Words like groep, brugklas, havo and vwo stay Dutch, the way Utrecht families say them.' },

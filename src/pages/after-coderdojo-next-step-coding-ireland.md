@@ -14,7 +14,7 @@ Ireland · After a coding club · Live online
 
 Many Irish children meet coding for the first time at a CoderDojo: a free club, run by volunteers, where young people build games and animations alongside friends. The movement began in Cork in 2011 and it still does something a paid class cannot, which is to make coding a social, open, free part of childhood. Sooner or later, though, many children want more. They have built everything they can think of in Scratch, they ask questions a busy volunteer has no time to answer, or they have heard about Python and AI and want to try the real thing. This page is for that moment. It sets out what the clubs are, as their own organisation describes them, the signs that a child is ready for a next step, and what a structured path from Scratch to Python and AI looks like. The best answer is often to keep the club and add a class, not to swap one for the other. We are not connected with CoderDojo in any way.
 
-At a glance: For: Children and teens, about 7 to 17; Starts from: Wherever the club left off; Path: Scratch, Python, data, AI; Teacher: The same one each week; Groups: Five to ten, placed by level; Or: One to one; Hours: After school, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children and teens, about 7 to 17; Starts from: Wherever the club left off; Path: Scratch, Python, data, AI; Teacher: The same one each week; Groups: Fifteen to twenty, placed by level; Or: One to one; Hours: After school, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for the step after the club
 

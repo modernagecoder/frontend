@@ -225,7 +225,7 @@ Teaching comes from India, which keeps the same clock all year. The UK is four a
 - **Sunday** For students with Saturday jobs.
 
 - **A free first lesson** We see where you are and suggest a route towards the option you are interested in.
-- **Small groups** Fifteen to twenty students at the same level.
+- **Groups** Fifteen to twenty students at the same level.
 - **One to one** For a faster pace or a specific deadline.
 - **Projects you choose** Your project, in your own GitHub account, so it stays yours.
 - **Code read line by line** A teacher reads your program and explains what to improve.

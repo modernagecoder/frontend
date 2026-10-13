@@ -166,7 +166,7 @@ Any Calderdale home with a computer and steady internet can take part.
 - **Learners do the typing** Each program is written, prompted and run by the student; the tutor sees their screen and poses the next question.
 - **Level over year group** The trial shows where to begin, whether the learner is in Year 3 or Year 13, and we note any exam board.
 - **Nothing to pay at first** The opening lesson is free and closes with our suggestion for what to take.
-- **Classes by stage** Groups hold five to ten UK learners who are at a similar point.
+- **Classes by stage** Groups hold fifteen to twenty UK learners who are at a similar point.
 - **Twice weekly** Lessons pause during school holidays.
 - **Steady lesson times** Our tutors follow the UK clock changes, so your slot stays put in spring and autumn.
 

@@ -76,7 +76,7 @@ module.exports = {
     ['Ages', 'About 10 upwards'],
     ['Level', 'First program to advanced'],
     ['Exams', 'English boards, WJEC, CCEA, Qualifications Scotland'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Habit', 'Predict, run, compare'],
     ['Start', 'One free lesson']

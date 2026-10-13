@@ -369,7 +369,7 @@ module.exports = {
       },
       {
         q: 'How many learners are in a group?',
-        a: 'Five to ten, matched by level, pace and goal. If no group fits the learner\'s time, one-to-one lessons are offered.',
+        a: 'Fifteen to twenty, matched by level, pace and goal. If no group fits the learner\'s time, one-to-one lessons are offered.',
         boiler: true
       },
       {

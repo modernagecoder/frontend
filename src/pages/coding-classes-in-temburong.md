@@ -62,7 +62,7 @@ That change came from the **Sultan Haji Omar Ali Saifuddien Bridge**, which open
 
 The bridge fixed the road. There is still one secondary school
 
-Temburong has thirteen primary schools, public and private, and **Sultan Hassan Secondary School**, which serves the whole district. For an ordinary subject that is fine. For a specialised one it means a learner is not choosing between options, they are choosing between the one thing that exists and nothing at all. A thirty minute drive to the capital is a genuine improvement over two hours, but nobody sensibly commits to an hour of driving twice a week for a class that may not exist at the other end either. What a district of 9,444 people cannot supply is not transport. It is a room of five to eight people working at the same level on the same thing.
+Temburong has thirteen primary schools, public and private, and **Sultan Hassan Secondary School**, which serves the whole district. For an ordinary subject that is fine. For a specialised one it means a learner is not choosing between options, they are choosing between the one thing that exists and nothing at all. A thirty minute drive to the capital is a genuine improvement over two hours, but nobody sensibly commits to an hour of driving twice a week for a class that may not exist at the other end either. What a district of 9,444 people cannot supply is not transport. It is a room of fifteen to twenty people working at the same level on the same thing.
 
 Sources: exclave status and the position of Limbang, the district area of 1,306 square kilometres, populations of 8,852 in 2011, 9,444 at the 2021 census and about 9,600 in 2024, Bangar as district town, the Sultan Haji Omar Ali Saifuddien Bridge opening in 2020 and reducing a journey of two or more hours via Sarawak requiring four international passport checks to approximately thirty minutes, Ulu Temburong National Park at more than 500 square kilometres with a canopy walkway at 250 metres, the Peradayan, Selirong and Labu forest reserves, and the count of thirteen primary schools and one secondary school, all from the [Temburong District](https://en.wikipedia.org/wiki/Temburong_District) summary citing Brunei government material. Mukim-level figures reported for this district sum to ten more than the published district total, so no mukim breakdown is used here. Verified 17 August 2026.
 
@@ -222,7 +222,7 @@ No enrolment charge, nothing to buy, no minimum term.
 
 Group$100per month, 8 classes
 
-The usual answer, and the one that supplies what this district cannot: five to eight people at the same level, arguing about the same problem in the same hour.
+The usual answer, and the one that supplies what this district cannot: fifteen to twenty people at the same level, arguing about the same problem in the same hour.
 
 Private$150per month, 8 classes
 

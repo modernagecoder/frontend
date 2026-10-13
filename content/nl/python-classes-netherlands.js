@@ -46,7 +46,7 @@ module.exports = {
     ['Routes', 'First code, full language, data, AI, web'],
     ['Certification', 'PCEP and PCAP preparation'],
     ['Format', 'Live video with a teacher'],
-    ['Groups', 'Five to ten, or one to one'],
+    ['Groups', 'Fifteen to twenty, or one to one'],
     ['Taught in', 'English'],
     ['Start', 'A free first lesson']
   ],

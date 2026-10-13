@@ -225,7 +225,7 @@ module.exports = {
       { h3: 'Trace by hand', p: 'Every program traced on paper before it runs.' },
       { h3: 'Both halves', p: 'Java and machine theory taught in the same course.' },
       { h3: 'Mark a minute', p: 'Practice timed the way the exam is designed.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students at one level, comparing traces.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students at one level, comparing traces.' },
       { h3: 'One-to-one sessions', p: 'For one area, often logic or two\'s complement.' },
       { h3: 'No predictions', p: 'We never forecast a TASC award; the work belongs to the student.' }
     ]

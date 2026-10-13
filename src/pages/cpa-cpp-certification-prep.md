@@ -152,7 +152,7 @@ Full 40-question mocks in ~65 minutes until you score consistently above 70%. Th
 
 ## A coach who reads your memory diagram.
 
-#### 0x01 Small live batches
+#### 0x01 Live batches
 
 15–20 students per class. A mentor catches the segfault, the leak and the off-by-one in real time.
 

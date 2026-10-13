@@ -12,7 +12,7 @@ Machine Learning • **From Scratch, in Python**
 
 No PhD, no scary maths, just real Machine Learning, step by step. Learn to load data, train models and make predictions in Python with scikit-learn, building real ML projects from your very first weeks. Live small-batch classes for college students, professionals and serious teens starting their AI journey.
 
-Book a Free ML Demo ClassSee the Roadmap**0→ML**No experience needed**5–8**Students per batch**scikit**Real industry tools**Live**Train models with a mentor
+Book a Free ML Demo ClassSee the Roadmap**0→ML**No experience needed**15–20**Students per batch**scikit**Real industry tools**Live**Train models with a mentor
 
 ## Quick answer
 

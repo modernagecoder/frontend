@@ -184,7 +184,7 @@ Every lesson is live on video with a teacher, so learners join from home anywher
 - **A real teacher** Each session is taught in real time, with questions answered and code reviewed as it is written.
 - **WA school year** Classes follow the Western Australian terms and pause for school holidays.
 - **Placement first** The first lesson is free and ends with a written course suggestion.
-- **Small groups** Fifteen to twenty learners at a similar level, or one-to-one lessons.
+- **Groups** Fifteen to twenty learners at a similar level, or one-to-one lessons.
 - **Steady pace** Two lessons a week, roughly eight in a month.
 - **Time in India** A 5pm Joondalup lesson is 2:30pm in India on every day of the year.
 

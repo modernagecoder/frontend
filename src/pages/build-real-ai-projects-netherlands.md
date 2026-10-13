@@ -14,7 +14,7 @@ Netherlands · Project work · Live online
 
 A tutorial project uses a tidy dataset that someone else cleaned years ago, answers a question nobody asked and ends when the notebook does. A real project is different in three ways: the data comes from somewhere that matters, the rules that come with that data are respected, and the result is written up so that someone else could check it. The Netherlands makes the first part unusually easy. The national statistics office publishes every one of its StatLine tables as open data, the meteorological institute publishes weather observations taken every ten minutes, and the government's data register lists tens of thousands of entries. The other two parts, the licences and limits and the honest write-up, are what we teach. This page is for learners in the Netherlands, from confident teenagers to working adults, who want to build AI projects on real Dutch data, live online and in English.
 
-At a glance: Data: CBS StatLine, KNMI, data.overheid.nl; Skills: Python, APIs, cleaning, models, publishing; Standard: Licences respected, limits measured; For: Confident teens, students, adults; Format: Live video with a teacher; Groups: Five to ten, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Data: CBS StatLine, KNMI, data.overheid.nl; Skills: Python, APIs, cleaning, models, publishing; Standard: Licences respected, limits measured; For: Confident teens, students, adults; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for project builders
 

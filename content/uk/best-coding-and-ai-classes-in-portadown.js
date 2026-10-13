@@ -164,7 +164,7 @@ module.exports = {
       { h3: 'Hands on the keys', p: 'Every keystroke is the learner\'s own. Watching via screen share, the tutor keeps asking what each figure tells us.' },
       { h3: 'Level from the trial', p: 'The free lesson shows where to start, and any CCEA exam is noted.' },
       { h3: 'First lesson free', p: 'We charge nothing for the opening lesson and suggest a course at the end.' },
-      { h3: 'Small matched classes', p: 'Fifteen to twenty learners from around the UK, grouped by stage.' },
+      { h3: 'Matched classes', p: 'Fifteen to twenty learners from around the UK, grouped by stage.' },
       { h3: 'Two a week in term', p: 'Lessons stop for school holidays.' },
       { h3: 'Clock changes handled', p: 'When summer time starts or ends, the tutor adjusts and your lesson hour does not move.' }
     ],

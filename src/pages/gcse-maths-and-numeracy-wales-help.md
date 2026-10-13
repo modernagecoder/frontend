@@ -203,7 +203,7 @@ Our teachers are in India, which keeps the same clock all year, so Wales is four
 - **By hand for Unit 2** Non-calculator number and algebra practised every week.
 - **Whole course for Unit 3** Statistics, geometry and measures covered in full, not left to the end.
 - **Tier by unit** Each unit taught at the tier the school has chosen for it.
-- **Small groups** Fifteen to twenty pupils at one rung, comparing methods.
+- **Groups** Fifteen to twenty pupils at one rung, comparing methods.
 
 ## Fees for GCSE maths lessons
 

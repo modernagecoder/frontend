@@ -49,7 +49,7 @@ module.exports = {
     ['Habit', 'Every model tested against a simple guess'],
     ['Language', 'Python, taught in English'],
     ['Format', 'Live video with a teacher'],
-    ['Groups', 'Five to ten, or one to one'],
+    ['Groups', 'Fifteen to twenty, or one to one'],
     ['Times', 'After school and weekends'],
     ['Start', 'A free first lesson']
   ],

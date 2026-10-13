@@ -187,7 +187,7 @@ module.exports = {
     cells: [
       { h3: 'An opening lesson on your case', p: 'Bring a real process or codebase. The teacher sees where you are and proposes a route before anything is paid.' },
       { h3: 'Mostly one to one', p: 'Agent work depends on each organisation\'s systems, so most professionals learn individually. Copilot Studio is only taught this way.' },
-      { h3: 'Small groups where they fit', p: 'For the generative AI and automation routes, groups of fifteen to twenty at one level are available and often lively.' },
+      { h3: 'Groups where they fit', p: 'For the generative AI and automation routes, groups of fifteen to twenty at one level are available and often lively.' },
       { h3: 'Nothing confidential shared', p: 'Lessons use your processes as examples without your organisation\'s confidential data; the teacher works with safe substitutes.' },
       { h3: 'English throughout', p: 'The language of the tools, their documentation and most international teams in the Netherlands.' },
       { h3: 'Work you can show', p: 'Agents, prompts, evaluations and governance notes are kept in your own repository, ready to show a manager or reviewer.' }

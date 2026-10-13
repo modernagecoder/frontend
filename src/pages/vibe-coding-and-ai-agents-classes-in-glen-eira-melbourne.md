@@ -184,7 +184,7 @@ Classes happen on screen, so a learner near Carnegie joins exactly as one near E
 - **A shared screen** Teacher and learner open the same project and write code together from the start.
 - **Victorian school terms** Lesson plans track the state terms and pause over the school holidays.
 - **A proper first lesson** The free trial covers real material and ends with a suggested course and time.
-- **Small level-matched groups** Fifteen to twenty learners at one level, sometimes from several states.
+- **Level-matched groups** Fifteen to twenty learners at one level, sometimes from several states.
 - **Twice weekly** Two fixed lessons a week, roughly eight a month, with breaks agreed ahead.
 - **Teachers in India** A 6pm Glen Eira lesson in daylight saving starts at 12:30pm India time; after April it starts at 1:30pm there.
 
@@ -236,7 +236,7 @@ The first lesson is free. Group lessons then cost USD 100 a month for two live l
 
 ### How many learners are in a group?
 
-Five to ten, matched by level, pace and goal. If no group fits the learner's time, one-to-one lessons are offered instead.
+Fifteen to twenty, matched by level, pace and goal. If no group fits the learner's time, one-to-one lessons are offered instead.
 
 ### Do adults take these classes?
 

@@ -59,7 +59,7 @@ module.exports = {
     ['Starts', 'No experience needed'],
     ['Reaches', 'APIs, analysis, automation, AI'],
     ['Practises on', 'Irish open data'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Hours', 'After school and evenings, Irish time'],
     ['Start', 'A free first class']

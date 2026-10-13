@@ -54,7 +54,7 @@ module.exports = {
     ['Starts from', 'Wherever the club left off'],
     ['Path', 'Scratch, Python, data, AI'],
     ['Teacher', 'The same one each week'],
-    ['Groups', 'Five to ten, placed by level'],
+    ['Groups', 'Fifteen to twenty, placed by level'],
     ['Or', 'One to one'],
     ['Hours', 'After school, Irish time'],
     ['Start', 'A free first class']

@@ -355,7 +355,7 @@ module.exports = {
     h2: 'Ku-ring-gai class fees',
     intro: 'Simple pricing in three parts.',
     first: 'A free first lesson that ends with a recommended course.',
-    group: 'A month of small-group lessons, usually eight, with fifteen to twenty learners.',
+    group: 'A month of group lessons, usually eight, with fifteen to twenty learners.',
     private: 'Around eight private lessons a month with one teacher.',
     closer: 'Invoices outside India are in US dollars, so every Ku-ring-gai family pays the same rate and no local price list exists. Payment starts only after the trial has fixed a course and time, and the pricing page sets out holidays, missed lessons and format changes.'
   },

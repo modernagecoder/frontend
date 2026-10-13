@@ -255,7 +255,7 @@ The service is online, but the instruction, questions, coding and feedback are s
 
 The learner discusses a goal and completes a short placement task before tuition payment.
 
-### Small live groups
+### Live groups
 
 Fifteen to twenty compatible learners join one teacher. Compatibility includes level, pace and objective.
 

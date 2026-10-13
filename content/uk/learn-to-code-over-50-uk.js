@@ -59,7 +59,7 @@ module.exports = {
     ['At the end', 'A guaranteed job interview'],
     ['Free level 3 courses', 'Aged 19 or over, digital included'],
     ['Our lessons', 'Paced by you, live'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
@@ -223,7 +223,7 @@ module.exports = {
       { h3: 'Code actually read', p: 'A teacher looks at your program and explains exactly what to change.' },
       { h3: 'Questions welcome', p: 'No question is too basic; asking is how everyone learns.' },
       { h3: 'Private if you prefer', p: 'One-to-one lessons for learners who would rather not join a group.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at the same level.' }
+      { h3: 'Groups', p: 'Fifteen to twenty learners at the same level.' }
     ]
   },
 

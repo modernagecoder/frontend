@@ -172,7 +172,7 @@ THE HONEST COMPARISON
 
 - Zero commute, no crawl through the New Alipore crossing or SN Roy Road snarl, twice a class day
 - Recovers roughly 90 minutes per class day for practice, homework or rest
-- Small live batches of 15-20, so every child gets real airtime
+- Live batches of 15-20, so every child gets real airtime
 - Taught by full-time engineers and maths graduates, not local part-time tutors
 - No safety worry of ferrying children block to block after dark
 - Wider course range than any single neighbourhood tuition room: Python, Java, AI/ML, C++, DSA, maths

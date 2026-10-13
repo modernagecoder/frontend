@@ -194,7 +194,7 @@ Teachers are in India, two and a half hours behind Perth all year, since WA has 
 
 - **Draw, count, rule** Students build patterns before writing rules.
 - **Explain the plus one** Every rule must be explained, not just found.
-- **Fifteen to twenty per group** Small groups at a shared level.
+- **Fifteen to twenty per group** Groups at a shared level.
 - **One-to-one** For focused individual work.
 - **Not ASET coaching** We teach maths and reasoning, consistent with the department's advice.
 - **No offer promises** Offers are the department's decision.

@@ -14,7 +14,7 @@ New Jersey / Live online
 
 The short answer
 
-State law obliges almost every New Jersey public high school to offer computer science, yet the 120 credit state graduation minimum contains no computer science credit line at all. Modern Age Coders closes that gap with live online coding and mathematics for ages 6 to 67, mapped to the NJSLS Computer Science and Design Thinking standards. Small groups hold five to eight. USD 100 monthly, or USD 150 privately.
+State law obliges almost every New Jersey public high school to offer computer science, yet the 120 credit state graduation minimum contains no computer science credit line at all. Modern Age Coders closes that gap with live online coding and mathematics for ages 6 to 67, mapped to the NJSLS Computer Science and Design Thinking standards. Groups hold fifteen to twenty. USD 100 monthly, or USD 150 privately.
 
 New Jersey already asks more of its students in computer science than most states do. Since the 2018 to 2019 school year, state law has required almost every public high school here to offer a computer science course, and the standards behind it run all the way down to Kindergarten. What the state does not do is require your child to take it, guarantee it is taught well, or give a student who is already ahead anywhere to go. That is the gap we fill, and we fill it from the same page as your district rather than off to one side of it.
 
@@ -253,7 +253,7 @@ Fees
 
 Monthly, in US dollars, with no joining fee and no annual contract. You can stop at the end of any month.
 
-Small group$100per month, 8 classes
+Group$100per month, 8 classes
 
 Fifteen to twenty students, same teacher every week. The default for most learners, and the one most families stay on.
 
@@ -349,7 +349,7 @@ Ages 6 to 67. That is not a slogan, it is the real spread of people in our class
 
 ### How many students are in a class?
 
-Small group classes hold fifteen to twenty students with the same teacher every week. One-to-one is exactly that, one student and one teacher. We do not run lecture halls, and we do not rotate teachers between weeks, because continuity is most of what makes a young learner keep going.
+Group classes hold fifteen to twenty students with the same teacher every week. One-to-one is exactly that, one student and one teacher. We do not run lecture halls, and we do not rotate teachers between weeks, because continuity is most of what makes a young learner keep going.
 
 ### Is the class live, or is it a video my child watches alone?
 

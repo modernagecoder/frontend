@@ -251,7 +251,7 @@ A flat monthly fee in US dollars for every family outside India. There is no sig
 
 ### What does maths tuition in Birmingham involve?
 
-Regular live lessons with one teacher, either in a level-matched class of fifteen to twenty or privately. The teacher finds what a learner has missed, teaches it properly and checks it has stuck, from KS2 number work and the SATs to GCSE for AQA, Edexcel or OCR and A level.
+Regular live lessons with one teacher, either in an level-matched class of fifteen to twenty or privately. The teacher finds what a learner has missed, teaches it properly and checks it has stuck, from KS2 number work and the SATs to GCSE for AQA, Edexcel or OCR and A level.
 
 ### What is an error interval?
 

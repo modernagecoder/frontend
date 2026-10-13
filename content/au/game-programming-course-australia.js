@@ -56,7 +56,7 @@ module.exports = {
     ['Core ideas', 'Loop, time, physics, state'],
     ['Prior coding', 'Helpful, not required'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -242,7 +242,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'We look at code you have written, or start from nothing, and set a level honestly.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students at a similar level, reviewing each other\'s code.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students at a similar level, reviewing each other\'s code.' },
       { h3: 'One to one', p: 'For a specific project, a tight timeline or a faster pace.' },
       { h3: 'Your own code', p: 'You type everything. Teachers question and guide; they never write your project for you.' },
       { h3: 'Code review', p: 'Each module ends with a review of structure, naming and tests, not just whether it runs.' },

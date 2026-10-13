@@ -165,7 +165,7 @@ module.exports = {
       { h3: 'Two sessions weekly', p: 'During the school term.' },
       { h3: 'Your hour is fixed', p: 'Tutors shift with the UK clock changes so you never have to.' }
     ],
-    spec: { title: 'Why online', p: 'Matching five to ten people by level and free hour is hard inside one district and easy across a country. Video makes that possible.' }
+    spec: { title: 'Why online', p: 'Matching fifteen to twenty people by level and free hour is hard inside one district and easy across a country. Video makes that possible.' }
   },
 
   fees: {

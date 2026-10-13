@@ -139,7 +139,7 @@ Lessons run over video. A laptop or desktop is strongly preferred to a tablet, b
 - **Code typed by the learner** We never hand over finished programs. The student writes, runs and debugs while the tutor coaches.
 - **One trial, then a plan** A free lesson tells us the right level, and you get a suggested course at the end of it.
 - **Nothing to pay up front** The trial has no cost and needs no card.
-- **Small, matched groups** Fifteen to twenty learners at one level, joining from anywhere in the UK.
+- **Matched groups** Fifteen to twenty learners at one level, joining from anywhere in the UK.
 - **Two sessions weekly** During term. Essex school holidays are skipped once we have your dates.
 - **Steady UK timing** We absorb the hour when the clocks change, so your slot holds.
 

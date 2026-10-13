@@ -237,7 +237,7 @@ The first lesson is free. Then group lessons are USD 100 a month for two live le
 
 ### How many students share a group?
 
-Five to ten, grouped by level, pace and aims rather than age or suburb, with one-to-one lessons if no group time works.
+Fifteen to twenty, grouped by level, pace and aims rather than age or suburb, with one-to-one lessons if no group time works.
 
 ### Can adults learn Python here?
 

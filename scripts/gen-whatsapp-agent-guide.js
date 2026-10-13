@@ -88,7 +88,7 @@ out.push('|---|---|---|');
 // never drift from the live prices the way the old hand-typed table did.
 const dp = cfg.defaultPricing || {};
 function fee(tier, src) { return (src[tier] && src[tier].display) ? src[tier].display : 'not offered'; }
-out.push('| Group class (max 10 students) | ' + fee('group', dp) + ' | ' + fee('group', intl) + ' |');
+out.push('| Group class (max 20 students) | ' + fee('group', dp) + ' | ' + fee('group', intl) + ' |');
 out.push('| Mini Batch (up to 6 students, India only) | ' + fee('miniBatch', dp) + ' | not offered |');
 out.push('| Personalized 1-on-1 | ' + fee('personal', dp) + ' (1 class a week, 4 a month) | ' +
     fee('personal', intl) + ' (2 classes a week, 8 a month) |');

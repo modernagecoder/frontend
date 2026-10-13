@@ -57,7 +57,7 @@ module.exports = {
     ['Limit', 'Puzzles end; programming does not'],
     ['Next step', 'Scratch, then Python'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',

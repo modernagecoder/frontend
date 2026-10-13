@@ -12,7 +12,7 @@ Data Science • **With Python, Hands-On**
 
 Become the person who makes data tell a story. Learn Data Science in Python, pandas, data cleaning, exploratory analysis, visualisation, statistics and an introduction to machine learning, by working on real datasets and projects. Live small-batch classes for college students, professionals and serious teens.
 
-Book a Free Data Science DemoSee the Roadmap**pandas**Real data tools**5–8**Students per batch**Projects**Real datasets**Live**Mentor-led notebooks
+Book a Free Data Science DemoSee the Roadmap**pandas**Real data tools**15–20**Students per batch**Projects**Real datasets**Live**Mentor-led notebooks
 
 ## Quick answer
 

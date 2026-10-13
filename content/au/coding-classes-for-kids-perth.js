@@ -184,7 +184,7 @@ module.exports = {
       { h3: 'What you need', p: 'A laptop or desktop with working sound. A parent nearby for the first lesson helps young children settle in.' },
       { h3: 'Western Australian terms', p: 'Teachers use the year names Perth children use, from Pre-primary onwards, so nothing sounds unfamiliar.' },
       { h3: 'A proper trial', p: 'One complete lesson to see how your child learns, followed by a course and time recommendation, with no card required.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children at the same stage, or one to one when that suits better.' },
+      { h3: 'Groups', p: 'Fifteen to twenty children at the same stage, or one to one when that suits better.' },
       { h3: 'Regular rhythm', p: 'About eight lessons a month, normally two a week in the same slot.' },
       { h3: 'Teachers on India time', p: 'Perth is two and a half hours ahead of India time all year round, so after-school Perth lessons fall in the early afternoon of our teachers\' working day.' }
     ],

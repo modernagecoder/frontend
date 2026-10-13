@@ -145,7 +145,7 @@ A computer, a camera and home broadband good enough for a video call are the who
 - **Learner at the controls** Nobody watches a tutor type. The learner builds, shares the screen, and explains each choice when asked.
 - **Trial before timetable** The free lesson shows us the level and, where relevant, the exam specification.
 - **Free to begin** Lesson one has no charge and finishes with the course we suggest.
-- **Small matched groups** Five to ten people at one stage, drawn from all over Britain.
+- **Matched groups** Fifteen to twenty people at one stage, drawn from all over Britain.
 - **Twice each week** With a break in the school holidays.
 - **Same hour all year** Our tutors adjust at the UK clock changes, so your lesson hour stays put.
 

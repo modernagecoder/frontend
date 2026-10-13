@@ -161,7 +161,7 @@ module.exports = {
       { h3: 'Learner-written code', p: 'The tutor never takes over the keyboard. Learners type, run and explain; the tutor watches their screen and questions.' },
       { h3: 'A trial with a purpose', p: 'It shows us the learner\'s level and interests, and which exam board applies if any.' },
       { h3: 'Free to begin', p: 'The trial lesson carries no charge, and we end it by proposing a course.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at the same level, drawn from across the UK.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at the same level, drawn from across the UK.' },
       { h3: 'Weekly pattern', p: 'Two lessons a week, none in school holidays.' },
       { h3: 'One fixed time', p: 'British clock changes are handled by the tutor, so the slot stays where it was.' }
     ],

@@ -76,7 +76,7 @@ module.exports = {
     ['Paper 2', '1 hour 45, 90 marks, 50 per cent'],
     ['Languages', 'C#, Python 3 or VB.NET'],
     ['Questions in', 'AQA pseudo-code'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',

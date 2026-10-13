@@ -249,7 +249,7 @@ module.exports = {
       { q: 'Do you teach regional and remote students?', a: 'Yes. Lessons need only a laptop or desktop, sound and a stable connection, so a learner in the Pilbara joins exactly the same class as one in Perth.' },
       { q: 'Is there a Modern Age Coders office in Western Australia?', a: 'No, and we do not claim one. Teaching is entirely live online with no premises anywhere in Australia, and the phone number we display is an Indian number.', boiler: true },
       { q: 'How much are coding lessons in WA?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Nothing is paid until course, format and time are agreed.', boiler: true },
-      { q: 'How many students share a group?', a: 'Five to ten, grouped by level, pace and goals rather than age or suburb. When no group suits a learner at a workable hour, private lessons are offered instead.', boiler: true }
+      { q: 'How many students share a group?', a: 'Fifteen to twenty, grouped by level, pace and goals rather than age or suburb. When no group suits a learner at a workable hour, private lessons are offered instead.', boiler: true }
     ]
   },
 

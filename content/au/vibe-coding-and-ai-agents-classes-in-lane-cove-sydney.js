@@ -332,7 +332,7 @@ module.exports = {
     h2: 'Lane Cove class fees',
     intro: 'There are three prices and nothing else.',
     first: 'The first class is free and finishes with a recommendation.',
-    group: 'A month of small-group lessons, normally eight, with fifteen to twenty learners at one level.',
+    group: 'A month of group lessons, normally eight, with fifteen to twenty learners at one level.',
     private: 'Roughly eight private lessons each month with one teacher.',
     closer: 'Outside India we invoice in US dollars, so every Lane Cove household is charged the same rate. Nothing is billed until the course and time are agreed after the trial; holidays, missed lessons and switching format are set out on the pricing page.'
   },
@@ -382,7 +382,7 @@ module.exports = {
       },
       {
         q: 'How many people are in a group?',
-        a: 'Five to ten, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner\'s time.',
+        a: 'Fifteen to twenty, matched by level, pace and goals rather than age or suburb. One-to-one lessons are offered if no group suits the learner\'s time.',
         boiler: true
       },
       {

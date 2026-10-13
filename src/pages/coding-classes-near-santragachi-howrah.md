@@ -16,7 +16,7 @@ Live, never recordedSmall batches of 6–8CBSE Python + ICSE JavaFree demo in 24
 
 ## The essentials, in one place
 
-Format**Live online**, one-on-one or small live batch, never pre-recordedBatch sizeMax 15–20 (group), up to 6 (mini batch), or fully 1-on-1Ages**6 to 67**, kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, web, DSA) + Mathematics (school to Olympiad)BoardsCBSE (Python), ICSE (Java/BlueJ), WBBSEFeesFrom ₹1,499/month group · ₹2,999/month mini batch · ₹4,999/month 1-on-1Free demoYes, no commitment, classes start within 24 hoursServingSantragachi, Jagacha, GIP Colony, Dasnagar, Andul Road, Shibpur edge & all HowrahLIVE · PREMIUM · SMALL BATCH
+Format**Live online**, one-on-one or live batch, never pre-recordedBatch sizeMax 15–20 (group), up to 6 (mini batch), or fully 1-on-1Ages**6 to 67**, kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, web, DSA) + Mathematics (school to Olympiad)BoardsCBSE (Python), ICSE (Java/BlueJ), WBBSEFeesFrom ₹1,499/month group · ₹2,999/month mini batch · ₹4,999/month 1-on-1Free demoYes, no commitment, classes start within 24 hoursServingSantragachi, Jagacha, GIP Colony, Dasnagar, Andul Road, Shibpur edge & all HowrahLIVE · PREMIUM · SMALL BATCH
 
 ## Genuinely live, genuinely premium
 

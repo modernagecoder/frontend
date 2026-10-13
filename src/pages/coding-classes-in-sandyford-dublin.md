@@ -207,7 +207,7 @@ The first lesson is free. A group place is then USD 100 a month for about eight 
 
 ### How many learners share a class?
 
-Five to ten, placed by level, pace and aim rather than by age or address. When no group fits a workable time, lessons are one to one.
+Fifteen to twenty, placed by level, pace and aim rather than by age or address. When no group fits a workable time, lessons are one to one.
 
 ## Around Sandyford and south Dublin
 

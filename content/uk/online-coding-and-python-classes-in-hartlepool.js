@@ -162,7 +162,7 @@ module.exports = {
       { h3: 'Code by the student', p: 'Learners prompt, write and test everything; the tutor sees the shared screen and guides with questions.' },
       { h3: 'Placed by the trial', p: 'From Year 4 to Year 13, the free lesson sets the first topic, with exam boards noted.' },
       { h3: 'Free first session', p: 'A whole lesson at no cost, then a clear recommendation.' },
-      { h3: 'Classmates who match', p: 'Each group holds five to ten UK learners progressing at a similar rate.' },
+      { h3: 'Classmates who match', p: 'Each group holds fifteen to twenty UK learners progressing at a similar rate.' },
       { h3: 'Two a week', p: 'Paused in school holidays.' },
       { h3: 'An unchanging slot', p: 'When the UK clocks go forward or back, our tutors adjust, not you.' }
     ],

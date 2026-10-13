@@ -237,7 +237,7 @@ The first lesson is free. Group classes then cost USD 100 a month for two live l
 
 ### How many learners share a group?
 
-Five to ten, grouped by level, pace and goals; one-to-one lessons are there when no group time works.
+Fifteen to twenty, grouped by level, pace and goals; one-to-one lessons are there when no group time works.
 
 ### Can adults join agents classes?
 

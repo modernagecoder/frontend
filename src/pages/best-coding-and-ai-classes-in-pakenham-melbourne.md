@@ -186,7 +186,7 @@ Every class runs live on a video call, so the size of the suburb makes no differ
 The whole price list fits in three lines.
 
 - First class: USD 0. A free first lesson, followed by an honest course suggestion.
-- Group tuition: USD 100 a month. One month of group classes, normally eight, in a level-matched group of fifteen to twenty.
+- Group tuition: USD 100 a month. One month of group classes, normally eight, in an level-matched group of fifteen to twenty.
 - Private tuition: USD 150 a month. About eight one-to-one classes a month with a single teacher.
 
 Families outside India are billed in US dollars, so Pakenham pays the same as any other family abroad. Nothing is due until the trial has settled the course and the time; the pricing page covers holidays, missed classes and switching format.
@@ -227,7 +227,7 @@ The first lesson is free. Group classes are then USD 100 a month for two live le
 
 ### How many learners share a group?
 
-Five to ten, matched on level, pace and goals, with one-to-one lessons when no group time works.
+Fifteen to twenty, matched on level, pace and goals, with one-to-one lessons when no group time works.
 
 ### Can adults join?
 

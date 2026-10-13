@@ -284,7 +284,7 @@ module.exports = {
       { h3: 'Live and guided', p: 'A teacher leads every lesson and reviews code as it is written.' },
       { h3: 'School calendar', p: 'Lessons follow ACT terms and pause for holidays.' },
       { h3: 'Trial lesson', p: 'One free class, then a written recommendation.' },
-      { h3: 'Group size', p: 'Small level-matched groups of fifteen to twenty, or private.' },
+      { h3: 'Group size', p: 'Level-matched groups of fifteen to twenty, or private.' },
       { h3: 'Pace', p: 'Two lessons a week, about eight a month.' },
       { h3: 'India hours', p: 'In summer a 7pm Inner North lesson begins at 1:30pm in India.' }
     ],

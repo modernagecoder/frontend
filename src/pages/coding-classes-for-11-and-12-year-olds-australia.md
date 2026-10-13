@@ -14,7 +14,7 @@ Australia · Ages 11 and 12 · Live online
 
 Eleven and twelve are the bridge years. Most Australian children of this age are finishing primary school or starting Year 7, and their coding should be crossing a bridge too: from block programs to typed code, from making games for fun to understanding how computers actually work. Children of this age can think abstractly enough to enjoy ideas such as binary and data, and they are old enough to care about privacy and what they leave behind online. This page explains what eleven and twelve year olds can realistically achieve, works through one idea from the curriculum (how a computer turns a letter into ones and zeros), shows how it lines up with Years 5 to 8, and sets out the paths our students take from here.
 
-At a glance: For: Children aged 11 and 12; School years: Usually Years 6 and 7; Main language: Python; Also: Web pages, apps, AI literacy; Big new ideas: Data, binary, functions; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children aged 11 and 12; School years: Usually Years 6 and 7; Main language: Python; Also: Web pages, apps, AI literacy; Big new ideas: Data, binary, functions; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three paths for 11 and 12 year olds
 
@@ -206,7 +206,7 @@ Lessons are taught live from India. Because every Australian state is a few hour
 - **Weekend** For longer project sessions.
 
 - **A free first class** Your child tries some Python with a teacher, and we recommend a path from what they enjoy.
-- **Small groups** Fifteen to twenty children of similar age and level, often from different states.
+- **Groups** Fifteen to twenty children of similar age and level, often from different states.
 - **One to one** For a child preparing for Year 7 quickly or chasing an ambitious project.
 - **Written by them** Every line is typed by the child; teachers guide with questions.
 - **Open to parents** You are welcome to watch any lesson, live.

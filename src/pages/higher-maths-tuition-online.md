@@ -14,7 +14,7 @@ Scotland · Higher · S5 and S6
 
 In the 2025 Higher Maths paper, a number of candidates factorised a polynomial and reached the right answer, and still did not get full marks. The course report explains why: the lines of working that led there contradicted each other along the way. "The inconsistencies meant that these examples did not gain full marks". That is the character of Higher. National 5 rewards getting the method and the number right; Higher also marks whether each step genuinely follows from the one before, whether the notation is exact, and whether the conclusion says precisely what was shown. This page sets out the two papers, where the 2025 candidates lost marks on the route rather than the destination, and how we teach working that holds up.
 
-At a glance: Course: Higher Mathematics C847 76; Paper 1: No calculator, 55 marks, 1 hour 15 minutes; Paper 2: Calculator, 65 marks, 1 hour 30 minutes; Coursework: None; Entries in 2025: 19,767 resulted; Entry: National 5 Mathematics or equivalent; Group: Five to ten at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Course: Higher Mathematics C847 76; Paper 1: No calculator, 55 marks, 1 hour 15 minutes; Paper 2: Calculator, 65 marks, 1 hour 30 minutes; Coursework: None; Entries in 2025: 19,767 resulted; Entry: National 5 Mathematics or equivalent; Group: Fifteen to twenty at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for Higher Maths
 

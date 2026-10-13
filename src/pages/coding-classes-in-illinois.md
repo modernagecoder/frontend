@@ -181,7 +181,7 @@ Live for the full hour, watching the student work. The single most common thing 
 
 The entitlement gets a student one course. We are built as a ladder, so finishing something is followed by starting the next thing rather than by waiting.
 
-### Five to eight, one teacher
+### Fifteen to twenty, one teacher
 
 Groups stay small and keep the same teacher every week. Private tuition is available where a student needs the whole hour to themselves.
 

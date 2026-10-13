@@ -183,7 +183,7 @@ The urban area stretches along the coast and inland, and a live online lesson re
 - **Anywhere along the coast** A learner in an apartment near the beach and one in a house out west can share the same lesson, each at their own desk.
 - **School words you know** Lessons refer to Year 7, Year 10 or Year 12 the way coast schools do, and every class runs in English.
 - **A trial with real work** The free session is an actual coding task with a teacher watching, and it ends with a recommended level, course and time. No payment details are taken.
-- **Small matched groups** Fifteen to twenty learners at the same stage, drawn from the Gold Coast, the rest of Australia and further away, so each level finds a workable time.
+- **Matched groups** Fifteen to twenty learners at the same stage, drawn from the Gold Coast, the rest of Australia and further away, so each level finds a workable time.
 - **A steady weekly rhythm** Usually two lessons a week, about eight a month, at a fixed time. Breaks for school holidays and exams are agreed with the teacher ahead of time.
 - **India time, all year** Neither Queensland nor India changes its clocks, so the coast stays 4 hours 30 minutes in front of our teachers; a 5pm lesson on the coast begins at 12:30pm in India.
 

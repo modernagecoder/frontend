@@ -188,7 +188,7 @@ module.exports = {
       { h3: 'From any suburb', p: 'A learner in a unit near the river and one in a house out at Redbank Plains can share a lesson, each at their own desk.' },
       { h3: 'Queensland language', p: 'Teachers use the year levels Queensland schools use, from Year 7 through Year 12, and know that senior study leads to the QCE. Lessons are taught in English.' },
       { h3: 'A real first lesson', p: 'You do a genuine task with a genuine teacher and leave knowing which level, course and weekly slot would suit you. Nobody asks for payment details.' },
-      { h3: 'Small, matched groups', p: 'Fifteen to twenty learners working at the same stage, drawn from Brisbane, the rest of Australia and further afield, so each level finds a workable slot.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners working at the same stage, drawn from Brisbane, the rest of Australia and further afield, so each level finds a workable slot.' },
       { h3: 'A steady rhythm', p: 'Usually two lessons a week, around eight a month, in a fixed slot. Breaks for school holidays and exams are planned with the teacher ahead of time.' },
       { h3: 'A fixed gap to India time', p: 'Neither Queensland nor India moves its clocks, so Brisbane always runs 4 hours 30 minutes in front of our teachers: 5pm in Brisbane is 12:30pm for them.' }
     ],

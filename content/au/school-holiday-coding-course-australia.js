@@ -52,7 +52,7 @@ module.exports = {
     ['Dates shown', 'NSW, Victoria, Queensland, WA, Tasmania'],
     ['Project tool', 'A Gantt chart'],
     ['Format', 'Live online video'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Times', 'Set for your state'],
     ['Start', 'A free first lesson']
   ],
@@ -227,7 +227,7 @@ module.exports = {
       { h3: 'A plan', p: 'A Gantt chart of the days available.' },
       { h3: 'Check-ins', p: 'A teacher reviews progress against the plan.' },
       { h3: 'Your state\'s dates', p: 'Planned around your own holiday window.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners, or one to one.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners, or one to one.' },
       { h3: 'Pause if you prefer', p: 'Taking the holidays off is fine too.' }
     ]
   },

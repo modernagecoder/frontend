@@ -14,7 +14,7 @@ UK · Home education · Ages 6 to 18
 
 Home education in England is growing quickly. The Department for Education, whose collection became mandatory in autumn 2024, counted 126,000 children being home educated on its autumn 2025 census day, and 175,900 at some point during the 2024/25 school year, though it warns that part of the rise reflects better data. The legal position is simple and demanding at once: gov.uk says "You must make sure your child receives a full-time education from the age of 5, but you do not have to follow the national curriculum". Computing is where many families look for help, and where one practical fact matters more than any other. A home-educated teenager can sit GCSE Computer Science as a private candidate, but only at an exam centre willing to host them, and the specification a centre can manage decides which course is realistic. This page covers the law, the GCSE route, and how to choose help.
 
-At a glance: Home educated, autumn 2025: 126,000 children in England; National curriculum: Not required at home; GCSE route: Private candidate at an exam centre; Exam costs: Paid by parents; Written-paper boards: AQA 8525 and OCR J277; Lesson times: Agreed in UK hours; Group: Five to ten at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Home educated, autumn 2025: 126,000 children in England; National curriculum: Not required at home; GCSE route: Private candidate at an exam centre; Exam costs: Paid by parents; Written-paper boards: AQA 8525 and OCR J277; Lesson times: Agreed in UK hours; Group: Fifteen to twenty at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for home-educated learners
 
@@ -178,7 +178,7 @@ Because our teachers work from India, which keeps one clock all year, the UK is 
 - **Real programming** Code written and debugged every lesson, so written papers feel familiar.
 - **Honest placement** A clear view of the level a learner is at, before anything is paid.
 - **Mixed ages by level** Groups formed by what learners can do, not by age alone.
-- **Small groups** Fifteen to twenty learners, or one to one.
+- **Groups** Fifteen to twenty learners, or one to one.
 
 ## Fees for home-education coding lessons
 

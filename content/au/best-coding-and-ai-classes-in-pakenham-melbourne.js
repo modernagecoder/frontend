@@ -321,7 +321,7 @@ module.exports = {
     h2: 'Pakenham class fees',
     intro: 'The whole price list fits in three lines.',
     first: 'A free first lesson, followed by an honest course suggestion.',
-    group: 'One month of group classes, normally eight, in a level-matched group of fifteen to twenty.',
+    group: 'One month of group classes, normally eight, in an level-matched group of fifteen to twenty.',
     private: 'About eight one-to-one classes a month with a single teacher.',
     closer: 'Families outside India are billed in US dollars, so Pakenham pays the same as any other family abroad. Nothing is due until the trial has settled the course and the time; the pricing page covers holidays, missed classes and switching format.'
   },
@@ -368,7 +368,7 @@ module.exports = {
       },
       {
         q: 'How many learners share a group?',
-        a: 'Five to ten, matched on level, pace and goals, with one-to-one lessons when no group time works.',
+        a: 'Fifteen to twenty, matched on level, pace and goals, with one-to-one lessons when no group time works.',
         boiler: true
       },
       {

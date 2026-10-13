@@ -139,7 +139,7 @@ All that any Wirral home needs is a computer and a steady internet connection.
 - **Learners at the keyboard** Students type their own programs while the tutor follows along by screen share and asks guiding questions.
 - **Begin at the right point** The free lesson, not only the school year, decides where a Year 3 or Year 13 learner begins, and the exam board is noted.
 - **First lesson, no fee** A full free lesson that ends with a plain course suggestion.
-- **Level-matched groups** Five to ten UK learners at one stage.
+- **Level-matched groups** Fifteen to twenty UK learners at one stage.
 - **Two sessions weekly** Holidays stay lesson-free.
 - **Your time holds** We shift with the UK clocks, so the slot does not move.
 

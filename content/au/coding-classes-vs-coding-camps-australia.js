@@ -56,7 +56,7 @@ module.exports = {
     ['Holidays', 'Project weeks optional'],
     ['Teacher', 'The same one each week'],
     ['Delivery', 'Live online video'],
-    ['Group size', 'Five to ten, or one to one'],
+    ['Group size', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',

@@ -81,7 +81,7 @@ module.exports = {
     ['Habit', 'Tests written alongside code'],
     ['Uni support', 'Concepts, never assessed work'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -472,7 +472,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'A short Java exercise and an honest view of the right starting stage.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students reading each other\'s code.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students reading each other\'s code.' },
       { h3: 'One to one', p: 'For a unit, a job or a specific project.' },
       { h3: 'Code by the student', p: 'Teachers guide; students type, run and explain.' },
       { h3: 'Tests as standard', p: 'Every class a student writes gets at least one test.' },

@@ -197,7 +197,7 @@ A Hurstville learner joins from home and spends the full lesson coding, with no 
 Three figures make up the full price list.
 
 - First class: USD 0. The first lesson costs nothing and comes with a recommendation.
-- Group tuition: USD 100 a month. A month of small-group lessons, usually eight, with fifteen to twenty learners.
+- Group tuition: USD 100 a month. A month of group lessons, usually eight, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Roughly eight one-to-one lessons each month.
 
 Outside India we bill in US dollars, so every suburb pays the same. Payment begins only after the trial, once the course and times are chosen; the pricing page explains holidays and missed lessons.

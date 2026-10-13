@@ -14,7 +14,7 @@ Netherlands · Havo and vwo · Live online
 
 Informatica is a small subject in Dutch secondary schools, and it is hard to staff. In the national measurement of teacher shortages for October 2024, only one subject, NASK, had a larger shortage as a share of its teaching than informatica, at 10.0 percent. Most of that shortage does not show up as empty posts. It is hidden: lessons that go ahead, but not always with a fully qualified informatica teacher. For a pupil who chose informatica because they love programming, or whose school offers it with a teacher stretched thin, that can mean a subject that covers the programme without ever going deep. This page is for those pupils, in havo 4 and 5 and vwo 4 to 6, and for their parents. Our classes sit beside informatica, not instead of it: Python, algorithms, data and projects taught by a specialist, live online and in English, at a pace that fits the school year.
 
-At a glance: For: Havo 4 to 5, vwo 4 to 6; Beside: The school subject informatica; Covers: Python, algorithms, data, databases; Also for: Pupils whose school does not offer it; Format: Live video with a teacher; Groups: Five to ten, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Havo 4 to 5, vwo 4 to 6; Beside: The school subject informatica; Covers: Python, algorithms, data, databases; Also for: Pupils whose school does not offer it; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Language: English; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that sit well beside informatica
 

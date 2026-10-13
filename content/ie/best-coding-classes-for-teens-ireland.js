@@ -53,7 +53,7 @@ module.exports = {
     ['For', 'First Year to Sixth Year'],
     ['Covers', 'Python, web, apps, data, AI'],
     ['Fits', 'Junior Cycle, TY, Leaving Cert'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Teacher', 'The same one all year'],
     ['Hours', 'Evenings and weekends, Irish time'],

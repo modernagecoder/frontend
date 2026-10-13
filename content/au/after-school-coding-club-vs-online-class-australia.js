@@ -51,7 +51,7 @@ module.exports = {
     ['For', 'Ages 6 to 18, and adults'],
     ['Our format', 'Taught live online'],
     ['Teacher', 'Regular, with cover'],
-    ['Group size', 'Five to ten, or one to one'],
+    ['Group size', 'Fifteen to twenty, or one to one'],
     ['Alongside clubs', 'Yes, many learners do both'],
     ['Delivery', 'Live online video'],
     ['Times', 'Set for your state'],
@@ -109,7 +109,7 @@ module.exports = {
           ['Who leads', 'Volunteers, teachers or librarians, with or without coding experience', 'A trained coding teacher'],
           ['What is taught', 'Set projects, step by step', 'A plan built around each learner'],
           ['Ages', 'Code Club Australia targets 8 to 13', 'Six to 67'],
-          ['Group', 'Whoever comes, often a mixed group', 'Five to ten at a similar level, or one to one'],
+          ['Group', 'Whoever comes, often a mixed group', 'Fifteen to twenty at a similar level, or one to one'],
           ['Feedback', 'Informal', 'Specific skills named for families'],
           ['Where', 'School or library, after the bell', 'At home, at a time that suits'],
           ['Runs when', 'Leaders and room are available', 'A teacher with cover arranged']

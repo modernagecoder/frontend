@@ -203,7 +203,7 @@ After school, in the evening and at weekends, scheduled on Irish time. India is 
 
 ### Do you teach adults?
 
-Yes, up to sixty-seven, and complete beginners are welcome. An adult's first lesson is where we see whether a level-matched group or private lessons will suit better.
+Yes, up to sixty-seven, and complete beginners are welcome. An adult's first lesson is where we see whether an level-matched group or private lessons will suit better.
 
 ### Will a Castlebar learner be grouped with local learners?
 
@@ -219,7 +219,7 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 ### How many learners are in a group?
 
-Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
+Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
 ## Across the west
 

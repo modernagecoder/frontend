@@ -12,7 +12,7 @@ Python for Data • **NumPy · pandas · Matplotlib**
 
 Build the coding foundation every data scientist and AI engineer needs. Learn Python from scratch with a data focus, then master NumPy, pandas and Matplotlib, loading, cleaning, analysing and visualising real data in Jupyter and Colab. Live small-batch classes for college students, professionals and serious teens.
 
-Book a Free Python DemoSee the Roadmap**pandas**The data workhorse**5–8**Students per batch**Colab**Real notebooks**Live**Hands-on with a mentor
+Book a Free Python DemoSee the Roadmap**pandas**The data workhorse**15–20**Students per batch**Colab**Real notebooks**Live**Hands-on with a mentor
 
 ## Quick answer
 

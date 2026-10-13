@@ -78,7 +78,7 @@ module.exports = {
     ['Training', 'All six assurance techniques apply'],
     ['We teach', 'Data, training, evaluation, failure'],
     ['Ages', 'About 12 upwards, and adults'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Start', 'One free lesson']
   ],

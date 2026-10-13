@@ -70,7 +70,7 @@ module.exports = {
     ['WJEC and Eduqas AS', 'Python, VB.NET or Java on screen'],
     ['Cambridge 9618 Paper 4', 'Java, VB or Python, console mode'],
     ['For', 'Teens 13 to 18 and adults'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -246,7 +246,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'We check what you know, in any language, and where Java fits for you.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at the same level and age band.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at the same level and age band.' },
       { h3: 'One to one', p: 'For exam timetables or a faster pace.' },
       { h3: 'Console first', p: 'Plain console programs before any graphical framework.' },
       { h3: 'Code read closely', p: 'A teacher reads your Java and explains what to change and why.' },

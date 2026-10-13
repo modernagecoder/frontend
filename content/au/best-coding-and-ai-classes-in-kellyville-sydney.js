@@ -331,7 +331,7 @@ module.exports = {
       { h3: 'At home', p: 'A laptop or desktop with sound is enough. Younger children usually have a parent nearby for the first lesson.' },
       { h3: 'NSW calendar', p: 'Plans follow NSW stages and pause for the state holidays, so the teaching rhythm matches the school year.' },
       { h3: 'Free first class', p: 'The trial is a real lesson, after which the teacher recommends a course and time, with nothing to pay.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at a matched level, drawn from many places, or one to one if preferred.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at a matched level, drawn from many places, or one to one if preferred.' },
       { h3: 'Twice weekly', p: 'A fixed slot on two days a week, around eight lessons a month, with breaks agreed in advance.' },
       {
         h3: 'India time',

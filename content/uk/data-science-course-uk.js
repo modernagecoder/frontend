@@ -68,7 +68,7 @@ module.exports = {
     ['Our course', 'Python, pandas and charts'],
     ['Then', 'Sampling, correlation, first models'],
     ['For', 'Ages 14 to 18 and adults'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -246,7 +246,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'We look at your maths and coding, and pick a route and a first data set.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at the same level.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at the same level.' },
       { h3: 'One to one', p: 'For a faster pace or a particular project.' },
       { h3: 'Notebooks you keep', p: 'Every analysis is saved in your own repository.' },
       { h3: 'Sources on every chart', p: 'Students record where each data set came from.' },

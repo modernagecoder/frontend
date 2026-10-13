@@ -325,7 +325,7 @@ module.exports = {
       { h3: 'Join from home', p: 'The learner logs in from a desk at home and spends the whole lesson building.' },
       { h3: 'Built around NSW terms', p: 'Lessons track NSW syllabus stages and pause in the state school holidays.' },
       { h3: 'A genuine trial', p: 'The free first class is a full lesson, finishing with a course, level and time suggestion.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners per group, matched by level and pace, Randwick learners alongside others.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners per group, matched by level and pace, Randwick learners alongside others.' },
       { h3: 'Two a week', p: 'Two fixed lessons weekly, about eight a month, with breaks agreed in advance.' },
       {
         h3: 'Teachers in India',

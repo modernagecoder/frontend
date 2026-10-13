@@ -53,7 +53,7 @@ module.exports = {
     ['Screen', 'Shared both ways'],
     ['Data per hour', 'Under 1.5 GB at HD'],
     ['Travel', 'None'],
-    ['Group size', 'Five to ten, or one to one'],
+    ['Group size', 'Fifteen to twenty, or one to one'],
     ['Times', 'Set for your state'],
     ['Start', 'A free first lesson']
   ],
@@ -252,7 +252,7 @@ module.exports = {
     cells: [
       { h3: 'Screen sharing', p: 'The teacher reads the learner\'s actual code.' },
       { h3: 'Same teacher', p: 'One teacher, week after week.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners, or one to one.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners, or one to one.' },
       { h3: 'No travel', p: 'Lessons start at home, on time.' },
       { h3: 'Family welcome', p: 'Parents can sit in on any lesson.' },
       { h3: 'Own computer', p: 'Projects carry on between lessons.' }

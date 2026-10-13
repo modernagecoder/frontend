@@ -315,7 +315,7 @@ module.exports = {
       { h3: 'A shared screen', p: 'Teacher and learner open the same project and write code together from the start.' },
       { h3: 'Victorian school terms', p: 'Lesson plans track the state terms and pause over the school holidays.' },
       { h3: 'A proper first lesson', p: 'The free trial covers real material and ends with a suggested course and time.' },
-      { h3: 'Small level-matched groups', p: 'Fifteen to twenty learners at one level, sometimes from several states.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners at one level, sometimes from several states.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons a week, roughly eight a month, with breaks agreed ahead.' },
       { h3: 'Teachers in India', p: 'A 6pm Glen Eira lesson in daylight saving starts at 12:30pm India time; after April it starts at 1:30pm there.' }
     ],
@@ -378,7 +378,7 @@ module.exports = {
       },
       {
         q: 'How many learners are in a group?',
-        a: 'Five to ten, matched by level, pace and goal. If no group fits the learner\'s time, one-to-one lessons are offered instead.',
+        a: 'Fifteen to twenty, matched by level, pace and goal. If no group fits the learner\'s time, one-to-one lessons are offered instead.',
         boiler: true
       },
       {

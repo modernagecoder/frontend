@@ -191,7 +191,7 @@ File 06 · Why us
 
 ## A coach who reads your code, live.
 
-#### Small live batches
+#### Live batches
 
 15–20 students per class. A mentor sees your compiler errors and your reasoning, and corrects both in real time.
 

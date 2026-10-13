@@ -176,7 +176,7 @@ Every lesson is a live video class, joined from home anywhere in Sunnybank.
 - **Hands on keyboard** The learner writes the code; the teacher watches the shared screen and guides.
 - **Term rhythm** Classes follow Queensland school terms and pause for the holidays.
 - **Free first class** One full lesson costs nothing and ends with a suggested course.
-- **Small groups** Fifteen to twenty learners at a matched level, or one to one.
+- **Groups** Fifteen to twenty learners at a matched level, or one to one.
 - **Twice a week** Two live lessons each week, about eight in a month.
 - **Clocks that stay put** Brisbane keeps the same time all year, so a 5pm Sunnybank lesson is always 12:30pm in India, where our teachers are.
 

@@ -330,7 +330,7 @@ module.exports = {
     h2: 'Hurstville class fees',
     intro: 'Three figures make up the full price list.',
     first: 'The first lesson costs nothing and comes with a recommendation.',
-    group: 'A month of small-group lessons, usually eight, with fifteen to twenty learners.',
+    group: 'A month of group lessons, usually eight, with fifteen to twenty learners.',
     private: 'Roughly eight one-to-one lessons each month.',
     closer: 'Outside India we bill in US dollars, so every suburb pays the same. Payment begins only after the trial, once the course and times are chosen; the pricing page explains holidays and missed lessons.'
   },

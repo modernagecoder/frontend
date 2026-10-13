@@ -54,7 +54,7 @@ module.exports = {
     ['Big new ideas', 'Variables and coordinates'],
     ['Projects', 'Complete games with scores'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -250,7 +250,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'Your child builds part of a small game and the teacher judges whether Scratch or Python suits better.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children of similar ability who play-test each other\'s games.' },
+      { h3: 'Groups', p: 'Fifteen to twenty children of similar ability who play-test each other\'s games.' },
       { h3: 'One to one', p: 'For a child who wants to move faster or build one big project.' },
       { h3: 'Built by the child', p: 'Teachers explain and question. Every block and line is the child\'s.' },
       { h3: 'Watch any time', p: 'Lessons are live, so parents can see exactly how they run.' },

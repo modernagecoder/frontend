@@ -238,7 +238,7 @@ The first lesson is free. Group classes cost USD 100 a month for two live lesson
 
 ### How many learners are in a group?
 
-Five to ten, placed by level and goals rather than by age or school. If no group fits the learner's availability, one-to-one lessons are arranged.
+Fifteen to twenty, placed by level and goals rather than by age or school. If no group fits the learner's availability, one-to-one lessons are arranged.
 
 ## Further guides for Willoughby families
 

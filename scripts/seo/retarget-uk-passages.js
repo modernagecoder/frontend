@@ -43,7 +43,7 @@ const insertBeforeClose = (h, openTag, items) => {
   const f = 'gcse-maths-tuition-online.html';
   let h = rd(f);
   const fee = '<details><summary>How much does it cost?</summary><div class="a"><p>USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.</p></div></details>';
-  if (h.includes(fee)) h = h.replace(fee, '<details><summary>How much does it cost?</summary><div class="a"><p>A flat monthly fee, shown in your own currency in the pricing section of this page: private one-to-one with eight live lessons a month, two each week, or a small-group batch of 15 to 20 at a lower fee. No enrolment charge and no contract; stop at any month end.</p></div></details>');
+  if (h.includes(fee)) h = h.replace(fee, '<details><summary>How much does it cost?</summary><div class="a"><p>A flat monthly fee, shown in your own currency in the pricing section of this page: private one-to-one with eight live lessons a month, two each week, or a group batch of 15 to 20 at a lower fee. No enrolment charge and no contract; stop at any month end.</p></div></details>');
   if (/USD \d+ per month/.test(h.slice(h.indexOf('<div class="mp-faq')))) throw new Error('a USD figure is still inside the FAQ');
   if (!h.includes(MARK)) {
     const lede = h.indexOf('<p class="mp-lede">'); if (lede === -1) throw new Error('mp-lede not found');

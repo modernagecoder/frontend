@@ -179,7 +179,7 @@ A wilayat spread across dozens of small settlements has no location that is fair
 
 It is a real class with a real task in it, and it ends with a specific recommendation. No payment details are collected beforehand, and nobody commits to anything until they have watched a teacher work.
 
-### Small groups, matched on ability
+### Groups, matched on ability
 
 Fifteen to twenty learners, put together on what they can already do and what they are working toward. Geography is not one of the inputs, which is exactly what a local class cannot say.
 

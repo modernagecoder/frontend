@@ -370,7 +370,7 @@ module.exports = {
       },
       {
         q: 'How many learners are in a group?',
-        a: 'Five to ten, matched on level and pace rather than age or suburb, with private lessons when no group time suits.',
+        a: 'Fifteen to twenty, matched on level and pace rather than age or suburb, with private lessons when no group time suits.',
         boiler: true
       },
       { q: 'Can adults join?', a: 'Yes. Adults learn in adult groups or one to one, often starting from data they use at work.' }

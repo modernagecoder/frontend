@@ -12,7 +12,7 @@ Computer Vision • **AI that sees**
 
 Give machines sight. Learn how images become data, how convolutional neural networks classify them, and how object detection finds things in a scene, using Python and OpenCV. Build real computer-vision models, hands-on and live with a mentor.
 
-Book a Free DemoSee the Roadmap**CNN**How AI sees**5–8**Students per batch**OpenCV**Hands-on vision**Live**Mentor-led
+Book a Free DemoSee the Roadmap**CNN**How AI sees**15–20**Students per batch**OpenCV**Hands-on vision**Live**Mentor-led
 
 ## Quick answer
 

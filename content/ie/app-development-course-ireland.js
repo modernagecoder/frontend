@@ -64,7 +64,7 @@ module.exports = {
     ['Builds', 'A real app, published'],
     ['Covers', 'Design, code, test, release'],
     ['Platforms', 'Android and iOS'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Hours', 'After school and evenings, Irish time'],
     ['Start', 'A free first class']

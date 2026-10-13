@@ -60,7 +60,7 @@ module.exports = {
     ['Explains it', 'Every decision, out loud'],
     ['Never touches', 'Coursework, dissertations or assessed code'],
     ['Format', 'Evenings and weekends, live'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -239,7 +239,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'Talk through what you want to build and leave with a first version of the plan.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students at the same level, reviewing each other\'s agents and test sets.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students at the same level, reviewing each other\'s agents and test sets.' },
       { h3: 'One to one', p: 'For a faster pace, and the only format for the Copilot Studio course.' },
       { h3: 'Your repository', p: 'Everything lives in your own GitHub account, so the evidence stays with you.' },
       { h3: 'Explained out loud', p: 'You talk through your agent\'s design choices in lessons, the way you would to an interviewer.' },

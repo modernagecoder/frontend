@@ -45,7 +45,7 @@ module.exports = {
     ['What', 'Python, data, models, agents'],
     ['Habit', 'Every project ends with a public write-up'],
     ['How', 'Live video with one teacher'],
-    ['Group size', '5 to 10, or one to one'],
+    ['Group size', '15 to 20, or one to one'],
     ['When', 'Dutch afternoons, evenings, weekends'],
     ['Language', 'English, with Dutch school words kept'],
     ['Start', 'A free first lesson']

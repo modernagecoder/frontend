@@ -169,7 +169,7 @@ Lessons are live, taught from India, at a weekly hour set in Irish time. Irish t
 
 - **A free first class** The student traces and explains some Python, and the teacher says honestly where they stand.
 - **One to one** The usual choice for Sixth Years: one specialist, one student, the whole hour.
-- **Small groups** Five to ten Senior Cycle students at the same level, often from several schools.
+- **Groups** Fifteen to twenty Senior Cycle students at the same level, often from several schools.
 - **Specialist teachers** Teachers who program, not generalists covering the subject for a term.
 - **Coursework kept separate** Skills on other projects only; the student's artefact is never seen or touched.
 - **Progress you can see** Parents hear what the student can now do, in plain terms, as the months go by.

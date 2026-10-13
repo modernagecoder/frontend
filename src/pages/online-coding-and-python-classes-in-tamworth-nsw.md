@@ -189,7 +189,7 @@ Every lesson is live on video, so where in Tamworth a learner lives makes no dif
 - **No travel** A student in Westdale and another in Nemingha can sit in the same group without anyone crossing town.
 - **NSW school language** Teachers refer to New South Wales stages and year levels and plan revision around the state's terms.
 - **Trial before anything else** The first lesson is a full teaching session that finishes with a recommended course and time; it involves no sales pitch and no card.
-- **Small groups** Groups hold fifteen to twenty learners matched by level, drawn from Tamworth and other places so a slot always fills.
+- **Groups** Groups hold fifteen to twenty learners matched by level, drawn from Tamworth and other places so a slot always fills.
 - **A steady rhythm** Two lessons a week, roughly eight a month, at the same time, with exam periods and holidays arranged in advance.
 - **Teachers in India** During daylight saving Tamworth runs five and a half hours ahead of India time, otherwise four and a half, so a 6pm lesson is 12:30pm or 1:30pm for the teacher.
 

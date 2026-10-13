@@ -16,7 +16,7 @@ Chosen by what they produce in the first month, because adults, sensibly, want t
 
 The short answer
 
-Adults from their mid-twenties to their sixties learn AI here without a career switch attached: analytics without programming for owners and managers, AI tools mastery for output-bottlenecked professionals, Python automation for chore-killers, and generative AI for the ones who get hooked. Batches are adult-only, five to eight people at evening and weekend hours, because grown-up beginners deserve a room of grown-up beginners. No typing speed, no technical background and no youth are required; precision of thought is the actual input, and adults arrive with more of it than they believe. USD 100 a month for groups, USD 150 one to one, first class free at an hour that suits your time zone.
+Adults from their mid-twenties to their sixties learn AI here without a career switch attached: analytics without programming for owners and managers, AI tools mastery for output-bottlenecked professionals, Python automation for chore-killers, and generative AI for the ones who get hooked. Batches are adult-only, fifteen to twenty people at evening and weekend hours, because grown-up beginners deserve a room of grown-up beginners. No typing speed, no technical background and no youth are required; precision of thought is the actual input, and adults arrive with more of it than they believe. USD 100 a month for groups, USD 150 one to one, first class free at an hour that suits your time zone.
 
 The four paths
 
@@ -269,7 +269,7 @@ One live session a week, scheduled in evening and weekend slots across time zone
 
 ### Will I be in a class with teenagers?
 
-No. Adult batches are adult-only, five to eight people, and it matters more than it sounds: the questions are different, the examples are different, the humour is different, and nobody wants to ask their beginner question in front of a fifteen year old who codes like breathing. One to one is also available and is the format many adults choose for their first two months.
+No. Adult batches are adult-only, fifteen to twenty people, and it matters more than it sounds: the questions are different, the examples are different, the humour is different, and nobody wants to ask their beginner question in front of a fifteen year old who codes like breathing. One to one is also available and is the format many adults choose for their first two months.
 
 ### I run a small business. Which course actually helps me?
 

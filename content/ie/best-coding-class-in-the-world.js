@@ -55,7 +55,7 @@ module.exports = {
   spec: [
     ['Taught', 'Live, by a teacher'],
     ['Ages', '6 to 67'],
-    ['Groups', 'Five to ten, placed by level'],
+    ['Groups', 'Fifteen to twenty, placed by level'],
     ['Or', 'One to one'],
     ['Method', 'Read, predict, modify, make'],
     ['AI tools', 'Used openly, checked always'],

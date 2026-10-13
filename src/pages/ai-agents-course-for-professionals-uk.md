@@ -225,7 +225,7 @@ Our teachers work from India, which does not change its clocks. The UK is four a
 - **Weekend** Longer sessions for building and testing.
 
 - **A free first class** Bring a process you run and leave knowing whether an agent belongs in it.
-- **Small groups** Five to ten professionals at one level, comparing designs and test results.
+- **Groups** Fifteen to twenty professionals at one level, comparing designs and test results.
 - **One to one** For confidential data, and the only format for Copilot Studio and Gemini Enterprise.
 - **Your own subscriptions** Coding-agent work runs on accounts you own, so the work stays with you.
 - **Records, not demos** An agent counts as finished when its record is complete and its tests pass.

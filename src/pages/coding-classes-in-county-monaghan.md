@@ -226,7 +226,7 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 ### How many learners are in a group?
 
-Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
+Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
 ## Beyond Monaghan
 

@@ -196,7 +196,7 @@ module.exports = {
       { h3: 'Anywhere along the coast', p: 'A learner in an apartment near the beach and one in a house out west can share the same lesson, each at their own desk.' },
       { h3: 'School words you know', p: 'Lessons refer to Year 7, Year 10 or Year 12 the way coast schools do, and every class runs in English.' },
       { h3: 'A trial with real work', p: 'The free session is an actual coding task with a teacher watching, and it ends with a recommended level, course and time. No payment details are taken.' },
-      { h3: 'Small matched groups', p: 'Fifteen to twenty learners at the same stage, drawn from the Gold Coast, the rest of Australia and further away, so each level finds a workable time.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at the same stage, drawn from the Gold Coast, the rest of Australia and further away, so each level finds a workable time.' },
       { h3: 'A steady weekly rhythm', p: 'Usually two lessons a week, about eight a month, at a fixed time. Breaks for school holidays and exams are agreed with the teacher ahead of time.' },
       { h3: 'India time, all year', p: 'Neither Queensland nor India changes its clocks, so the coast stays 4 hours 30 minutes in front of our teachers; a 5pm lesson on the coast begins at 12:30pm in India.' }
     ],

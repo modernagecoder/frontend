@@ -176,7 +176,7 @@ Our tutors are in India. During NSW daylight saving, from October to April, Indi
 - **Pictures first** Complex numbers and vectors are sketched before they are calculated.
 - **Reasons on every line** Proof writing practised until each step carries its justification.
 - **Two papers rehearsed** Extension 1 and Extension 2 papers timed back to back.
-- **Small senior groups** Five to ten Extension 2 students, each one presenting a solution aloud.
+- **Small senior groups** Fifteen to twenty Extension 2 students, each one presenting a solution aloud.
 - **One-to-one option** A private tutor for a single area of study.
 - **Straight talk** We never forecast marks. The work is the student's, and so is the result.
 

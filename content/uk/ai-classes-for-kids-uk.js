@@ -72,7 +72,7 @@ module.exports = {
     ['Teaches', 'How machines learn from data'],
     ['Needs', 'A computer and an adult nearby'],
     ['Accounts', 'None with any AI company'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Output', 'A model the child trained and broke'],
     ['Start', 'One free lesson']

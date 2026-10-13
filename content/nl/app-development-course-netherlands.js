@@ -48,7 +48,7 @@ module.exports = {
     ['Adults', 'Flutter, Kotlin, Swift'],
     ['Built in', 'Security and reliability from the start'],
     ['Format', 'Live video with a teacher'],
-    ['Groups', 'Five to ten, or one to one'],
+    ['Groups', 'Fifteen to twenty, or one to one'],
     ['Language', 'English'],
     ['Start', 'A free first lesson']
   ],

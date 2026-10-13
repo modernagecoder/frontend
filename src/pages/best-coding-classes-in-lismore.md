@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths-in-code classes for Lismore t
 canonical: https://learn.modernagecoders.com/best-coding-classes-in-lismore
 source: src/pages/best-coding-classes-in-lismore.html
 ---
-> Live lessons where a Lismore teenager or adult writes real Python with a teacher, moving from first programs into the mathematics that sits underneath code, using open data about the Northern Rivers. The 2021 Census counted 28,816 people in the Lismore urban area, with a median age of 42. Teaching happens live on camera, privately or in a level-matched group, and the opening lesson costs nothing.
+> Live lessons where a Lismore teenager or adult writes real Python with a teacher, moving from first programs into the mathematics that sits underneath code, using open data about the Northern Rivers. The 2021 Census counted 28,816 people in the Lismore urban area, with a median age of 42. Teaching happens live on camera, privately or in an level-matched group, and the opening lesson costs nothing.
 
 [Home](/) / [Australia](/coding-classes-in-australia) / [New South Wales](/coding-and-ai-classes-in-new-south-wales) / Lismore
 
@@ -12,7 +12,7 @@ Lismore, New South Wales, Australia / Live online
 
 # Coding classes in Lismore
 
-**What are the best coding classes in Lismore?** Live lessons where a Lismore teenager or adult writes real Python with a teacher, moving from first programs into the mathematics that sits underneath code, using open data about the Northern Rivers. The 2021 Census counted 28,816 people in the Lismore urban area, with a median age of 42. Teaching happens live on camera, privately or in a level-matched group, and the opening lesson costs nothing.
+**What are the best coding classes in Lismore?** Live lessons where a Lismore teenager or adult writes real Python with a teacher, moving from first programs into the mathematics that sits underneath code, using open data about the Northern Rivers. The 2021 Census counted 28,816 people in the Lismore urban area, with a median age of 42. Teaching happens live on camera, privately or in an level-matched group, and the opening lesson costs nothing.
 
 Here is a puzzle from the Lismore council area. Of the 28 public schools open today, how many already had a first teacher in 1880? The state's school file answers it exactly: three. Now pretend you only know the count every twenty years, and ask a polynomial to fill in the gaps. It says 8.31. Give it a reading every ten years instead, which sounds like better information, and for 2017 it predicts minus 76 schools. Our Lismore project builds that polynomial in Python and shows why adding more points can make a smooth curve worse, not better.
 
@@ -200,7 +200,7 @@ The schools in our project spread across the city and its surrounding villages, 
 - **City and villages** A learner in Goonellabah and one in a hill village can share a lesson without either making the drive into town.
 - **NSW stages, taught in English** Lessons follow NSW stages, from Stage 4 in Year 7 to the HSC years, and pause for the state's term breaks. Senior students can link projects to their computing and maths subjects.
 - **A real first lesson** The free trial is a normal class, not a sales call. Afterwards you receive a recommended level, course and weekly time, and nobody asks for a card.
-- **Matched groups** Groups hold five to ten people working at one stage, drawn from Lismore and other towns, which keeps every class properly filled.
+- **Matched groups** Groups hold fifteen to twenty people working at one stage, drawn from Lismore and other towns, which keeps every class properly filled.
 - **Twice a week** Two lessons each week at a fixed hour, about eight a month, pausing for school holidays and exam periods by arrangement.
 - **A teacher in India** A 6pm Lismore lesson in July begins at 1:30pm India time; after NSW clocks go forward in October, the same lesson begins at 12:30pm there.
 

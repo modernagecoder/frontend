@@ -14,7 +14,7 @@ Australia · Ages 13 to 67 · Java, live online
 
 Java rarely appears on a primary school timetable in Australia, yet it is waiting for many students later on: in a second-year software unit, in an Android project, or in a job that runs on a large Java codebase. Our live online Java classes are for teenagers ready for a strongly typed, object-oriented language, for university students taking a Java unit this semester, and for adults who need Java at work. Lessons cover classes and objects, collections, interfaces, exceptions and tests, and every concept is run, broken and fixed on screen. Below we show where Java sits in Australian education, work through one bug that catches nearly every Java learner, and set out what a course looks like week by week.
 
-At a glance: For: Ages 13 to 67; Language: Java, current long-term release; Core: Classes, collections, interfaces; Habit: Tests written alongside code; Uni support: Concepts, never assessed work; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 13 to 67; Language: Java, current long-term release; Core: Classes, collections, interfaces; Habit: Tests written alongside code; Uni support: Concepts, never assessed work; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three Java courses, matched to where you are
 
@@ -217,7 +217,7 @@ Our teachers work from India, whose day runs alongside the Australian afternoon 
 - **Weekend** Longer sessions for projects and testing.
 
 - **Free first class** A short Java exercise and an honest view of the right starting stage.
-- **Small groups** Fifteen to twenty students reading each other's code.
+- **Groups** Fifteen to twenty students reading each other's code.
 - **One to one** For a unit, a job or a specific project.
 - **Code by the student** Teachers guide; students type, run and explain.
 - **Tests as standard** Every class a student writes gets at least one test.

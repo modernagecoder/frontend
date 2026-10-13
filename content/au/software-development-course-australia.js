@@ -118,7 +118,7 @@ module.exports = {
     ],
     [
       "Group",
-      "Five to ten, or one to one"
+      "Fifteen to twenty, or one to one"
     ],
     [
       "Start",
@@ -598,7 +598,7 @@ module.exports = {
         "p": "A short coding task and its first test, then advice on where to begin."
       },
       {
-        "h3": "Small groups",
+        "h3": "Groups",
         "p": "Fifteen to twenty learners reviewing each other's code."
       },
       {

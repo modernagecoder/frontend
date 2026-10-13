@@ -14,7 +14,7 @@ The Hague · Live online · Ages 6 to 67
 
 On 17 December 2020, in The Hague, a parliamentary committee handed over a report called Ongekend onrecht, unprecedented injustice, about how the childcare allowance had been run. Four weeks later the whole cabinet offered its resignation. The failures it describes run through laws, courts and a whole administration, far beyond any single program. But one strand is squarely a programmer's concern. The tax authority's benefits department had used applicants' nationality in a risk classification model, and the data protection authority judged that unlawful and discriminatory. Every student who builds a model that sorts people should know this case, and should know the simple check that brings such a problem into view: counting the model's mistakes separately for each group. This page teaches AI and Python from a child's first program upward, with that check built into every model, live online for learners in The Hague.
 
-At a glance: For: Learners in The Hague, 6 to 67; Track: Python, data, models, agents; Built in: Error rates checked group by group; Format: Live video with a teacher; Groups: 5 to 10, or one to one; Hours: Dutch afternoons, evenings, weekends; Taught in: English; To begin: A free lesson, no card. Rated 4.9 across 547 Google reviews.
+At a glance: For: Learners in The Hague, 6 to 67; Track: Python, data, models, agents; Built in: Error rates checked group by group; Format: Live video with a teacher; Groups: 15 to 20, or one to one; Hours: Dutch afternoons, evenings, weekends; Taught in: English; To begin: A free lesson, no card. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for learners in The Hague
 

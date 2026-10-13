@@ -223,7 +223,7 @@ module.exports = {
     cells: [
       { h3: 'Play first', p: 'Young children learn best through puzzles and making things.' },
       { h3: 'Our own puzzles', p: 'Competition-style practice written by us, never copied.' },
-      { h3: 'Small classes', p: 'Fifteen to twenty children at a similar level.' },
+      { h3: 'Classes', p: 'Fifteen to twenty children at a similar level.' },
       { h3: 'One-to-one option', p: 'For a child who needs a different pace.' },
       { h3: 'Team-friendly', p: 'We teach the coding; teams keep their own projects.' },
       { h3: 'No result promised', p: 'Organisers set and mark every competition.' }

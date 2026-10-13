@@ -331,7 +331,7 @@ module.exports = {
     h2: 'Wyndham class fees',
     intro: 'Three plain options.',
     first: 'Lesson one is free and finishes with a recommendation.',
-    group: 'A month of small-group lessons, typically eight, with fifteen to twenty learners at one level.',
+    group: 'A month of group lessons, typically eight, with fifteen to twenty learners at one level.',
     private: 'A month of one-to-one lessons, typically eight, with a dedicated teacher.',
     closer: 'Wyndham families, like every family outside India, pay in US dollars. We take no payment until the trial has settled the course and the time, and the pricing page sets out holidays and missed lessons.'
   },

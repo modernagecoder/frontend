@@ -178,7 +178,7 @@ Greater Perth stretches a long way up and down the coast, and online lessons mea
 - **What you need** A laptop or desktop with working sound. A parent nearby for the first lesson helps young children settle in.
 - **Western Australian terms** Teachers use the year names Perth children use, from Pre-primary onwards, so nothing sounds unfamiliar.
 - **A proper trial** One complete lesson to see how your child learns, followed by a course and time recommendation, with no card required.
-- **Small groups** Fifteen to twenty children at the same stage, or one to one when that suits better.
+- **Groups** Fifteen to twenty children at the same stage, or one to one when that suits better.
 - **Regular rhythm** About eight lessons a month, normally two a week in the same slot.
 - **Teachers on India time** Perth is two and a half hours ahead of India time all year round, so after-school Perth lessons fall in the early afternoon of our teachers' working day.
 

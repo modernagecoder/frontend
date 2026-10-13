@@ -249,7 +249,7 @@ The first lesson is free. After that a group place is USD 100 a month for two li
 
 ### How many learners are in a group?
 
-Five to ten, grouped by level, pace and goal rather than age or suburb. If no group fits the time a learner needs, one-to-one lessons are offered instead.
+Fifteen to twenty, grouped by level, pace and goal rather than age or suburb. If no group fits the time a learner needs, one-to-one lessons are offered instead.
 
 ## More for Georges River learners
 

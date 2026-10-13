@@ -217,7 +217,7 @@ Our teachers are in India, which never moves its clocks, so Wales runs four and 
 - **Tested as built** Testing recorded throughout every practice product, because Task 5 grades the testing as well as the result.
 - **Spreadsheets early** Data cleaning and analysis first, since Task 1 opens the unit and sets up everything after it.
 - **Stop before control** Practice ends before the school's supervised hours start, and lessons turn to Unit 1.
-- **Small groups** Fifteen to twenty students at one rung, reviewing each other's practice products.
+- **Groups** Fifteen to twenty students at one rung, reviewing each other's practice products.
 
 ## Fees for Digital Technology lessons
 

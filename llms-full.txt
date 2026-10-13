@@ -1,7 +1,7 @@
 # Modern Age Coders
 
 > Live online coding and mathematics classes for kids (ages 6+), teens, college students,
-and adults, ages 6 to 67. Small group batches of 15 to 20 students, mini batches of up to 6, and 1-on-1. Rated 4.9 out of 5 across 547
+and adults, ages 6 to 67. Group batches of 15 to 20 students, mini batches of up to 6, and 1-on-1. Rated 4.9 out of 5 across 547
 Google reviews. Founded 2020.
 
 Modern Age Coders is an Indian online education platform founded to make quality coding and
@@ -48,7 +48,7 @@ Full companion to /llms.txt, brand overview, complete course catalog, embedded t
 ## Quick Facts
 
 - **Pricing (India):** Group classes from ₹1,499/month (2 live classes per week). Mini Batch (up to 6 students) ₹2,999/month. 1-on-1 from ₹4,999/month. Visitors outside India see a price set for their own country, shown in their local currency.
-- **Class size:** 15 to 20 students per group batch, up to 6 in a mini batch, or 1-on-1 (small batches, not 100+).
+- **Class size:** 15 to 20 students per group batch, up to 6 in a mini batch, or 1-on-1 (batches, not 100+).
 - **Format:** Live and interactive over video. Recorded for revision.
 - **Trial:** Free demo class (a waiting list, no promised date) at https://learn.modernagecoders.com/book-demo, or the paid Priority Live Demo at https://learn.modernagecoders.com/priority-demo: a guaranteed full class of about 45 to 60 minutes today or tomorrow, with a written skill report afterwards, and the fee adjusted against the first month on enrolment.
 - **Audience:** Kids (6-12), Teens (13-17), College students, Working professionals, Corporate teams.

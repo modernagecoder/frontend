@@ -237,7 +237,7 @@ module.exports = {
       { q: 'Can students in remote communities join?', a: 'Yes, if they have a laptop or desktop, sound and a connection reliable enough for a video call. They join exactly the same live lessons as learners in Darwin.' },
       { q: 'Is there a Modern Age Coders centre in the Northern Territory?', a: 'No, and none is claimed. All lessons are live online with no premises in Australia, and the contact number shown is an Indian one.', boiler: true },
       { q: 'How much are coding lessons in the NT?', a: 'The first lesson is free. After that a group place is USD 100 a month for two live lessons a week, about eight a month, with fifteen to twenty learners, or USD 150 a month for the same pattern one to one. Course, format and time are agreed before any payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, grouped by level, pace and goals rather than age or town. If no group meets at a suitable hour, the learner is offered one-to-one lessons.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, grouped by level, pace and goals rather than age or town. If no group meets at a suitable hour, the learner is offered one-to-one lessons.', boiler: true }
     ]
   },
 

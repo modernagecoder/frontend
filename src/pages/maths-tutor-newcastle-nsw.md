@@ -168,7 +168,7 @@ Newcastle shares Sydney's time: four and a half hours ahead of India in winter, 
 
 A private lesson each week for a topic, a test or a fresh start.
 
-### Five to ten together
+### Fifteen to twenty together
 
 A level-matched group with one regular teacher and plenty of discussion.
 

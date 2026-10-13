@@ -14,7 +14,7 @@ UK · Ages 9 to 13 · Community coding
 
 Code Club started in the UK in 2012 and has since involved, by its own count, more than two million young people. It is free, it meets in schools, libraries and youth clubs, and it is run by teachers and volunteers, many of whom are not programmers; Code Club says plainly that "You don't need any coding experience to run a Code Club." Children work through step-by-step project guides at their own pace, and an independent evaluation by Durham University found they build real coding skills, confidence and a sense of belonging. That design is its strength. It is also why some children eventually outgrow it: they finish the guides, want to build something no guide describes, and need someone who can read their code and tell them what to try next. This page is about that moment, and what a sensible next step looks like.
 
-At a glance: For: Children who have outgrown a Code Club; Usual age: About 9 to 13; Code Club founded: UK, 2012; Active clubs, 2025 survey: 7,494 in 102 countries; Next step: A teacher who reads the code; Languages: Deeper Scratch, then Python and web; Group: Five to ten at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children who have outgrown a Code Club; Usual age: About 9 to 13; Code Club founded: UK, 2012; Active clubs, 2025 survey: 7,494 in 102 countries; Next step: A teacher who reads the code; Languages: Deeper Scratch, then Python and web; Group: Fifteen to twenty at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for life after Code Club
 
@@ -100,7 +100,7 @@ The table is not a criticism. Code Club is built for breadth: to reach as many c
 
 ### What we offer
 
-Small live groups of fifteen to twenty children at the same level, with a teacher who reads every child's code and gives specific feedback.
+Live groups of fifteen to twenty children at the same level, with a teacher who reads every child's code and gives specific feedback.
 
 Projects the children choose, with the skills taught in order so each week builds on the last.
 
@@ -191,7 +191,7 @@ Our teachers are in India, which keeps one time all year, so the UK is four and 
 - **Skills in order** Variables, loops, lists and functions taught so each lesson builds on the last.
 - **Stuck is normal** Getting stuck treated as the lesson, not a failure, with a question rather than an answer.
 - **Show and tell** Children share what they made, as they did at club.
-- **Small groups** Fifteen to twenty children at one level, so everyone is seen.
+- **Groups** Fifteen to twenty children at one level, so everyone is seen.
 
 ## Fees for next-step coding lessons
 

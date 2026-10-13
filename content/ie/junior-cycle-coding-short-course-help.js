@@ -54,7 +54,7 @@ module.exports = {
     ['Assessment', 'One CBA, two options'],
     ['Our role', 'Skills on separate examples'],
     ['Format', 'Live, with a teacher'],
-    ['Groups', 'Five to ten, or one to one'],
+    ['Groups', 'Fifteen to twenty, or one to one'],
     ['Hours', 'After school, Irish time'],
     ['Start', 'A free first class']
   ],
@@ -211,7 +211,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A first class, free', p: 'A short task in code, so the teacher can see where the student stands and suggest a starting point.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students at the same level, many of them taking school computing courses of their own.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students at the same level, many of them taking school computing courses of their own.' },
       { h3: 'One to one', p: 'For a student who wants the teacher\'s full attention, or who is far ahead of their class.' },
       { h3: 'Practice, not the real thing', p: 'Every project in our lessons is separate from school assessed work, by design.' },
       { h3: 'Irish terms kept', p: 'Strands, CBA, descriptors and JCPA are used as Irish schools use them; lessons are in English.' },

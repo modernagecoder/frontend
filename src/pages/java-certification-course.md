@@ -12,7 +12,7 @@ Certificate + Portfolio • **Live Java Course**
 
 Learn Java properly, Core Java, OOP, data structures and real projects, and finish with a verifiable course-completion certificate *and* a portfolio of programs you built yourself. Skill you can prove, not just claim. Live, mentor-led, for students and working professionals.
 
-Book a Free Demo ClassHow Certification Works**Certificate**On completion**Portfolio**Real projects**5–8**Per batch**Live**Mentor-led
+Book a Free Demo ClassHow Certification Works**Certificate**On completion**Portfolio**Real projects**15–20**Per batch**Live**Mentor-led
 
 ## Quick answer
 

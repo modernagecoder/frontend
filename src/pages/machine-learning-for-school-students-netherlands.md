@@ -14,7 +14,7 @@ Netherlands · Ages 10 to 18 · Live online
 
 Artificial intelligence is arriving in Dutch classrooms whether pupils learn how it works or not. The country even has a national laboratory, NOLAI, where schools, researchers and companies develop and study AI for primary, secondary and special needs education, starting from questions the schools themselves ask. That work is about AI that pupils meet as users: practice programs that adapt, dashboards that teachers read. This page is about the other side. A pupil of twelve can write a program that learns from examples; a pupil of fifteen can train a real model and test it fairly; a pupil of seventeen can explain in plain words why a model that is right nine times out of ten might still be useless. Those are the ideas we teach, in Python, live online and in English, alongside a Dutch or international school.
 
-At a glance: Ages: 10 to 18; Builds: Learning programs, trained models; Habit: Every model tested against a simple guess; Language: Python, taught in English; Format: Live video with a teacher; Groups: Five to ten, or one to one; Times: After school and weekends; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Ages: 10 to 18; Builds: Learning programs, trained models; Habit: Every model tested against a simple guess; Language: Python, taught in English; Format: Live video with a teacher; Groups: Fifteen to twenty, or one to one; Times: After school and weekends; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three ways into machine learning for school pupils
 

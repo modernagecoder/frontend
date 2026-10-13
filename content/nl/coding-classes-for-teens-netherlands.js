@@ -46,7 +46,7 @@ module.exports = {
     ['Subjects', 'Python, AI, apps, web, Java, AI coding tools'],
     ['Alongside', 'Havo, vwo, vmbo or an international school'],
     ['Format', 'Live video, a teacher every lesson'],
-    ['Groups', '5 to 10 at one level, or one to one'],
+    ['Groups', '15 to 20 at one level, or one to one'],
     ['Times', 'After school, evenings, weekends'],
     ['Language', 'English'],
     ['Start', 'A free first lesson']

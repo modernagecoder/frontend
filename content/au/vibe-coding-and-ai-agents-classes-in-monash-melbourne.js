@@ -374,7 +374,7 @@ module.exports = {
       },
       {
         q: 'How many learners per group?',
-        a: 'Five to ten, grouped by level, pace and goals; private lessons are available if no group time fits.',
+        a: 'Fifteen to twenty, grouped by level, pace and goals; private lessons are available if no group time fits.',
         boiler: true
       },
       {

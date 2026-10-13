@@ -175,7 +175,7 @@ Each lesson is live online, so nobody spends the evening on the road.
 - **Real-time teaching** The teacher sees and discusses the learner's screen throughout.
 - **Terms and breaks** Lessons run through Queensland terms and rest in the school holidays.
 - **Trial at no cost** One free lesson and a written recommendation afterwards.
-- **Small classes** Fifteen to twenty learners of one level, or one to one.
+- **Classes** Fifteen to twenty learners of one level, or one to one.
 - **Weekly pattern** Two lessons each week, around eight a month.
 - **Across time zones** A 4pm Springfield class is 11:30am for our teachers in India.
 

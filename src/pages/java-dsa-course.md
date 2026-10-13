@@ -12,7 +12,7 @@ College & Professionals • **DSA in Java**
 
 Data Structures & Algorithms is what separates a candidate who passes the interview from one who doesn't. Master DSA in Java, arrays to graphs, recursion to dynamic thinking, with the exact problem patterns interviewers test, regular practice, and mock interviews that build real confidence.
 
-Book a Free DSA DemoSee the Topics**Interview**Patterns & mocks**Java**Top interview language**5–8**Per batch**Live**Problem-solving
+Book a Free DSA DemoSee the Topics**Interview**Patterns & mocks**Java**Top interview language**15–20**Per batch**Live**Problem-solving
 
 ## Quick answer
 

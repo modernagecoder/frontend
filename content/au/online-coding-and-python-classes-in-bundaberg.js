@@ -195,7 +195,7 @@ module.exports = {
       { h3: 'From the coast or the city', p: 'A student in Bargara and one in Avenell Heights join the same video lesson without a bus timetable to consult.' },
       { h3: 'Queensland year levels', p: 'Teachers plan with Queensland year levels and the state\'s four terms, and senior students can link projects to their Digital Solutions or maths subjects. Teaching is in English.' },
       { h3: 'Trial first', p: 'Your opening lesson is a genuine class. Afterwards you are offered a level, a course and a regular time, and no card is ever requested at this stage.' },
-      { h3: 'Small, level-matched groups', p: 'Fifteen to twenty learners working at the same point, drawn from Bundaberg and other places, so every group runs at a sensible size.' },
+      { h3: 'Level-matched groups', p: 'Fifteen to twenty learners working at the same point, drawn from Bundaberg and other places, so every group runs at a sensible size.' },
       { h3: 'A steady weekly habit', p: 'Two fixed lessons a week, about eight in a month, with breaks for holidays and exams decided with the teacher.' },
       { h3: 'A constant time difference', p: 'Because neither Queensland nor India uses daylight saving, a 6pm Bundaberg lesson always begins at 1:30pm for the teacher.' }
     ],

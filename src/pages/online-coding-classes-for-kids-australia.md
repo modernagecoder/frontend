@@ -14,7 +14,7 @@ Australia · Ages 6 to 12 · Live online
 
 A six-year-old in Hobart, a nine-year-old in Townsville and an eleven-year-old in Perth can all sit in the same kind of coding class, because the class happens on a screen. What changes between them is the name of their school year, the time on their clock and what they already meet in Digital Technologies at school. This page sets those differences out plainly. It explains what coding looks like at each stage of primary school, how it lines up with the Australian Curriculum, how a live lesson fits across Australian time zones, and what we do to keep young children safe online. It also includes a tiny program that converts a lesson time between Australia and India, which is the very first thing some of our students write.
 
-At a glance: For: Children aged 6 to 12; Year levels: First year of school to Year 6; Starts with: Scratch, then Python; Also: Web pages, apps and AI literacy; Format: Live online video lessons; Group: Five to ten, or one to one; Times: Set for your state's clock; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children aged 6 to 12; Year levels: First year of school to Year 6; Starts with: Scratch, then Python; Also: Web pages, apps and AI literacy; Format: Live online video lessons; Group: Fifteen to twenty, or one to one; Times: Set for your state's clock; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three good first courses
 

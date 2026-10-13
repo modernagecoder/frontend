@@ -14,7 +14,7 @@ UK · University students · Live online
 
 Graduate employers in the UK have a new worry. In the Institute of Student Employers' 2026 development survey, two-thirds of employers said they believed graduates and apprentices were using AI to misrepresent their skills, up from around half in 2025. That changes what a strong application looks like. A polished personal statement or a list of AI tools on a CV proves little when anyone can generate one in a minute. What an interviewer can still check is a thing you built and can explain: an AI agent with a clear job, a set of test cases, a history of commits and a list of what it gets wrong. This course teaches UK university students to build exactly that, as their own project, outside anything their university assesses. It covers how agents work, how to ground and test them, how to keep the code in version control, and how to talk about every design decision without notes.
 
-At a glance: For: UK university students; Builds: An agent with tools and retrieval; Proves it: Test cases and a commit history; Explains it: Every decision, out loud; Never touches: Coursework, dissertations or assessed code; Format: Evenings and weekends, live; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: UK university students; Builds: An agent with tools and retrieval; Proves it: Test cases and a commit history; Explains it: Every decision, out loud; Never touches: Coursework, dissertations or assessed code; Format: Evenings and weekends, live; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three places a student can begin
 
@@ -211,7 +211,7 @@ Our teachers are based in India, where the clocks never change, so the UK is fou
 - **Sunday** For students with Saturday jobs.
 
 - **A free first class** Talk through what you want to build and leave with a first version of the plan.
-- **Small groups** Fifteen to twenty students at the same level, reviewing each other's agents and test sets.
+- **Groups** Fifteen to twenty students at the same level, reviewing each other's agents and test sets.
 - **One to one** For a faster pace, and the only format for the Copilot Studio course.
 - **Your repository** Everything lives in your own GitHub account, so the evidence stays with you.
 - **Explained out loud** You talk through your agent's design choices in lessons, the way you would to an interviewer.

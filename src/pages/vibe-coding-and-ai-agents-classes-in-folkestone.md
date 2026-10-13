@@ -134,7 +134,7 @@ All that is needed at home is a laptop or desktop with a webcam and an internet 
 - **Hands on the keyboard** The learner shares a screen and types; the tutor watches, questions and nudges instead of lecturing.
 - **Placement by evidence** We suggest a course only after seeing the learner work in the free session.
 - **No card for the trial** Booking the first lesson costs nothing and asks for no payment details.
-- **Small, level-matched groups** Fifteen to twenty learners at the same stage, drawn from across the UK.
+- **Level-matched groups** Fifteen to twenty learners at the same stage, drawn from across the UK.
 - **Two lessons most weeks** Tell us the Kent term dates your school follows and we skip the holidays.
 - **Your slot stays put** When UK clocks move in spring and autumn, the tutor adjusts, not you.
 

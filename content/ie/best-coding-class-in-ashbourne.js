@@ -216,7 +216,7 @@ module.exports = {
       { q: 'How quickly can a learner start?', a: 'Usually within a week or two of the free lesson, depending on which group at the right level has a place at a workable hour.' },
       { q: 'Is there a Modern Age Coders classroom in Ashbourne?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
       { q: 'What do coding classes in Ashbourne cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with fifteen to twenty learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },
 

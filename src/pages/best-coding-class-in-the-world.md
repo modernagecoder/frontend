@@ -14,7 +14,7 @@ Worldwide · Learning research · Live online
 
 No one can prove that a coding class is the best in the world, and a page that simply says so should make you suspicious, this one included. What can be checked is whether a class does the things published research links to people actually learning to program: finishing what they start, reading code before writing it, getting feedback from a person who has read their work, and using AI tools without handing over their understanding. This page sets out eight such tests. Five rest on studies you can open and read yourself, cited with their limits; three are plain practice, labelled as such. Each test is followed by our own answer, including the places where we fall short. Use the list on us, and use it on anyone else you are considering. A class that passes all eight, anywhere in the world, is a good class, whatever its advertising says.
 
-At a glance: Taught: Live, by a teacher; Ages: 6 to 67; Groups: Five to ten, placed by level; Or: One to one; Method: Read, predict, modify, make; AI tools: Used openly, checked always; Hours: Fixed in your own time zone; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: Taught: Live, by a teacher; Ages: 6 to 67; Groups: Fifteen to twenty, placed by level; Or: One to one; Method: Read, predict, modify, make; AI tools: Used openly, checked always; Hours: Fixed in your own time zone; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that put the tests into practice
 

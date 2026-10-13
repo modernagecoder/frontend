@@ -55,7 +55,7 @@ module.exports = {
     ['Runs', 'June to the week school reopens'],
     ['Builds', 'One project, finished'],
     ['Entry', 'No test, placed by level'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Travel', 'None, from home or holiday'],
     ['Hours', 'Mornings, afternoons or evenings'],
     ['Start', 'A free first class']

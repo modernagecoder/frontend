@@ -216,7 +216,7 @@ Our teachers are in India, where the clock stays put all year, so England is fou
 - **Both ways round** 4 x 12 and 12 x 4 practised together as one fact.
 - **Six-second windows** Timed practice only once recall is secure, and never in a way that frightens a child.
 - **Understanding first** Arrays and derivations taught properly, so recall rests on meaning.
-- **Small groups** Fifteen to twenty children at one stage, with games that keep it light.
+- **Groups** Fifteen to twenty children at one stage, with games that keep it light.
 
 ## Fees for primary maths lessons
 

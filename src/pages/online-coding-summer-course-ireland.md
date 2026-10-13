@@ -14,7 +14,7 @@ Ireland · Summer holidays · Ages 6 to 18
 
 An Irish summer holiday is long, and it is not the same for every child. There is no national finishing date: the Department of Education sets the Christmas, mid-term and Easter breaks, but leaves the start and end of the school year to each school. Secondary schools stop teaching by the Friday before the June bank holiday, when the State exams begin, and primary schools, which must open for at least 182 days, usually run later into June. Almost all return in the week that contains 1 September. That gives a secondary student about three months and a primary child about ten weeks. This page is honest about what those weeks are for. We will not tell you your child will fall behind without lessons; the Department itself now says pandemic learning loss has diminished significantly for most children. The better reason to code in summer is time: enough of it to start a real project in June and finish it before school starts again.
 
-At a glance: For: Ages 6 to 18; Runs: June to the week school reopens; Builds: One project, finished; Entry: No test, placed by level; Group: Five to ten, or one to one; Travel: None, from home or holiday; Hours: Mornings, afternoons or evenings; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 6 to 18; Runs: June to the week school reopens; Builds: One project, finished; Entry: No test, placed by level; Group: Fifteen to twenty, or one to one; Travel: None, from home or holiday; Hours: Mornings, afternoons or evenings; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three summer projects for three ages
 

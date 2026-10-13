@@ -78,7 +78,7 @@ module.exports = {
     ['Languages', 'Python, Java, C, Haskell and more'],
     ['Assessed work', 'Never written or checked by us'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -410,7 +410,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'A short concept check against the unit\'s public outline.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students, often from different universities.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students, often from different universities.' },
       { h3: 'One to one', p: 'For one unit, one language or a repeat attempt.' },
       { h3: 'A week ahead', p: 'Concepts taught before the lecture covers them.' },
       { h3: 'Our own problems', p: 'Practice written by us, never taken from the unit.' },

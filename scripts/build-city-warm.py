@@ -466,7 +466,7 @@ TEMPLATE=r'''    <main id="main">
     <section aria-label="Related pages" class="section related-strip">
         <nav aria-label="Breadcrumb" class="rs-crumb"><a href="/">Home</a> / <a href="/coding-classes-in-india">Coding Classes in India</a> / @@crumb_state@@<strong>Best Coding Class in @@city@@</strong></nav>
         <h2>Coding &amp; maths classes near @@city@@</h2>
-        <p style="color:var(--muted);font-size:.95rem;margin:0 0 1.2rem;max-width:760px">Live online classes for kids, teens and adults &mdash; Scratch, Python, web development, AI/ML and DSA in small 15&ndash;20 student batches. Explore nearby cities or book a free demo.</p>
+        <p style="color:var(--muted);font-size:.95rem;margin:0 0 1.2rem;max-width:760px">Live online classes for kids, teens and adults &mdash; Scratch, Python, web development, AI/ML and DSA in 15&ndash;20 student batches. Explore nearby cities or book a free demo.</p>
         <div class="related-links">
 @@nb_rel@@
 @@state_links@@

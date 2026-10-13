@@ -188,7 +188,7 @@ Lessons are live, taught by our tutors in India. Adelaide is four hours ahead of
 - **Reasoning on paper** Every step written, because the criteria reward communication.
 - **Simulate, then prove** Short programs check results before the algebra explains them.
 - **Technology with judgement** Calculator answers interpreted, never just copied.
-- **Small groups** Fifteen to twenty students at one level, explaining methods aloud.
+- **Groups** Fifteen to twenty students at one level, explaining methods aloud.
 - **One-to-one sessions** For one topic that needs repair before a task.
 - **No grade forecasts** We never predict a SACE grade or an ATAR.
 

@@ -12,7 +12,7 @@ Python for ML • **scikit-learn & the ML stack**
 
 The coding bridge from Python into machine learning. Learn the Python and scikit-learn skills to load data, split it, and build, train and evaluate real ML models, the practical coding workflow every ML practitioner uses. Live small-batch classes for college students, professionals and serious teens.
 
-Book a Free Python-for-ML DemoSee the Roadmap**sklearn**The ML library**5–8**Students per batch**fit()**Code real models**Live**Hands-on with a mentor
+Book a Free Python-for-ML DemoSee the Roadmap**sklearn**The ML library**15–20**Students per batch**fit()**Code real models**Live**Hands-on with a mentor
 
 ## Quick answer
 

@@ -60,7 +60,7 @@ module.exports = {
     ['Built with', 'Scratch, then Python'],
     ['Chatbot accounts', 'Not needed'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -248,7 +248,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Trial lesson free', p: 'Your child sorts, trains and tests something small with a teacher. No card is asked for.' },
-      { h3: 'Fifteen to twenty children', p: 'Small groups that compare results and argue about mistakes.' },
+      { h3: 'Fifteen to twenty children', p: 'Groups that compare results and argue about mistakes.' },
       { h3: 'Private option', p: 'Lessons tailored to one child\'s pace and curiosity.' },
       { h3: 'No adult chatbots', p: 'Children\'s courses do not need any adult AI account.' },
       { h3: 'Mistakes on purpose', p: 'Children break models deliberately to see why they fail.' },

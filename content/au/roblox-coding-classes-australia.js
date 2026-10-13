@@ -60,7 +60,7 @@ module.exports = {
     ['Big idea', 'Client and server code'],
     ['Builds', 'Obbies, tycoons, simulators'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',

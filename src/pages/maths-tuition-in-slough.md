@@ -226,7 +226,7 @@ Teachers work from India, five and a half hours ahead of Slough in winter and fo
 
 - **Continuity** Your teacher stays the same, so nothing has to be explained twice.
 - **Parents kept informed** A brief note after lessons on what went well and what comes next.
-- **Small, matched classes** Fifteen to twenty learners, all at a similar point.
+- **Matched classes** Fifteen to twenty learners, all at a similar point.
 - **Local numbers** Census tables and other real data, not only textbook exercises.
 - **Private option** One to one for a near exam or a stubborn topic.
 - **Understanding first** We show why a method works before practising it.

@@ -175,7 +175,7 @@ Every part of the borough is the same distance from an online lesson.
 - **Learn where you are** At home, or at a library computer when home is busy. The lesson moves with the learner, not the other way round.
 - **School stages as you know them** Key Stages, Year 9 options, GCSEs and A levels are called by their English names, and every lesson is in English.
 - **Try it before paying** The opening lesson is a real piece of work with a teacher, and ends with an honest suggestion of level and course. No card is needed.
-- **Small, matched groups** Fifteen to twenty learners at the same stage, some from Harrow and some from further afield, so that a group exists at a sensible hour.
+- **Matched groups** Fifteen to twenty learners at the same stage, some from Harrow and some from further afield, so that a group exists at a sensible hour.
 - **Around the school calendar** Lessons usually run twice a week, and the family and teacher agree breaks for holidays, half terms and revision.
 - **Time zones handled** Teachers work on India time, five and a half hours ahead of the UK in winter and four and a half in summer, and every lesson is booked and shown in UK time.
 

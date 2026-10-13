@@ -205,7 +205,7 @@ The plainest thing we sell in this state. A fixed hour, twice a week, with a tea
 
 Not a generalist asked to cover computer science inside another subject. That distinction is the whole argument on this page.
 
-### Five to eight, one face
+### Fifteen to twenty, one face
 
 Groups stay small and keep the same teacher every week. One to one where a student needs the full hour to themselves.
 
@@ -331,7 +331,7 @@ USD 100 a month for a group of fifteen to twenty, or USD 150 a month for private
 
 ### Which ages do you take, and how big is a class?
 
-Six to sixty-seven, placed by what a learner can demonstrate rather than by year group. Groups hold five to eight with one teacher who stays with them week after week, or one to one where a student needs the whole hour. Teachers are not rotated between sessions, because a teacher who remembers last week's sticking point starts the lesson somewhere useful.
+Six to sixty-seven, placed by what a learner can demonstrate rather than by year group. Groups hold fifteen to twenty with one teacher who stays with them week after week, or one to one where a student needs the whole hour. Teachers are not rotated between sessions, because a teacher who remembers last week's sticking point starts the lesson somewhere useful.
 
 ### How does a family start?
 

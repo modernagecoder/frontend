@@ -236,7 +236,7 @@ The first lesson is free. Afterwards a group place is USD 100 a month for two li
 
 ### How many learners are in each group?
 
-Five to ten, grouped by level and goals rather than age or town. If no group fits the timetable, one-to-one lessons are offered.
+Fifteen to twenty, grouped by level and goals rather than age or town. If no group fits the timetable, one-to-one lessons are offered.
 
 ## More for south-west Victoria
 

@@ -180,7 +180,7 @@ Prins Alexander covers seventeen square kilometres of land on the north-eastern 
 - **Seventeen square kilometres, and no journey** The lesson runs at the table in Ommoord, Nesselande or Kralingseveer at one fixed hour a week. In a district this size the travel is the part that quietly kills an enrolment, and this removes it.
 - **Four words that are not translated** Groep, havo, vwo, profielkeuze. Those arrive in the lesson exactly as they appear on a Dutch school report, and everything constructed around them is in English.
 - **Free, and not a sales call** An hour of actual teaching with a task in it. What comes out is a level nobody had to guess at, the course that level indicates, and a time each week. Payment arrangements are a separate conversation, later.
-- **The other learners will not be neighbours** A group needs five to ten people at the same stage, and a single district rarely has them simultaneously. Drawing from everywhere is what makes a narrow level exist at all rather than something to wait for.
+- **The other learners will not be neighbours** A group needs fifteen to twenty people at the same stage, and a single district rarely has them simultaneously. Drawing from everywhere is what makes a narrow level exist at all rather than something to wait for.
 - **The schedule already knows about the holidays** Two lessons a week, near enough eight a month. Zuid-Holland sits in regio Midden, whose dates are set long in advance, so the breaks are written in when the plan is made rather than negotiated when they arrive.
 - **Two clocks, one of which moves** The Dutch one, twice a year. That is the entire reason the teacher is sometimes three and a half hours ahead and sometimes four and a half, and it changes nothing about which hours of the week actually work.
 
@@ -236,7 +236,7 @@ The first lesson is free. After it, group tuition is USD 100 a month for two liv
 
 ### How many learners are in a group?
 
-Five to ten, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
+Fifteen to twenty, matched on level, pace and goal rather than on age, school or address. One-to-one means a single learner with a single teacher. When no group at the right level is running, a family can take one-to-one lessons or wait for the next group to form.
 
 ## West into the city, south across the river, and out to the country
 

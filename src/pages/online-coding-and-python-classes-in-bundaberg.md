@@ -186,7 +186,7 @@ The furthest stop in Bundaberg's feed is more than 22 km from the city centre, a
 - **From the coast or the city** A student in Bargara and one in Avenell Heights join the same video lesson without a bus timetable to consult.
 - **Queensland year levels** Teachers plan with Queensland year levels and the state's four terms, and senior students can link projects to their Digital Solutions or maths subjects. Teaching is in English.
 - **Trial first** Your opening lesson is a genuine class. Afterwards you are offered a level, a course and a regular time, and no card is ever requested at this stage.
-- **Small, level-matched groups** Fifteen to twenty learners working at the same point, drawn from Bundaberg and other places, so every group runs at a sensible size.
+- **Level-matched groups** Fifteen to twenty learners working at the same point, drawn from Bundaberg and other places, so every group runs at a sensible size.
 - **A steady weekly habit** Two fixed lessons a week, about eight in a month, with breaks for holidays and exams decided with the teacher.
 - **A constant time difference** Because neither Queensland nor India uses daylight saving, a 6pm Bundaberg lesson always begins at 1:30pm for the teacher.
 

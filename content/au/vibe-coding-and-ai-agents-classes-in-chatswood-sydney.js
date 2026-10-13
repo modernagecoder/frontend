@@ -329,7 +329,7 @@ module.exports = {
     h2: 'Chatswood class fees',
     intro: 'The price list has three lines.',
     first: 'The first lesson is free and ends with a clear suggestion.',
-    group: 'A month of small-group lessons, normally eight, with fifteen to twenty learners.',
+    group: 'A month of group lessons, normally eight, with fifteen to twenty learners.',
     private: 'Around eight one-to-one lessons a month.',
     closer: 'Outside India we invoice in US dollars, with one rate for every suburb. Nothing is charged until course and timing are fixed after the trial, and the pricing page explains holidays and absences.'
   },
@@ -377,7 +377,7 @@ module.exports = {
       },
       {
         q: 'How many learners are in each group?',
-        a: 'Five to ten, grouped by level and pace. If no group fits, one-to-one lessons are offered.',
+        a: 'Fifteen to twenty, grouped by level and pace. If no group fits, one-to-one lessons are offered.',
         boiler: true
       }
     ]

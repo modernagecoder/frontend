@@ -10,9 +10,9 @@ For College Students • **placement-focused AI/ML**
 
 # AI & ML for College Students
 
-Stand out at placements. This AI & ML course for college students takes you from Python to machine learning and deep learning, built around real projects that become a portfolio recruiters notice, plus the fundamentals interviews test. Live, mentor-led, small batches.
+Stand out at placements. This AI & ML course for college students takes you from Python to machine learning and deep learning, built around real projects that become a portfolio recruiters notice, plus the fundamentals interviews test. Live, mentor-led, batches.
 
-Book a Free DemoSee the Roadmap**Jobs**Placement-focused**5–8**Students per batch**Portfolio**Real projects**Live**Mentor-led
+Book a Free DemoSee the Roadmap**Jobs**Placement-focused**15–20**Students per batch**Portfolio**Real projects**Live**Mentor-led
 
 ## Quick answer
 

@@ -119,7 +119,7 @@ module.exports = {
     ],
     [
       "Group",
-      "Five to ten, or one to one"
+      "Fifteen to twenty, or one to one"
     ],
     [
       "Start",
@@ -616,7 +616,7 @@ module.exports = {
         "p": "A real dataset loaded and one honest summary written."
       },
       {
-        "h3": "Small groups",
+        "h3": "Groups",
         "p": "Fifteen to twenty learners comparing answers to the same question."
       },
       {

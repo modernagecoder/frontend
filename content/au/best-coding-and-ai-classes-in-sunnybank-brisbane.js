@@ -296,7 +296,7 @@ module.exports = {
       { h3: 'Hands on keyboard', p: 'The learner writes the code; the teacher watches the shared screen and guides.' },
       { h3: 'Term rhythm', p: 'Classes follow Queensland school terms and pause for the holidays.' },
       { h3: 'Free first class', p: 'One full lesson costs nothing and ends with a suggested course.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at a matched level, or one to one.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners at a matched level, or one to one.' },
       { h3: 'Twice a week', p: 'Two live lessons each week, about eight in a month.' },
       { h3: 'Clocks that stay put', p: 'Brisbane keeps the same time all year, so a 5pm Sunnybank lesson is always 12:30pm in India, where our teachers are.' }
     ],

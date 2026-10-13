@@ -216,7 +216,7 @@ Lessons are taught live from India. The UK clock moves in spring and autumn and 
 
 - **A teacher who stays** The same person each week knows which slips your child makes.
 - **Straight feedback** A brief, candid note after lessons: progress and problems both.
-- **Small matched groups** Fifteen to twenty children at one level, so nobody coasts or drowns.
+- **Matched groups** Fifteen to twenty children at one level, so nobody coasts or drowns.
 - **Original practice** Our own questions and real data sets, never copied test material.
 - **Individual option** One to one lessons for a particular gap or a quieter child.
 - **Maths is our lane** No reasoning coaching and no views on school choice or allocation.

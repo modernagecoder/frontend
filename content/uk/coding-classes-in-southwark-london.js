@@ -145,7 +145,7 @@ module.exports = {
         { kind: 'grid3', cells: [
           { h3: 'London Bridge', p: 'TfL\'s open data lists the Jubilee line, Southeastern, Southern and Thameslink at London Bridge.' },
           { h3: 'Rotherhithe to Dulwich', p: 'A learner by the river in Rotherhithe and another in Dulwich can share the same class without a journey.' },
-          { h3: 'A balanced class', p: 'Groups are built the opposite way to the Tate list: no single member dominates, just fifteen to twenty learners at a shared stage.' }
+          { h3: 'A balanced class', p: 'Groups are built the opposite way to the Tate list: no single member dominates, fifteen to twenty learners at a shared stage.' }
         ] },
         { kind: 'spec', title: 'Southwark in London', p: 'Southwark is one of London\'s 32 boroughs. The <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a> covers them all and the City, linking each page as it goes live, including <a class="cg-inline-link" href="/coding-classes-in-lambeth-london">Lambeth</a> to the west and <a class="cg-inline-link" href="/coding-classes-in-lewisham-london">Lewisham</a> to the east.' }
       ]

@@ -150,7 +150,7 @@ Moving together is not the same as agreeing. The difference is one subtraction a
 The details that matter.
 
 - **With a teacher, live** The teacher runs every lesson in real time and works through each learner's code with them.
-- **Matched by ability** Each group has five to ten members at a similar stage, whether they log in from Knocknacarra, another county or another country.
+- **Matched by ability** Each group has fifteen to twenty members at a similar stage, whether they log in from Knocknacarra, another county or another country.
 - **Fixed days** Lessons on the same two days each week, roughly eight in a month.
 - **Term-friendly** The plan allows for school holidays, mid-terms and exam weeks.
 - **What to have** A laptop or desktop computer, a microphone, headphones or speakers, and broadband that handles video.
@@ -204,7 +204,7 @@ The first lesson is free. Then a group place costs USD 100 a month for about eig
 
 ### How many learners are in a group?
 
-Five to ten, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.
+Fifteen to twenty, matched by level, pace and goals rather than age or address. If no group runs at a workable time, lessons are one to one.
 
 ## Around Knocknacarra
 

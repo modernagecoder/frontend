@@ -196,7 +196,7 @@ County Galway is wide, and the drive between its ends is long enough to rule out
 - **No travel at all** The lesson happens where the learner is, which in this county can be 90 minutes from the nearest town of any size.
 - **Irish school stages** We plan around Junior Cycle, Transition Year, fifth year and sixth year, using the names the school uses.
 - **The free lesson** A real class with real work, ending with a level, a recommended course and a proposed weekly hour. No card details.
-- **Small ability groups** Fifteen to twenty learners at the same level, gathered from County Galway and other countries so the right group exists at a sensible hour.
+- **Ability groups** Fifteen to twenty learners at the same level, gathered from County Galway and other countries so the right group exists at a sensible hour.
 - **A fixed weekly slot** Usually two lessons a week, about eight a month, agreed once and kept, with exam weeks planned around.
 - **Ahead of Irish time** Our teachers are in India, four and a half hours ahead of Ireland in summer and five and a half in winter, which is why afternoons and evenings work well.
 
@@ -252,7 +252,7 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 ### How many learners are in a group?
 
-Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
+Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
 ## The city, and the west
 

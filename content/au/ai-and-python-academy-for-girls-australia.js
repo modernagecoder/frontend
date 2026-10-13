@@ -626,7 +626,7 @@ module.exports = {
         "p": "A first Python program and a look at what the AI project does."
       },
       {
-        "h3": "Small groups",
+        "h3": "Groups",
         "p": "Fifteen to twenty students at the same level."
       },
       {

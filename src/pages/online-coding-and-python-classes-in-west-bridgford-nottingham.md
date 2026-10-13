@@ -136,7 +136,7 @@ You will need a computer with a working camera and a reasonable internet connect
 - **Learner-written code** The tutor never takes over the keyboard. Learners type, run and explain; the tutor watches their screen and questions.
 - **A trial with a purpose** It shows us the learner's level and interests, and which exam board applies if any.
 - **Free to begin** The trial lesson carries no charge, and we end it by proposing a course.
-- **Small groups** Fifteen to twenty learners at the same level, drawn from across the UK.
+- **Groups** Fifteen to twenty learners at the same level, drawn from across the UK.
 - **Weekly pattern** Two lessons a week, none in school holidays.
 - **One fixed time** British clock changes are handled by the tutor, so the slot stays where it was.
 

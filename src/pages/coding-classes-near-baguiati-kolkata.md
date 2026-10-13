@@ -10,7 +10,7 @@ LIVE ONLINE · BAGUIATI · NORTH 24 PARGANAS
 
 # Premium Coding & Maths Classes, Live Online for Baguiati, Kolkata
 
-Modern Age Coders runs premium, 100% live online coding and mathematics classes for families across Baguiati, from the VIP Road corridor and Baguiati Crossing to Aswini Nagar, Jagatpur and Deshbandhu Nagar. Every class is small (15 to 20 students), project-based and taught live by full-time engineers and maths graduates, never pre-recorded. Children learn Python, Java, AI/ML and school maths from home, with no evening commute through Baguiati traffic. Fees start at ₹1,499 per month.
+Modern Age Coders runs premium, 100% live online coding and mathematics classes for families across Baguiati, from the VIP Road corridor and Baguiati Crossing to Aswini Nagar, Jagatpur and Deshbandhu Nagar. Every class has 15 to 20 students, project-based and taught live by full-time engineers and maths graduates, never pre-recorded. Children learn Python, Java, AI/ML and school maths from home, with no evening commute through Baguiati traffic. Fees start at ₹1,499 per month.
 
 100% live, never recordedBatches of 15-20 studentsEngineer & maths-graduate teachersFrom ₹1,499/month[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)6-8Students per live batch₹1,499Starting fee per month90 minDaily VIP Road commute saved1-on-1Personalised option availableLIVE ONLINE · BAGUIATI, KOLKATA
 
@@ -217,7 +217,7 @@ FROM A BAGUIATI PARENT
 
 ## What families say
 
-"The small live batch made all the difference for my son, the teacher knows him by name and actually checks his code every class. He looks forward to coding now instead of dreading another tuition. Genuinely worth it."
+"The live batch made all the difference for my son, the teacher knows him by name and actually checks his code every class. He looks forward to coding now instead of dreading another tuition. Genuinely worth it."
 
 SSonam OswalMother of Dhairya
 

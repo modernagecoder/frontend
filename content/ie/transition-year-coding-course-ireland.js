@@ -56,7 +56,7 @@ module.exports = {
     ['Builds', 'One finished project'],
     ['Learns', 'Python, apps, web, data, AI'],
     ['Fits', 'Your school\'s TY programme'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Hours', 'Evenings, weekends or by arrangement'],
     ['Start', 'A free first class']
   ],

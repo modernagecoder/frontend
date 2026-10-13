@@ -424,7 +424,7 @@ module.exports = {
       },
       {
         q: 'How many learners share a group?',
-        a: 'Five to ten, grouped by level, pace and goal rather than age or suburb. If no group fits the time a learner needs, one-to-one lessons are offered.',
+        a: 'Fifteen to twenty, grouped by level, pace and goal rather than age or suburb. If no group fits the time a learner needs, one-to-one lessons are offered.',
         boiler: true
       }
     ]

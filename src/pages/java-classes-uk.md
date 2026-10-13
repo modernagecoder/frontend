@@ -14,7 +14,7 @@ UK · Teens and adults · Live online
 
 In UK schools, Java arrives late. No GCSE board in England or Wales runs its programming paper in Java: AQA's GCSE works in C#, Python 3 or VB.NET, and Edexcel, Eduqas and WJEC all set their programming work in Python. OCR is the partial exception, because its GCSE lets written algorithm answers use "the high-level programming language they are familiar with". At A level the picture turns round. AQA supports C#, Java, Python and VB.Net for its on-screen paper; WJEC's Unit 2 in Wales and the Eduqas AS in England both offer Java alongside Python and Visual Basic.NET; and Cambridge International's 9618 Paper 4 is sat in Java, Visual Basic or Python, all in console mode. So a student who learned Python for GCSE may meet Java at 16, sometimes as the language of an exam worth a quarter of the A level. This page is built around that crossing, and also serves adults who want Java for university or work.
 
-At a glance: GCSE boards using Java: None for the programming paper; OCR GCSE: Written answers in a familiar language; AQA A level: C#, Java, Python or VB.Net; WJEC and Eduqas AS: Python, VB.NET or Java on screen; Cambridge 9618 Paper 4: Java, VB or Python, console mode; For: Teens 13 to 18 and adults; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: GCSE boards using Java: None for the programming paper; OCR GCSE: Written answers in a familiar language; AQA A level: C#, Java, Python or VB.Net; WJEC and Eduqas AS: Python, VB.NET or Java on screen; Cambridge 9618 Paper 4: Java, VB or Python, console mode; For: Teens 13 to 18 and adults; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three ways into Java
 
@@ -199,7 +199,7 @@ Our teachers are based in India, which does not change its clocks, so the UK is 
 - **Weekend** Longer sessions for project work.
 
 - **A free first class** We check what you know, in any language, and where Java fits for you.
-- **Small groups** Fifteen to twenty learners at the same level and age band.
+- **Groups** Fifteen to twenty learners at the same level and age band.
 - **One to one** For exam timetables or a faster pace.
 - **Console first** Plain console programs before any graphical framework.
 - **Code read closely** A teacher reads your Java and explains what to change and why.

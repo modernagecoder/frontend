@@ -187,7 +187,7 @@ Every class is live on a screen, so learners from any corner of Point Cook join 
 - **Online and live** A real teacher, a shared screen and the learner's own code on every call.
 - **School terms** Classes run through Victorian terms and stop for the state school holidays.
 - **First lesson** A complete lesson for free, then a recommendation on course and weekly time.
-- **Small groups** Groups of fifteen to twenty, formed by level, with learners from many places.
+- **Groups** Groups of fifteen to twenty, formed by level, with learners from many places.
 - **Two a week** Two set lessons a week, about eight a month, so progress keeps moving.
 - **India time** Our teachers work from India. A 5pm Point Cook class is 11:30am India time in daylight saving, and 12:30pm from April.
 
@@ -198,7 +198,7 @@ Every class is live on a screen, so learners from any corner of Point Cook join 
 Three options, nothing hidden.
 
 - First class: USD 0. The first lesson costs nothing, and ends with advice on the right course.
-- Group tuition: USD 100 a month. A month of small-group lessons, typically eight, with fifteen to twenty learners at one level.
+- Group tuition: USD 100 a month. A month of group lessons, typically eight, with fifteen to twenty learners at one level.
 - Private tuition: USD 150 a month. A month of one-to-one lessons, typically eight, with your own teacher.
 
 Families in Point Cook, like every family outside India, pay in US dollars at the same rate. No payment is taken until the trial has settled the course and time; the pricing page covers holidays and missed lessons.

@@ -149,7 +149,7 @@ India does not use summer time, so the gap to Utrecht is four and a half hours i
 - **Weekend** Saturday and Sunday, any reasonable Utrecht hour. Usually the choice of adults and families with full weeks.
 
 - **The free lesson** Not a sales conversation but a lesson: the learner works on something real and the teacher sees how they think, which settles the starting rung.
-- **Small groups, one level** Fifteen to twenty learners from several countries who can already do the same things, so no one in Utrecht waits for others or races to keep up.
+- **Groups, one level** Fifteen to twenty learners from several countries who can already do the same things, so no one in Utrecht waits for others or races to keep up.
 - **Private tuition too** For students with changing timetables, adults with a specific goal, and the Copilot Studio courses, taught only one to one.
 - **Work visible live** The teacher follows the learner's screen as code is written and questions are answered, so confusion never gets a week to settle.
 - **English, Dutch where it belongs** All teaching is in English. Words like groep, brugklas, havo and vwo stay Dutch, the way Utrecht families say them.

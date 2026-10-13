@@ -224,7 +224,7 @@ module.exports = {
       { q: 'Can younger children join?', a: 'Yes. Children from age six start with Scratch and games; the forecasting project suits teenagers and adults.' },
       { q: 'Is there a Modern Age Coders centre in Gympie?', a: 'No. We hold no premises in Australia and claim none. All classes are live online; learners need a computer and a dependable connection, and our listed phone number is in India.', boiler: true },
       { q: 'What do Gympie AI classes cost?', a: 'The first lesson is free. Afterwards a group place is USD 100 a month for two live lessons a week, around eight a month, with fifteen to twenty learners, or USD 150 a month one-to-one. Everything is agreed before payment.', boiler: true },
-      { q: 'How many learners share a group?', a: 'Five to ten, matched by level and aims rather than age or location. If no group time works, one-to-one lessons are offered instead.', boiler: true }
+      { q: 'How many learners share a group?', a: 'Fifteen to twenty, matched by level and aims rather than age or location. If no group time works, one-to-one lessons are offered instead.', boiler: true }
     ]
   },
 

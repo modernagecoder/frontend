@@ -62,7 +62,7 @@ module.exports = {
     ['Begins at', 'No experience at all'],
     ['Learns', 'Python, web, data, AI'],
     ['When', 'Evenings and weekends, Irish time'],
-    ['Group', 'Five to ten adults'],
+    ['Group', 'Fifteen to twenty adults'],
     ['Or', 'One to one'],
     ['Pace', 'Set with your teacher'],
     ['Start', 'A free first class']

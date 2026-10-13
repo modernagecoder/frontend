@@ -120,7 +120,7 @@ module.exports = {
     ],
     [
       "Group",
-      "Five to ten, or one to one"
+      "Fifteen to twenty, or one to one"
     ],
     [
       "First step",

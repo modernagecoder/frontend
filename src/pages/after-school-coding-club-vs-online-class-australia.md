@@ -213,7 +213,7 @@ A class that runs every week it is meant to.
 - **A plan per learner** Not just the next project.
 - **Club projects welcome** Bring them and understand them.
 - **Live, online** At home, any state.
-- **Small groups** Five to ten, or one to one.
+- **Groups** Fifteen to twenty, or one to one.
 
 ## Fees
 

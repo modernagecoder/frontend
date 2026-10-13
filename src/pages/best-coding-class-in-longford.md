@@ -165,7 +165,7 @@ Tools make collecting data easy. Knowing who the collection leaves out is a skil
 Details.
 
 - **A teacher on every call** The teacher is present throughout and works directly with the code the learner writes.
-- **One level per group** Each group has five to ten members, all at the same point in the course, from Longford, elsewhere in Ireland and overseas.
+- **One level per group** Each group has fifteen to twenty members, all at the same point in the course, from Longford, elsewhere in Ireland and overseas.
 - **How often** Two lessons in a typical week, around eight in a month, at times fixed with the family.
 - **Term-aware** Holidays, mid-term breaks and exam weeks are part of the course plan from the start.
 - **What a home needs** A broadband line, which 430 Longford homes reported not having, plus a laptop or desktop and a microphone with speakers or headphones. Our lessons have the same coverage limit as an online survey.
@@ -223,7 +223,7 @@ The first lesson is free. After that a shared place costs USD 100 a month and br
 
 ### How many learners are in a group?
 
-Five to ten, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
+Fifteen to twenty, grouped by ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.
 
 ## Across the midlands
 

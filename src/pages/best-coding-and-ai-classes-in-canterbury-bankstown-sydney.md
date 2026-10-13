@@ -194,7 +194,7 @@ From Campsie to Panania, every household in the council area joins the same live
 Three amounts are the whole story.
 
 - First class: USD 0. The first lesson is free and ends with a recommendation.
-- Group tuition: USD 100 a month. A month of small-group lessons, normally eight, with fifteen to twenty learners.
+- Group tuition: USD 100 a month. A month of group lessons, normally eight, with fifteen to twenty learners.
 - Private tuition: USD 150 a month. Roughly eight lessons a month with one teacher and one learner.
 
 Outside India every invoice is in US dollars, the same across the council area. Payment starts only after the trial, when course and times are agreed; holidays and absences are explained on the pricing page.
@@ -239,7 +239,7 @@ The first lesson is free. After that a group place costs USD 100 a month for two
 
 ### How many learners are in a group?
 
-Five to ten, grouped by level and pace. One-to-one lessons are available if no group suits.
+Fifteen to twenty, grouped by level and pace. One-to-one lessons are available if no group suits.
 
 ## More for Canterbury-Bankstown learners
 

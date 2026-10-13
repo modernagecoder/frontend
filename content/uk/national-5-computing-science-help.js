@@ -68,7 +68,7 @@ module.exports = {
     ['Compulsory', 'Software design, 80 of 120 marks'],
     ['Choose twice', 'Database or web, paper and assignment'],
     ['Awarding body', 'Qualifications Scotland'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',

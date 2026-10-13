@@ -14,7 +14,7 @@ United Kingdom · What the research says · All ages
 
 Almost every coding school in Britain sells the same promise: learn to code and your child will become a better problem solver in general, at maths, at school, at life. Ofsted's own review of the research on computing education says to be careful with exactly that claim. It cites work arguing that we should "avoid exaggerated claims that it develops problem-solving skills that are transferrable to other domains", and then makes a point worth putting on a poster: the subject "does not need to be justified with tenuous claims about broader benefits". We are not going to make the claim either. What follows is what coding genuinely does build, what the research says actually makes someone better at it, and how that shapes a lesson.
 
-At a glance: The claim: Transfer to other subjects; The research: Be cautious about it; What works: Domain-specific knowledge; How: Worked examples, then faded; Test: Predict the output first; Group: Five to ten at one level; Or: One to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: The claim: Transfer to other subjects; The research: Be cautious about it; What works: Domain-specific knowledge; How: Worked examples, then faded; Test: Predict the output first; Group: Fifteen to twenty at one level; Or: One to one; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses built on sequenced knowledge
 

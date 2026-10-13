@@ -201,7 +201,7 @@ The first lesson is free. Then a group place costs USD 100 a month for about eig
 
 ### How many learners are in a group?
 
-Five to ten, grouped by level, pace and goals rather than by age or address. If no group runs at a workable time, lessons are one to one.
+Fifteen to twenty, grouped by level, pace and goals rather than by age or address. If no group runs at a workable time, lessons are one to one.
 
 ## Around Ballymun
 

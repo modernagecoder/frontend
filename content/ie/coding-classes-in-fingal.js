@@ -236,7 +236,7 @@ module.exports = {
       { q: 'What hours do classes run?', a: 'Afternoons, evenings and weekend mornings. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter, and the weekly slot is fixed during the free lesson.' },
       { q: 'Is there a Modern Age Coders classroom in Fingal?', a: 'No, and we never suggest one. All teaching happens live over video, with no premises in Ireland at all. A learner needs a laptop or desktop, sound that works and a steady connection, and the number on this page belongs to India.', boiler: true },
       { q: 'What do Fingal coding classes cost?', a: 'The first lesson is free. After that, a shared place costs USD 100 a month and brings two live lessons a week, roughly eight monthly, with fifteen to twenty learners; one-to-one on the same schedule is USD 150 a month. Course, format and hour are agreed before payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, grouped by ability, pace and goal rather than by age or address. Where nothing suitable runs at a workable hour, we teach one to one instead.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, grouped by ability, pace and goal rather than by age or address. Where nothing suitable runs at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },
 

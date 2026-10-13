@@ -14,7 +14,7 @@ Ireland · Higher education · Live online
 
 First year of a computing degree in Ireland has a particular shape. The lectures move fast, the labs assume you already type fluently, and the language you are taught depends entirely on where you ended up: University College Cork introduces programming "using a modern programming language (currently Python)", while University College Dublin's Computer Programming I says students "learn how to program a computer using a simple programming language (e.g. C)". Two respected departments, two different first languages, and a student in either one can be the person in the lab who has never written a line before. This page is for students in Irish higher education who want to stop feeling behind: what first-year modules actually ask, what the graduate outcomes data shows about internships and employment, and how weekly live lessons fit around semester dates at UCD, Trinity and elsewhere. We are not affiliated with any Irish institution, and we never write or edit work that will be submitted for assessment.
 
-At a glance: For: Higher education students; Covers: Python, C, Java, DSA, web, AI; Fits: Irish semesters and exams; Builds: A portfolio, from first year; Group: Five to ten at one level; Or: One to one; Never: Work submitted for assessment; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Higher education students; Covers: Python, C, Java, DSA, web, AI; Fits: Irish semesters and exams; Builds: A portfolio, from first year; Group: Fifteen to twenty at one level; Or: One to one; Never: Work submitted for assessment; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that carry a computing degree
 

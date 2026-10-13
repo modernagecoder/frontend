@@ -131,7 +131,7 @@ Requirements are short: something with a keyboard and a webcam, plus home broadb
 - **Predict, then run** Before pressing run, the learner says what should happen. Our tutor, following the shared screen, holds them to it.
 - **Starting point** The trial tells us what to teach first, and we note the exam board if GCSE or A level is ahead.
 - **Trial at no cost** We teach the opening lesson for free and name a suitable course at the end.
-- **Sets of five to ten** Classmates come from all over Britain and are matched on level, not age alone.
+- **Sets of fifteen to twenty** Classmates come from all over Britain and are matched on level, not age alone.
 - **Rhythm** A pair of lessons each week in term time.
 - **Your time stays put** When the clocks change, our tutors adjust so you do not have to.
 

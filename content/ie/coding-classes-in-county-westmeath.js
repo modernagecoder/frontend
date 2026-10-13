@@ -228,7 +228,7 @@ module.exports = {
       { q: 'What hours do classes run?', a: 'Late afternoons, evenings and weekend mornings, with evening slots most popular here. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders classroom in Westmeath?', a: 'No, and we never suggest one. Teaching is live over video only, with no premises anywhere in Ireland. A learner needs a laptop or desktop, sound that works and a steady connection, and the number shown belongs to India.', boiler: true },
       { q: 'What do County Westmeath coding classes cost?', a: 'The first lesson is free. Continuing costs USD 100 a month for a shared place, which brings two live lessons a week and about eight a month with fifteen to twenty learners, or USD 150 a month one to one on the same schedule. Everything is agreed before payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, grouped on ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, grouped on ability, pace and goal rather than age or address. Where nothing suitable meets at a workable hour, we teach one to one instead.', boiler: true }
     ]
   },
 

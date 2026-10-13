@@ -393,7 +393,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'Free first class', p: 'A tiny agent on a stub model, built together.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students comparing agent logs.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students comparing agent logs.' },
       { h3: 'One to one', p: 'For a specific idea or a faster pace.' },
       { h3: 'No account to start', p: 'Stub models first, for every age.' },
       { h3: 'Age rules kept', p: 'No provider used below its minimum age.' },

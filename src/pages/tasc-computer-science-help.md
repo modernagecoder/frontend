@@ -192,7 +192,7 @@ Lessons are live with our tutors in India. Hobart is four and a half hours ahead
 - **Trace by hand** Every program traced on paper before it runs.
 - **Both halves** Java and machine theory taught in the same course.
 - **Mark a minute** Practice timed the way the exam is designed.
-- **Small groups** Fifteen to twenty students at one level, comparing traces.
+- **Groups** Fifteen to twenty students at one level, comparing traces.
 - **One-to-one sessions** For one area, often logic or two's complement.
 - **No predictions** We never forecast a TASC award; the work belongs to the student.
 

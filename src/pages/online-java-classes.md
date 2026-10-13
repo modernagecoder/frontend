@@ -12,11 +12,11 @@ source: src/pages/online-java-classes.html
 
 Learn Java live with a mentor who sees your screen, reviews your code in real time and answers your questions on the spot, all from home. Small batches, every session recorded, flexible timings. The discipline of a classroom with the convenience of online.
 
-Book a Free Live DemoHow It Works**Live**Real mentor**5–8**Per batch**Recorded**Revise anytime**Anywhere**India & abroad
+Book a Free Live DemoHow It Works**Live**Real mentor**15–20**Per batch**Recorded**Revise anytime**Anywhere**India & abroad
 
 ## Quick answer
 
-**Modern Age Coders runs live online Java classes for all levels, taught by a real mentor, not pre-recorded videos.** Classes are small (15–20 students), so your code is reviewed live and your questions answered instantly. You learn from anywhere in India or abroad, with flexible timings, BlueJ and IDE support, and every session recorded for revision. Suitable for teens, ICSE/ISC and CBSE students, college students and adults. Group plans start at ₹1,499/month with a free demo first.
+**Modern Age Coders runs live online Java classes for all levels, taught by a real mentor, not pre-recorded videos.** Classes have 15–20 students, so your code is reviewed live and your questions answered instantly. You learn from anywhere in India or abroad, with flexible timings, BlueJ and IDE support, and every session recorded for revision. Suitable for teens, ICSE/ISC and CBSE students, college students and adults. Group plans start at ₹1,499/month with a free demo first.
 
 Start Today
 

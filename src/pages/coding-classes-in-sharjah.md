@@ -72,7 +72,7 @@ Every class is a live call with a teacher who answers questions the moment they 
 
 B
 
-### Five to eight in the room
+### Fifteen to twenty in the room
 
 Small enough that the teacher hears every student every week, large enough that students see each other's approaches. One-on-one runs the same syllabus at a private pace.
 

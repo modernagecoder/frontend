@@ -155,7 +155,7 @@ module.exports = {
       { h3: 'Twice every week', p: 'School holidays are left free.' },
       { h3: 'One UK time, kept', p: 'Clock changes are handled at the tutor\'s end.' }
     ],
-    spec: { title: 'Why online', p: 'To fill a level-matched class we draw on the whole UK. A few streets could not supply it, and a video call removes the need.' }
+    spec: { title: 'Why online', p: 'To fill an level-matched class we draw on the whole UK. A few streets could not supply it, and a video call removes the need.' }
   },
 
   fees: {

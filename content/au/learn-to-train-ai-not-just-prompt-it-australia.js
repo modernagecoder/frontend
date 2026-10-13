@@ -54,7 +54,7 @@ module.exports = {
     ['Then', 'Python and real libraries'],
     ['Curriculum', 'Digital Technologies, Years 7 to 10'],
     ['Format', 'Live online video'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
@@ -244,7 +244,7 @@ module.exports = {
       { h3: 'Agreement checked', p: 'Labels are double-checked before any training.' },
       { h3: 'Tests held back', p: 'Every model is tested on data it has never seen.' },
       { h3: 'Errors explained', p: 'Students find out why a model got something wrong.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners, or one to one.' },
+      { h3: 'Groups', p: 'Fifteen to twenty learners, or one to one.' },
       { h3: 'Age-appropriate tools', p: 'Younger students use tools that need no adult accounts.' }
     ]
   },

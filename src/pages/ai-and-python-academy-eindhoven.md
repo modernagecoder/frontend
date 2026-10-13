@@ -14,7 +14,7 @@ Eindhoven · Live online · Ages 6 to 67
 
 Most AI that people meet lives on a screen: a chatbot, a recommendation, a filter. Eindhoven builds the other kind. Its university's AI institute studies data and algorithms inside machines, robots, autonomous cars and medical equipment, and its student teams build autonomous drones, race cars and the soccer robots that have won eight world titles in RoboCup's Middle Size League. AI in a machine meets problems a chatbot never does. Its training images may have to be manufactured. Its sensors drift after a collision in the middle of a match. And the simulator it learned in is never quite the pitch it plays on. This page teaches the Python, data and models underneath that kind of AI, with those problems in view from the first rung, live online for learners in Eindhoven.
 
-At a glance: Learners: Eindhoven, ages 6 to 67; Focus: Python, vision, models, agents; Angle: AI that works outside the screen; Format: Live video, one teacher, no recordings; Group: 5 to 10 at one level, or one to one; Times: Dutch afternoons, evenings and weekends; Language: English; First class: Free, no card. Rated 4.9 across 547 Google reviews.
+At a glance: Learners: Eindhoven, ages 6 to 67; Focus: Python, vision, models, agents; Angle: AI that works outside the screen; Format: Live video, one teacher, no recordings; Group: 15 to 20 at one level, or one to one; Times: Dutch afternoons, evenings and weekends; Language: English; First class: Free, no card. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for an Eindhoven learner heading towards AI in machines
 

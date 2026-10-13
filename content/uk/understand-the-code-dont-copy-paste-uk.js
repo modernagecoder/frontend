@@ -80,7 +80,7 @@ module.exports = {
     ['Sanctions', 'Up to disqualification and debarment'],
     ['We teach', 'Reading, predicting, rebuilding'],
     ['We never', 'Work on a candidate\'s task'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
@@ -235,7 +235,7 @@ module.exports = {
       { h3: 'Rebuild from memory', p: 'Close the file, write it again working. The second version is where the understanding actually forms.' },
       { h3: 'An AI record', p: 'What the tool suggested, what was kept and why, on ordinary projects, so the coursework version is already a habit.' },
       { h3: 'A hard line on coursework', p: 'We do not work on a candidate\'s NEA, coursework or controlled assessment at any board, in any nation.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners at one level, reading each other\'s code, which is where most of the real arguing happens.' }
+      { h3: 'Groups', p: 'Fifteen to twenty learners at one level, reading each other\'s code, which is where most of the real arguing happens.' }
     ]
   },
 

@@ -132,7 +132,7 @@ A laptop or desktop with a webcam and a connection fit for a video call is the w
 - **Learners at the keyboard** The student writes and runs the code; our tutor watches by screen share and asks what result they expect before they press run.
 - **Level from the trial** A free first session tells us where to begin and which exam board, if any, applies.
 - **Free opener** There is no fee for lesson one, which ends with a course suggestion.
-- **Small matched groups** Fifteen to twenty learners at one stage, drawn from across the UK.
+- **Matched groups** Fifteen to twenty learners at one stage, drawn from across the UK.
 - **Two lessons a week** Paused in the school holidays.
 - **Same time each week** UK clock changes are handled on our side, so your slot stays put.
 

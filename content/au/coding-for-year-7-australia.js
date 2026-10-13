@@ -52,7 +52,7 @@ module.exports = {
     ['Skills', 'Tracing, debugging, functions'],
     ['Curriculum', 'Australian Curriculum v9'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -246,7 +246,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'The teacher checks what your child can already read and write in code.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty students of a similar level, usually all in Years 6 to 8.' },
+      { h3: 'Groups', p: 'Fifteen to twenty students of a similar level, usually all in Years 6 to 8.' },
       { h3: 'One to one', p: 'Helpful for a student who is anxious about text coding or far ahead of their class.' },
       { h3: 'Their own code', p: 'The student types every line. Teachers explain, ask and point at errors.' },
       { h3: 'Parents can watch', p: 'Every lesson is live, so you can see exactly how your child is taught.' },

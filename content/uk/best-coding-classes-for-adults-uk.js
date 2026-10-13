@@ -82,7 +82,7 @@ module.exports = {
     ['Covers', 'Python, data, AI, automation'],
     ['When', 'Evenings and weekend mornings'],
     ['Pace', 'Weekly, alongside a job'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Or', 'One to one'],
     ['Upper limit', 'None we have met yet'],
     ['Start', 'One free lesson']

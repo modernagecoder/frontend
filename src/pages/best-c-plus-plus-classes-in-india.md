@@ -12,7 +12,7 @@ C++ • **Live Online Classes Across India**
 
 Master C++ the right way, from your first line of code to Object-Oriented Programming, the STL, Data Structures and competitive programming. Live, small-batch online classes built for teens and college students who want to truly understand C++, ace placements and contests, not just copy code.
 
-Book a Free C++ Demo ClassSee the Curriculum**4.9/5**Learner rating**5–8**Students per batch**Live**Real mentor, every class**DSA + CP**Placement & contest ready
+Book a Free C++ Demo ClassSee the Curriculum**4.9/5**Learner rating**15–20**Students per batch**Live**Real mentor, every class**DSA + CP**Placement & contest ready
 
 ## Quick answer
 
@@ -135,7 +135,7 @@ The Difference
 
 ## Why Learners Choose Our C++ Classes
 
-### Small live batches (15–20)
+### Live batches (15–20)
 
 Real two-way mentoring, never pre-recorded videos. Your code is reviewed live, every class.
 

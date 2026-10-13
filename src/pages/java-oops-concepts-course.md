@@ -12,7 +12,7 @@ Object-Oriented Programming • **The 4 Pillars**
 
 Object-Oriented Programming is the heart of Java, and the part most students half-understand. This focused course makes the four pillars click: encapsulation, inheritance, polymorphism and abstraction, taught with real Java code you write yourself. Crucial for ICSE/ISC, college and every coding interview.
 
-Book a Free OOP DemoSee the 4 Pillars**4 Pillars**Truly understood**Hands-on**Real Java code**5–8**Per batch**Live**Mentor-led
+Book a Free OOP DemoSee the 4 Pillars**4 Pillars**Truly understood**Hands-on**Real Java code**15–20**Per batch**Live**Mentor-led
 
 ## Quick answer
 

@@ -60,7 +60,7 @@ These are places where the live website currently contradicts itself. Until the 
 
 | Topic | The contradiction on the live site | Safe answer to give |
 |---|---|---|
-| **Group batch size** | `/guarantee` and `/pricing` cards say **"capped at 10 students"**. `scripts/brand-facts.json` says **5 to 8**. `/about` says **"maximum 5-6 students"**. The comparison table on `/pricing` and `/contact` says **"Max 6-8 Students"**. Four different numbers. | Say **"group classes are capped at 10 students, and in practice batches usually run smaller."** This is the published promise on `/guarantee`, and it is the only one of the four that cannot become a broken promise. Never promise "maximum 5" or "maximum 6". |
+| **Group batch size** | `/guarantee` and `/pricing` cards say **"capped at 20 students"**. `scripts/brand-facts.json` says **5 to 8**. `/about` says **"maximum 5-6 students"**. The comparison table on `/pricing` and `/contact` says **"Max 15-20 Students"**. Four different numbers. | Say **"group classes are capped at 20 students, and in practice batches usually run smaller."** This is the published promise on `/guarantee`, and it is the only one of the four that cannot become a broken promise. Never promise "maximum 5" or "maximum 6". |
 | **Teen age band** | Nav and course pages say **13-18**. The `/pricing` and `/contact` FAQs say **13-17**. | Use **13 to 18**. |
 | **Overall age range** | Brand facts, `/pricing` and `/contact` say **6 to 67**. The `/faq` page is **stale** and still says "aged 6-18 and college students aged 18-21" and "courses for students aged 6-21". | Use **6 to 67**. The `/faq` page needs updating; do not quote it. |
 | **Team size** | The April document claimed "50+ instructors and staff". This number is **not** in `brand-facts.json` and is not evidenced anywhere in the codebase. | Do not quote a team size. Say "a team of professional engineers and educators". |
@@ -119,7 +119,7 @@ Modern Age Coders does two things and nothing else.
 **Core differentiators (lead with these, not with price):**
 
 - Live online classes, taught by a real mentor, never pre-recorded
-- Small batches: group capped at 10, mini batch just 3 to 4, and true one-to-one
+- Batches: group capped at 20, mini batch up to 6, and true one-to-one
 - Project-based: students build real things from the first week
 - Maths and code taught together, so logic skills compound across both
 - Flexible timing: weekday evening, weekend and international time-zone slots
@@ -187,8 +187,8 @@ Prices come from one file, `pricing/pricing.config.jsonc`, last changed **1 Augu
 
 | Plan | Price | Batch size | Best for |
 |---|---|---|---|
-| **Group Classes** | **₹1,499 / month** | Capped at 10 students | Beginners, group energy, budget-conscious families |
-| **Mini Batch** *(Most Popular)* | **₹2,999 / month** | **Just 3 to 4 students** | Near one-to-one attention at an affordable price |
+| **Group Classes** | **₹1,499 / month** | Capped at 20 students | Beginners, group energy, budget-conscious families |
+| **Mini Batch** *(Most Popular)* | **₹2,999 / month** | **Up to 6 students** | Near one-to-one attention at an affordable price |
 | **Personalised 1-on-1** | **₹4,999 / month** | 1 student, 1 mentor · 1 class a week (4 a month) | Custom curriculum, fast learners, exam prep, advanced learners |
 
 > **No exceptions to the ₹4,999 one-to-one rate any more.** Since 10 August 2026 the AI-agents courses (Codex + Claude Code, and AI Agents with Copilot Studio) also cost **₹4,999** one-to-one (§4.7), on the same one-class-a-week India schedule; the Copilot Studio courses are still taught 1-on-1 only. Group and Mini Batch are ₹1,499 and ₹2,999 for every course without exception.
@@ -492,8 +492,8 @@ CBSE · ICSE · IGCSE · IB · A-Level and GCSE (UK) · Common Core and AP (US) 
 
 ### 6.4 Batch sizes
 
-- **Group:** capped at 10 students
-- **Mini Batch:** 3 to 4 students (India only)
+- **Group:** capped at 20 students
+- **Mini Batch:** up to 6 students (India only)
 - **1-on-1:** a single student with a dedicated mentor
 - **Custom Group:** 3 to 10 students
 
@@ -542,7 +542,7 @@ Six promises we publish and must honour:
 1. A free demo before any payment
 2. Monthly billing, cancel anytime, no 6 or 12 month packs, no cancellation fee
 3. No registration or hidden fees. The price on the pricing page is the whole price.
-4. Small live batches: group capped at 10, mini batch 3 to 4, full one-to-one available
+4. Live batches: group capped at 20, mini batch up to 6, full one-to-one available
 5. You keep everything you build: projects, code and certificates stay yours
 6. A real human on WhatsApp at +91 9123366161, not a ticket queue
 
@@ -710,7 +710,7 @@ Yes. Coding competitions and hackathons, and maths Olympiads (AMC, MATHCOUNTS, A
 **Q12. Live or pre-recorded?** Live, always. Recordings are provided for revision.
 
 **Q13. What is the batch size?**
-Group classes are capped at 10 students. Mini Batch is just 3 to 4. One-to-one is a single student with a dedicated mentor.
+Group classes are capped at 20 students. Mini Batch is up to 6. One-to-one is a single student with a dedicated mentor.
 
 **Q14. How do I enrol my child?**
 Book a free demo at `/book-demo`, or call or WhatsApp Shivam Sir on +91 9123366161. He will have a quick chat, recommend the right batch and book the demo.
@@ -787,8 +787,8 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 
 > "Sure. We have three plans, and the prices are the same for coding and maths:
 >
-> **Group Classes, ₹1,499/month**, capped at 10 students, 2 live classes a week
-> **Mini Batch, ₹2,999/month** (most popular), just 3 to 4 students, near one-to-one attention
+> **Group Classes, ₹1,499/month**, capped at 20 students, 2 live classes a week
+> **Mini Batch, ₹2,999/month** (most popular), up to 6 students, near one-to-one attention
 > **Personalised 1-on-1, ₹4,999/month**, one private class a week with your own dedicated mentor and a fully customised curriculum
 >
 > Group and Mini Batch include two 1-hour live classes a week, one-to-one includes one; every plan comes with recordings, doubt support and a certificate. Maths costs the same as coding.
@@ -953,8 +953,8 @@ COURSES LIVE ......... 115
 BLOG POSTS ........... 116
 
 PRICING (India, per month):
-  Group Classes        Rs 1,499    capped at 10 students
-  Mini Batch           Rs 2,999    3-4 students     MOST POPULAR
+  Group Classes        Rs 1,499    capped at 20 students
+  Mini Batch           Rs 2,999    up to 6 students     MOST POPULAR
   Personalised 1-on-1  Rs 4,999    1 student + dedicated mentor · 1 class/wk
   Maths 1-on-1         Rs 4,999    <- same as coding
   AI-agents 1-on-1     Rs 4,999    <- same as every other course

@@ -12,7 +12,7 @@ Ages 13–18 • **Live Online C++ for Teens**
 
 Your teen won't just memorise C++ syntax, they'll build games, tools and real programs while mastering logic, pointers, Object-Oriented Programming and the STL. Live, small-batch mentoring that turns curiosity into genuine coding skill (and a real head start for engineering and competitive programming).
 
-Book a Free Demo ClassWhat They'll Build**4.9/5**Parent rating**5–8**Students per batch**13–18**Ages we teach**Live**Real mentor, every class
+Book a Free Demo ClassWhat They'll Build**4.9/5**Parent rating**15–20**Students per batch**13–18**Ages we teach**Live**Real mentor, every class
 
 ## Quick answer
 
@@ -185,7 +185,7 @@ How much do teen C++ classes cost?+
 
 Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of up to 6 students is ₹2,999 per month, and 1-on-1 classes are ₹4,999 per month. A free demo class is available first.
 
-Are the classes live and in small batches?+
+Are the classes live and in batches?+
 
 Yes. Every class is live and interactive with a real mentor, in batches of 15–20 students (or up to 6 in a Mini Batch). Sessions are recorded so teens can revise anytime.
 

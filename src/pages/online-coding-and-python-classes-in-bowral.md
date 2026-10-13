@@ -179,7 +179,7 @@ Whether you are in Bowral, Mittagong or Moss Vale, the class is the same video c
 - **No commute** Lessons are joined from home, so there is no trip up the highway to Sydney for a coding class.
 - **NSW school structure** Lessons line up with the NSW syllabus stage a learner is in, and shift around the state's four terms. Teaching is in English.
 - **A free first class** The trial lesson teaches real material and finishes with a recommendation for course and weekly time.
-- **Small classes** Groups have fifteen to twenty learners at a similar level, from the Highlands and beyond, so each group stays full.
+- **Classes** Groups have fifteen to twenty learners at a similar level, from the Highlands and beyond, so each group stays full.
 - **Two a week** Two live lessons each week, roughly eight per month, at a regular time agreed after the trial.
 - **Teachers in India** Our teaching team works from India. The Highlands clock leads theirs by 4.5 hours in the cooler months and by 5.5 hours once NSW daylight saving starts.
 
@@ -235,7 +235,7 @@ The first lesson is free. Then a group place costs USD 100 a month for two live 
 
 ### How many learners are in a group?
 
-Five to ten, grouped by level and pace rather than age or town. When no group time works, one-to-one classes are offered instead.
+Fifteen to twenty, grouped by level and pace rather than age or town. When no group time works, one-to-one classes are offered instead.
 
 ## Where to read next from the Highlands
 

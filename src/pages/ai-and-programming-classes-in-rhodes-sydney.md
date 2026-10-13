@@ -238,7 +238,7 @@ The first lesson is free. After that a group place costs USD 100 a month for two
 
 ### How many learners are in a group?
 
-Five to ten, grouped by level and pace. One-to-one lessons are available if no group suits.
+Fifteen to twenty, grouped by level and pace. One-to-one lessons are available if no group suits.
 
 ## More for Rhodes learners
 

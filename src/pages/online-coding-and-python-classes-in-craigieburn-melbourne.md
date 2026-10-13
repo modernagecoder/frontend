@@ -237,7 +237,7 @@ The first lesson is free. After it, group classes cost USD 100 a month for two l
 
 ### How many learners share a class?
 
-Five to ten, grouped by level, pace and goals, not by age or suburb. One-to-one lessons cover anyone no group time suits.
+Fifteen to twenty, grouped by level, pace and goals, not by age or suburb. One-to-one lessons cover anyone no group time suits.
 
 ### Can adults learn Python with you?
 

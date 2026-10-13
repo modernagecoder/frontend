@@ -114,7 +114,7 @@ CITIES.forEach((c) => {
 
   // 7. new and rewritten FAQ entries
   const nearQ = 'Are these coding classes near me in ' + N + ', or online?';
-  const nearA = 'Live online, which is what puts them near you anywhere in ' + N + ': ' + areas + ' and every area in between. Your child joins a live mentor from home in a batch of 15 to 20, with no commute and no fixed centre timetable. If you were looking for offline coding classes near you, this is the same small-batch, teacher-led class without the travel, and you can see it for yourself in a free demo or a full Priority Live Demo.';
+  const nearA = 'Live online, which is what puts them near you anywhere in ' + N + ': ' + areas + ' and every area in between. Your child joins a live mentor from home in a batch of 15 to 20, with no commute and no fixed centre timetable. If you were looking for offline coding classes near you, this is the same batch, teacher-led class without the travel, and you can see it for yourself in a free demo or a full Priority Live Demo.';
   const costQ = 'How much do coding classes cost in ' + N + '?';
   const costA = 'Three formats: a group of 15 to 20 students, a mini batch of up to 6, or one-to-one, each billed monthly, with two live classes a week in the group formats. The current fees for your region are shown in the pricing section of this page and on our pricing page. Every plan starts with a free demo, or a Priority Live Demo if you want a full class today or tomorrow.';
   const placeQ = 'Do your coding classes in ' + N + ' come with placement?';

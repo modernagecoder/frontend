@@ -176,7 +176,7 @@ A scattered country is the strongest case there is for a lesson that does not ne
 - **Wherever the learner is** Valleys, coast or city. The lesson travels to the child instead of a parent driving across a county.
 - **Welsh vocabulary used** Progression steps, Areas of Learning and Experience and the Made-for-Wales GCSE, called what Wales calls them.
 - **A free lesson first** A real piece of teaching that ends with an honest view of level and course. No card needed.
-- **Small groups by level** Fifteen to twenty learners at the same stage, drawn from Wales and beyond so a group exists at a sensible hour.
+- **Groups by level** Fifteen to twenty learners at the same stage, drawn from Wales and beyond so a group exists at a sensible hour.
 - **Taught in English** We do not teach through Welsh. A bilingual learner is very welcome; a Welsh-medium lesson is not something we can offer.
 - **Times in UK time** Teachers work from India, five and a half hours ahead in winter and four and a half in summer, and every lesson is agreed in UK time.
 

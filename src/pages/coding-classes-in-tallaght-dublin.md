@@ -202,7 +202,7 @@ The first lesson is free. Then a group place is USD 100 a month for around eight
 
 ### How many learners are in each group?
 
-Five to ten, grouped by level, pace and aim rather than age or address. When no group fits at a workable hour, lessons are one to one.
+Fifteen to twenty, grouped by level, pace and aim rather than age or address. When no group fits at a workable hour, lessons are one to one.
 
 ## Around Tallaght and South Dublin
 

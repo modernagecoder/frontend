@@ -202,7 +202,7 @@ module.exports = {
       { q: 'Are adults welcome?', a: 'Yes, of any ability up to the age of sixty-seven. An adult can choose a same-level group or private lessons once the first lesson is done.' },
       { q: 'Will my child be in a class with other Sandyford children?', a: 'Not necessarily. Classes are formed by level, so classmates might be from Dublin 18, elsewhere in Ireland or abroad.' },
       { q: 'What do coding classes in Sandyford cost?', a: 'The first lesson is free. A group place is then USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners, and one-to-one lessons on the same schedule are USD 150 a month. Nothing is paid until the plan is agreed.', boiler: true },
-      { q: 'How many learners share a class?', a: 'Five to ten, placed by level, pace and aim rather than by age or address. When no group fits a workable time, lessons are one to one.', boiler: true }
+      { q: 'How many learners share a class?', a: 'Fifteen to twenty, placed by level, pace and aim rather than by age or address. When no group fits a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

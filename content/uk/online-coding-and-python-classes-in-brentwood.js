@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Code typed by the learner', p: 'We never hand over finished programs. The student writes, runs and debugs while the tutor coaches.' },
       { h3: 'One trial, then a plan', p: 'A free lesson tells us the right level, and you get a suggested course at the end of it.' },
       { h3: 'Nothing to pay up front', p: 'The trial has no cost and needs no card.' },
-      { h3: 'Small, matched groups', p: 'Fifteen to twenty learners at one level, joining from anywhere in the UK.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at one level, joining from anywhere in the UK.' },
       { h3: 'Two sessions weekly', p: 'During term. Essex school holidays are skipped once we have your dates.' },
       { h3: 'Steady UK timing', p: 'We absorb the hour when the clocks change, so your slot holds.' }
     ],

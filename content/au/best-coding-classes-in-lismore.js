@@ -66,7 +66,7 @@ module.exports = {
 
   h1: 'Coding classes in Lismore',
   capsuleQ: 'What are the best coding classes in Lismore?',
-  capsule: 'Live lessons where a Lismore teenager or adult writes real Python with a teacher, moving from first programs into the mathematics that sits underneath code, using open data about the Northern Rivers. The 2021 Census counted 28,816 people in the Lismore urban area, with a median age of 42. Teaching happens live on camera, privately or in a level-matched group, and the opening lesson costs nothing.',
+  capsule: 'Live lessons where a Lismore teenager or adult writes real Python with a teacher, moving from first programs into the mathematics that sits underneath code, using open data about the Northern Rivers. The 2021 Census counted 28,816 people in the Lismore urban area, with a median age of 42. Teaching happens live on camera, privately or in an level-matched group, and the opening lesson costs nothing.',
   lead: 'Here is a puzzle from the Lismore council area. Of the 28 public schools open today, how many already had a first teacher in 1880? The state\'s school file answers it exactly: three. Now pretend you only know the count every twenty years, and ask a polynomial to fill in the gaps. It says 8.31. Give it a reading every ten years instead, which sounds like better information, and for 2017 it predicts minus 76 schools. Our Lismore project builds that polynomial in Python and shows why adding more points can make a smooth curve worse, not better.',
   wa: 'Hello Modern Age Coders, I would like a free coding class for a learner in Lismore.',
 
@@ -204,7 +204,7 @@ module.exports = {
       { h3: 'City and villages', p: 'A learner in Goonellabah and one in a hill village can share a lesson without either making the drive into town.' },
       { h3: 'NSW stages, taught in English', p: 'Lessons follow NSW stages, from Stage 4 in Year 7 to the HSC years, and pause for the state\'s term breaks. Senior students can link projects to their computing and maths subjects.' },
       { h3: 'A real first lesson', p: 'The free trial is a normal class, not a sales call. Afterwards you receive a recommended level, course and weekly time, and nobody asks for a card.' },
-      { h3: 'Matched groups', p: 'Groups hold five to ten people working at one stage, drawn from Lismore and other towns, which keeps every class properly filled.' },
+      { h3: 'Matched groups', p: 'Groups hold fifteen to twenty people working at one stage, drawn from Lismore and other towns, which keeps every class properly filled.' },
       { h3: 'Twice a week', p: 'Two lessons each week at a fixed hour, about eight a month, pausing for school holidays and exam periods by arrangement.' },
       { h3: 'A teacher in India', p: 'A 6pm Lismore lesson in July begins at 1:30pm India time; after NSW clocks go forward in October, the same lesson begins at 12:30pm there.' }
     ],

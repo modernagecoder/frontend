@@ -14,7 +14,7 @@ Australia · Ages 9 to 13 · Python and AI
 
 Children meet AI every day, in search boxes, games and video recommendations, and many have already asked a chatbot a question. Very few have built an AI program themselves, or seen how a computer can get better at a task by looking at examples. That is the gap this course fills. Children aged about nine to thirteen learn Python, then use it to build small, real AI programs: a sorter that learns from examples, a guessing game that improves as it plays, a simple model they train and then test on things it has never seen. Everything runs in their own Python code, so nobody needs an account with an adult AI service. This page explains why Python, works through one AI idea in full with real numbers, and shows what Australian children build along the way.
 
-At a glance: For: Children aged about 9 to 13; Language: Python; AI ideas: Training data, models, testing; Accounts: No adult AI chatbots needed; Before this: Scratch helps, not required; Format: Live online lessons; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Children aged about 9 to 13; Language: Python; AI ideas: Training data, models, testing; Accounts: No adult AI chatbots needed; Before this: Scratch helps, not required; Format: Live online lessons; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for young Python and AI learners
 
@@ -226,7 +226,7 @@ Our teachers work from India, where the working day overlaps Australian afternoo
 - **Sunday** When weeknights are full of sport and homework.
 
 - **Free first class** Your child writes a first Python program, and a first rule, with a teacher.
-- **Small groups** Fifteen to twenty children comparing how their models perform.
+- **Groups** Fifteen to twenty children comparing how their models perform.
 - **Private lessons** When your child has one AI idea they want to chase.
 - **Code by the child** Teachers explain and question; children type every line.
 - **No chatbot accounts** Everything runs in the child's own Python code.

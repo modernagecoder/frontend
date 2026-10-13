@@ -46,7 +46,7 @@ Here's what makes learning with us actually work.
 
 No death-by-PowerPoint. Students build real games, websites, and apps from week one. Theory comes naturally when you're creating something cool.
 
-### Small Batches Only
+### Batches Only
 
 Groups of 15 to 20 students. Every student gets personal attention. No one gets left behind or bored.
 

@@ -169,7 +169,7 @@ An online lesson removes the drive across the border.
 - **Eastern time, written down** Lessons are fixed in Queanbeyan time, which matches Canberra and Sydney all year round.
 - **Built for NSW students** Teachers plan around NSW stages and the HSC, and every lesson is in English.
 - **A coding lesson, not a pitch** The free first session is real Python with a teacher; you then get a suggested course and time, and we never take payment details.
-- **Small groups by level** Fifteen to twenty learners at the same stage, drawn from many places so each level has a workable hour.
+- **Groups by level** Fifteen to twenty learners at the same stage, drawn from many places so each level has a workable hour.
 - **Two sessions a week** About eight a month; school holidays and exam periods are agreed beforehand.
 - **Public servants welcome** Adults working office hours can take evening groups or book one-to-one lessons.
 

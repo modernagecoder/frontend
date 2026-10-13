@@ -160,7 +160,7 @@ module.exports = {
       { h3: 'Plan, then type', p: 'Learners write a short outline first and then the code themselves, sharing their screen so the tutor can question each step.' },
       { h3: 'Level found in the trial', p: 'We see what the learner can already do and note any exam board.' },
       { h3: 'Nothing to pay at first', p: 'The trial lesson is complete and free, and ends with a named course.' },
-      { h3: 'Small, matched classes', p: 'Five to ten people at one stage, joining from all over Britain.' },
+      { h3: 'Matched classes', p: 'Fifteen to twenty people at one stage, joining from all over Britain.' },
       { h3: 'Twice weekly', p: 'Paused in the school holidays when you ask.' },
       { h3: 'Fixed UK time', p: 'Clock changes are absorbed at the tutors\' end.' }
     ],

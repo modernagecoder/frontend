@@ -201,7 +201,7 @@ Eleven districts, most of them rural, and one lesson that reaches all of them eq
 - **No journey involved** A pupil in Fermanagh gets the teaching a pupil in south Belfast gets, without an hour in a car in each direction.
 - **CCEA vocabulary used** Units, routes, controlled assessment and the terminal rule, named the way the specification names them.
 - **A free lesson first** Real teaching, ending with a frank view of level and a recommended course. Nothing is taken until after it.
-- **Small groups by level** Fifteen to twenty learners at one stage, drawn from across the UK and beyond so a group exists at a usable hour.
+- **Groups by level** Fifteen to twenty learners at one stage, drawn from across the UK and beyond so a group exists at a usable hour.
 - **Taught in English** We do not teach through Irish or Ulster-Scots. A bilingual learner is welcome; a lesson in another language is not something we offer.
 - **Agreed in UK time** Teachers work from India, four and a half hours ahead in summer and five and a half in winter, and every slot is fixed in UK time.
 

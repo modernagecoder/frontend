@@ -72,7 +72,7 @@ module.exports = {
     ['Exam costs', 'Paid by parents'],
     ['Written-paper boards', 'AQA 8525 and OCR J277'],
     ['Lesson times', 'Agreed in UK hours'],
-    ['Group', 'Five to ten at one level'],
+    ['Group', 'Fifteen to twenty at one level'],
     ['Start', 'One free lesson']
   ],
   capsuleQ: 'In short',
@@ -229,7 +229,7 @@ module.exports = {
       { h3: 'Real programming', p: 'Code written and debugged every lesson, so written papers feel familiar.' },
       { h3: 'Honest placement', p: 'A clear view of the level a learner is at, before anything is paid.' },
       { h3: 'Mixed ages by level', p: 'Groups formed by what learners can do, not by age alone.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty learners, or one to one.' }
+      { h3: 'Groups', p: 'Fifteen to twenty learners, or one to one.' }
     ]
   },
 

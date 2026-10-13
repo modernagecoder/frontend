@@ -155,7 +155,7 @@ module.exports = {
       { h3: 'Learners at the keyboard', p: 'The student writes and runs the code; our tutor watches by screen share and asks what result they expect before they press run.' },
       { h3: 'Level from the trial', p: 'A free first session tells us where to begin and which exam board, if any, applies.' },
       { h3: 'Free opener', p: 'There is no fee for lesson one, which ends with a course suggestion.' },
-      { h3: 'Small matched groups', p: 'Fifteen to twenty learners at one stage, drawn from across the UK.' },
+      { h3: 'Matched groups', p: 'Fifteen to twenty learners at one stage, drawn from across the UK.' },
       { h3: 'Two lessons a week', p: 'Paused in the school holidays.' },
       { h3: 'Same time each week', p: 'UK clock changes are handled on our side, so your slot stays put.' }
     ],

@@ -200,7 +200,7 @@ Cork runs from the harbour up to the western suburbs, and the lesson arrives eve
 - **Wherever the laptop is** Carrigaline and Blackpool sit in the same group without either learner leaving the house at half four.
 - **Your school year, your words** Teachers use the Irish stages by name, from First Year through Transition Year to sixth, so nothing has to be translated for a parent.
 - **Nothing to pay to try** The opening lesson is genuine teaching on a genuine task; a level, a course and an hour are proposed afterwards, and no payment details are requested.
-- **Small groups, many countries** Each group holds fifteen to twenty learners of matching ability, drawn from Cork and elsewhere, which is what makes a sensible hour possible at every level.
+- **Groups, many countries** Each group holds fifteen to twenty learners of matching ability, drawn from Cork and elsewhere, which is what makes a sensible hour possible at every level.
 - **Planned around term** The usual rhythm is two lessons a week, about eight in a month, held at the same time, and families decide with the teacher when to pause for mid-terms or exams.
 - **A clock that does not move** India stays on one time all year while Ireland changes twice, leaving our teachers four and a half hours ahead in summer and five and a half in winter; Cork afternoons, evenings and weekend mornings all land comfortably.
 

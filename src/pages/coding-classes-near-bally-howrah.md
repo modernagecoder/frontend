@@ -10,7 +10,7 @@ LIVE ONLINE CODING & MATHS · SERVING BALLY, BELUR & LILUAH
 
 # Premium Coding & Maths Classes near Bally, Howrah
 
-Modern Age Coders runs premium, 100% live online coding and mathematics classes for students across Bally, Belur Math, Bally Halt and Liluah. We teach Python, Java, AI/ML and school maths in small live batches of 15 to 20, taught by full-time engineers and maths graduates, never pre-recorded. Your child learns from home, with no Bally Bridge traffic and no Hooghly river crossing to reach a Kolkata coaching centre.
+Modern Age Coders runs premium, 100% live online coding and mathematics classes for students across Bally, Belur Math, Bally Halt and Liluah. We teach Python, Java, AI/ML and school maths in live batches of 15 to 20, taught by full-time engineers and maths graduates, never pre-recorded. Your child learns from home, with no Bally Bridge traffic and no Hooghly river crossing to reach a Kolkata coaching centre.
 
 100% Live, Never Pre-RecordedSmall Batches (15-20 Max)Taught by Engineers & Maths GraduatesICSE Java · CBSE Python · WBBSE Maths[Book a Free Demo Class](/book-demo)[Explore Courses](/courses)1:6Live batch sizes6-67Ages we teach90 minCommute saved / classFreeFirst demo classLIVE ONLINE · BALLY, HOWRAH
 
@@ -169,7 +169,7 @@ LIVE ONLINE · HONEST COMPARISON
 ### Where live online wins
 
 - No GT Road traffic, no Bally Bridge or Nivedita Setu choke, no river crossing, roughly 90 minutes saved every class day.
-- Small live batches of 15-20 mean more teacher attention than a packed local coaching room.
+- Live batches of 15-20 mean more teacher attention than a packed local coaching room.
 - Taught by full-time engineers and maths graduates, not whoever is available locally.
 - Your child stays home, safe, supervised and studying, which conservative Bally families value.
 - Every class is screen-shared and interactive, so doubts are solved live, not left for next week.

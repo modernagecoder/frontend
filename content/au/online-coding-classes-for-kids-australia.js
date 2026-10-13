@@ -54,7 +54,7 @@ module.exports = {
     ['Starts with', 'Scratch, then Python'],
     ['Also', 'Web pages, apps and AI literacy'],
     ['Format', 'Live online video lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Times', 'Set for your state\'s clock'],
     ['Start', 'A free first class']
   ],

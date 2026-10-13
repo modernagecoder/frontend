@@ -14,7 +14,7 @@ Scotland · Higher · S5 and S6
 
 Students who pass National 5 Computing Science often arrive at Higher expecting more of the same, and the assessment does nothing to correct them. The shape is identical: a question paper worth 80 marks, an assignment worth 40, software design and development compulsory in both, database or web chosen in each, and an assignment completed within six hours. The one visible change is that the paper now lasts two hours instead of an hour and a half, thirty more minutes for exactly the same eighty marks, which is the specification quietly telling you the questions are harder. Everything else that changes sits inside that familiar frame. This page lists it, section by section, so a candidate knows what is genuinely new before the year starts.
 
-At a glance: Course: Higher Computing Science C816 76; Question paper: 80 marks, 2 hours; Assignment: 40 marks, within 6 hours; Versus National 5: Same marks, 30 more minutes; Entry: National 5 or equivalent; Set and marked by: Qualifications Scotland, since February 2026; Group: Five to ten at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Course: Higher Computing Science C816 76; Question paper: 80 marks, 2 hours; Assignment: 40 marks, within 6 hours; Versus National 5: Same marks, 30 more minutes; Entry: National 5 or equivalent; Set and marked by: Qualifications Scotland, since February 2026; Group: Fifteen to twenty at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for Higher candidates
 

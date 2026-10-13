@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'AI and programming classes in Barry',
   capsuleQ: 'Which are the best AI and programming classes in Barry?',
-  capsule: 'The ONS counted 56,605 people in the Barry built-up area at the 2021 census, in a county, the Vale of Glamorgan, of 131,939. Cadoxton, Colcot, Gibbonsdown, Palmerstown, Merthyr Dyfan and Barry Island are recorded suburbs in the CF62 and CF63 districts. Anyone there between six and 67 can study AI, programming, Python, vibe coding and maths with one of our India-based tutors over live video, privately or among five to ten people working at a matching level. We teach people to reason about data before they hand it to a tool, so they know what a dataset can give away. A free opening lesson finishes with our honest view of which course fits. The Barry project opens a census table whose rows cover 57,452 households and asks which of its cells are so small that someone could be singled out, then measures how much detail must be given up to fix that. A group place then costs USD 100 each month, and a tutor to yourself costs USD 150.',
+  capsule: 'The ONS counted 56,605 people in the Barry built-up area at the 2021 census, in a county, the Vale of Glamorgan, of 131,939. Cadoxton, Colcot, Gibbonsdown, Palmerstown, Merthyr Dyfan and Barry Island are recorded suburbs in the CF62 and CF63 districts. Anyone there between six and 67 can study AI, programming, Python, vibe coding and maths with one of our India-based tutors over live video, privately or among fifteen to twenty people working at a matching level. We teach people to reason about data before they hand it to a tool, so they know what a dataset can give away. A free opening lesson finishes with our honest view of which course fits. The Barry project opens a census table whose rows cover 57,452 households and asks which of its cells are so small that someone could be singled out, then measures how much detail must be given up to fix that. A group place then costs USD 100 each month, and a tutor to yourself costs USD 150.',
   lead: 'Data used to train and test AI systems is often described as anonymous because the names have been removed. That is not enough. If a table says exactly one household of seven people lives in a certain small area, anyone who knows a family of seven there has found them, name or no name. The standard yardstick is k-anonymity: every combination of the identifying columns must be shared by at least k records, so nobody stands out from a crowd smaller than k. Meeting it means blurring the data, by merging categories or using bigger areas, and blurring costs detail. This project measures that trade-off on a real published table for the Vale of Glamorgan.',
   wa: 'Hello Modern Age Coders, could we book a free AI or programming lesson for a learner in Barry?',
 
@@ -168,7 +168,7 @@ module.exports = {
     h2: 'Barry fees',
     intro: 'Our fees outside India are one flat list, and Barry is on it.',
     first: 'A complete trial lesson without charge, and advice at the end of it.',
-    group: 'A seat in a level-matched class, around eight sessions monthly.',
+    group: 'A seat in an level-matched class, around eight sessions monthly.',
     private: 'A tutor for one learner, around eight sessions monthly.',
     closer: 'Fees are in US dollars, not sterling. Nothing is billed until the trial has settled which course and which evening. Rules on holiday weeks, absences and moving between group and private lessons sit on the pricing page.'
   },

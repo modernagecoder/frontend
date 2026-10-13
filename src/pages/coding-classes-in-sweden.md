@@ -704,7 +704,7 @@ No quiz, no pop-up, no sales pressure. Leave a number, a CET-hours mentor rings 
 
 ## Live online coding classes for students in Sweden
 
-Modern Age Coders teaches students worldwide over live video, in small 4–8 batches, with timings that suit your timezone. Explore other regions or book a free demo.
+Modern Age Coders teaches students worldwide over live video, in 15–20 batches, with timings that suit your timezone. Explore other regions or book a free demo.
 
 ### Coding classes in other countries
 

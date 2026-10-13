@@ -196,7 +196,7 @@ module.exports = {
       { q: 'Do you teach adults?', a: 'Yes, up to sixty-seven and from any starting point. After the first lesson an adult chooses a small same-level group or private lessons.' },
       { q: 'Will my child learn with other Ballincollig children?', a: 'Only by chance. Groups are made by level, so classmates may be in Cork, elsewhere in Ireland or abroad.' },
       { q: 'What do coding classes in Ballincollig cost?', a: 'The first lesson is free. After that a group place is USD 100 a month for about eight live lessons, two a week, with fifteen to twenty learners; one-to-one lessons on the same timetable are USD 150 a month. Terms are agreed before any payment.', boiler: true },
-      { q: 'How many learners are in a group?', a: 'Five to ten, sorted by level, pace and goals rather than by age or address. If no group fits at a workable time, lessons are one to one.', boiler: true }
+      { q: 'How many learners are in a group?', a: 'Fifteen to twenty, sorted by level, pace and goals rather than by age or address. If no group fits at a workable time, lessons are one to one.', boiler: true }
     ]
   },
 

@@ -14,7 +14,7 @@ Australia · Ages 13 to 18 · Build and publish
 
 Most teenagers have used thousands of websites and built none. Our web development course for teens closes that gap: students write the structure in HTML, the look in CSS and the behaviour in JavaScript, then publish what they make so friends and family can open it on a phone. Along the way they learn the decisions professionals make without thinking, such as which image format keeps a page fast. This page explains the course, measures one of those decisions with real files, and connects it to the Australian Curriculum that teens meet at school.
 
-At a glance: For: Teens aged 13 to 18; Structure: HTML; Style: CSS, phone first; Behaviour: JavaScript; Design: Wireframes and user stories; Finish: A published site; Group: Five to ten, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: Teens aged 13 to 18; Structure: HTML; Style: CSS, phone first; Behaviour: JavaScript; Design: Wireframes and user stories; Finish: A published site; Group: Fifteen to twenty, or one to one; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three web courses for teenagers
 
@@ -239,7 +239,7 @@ Our teachers are in India, where the working day overlaps Australian afternoons.
 - **Weekend** Longer build-and-publish sessions.
 
 - **Free first class** A first page built and opened on the student's own phone.
-- **Small groups** Five to ten teens showing each other their sites.
+- **Groups** Fifteen to twenty teens showing each other their sites.
 - **One to one** For a particular site, pace or interest.
 - **Measured, not guessed** Students check page weight and heading order themselves.
 - **Parents involved** Publishing and accounts are agreed with a parent first.

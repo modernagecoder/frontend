@@ -12,7 +12,7 @@ TensorFlow & PyTorch • **the industry DL frameworks**
 
 Learn deep learning the way industry does it, in TensorFlow and PyTorch, the two frameworks that run real AI. Master tensors, build and train neural networks, use GPUs and pretrained models, and ship real DL projects in Python. Hands-on, live with a mentor.
 
-Book a Free DemoSee the Roadmap**2**Leading frameworks**5–8**Students per batch**GPU**Train real models**Live**Mentor-led
+Book a Free DemoSee the Roadmap**2**Leading frameworks**15–20**Students per batch**GPU**Train real models**Live**Mentor-led
 
 ## Quick answer
 

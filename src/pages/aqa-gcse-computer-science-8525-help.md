@@ -14,7 +14,7 @@ England · AQA 8525 · Years 10 and 11
 
 There is a detail in the AQA specification that decides a surprising number of marks, and almost no student can state it. Exam questions "will always present algorithms using the current version of the AQA pseudo-code", program code must be written in C#, Python 3 or VB.NET, and the specification adds that questions "will explicitly state in what form the response needs to be provided. This will be, for example, pseudo-code, program code or a flowchart, and students must respond as instructed". Three notations live in the same paper. A candidate who writes beautiful Python into a question that asked for a flowchart has lost those marks before an examiner has read a line of the logic. This page covers both papers, all three notations, and the practical experience AQA says a student should have before they sit paper 1.
 
-At a glance: Qualification: AQA GCSE Computer Science 8525; Structure: Linear, both papers at the end; Paper 1: 2 hours, 90 marks, 50 per cent; Paper 2: 1 hour 45, 90 marks, 50 per cent; Languages: C#, Python 3 or VB.NET; Questions in: AQA pseudo-code; Group: Five to ten at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Qualification: AQA GCSE Computer Science 8525; Structure: Linear, both papers at the end; Paper 1: 2 hours, 90 marks, 50 per cent; Paper 2: 1 hour 45, 90 marks, 50 per cent; Languages: C#, Python 3 or VB.NET; Questions in: AQA pseudo-code; Group: Fifteen to twenty at one level; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for AQA candidates
 

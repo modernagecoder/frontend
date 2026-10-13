@@ -321,7 +321,7 @@ module.exports = {
       { h3: 'One link', p: 'The learner opens a link at lesson time, shares a screen and starts writing code with the teacher.' },
       { h3: 'School terms', p: 'Lesson plans follow the Victorian term calendar and pause during state school holidays.' },
       { h3: 'Trial lesson', p: 'The free first class is a full lesson; afterwards we suggest a course and a regular time.' },
-      { h3: 'Small groups', p: 'Groups hold fifteen to twenty learners at the same level, gathered from across Australia.' },
+      { h3: 'Groups', p: 'Groups hold fifteen to twenty learners at the same level, gathered from across Australia.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons each week, about eight a month, with breaks agreed in advance.' },
       {
         h3: 'Teachers in India',

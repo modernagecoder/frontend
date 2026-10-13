@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI lessons for Warrington, Lymm, Cu
 canonical: https://learn.modernagecoders.com/online-coding-and-python-classes-in-warrington
 source: src/pages/online-coding-and-python-classes-in-warrington.html
 ---
-> In 2021 the census put Warrington borough at 210,977 people, of whom 174,970 lived in the Warrington built-up area and 11,545 in Lymm. Adults from 45 to 59 are well above the England share here, while people in their twenties are below it. Our India-based tutors teach coding, Python, AI and maths over live video to learners between 6 and 67, individually or in small same-level classes of fifteen to twenty. A free opening lesson chooses the course. The Warrington project checks the dates in an old book of scientists, and catches one that cannot be right. After the trial, groups cost USD 100 a month and private lessons USD 150 a month.
+> In 2021 the census put Warrington borough at 210,977 people, of whom 174,970 lived in the Warrington built-up area and 11,545 in Lymm. Adults from 45 to 59 are well above the England share here, while people in their twenties are below it. Our India-based tutors teach coding, Python, AI and maths over live video to learners between 6 and 67, individually or in same-level classes of fifteen to twenty. A free opening lesson chooses the course. The Warrington project checks the dates in an old book of scientists, and catches one that cannot be right. After the trial, groups cost USD 100 a month and private lessons USD 150 a month.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [North West England](/coding-and-ai-classes-in-north-west-england) / Warrington
 
@@ -12,7 +12,7 @@ Warrington, Cheshire, England / Live online
 
 # Online coding and Python classes in Warrington
 
-**Which are the best online coding and Python classes for Warrington?** In 2021 the census put Warrington borough at 210,977 people, of whom 174,970 lived in the Warrington built-up area and 11,545 in Lymm. Adults from 45 to 59 are well above the England share here, while people in their twenties are below it. Our India-based tutors teach coding, Python, AI and maths over live video to learners between 6 and 67, individually or in small same-level classes of fifteen to twenty. A free opening lesson chooses the course. The Warrington project checks the dates in an old book of scientists, and catches one that cannot be right. After the trial, groups cost USD 100 a month and private lessons USD 150 a month.
+**Which are the best online coding and Python classes for Warrington?** In 2021 the census put Warrington borough at 210,977 people, of whom 174,970 lived in the Warrington built-up area and 11,545 in Lymm. Adults from 45 to 59 are well above the England share here, while people in their twenties are below it. Our India-based tutors teach coding, Python, AI and maths over live video to learners between 6 and 67, individually or in same-level classes of fifteen to twenty. A free opening lesson chooses the course. The Warrington project checks the dates in an old book of scientists, and catches one that cannot be right. After the trial, groups cost USD 100 a month and private lessons USD 150 a month.
 
 Joseph Priestley, the chemist, wrote in his memoirs that he moved to Warrington in September 1761 to teach at the academy there, stayed six years, and published his Chart of Biography while in the town. Later, William Walker compiled Memoirs of the Distinguished Men of Science of Great Britain, a book of 54 short lives, each opening with a line like "Born ... Died ...". Its entry for Priestley says he was born on 24 March 1773 and died in 1804. That would make him 31 at his death, and would mean he moved to Warrington twelve years before he was born. A few lines of Python can catch this without anyone reading all 54 lives, and can also show why not every warning is an error.
 
@@ -138,7 +138,7 @@ Any part of the borough joins the same live lesson.
 - **Learner writes the code** Every line comes from the student, with the tutor following on screen share and asking questions.
 - **Right level from the start** Year 4 or Year 13, placement follows the school year and the trial, with the exam board in mind.
 - **First lesson free** Nothing to pay for the trial, which ends with a clear recommendation.
-- **Stage-matched groups** Five to ten UK learners, all working at one level.
+- **Stage-matched groups** Fifteen to twenty UK learners, all working at one level.
 - **Term-time lessons** Two a week in term, none in the holidays.
 - **Same hour all year** When UK clocks change, our tutors move, not your lesson.
 

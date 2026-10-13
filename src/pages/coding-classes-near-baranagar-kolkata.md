@@ -10,7 +10,7 @@ Baranagar · Bonhooghly · Sinthee · Cossipore: Live Online
 
 # Live Online Coding & Maths Classes near Baranagar, Kolkata
 
-Modern Age Coders runs premium, live online coding and mathematics classes for families across Baranagar, Bonhooghly, Sinthee and Cossipore, no recordings, no travel down B.T. Road. Children learn Python, Java, AI/ML and school-to-Olympiad maths in small live batches of 15–20, taught by full-time engineers and maths graduates. Every class is project-based and one curriculum carries both coding and statistics-grade maths together. Book a free demo today.
+Modern Age Coders runs premium, live online coding and mathematics classes for families across Baranagar, Bonhooghly, Sinthee and Cossipore, no recordings, no travel down B.T. Road. Children learn Python, Java, AI/ML and school-to-Olympiad maths in live batches of 15–20, taught by full-time engineers and maths graduates. Every class is project-based and one curriculum carries both coding and statistics-grade maths together. Book a free demo today.
 
 100% live, never pre-recordedSmall batches · max 6–8Coding + Maths in one programmeTaught by full-time engineers[Book a Free Demo Class](/book-demo)[Explore All Courses](/courses)6–8Max students per live batch1-on-1Personalised option availableAges 6–67Kids, teens, college, adultsFreeFirst demo class, no card neededLive Online · Baranagar, Kolkata
 
@@ -171,7 +171,7 @@ Honest Comparison
 
 - No evening commute down B.T. Road, no Sinthee More, Tobin More or Dunlop traffic, no auto-changing at the Baranagar crossing.
 - An hour-plus saved each way goes straight back into study, rest and family time.
-- Small live batches of 15–20 mean more speaking and coding turns than a 30-seat physical room.
+- Live batches of 15–20 mean more speaking and coding turns than a 30-seat physical room.
 - Taught by full-time engineers and maths graduates, not whoever is locally available.
 - Your child learns on the actual device they will build on, with screen-sharing and real-time code review.
 - Recordings of your own class are available for revision, while teaching stays fully live.

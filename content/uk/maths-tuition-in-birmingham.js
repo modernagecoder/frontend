@@ -295,7 +295,7 @@ module.exports = {
     eyebrow: 'Birmingham maths questions',
     h2: 'Questions Birmingham families ask about maths',
     items: [
-      { q: 'What does maths tuition in Birmingham involve?', a: 'Regular live lessons with one teacher, either in a level-matched class of fifteen to twenty or privately. The teacher finds what a learner has missed, teaches it properly and checks it has stuck, from KS2 number work and the SATs to GCSE for AQA, Edexcel or OCR and A level.' },
+      { q: 'What does maths tuition in Birmingham involve?', a: 'Regular live lessons with one teacher, either in an level-matched class of fifteen to twenty or privately. The teacher finds what a learner has missed, teaches it properly and checks it has stuck, from KS2 number work and the SATs to GCSE for AQA, Edexcel or OCR and A level.' },
       { q: 'What is an error interval?', a: 'An error interval is the range a measurement could really lie in, given how it was rounded. A length of 64.20 km to 2 decimal places is at least 64.195 km and less than 64.205 km. GCSE asks students to write this with inequality signs.' },
       { q: 'Does Birmingham have more canals than Venice?', a: 'By our measurement, Birmingham has more length of canal inside its boundary (64.20 km) than the named canals of central Venice (49.62 km). But Venice has many more separate canals, and widening the area changes the answer, so the saying depends on what you count.' },
       { q: 'Do you teach 11 plus maths too?', a: 'Yes, on a separate page about the Birmingham grammar schools test. This page covers maths for everyone, from Year 1 to adult.' },

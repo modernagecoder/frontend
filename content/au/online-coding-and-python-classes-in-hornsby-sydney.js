@@ -346,7 +346,7 @@ module.exports = {
         p: 'Lessons follow the NSW stages and year levels, take breaks with the state school holidays, and can support senior computing subjects.'
       },
       { h3: 'A real first class', p: 'The free trial is a proper lesson; afterwards the teacher suggests a course, level and time, and nothing is billed.' },
-      { h3: 'Small, matched groups', p: 'Groups hold fifteen to twenty learners at one level, mixing Hornsby learners with others from different places.' },
+      { h3: 'Matched groups', p: 'Groups hold fifteen to twenty learners at one level, mixing Hornsby learners with others from different places.' },
       { h3: 'Twice weekly', p: 'Two fixed lessons each week, about eight a month, with holiday pauses arranged ahead of time.' },
       { h3: 'Teachers in India', p: 'A 5pm Hornsby lesson in summer starts at 11:30am India time, and at 12:30pm there once Sydney leaves daylight saving.' }
     ],

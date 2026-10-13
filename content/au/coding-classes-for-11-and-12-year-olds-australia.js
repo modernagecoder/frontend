@@ -52,7 +52,7 @@ module.exports = {
     ['Also', 'Web pages, apps, AI literacy'],
     ['Big new ideas', 'Data, binary, functions'],
     ['Format', 'Live online lessons'],
-    ['Group', 'Five to ten, or one to one'],
+    ['Group', 'Fifteen to twenty, or one to one'],
     ['Start', 'A free first class']
   ],
   capsuleQ: 'In short',
@@ -233,7 +233,7 @@ module.exports = {
     ],
     cells: [
       { h3: 'A free first class', p: 'Your child tries some Python with a teacher, and we recommend a path from what they enjoy.' },
-      { h3: 'Small groups', p: 'Fifteen to twenty children of similar age and level, often from different states.' },
+      { h3: 'Groups', p: 'Fifteen to twenty children of similar age and level, often from different states.' },
       { h3: 'One to one', p: 'For a child preparing for Year 7 quickly or chasing an ambitious project.' },
       { h3: 'Written by them', p: 'Every line is typed by the child; teachers guide with questions.' },
       { h3: 'Open to parents', p: 'You are welcome to watch any lesson, live.' },

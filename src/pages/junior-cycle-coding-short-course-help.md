@@ -14,7 +14,7 @@ Ireland · Junior Cycle · Coding short course
 
 The Coding short course is one of the few places in the Junior Cycle where a student builds real software, and it ends in a single piece of assessed work that the school, not the State, judges. Parents often hear about it for the first time when that work is due, and then the questions arrive together: what exactly has to be handed in, who marks it, what the words on the report mean, and what help is fair. This page answers those questions from the NCCA's own documents, the June 2025 specification and assessment guidelines, together with the Framework for Junior Cycle. It then explains what live lessons can do for a student taking the course: build the programming, web and AI skills behind it, on different examples, so the student arrives at the assessment able to do the work themselves. We never write, edit or check a student's assessed work, and the guidelines explain why that line matters.
 
-At a glance: For: First, Second and Third Year; Covers: Programming, web, AI topics; Assessment: One CBA, two options; Our role: Skills on separate examples; Format: Live, with a teacher; Groups: Five to ten, or one to one; Hours: After school, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
+At a glance: For: First, Second and Third Year; Covers: Programming, web, AI topics; Assessment: One CBA, two options; Our role: Skills on separate examples; Format: Live, with a teacher; Groups: Fifteen to twenty, or one to one; Hours: After school, Irish time; Start: A free first class. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that match the short course's ground
 
@@ -171,7 +171,7 @@ Lessons are live and taught from India, at a regular hour set in Irish time; Iri
 - **Assessment weeks** Lessons switch to unrelated examples while the CBA is under way.
 
 - **A first class, free** A short task in code, so the teacher can see where the student stands and suggest a starting point.
-- **Small groups** Fifteen to twenty students at the same level, many of them taking school computing courses of their own.
+- **Groups** Fifteen to twenty students at the same level, many of them taking school computing courses of their own.
 - **One to one** For a student who wants the teacher's full attention, or who is far ahead of their class.
 - **Practice, not the real thing** Every project in our lessons is separate from school assessed work, by design.
 - **Irish terms kept** Strands, CBA, descriptors and JCPA are used as Irish schools use them; lessons are in English.
