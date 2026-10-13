@@ -633,6 +633,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [C++ classes online](/c-plus-plus-classes-online-australia)
 - [Maths tutor in Hobart](/maths-tutor-hobart)
 - [Maths tutor in Parramatta](/maths-tutor-parramatta)
+- [Maths tutor in Glen Waverley](/maths-tutor-glen-waverley)
 <!-- AU-LINKS -->
 
 
