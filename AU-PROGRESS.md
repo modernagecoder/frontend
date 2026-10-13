@@ -400,7 +400,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 382 | maths-tutor-glen-waverley (mtgw, #853855) | ag- maths by city | 3,083 | 2.2% vs maths-tutor-box-hill | two numbers from a sum and a difference | simultaneous equations from a sum and a difference | 4e73f698 |
 | 383 | maths-tutor-box-hill (mtbh, #265839) | ag- maths by city | 3,042 | 2.2% vs maths-tutor-glen-waverley | why areas scale by k squared on maps | area scale factor on scale drawings | 967cc311 |
 | 384 | maths-tutor-sunnybank (mtsb, #152B4E) | ag- maths by city | 3,055 | 2% vs maths-tutor-glen-waverley | with or without replacement, and when it matters | probability without replacement vs approximation | a3fe2a6c |
-| 385 | maths-tutor-chatswood (mtcw, #5A5E9B) | ag- maths by city | 3,144 | 0.9% vs maths-tutor-box-hill | why a Year of the Goat is never a leap year | lowest common multiple of repeating cycles | (this commit) |
+| 385 | maths-tutor-chatswood (mtcw, #5A5E9B) | ag- maths by city | 3,144 | 0.9% vs maths-tutor-box-hill | why a Year of the Goat is never a leap year | lowest common multiple of repeating cycles | 2f0ed138 |
+| 371 | maths-tutor-sydney (mtsy, #2B1C5E) | ag- maths by city | 3,229 | 1.5% vs maths-tutor-melbourne | finding a hidden Census total from rounded percentages | reverse percentages and intersecting rounding windows | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
