@@ -620,6 +620,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI agents course for professionals](/ai-agents-course-for-professionals-australia)
 - [Build real AI projects](/build-real-ai-projects-australia)
 - [Python classes online](/python-classes-online-australia)
+- [Java classes online](/java-classes-online-australia)
 <!-- AU-LINKS -->
 
 
