@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Software Development Course in Australia | Build, Test, Ship</title>
+  <meta name="description" content="A live online software development course for Australians: write code, test it, track it in Git and find bugs fast. Teens and adults, small groups, first class free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/software-development-course-australia">
+  <link rel="alternate" type="text/markdown" href="/src/pages/software-development-course-australia.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#122A72">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/software-development-course-australia">
+  <meta property="og:title" content="Software Development Course in Australia | Build, Test, Ship">
+  <meta property="og:description" content="One wrong character in commit 73 of 100. Git bisect found it in 7 test runs. How a software development course teaches the habits that make that possible.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Software Development Course in Australia">
+  <meta name="twitter:description" content="Software development for Australians: testing, Git, debugging and real projects. Live online, first class free.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-sdau .ag-hero h1 { letter-spacing: -0.021em; }
+.ag-root.ag-sdau .ag-capsule { border-left-width: 5px; border-radius: 4px; }
+.ag-root.ag-sdau .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-sdau .ag-table caption { text-align: left; font-weight: 610; }
+.ag-root.ag-sdau .ag-band-head h3 { letter-spacing: -0.01em; }
+.ag-root.ag-sdau .ag-slots { gap: 0.9rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/software-development-course-australia#page","url":"https://learn.modernagecoders.com/software-development-course-australia","name":"Software Development Course in Australia","description":"A guide to learning software development in Australia: requirements, testing, version control and debugging, with a worked git bisect example.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":4,"name":"Software development course","item":"https://learn.modernagecoders.com/software-development-course-australia"}]},{"@type":"Course","name":"Software Development Course in Australia","description":"Live online software development lessons for Australian teens and adults: programming, automated testing, Git, debugging and team projects.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/software-development-course-australia"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/software-development-course-australia"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/software-development-course-australia"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is a software development course?","acceptedAnswer":{"@type":"Answer","text":"A course that teaches the whole job of making software: planning what it must do, writing it, testing it, keeping its history in version control, debugging and documenting it."}},{"@type":"Question","name":"How is it different from learning to code?","acceptedAnswer":{"@type":"Answer","text":"Learning to code covers writing programs. Software development adds testing, version control, debugging methods and teamwork, the parts that keep a program working as it grows."}},{"@type":"Question","name":"What is git bisect?","acceptedAnswer":{"@type":"Answer","text":"A Git command that uses binary search through a project's history to find the commit that introduced a bug. In our 100-commit example it found the faulty commit in 7 test runs."}},{"@type":"Question","name":"Do I need to know a language first?","acceptedAnswer":{"@type":"Answer","text":"No. The course starts with Python from zero and introduces testing and Git alongside the first programs."}},{"@type":"Question","name":"Is this the same as HSC Software Engineering?","acceptedAnswer":{"@type":"Answer","text":"No. HSC Software Engineering is a NSW senior subject with its own syllabus. This course teaches general skills that help such students, and we never complete assessed work."}},{"@type":"Question","name":"What age can start?","acceptedAnswer":{"@type":"Answer","text":"Teenagers from 13 and adults of any age. Younger children usually begin with Scratch or Python for kids first."}},{"@type":"Question","name":"What does ANZSCO say software programmers do?","acceptedAnswer":{"@type":"Answer","text":"ANZSCO unit group 2613 describes them as people who design, develop, test, maintain and document program code in line with user requirements and specifications."}},{"@type":"Question","name":"Will I get a job after the course?","acceptedAnswer":{"@type":"Answer","text":"We do not promise jobs or salaries. The course builds tested, versioned projects and the habits behind them, which you can show and explain."}},{"@type":"Question","name":"Which languages are taught?","acceptedAnswer":{"@type":"Answer","text":"Python first, then JavaScript, Java or C++ depending on the learner's goals."}},{"@type":"Question","name":"How much is the course?","acceptedAnswer":{"@type":"Answer","text":"Your first class costs nothing and no card is taken. The monthly prices for groups and private lessons sit in the fees panel on this page."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/software-development-course-australia","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-sdau">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#craft">The craft</a></li>
+      <li><a href="#bisect">A worked example</a></li>
+      <li><a href="#curriculum">At school</a></li>
+      <li><a href="#path">Paths</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Software development course
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Ages 13 to adult &middot; Build, test, ship</p>
+        <h1>Software development course</h1>
+        <p class="ag-lede">Writing code that runs once is the start. Software development is everything after that: deciding what the program must do, proving it does it, keeping a history of every change, and finding the change that broke it when something goes wrong. The Australian occupation classification describes the work in five verbs, and only one of them is writing code. Our software development course teaches all five, live online, to teenagers and adults across Australia. This page shows the approach, works through one real debugging exercise with our own numbers, and shows where the same habits already sit in the Australian Curriculum.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#bisect" class="ag-btn ag-btn--ghost">See the worked example</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Australia%20and%20interested%20in%20a%20software%20development%20course.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'sdau'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Tests and version control from the first project</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Teens 13+ and adults</dd>
+          <dt>Languages</dt><dd>Python first, then JavaScript or Java</dd>
+          <dt>Testing</dt><dd>Automated, from week one</dd>
+          <dt>History</dt><dd>Git on every project</dd>
+          <dt>Debugging</dt><dd>Systematic, not guesswork</dd>
+          <dt>Format</dt><dd>Live online lessons</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>A software development course teaches how programs are designed, tested, versioned, debugged and maintained, not only how to write them. ANZSCO describes software and applications programmers as people who design, develop, test, maintain and document program code. Modern Age Coders teaches those habits live online to Australian teens and adults, in small groups or one to one, starting with a free class.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three ways into software development</h2>
+      <p class="ag-lede">Chosen by age and starting point. Each card opens the full syllabus.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">SDAU / 01</p>
+          <h3>Python for Teens</h3>
+          <p>Ages 13 to 18, from zero. Functions, files and tests, the base every later project stands on.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">SDAU / 02</p>
+          <h3>Python Masterclass for Adults</h3>
+          <p>For 18 and over: the same craft at an adult pace, with real automation projects.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/git-github-version-control-course-for-teens">
+        <div class="ag-pick-shot"><img src="/images/git-github-teens.webp" alt="Git &amp; GitHub Course for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">SDAU / 03</p>
+          <h3>Git and GitHub for Teens</h3>
+          <p>Commits, branches, pull requests and history, ages 13 to 18.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="craft">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The craft</p><h2>Five verbs, and only one of them is coding</h2><p class="ag-lede">ABS's occupation classification, ANZSCO, gives a one-line definition of the work that is a useful course outline in itself.</p></div>
+    <p>Unit group <strong>2613 Software and Applications Programmers</strong> is defined as people who "design, develop, test, maintain and document program code in accordance with user requirements, and system and technical specifications". Beginners usually practise only the second verb. Our course gives each of the five its own skills and its own projects.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The five verbs as course content</caption><thead><tr><th scope="col">Verb</th><th scope="col">What students practise</th><th scope="col">Evidence they can do it</th></tr></thead><tbody><tr><td>Design</td><td>User stories, inputs and outputs, sketches before code</td><td>A one-page plan another student can build from</td></tr><tr><td>Develop</td><td>Python first, then a second language; small functions</td><td>Programs that read like the plan</td></tr><tr><td>Test</td><td>Expected and actual output, boundary cases, automated tests</td><td>A test file that fails when the code is wrong</td></tr><tr><td>Maintain</td><td>Git history, small commits, finding what changed</td><td>A repository with a readable log</td></tr><tr><td>Document</td><td>README files, comments that explain why, usage notes</td><td>A stranger can run the project in five minutes</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why testing comes early</h3><p>A test is a sentence that says what correct means. Writing it first forces the question every project needs answered: how will we know this works?</p>
+<p>Students who learn to test in their first month treat it as normal rather than as extra work added later.</p></div><div><h3>Why version control comes early</h3><p>Git turns a project into a history of small, named changes. That history is what makes the debugging technique below possible.</p>
+<p>It also makes group work safe: two people can change the same project without losing each other's work.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="bisect">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked example</p><h2>One wrong character in 100 commits</h2><p class="ag-lede">This exercise shows why tests and version control belong together. We built the repository ourselves so every number on this page can be checked.</p></div>
+    <p>The program is a small function that works out the coins and notes for an amount of money, in cents. It sits in a Git repository with <strong>100 commits</strong>. At <strong>commit 73</strong>, one character changes: <code>while cents &gt;= n</code> becomes <code>while cents &gt; n</code>. Nothing crashes. The function simply stops giving the last coin when the amount left equals a coin's value, so change for $1.45 comes back as $1, 20c and 20c, five cents short.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Finding the bad commit three ways (our repository, 14 October 2026)</caption><thead><tr><th scope="col">Method</th><th scope="col">Test runs needed</th><th scope="col">Notes</th></tr></thead><tbody><tr><td>Check every commit from the oldest</td><td>73</td><td>Stops at the first failing commit</td></tr><tr><td>Check backwards from the newest</td><td>28</td><td>Stops at the last passing commit</td></tr><tr><td>git bisect run with the test file</td><td>7</td><td>Halves the remaining range at every step</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>What bisect does</h3><p>The Git documentation describes it in one line: "Use binary search to find the commit that introduced a bug". Mark one good commit and one bad one, and Git checks out the middle.</p></div><div><h3>Why the test matters</h3><p>git bisect run needs a program that exits 0 when the code is good and non-zero when it is bad. Our test, change(145) == [100, 20, 20, 5], is that program.</p></div><div><h3>When it is not worth it</h3><p>With four commits, reading the four diffs is quicker than setting up bisect. The method earns its keep as history grows: 1,000 commits need only about 10 test runs.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The commits that cannot be tested</h3><p>Real histories contain commits that do not build. Git reserves a special exit code for them: "The special exit code 125 should be used when the current source code cannot be tested." The test script returns 125 and bisect steps around that commit.</p>
+<p>Students write that case into their scripts too, so a broken build is skipped rather than mistaken for the bug.</p></div><div><h3>What students take away</h3><p>A failing test plus a clean history turns "something broke last month" into a seven-step search. Without the test, there is nothing to run at each step; without small commits, the culprit is a week of mixed changes.</p>
+<p>That is the point of the exercise: the debugging trick only works because of habits formed much earlier.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 14 October 2026: <a class="ag-inline-link" href="https://git-scm.com/docs/git-bisect" rel="noopener" target="_blank">Git documentation, git-bisect</a>; the repository, test and timings are our own.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="curriculum">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">At school</p><h2>The same habits in the Australian Curriculum</h2><p class="ag-lede">The Digital Technologies curriculum for Years 7 to 10 already asks for testing and shared version control. Our course takes them further.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Australian Curriculum v9, Digital Technologies 7 to 10</caption><thead><tr><th scope="col">Code</th><th scope="col">What it asks for</th><th scope="col">Where it appears in our course</th></tr></thead><tbody><tr><td>AC9TDI8P06</td><td>An elaboration specifies test cases for a change-calculating algorithm, with input $1.45</td><td>The same function, under automated test, in the bisect exercise</td></tr><tr><td>AC9TDI10P06</td><td>"validate algorithms and programs by comparing their output against a range of test cases"</td><td>Test files written before features</td></tr><tr><td>AC9TDI10P12</td><td>An elaboration on sharing code development using "a collaborative version control tool such as GitHub"</td><td>Git from the first project, GitHub for group work</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For students taking senior computing</h3><p>Senior courses add their own requirements. NSW students will find the detail on our <a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering help</a> page and Victorian students on <a class="ag-inline-link" href="/vce-applied-computing-software-development-help">VCE Software Development help</a>.</p>
+<p>This course builds the general craft underneath both. It never writes assessed work.</p></div><div><h3>For everyone else</h3><p>Adults and younger teens do not need a school subject to start. The order is the same: plan, code, test, commit, then read the history when something goes wrong.</p>
+<p>Teenagers in Years 7 to 10 will recognise the curriculum language above from class.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source, read 14 October 2026: ACARA, <a class="ag-inline-link" href="https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx" rel="noopener" target="_blank">Digital Technologies curriculum content, Years 7 to 10, Version 9.0</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="path">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Paths</p><h2>What a learner builds, step by step</h2><p class="ag-lede">Each project adds one professional habit to the last.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Project sequence in the software development course</caption><thead><tr><th scope="col">Project</th><th scope="col">New habit</th><th scope="col">Done when</th></tr></thead><tbody><tr><td>Coin change calculator</td><td>Writing tests before code</td><td>Boundary amounts like 5c and $100 pass</td></tr><tr><td>Command-line to-do list</td><td>Small commits with clear messages</td><td>The Git log reads like a diary</td></tr><tr><td>Quiz with a saved high-score file</td><td>Handling bad input without crashing</td><td>Text typed instead of a number is rejected politely</td></tr><tr><td>Team project on GitHub</td><td>Branches and pull requests</td><td>Two students merge work without losing any</td></tr><tr><td>Find the planted bug</td><td>git bisect with an automated test</td><td>The culprit commit is named in under ten runs</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Learners who want a web or mobile focus continue with <a class="ag-inline-link" href="/web-development-course-for-teens-australia">web development for teens</a> or <a class="ag-inline-link" href="/javascript-classes-online-australia">JavaScript classes</a>. Adults changing careers may find <a class="ag-inline-link" href="/coding-for-career-changers-australia">coding for career changers</a> the better door.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="review">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Reading code</p><h2>Most of the job is reading code someone else wrote</h2><p class="ag-lede">Developers spend much of their time reading, reviewing and changing existing programs. The course practises that from the second term.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A review checklist learners use on each other's pull requests</caption><thead><tr><th scope="col">Question</th><th scope="col">Why it is asked</th></tr></thead><tbody><tr><td>Does a test show the change works?</td><td>A change without a test can quietly break later</td></tr><tr><td>Is each commit about one thing?</td><td>Small commits make history searchable</td></tr><tr><td>Do names say what things are?</td><td>The next reader should not need to guess</td></tr><tr><td>What happens with empty or wrong input?</td><td>Edge cases are where most bugs hide</td></tr><tr><td>Is anything copied that could be a function?</td><td>Repeated code drifts apart when one copy is fixed</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Giving useful feedback</h3><p>Learners practise writing review comments that describe the problem and suggest a fix, rather than just saying something is wrong.</p>
+<p>Kind, specific comments are a skill teams value, and they are rarely taught.</p></div><div><h3>Receiving it</h3><p>Having code questioned can sting at first. Seeing that every developer's code is reviewed, the teacher's included, makes it routine.</p>
+<p>By the team project, learners ask for reviews before they are told to.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>Four stages from coder to developer</h2>
+      <p class="ag-lede">A learner moves up when a project proves the skill, whatever the calendar says.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From first program to maintained project</caption><thead><tr><th scope="col">Stage</th><th scope="col">What you can do</th></tr></thead><tbody><tr><td>1. Coder</td><td class="ag-num">Write a working program from a clear description</td></tr><tr><td>2. Tester</td><td class="ag-num">Write tests that fail when the code is wrong, including edge cases</td></tr><tr><td>3. Maintainer</td><td class="ag-num">Keep a clean Git history and use it to find when a bug arrived</td></tr><tr><td>4. Team developer</td><td class="ag-num">Plan, review and merge work with others through pull requests</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Is this a job-ready course?</h3><p>It teaches the habits the occupation description names. We make no promise about jobs or pay; those depend on far more than one course.</p>
+<p>What it does promise is a portfolio of tested, versioned projects a learner can show and explain.</p></div><div><h3>Which language comes first?</h3><p>Python, because its syntax gets out of the way of the habits. JavaScript or Java follow once testing and Git feel routine.</p>
+<p>The habits carry over to any language unchanged.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Software development courses</h2>
+      <p class="ag-lede">Grouped by stage. The free class decides where a learner starts.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">Teens and adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">SDAU / FND / 01</p>
+          <h4>Python for Teens</h4>
+          <p>Ages 13 to 18, from zero.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SDAU / FND / 02</p>
+          <h4>Python Masterclass</h4>
+          <p>Adults, zero to advanced.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SDAU / FND / 03</p>
+          <h4>Problem Solving and DSA for Teens</h4>
+          <p>Algorithms and clear thinking.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Version control</h3>
+        <span class="ag-band-sub">Every project</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">SDAU / GIT / 01</p>
+          <h4>Git and GitHub for Teens</h4>
+          <p>History and teamwork, 13 to 18.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SDAU / GIT / 02</p>
+          <h4>Git and GitHub for College Students</h4>
+          <p>Team-ready version control.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SDAU / GIT / 03</p>
+          <h4>Advanced Git for Professionals</h4>
+          <p>For working developers.</p>
+          <a class="ag-course-link" href="/courses/git-github-advanced-version-control-masterclass-for-professionals">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Building larger systems</h3>
+        <span class="ag-band-sub">After the foundations</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">SDAU / SYS / 01</p>
+          <h4>Java for Teens</h4>
+          <p>Object-oriented design, 13 to 18.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SDAU / SYS / 02</p>
+          <h4>Full Stack Developer Course</h4>
+          <p>React, Node.js and deployment, 18+.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SDAU / SYS / 03</p>
+          <h4>Data Structures and Algorithms</h4>
+          <p>The theory under fast code, 18+.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Software lessons in Australian time</h2>
+      <p class="ag-lede">Teachers work from India, whose day overlaps Australian afternoons and evenings. Lesson times are agreed in your own state's time and follow daylight saving changes.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">For teenagers during term.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evening</p><p class="ag-slot-l">For adults after work, by arrangement.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Longer project sessions.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Free first class</h3><p>A short coding task and its first test, then advice on where to begin.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten learners reviewing each other's code.</p></div>
+      <div><h3>One to one</h3><p>For a specific project, pace or language.</p></div>
+      <div><h3>Real repositories</h3><p>Every project lives in Git from the first lesson.</p></div>
+      <div><h3>Code review</h3><p>Teachers comment on pull requests as a team lead would.</p></div>
+      <div><h3>Your keyboard</h3><p>The learner types every line; teachers guide.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have shipped</h2>
+      <p class="ag-lede">Work our students built and published. More in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for the software development course</h2>
+      <p class="ag-lede">Learners outside India pay one monthly fee in US dollars, with nothing due at sign-up and no contract.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A short task with a first automated test</li><li>A plain recommendation on where to start</li><li>No card details needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten learners at a similar stage</li><li>Peer code review every week</li><li>One regular teacher</li><li>Stop after any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Lessons shaped around one learner's project</li><li>Any language we teach</li><li>Times around school or work</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Published reviews from our Google profile, reproduced without edits.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learners ask</p>
+      <h2>Questions about software development courses in Australia</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is a software development course?</h3>
+        <p>A course that teaches the whole job of making software: planning what it must do, writing it, testing it, keeping its history in version control, debugging and documenting it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is it different from learning to code?</h3>
+        <p>Learning to code covers writing programs. Software development adds testing, version control, debugging methods and teamwork, the parts that keep a program working as it grows.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is git bisect?</h3>
+        <p>A Git command that uses binary search through a project's history to find the commit that introduced a bug. In our 100-commit example it found the faulty commit in 7 test runs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to know a language first?</h3>
+        <p>No. The course starts with Python from zero and introduces testing and Git alongside the first programs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this the same as HSC Software Engineering?</h3>
+        <p>No. HSC Software Engineering is a NSW senior subject with its own syllabus. This course teaches general skills that help such students, and we never complete assessed work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age can start?</h3>
+        <p>Teenagers from 13 and adults of any age. Younger children usually begin with Scratch or Python for kids first.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does ANZSCO say software programmers do?</h3>
+        <p>ANZSCO unit group 2613 describes them as people who design, develop, test, maintain and document program code in line with user requirements and specifications.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will I get a job after the course?</h3>
+        <p>We do not promise jobs or salaries. The course builds tested, versioned projects and the habits behind them, which you can show and explain.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which languages are taught?</h3>
+        <p>Python first, then JavaScript, Java or C++ depending on the learner's goals.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much is the course?</h3>
+        <p>Your first class costs nothing and no card is taken. The monthly prices for groups and private lessons sit in the fees panel on this page.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Also on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Other doors that sit next to this one.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>The national guide to every state, city and track.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering help</a></h3><p>For NSW senior students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vce-applied-computing-software-development-help">VCE Software Development help</a></h3><p>For Victorian senior students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/javascript-classes-online-australia">JavaScript classes online</a></h3><p>The language of the web.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-classes-online-australia">C++ classes online</a></h3><p>Close to the machine.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-career-changers-australia">Coding for career changers</a></h3><p>For adults switching fields.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Start with a free class</h2>
+        <p class="ag-lede">Leave your details and we will call at a time that suits. The first class includes a short task with its first test and ends with a clear recommendation.</p>
+        <p class="ag-mt-40">More about our approach: <a class="ag-inline-link" href="/how-we-teach">how lessons are taught</a>, and the <a class="ag-inline-link" href="/courses">full course list</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Australia%20and%20interested%20in%20a%20software%20development%20course.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'sdau',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Messages on WhatsApp from Australian numbers are answered first. Our phone number starts with +91 because the team works from India; we have no office in Australia.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_sdau(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Build software</h4><ul><li><a href="/javascript-classes-online-australia">JavaScript classes</a></li><li><a href="/c-plus-plus-classes-online-australia">C++ classes</a></li><li><a href="/data-science-course-australia">Data science course</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/hsc-software-engineering-help">HSC Software Engineering</a></li><li><a href="/vce-applied-computing-software-development-help">VCE Software Development</a></li><li><a href="/competitive-programming-australia">Competitive programming</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Test it, commit it, then find it</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_sdau = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'software-development-course-australia-inline', meta: { name: name, age: age, page: 'software-development-course-australia' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

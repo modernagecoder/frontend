@@ -622,6 +622,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Python classes online](/python-classes-online-australia)
 - [Java classes online](/java-classes-online-australia)
 - [App development course](/app-development-course-australia)
+- [Software development course](/software-development-course-australia)
 <!-- AU-LINKS -->
 
 

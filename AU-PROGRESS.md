@@ -385,7 +385,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 357 | build-real-ai-projects-australia (rapa, #4A6D11) | ag- language and track door | 3,235 | 0.9% vs ai-and-python-academy-for-girls-australia | how far ahead a model can forecast ABS building approvals before simple baselines catch up | forecast error growing with horizon against baselines | dec1b4cb |
 | 358 | python-classes-online-australia (pyon, #863737) | ag- language and track door | 3,131 | 1.4% vs game-development-for-kids-australia | zero is not missing: one line that inflated an ABS average by 55% | truthiness bug dropping legitimate zeros | 8e862286 |
 | 359 | java-classes-online-australia (jvau, #8A525E) | ag- language and track door | 3,514 | 0.9% vs coding-classes-for-adults-australia | the library set that held 1,000 books for 119 titles | the equals and hashCode contract | 6350eaae |
-| 360 | app-development-course-australia (apdv, #435272) | ag- language and track door | 3,324 | 0.6% vs coding-for-university-students-australia | measuring every tappable target on the page against WCAG 2.2 | touch target size audit | (this commit) |
+| 360 | app-development-course-australia (apdv, #435272) | ag- language and track door | 3,324 | 0.6% vs coding-for-university-students-australia | measuring every tappable target on the page against WCAG 2.2 | touch target size audit | 598e6b65 |
+| 361 | software-development-course-australia (sdau, #122A72) | ag- national door | 3,144 | 1.4% vs ai-and-python-academy-for-girls-australia | git bisect finds the commit that broke change(145) | git bisect | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
