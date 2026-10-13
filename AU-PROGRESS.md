@@ -407,7 +407,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 374 | maths-tutor-perth-wa (mtpe, #3E2494) | ag- maths by city | 3,050 | 1.2% vs maths-tutor-melbourne | the Perth to Sydney time gap as a piecewise function | piecewise functions | fa1f4482 |
 | 375 | maths-tutor-adelaide (mtad, #474E17) | ag- maths by city | 3,086 | 1.2% vs maths-tutor-canberra | when Heron's formula says a triangle between Adelaide squares has no area | Heron's formula against coordinates | 5a5a2fd6 |
 | 376 | maths-tutor-canberra (mtcb, #366F41) | ag- maths by city | 3,033 | 1.3% vs maths-tutor-melbourne | the radius of State Circle from three points | circumradius | 6eb48656 |
-| 377 | maths-tutor-gold-coast (mtgc, #141481) | ag- maths by city | 3,060 | 0.9% vs maths-tutor-canberra | how long Surfers Paradise tower shadows are | shadow length with the tangent ratio | (this commit) |
+| 377 | maths-tutor-gold-coast (mtgc, #141481) | ag- maths by city | 3,060 | 0.9% vs maths-tutor-canberra | how long Surfers Paradise tower shadows are | shadow length with the tangent ratio | 35d12be2 |
+| 378 | maths-tutor-newcastle-nsw (mtnc, #73592F) | ag- maths by city | 3,047 | 1% vs maths-tutor-brisbane | how much water Newcastle ocean baths hold | prism volume with an uncertain dimension | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

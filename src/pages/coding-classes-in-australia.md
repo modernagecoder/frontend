@@ -644,6 +644,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Maths tutor in Adelaide](/maths-tutor-adelaide)
 - [Maths tutor in Canberra](/maths-tutor-canberra)
 - [Maths tutor on the Gold Coast](/maths-tutor-gold-coast)
+- [Maths tutor in Newcastle](/maths-tutor-newcastle-nsw)
 <!-- AU-LINKS -->
 
 
