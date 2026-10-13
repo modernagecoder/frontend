@@ -1061,6 +1061,12 @@ const MARKETS = [
   ['best-coding-and-ai-classes-in-glenorchy-hobart', 'Glenorchy, Hobart'],
   ['vibe-coding-and-ai-agents-classes-in-clarence-hobart', 'Clarence, Hobart'],
   ['best-coding-and-ai-classes-in-southport-gold-coast', 'Southport, Gold Coast'],
+  ['vibe-coding-and-ai-agents-classes-in-robina-gold-coast', 'Robina, Gold Coast'],
+  ['online-coding-and-python-classes-in-surfers-paradise-gold-coast', 'Surfers Paradise, Gold Coast'],
+  ['ai-and-programming-classes-in-coomera-gold-coast', 'Coomera, Gold Coast'],
+  ['best-coding-and-ai-classes-in-burleigh-heads-gold-coast', 'Burleigh Heads, Gold Coast'],
+  ['vibe-coding-and-ai-agents-classes-in-helensvale-gold-coast', 'Helensvale, Gold Coast'],
+  ['online-coding-and-python-classes-in-palmerston-nt-darwin', 'Palmerston, Darwin'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

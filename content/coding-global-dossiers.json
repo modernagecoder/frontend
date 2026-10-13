@@ -50119,5 +50119,328 @@
       "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
       "Any link with the City of Gold Coast, Translink or the Queensland Department of Education."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-robina-gold-coast": {
+    "market": "Robina",
+    "bodyClass": "cg-rbna",
+    "pageType": "city",
+    "curriculumAuthority": "Robina (SAL32445), ABS Census 2021 QuickStats (read 13 October 2026): 25,659 people; median age 39; 7,163 families; 10,180 private dwellings; 2.6 people per household; 1.9 vehicles per dwelling; semi-detached 2,962 (31.6%, Queensland 11.7%); separate houses 5,116 (54.6%); worked at home 1,949 (15.2%, Queensland 14.1%); bachelor or higher 5,471 (25.5%, Queensland 21.9%); aged 15-19 1,684 (6.6%, Queensland 6.1%). ABS SAL area 14.9594 sq km. Translink SEQ GTFS (feed 7 October to 6 December 2026): 91 stop records in the SAL by our test (90 served), 20 route short names incl. Gold Coast line services; Wednesday 21 October 2026 4,546 stop visits, 88 by train. City of Gold Coast traffic counts suburb ROBINA 223 (2017 to 2026). Queensland 2027 Term 2 Monday 12 April to Friday 25 June. Brisbane time, no DST since March 1992 (IANA 2026e).",
+    "localProject": "Naive agent tool (rb_tool.py): lookup = {name: stop_id for name, stop_id in set_of_pairs} over 90 served Robina stop records (68 distinct names, 22 names shared by 44 records); next departure after 08:00 on Wednesday 21 October 2026 by (time, route). Run under PYTHONHASHSEED 0 to 19: all 22 shared names change answer; 20 distinct complete answer sets. Bond University: route 750 to Robina station 8:02 in 11 runs, route 753 to Broadbeach South 8:11 in 9. Fix: key by stop_id, return both stops for shared names, sort before choosing. Our measurement. Script: scratchpad au/b18/a_rbna.py.",
+    "requiredMentions": [
+      "25,659",
+      "10,180",
+      "31.6% (2,962)",
+      "15.2% (1,949)",
+      "68 distinct names",
+      "PYTHONHASHSEED",
+      "Bond University",
+      "4,546 stop visits",
+      "223 surveys"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Robina suburb and locality (SAL32445), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL32445"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "City of Gold Coast open data, Traffic Count, Creative Commons Attribution 3.0, queried 13 October 2026.",
+        "url": "https://data-goldcoast.opendata.arcgis.com/"
+      },
+      {
+        "claim": "Python documentation, PYTHONHASHSEED: hash randomisation of str and bytes objects, which changes set iteration order between runs.",
+        "url": "https://docs.python.org/3/using/cmdline.html#envvar-PYTHONHASHSEED"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Term 1 Wednesday 27 January to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Tuesday 5 October to Friday 10 December.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Claims about any real Translink app or journey planner behaving this way: not made; the tool is our own script.",
+      "Passenger numbers: not claimed; the feed gives scheduled services.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Gold Coast, Translink or the Queensland Department of Education."
+    ]
+  },
+  "online-coding-and-python-classes-in-surfers-paradise-gold-coast": {
+    "market": "Surfers Paradise",
+    "bodyClass": "cg-srfp",
+    "pageType": "city",
+    "curriculumAuthority": "Surfers Paradise (SAL32702), ABS Census 2021 QuickStats (read 13 October 2026): 26,412 people; median age 42; 5,891 families; 18,947 private dwellings; 1.9 people per household; 2.1 bedrooms; flat or apartment 9,277 (81.2%, Queensland 12.5%); walked to work 1,054 (8.4%, Queensland 2.6%); car as driver 6,222 (49.4%, Queensland 59.5%); aged 5-9 631 (2.4%, Queensland 6.4%); couple families with children 1,261 (21.4%). ABS SAL area 5.7961 sq km. Translink SEQ GTFS (feed 7 October to 6 December 2026): 60 stop records in the SAL by our test; 8 route names (70, 705, 731, 738, 740, 741, 747, L1). City of Gold Coast Parking Signs (CC BY 3.0, 13 October 2026): 8,496 signs; 854 inside the SAL by our test; SUBURB field SURFERS PARADISE 570; 292 inside with another or blank suburb. Queensland 2027 Term 3 Monday 12 July to Friday 17 September. Brisbane time, no DST since March 1992 (IANA 2026e).",
+    "localProject": "Python 3.13 on 854 signs inside Surfers Paradise: regex for times finds 955 tokens in 437 signs (shapes 9PM 467, 9AM 462, 99PM 17, 99AM 7, 9.99AM 2). datetime.strptime formats: %I%p parses 953; adding %I:%M%p still 953; adding %I.%M%p 955. 17 distinct windows: 09:00-19:00 181 signs, 09:00-17:00 156, 06:00-18:00 64; 3 windows end before start (18:00-06:00, 19:00-06:00, 19:00-07:00) on 18 signs. 5 ranges with no suffix on the start (6-10AM, 7.30-9.30am). Tariff wording excluded. Our script. Script: scratchpad au/b18/a_srfp.py.",
+    "requiredMentions": [
+      "26,412",
+      "18,947",
+      "81.2% (9,277)",
+      "8.4% (1,054)",
+      "955 time tokens",
+      "%I.%M%p",
+      "854 signs",
+      "7.30-9.30am",
+      "datetime.strptime"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Surfers Paradise suburb and locality (SAL32702), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL32702"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "City of Gold Coast open data, Parking Signs, Creative Commons Attribution 3.0, queried 13 October 2026.",
+        "url": "https://data-goldcoast.opendata.arcgis.com/"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Python documentation, datetime.strptime and format codes (%I, %M, %p).",
+        "url": "https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Term 1 Wednesday 27 January to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Tuesday 5 October to Friday 10 December.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Parking tariffs, fines or enforcement: excluded (money).",
+      "Whether any sign is current on the street: not claimed; the list is the council's record.",
+      "Surfers Paradise tourist numbers: not claimed.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Gold Coast, Translink or the Queensland Department of Education."
+    ]
+  },
+  "ai-and-programming-classes-in-coomera-gold-coast": {
+    "market": "Coomera",
+    "bodyClass": "cg-coom",
+    "pageType": "city",
+    "curriculumAuthority": "Coomera (SAL30688), ABS Census 2021 QuickStats (read 13 October 2026): 20,225 people; median age 29 (Queensland 38); 5,364 families; 6,957 private dwellings; 3.1 people per household; 3.7 bedrooms; aged 5-9 1,801 (8.9%, Queensland 6.4%); aged 10-14 1,656 (8.2%, Queensland 6.6%); semi-detached 1,623 (26.1%, Queensland 11.7%); car as driver 6,413 (65.2%, Queensland 59.5%); couple families with children 2,548 (47.5%). ABS SAL area 24.6574 sq km. Translink SEQ GTFS: 64 stop records in the SAL by our test; 17 route names incl. Gold Coast line trains. City of Gold Coast Traffic Count (CC BY 3.0, 13 October 2026): 176 counts with suburb COOMERA and a date and VPD, 21 March 2017 to 31 July 2026. Queensland 2027 Term 4 Tuesday 5 October to Friday 10 December. Brisbane time, no DST since March 1992 (IANA 2026e).",
+    "localProject": "Predict VPD from earlier counts at the same street (51 streets) or site (street + location, 127 sites). Temporal split: train before 1 January 2024 (123), test 2024 to 2026 (53). Street-level mean model: temporal MAE 6,147; 200 random splits of the same size mean 5,159, range 3,622 to 6,548; last-count baseline 6,056. Site-level: temporal 3,568; random mean 3,817, range 2,541 to 5,385; last-count 3,385. Median VPD train 5,881, test 7,998. Foxwell Road between Old Pacific Highway and Creek Road: 39,153 (2020), 41,870 (2021), 44,120 (2022), 49,096 (2023), 50,345 (2024), 48,285 (2026). Our calculation. Scripts: scratchpad au/b18/a_coom.py, a_coom2.py.",
+    "requiredMentions": [
+      "20,225",
+      "6,957",
+      "8.9% (1,801)",
+      "26.1% (1,623)",
+      "3,622 to 6,548",
+      "6,147",
+      "Foxwell Road",
+      "3,385",
+      "176 council traffic counts"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Coomera suburb and locality (SAL30688), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL30688"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "City of Gold Coast open data, Traffic Count, Creative Commons Attribution 3.0, queried 13 October 2026.",
+        "url": "https://data-goldcoast.opendata.arcgis.com/"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Term 1 Wednesday 27 January to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Tuesday 5 October to Friday 10 December.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Forecasts of future Coomera traffic: not made; the project only compares test designs.",
+      "Upper Coomera counts: a separate suburb, not used.",
+      "Theme parks and attendance: not claimed.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Gold Coast, Translink or the Queensland Department of Education."
+    ]
+  },
+  "best-coding-and-ai-classes-in-burleigh-heads-gold-coast": {
+    "market": "Burleigh Heads",
+    "bodyClass": "cg-burl",
+    "pageType": "city",
+    "curriculumAuthority": "Burleigh Heads (SAL30445), ABS Census 2021 QuickStats (read 13 October 2026): 10,572 people; median age 42; 2,627 families; 5,786 private dwellings; 2.2 people per household; 2.7 bedrooms; flat or apartment 1,982 (46.7%, Queensland 12.5%); separate houses 1,657 (39.0%, Queensland 74.8%); worked at home 893 (16.7%, Queensland 14.1%); professionals 1,410 (26.4%, Queensland 21.4%). ABS SAL area 10.235 sq km. Translink SEQ GTFS (feed 7 October to 6 December 2026): 22 stop records in the SAL by our test (20 served); 9 route names (70, 700, 701, 753, 754, 756, 757, 777, L1). City of Gold Coast (CC BY 3.0, 13 October 2026): parking signs with suburb BURLEIGH HEADS 349; inside the SAL by our test 548 signs and 64 play equipment items. Queensland 2027 Term 1 Wednesday 27 January to Thursday 25 March. Brisbane time, no DST since March 1992 (IANA 2026e).",
+    "localProject": "Sort-tile-recursive R-tree, node capacity 16, 4 levels, over 11,743 points (8,494 parking signs with geometry, 3,249 play equipment items). 20 queries, one per served Burleigh Heads stop record, radius 400 m (degree box then haversine filter): linear scan 234,860 distance checks; tree 323 node visits and 2,781 candidate point checks (16.1 and 139.1 per query); identical results asserted. Most within 400 m: Burleigh Heads station, stop B, 320. Our calculation. Script: scratchpad au/b18/a_burl.py.",
+    "requiredMentions": [
+      "10,572",
+      "5,786",
+      "46.7% (1,982)",
+      "16.7% (893)",
+      "234,860",
+      "2,781 candidate",
+      "323 boxes",
+      "548 signs",
+      "320 mapped signs"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Burleigh Heads suburb and locality (SAL30445), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL30445"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "City of Gold Coast open data, Parking Signs, Creative Commons Attribution 3.0, queried 13 October 2026.",
+        "url": "https://data-goldcoast.opendata.arcgis.com/"
+      },
+      {
+        "claim": "City of Gold Coast open data, Play Equipment, Creative Commons Attribution 3.0, queried 13 October 2026.",
+        "url": "https://data-goldcoast.opendata.arcgis.com/"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Term 1 Wednesday 27 January to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Tuesday 5 October to Friday 10 December.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Claims that any mapping product uses this exact tree: not made; R-trees are described generally.",
+      "Parking tariffs: excluded (money).",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Gold Coast, Translink or the Queensland Department of Education."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-helensvale-gold-coast": {
+    "market": "Helensvale",
+    "bodyClass": "cg-hlnv",
+    "pageType": "city",
+    "curriculumAuthority": "Helensvale (SAL31315), ABS Census 2021 QuickStats (read 13 October 2026): 18,949 people; median age 41; 5,335 families; 6,912 private dwellings; 2.8 people per household; 2.2 vehicles per dwelling; separate houses 5,181 (81.3%, Queensland 74.8%); couple families with children 2,588 (48.5%, Queensland 41.2%); aged 15-19 1,384 (7.3%, Queensland 6.1%); worked at home 1,422 (15.1%, Queensland 14.1%); car as driver 6,005 (63.8%). ABS SAL area 20.1329 sq km. Translink SEQ GTFS (feed 7 October to 6 December 2026): 87 stop records in the SAL by our test, all inside the City of Gold Coast LGA outline; 23 route names. Helensvale station Wednesday 21 October 2026: rail platforms 1 and 2, 88 train stop events (44 towards Varsity Lakes, 37 Domestic Airport, 7 Bowen Hills); G:link platforms 4 and 5, 125 departures headed Burleigh Heads, 139 arrivals terminating. Queensland 2027 Term 2 Monday 12 April to Friday 25 June. Brisbane time, no DST since March 1992 (IANA 2026e).",
+    "localProject": "For each of 88 train arrivals at Helensvale station (Wednesday 21 October 2026), next G:link departure towards Burleigh Heads (125) with minimum connection 0, 2, 4, 6 minutes (bisect on sorted times): 86 trains have a later tram (last 2 trains after the last tram at 23:47); median wait 3.0 (0 min), 7.5 (2 min), 9.5 (4 min), 9.5 (6 min); max 25.5. With 0 minimum, 57 of 88 trains get a tram within 4 minutes; rejecting those under a 4-minute rule adds median 7.5, max 15 minutes. Four-minute minimum is our assumption. Our calculation. Script: scratchpad au/b18/a_hlnv.py.",
+    "requiredMentions": [
+      "18,949",
+      "6,912",
+      "81.3% (5,181)",
+      "48.5% (2,588)",
+      "125 southbound tram departures",
+      "57 of 88 trains",
+      "9.5 minutes",
+      "four-minute minimum",
+      "87 Translink stop records"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Helensvale suburb and locality (SAL31315), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL31315"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Term 1 Wednesday 27 January to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Tuesday 5 October to Friday 10 December.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "An official Translink minimum transfer time: not claimed; the four-minute figure is our assumption.",
+      "Walking times between platforms: not measured or claimed.",
+      "Reliability or punctuality of trains or trams: not claimed; the feed gives scheduled times.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Gold Coast, Translink or the Queensland Department of Education."
+    ]
+  },
+  "online-coding-and-python-classes-in-palmerston-nt-darwin": {
+    "market": "Palmerston",
+    "bodyClass": "cg-plmn",
+    "pageType": "city",
+    "curriculumAuthority": "City of Palmerston (LGA72800), ABS Census 2021 QuickStats (read 13 October 2026): 37,247 people; median age 31; 9,502 families; 14,535 private dwellings; 2.8 people per household; aged 5-9 3,271 (8.8%, NT 7.2%); car as driver 14,074 (73.1%, NT 63.4%); walked 238 (1.2%, NT 7.6%); separate houses 9,348 (75.9%, NT 66.8%); technicians and trades 3,179 (16.5%, NT 13.8%); couple families with children 4,599 (48.4%). ABS ERP 2025 (ABS_ANNUAL_ERP_LGA2025, LGA 72800): 43,193. ABS LGA area 52.6559 sq km in 3 rings. Darwin bus GTFS (data.nt.gov.au, CC BY, downloaded 13 October 2026): 118 stops inside the LGA by our test; Wednesday 30 September 2026 756 trips, 376 touching Palmerston on 20 route names; Palmerston Interchange 315 departures; weekday service removed by calendar_dates on 51 of 61 weekdays from 5 October to 28 December 2026 (running 14 to 25 December). Darwin +9:30, last DST ended March 1944 (IANA 2026e). NT term dates not used (NT education sources previously blocked).",
+    "localProject": "Python 3.13 itertools.pairwise over Darwin GTFS stop_times for 376 trips touching Palmerston (Wednesday 30 September 2026), sorted by (trip_id, stop_sequence): 7,762 pairs; 375 cross trip boundaries (= trips - 1), 171 with negative time. Grouped by trip: 7,387 pairs, 388 distinct segments, 135 inside Palmerston with median 1.0 minute; 1,083 zero-minute hops. Longest median segment 81 Cavenagh St to Palmerston Interchange 28 minutes. Our calculation. Script: scratchpad au/b18/a_plmn.py.",
+    "requiredMentions": [
+      "43,193",
+      "14,535",
+      "8.8% (3,271)",
+      "73.1% (14,074)",
+      "itertools.pairwise",
+      "375 pairs",
+      "7,387",
+      "Palmerston Interchange",
+      "1,083"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Palmerston local government area (LGA72800), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA72800"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Palmerston LGA 72800, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.72800.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Northern Territory Government, Bus timetable data and geographic information - Darwin (GTFS), data.nt.gov.au, Creative Commons Attribution; feed downloaded 13 October 2026, weekday service 7 September 2026 to 22 January 2027.",
+        "url": "https://data.nt.gov.au/dataset/bus-timetable-data-and-geographic-information-darwin"
+      },
+      {
+        "claim": "Python documentation, itertools.pairwise (new in version 3.10).",
+        "url": "https://docs.python.org/3/library/itertools.html#itertools.pairwise"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Darwin at +9:30 on rule Aus, whose last daylight saving period ended in March 1944.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "The reason the feed removes weekday service on 51 dates: not claimed; reported as published.",
+      "NT school term dates: not given; NT education sources could not be read directly.",
+      "Bus patronage or reliability: not claimed; the feed gives scheduled times.",
+      "Darwin city or NT-wide figures from the parent pages: kept off this page.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Palmerston or the NT Government."
+    ]
   }
 }
