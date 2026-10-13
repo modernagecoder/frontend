@@ -52,8 +52,12 @@ if (undef.length) bad('classes not in ' + CSS_FILE + ': ' + undef.join(' ')); el
 const v = spawnSync(process.execPath, [path.join(ROOT, 'scripts', 'verify-cluster-pages.js'), CLUSTER_NAME], { encoding: 'utf8' });
 const vOut = (v.stdout || '') + (v.stderr || '');
 const vLines = vOut.split(/\r?\n/);
-const idx = vLines.findIndex(l => l.includes(slug));
-const mine = idx === -1 ? [] : vLines.slice(idx, idx + 12).filter((l, i) => i === 0 || /^\s{2,}/.test(l) || /^\s*(ERROR|warn)/.test(l));
+// match this page's own result line ("PASS   3030w  <slug>"), not another page's warning that links to it
+const ownRe = new RegExp('^(PASS|FAIL)\\s.*\\s' + slug + '\\s*$'); // slugs are [a-z0-9-] only
+const idx = vLines.findIndex(l => ownRe.test(l));
+let end = idx + 1;
+while (idx !== -1 && end < vLines.length && /^\s{2,}/.test(vLines[end])) end++;
+const mine = idx === -1 ? [] : vLines.slice(idx, end);
 const summary = vLines.filter(l => /pages pass|FAIL/.test(l)).slice(-2).join(' ');
 if (idx === -1) bad('verify: slug not in output (not registered?)');
 else if (/FAIL|ERROR/.test(mine.join('\n'))) bad('verify:\n' + mine.join('\n'));
