@@ -1635,6 +1635,10 @@ Live online Class 10 board preparation, taught in small batches: CBSE Artificial
 - australian-maths-trust-amc-aio-cat-preparation: https://learn.modernagecoders.com/australian-maths-trust-amc-aio-cat-preparation
 - maths-olympiad-classes-online: https://learn.modernagecoders.com/maths-olympiad-classes-online
 - cbse-icse-maths-tuition-online: https://learn.modernagecoders.com/cbse-icse-maths-tuition-online
+- CBSE Class 10 AI sample paper 2026-27 solved live, timed mock tests: https://learn.modernagecoders.com/cbse-class-10-ai-sample-paper-and-mock-tests
+- ICSE Class 10 Computer Applications specimen paper solved live, timed mock tests: https://learn.modernagecoders.com/icse-class-10-computer-applications-specimen-paper-and-mock-tests
+- CBSE Class 10 AI Part A employability skills (10 marks) explained: https://learn.modernagecoders.com/cbse-class-10-ai-employability-skills-part-a
+- ICSE Class 10 Computer Applications project and internal assessment: https://learn.modernagecoders.com/icse-class-10-computer-applications-project-and-internal-assessment
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

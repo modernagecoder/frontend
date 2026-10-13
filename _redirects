@@ -6767,4 +6767,16 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /vibe-coding-and-ai-agents-classes-in-molonglo-canberra /src/pages/vibe-coding-and-ai-agents-classes-in-molonglo-canberra.html 200
 /vibe-coding-and-ai-agents-classes-in-molonglo-canberra.md /src/pages/vibe-coding-and-ai-agents-classes-in-molonglo-canberra.md 200
+
+# Class 10 board-prep cluster (board-prep.css). Inserted before the /* catch-all.
+/cbse-class-10-ai-sample-paper-and-mock-tests /src/pages/cbse-class-10-ai-sample-paper-and-mock-tests.html 200
+/cbse-class-10-ai-sample-paper-and-mock-tests.md /src/pages/cbse-class-10-ai-sample-paper-and-mock-tests.md 200
+/icse-class-10-computer-applications-specimen-paper-and-mock-tests /src/pages/icse-class-10-computer-applications-specimen-paper-and-mock-tests.html 200
+/icse-class-10-computer-applications-specimen-paper-and-mock-tests.md /src/pages/icse-class-10-computer-applications-specimen-paper-and-mock-tests.md 200
+
+# Class 10 board-prep cluster (board-prep.css). Inserted before the /* catch-all.
+/cbse-class-10-ai-employability-skills-part-a /src/pages/cbse-class-10-ai-employability-skills-part-a.html 200
+/cbse-class-10-ai-employability-skills-part-a.md /src/pages/cbse-class-10-ai-employability-skills-part-a.md 200
+/icse-class-10-computer-applications-project-and-internal-assessment /src/pages/icse-class-10-computer-applications-project-and-internal-assessment.html 200
+/icse-class-10-computer-applications-project-and-internal-assessment.md /src/pages/icse-class-10-computer-applications-project-and-internal-assessment.md 200
 /* /src/pages/404.html 404
