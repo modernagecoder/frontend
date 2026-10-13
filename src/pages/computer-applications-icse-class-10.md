@@ -90,7 +90,7 @@ Palindrome, character frequency, toUpperCase/toLowerCase. The ICSE string classi
 
 stringsCh 10
 
-### Arrays + Project
+### Arrays + Lab File
 
 Searching, sorting, average, plus the lab file for the internal assessment.
 
@@ -118,9 +118,9 @@ Pattern printing drilled until automatic. Every ICSE string classic pattern cove
 - loops
 - strings
 
-Term 2 · Arrays + Project
+Term 2 · Arrays + Lab File
 
-### Project done properly
+### Lab file done properly
 
 Arrays chapter plus the twenty-plus lab assignments for the internal assessment, each documented and rehearsed.
 

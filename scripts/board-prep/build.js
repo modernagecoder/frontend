@@ -322,8 +322,9 @@ function render(p) {
     inLanguage: 'en',
     provider: { '@id': `${BASE}/#org` },
     isAccessibleForFree: false,
-    offers: { '@type': 'Offer', price: b.offerPrice, priceCurrency: 'INR', category: b.offerCategory, availability: 'https://schema.org/InStock' },
-    hasCourseInstance: instances.length === 1 ? instances[0] : instances
+    // a page may override the offer and instances (the ICSE abroad page sells one to one only)
+    offers: Object.assign({ '@type': 'Offer', price: b.offerPrice, priceCurrency: 'INR', category: b.offerCategory, availability: 'https://schema.org/InStock' }, p.offer || {}),
+    hasCourseInstance: p.instances ? p.instances(url) : (instances.length === 1 ? instances[0] : instances)
   };
   const crumbs = {
     '@type': 'BreadcrumbList',

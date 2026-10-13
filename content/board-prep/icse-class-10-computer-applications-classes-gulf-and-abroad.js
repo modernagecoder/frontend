@@ -21,6 +21,9 @@ module.exports = {
   headline: 'ICSE Class 10 Computer Applications Classes for Students in the Gulf and Abroad',
   courseName: 'ICSE Class 10 Computer Applications (Java) Personalised Live Classes for Students Outside India',
   courseDesc: 'Personalised one to one live online classes in ICSE Class 10 Computer Applications (Java with BlueJ) for students at ICSE schools in the UAE, Singapore, Indonesia and Thailand, for the 2027 examination: the full CISCE syllabus, at least twenty documented lab assignments for the internal assessment, the specimen paper and full two-hour papers, and live doubt solving, two private classes a week at a local time the family chooses.',
+  // option c: this page sells personalised one to one, so the Course schema says so
+  offer: { price: '4999', category: 'Monthly fee, personalised one to one' },
+  instances: url => ({ '@type': 'CourseInstance', courseMode: 'online', courseSchedule: { '@type': 'Schedule', repeatFrequency: 'P1W', description: 'Two private live classes a week at a local time the family chooses' }, location: { '@type': 'VirtualLocation', url } }),
   brandTag: 'ICSE CA &middot; Abroad',
   navLinks: [['#how', 'How it works'], ['#countries', 'By country'], ['#same', 'Same exam'], ['#fees', 'Fees']],
   crumbs: [['/', 'Home'], ['/icse-class-10-java-classes-online', 'ICSE Class 10 Java classes'], [null, 'Gulf and abroad']],
