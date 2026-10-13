@@ -50442,5 +50442,58 @@
       "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
       "Any link with the City of Palmerston or the NT Government."
     ]
+  },
+  "ai-and-programming-classes-in-casuarina-darwin": {
+    "market": "Casuarina",
+    "bodyClass": "cg-casu",
+    "pageType": "city",
+    "curriculumAuthority": "Casuarina (NT) (SAL70051), ABS Census 2021 QuickStats (read 13 October 2026): 406 people; median age 27 (NT 33); 24 families; 76 private dwellings; bus to work 42 (14.4%, NT 2.1%); walked 36 (12.4%, NT 7.6%); car as driver 135 (46.4%, NT 63.4%). ABS SAL area 0.4187 sq km; inside the City of Darwin LGA by our test. Darwin bus GTFS (data.nt.gov.au, CC BY, downloaded 13 October 2026), Wednesday 30 September 2026: 756 trips, 17,967 departures at 610 stops, hours 5 to 22; 5 stops inside the SAL: Trower Rd after Linton St 342, 9 Scaturchio St 280, Casuarina Bradshaw Terrace Terminus 268, Casuarina Bradshaw Terrace 204, Angelo St before Gsell St 15; 15 route names stop inside (1, 1h, 2, 3, 4, 5, 9, 10, 11, 12, 21, 24, 25, OL1, OL2); 8 route long names begin Casuarina. Darwin +9:30, last DST ended March 1944 (IANA 2026e). NT term dates not used.",
+    "localProject": "scikit-learn 1.7.2 NMF (init nndsvda, random_state 0) on X = 610 stops x 24 hours of departures, each row divided by its total. Relative Frobenius error k=1 0.763, 2 0.594, 3 0.514, 4 0.424, 5 0.325. k=3 parts: morning (91% of weight 6 to 9am), afternoon (77% 3 to 6pm), all-day (11% 6 to 9am, 31% 3 to 6pm); dominant part: all-day 483 stops, morning 70, afternoon 57. Casuarina stops weights (morning, all-day, afternoon) about (0.19, 0.51, 0.29). PCA 3 components explained 0.41, 0.15, 0.147; second component 13 of 24 loadings negative. Our calculation. Script: scratchpad au/b18/a_casu.py.",
+    "requiredMentions": [
+      "17,967 departures",
+      "610 stops",
+      "0.514",
+      "483 stops",
+      "Trower Road after Linton Street",
+      "14.4% (42)",
+      "13 negative values",
+      "Bradshaw Terrace",
+      "15 bus routes meet"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Casuarina (NT) suburb and locality (SAL70051), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL70051"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Northern Territory Government, Bus timetable data and geographic information - Darwin (GTFS), data.nt.gov.au, Creative Commons Attribution; feed downloaded 13 October 2026, weekday service 7 September 2026 to 22 January 2027.",
+        "url": "https://data.nt.gov.au/dataset/bus-timetable-data-and-geographic-information-darwin"
+      },
+      {
+        "claim": "scikit-learn 1.7.2 documentation, sklearn.decomposition.NMF.",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Darwin at +9:30 on rule Aus, whose last daylight saving period ended in March 1944.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Who lives in Casuarina or in what type of housing beyond published counts: not claimed.",
+      "Passenger numbers at the interchange: not claimed; the feed gives scheduled departures.",
+      "NT school term dates: not given; NT education sources could not be read directly.",
+      "Darwin city or NT-wide figures from the parent pages: kept off this page.",
+      "Naming schools or the university: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Darwin or the NT Government."
+    ]
   }
 }

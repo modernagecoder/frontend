@@ -595,6 +595,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Salisbury](/best-coding-and-ai-classes-in-salisbury-adelaide)
 - [Vibe coding and AI agent classes in Tea Tree Gully](/vibe-coding-and-ai-agents-classes-in-tea-tree-gully-adelaide)
 - [Online coding and Python classes in Prospect](/online-coding-and-python-classes-in-prospect-sa-adelaide)
+- [AI and programming classes in Mitcham](/ai-and-programming-classes-in-mitcham-sa-adelaide)
 <!-- AU-LINKS -->
 
 
