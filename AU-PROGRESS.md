@@ -347,7 +347,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 319 | best-coding-and-ai-classes-in-burnside-adelaide (brns, #365A3F) | cg- district page | 2,383 | 2.2% vs vibe-coding-and-ai-agents-classes-in-toowong-brisbane | a data check written as assert disappears under python -O | asserts removed under -O, assert vs raise | be64aa85 |
 | 320 | vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide (gdgv, #616916) | cg- district page | 2,459 | 1.8% vs vibe-coding-and-ai-agents-classes-in-armadale-perth | a vague question about Golden Grove buses gets six true answers | vague vs specific prompts | 3b682576 |
 | 321 | online-coding-and-python-classes-in-modbury-adelaide (mdby, #892515) | cg- district page | 2,289 | 2.2% vs ai-and-programming-classes-in-marion-adelaide | four ways of writing between 7 and 9 give four different counts | chained comparisons | f230ec61 |
-| 322 | ai-and-programming-classes-in-marion-adelaide (mrin, #552C0D) | cg- district page | 2,496 | 2.2% vs online-coding-and-python-classes-in-modbury-adelaide | splitting one AI request into four checked steps corrects the train share | prompt chaining | (this commit) |
+| 322 | ai-and-programming-classes-in-marion-adelaide (mrin, #552C0D) | cg- district page | 2,496 | 2.2% vs online-coding-and-python-classes-in-modbury-adelaide | splitting one AI request into four checked steps corrects the train share | prompt chaining | 94eed2cf |
+| 327 | best-coding-and-ai-classes-in-belconnen-canberra (blcn, #2E519B) | cg- district page | 2,454 | 2.2% vs ai-and-programming-classes-in-woden-canberra | search ACT asset records for all 27 Belconnen suburb names in one Aho-Corasick pass | Aho-Corasick multi-pattern string search | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

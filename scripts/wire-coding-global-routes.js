@@ -1050,6 +1050,14 @@ const MARKETS = [
   ['ai-and-programming-classes-in-woden-canberra', 'Woden, Canberra'],
   ['best-coding-and-ai-classes-in-weston-creek-canberra', 'Weston Creek, Canberra'],
   ['vibe-coding-and-ai-agents-classes-in-molonglo-canberra', 'Molonglo, Canberra'],
+  ['online-coding-and-python-classes-in-inner-north-canberra', 'Inner North, Canberra'],
+  ['best-coding-and-ai-classes-in-salisbury-adelaide', 'Salisbury, Adelaide'],
+  ['ai-and-programming-classes-in-inner-south-canberra', 'Inner South, Canberra'],
+  ['vibe-coding-and-ai-agents-classes-in-tea-tree-gully-adelaide', 'Tea Tree Gully, Adelaide'],
+  ['online-coding-and-python-classes-in-prospect-sa-adelaide', 'Prospect, Adelaide'],
+  ['ai-and-programming-classes-in-mitcham-sa-adelaide', 'Mitcham, Adelaide'],
+  ['online-coding-and-python-classes-in-sandy-bay-hobart', 'Sandy Bay, Hobart'],
+  ['ai-and-programming-classes-in-kingston-tas-hobart', 'Kingston, Tasmania'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

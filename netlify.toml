@@ -22669,6 +22669,102 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-molonglo-canberra.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-inner-north-canberra"
+  to = "/src/pages/online-coding-and-python-classes-in-inner-north-canberra.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-inner-north-canberra.md"
+  to = "/src/pages/online-coding-and-python-classes-in-inner-north-canberra.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-salisbury-adelaide"
+  to = "/src/pages/best-coding-and-ai-classes-in-salisbury-adelaide.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-salisbury-adelaide.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-salisbury-adelaide.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-inner-south-canberra"
+  to = "/src/pages/ai-and-programming-classes-in-inner-south-canberra.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-inner-south-canberra.md"
+  to = "/src/pages/ai-and-programming-classes-in-inner-south-canberra.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-tea-tree-gully-adelaide"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-tea-tree-gully-adelaide.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-tea-tree-gully-adelaide.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-tea-tree-gully-adelaide.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-prospect-sa-adelaide"
+  to = "/src/pages/online-coding-and-python-classes-in-prospect-sa-adelaide.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-prospect-sa-adelaide.md"
+  to = "/src/pages/online-coding-and-python-classes-in-prospect-sa-adelaide.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-mitcham-sa-adelaide"
+  to = "/src/pages/ai-and-programming-classes-in-mitcham-sa-adelaide.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-mitcham-sa-adelaide.md"
+  to = "/src/pages/ai-and-programming-classes-in-mitcham-sa-adelaide.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-sandy-bay-hobart"
+  to = "/src/pages/online-coding-and-python-classes-in-sandy-bay-hobart.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-sandy-bay-hobart.md"
+  to = "/src/pages/online-coding-and-python-classes-in-sandy-bay-hobart.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-kingston-tas-hobart"
+  to = "/src/pages/ai-and-programming-classes-in-kingston-tas-hobart.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-kingston-tas-hobart.md"
+  to = "/src/pages/ai-and-programming-classes-in-kingston-tas-hobart.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

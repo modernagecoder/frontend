@@ -49495,5 +49495,456 @@
       "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
       "Any link with the ACT Government."
     ]
+  },
+  "online-coding-and-python-classes-in-inner-north-canberra": {
+    "market": "Inner North Canberra",
+    "bodyClass": "cg-innc",
+    "pageType": "city",
+    "curriculumAuthority": "North Canberra SA3 80105 (Inner North), ABS Census 2021 QuickStats (read 13 October 2026): 61,188 people; median age 31; 13,352 families; 27,982 private dwellings; 1.4 vehicles per dwelling (lowest of the eight SA3s on these pages); flat or apartment 10,078 (42.6%, ACT 19.4%); walked to work 4,888 (13.4%, ACT 4.0%); car as driver 14,925 (40.8%, ACT 59.0%); aged 15-19 4,714 (7.7%, ACT 5.8%); bachelor or higher 53.6% (ACT 42.9%). ABS ERP 2025 (SA3 80105): 68,290. ABS SA3 area 44.7228 sq km; 13 named suburbs by our SAL-centroid test (Russell has no vehicle rows). ACT open data (CC BY 4.0, 13 October 2026): tree records 54,182 (31,730 exotic, 17,731 native); artworks 75 (38 sculpture, 18 street art, 10 painting mural); ACT NOWaste 13 rows, 12 Friday. ACT 2027 Term 1 begins Monday 1 February. Canberra = Australia/Sydney (IANA 2026e).",
+    "localProject": "collections.Counter, Python 3.13, on ACT Registered Vehicles by Make, Model and Suburb (as at 1 September 2026; counts of 10 or less suppressed), key = (make, model, emissions category). BRADDON 69 keys, AINSLIE 62 keys. A-B 51 keys; B-A 34; subtract() 89 keys (34 negative, 4 zero); A&B 42; A|B 89; only Braddon 27, only Ainslie 20. Top A-B: Mazda 3 CO2-B +37, Hyundai i30 CO2-B +30, Kia Cerato hatch +24, Hyundai Kona +23, Toyota Yaris +21. Top B-A: Subaru Outback +28, Tesla Model Y CO2-AAA +23, Ford Falcon CO2-D +19, Resort 6x4 trailer +19. Our run. Script: scratchpad au/b16/a_innc.py.",
+    "requiredMentions": [
+      "68,290",
+      "North Canberra statistical area",
+      "42.6% (10,078)",
+      "13.4% (4,888)",
+      "A.subtract(B)",
+      "34 negative",
+      "Braddon published, Ainslie 10 or fewer",
+      "54,182",
+      "7.7% (4,714)"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, North Canberra statistical area level 3 (SA3 80105), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/80105"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by ASGS 2021 regions (ABS_ANNUAL_ERP_ASGS2021), SA3 80105 North Canberra, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_ASGS2021,1.2.0/ERP.SA3.80105.A?startPeriod=2024&format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Statistical Area Level 3 boundary service (district outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SA3/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines, used to place each suburb in a district).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ACT Government open data, ACT Registered Vehicles by Make, Model and Suburb (data.act.gov.au h4vn-y97q), Creative Commons Attribution 4.0, data as at 1 September 2026, counts of 10 or less suppressed, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/h4vn-y97q"
+      },
+      {
+        "claim": "Python documentation, collections.Counter: multiset operations keep only positive counts; subtract() keeps zero and negative counts.",
+        "url": "https://docs.python.org/3/library/collections.html#collections.Counter"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Tree Assets (data.act.gov.au 9qch-rvqr), Creative Commons Attribution 4.0, grouped counts by suburb queried 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/9qch-rvqr"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Artwork Assets (data.act.gov.au a69k-qah8), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/a69k-qah8"
+      },
+      {
+        "claim": "ACT Government open data, ACT Suburb Next Garbage, Recycling and Green Waste Collection Dates (data.act.gov.au jzzy-44un), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/jzzy-44un"
+      },
+      {
+        "claim": "ACT Government open data, ACT Education Public Holidays and Term Dates (data.act.gov.au 4kcq-44ad): 2027 Term 1 begins Monday 1 February (new students), Canberra Day Monday 8 March, Term 3 Tuesday 20 July to Friday 24 September, Term 4 Tuesday 12 October to Friday 17 December.",
+        "url": "https://www.data.act.gov.au/d/4kcq-44ad"
+      },
+      {
+        "claim": "IANA time zone database 2026e, backward file: Australia/Canberra links to Australia/Sydney.",
+        "url": "https://data.iana.org/time-zones/tzdb/backward"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: rule AN, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Totals of vehicles in Braddon or Ainslie: not given; published rows exclude counts of 10 or less, and parts are never summed into totals.",
+      "Claims that Inner North residents prefer electric vehicles: not made from two suburbs.",
+      "Inner North suburb (SAL) Census figures: not used; the page uses the SA3 district.",
+      "Naming schools or the university's enrolments: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the ACT Government or Access Canberra."
+    ]
+  },
+  "best-coding-and-ai-classes-in-salisbury-adelaide": {
+    "market": "Salisbury",
+    "bodyClass": "cg-slsb",
+    "pageType": "city",
+    "curriculumAuthority": "City of Salisbury (LGA47140). ABS Census 2021 QuickStats (read 12 October 2026): 145,806 people; median age 36; 38,565 families; 57,079 private dwellings; 2.6 per household; separate houses 43,781 (83.5%, SA 78.0%); drove 45,082 (70.7%, SA 63.9%); bus 2,290 (3.6%, SA 3.1%); bachelor or higher 17,646 (15.0%, SA 22.7%); aged 0-4 9,166; 5-9 9,713; 10-14 9,486; 15-19 8,820. ABS LGA area 159.8432 sq km. Adelaide Metro GTFS v1708: 792 stop records inside the LGA polygon; Wednesday 21 Oct 2026 36097 visits (bus 34544, train 826, school 712 723, regional 701 4), 77 routes; 9 railway station records; Zone F Salisbury Interchange East Side 185; Stop 49 Church St East side 204; Saturday 24 Oct 17,088; Sunday 25 Oct 14,069. Neighbouring LGAs (ABS touches): Playford, Port Adelaide Enfield, Tea Tree Gully. Mawson Lakes figures deliberately not used.",
+    "localProject": "weekday() vs isoweekday(). slsb_weekday.py, calendar.txt only: Wednesday 21 Oct 2026 weekday()=2 wednesday 36,097 vs isoweekday()=3 thursday 36,116; Saturday 24 Oct weekday()=5 saturday 17,088 vs isoweekday()=6 sunday 14,069; Sunday 25 Oct weekday()=6 sunday 14,069 vs isoweekday()=7 IndexError: list index out of range. Python 3.13.6.",
+    "requiredMentions": [
+      "145,806",
+      "57,079",
+      "9,713",
+      "Salisbury Interchange",
+      "Port Adelaide Enfield",
+      "36,116",
+      "17,088",
+      "isoweekday",
+      "IndexError"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Salisbury local government area (LGA47140), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA47140"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Local Government Area and Suburbs and Localities boundary services, used for our point-in-boundary and intersection checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department for Infrastructure and Transport (South Australia), Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
+      },
+      {
+        "claim": "Python documentation, datetime: date.weekday() returns Monday as 0 and Sunday as 6; date.isoweekday() returns Monday as 1 and Sunday as 7.",
+        "url": "https://docs.python.org/3/library/datetime.html"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Adelaide, rule AS, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Mawson Lakes figures: not used; that suburb has its own page.",
+      "Passenger numbers: not claimed; scheduled visits only.",
+      "School term dates: not given; official SA term-date pages refused automated access (HTTP 403).",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Salisbury or Adelaide Metro."
+    ]
+  },
+  "ai-and-programming-classes-in-inner-south-canberra": {
+    "market": "Inner South Canberra",
+    "bodyClass": "cg-insc",
+    "pageType": "city",
+    "curriculumAuthority": "South Canberra SA3 80106 (Inner South), ABS Census 2021 QuickStats (read 13 October 2026): 31,592 people; median age 40; 8,109 families; 15,903 private dwellings; 2.7 bedrooms per dwelling; flat or apartment 6,309 (47.6%, ACT 19.4%; highest of the eight SA3s on these pages); managers 4,269 (23.9%, ACT 17.9%); worked at home 2,453 (13.8%, ACT 10.9%); walked to work 1,419 (8.0%, ACT 4.0%). ABS ERP 2025 (SA3 80106): 34,483. ABS SA3 area 44.4113 sq km; 12 named suburbs by our SAL-centroid test, incl. Acton and Parkes. ACT open data (CC BY 4.0, 13 October 2026): tree records 62,663 (37,533 exotic, 18,756 native); barbecues 32; artworks 79. ACT 2027 Term 4 Tuesday 12 October to Friday 17 December. Canberra = Australia/Sydney (IANA 2026e).",
+    "localProject": "ACTGOV Smart Parking Sensor Assets: 455 sensors (Forrest 242, Griffith 213), 265 UNDERGROUND (median 2.84 V, 2.00 to 3.61), 190 OVERHEAD (all Forrest; median 3.61 V, 108 at 3.61, min 2.29). statistics.quantiles inclusive, 10th percentile: global 2.58 V flags 54 (48 overhead, 6 underground); underground 2.74 V flags 28; overhead 2.51 V flags 22. Overlap 28; global-only 26; per-type-only 22, all underground. last_edited_date 2019-10 for 453 of 455. No failure labels. Our calculation. Script: scratchpad au/b16/a_insc.py.",
+    "requiredMentions": [
+      "34,483",
+      "15,903",
+      "47.6% (6,309)",
+      "23.9% (4,269)",
+      "2.58 V",
+      "22 underground sensors",
+      "October 2019",
+      "62,663",
+      "Griffith and Forrest"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, South Canberra statistical area level 3 (SA3 80106), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/80106"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by ASGS 2021 regions (ABS_ANNUAL_ERP_ASGS2021), SA3 80106 South Canberra, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_ASGS2021,1.2.0/ERP.SA3.80106.A?startPeriod=2024&format=csvfilewithlabels"
+      },
+      {
+        "claim": "ABS ASGS 2021 Statistical Area Level 3 boundary service (district outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SA3/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines, used to place each suburb in a district).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Smart Parking Sensor Assets (data.act.gov.au wret-g63c), Creative Commons Attribution 4.0, downloaded 13 October 2026; records mostly last edited October 2019.",
+        "url": "https://www.data.act.gov.au/d/wret-g63c"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Tree Assets (data.act.gov.au 9qch-rvqr), Creative Commons Attribution 4.0, grouped counts by suburb queried 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/9qch-rvqr"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Barbecue Assets (data.act.gov.au qxhv-bxbv), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/qxhv-bxbv"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Artwork Assets (data.act.gov.au a69k-qah8), Creative Commons Attribution 4.0, downloaded 13 October 2026.",
+        "url": "https://www.data.act.gov.au/d/a69k-qah8"
+      },
+      {
+        "claim": "ACT Government open data, ACT Education Public Holidays and Term Dates (data.act.gov.au 4kcq-44ad): 2027 Term 1 begins Monday 1 February (new students), Canberra Day Monday 8 March, Term 3 Tuesday 20 July to Friday 24 September, Term 4 Tuesday 12 October to Friday 17 December.",
+        "url": "https://www.data.act.gov.au/d/4kcq-44ad"
+      },
+      {
+        "claim": "IANA time zone database 2026e, backward file: Australia/Canberra links to Australia/Sydney.",
+        "url": "https://data.iana.org/time-zones/tzdb/backward"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: rule AN, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Which sensors have failed or need replacement: not claimed; the data have no failure records.",
+      "Current battery condition: not claimed; most readings are from records last edited in October 2019.",
+      "Parking occupancy or demand: not claimed; the asset list gives no occupancy data.",
+      "Inner South suburb (SAL) Census figures: not used; the page uses the SA3 district.",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the ACT Government."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-tea-tree-gully-adelaide": {
+    "market": "Tea Tree Gully",
+    "bodyClass": "cg-ttgc",
+    "pageType": "city",
+    "curriculumAuthority": "City of Tea Tree Gully (LGA47700). ABS Census 2021 QuickStats (read 12 October 2026): 101,174 people; median age 41; 29,197 families; 41,022 private dwellings; 2.5 per household; separate houses 34,400 (89.1%, SA 78.0%); bus 2,944 (5.8%, SA 3.1%); drove 33,080 (65.5%, SA 63.9%); bachelor or higher 17,603 (21.0%, SA 22.7%); aged 5-9 6,030; 10-14 6,173; 15-19 5,846; 85+ 2,482. ABS LGA area 95.2109 sq km. Adelaide Metro GTFS v1708: 607 stop records inside the LGA polygon; Wednesday 21 Oct 2026 27084 visits (bus 26823, school 712 243, regional 701 18), 66 routes, no rail; Saturday 24 Oct 13,399; Sunday 25 Oct 11,976. Neighbouring LGAs (ABS touches): Adelaide Hills, Campbelltown, Playford, Port Adelaide Enfield, Salisbury. Golden Grove and Modbury figures deliberately not used.",
+    "localProject": "Tool descriptions. stops_named(text): case-insensitive substring over stop_name (location_type 0): \"tea tree gully\" 0; \"tea tree\" 8 (all Tea Tree Plaza Interchange zones). stops_in_council(name): point-in-polygon on LGA47700: 607 records; Wednesday visits 27,084. Agent tool choices are our scripts.",
+    "requiredMentions": [
+      "101,174",
+      "41,022",
+      "6,173",
+      "607 stop records",
+      "Adelaide Hills",
+      "stops_named",
+      "stops_in_council",
+      "tool description",
+      "Playford"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Tea Tree Gully local government area (LGA47700), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA47700"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Local Government Area and Suburbs and Localities boundary services, used for our point-in-boundary and intersection checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department for Infrastructure and Transport (South Australia), Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
+      },
+      {
+        "claim": "Anthropic, Define tools (tool use documentation): detailed tool descriptions are the most important factor in tool performance.",
+        "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Adelaide, rule AS, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Golden Grove and Modbury figures: not used; those suburbs have their own pages.",
+      "Any transcript from a commercial AI model: not claimed; the agent is our script.",
+      "Passenger numbers: not claimed.",
+      "School term dates: not given; official SA term-date pages refused automated access (HTTP 403).",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Tea Tree Gully or Adelaide Metro."
+    ]
+  },
+  "online-coding-and-python-classes-in-prospect-sa-adelaide": {
+    "market": "Prospect",
+    "bodyClass": "cg-prsp",
+    "pageType": "city",
+    "curriculumAuthority": "City of Prospect (LGA46510). ABS Census 2021 QuickStats (read 12 October 2026): 22,272 people; median age 37; 5,884 families; 9,468 private dwellings; 2.5 per household; bachelor or higher 7,428 (40.3%, SA 22.7%); professionals 4,010 (32.6%, SA 21.5%); bus 759 (6.2%, SA 3.1%); flats 1,253 (14.5%, SA 6.8%); university 1,690 (24.8%, SA 16.7%); aged 0-4 1,155; 5-9 1,344; 10-14 1,355. ABS LGA area 7.7915 sq km. Adelaide Metro GTFS v1708: 84 stop records inside the LGA polygon; Wednesday 21 Oct 2026 6805 visits (bus 6549, train 198, school 712 56, regional 701 2), 47 routes; railway station records Dudley Park, Islington, Ovingham; Stop 13 North East Rd North West side 222; Stop 7A Torrens Rd North East side 129; four records at 125; Saturday 3,481; Sunday 3,028. Neighbouring LGAs (ABS touches): Adelaide, Charles Sturt, Port Adelaide Enfield, Walkerville.",
+    "localProject": "list.sort() returns None. prsp_sort.py: pairs = list(counts.items()); ranked = pairs.sort(key=lambda p: p[1], reverse=True) -> None; ranked[:3] -> TypeError: 'NoneType' object is not subscriptable; pairs[:3] sorted in place; sorted(...) -> Stop 13 North East Rd 222, Stop 7A Torrens Rd 129, Stop 15 Main North Rd 125 (tie of four at 125); 84 records, 6,805 visits. Python 3.13.6.",
+    "requiredMentions": [
+      "9,468",
+      "Islington",
+      "1,344",
+      "North East Road",
+      "Torrens Road",
+      "Ovingham",
+      "Dudley Park",
+      "NoneType",
+      "3,481"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Prospect local government area (LGA46510), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA46510"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Local Government Area and Suburbs and Localities boundary services, used for our point-in-boundary and intersection checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department for Infrastructure and Transport (South Australia), Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
+      },
+      {
+        "claim": "Python documentation, Sorting Techniques: list.sort() modifies the list in place and returns None; sorted() builds a new sorted list.",
+        "url": "https://docs.python.org/3/howto/sorting.html"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Adelaide, rule AS, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Prospect, New South Wales: not covered; this page is the City of Prospect in Adelaide.",
+      "Passenger numbers: not claimed; scheduled visits only.",
+      "School term dates: not given; official SA term-date pages refused automated access (HTTP 403).",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Prospect or Adelaide Metro."
+    ]
+  },
+  "ai-and-programming-classes-in-mitcham-sa-adelaide": {
+    "market": "Mitcham",
+    "bodyClass": "cg-mtcm",
+    "pageType": "city",
+    "curriculumAuthority": "City of Mitcham (LGA44340). ABS Census 2021 QuickStats (read 12 October 2026): 67,617 people; median age 42; 18,715 families; 27,143 private dwellings; 2.6 per household; bachelor or higher 22,368 (40.0%, SA 22.7%); professionals 11,842 (34.6%, SA 21.5%); train 580 (1.7%, SA 0.6%); worked at home 4,728 (13.8%, SA 9.6%); university 5,111 (25.2%, SA 16.7%); aged 5-9 4,032; 10-14 4,342; 15-19 4,299. ABS LGA area 75.5468 sq km. Adelaide Metro GTFS v1708: 462 stop records inside the LGA polygon; Wednesday 21 Oct 2026 20043 visits (bus 18322, train 958, school 712 758, regional 701 5), 112 routes; 11 railway station records (Belair, Blackwood, Coromandel, Eden Hills, Flinders, Glenalta, Lynton, Mitcham, Pinera, Torrens Park, Unley Park); Stops 26A and 26B University Dr West side 253 each. Neighbouring LGAs (ABS touches): Adelaide Hills, Burnside, Marion, Onkaparinga, Unley.",
+    "localProject": "Decision boundary. 462 Mitcham stop records; x = log1p(Wednesday 21 Oct visits), standardised; y = any visit Saturday 24 Oct (403 yes). Logistic regression by gradient descent (lr 0.5, 20,000 steps): w0 4.397, w1 3.694; boundary at 8.45 visits; accuracy 95.67% vs majority 87.23%; 18 false positives, 2 false negatives; best threshold rule (>= 9) also 95.67%. Bins: <10 56 records 26.8%; 10-19 86 84.9%; 20-39 138 97.1%; 40-79 117 99.1%; 80+ 65 100%.",
+    "requiredMentions": [
+      "67,617",
+      "27,143",
+      "4,299",
+      "University Drive",
+      "Torrens Park",
+      "Belair",
+      "8.45",
+      "403 of 462",
+      "decision boundary"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Mitcham local government area (LGA44340), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA44340"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Local Government Area and Suburbs and Localities boundary services, used for our point-in-boundary and intersection checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department for Infrastructure and Transport (South Australia), Adelaide Metro General Transit Feed, version 1708 (valid 9 October 2026 to 9 April 2027), Creative Commons Attribution 3.0 Australia per its data.gov.au listing; downloaded 13 October 2026.",
+        "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
+      },
+      {
+        "claim": "scikit-learn documentation, Logistic regression (linear models): predicted probability from a linear function of the inputs.",
+        "url": "https://scikit-learn.org/stable/modules/linear_model.html"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Adelaide, rule AS, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That busy weekday stops cause weekend service: not claimed; the model only describes the timetable.",
+      "Mitcham in Melbourne: not covered; this page is the City of Mitcham in Adelaide.",
+      "Passenger numbers: not claimed.",
+      "School term dates: not given; official SA term-date pages refused automated access (HTTP 403).",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Mitcham or Adelaide Metro."
+    ]
+  },
+  "online-coding-and-python-classes-in-sandy-bay-hobart": {
+    "market": "Sandy Bay",
+    "bodyClass": "cg-sdby",
+    "pageType": "city",
+    "curriculumAuthority": "Sandy Bay (SAL60585), City of Hobart (ABS LGA point query). ABS Census 2021 QuickStats (read 12 October 2026): 12,315 people; median age 39; 3,060 families; 5,529 private dwellings; 2.4 per household; university 1,344 (33.6%, Tas 12.8%); bachelor or higher 5,772 (53.5%, Tas 21.9%); bus 412 (6.7%, Tas 2.5%); flats 807 (17.0%, Tas 5.3%); professionals 2,150 (35.2%, Tas 20.0%); aged 5-9 515; 10-14 585; 15-19 613. ABS SAL area 6.9353 sq km. LIST Transport Segments (CC BY 3.0 AU) intersecting the SAL: 1,404 segments, 98.12 km COMP_LEN; class Local 594, Access 461, Sub Arterial 118, Arterial 114, Collector 73, Vehicular Track 44; Sandy Bay Road 111 segments, Churchill Avenue 74; authority Council 967, Private 370, UTAS 52. LIST Address Points intersecting: 5,811 (count only). Neighbours (ABS touches): Battery Point, Dynnyrne, Hobart, Mount Nelson, Taroona. Tas 2027 Term 1 4 February to 9 April. Hobart daylight saving first Sunday October to first Sunday April (IANA).",
+    "localProject": "Flattening nested JSON. LIST TopographyAndRelief/MapServer/8 query (geometry intersects SAL60585, outSR 4326): 1,404 features, each {attributes: 17 fields, geometry: {paths: [[x, y], ...]}}, 1 path each, 8,494 vertices. pd.DataFrame(features): (1404, 2); pd.json_normalize(features): (1404, 18); explode twice: 8,494 rows. groupby TRAN_CLASS lengths as listed. pandas 3.0.0.",
+    "requiredMentions": [
+      "5,529",
+      "Taroona",
+      "613",
+      "Churchill Avenue",
+      "json_normalize",
+      "1,404",
+      "8,494",
+      "5,811",
+      "Dynnyrne"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Sandy Bay suburb and locality (SAL60585), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL60585"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Local Government Area and Suburbs and Localities boundary services, used for our point-in-boundary and intersection checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "the LIST, State of Tasmania, Transport Segments (All Transport layer), Creative Commons Attribution 3.0 Australia; queried from the LIST map service on 13 and 14 October 2026.",
+        "url": "https://services.thelist.tas.gov.au/arcgis/rest/services/Public/TopographyAndRelief/MapServer/8"
+      },
+      {
+        "claim": "the LIST, State of Tasmania, Address Points, Creative Commons Attribution 3.0 Australia; counts only, queried 13 October 2026.",
+        "url": "https://services.thelist.tas.gov.au/arcgis/rest/services/Public/CadastreAndAdministrative/MapServer/43"
+      },
+      {
+        "claim": "pandas documentation, pandas.json_normalize: normalise semi-structured JSON data into a flat table.",
+        "url": "https://pandas.pydata.org/docs/reference/api/pandas.json_normalize.html"
+      },
+      {
+        "claim": "Tasmanian Department for Education, Children and Young People, 2027 school term dates for school and college students.",
+        "url": "https://www.decyp.tas.gov.au/learning/term-dates/"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Hobart, rule AT, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Figures for Greater Hobart from the Hobart page: not used.",
+      "Exact road length inside the suburb: not claimed; segments crossing the boundary are counted whole.",
+      "Any individual address: not published; address points are counted only.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Hobart, the LIST or the University of Tasmania."
+    ]
+  },
+  "ai-and-programming-classes-in-kingston-tas-hobart": {
+    "market": "Kingston",
+    "bodyClass": "cg-kgtn",
+    "pageType": "city",
+    "curriculumAuthority": "Kingston (SAL60307, Kingston (Tas.)), Kingborough (ABS LGA point query). ABS Census 2021 QuickStats (read 12 October 2026): 12,288 people; median age 36; 3,332 families; 5,114 private dwellings; 2.5 per household; bachelor or higher 3,356 (33.1%, Tas 21.9%); separate houses 4,237 (89.1%, Tas 87.7%); bus 337 (5.7%, Tas 2.5%); professionals 1,457 (24.4%, Tas 20.0%); aged 0-4 716; 5-9 737; 10-14 719; 15-19 683. ABS SAL area 37.2153 sq km. LIST Transport Segments intersecting: 2,432 (279.0 km); class Access 942, Local 880, Vehicular Track 190, Arterial 159, National/State Highway 144, Collector 112, Sub Arterial 5; surface Sealed 1,722, Unsealed 666, 4WD 44; Channel Highway 86 segments, Summerleas Road 80. Neighbours (ABS touches): Blackmans Bay, Bonnet Hill, Fern Tree, Huntingfield, Kingston Beach, Leslie Vale, Margate, Mount Nelson, Neika, Ridgeway, Taroona. Tas 2027 Term 1 4 February to 9 April. Kingston (Melbourne) page figures not used.",
+    "localProject": "Stopping criteria. y = SURFACE_TY not Sealed (710 of 2,432; majority 70.81%). X = [1, standardised log10 COMP_LEN, Vehicular Track flag, Access Road flag]. Batch gradient descent, lr 0.5, stop when |loss change| < tol: tol 1e-2 -> 7 steps, loss 0.59427, acc 73.48%; 1e-4 -> 293, 0.37916, 84.83%; 1e-6 -> 1,879, 0.35982, 84.42%; 1e-8 -> 14,899, 0.35848, 84.38%, track weight 9.10; cap 50 -> 0.47749, 80.30%. All 190 vehicular tracks unsealed or 4WD.",
+    "requiredMentions": [
+      "12,288",
+      "5,114",
+      "716",
+      "Summerleas Road",
+      "Channel Highway",
+      "14,899",
+      "1,879",
+      "Kingston Beach",
+      "Huntingfield"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Kingston (Tas.) suburb and locality (SAL60307), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL60307"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Local Government Area and Suburbs and Localities boundary services, used for our point-in-boundary and intersection checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "the LIST, State of Tasmania, Transport Segments (All Transport layer), Creative Commons Attribution 3.0 Australia; queried from the LIST map service on 13 and 14 October 2026.",
+        "url": "https://services.thelist.tas.gov.au/arcgis/rest/services/Public/TopographyAndRelief/MapServer/8"
+      },
+      {
+        "claim": "scikit-learn documentation, LogisticRegression: tol (tolerance for stopping criteria) and max_iter (maximum number of iterations) parameters.",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html"
+      },
+      {
+        "claim": "Tasmanian Department for Education, Children and Young People, 2027 school term dates for school and college students.",
+        "url": "https://www.decyp.tas.gov.au/learning/term-dates/"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Hobart, rule AT, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Figures from the Kingston (Melbourne) page: not used; that is a different place.",
+      "That road length causes sealing: not claimed; the model only describes the LIST records.",
+      "Exact road length inside the suburb: not claimed; crossing segments are counted whole.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Kingborough Council or the LIST."
+    ]
   }
 }

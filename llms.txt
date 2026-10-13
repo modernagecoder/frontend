@@ -1610,6 +1610,14 @@ USD 100 a month small group, USD 150 a month one to one.
 - Woden, Canberra: https://learn.modernagecoders.com/ai-and-programming-classes-in-woden-canberra
 - Weston Creek, Canberra: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-weston-creek-canberra
 - Molonglo, Canberra: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-molonglo-canberra
+- Inner North, Canberra: https://learn.modernagecoders.com/online-coding-and-python-classes-in-inner-north-canberra
+- Salisbury, Adelaide: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-salisbury-adelaide
+- Inner South, Canberra: https://learn.modernagecoders.com/ai-and-programming-classes-in-inner-south-canberra
+- Tea Tree Gully, Adelaide: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-tea-tree-gully-adelaide
+- Prospect, Adelaide: https://learn.modernagecoders.com/online-coding-and-python-classes-in-prospect-sa-adelaide
+- Mitcham, Adelaide: https://learn.modernagecoders.com/ai-and-programming-classes-in-mitcham-sa-adelaide
+- Sandy Bay, Hobart: https://learn.modernagecoders.com/online-coding-and-python-classes-in-sandy-bay-hobart
+- Kingston, Tasmania: https://learn.modernagecoders.com/ai-and-programming-classes-in-kingston-tas-hobart
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).
