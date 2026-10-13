@@ -357,7 +357,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 333 | online-coding-and-python-classes-in-inner-north-canberra (innc, #2A2453) | cg- district page | 2,490 | 1.1% vs online-coding-and-python-classes-in-canning-vale-perth | Braddon minus Ainslie with collections.Counter: what minus drops and what suppression hides | collections.Counter arithmetic | 2029ac8e |
 | 334 | ai-and-programming-classes-in-inner-south-canberra (insc, #9B2428) | cg- district page | 2,387 | 1.4% vs best-coding-and-ai-classes-in-belconnen-canberra | one battery alarm for all Inner South parking sensors vs one per sensor type | group-conditional anomaly thresholds | 776e7ac6 |
 | 323 | best-coding-and-ai-classes-in-salisbury-adelaide (slsb, #530E19) | cg- district page | 2,382 | 1.6% vs best-coding-and-ai-classes-in-mawson-lakes-adelaide | an off-by-one weekday index swaps Salisbury Saturday buses for Sunday | weekday() vs isoweekday() | cf8a1360 |
-| 324 | vibe-coding-and-ai-agents-classes-in-tea-tree-gully-adelaide (ttgc, #106A32) | cg- district page | 2,557 | 1.4% vs best-coding-and-ai-classes-in-burnside-adelaide | a vague tool description sends the agent to the wrong tool | tool descriptions steering agent tool choice | (this commit) |
+| 324 | vibe-coding-and-ai-agents-classes-in-tea-tree-gully-adelaide (ttgc, #106A32) | cg- district page | 2,557 | 1.4% vs best-coding-and-ai-classes-in-burnside-adelaide | a vague tool description sends the agent to the wrong tool | tool descriptions steering agent tool choice | 0163d094 |
+| 325 | online-coding-and-python-classes-in-prospect-sa-adelaide (prsp, #815D2A) | cg- district page | 2,313 | 1.9% vs ai-and-programming-classes-in-mitcham-sa-adelaide | list.sort() returns None and the busiest-stop ranking crashes | list.sort() returns None | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
