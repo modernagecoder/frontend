@@ -406,4 +406,3 @@ for (const r of report) {
 
 console.log(`\n${total - failures}/${total} pages pass.`);
 if (failures) process.exitCode = 1;
-ess.exitCode = 1;
