@@ -192,19 +192,11 @@ Option 1, fixed batch: Tuesday at 5:30 PM and Wednesday at 8:00 PM IST, live onl
 
           - India (IST)every Indian city | 5:30 PM | 8:00 PM | Batch fits
 
-          - UAE and OmanDubai, Abu Dhabi, Sharjah, Muscat | 4:00 PM | 6:30 PM | Batch fits
+          - United Arab EmiratesDubai, Sharjah | 4:00 PM | 6:30 PM | Batch fits
 
-          - Saudi Arabia, Qatar, Kuwait, BahrainRiyadh, Jeddah, Doha, Kuwait City, Manama | 3:00 PM | 5:30 PM | Batch fits
+          - Indonesia and ThailandJakarta, Bangkok | 7:00 PM | 9:30 PM | Batch fits
 
-          - NepalKathmandu | 5:45 PM | 8:15 PM | Batch fits
-
-          - KenyaNairobi | 3:00 PM | 5:30 PM | Choose 1-on-1
-
-          - Singapore and MalaysiaSingapore, Kuala Lumpur | 8:00 PM | 10:30 PM | Choose 1-on-1
-
-          - United Kingdom (GMT)London, Leicester, Birmingham | 12:00 PM | 2:30 PM | Choose 1-on-1
-
-          - United States (Eastern)New Jersey, New York | 7:00 AM | 9:30 AM | Choose 1-on-1
+          - SingaporeSingapore | 8:00 PM | 10:30 PM | Choose 1-on-1
 
 ## Frequently asked questions
 
@@ -224,7 +216,7 @@ Option 1, fixed batch: Tuesday at 5:30 PM and Wednesday at 8:00 PM IST, live onl
 
 **We are late. Can the lab file still be done?** Usually, yes. With personalised one to one, a teacher can work through the missing programs in order of syllabus coverage so the file still spans every unit. The free demo is the quickest way to get an honest plan for your child's deadline.
 
-**Do ICSE students abroad have the same internal assessment?** Yes. ICSE schools outside India follow the CISCE scheme, so the internal assessment works the same way. Our Tuesday and Wednesday batch suits the UAE and the rest of the Gulf, and personalised one to one covers other time zones.
+**Do ICSE students abroad have the same internal assessment?** Yes. ICSE schools outside India follow the CISCE scheme, so the internal assessment works the same way. CISCE lists ICSE schools abroad in the UAE, Singapore, Indonesia and Thailand; our Tuesday and Wednesday batch times suit the UAE, and personalised one to one covers other time zones.
 
 **Is internal assessment help charged separately?** No. Lab file support and the examiner rehearsal are part of the monthly fee for the mini batch or personalised one to one, shown on this page in your own currency. There is no admission fee, and the first class is a free demo.
 

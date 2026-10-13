@@ -161,17 +161,13 @@ Option 1, fixed batch: Monday and Wednesday at 9:00 PM IST, live online, ten to 
 
           - UAE and OmanDubai, Abu Dhabi, Sharjah, Muscat | 7:30 PM | Batch fits
 
-          - Saudi Arabia, Qatar, Kuwait, BahrainRiyadh, Jeddah, Doha, Kuwait City, Manama | 6:30 PM | Batch fits
+          - Saudi Arabia, Qatar, Kuwait, BahrainRiyadh, Jeddah, Dammam, Doha, Kuwait City, Manama | 6:30 PM | Batch fits
 
           - NepalKathmandu | 9:15 PM | Batch fits
 
-          - KenyaNairobi | 6:30 PM | Batch fits
+          - Ethiopia and East AfricaAddis Ababa, Nairobi, Dar es Salaam | 6:30 PM | Batch fits
 
           - Singapore and MalaysiaSingapore, Kuala Lumpur | 11:30 PM | Choose 1-on-1
-
-          - United Kingdom (GMT)London, Leicester, Birmingham | 3:30 PM | Choose 1-on-1
-
-          - United States (Eastern)New Jersey, New York | 10:30 AM | Choose 1-on-1
 
 ## Frequently asked questions
 

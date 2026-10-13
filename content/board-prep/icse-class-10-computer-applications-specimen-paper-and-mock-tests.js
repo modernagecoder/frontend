@@ -36,7 +36,7 @@ module.exports = {
       ['Full two-hour mocks', '3', 'timed'],
       ['BlueJ practical mocks', 'Monthly', '']
     ],
-    zones: '<b>Gulf:</b> Tuesday 4:00 PM and Wednesday 6:30 PM UAE; 3:00 PM and 5:30 PM Saudi Arabia, Qatar, Kuwait. <b>Elsewhere:</b> personalised one to one at your own time.',
+    zones: '<b>UAE:</b> Tuesday 4:00 PM and Wednesday 6:30 PM. <b>Indonesia and Thailand:</b> 7:00 PM and 9:30 PM. <b>Elsewhere:</b> personalised one to one at your own time.',
     stamps: ['Theory 100 &middot; Internal 100', 'Live doubts']
   },
   picksH2: 'Courses behind the ICSE specimen-paper classes',
@@ -248,7 +248,7 @@ module.exports = {
     ['Does the mock series cover the internal assessment?', 'Yes. Monthly BlueJ practical mocks start in October, and before the school\'s internal assessment window each student\'s lab file is reviewed and the student is questioned on it by a teacher they have not worked with, the way an external examiner does.'],
     ['Why do students lose marks on programs that work?', 'Usually for three reasons: a missing variable description, output that does not match the format the question asked for, or a program that answers a slightly different question from the one set. Our mocks mark each part separately so students see exactly which part cost them.'],
     ['Is ICSE Computer Applications the same as ICSE Computer Science?', 'In Class 10 the CISCE subject is called Computer Applications, and it is taught in Java with BlueJ. Many families call it ICSE computer science or ICSE Java; it is the same subject and the same paper. Computer Science is the ISC subject in Classes 11 and 12.'],
-    ['Can a student abroad join the same mock series?', 'Yes. A CISCE school in Dubai or Doha sets the same Computer Applications paper as one in Kolkata. Tuesday at 5:30 PM IST is 4:00 PM in the UAE and 3:00 PM in Saudi Arabia, Qatar and Kuwait, and Wednesday at 8 PM IST is 6:30 PM and 5:30 PM respectively. Families in Singapore, the UK or North America usually pick personalised one to one and set their own slot.'],
+    ['Can a student abroad join the same mock series?', 'Yes. CISCE lists ICSE schools outside India in the UAE, Singapore, Indonesia and Thailand, and they set the same Computer Applications paper as a school in Kolkata. Tuesday at 5:30 PM IST is 4:00 PM in the UAE and Wednesday at 8 PM IST is 6:30 PM. In Singapore the Wednesday slot falls at 10:30 PM, so families there usually pick personalised one to one and set their own time.'],
     ['How much does the mock series cost?', 'There is no extra charge for the papers. Mocks, specimen solving and reviews are part of ordinary teaching, so you pay only the monthly fee for the mini batch or for personalised one to one, shown above in your own currency. There is no admission fee and the first session is a free demo.'],
     ['Is it too late to join for the 2027 paper?', 'Rarely. Full papers begin in January, and a student joining by about November can still finish the twenty-plus lab assignments with catch-up help. A December or January joiner is better off one to one, where the lab file and the three papers can be packed into a private timetable. The free demo gives you a straight answer for your child.']
   ],

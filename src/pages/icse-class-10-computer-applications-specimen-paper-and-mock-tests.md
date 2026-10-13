@@ -167,19 +167,11 @@ Option 1, fixed batch: Tuesday at 5:30 PM and Wednesday at 8:00 PM IST, live onl
 
           - India (IST)every Indian city | 5:30 PM | 8:00 PM | Batch fits
 
-          - UAE and OmanDubai, Abu Dhabi, Sharjah, Muscat | 4:00 PM | 6:30 PM | Batch fits
+          - United Arab EmiratesDubai, Sharjah | 4:00 PM | 6:30 PM | Batch fits
 
-          - Saudi Arabia, Qatar, Kuwait, BahrainRiyadh, Jeddah, Doha, Kuwait City, Manama | 3:00 PM | 5:30 PM | Batch fits
+          - Indonesia and ThailandJakarta, Bangkok | 7:00 PM | 9:30 PM | Batch fits
 
-          - NepalKathmandu | 5:45 PM | 8:15 PM | Batch fits
-
-          - KenyaNairobi | 3:00 PM | 5:30 PM | Choose 1-on-1
-
-          - Singapore and MalaysiaSingapore, Kuala Lumpur | 8:00 PM | 10:30 PM | Choose 1-on-1
-
-          - United Kingdom (GMT)London, Leicester, Birmingham | 12:00 PM | 2:30 PM | Choose 1-on-1
-
-          - United States (Eastern)New Jersey, New York | 7:00 AM | 9:30 AM | Choose 1-on-1
+          - SingaporeSingapore | 8:00 PM | 10:30 PM | Choose 1-on-1
 
 ## Frequently asked questions
 
@@ -197,7 +189,7 @@ Option 1, fixed batch: Tuesday at 5:30 PM and Wednesday at 8:00 PM IST, live onl
 
 **Is ICSE Computer Applications the same as ICSE Computer Science?** In Class 10 the CISCE subject is called Computer Applications, and it is taught in Java with BlueJ. Many families call it ICSE computer science or ICSE Java; it is the same subject and the same paper. Computer Science is the ISC subject in Classes 11 and 12.
 
-**Can a student abroad join the same mock series?** Yes. A CISCE school in Dubai or Doha sets the same Computer Applications paper as one in Kolkata. Tuesday at 5:30 PM IST is 4:00 PM in the UAE and 3:00 PM in Saudi Arabia, Qatar and Kuwait, and Wednesday at 8 PM IST is 6:30 PM and 5:30 PM respectively. Families in Singapore, the UK or North America usually pick personalised one to one and set their own slot.
+**Can a student abroad join the same mock series?** Yes. CISCE lists ICSE schools outside India in the UAE, Singapore, Indonesia and Thailand, and they set the same Computer Applications paper as a school in Kolkata. Tuesday at 5:30 PM IST is 4:00 PM in the UAE and Wednesday at 8 PM IST is 6:30 PM. In Singapore the Wednesday slot falls at 10:30 PM, so families there usually pick personalised one to one and set their own time.
 
 **How much does the mock series cost?** There is no extra charge for the papers. Mocks, specimen solving and reviews are part of ordinary teaching, so you pay only the monthly fee for the mini batch or for personalised one to one, shown above in your own currency. There is no admission fee and the first session is a free demo.
 

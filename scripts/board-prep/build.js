@@ -123,15 +123,30 @@ const BOARD = {
 // minutes. US Eastern is EST in the exam season. The last number is the
 // earliest local time (minutes after midnight) a Class 10 student is home from
 // school: Gulf schools finish early afternoon, UK and US schools mid-afternoon.
-const ZONES = [
-  ['UAE and Oman', 'Dubai, Abu Dhabi, Sharjah, Muscat', -90, 14 * 60 + 30],
-  ['Saudi Arabia, Qatar, Kuwait, Bahrain', 'Riyadh, Jeddah, Doha, Kuwait City, Manama', -150, 14 * 60 + 30],
-  ['Nepal', 'Kathmandu', 15, 16 * 60],
-  ['Kenya', 'Nairobi', -150, 16 * 60 + 30],
-  ['Singapore and Malaysia', 'Singapore, Kuala Lumpur', 150, 15 * 60],
-  ['United Kingdom (GMT)', 'London, Leicester, Birmingham', -330, 16 * 60],
-  ['United States (Eastern)', 'New Jersey, New York', -630, 15 * 60 + 30]
-];
+// Rows are PER BOARD and list only countries where that board actually has
+// schools (verified 2026-10-13): CBSE SARAS directory, 268 foreign schools in 26
+// countries (UAE 109, Saudi Arabia 41, Kuwait 22, Qatar 20, Oman 18, Nepal 16,
+// Bahrain 8, Ethiopia 7, Malaysia 4, Singapore 3); CISCE locator, ICSE schools
+// abroad only in the UAE (4), Singapore, Indonesia and Thailand (1 each).
+// There are NO CBSE or CISCE schools in the UK or the US: never list them.
+const ZONES = {
+  cbse: [
+    ['UAE and Oman', 'Dubai, Abu Dhabi, Sharjah, Muscat', -90, 14 * 60 + 30],
+    ['Saudi Arabia, Qatar, Kuwait, Bahrain', 'Riyadh, Jeddah, Dammam, Doha, Kuwait City, Manama', -150, 14 * 60 + 30],
+    ['Nepal', 'Kathmandu', 15, 16 * 60],
+    ['Ethiopia and East Africa', 'Addis Ababa, Nairobi, Dar es Salaam', -150, 16 * 60],
+    ['Singapore and Malaysia', 'Singapore, Kuala Lumpur', 150, 15 * 60]
+  ],
+  icse: [
+    ['United Arab Emirates', 'Dubai, Sharjah', -90, 14 * 60 + 30],
+    ['Indonesia and Thailand', 'Jakarta, Bangkok', 90, 15 * 60],
+    ['Singapore', 'Singapore', 150, 15 * 60]
+  ]
+};
+const AREA = {
+  cbse: ['India', 'United Arab Emirates', 'Saudi Arabia', 'Kuwait', 'Qatar', 'Oman', 'Nepal', 'Bahrain', 'Ethiopia', 'Malaysia', 'Singapore'],
+  icse: ['India', 'United Arab Emirates', 'Singapore', 'Indonesia', 'Thailand']
+};
 
 function fmt(h, m) {
   h = ((h % 24) + 24) % 24;
@@ -151,7 +166,7 @@ function works(h, m, homeBy) { const t = h * 60 + m; return t >= homeBy && t <= 
 function zoneTable(board) {
   const b = BOARD[board];
   const head = b.slots.map(s => `<th scope="col">${esc(s[0])} ${fmt(s[1], s[2])} IST</th>`).join('');
-  const rows = ZONES.map(([name, cities, off, homeBy]) => {
+  const rows = ZONES[board].map(([name, cities, off, homeBy]) => {
     // the batch fits only if EVERY weekly slot works: a family cannot attend half a batch
     let allWork = true;
     const cells = b.slots.map(([, h, m]) => {
@@ -230,18 +245,7 @@ function render(p) {
     email: 'connect@modernagecoders.com',
     telephone: '+91-91233-66161',
     foundingDate: '2020',
-    areaServed: p.areaServed || [
-      { '@type': 'Country', name: 'India' },
-      { '@type': 'Country', name: 'United Arab Emirates' },
-      { '@type': 'Country', name: 'Saudi Arabia' },
-      { '@type': 'Country', name: 'Qatar' },
-      { '@type': 'Country', name: 'Oman' },
-      { '@type': 'Country', name: 'Kuwait' },
-      { '@type': 'Country', name: 'Bahrain' },
-      { '@type': 'Country', name: 'Nepal' },
-      { '@type': 'Country', name: 'Singapore' },
-      { '@type': 'Country', name: 'United Kingdom' }
-    ],
+    areaServed: p.areaServed || AREA[p.board].map(name => ({ '@type': 'Country', name })),
     knowsAbout: p.knowsAbout || b.knows
   };
   const article = {
