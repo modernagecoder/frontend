@@ -643,6 +643,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Maths tutor in Perth](/maths-tutor-perth-wa)
 - [Maths tutor in Adelaide](/maths-tutor-adelaide)
 - [Maths tutor in Canberra](/maths-tutor-canberra)
+- [Maths tutor on the Gold Coast](/maths-tutor-gold-coast)
 <!-- AU-LINKS -->
 
 

@@ -406,7 +406,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 373 | maths-tutor-brisbane (mtbr, #173E90) | ag- maths by city | 3,023 | 1.1% vs maths-tutor-perth-wa | how much the Brisbane River winds | sinuosity ratio | d41d78bf |
 | 374 | maths-tutor-perth-wa (mtpe, #3E2494) | ag- maths by city | 3,050 | 1.2% vs maths-tutor-melbourne | the Perth to Sydney time gap as a piecewise function | piecewise functions | fa1f4482 |
 | 375 | maths-tutor-adelaide (mtad, #474E17) | ag- maths by city | 3,086 | 1.2% vs maths-tutor-canberra | when Heron's formula says a triangle between Adelaide squares has no area | Heron's formula against coordinates | 5a5a2fd6 |
-| 376 | maths-tutor-canberra (mtcb, #366F41) | ag- maths by city | 3,033 | 1.3% vs maths-tutor-melbourne | the radius of State Circle from three points | circumradius | (this commit) |
+| 376 | maths-tutor-canberra (mtcb, #366F41) | ag- maths by city | 3,033 | 1.3% vs maths-tutor-melbourne | the radius of State Circle from three points | circumradius | 6eb48656 |
+| 377 | maths-tutor-gold-coast (mtgc, #141481) | ag- maths by city | 3,060 | 0.9% vs maths-tutor-canberra | how long Surfers Paradise tower shadows are | shadow length with the tangent ratio | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
