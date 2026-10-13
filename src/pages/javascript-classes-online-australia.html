@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>JavaScript Classes Online in Australia | Browser and Node</title>
+  <meta name="description" content="Live online JavaScript classes for Australians of any age: the language, the browser, Node and async code, in small groups or one to one. First class free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/javascript-classes-online-australia">
+  <link rel="alternate" type="text/markdown" href="/src/pages/javascript-classes-online-australia.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#244E0C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/javascript-classes-online-australia">
+  <meta property="og:title" content="JavaScript Classes Online in Australia | Browser and Node">
+  <meta property="og:description" content="Eight data requests took 16.8 seconds one after another and 2.2 seconds together. What Australian learners discover about async JavaScript in our classes.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="JavaScript Classes Online in Australia">
+  <meta name="twitter:description" content="JavaScript classes online for Australians: the language, the browser, Node and async code. First class free.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-jsau .ag-hero h1 { letter-spacing: -0.022em; }
+.ag-root.ag-jsau .ag-capsule { border-left-width: 4px; border-radius: 5px; }
+.ag-root.ag-jsau .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-jsau .ag-table caption { text-align: left; font-weight: 618; }
+.ag-root.ag-jsau .ag-band-head h3 { letter-spacing: -0.007em; }
+.ag-root.ag-jsau .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/javascript-classes-online-australia#page","url":"https://learn.modernagecoders.com/javascript-classes-online-australia","name":"JavaScript Classes Online in Australia","description":"A guide to learning JavaScript online in Australia, from first scripts to asynchronous code, with a measured example using ABS data.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":4,"name":"JavaScript classes online","item":"https://learn.modernagecoders.com/javascript-classes-online-australia"}]},{"@type":"Course","name":"JavaScript Classes Online in Australia","description":"Live online JavaScript lessons for Australian teens and adults: core language, the browser, Node.js and asynchronous programming with real data.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/javascript-classes-online-australia"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/javascript-classes-online-australia"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/javascript-classes-online-australia"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What do online JavaScript classes cover?","acceptedAnswer":{"@type":"Answer","text":"The core language, how it works in the browser, Node.js for scripts and servers, and asynchronous code with promises and async functions."}},{"@type":"Question","name":"What is the difference between await in a loop and Promise.all?","acceptedAnswer":{"@type":"Answer","text":"Awaiting in a loop runs requests one after another; Promise.all lets them overlap. In our test with eight ABS requests, the loop took 16,843 ms and Promise.all 2,190 ms in the first round."}},{"@type":"Question","name":"Why does forEach with async not work as expected?","acceptedAnswer":{"@type":"Answer","text":"forEach does not wait for the promises its callback returns, so the code after it runs before the work is done. In our test it returned after 8.5 ms with none of eight requests finished."}},{"@type":"Question","name":"Is JavaScript in the Australian Curriculum?","acceptedAnswer":{"@type":"Answer","text":"It is named as an example. The elaboration for AC9TDI8P09 describes using a general-purpose language \"such as Python, JavaScript or C#\"."}},{"@type":"Question","name":"Do I need to know HTML first?","acceptedAnswer":{"@type":"Answer","text":"It helps for browser work but is not required. Learners can start with JavaScript in Node and add HTML later."}},{"@type":"Question","name":"What age can start?","acceptedAnswer":{"@type":"Answer","text":"Teens from 13 and adults of any age. Younger children usually start with Scratch or Python."}},{"@type":"Question","name":"How is this different from web development for teens?","acceptedAnswer":{"@type":"Answer","text":"Web development for teens is about building whole sites. These classes go deeper into the JavaScript language itself and are open to adults."}},{"@type":"Question","name":"Should I learn TypeScript?","acceptedAnswer":{"@type":"Answer","text":"Once plain JavaScript is comfortable, TypeScript is a good next step for larger projects."}},{"@type":"Question","name":"Will this get me a web developer job?","acceptedAnswer":{"@type":"Answer","text":"We make no job or salary promises. The classes build real projects and understanding you can show."}},{"@type":"Question","name":"How much are JavaScript classes?","acceptedAnswer":{"@type":"Answer","text":"The first class is on us, with no card asked for. Monthly group and one-to-one prices are listed in the fees panel."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/javascript-classes-online-australia","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-jsau">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#language">The language</a></li>
+      <li><a href="#async">A worked example</a></li>
+      <li><a href="#where">Where it runs</a></li>
+      <li><a href="#route">Route</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / JavaScript classes online
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Ages 13 to adult &middot; Browser, Node and async</p>
+        <h1>JavaScript classes online</h1>
+        <p class="ag-lede">JavaScript runs in every web browser and, through Node, on servers and laptops too. That makes it one of the most useful languages to know, and one of the easiest to get subtly wrong, because so much of it is asynchronous: code that asks for something and carries on before the answer arrives. Our JavaScript classes teach the language properly, live online, to Australian teens and adults, from the first variable to promises and async functions. This page sets out what is covered, measures one asynchronous mistake with real requests to the Australian Bureau of Statistics, and shows where JavaScript sits in the Australian Curriculum.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#async" class="ag-btn ag-btn--ghost">See the worked example</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Australia%20and%20interested%20in%20online%20JavaScript%20classes.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jsau'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; The language first, then the frameworks</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Teens 13+ and adults</dd>
+          <dt>Core</dt><dd>Values, functions, objects, arrays</dd>
+          <dt>Browser</dt><dd>Events and the page</dd>
+          <dt>Node</dt><dd>Scripts and servers</dd>
+          <dt>Async</dt><dd>Promises and await</dd>
+          <dt>Format</dt><dd>Live online lessons</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>JavaScript classes online teach the JavaScript language for use in web browsers and on servers through Node.js: values, functions, objects, events and asynchronous code with promises and async functions. The Australian Curriculum names JavaScript as one example of a general-purpose language. Modern Age Coders teaches JavaScript live online to Australian teens and adults, in small groups or one to one, and the first class is free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three JavaScript courses</h2>
+      <p class="ag-lede">Chosen by age and direction. Each card opens the syllabus.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/javascript-course-for-teens-beginners-interactive-web">
+        <div class="ag-pick-shot"><img src="/images/javascript-teens.webp" alt="JavaScript for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JSAU / 01</p>
+          <h3>JavaScript for Teens</h3>
+          <p>Ages 13 to 18 from zero: interactive pages and browser games.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-typescript-programming-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/typescript-college.webp" alt="TypeScript Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JSAU / 02</p>
+          <h3>TypeScript Course</h3>
+          <p>For 18 and over: JavaScript with types, then React and Node.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/react-js-complete-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/react-college.webp" alt="React Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JSAU / 03</p>
+          <h3>React Masterclass</h3>
+          <p>For adults who know the basics: JavaScript to production React.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="language">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The language</p><h2>What a learner covers, in order</h2><p class="ag-lede">Frameworks change every few years. The language underneath changes slowly, so we teach it first.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Topics in our JavaScript classes</caption><thead><tr><th scope="col">Topic</th><th scope="col">What learners practise</th><th scope="col">Typical first mistake</th></tr></thead><tbody><tr><td>Values and types</td><td>Numbers, strings, booleans, null and undefined</td><td>Comparing with == instead of ===</td></tr><tr><td>Functions</td><td>Declarations, arrow functions, parameters, return values</td><td>Forgetting to return a value</td></tr><tr><td>Objects and arrays</td><td>Building, reading and copying data structures</td><td>Changing an object shared by two variables</td></tr><tr><td>The browser</td><td>Selecting elements, handling clicks and form input</td><td>Running code before the page has loaded</td></tr><tr><td>Asynchronous code</td><td>Promises, async and await, error handling</td><td>Starting work and not waiting for it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Named in the curriculum</h3><p>Australian Curriculum content description AC9TDI8P09 asks Years 7 and 8 students to implement and debug programs, and its elaboration describes writing programs "in a general-purpose programming language, such as Python, JavaScript or C#".</p>
+<p>JavaScript is one of the languages schools can choose, and the one that runs on every device students own.</p></div><div><h3>Named in the occupation list</h3><p>ANZSCO 261212 Web Developer "Plans, produces and maintains websites using web programming languages, software applications, technologies and databases".</p>
+<p>JavaScript is the language that runs in the browser for that work. We make no promise about jobs; we describe what the work involves.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="async">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked example</p><h2>Eight requests: one at a time, or all together</h2><p class="ag-lede">Most real JavaScript waits for something: a server, a file, a database. How it waits changes how long a user sits watching a spinner.</p></div>
+    <p>We wrote a short Node program that asks the ABS Data API for the 2025 estimated resident population of seven capital-city councils (Sydney, Melbourne, Brisbane, Adelaide, Perth, Hobart and Darwin) plus the unincorporated ACT. It ran the eight requests three ways: awaiting each one before starting the next, starting all eight and awaiting them together with <code>Promise.all</code>, and the common mistake of calling an async function inside <code>forEach</code>.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Eight ABS requests from Node 22 (our run, 14 October 2026)</caption><thead><tr><th scope="col">Approach</th><th scope="col">Round 1</th><th scope="col">Round 2</th><th scope="col">Result</th></tr></thead><tbody><tr><td>await each request in a for loop</td><td>16,843 ms</td><td>9,512 ms</td><td>All eight values</td></tr><tr><td>Promise.all over all eight</td><td>2,190 ms</td><td>1,940 ms</td><td>The same eight values</td></tr><tr><td>async callback inside forEach</td><td>8.5 ms</td><td>not repeated</td><td>Returned with 0 of 8 finished</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Waiting together</h3><p>Sequential awaits pay for every round trip one after another. Promise.all lets the eight requests overlap, which was between about five and eight times faster here.</p></div><div><h3>The fast wrong answer</h3><p>The forEach version looked fastest at 8.5 ms because it did not wait at all. MDN says plainly that forEach "does not wait for promises".</p></div><div><h3>When one at a time is right</h3><p>If a service limits how many requests you may send at once, or each request needs the previous answer, the slow sequential loop is the correct choice. Speed is not the only test.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What Promise.all promises</h3><p>MDN describes it as taking "an iterable of promises as input" and returning "a single Promise". It also warns that the result "rejects when any of the input's promises rejects", so one failed request fails the lot.</p>
+<p>Learners write the version that handles one failure without losing the other seven.</p></div><div><h3>Why we used real requests</h3><p>Timings over a real network vary, which is why we show two rounds. The ratio between the approaches is the lesson, not the exact milliseconds.</p>
+<p>Eight small requests are a light load on a public data service, and we ran only two rounds.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 14 October 2026: MDN Web Docs on <a class="ag-inline-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all" rel="noopener" target="_blank">Promise.all()</a> and <a class="ag-inline-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach" rel="noopener" target="_blank">Array.prototype.forEach()</a>; data from the <a class="ag-inline-link" href="https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT..LGA2025.A?startPeriod=2025&endPeriod=2025" rel="noopener" target="_blank">ABS Data API</a> (CC BY 4.0). The program and timings are our own.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="where">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Where it runs</p><h2>One language, three places</h2><p class="ag-lede">Learners meet JavaScript in the browser first, then in Node, then inside frameworks.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Where JavaScript runs and what learners build there</caption><thead><tr><th scope="col">Place</th><th scope="col">What it is for</th><th scope="col">A project in our classes</th></tr></thead><tbody><tr><td>The browser</td><td>Making pages respond to people</td><td>A quiz or game that keeps score</td></tr><tr><td>Node.js</td><td>Scripts, tools and servers on a computer</td><td>A program that fetches and summarises public data</td></tr><tr><td>Frameworks such as React</td><td>Large interfaces built from components</td><td>A small app with several screens</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For teenagers</h3><p>Teens usually start in the browser, because results appear instantly. Those who want to build whole websites should also look at <a class="ag-inline-link" href="/web-development-course-for-teens-australia">web development for teens</a>.</p>
+<p>Years 9 and 10 students meet object-oriented programming in the curriculum too, which JavaScript classes reach later.</p></div><div><h3>For adults</h3><p>Adults often start in Node, writing scripts that save time at work, before moving to the browser or React.</p>
+<p>Career changers may prefer the broader <a class="ag-inline-link" href="/coding-for-career-changers-australia">coding for career changers</a> route.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="route">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Route</p><h2>From first script to confident developer</h2><p class="ag-lede">Each project adds one idea and keeps the earlier ones in use.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Project sequence in our JavaScript classes</caption><thead><tr><th scope="col">Project</th><th scope="col">New idea</th><th scope="col">Done when</th></tr></thead><tbody><tr><td>Tip calculator in the browser</td><td>Variables, functions, events</td><td>It handles empty and silly input</td></tr><tr><td>Card game</td><td>Arrays, objects and state</td><td>A full round plays without errors</td></tr><tr><td>Data fetcher in Node</td><td>Promises and async functions</td><td>All requests finish and failures are reported</td></tr><tr><td>Faster data fetcher</td><td>Promise.all and error handling</td><td>It is faster and still correct when one request fails</td></tr><tr><td>Small React app</td><td>Components and props</td><td>Another learner can add a screen</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Learners who want to understand how larger programs are kept working can add the <a class="ag-inline-link" href="/software-development-course-australia">software development course</a>. Those curious about a compiled language may enjoy <a class="ag-inline-link" href="/c-plus-plus-classes-online-australia">C++ classes</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="debug">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Debugging</p><h2>Finding bugs with the tools already in the browser</h2><p class="ag-lede">Every modern browser includes developer tools. Learners use them from the first week instead of guessing.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Browser developer tools learners use</caption><thead><tr><th scope="col">Tool</th><th scope="col">What it shows</th><th scope="col">Typical use</th></tr></thead><tbody><tr><td>Console</td><td>Errors, warnings and anything logged</td><td>Reading the first error, not the last</td></tr><tr><td>Breakpoints</td><td>The program paused on a chosen line</td><td>Checking values one step at a time</td></tr><tr><td>Network panel</td><td>Every request, its timing and its reply</td><td>Seeing whether requests run one after another or together</td></tr><tr><td>Elements panel</td><td>The live page and its styles</td><td>Finding why a button does not respond</td></tr><tr><td>Performance panel</td><td>Where time goes while a page runs</td><td>Spotting slow loops and long tasks</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The async example, seen live</h3><p>In the network panel, the sequential version shows eight requests as a staircase; the Promise.all version shows them stacked side by side.</p>
+<p>Seeing the shape makes the timing difference obvious without reading a single number.</p></div><div><h3>Reading errors calmly</h3><p>Learners practise reading an error message from the top: what kind of error, on which line, in which file.</p>
+<p>Most beginner bugs are solved by the first line of the first error.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="modern">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Modern JavaScript</p><h2>Old habits and modern replacements</h2><p class="ag-lede">JavaScript has changed a great deal. Learners meet older code online, so we show both and explain why the newer form is preferred.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Older patterns and what we teach instead</caption><thead><tr><th scope="col">Older pattern</th><th scope="col">Modern form</th><th scope="col">Why</th></tr></thead><tbody><tr><td>var</td><td>let and const</td><td>Clearer scope and fewer accidental changes</td></tr><tr><td>Nested callbacks</td><td>Promises with async and await</td><td>Code that reads top to bottom</td></tr><tr><td>== comparisons</td><td>=== comparisons</td><td>No surprising type conversions</td></tr><tr><td>String joining with +</td><td>Template literals</td><td>Easier to read and edit</td></tr><tr><td>Manual loops for everything</td><td>map, filter and for...of</td><td>Intent is clear at a glance</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Knowing the older forms still matters, because tutorials, answers online and existing projects are full of them. Learners rewrite a short old-style script in modern JavaScript as an exercise.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reading AI-written JavaScript</h3><p>AI assistants produce JavaScript quickly, and it often mixes old and new styles or skips the waiting step in asynchronous code. Learners who know the patterns on this page can spot both.</p>
+<p>Teens use AI tools only where the age rules of each tool allow it; adults can use them more freely.</p></div><div><h3>Small programs, read closely</h3><p>Each lesson includes a short program to read before running: what will it print, and in what order? Asynchronous code makes that question interesting.</p>
+<p>Predicting first, then running, is how the event loop stops being mysterious.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>Four levels of JavaScript skill</h2>
+      <p class="ag-lede">Each level is a set of things a learner can do, confirmed by a project.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From scripts to applications</caption><thead><tr><th scope="col">Level</th><th scope="col">What you can do</th></tr></thead><tbody><tr><td>1. Scripter</td><td class="ag-num">Write functions that work on numbers, strings and arrays</td></tr><tr><td>2. Page builder</td><td class="ag-num">Make a web page respond to clicks and typing</td></tr><tr><td>3. Async coder</td><td class="ag-num">Fetch data, wait for it correctly and handle failures</td></tr><tr><td>4. App builder</td><td class="ag-num">Structure a larger program in components or modules</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>JavaScript or Python first?</h3><p>Either works. Python is gentler for complete beginners; JavaScript is better for someone who wants things on screen quickly.</p>
+<p>Many learners end up using both.</p></div><div><h3>Is TypeScript worth learning?</h3><p>For adults building larger projects, yes. It adds types that catch mistakes before the code runs.</p>
+<p>We teach it after plain JavaScript feels comfortable.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>JavaScript courses</h2>
+      <p class="ag-lede">Grouped by age and stage. The free class decides where a learner starts.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Teens</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JSAU / TEN / 01</p>
+          <h4>JavaScript for Teens</h4>
+          <p>Interactive pages and games.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JSAU / TEN / 02</p>
+          <h4>React for Teens</h4>
+          <p>JavaScript to real React apps.</p>
+          <a class="ag-course-link" href="/courses/react-for-teens-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JSAU / TEN / 03</p>
+          <h4>Backend Development for Teens</h4>
+          <p>Node, APIs and databases.</p>
+          <a class="ag-course-link" href="/courses/backend-coding-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Adults</h3>
+        <span class="ag-band-sub">18 and over</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JSAU / ADL / 01</p>
+          <h4>TypeScript Course</h4>
+          <p>Typed JavaScript, React and Node.</p>
+          <a class="ag-course-link" href="/courses/complete-typescript-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JSAU / ADL / 02</p>
+          <h4>React Masterclass</h4>
+          <p>To production React.</p>
+          <a class="ag-course-link" href="/courses/react-js-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JSAU / ADL / 03</p>
+          <h4>MERN Stack Course</h4>
+          <p>MongoDB, Express, React, Node.</p>
+          <a class="ag-course-link" href="/courses/mern-stack-development-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Around the language</h3>
+        <span class="ag-band-sub">Useful companions</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JSAU / CMP / 01</p>
+          <h4>HTML and CSS for Beginners</h4>
+          <p>The page JavaScript works on.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JSAU / CMP / 02</p>
+          <h4>Git and GitHub for Teens</h4>
+          <p>Saving every version.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JSAU / CMP / 03</p>
+          <h4>Full Stack Developer Course</h4>
+          <p>React, Node and deployment, 18+.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>JavaScript lessons on Australian time</h2>
+      <p class="ag-lede">Teachers work from India, and their day overlaps Australian afternoons and evenings. Times are set in your own state's time and move with daylight saving.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">For teens in term time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evening</p><p class="ag-slot-l">For adults after work, by arrangement.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Longer build sessions.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Free first class</h3><p>A first script in the browser and advice on where to start.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten learners at the same stage.</p></div>
+      <div><h3>One to one</h3><p>For a particular project or pace.</p></div>
+      <div><h3>Console open</h3><p>Learners read errors in the browser console from day one.</p></div>
+      <div><h3>Real data</h3><p>Public Australian data in the async projects.</p></div>
+      <div><h3>Code by the learner</h3><p>Teachers guide; learners type every line.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Published work by our students</h2>
+      <p class="ag-lede">Work our students built and published. More in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for JavaScript classes</h2>
+      <p class="ag-lede">Learners outside India pay one monthly fee in US dollars; nothing is due at sign-up and there is no contract.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A first script running in your browser</li><li>Advice on the right course</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten learners per class</li><li>Code shared and discussed</li><li>The same teacher each week</li><li>Stop after any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Lessons around one learner's project</li><li>Browser, Node or React focus</li><li>Times around school or work</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Published Google reviews, copied without edits.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learners ask</p>
+      <h2>Questions about online JavaScript classes in Australia</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What do online JavaScript classes cover?</h3>
+        <p>The core language, how it works in the browser, Node.js for scripts and servers, and asynchronous code with promises and async functions.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the difference between await in a loop and Promise.all?</h3>
+        <p>Awaiting in a loop runs requests one after another; Promise.all lets them overlap. In our test with eight ABS requests, the loop took 16,843 ms and Promise.all 2,190 ms in the first round.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does forEach with async not work as expected?</h3>
+        <p>forEach does not wait for the promises its callback returns, so the code after it runs before the work is done. In our test it returned after 8.5 ms with none of eight requests finished.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is JavaScript in the Australian Curriculum?</h3>
+        <p>It is named as an example. The elaboration for AC9TDI8P09 describes using a general-purpose language "such as Python, JavaScript or C#".</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to know HTML first?</h3>
+        <p>It helps for browser work but is not required. Learners can start with JavaScript in Node and add HTML later.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age can start?</h3>
+        <p>Teens from 13 and adults of any age. Younger children usually start with Scratch or Python.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is this different from web development for teens?</h3>
+        <p>Web development for teens is about building whole sites. These classes go deeper into the JavaScript language itself and are open to adults.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should I learn TypeScript?</h3>
+        <p>Once plain JavaScript is comfortable, TypeScript is a good next step for larger projects.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will this get me a web developer job?</h3>
+        <p>We make no job or salary promises. The classes build real projects and understanding you can show.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much are JavaScript classes?</h3>
+        <p>The first class is on us, with no card asked for. Monthly group and one-to-one prices are listed in the fees panel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Also on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Pages beside this one.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/web-development-course-for-teens-australia">Web development for teens</a></h3><p>Whole sites, designed and published.</p></div>
+      <div><h3><a class="ag-inline-link" href="/software-development-course-australia">Software development course</a></h3><p>Testing, Git and debugging.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-classes-online-australia">C++ classes online</a></h3><p>A compiled language.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-career-changers-australia">Coding for career changers</a></h3><p>For adults switching fields.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>States, cities, exams and every subject door.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-coding-tutor-australia">Online coding tutor</a></h3><p>Private help in any language.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free JavaScript lesson</h2>
+        <p class="ag-lede">Leave your details and we will phone at a convenient time. The first class runs a first script and ends with a recommendation.</p>
+        <p class="ag-mt-40">Read about <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or browse <a class="ag-inline-link" href="/courses">every course</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Australia%20and%20interested%20in%20online%20JavaScript%20classes.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jsau',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Send a WhatsApp from your Australian number for the fastest answer. The +91 line is answered by our team in India; we have no Australian office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_jsau(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Languages</h4><ul><li><a href="/c-plus-plus-classes-online-australia">C++ classes</a></li><li><a href="/web-development-course-for-teens-australia">Web development for teens</a></li><li><a href="/online-coding-tutor-australia">Online coding tutor</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/software-development-course-australia">Software development</a></li><li><a href="/data-science-course-australia">Data science course</a></li><li><a href="/coding-for-career-changers-australia">Career changers</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Start it, then wait for it</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_jsau = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'javascript-classes-online-australia-inline', meta: { name: name, age: age, page: 'javascript-classes-online-australia' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

@@ -629,6 +629,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and Python academy for girls](/ai-and-python-academy-for-girls-australia)
 - [Competitive programming](/competitive-programming-australia)
 - [Coding for career changers](/coding-for-career-changers-australia)
+- [JavaScript classes online](/javascript-classes-online-australia)
 <!-- AU-LINKS -->
 
 
