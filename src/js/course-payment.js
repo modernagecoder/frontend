@@ -317,13 +317,23 @@ const CoursePayment = {
     console.log('✅ CoursePayment ready - waiting for EnrollmentModal to call showPaymentModal()');
   },
 
-  // The one enrolment popup: plan summary, three fields, pay. It opens
-  // straight from Enroll Now for Indian and international visitors alike
-  // (there is no WhatsApp step in between) and is styled in the editorial
-  // theme the course pages use.
-  showPaymentModal: function(planType) {
+  // The enrolment popup: plan summary, three fields, pay. Styled in the
+  // editorial theme the course pages use. Indian Group and Mini Batch
+  // visitors see the batch check popup (showBatchCheck) first; everyone
+  // else opens straight here.
+  showPaymentModal: function(planType, opts) {
     if (!this.config && this._ready && !this._loadDone) {
-      this._ready.then(() => this.showPaymentModal(planType));
+      this._ready.then(() => this.showPaymentModal(planType, opts));
+      return;
+    }
+    // Group and Mini Batch run at set times, so the team confirms a slot
+    // (or that the batch has started) on call or WhatsApp before the family
+    // pays. Shown once per course per browser session; "Continue to
+    // enrolment" passes skipBatchCheck and lands back here.
+    const isIndianVisitor = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
+    if (isIndianVisitor && (planType === 'group' || planType === 'miniBatch') &&
+        !(opts && opts.skipBatchCheck) && !this._batchCheckSeen()) {
+      this.showBatchCheck(planType);
       return;
     }
     const pricing = this.getPricing(planType);
@@ -440,6 +450,120 @@ const CoursePayment = {
       e.preventDefault();
       this.processPayment(planType, pricing.amount);
     });
+  },
+
+  _batchCheckKey: function() {
+    return 'mac-batch-check:' + (this.courseSlug || location.pathname);
+  },
+
+  _batchCheckSeen: function() {
+    try { return sessionStorage.getItem(this._batchCheckKey()) === '1'; } catch (e) { return false; }
+  },
+
+  _track: function(name, planType) {
+    try {
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', name, { course: this.courseSlug, plan: planType });
+      }
+    } catch (e) { /* analytics must never block enrolment */ }
+  },
+
+  // "Talk to us first" popup for Group and Mini Batch (India only). Same
+  // shell, id and close handling as the payment popup, so Escape, the
+  // backdrop and EnrollmentModal.closeAll() treat it the same way.
+  showBatchCheck: function(planType) {
+    const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const course = this.courseName || 'a course';
+    const plan = this.getPlanShortName(planType);
+    const waText = 'Hi Modern Age Coders! I would like to join ' + course + ' (' + plan + ').\n\n' +
+      'Student name: \nStudent age / class: \nPreferred days and time: \n\n' +
+      'Is a batch available at this time, or has the current batch already started?';
+    const waHref = 'https://wa.me/919123366161?text=' + encodeURIComponent(waText);
+    const waIcon = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2S21.8 6.6 21.8 12 17.4 21.8 12 21.8zM12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.8 1 3.8 1.5 5.8 1.5 6.6 0 12-5.4 12-12S18.6 0 12 0z"/></svg>';
+    const phoneIcon = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>';
+
+    this.closeModal();
+    const html = `
+      <div id="payment-modal" class="payment-modal-overlay mac-pay-overlay" role="dialog" aria-modal="true" aria-labelledby="mac-bc-title">
+        <div class="mac-pay mac-bc">
+          <button type="button" class="mac-pay-close" aria-label="Close">&times;</button>
+          <div class="mac-bc-badge" aria-hidden="true">&#128075;</div>
+          <p class="mac-pay-eyebrow">One quick step before you pay</p>
+          <h2 id="mac-bc-title" class="mac-pay-title">Let's find the right batch for you</h2>
+          <p class="mac-bc-lead">Group classes and mini batches run at set times. Please have a quick word with the Modern Age Coders team before you enrol, so we can check:</p>
+          <ul class="mac-bc-list">
+            <li><span>1</span><div>Is a batch available at the time you want?</div></li>
+            <li><span>2</span><div>Has the batch already started, and where would you join?</div></li>
+            <li><span>3</span><div>Need your own timing? <b>Personalized 1-on-1</b> classes run on a fully flexible schedule.</div></li>
+          </ul>
+          <div class="mac-bc-share">
+            <span class="mac-pay-label">Share with us</span>
+            <p>Student name, age or class, this course, and your preferred days and time.</p>
+          </div>
+          <div class="mac-bc-actions">
+            <a class="mac-bc-btn mac-bc-wa" href="${waHref}" target="_blank" rel="noopener">${waIcon}<span>WhatsApp us</span></a>
+            <a class="mac-bc-btn mac-bc-call" href="tel:+919123366161">${phoneIcon}<span>Call +91 91233 66161</span></a>
+          </div>
+          <p class="mac-bc-after">Once the team confirms your batch, come back and complete your enrolment.</p>
+          <button type="button" class="mac-bc-continue">Already spoken to the team? Continue to enrolment &rarr;</button>
+        </div>
+      </div>
+    `;
+    document.body.insertAdjacentHTML('beforeend', html);
+    this.addModalStyles();
+    this.addBatchCheckStyles();
+    document.body.classList.add('mac-pay-open');
+    this._track('batch_check_shown', planType);
+
+    const overlay = document.getElementById('payment-modal');
+    overlay.querySelector('.mac-pay-close').addEventListener('click', () => this.closeModal());
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) this.closeModal(); });
+    this._onKey = (e) => { if (e.key === 'Escape') this.closeModal(); };
+    document.addEventListener('keydown', this._onKey);
+    overlay.querySelector('.mac-bc-wa').addEventListener('click', () => this._track('batch_check_whatsapp', planType));
+    overlay.querySelector('.mac-bc-call').addEventListener('click', () => this._track('batch_check_call', planType));
+    overlay.querySelector('.mac-bc-continue').addEventListener('click', () => {
+      try { sessionStorage.setItem(this._batchCheckKey(), '1'); } catch (e) { /* private mode */ }
+      this._track('batch_check_continue', planType);
+      this.showPaymentModal(planType, { skipBatchCheck: true });
+    });
+  },
+
+  addBatchCheckStyles: function() {
+    if (document.getElementById('mac-batch-check-styles')) return;
+    const styles = document.createElement('style');
+    styles.id = 'mac-batch-check-styles';
+    styles.textContent = `
+      .mac-bc{max-width:480px}
+      .mac-bc-badge{width:52px;height:52px;margin:0 0 14px;display:flex;align-items:center;justify-content:center;border-radius:50%;
+        background:var(--mp-tint);border:1px solid rgba(180,83,9,.22);font-size:26px;line-height:1}
+      .mac-bc-badge{animation:macBcWave 1.6s ease .35s 1 both;transform-origin:70% 70%}
+      .mac-bc .mac-pay-title{margin-bottom:10px}
+      .mac-bc-lead{margin:0 0 14px;font-size:15px;color:var(--mp-soft)}
+      .mac-bc-list{list-style:none;margin:0 0 16px;padding:0;display:flex;flex-direction:column;gap:10px}
+      .mac-bc-list li{display:flex;gap:11px;align-items:flex-start;font-size:14.5px;line-height:1.45;color:var(--mp-ink)}
+      .mac-bc-list li span{flex-shrink:0;width:24px;height:24px;margin-top:-1px;display:flex;align-items:center;justify-content:center;border-radius:50%;
+        background:var(--mp-amber);color:#fff;font-family:var(--mp-mono);font-size:12px;font-weight:700}
+      .mac-bc-list b{color:var(--mp-amber-deep)}
+      .mac-bc-share{margin:0 0 18px;padding:12px 14px;background:var(--mp-paper);border:1px dashed rgba(28,24,20,.2);border-radius:12px}
+      .mac-bc-share p{margin:4px 0 0;font-size:14px;color:var(--mp-soft)}
+      .mac-bc-actions{display:grid;grid-template-columns:1fr;gap:10px}
+      .mac-bc-btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:12px 14px;border-radius:12px;
+        font-family:var(--mp-body);font-size:15px;font-weight:700;text-decoration:none!important;transition:background .2s,transform .15s}
+      .mac-bc-btn:hover{transform:translateY(-1px)}
+      .mac-bc-wa{background:#1F8A55;border:1px solid #1F8A55;color:#fff!important;box-shadow:0 12px 26px -14px rgba(31,138,85,.9)}
+      .mac-bc-wa:hover{background:#18744A;border-color:#18744A}
+      .mac-bc-call{background:#fff;border:1.5px solid var(--mp-ink);color:var(--mp-ink)!important}
+      .mac-bc-call:hover{background:var(--mp-paper2)}
+      .mac-bc-after{margin:14px 0 6px;text-align:center;font-size:13px;color:var(--mp-muted)}
+      .mac-bc-continue{display:block;width:100%;margin:0;padding:10px 6px;border:0;background:none;cursor:pointer;
+        font-family:var(--mp-body);font-size:14px;font-weight:600;color:var(--mp-amber-deep);text-decoration:underline;text-underline-offset:3px}
+      .mac-bc-continue:hover{color:var(--mp-ink)}
+      @media (max-width:560px){.mac-bc-badge{width:46px;height:46px;font-size:23px}}
+      @keyframes macBcWave{0%,100%{transform:rotate(0)}20%{transform:rotate(16deg)}40%{transform:rotate(-8deg)}60%{transform:rotate(12deg)}80%{transform:rotate(-4deg)}}
+      @media (prefers-reduced-motion:reduce){.mac-bc-badge{animation:none}}
+    `;
+    document.head.appendChild(styles);
   },
 
   // Short plan name for the popup; getPlanName stays the longer form sent
