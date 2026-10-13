@@ -360,7 +360,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 324 | vibe-coding-and-ai-agents-classes-in-tea-tree-gully-adelaide (ttgc, #106A32) | cg- district page | 2,557 | 1.4% vs best-coding-and-ai-classes-in-burnside-adelaide | a vague tool description sends the agent to the wrong tool | tool descriptions steering agent tool choice | 0163d094 |
 | 325 | online-coding-and-python-classes-in-prospect-sa-adelaide (prsp, #815D2A) | cg- district page | 2,313 | 1.9% vs ai-and-programming-classes-in-mitcham-sa-adelaide | list.sort() returns None and the busiest-stop ranking crashes | list.sort() returns None | ca93a717 |
 | 326 | ai-and-programming-classes-in-mitcham-sa-adelaide (mtcm, #2B7222) | cg- district page | 2,493 | 1.9% vs online-coding-and-python-classes-in-prospect-sa-adelaide | where a classifier draws its line on Mitcham bus stops | decision boundary | 9e6b86aa |
-| 341 | online-coding-and-python-classes-in-sandy-bay-hobart (sdby, #733042) | cg- district page | 2,391 | 1.9% vs online-coding-and-python-classes-in-norwood-adelaide | nested LIST JSON flattened into a usable road table | flattening nested JSON | (this commit) |
+| 341 | online-coding-and-python-classes-in-sandy-bay-hobart (sdby, #733042) | cg- district page | 2,391 | 1.9% vs online-coding-and-python-classes-in-norwood-adelaide | nested LIST JSON flattened into a usable road table | flattening nested JSON | 7fea8407 |
+| 342 | ai-and-programming-classes-in-kingston-tas-hobart (kgtn, #4A651A) | cg- district page | 2,435 | 1.5% vs best-coding-and-ai-classes-in-glenorchy-hobart | when should training stop on Kingston road data | stopping criteria (tolerance vs iteration cap) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
