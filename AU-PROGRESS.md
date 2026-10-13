@@ -374,7 +374,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 346 | ai-and-programming-classes-in-casuarina-darwin (casu, #531E30) | cg- district page | 2,344 | 1.3% vs ai-and-programming-classes-in-woden-canberra | factorising the Darwin bus timetable into morning, afternoon and all-day patterns around Casuarina | non-negative matrix factorisation | 720a2247 |
 | 347 | best-coding-and-ai-classes-in-nightcliff-darwin (ntcf, #984A1F) | cg- district page | 2,399 | 0.8% vs best-coding-and-ai-classes-in-inner-west-sydney | takewhile counts no Nightcliff buses before nine until the rows are sorted | itertools.takewhile vs filter | 6278d1ae |
 | 348 | vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle (lkmq, #2F3267) | cg- district page | 2,522 | 1.3% vs vibe-coding-and-ai-agents-classes-in-toowong-brisbane | an agent answers for the wrong month because nobody told it the date | date grounding for agents | 84998450 |
-| 349 | online-coding-and-python-classes-in-maitland-newcastle (mtld, #742325) | cg- district page | 2,375 | 1.1% vs ai-and-programming-classes-in-marion-adelaide | a greedy regex matches none of the nine Maitland stations | greedy vs lazy regex quantifiers | (this commit) |
+| 349 | online-coding-and-python-classes-in-maitland-newcastle (mtld, #742325) | cg- district page | 2,375 | 1.1% vs ai-and-programming-classes-in-marion-adelaide | a greedy regex matches none of the nine Maitland stations | greedy vs lazy regex quantifiers | fa1c2e21 |
+| 350 | ai-and-programming-classes-in-charlestown-newcastle (chtn, #386555) | cg- district page | 2,408 | 1.4% vs ai-and-programming-classes-in-unley-adelaide | the blanks in the Charlestown road file are the strongest clue | missing-value indicator features | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -373,6 +373,7 @@ const SLUGS = [
   'coding-class-or-maths-tutor-first-australia',
   'online-coding-classes-australia-compared',
   'after-school-coding-club-vs-online-class-australia',
+  'java-classes-online-australia',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -825,6 +826,7 @@ const LLMS_LABELS = {
   'coding-class-or-maths-tutor-first-australia': 'Coding class or maths tutor first, Australia',
   'online-coding-classes-australia-compared': 'Online coding classes compared, Australia',
   'after-school-coding-club-vs-online-class-australia': 'After-school coding club vs online class, Australia',
+  'java-classes-online-australia': 'Java classes online, Australia',
 };
 
 function wireLlms(slugs) {
