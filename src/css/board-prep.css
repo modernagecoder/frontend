@@ -194,6 +194,21 @@
   display: inline-block; font-family: var(--bx-mono); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase;
   color: var(--bx-accent); border: 1.5px solid var(--bx-accent); border-radius: 3px; padding: 6px 10px;
 }
+/* course offer inside the hero card: course name, both formats, monthly fee */
+.bx-offer { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--bx-rule); display: grid; gap: 8px; }
+.bx-offer-course { font-size: 0.92rem; margin: 0 0 2px; color: var(--bx-ink-2); }
+.bx-offer-course span { display: block; font-family: var(--bx-mono); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--bx-muted); margin-bottom: 2px; }
+.bx-root .bx-offer-course a { color: var(--bx-ink); font-weight: 600; text-decoration: underline; text-decoration-color: var(--bx-accent); text-underline-offset: 3px; }
+.bx-root a.bx-offer-opt {
+  display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; align-items: baseline;
+  padding: 10px 12px; border: 1px solid var(--bx-rule); border-radius: 4px; background: var(--bx-paper);
+  color: var(--bx-ink); text-decoration: none; min-height: 44px;
+}
+.bx-root a.bx-offer-opt:hover { border-color: var(--bx-accent); }
+.bx-offer-k { font-weight: 600; font-size: 0.92rem; }
+.bx-offer-p { font-family: var(--bx-serif); font-size: 1.1rem; white-space: nowrap; grid-row: span 2; align-self: center; }
+.bx-offer-p small { font-family: var(--bx-mono); font-size: 0.75rem; color: var(--bx-muted); margin-left: 2px; }
+.bx-offer-v { font-family: var(--bx-mono); font-size: 0.75rem; color: var(--bx-muted); }
 .bx-trust { font-size: 0.9rem; color: var(--bx-ink-2); margin: 0 0 8px; }
 .bx-stars { color: #B7791F; letter-spacing: 1px; font-size: 0.9rem; margin-right: 6px; }
 

@@ -5,18 +5,18 @@ canonical: https://learn.modernagecoders.com/icse-class-10-java-classes-online
 source: src/pages/icse-class-10-java-classes-online.html
 ---
 
-> ICSE Class 10 Computer Applications is taught in Java with BlueJ and marked out of 200: a two-hour theory paper of 100 marks, where Section A is 40 compulsory short-answer marks across the whole syllabus and Section B is 60 marks of programs, any four at 15 marks each, plus a 100-mark internal assessment from at least twenty lab assignments and a project, shared between an internal teacher and an external examiner. Modern Age Coders teaches it live online in a mini batch of four or five students, every Tuesday at 5:30 PM and Wednesday at 8 PM IST: Tuesdays for concepts and Section A technique, Wednesdays for writing programs in BlueJ with the teacher reading every line. The first class is a free demo.
+> ICSE Class 10 Computer Applications is taught in Java with BlueJ and marked out of 200: a two-hour theory paper of 100 marks, where Section A is 40 compulsory short-answer marks across the whole syllabus and Section B is 60 marks of programs, any four at 15 marks each, plus a 100-mark internal assessment from at least twenty lab assignments, shared between an internal teacher and an external examiner. Modern Age Coders teaches it live online in a mini batch of four or five students, every Tuesday at 5:30 PM and Wednesday at 8 PM IST: Tuesdays for concepts and Section A technique, Wednesdays for writing programs in BlueJ with the teacher reading every line. The first class is a free demo.
 
 ## The batch
 
 - Tuesday, 5:30 PM IST: concepts and the Section A question shapes.
 - Wednesday, 8:00 PM IST: the programs lab in BlueJ, one Section B-style program and lab assignment per week.
-- Gulf families: Tuesday 4:00 PM and Wednesday 6:30 PM in the UAE and Oman; Tuesday 3:00 PM and Wednesday 5:30 PM in Saudi Arabia, Qatar, Kuwait and Bahrain.
+- Outside India (UAE, Singapore, Indonesia, Thailand): personalised one to one at a local time after school.
 - A mini batch of four or five students, the same teacher all year, live and 100 percent online.
 
 ## How 200 marks split
 
-Theory paper, 100 marks, two hours: Section A, 40 compulsory short-answer marks across the whole syllabus; Section B, 60 marks of programs, any four of the questions offered at 15 marks each, written in Java with variable descriptions so the logic is clear, with flowcharts and algorithms not required. Internal assessment, 100 marks: at least 20 lab assignments in the year plus a project, assessed 50 by the internal teacher and 50 by an external examiner. So 160 of the 200 marks are earned by producing working Java, Section A needs its own short-answer practice, and half the internal marks come from an examiner who will ask the student to explain their own work.
+Theory paper, 100 marks, two hours: Section A, 40 compulsory short-answer marks across the whole syllabus; Section B, 60 marks of programs, any four of the questions offered at 15 marks each, written in Java with variable descriptions so the logic is clear, with flowcharts and algorithms not required. Internal assessment, 100 marks: at least 20 lab assignments in the year, assessed 50 by the internal teacher and 50 by an external examiner. So 160 of the 200 marks are earned by producing working Java, Section A needs its own short-answer practice, and half the internal marks come from an examiner who will ask the student to explain their own work.
 
 ## Tuesday is for Section A, Wednesday is for Section B and the lab file
 
@@ -32,7 +32,7 @@ A memorised number-triangle program answers last year's question and cannot be i
 
 ## Banking the 100 internal marks
 
-The lab file grows one assignment a week from the first month, closer to twenty-five against a minimum of twenty. The project is scoped early and drafted in the second term. Every program is explained aloud, every week, because half the internal marks come from an examiner who was not there. A timed practical mock in the second term, and a dress rehearsal before the school's practical day.
+The lab file grows one assignment a week from the first month, closer to twenty-five against a minimum of twenty. A few larger programs are scoped early and written in the second term. Every program is explained aloud, every week, because half the internal marks come from an examiner who was not there. A timed practical mock in the second term, and a dress rehearsal before the school's practical day.
 
 ## Why a mini batch
 

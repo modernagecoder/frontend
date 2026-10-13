@@ -92,7 +92,7 @@ stringsCh 10
 
 ### Arrays + Project
 
-Searching, sorting, average, plus the required ICSE CA project.
+Searching, sorting, average, plus the lab file for the internal assessment.
 
 arraysprojectThe curriculum path
 
@@ -122,7 +122,7 @@ Term 2 · Arrays + Project
 
 ### Project done properly
 
-Arrays chapter plus the mandatory ICSE CA project, topic, code, report, viva rehearsal.
+Arrays chapter plus the twenty-plus lab assignments for the internal assessment, each documented and rehearsed.
 
 - arrays
 - project
@@ -203,7 +203,7 @@ KKrishnam BhatterFormer studentCommon questions from parents
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-How many chapters are in ICSE Class 10 CA?The CISCE ICSE Class 10 Computer Applications syllabus has 10 units, spanning from revision of OOP basics through arrays. We cover every one.Is the project compulsory?Yes. The ICSE CA practical exam includes a project (20 marks) along with the viva. We help with both end-to-end.What is the tool: BlueJ or Eclipse?BlueJ. CISCE expects BlueJ screenshots and style. We use BlueJ in classes.Can you help with the CA viva?Yes. We rehearse the 40–50 most common viva questions so there are no surprises.How much time per week is needed?Two 1-hour sessions is typical. 1 session/week works if the student is already comfortable.What about pre-board drop?Very common. We run a 4-week intensive between pre-boards and boards specifically for students who dropped.Is 1-on-1 better than group for ICSE CA?1-on-1 for students needing major improvement. Group works for students already above 75% who want to reach 90+.Free demo?Yes. One full 1 hour live class with an ICSE-aware Java teacher. No card. Refund clause 2 weeks.Book a free 1 hour demo class
+How many chapters are in ICSE Class 10 CA?The CISCE ICSE Class 10 Computer Applications syllabus has eight units, from a revision of Class 9 through arrays and string handling. We cover every one.Is the project compulsory?Not as a separate piece of work. CISCE's 2027 syllabus asks for at least twenty lab assignments during the year, marked 50 by the subject teacher and 50 by an external examiner, and does not prescribe a project or a viva. Many schools call the finished lab file the computer project, and some set a larger program of their own. We help with the whole file, end to end.What is the tool: BlueJ or Eclipse?BlueJ. CISCE expects BlueJ screenshots and style. We use BlueJ in classes.Can you help with the CA viva?Yes. We rehearse the 40–50 most common viva questions so there are no surprises.How much time per week is needed?Two 1-hour sessions is typical. 1 session/week works if the student is already comfortable.What about pre-board drop?Very common. We run a 4-week intensive between pre-boards and boards specifically for students who dropped.Is 1-on-1 better than group for ICSE CA?1-on-1 for students needing major improvement. Group works for students already above 75% who want to reach 90+.Free demo?Yes. One full 1 hour live class with an ICSE-aware Java teacher. No card. Refund clause 2 weeks.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

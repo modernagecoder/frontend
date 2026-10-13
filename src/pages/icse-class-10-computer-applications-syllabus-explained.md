@@ -5,11 +5,11 @@ canonical: https://learn.modernagecoders.com/icse-class-10-computer-applications
 source: src/pages/icse-class-10-computer-applications-syllabus-explained.html
 ---
 
-> The ICSE Class 10 Computer Applications syllabus for the 2027 examination has eight Java units: Revision of Class IX syllabus, Class as the basis of all computation, User-defined methods, Constructors, Library classes, Encapsulation, Arrays and String handling. It is assessed by a two-hour theory paper of 100 marks, Section A being 40 compulsory short-answer marks across the whole syllabus and Section B being 60 marks of programs with any four attempted at 15 marks each, written in Java with variable descriptions and no flowcharts required, plus a 100-mark internal assessment from at least 20 lab assignments and a project, marked 50 by the internal teacher and 50 by an external examiner. Modern Age Coders teaches all of it live in BlueJ, Tuesday 5:30 PM and Wednesday 8 PM IST, in a mini batch of four or five.
+> The ICSE Class 10 Computer Applications syllabus for the 2027 examination has eight Java units: Revision of Class IX syllabus, Class as the basis of all computation, User-defined methods, Constructors, Library classes, Encapsulation, Arrays and String handling. It is assessed by a two-hour theory paper of 100 marks, Section A being 40 compulsory short-answer marks across the whole syllabus and Section B being 60 marks of programs with any four attempted at 15 marks each, written in Java with variable descriptions and no flowcharts required, plus a 100-mark internal assessment from at least 20 lab assignments, marked 50 by the internal teacher and 50 by an external examiner. Modern Age Coders teaches all of it live in BlueJ, Tuesday 5:30 PM and Wednesday 8 PM IST, in a mini batch of four or five.
 
 ## The scheme as CISCE sets it out
 
-Theory paper: one written paper of two hours, 100 marks. Section A: 40 marks of compulsory short-answer questions covering the entire syllabus. Section B: 60 marks of programming questions with a choice, any four of those offered at 15 marks each, in Java, written using variable descriptions or mnemonic codes so the logic is clearly depicted; flowcharts and algorithms not required. Internal assessment: 100 marks from practical lab work of at least 20 assignments in the year plus a project, 50 assessed by the internal teacher and 50 by an external examiner.
+Theory paper: one written paper of two hours, 100 marks. Section A: 40 marks of compulsory short-answer questions covering the entire syllabus. Section B: 60 marks of programming questions with a choice, any four of those offered at 15 marks each, in Java, written using variable descriptions or mnemonic codes so the logic is clearly depicted; flowcharts and algorithms not required. Internal assessment: 100 marks from practical lab work of at least 20 assignments in the year, 50 assessed by the internal teacher and 50 by an external examiner.
 
 ## The eight units, and how the paper asks about each
 
@@ -28,11 +28,11 @@ For s = "Computer", the guessed answer to s.substring(3).toUpperCase() + s.index
 
 ## The internal assessment
 
-At least 20 lab assignments completed during the year, each a working program with output; a documented project the student can present; 50 marks from the internal teacher and 50 from an external examiner who reviews the practical work and questions the student. A strong lab file spans every unit: input-and-compute programs, a class with constructor and methods, a menu-driven program, several array programs including a search and a sort, several string programs, and combined programs, each with a variable description and its real output.
+At least 20 lab assignments completed during the year, each a working program with output; no separate project is prescribed; 50 marks from the internal teacher and 50 from an external examiner the head of school nominates. A strong lab file spans every unit: input-and-compute programs, a class with constructor and methods, a menu-driven program, several array programs including a search and a sort, several string programs, and combined programs, each with a variable description and its real output.
 
 ## A school-year sequence
 
-April to May: the revision unit rebuilt through programs, the lab file begun. June to July: classes, methods and constructors as one arc. August: library classes and encapsulation, taught with Section A in mind. September to November: arrays and strings, the Section B core, with the file passing twenty and the project drafted. December to February: mocks, the practical rehearsal, then the paper. For the 2027 examination CISCE's published syllabus keeps Computer Applications consistent with recent years, with a general move toward questions that test application over recall.
+April to May: the revision unit rebuilt through programs, the lab file begun. June to July: classes, methods and constructors as one arc. August: library classes and encapsulation, taught with Section A in mind. September to November: arrays and strings, the Section B core, with the file passing twenty. December to February: mocks, the practical rehearsal, then the paper. For the 2027 examination CISCE's published syllabus keeps Computer Applications consistent with recent years, with a general move toward questions that test application over recall.
 
 ## The courses that teach this syllabus
 

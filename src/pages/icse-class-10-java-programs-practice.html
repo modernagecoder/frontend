@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/board-prep.css?v=20260825">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261013">
 
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
 
@@ -49,7 +49,7 @@
         "email": "connect@modernagecoders.com",
         "telephone": "+91-91233-66161",
         "foundingDate": "2020",
-        "areaServed": { "@type": "Country", "name": "India" },
+        "areaServed": [{ "@type": "Country", "name": "India" }, { "@type": "Country", "name": "United Arab Emirates" }, { "@type": "Country", "name": "Singapore" }, { "@type": "Country", "name": "Indonesia" }, { "@type": "Country", "name": "Thailand" }],
         "knowsAbout": ["Java Programming", "ICSE Computer Applications", "BlueJ", "Arrays and Strings", "Object-Oriented Programming", "Class 10 Board Preparation"]
       },
       {
@@ -109,7 +109,7 @@
   </script>
 </head>
 
-<body class="bx-root bx-ipr">
+<body class="bx-root bx-ipr bx-has-sticky">
 
 <nav class="bx-nav">
   <div class="bx-wrap bx-nav-inner">
@@ -140,6 +140,7 @@
         <p class="bx-lede">Sixty of the hundred theory marks in Computer Applications are programs, written by hand, any four of the questions offered at fifteen marks each. Students who fear Section B usually believe it is endless. It is not: the programs come from six recognisable families, and a student who can produce any four of them from a blank screen, with the variable description the board expects, has the whole section. This page names the families, writes one program from each with its variable description, shows what a fifteen-mark answer needs, and lays out the twenty-one-week ladder our Wednesday lab follows to get there.</p>
         <div class="bx-btn-row">
           <a href="#worked" class="bx-btn">Read the worked programs</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
           <a href="/icse-class-10-java-classes-online" class="bx-btn bx-btn--ghost">See the Wednesday lab</a>
           <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20My%20child%20needs%20practice%20with%20ICSE%20Class%2010%20Java%20programs%20for%20Section%20B." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'icse10-programs'});">Ask on WhatsApp</a>
         </div>
@@ -151,10 +152,15 @@
         <div class="bx-tt-row"><span class="bx-tt-day">Marks for programs</span><span class="bx-tt-time">60<small>of 100</small></span></div>
         <div class="bx-tt-row"><span class="bx-tt-day">Programs to attempt</span><span class="bx-tt-time">Any 4<small>15 each</small></span></div>
         <div class="bx-tt-row"><span class="bx-tt-day">Program families</span><span class="bx-tt-time">6<small>on this page</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
         <p class="bx-tt-zones"><b>Written in</b> Java, with variable descriptions or mnemonic codes so the logic is clearly depicted. <b>Not required:</b> flowcharts and algorithms.</p>
         <div class="bx-tt-foot">
           <span class="bx-stamp">Wednesday lab &middot; 8 PM IST</span>
-          <span class="bx-stamp">Mini batch &middot; 4 to 5 students</span>
+          <span class="bx-stamp" data-india-only="true">Mini batch &middot; 4 to 5 students</span>
         </div>
         <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
       </aside>
@@ -541,7 +547,7 @@ class Shapes {
         <ul><li>Private teaching on your own schedule</li><li>The ladder compressed to the weeks that remain</li><li>Every program read line by line as it is written</li></ul>
         <a href="#start" class="bx-btn bx-btn--ghost">Enquire</a>
       </div>
-      <div class="bx-price">
+      <div class="bx-price" data-india-only="true">
         <p class="bx-price-name">Group batch &middot; other timings</p>
         <p class="bx-price-amt"><span data-price="coding.india.group">₹1,499</span></p>
         <p class="bx-price-alt">per month</p>
@@ -549,6 +555,7 @@ class Shapes {
         <a href="#start" class="bx-btn bx-btn--ghost">Ask about timings</a>
       </div>
     </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
   </div>
 </section>
 
@@ -574,19 +581,29 @@ class Shapes {
   <div class="bx-wrap">
     <div class="bx-section-head">
       <p class="bx-qlabel">The rest of the Class 10 series</p>
-      <h2>Nine more pages for Class 10 board students</h2>
-      <p class="bx-lede">Four more on ICSE Computer Applications, and five on the CBSE AI paper for families on the other board.</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Ten pages on CBSE Artificial Intelligence 417 and ten on ICSE Computer Applications (Java), from the syllabus and the exam date to classes for families in the Gulf and abroad.</p>
     </div>
     <div class="bx-siblings">
-      <a class="bx-sib" href="/icse-class-10-java-classes-online"><span class="bx-sib-n">The Tue and Wed mini batch</span><span class="bx-sib-m">/icse-class-10-java-classes-online</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-classes-online"><span class="bx-sib-n">The Mon and Wed 9 PM AI batch</span><span class="bx-sib-m">/cbse-class-10-ai-classes-online</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-syllabus-explained"><span class="bx-sib-n">CBSE AI 417 syllabus explained</span><span class="bx-sib-m">/cbse-class-10-ai-syllabus-explained</span></a>
+      <a class="bx-sib" href="/python-for-cbse-class-10-ai"><span class="bx-sib-n">Python for Class 10 AI</span><span class="bx-sib-m">/python-for-cbse-class-10-ai</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-board-exam-preparation"><span class="bx-sib-n">CBSE AI board exam preparation</span><span class="bx-sib-m">/cbse-class-10-ai-board-exam-preparation</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-project-and-practical-file"><span class="bx-sib-n">AI project and practical file</span><span class="bx-sib-m">/cbse-class-10-ai-project-and-practical-file</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-exam-date-and-paper-pattern"><span class="bx-sib-n">CBSE AI exam date 2027 and pattern</span><span class="bx-sib-m">/cbse-class-10-ai-exam-date-and-paper-pattern</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-sample-paper-and-mock-tests"><span class="bx-sib-n">CBSE AI sample paper and mock tests</span><span class="bx-sib-m">/cbse-class-10-ai-sample-paper-and-mock-tests</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-important-questions"><span class="bx-sib-n">CBSE AI important questions</span><span class="bx-sib-m">/cbse-class-10-ai-important-questions</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-employability-skills-part-a"><span class="bx-sib-n">Part A employability skills</span><span class="bx-sib-m">/cbse-class-10-ai-employability-skills-part-a</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-online-classes-gulf-and-abroad"><span class="bx-sib-n">CBSE AI classes in the Gulf and abroad</span><span class="bx-sib-m">/cbse-class-10-ai-online-classes-gulf-and-abroad</span></a>
+      <a class="bx-sib" href="/icse-class-10-java-classes-online"><span class="bx-sib-n">The Tue and Wed ICSE Java batch</span><span class="bx-sib-m">/icse-class-10-java-classes-online</span></a>
       <a class="bx-sib" href="/icse-class-10-computer-applications-syllabus-explained"><span class="bx-sib-n">ICSE Computer Applications syllabus</span><span class="bx-sib-m">/icse-class-10-computer-applications-syllabus-explained</span></a>
       <a class="bx-sib" href="/icse-class-10-bluej-java-coaching"><span class="bx-sib-n">ICSE BlueJ Java coaching</span><span class="bx-sib-m">/icse-class-10-bluej-java-coaching</span></a>
       <a class="bx-sib" href="/icse-class-10-computer-applications-board-exam-preparation"><span class="bx-sib-n">ICSE board exam preparation</span><span class="bx-sib-m">/icse-class-10-computer-applications-board-exam-preparation</span></a>
-      <a class="bx-sib" href="/cbse-class-10-ai-classes-online"><span class="bx-sib-n">CBSE Class 10 AI classes</span><span class="bx-sib-m">/cbse-class-10-ai-classes-online</span></a>
-      <a class="bx-sib" href="/cbse-class-10-ai-syllabus-explained"><span class="bx-sib-n">CBSE 417 syllabus explained</span><span class="bx-sib-m">/cbse-class-10-ai-syllabus-explained</span></a>
-      <a class="bx-sib" href="/python-for-cbse-class-10-ai"><span class="bx-sib-n">Python for CBSE Class 10 AI</span><span class="bx-sib-m">/python-for-cbse-class-10-ai</span></a>
-      <a class="bx-sib" href="/cbse-class-10-ai-board-exam-preparation"><span class="bx-sib-n">CBSE AI board exam preparation</span><span class="bx-sib-m">/cbse-class-10-ai-board-exam-preparation</span></a>
-      <a class="bx-sib" href="/cbse-class-10-ai-project-and-practical-file"><span class="bx-sib-n">CBSE AI project and practical file</span><span class="bx-sib-m">/cbse-class-10-ai-project-and-practical-file</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-exam-date-and-paper-pattern"><span class="bx-sib-n">ICSE CA exam date 2027 and pattern</span><span class="bx-sib-m">/icse-class-10-computer-applications-exam-date-and-paper-pattern</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests"><span class="bx-sib-n">ICSE specimen paper and mock tests</span><span class="bx-sib-m">/icse-class-10-computer-applications-specimen-paper-and-mock-tests</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-important-questions"><span class="bx-sib-n">ICSE CA important questions</span><span class="bx-sib-m">/icse-class-10-computer-applications-important-questions</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-project-and-internal-assessment"><span class="bx-sib-n">ICSE project and internal assessment</span><span class="bx-sib-m">/icse-class-10-computer-applications-project-and-internal-assessment</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-classes-gulf-and-abroad"><span class="bx-sib-n">ICSE Java classes in the Gulf and abroad</span><span class="bx-sib-m">/icse-class-10-computer-applications-classes-gulf-and-abroad</span></a>
     </div>
   </div>
 </section>
@@ -646,6 +663,11 @@ class Shapes {
           <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
           <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
         </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
       </div>
     </div>
   </div>
@@ -662,6 +684,12 @@ class Shapes {
     <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India.</span><span>ICSE Computer Applications &middot; Section B</span></div>
   </div>
 </footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
 
 <script>
 window.submitBxLead = function (e) {

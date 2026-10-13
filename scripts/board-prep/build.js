@@ -99,7 +99,11 @@ const BOARD = {
     // IST 21:00 on both days
     slots: [['Mon and Wed', 21, 0]],
     knows: ['CBSE Artificial Intelligence 417', 'CBSE Class 10 Board Examination', 'Python', 'AI Project Cycle', 'Board Exam Revision'],
-    seriesLabel: 'CBSE Class 10 AI'
+    seriesLabel: 'CBSE Class 10 AI',
+    courseLabel: 'CBSE Class 10 AI (417) Board Preparation, Live',
+    courseSlug: 'cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843',
+    batchShort: 'Mon and Wed, 9:00 PM IST',
+    batchKind: 'Group batch'
   },
   icse: {
     short: 'ICSE CA',
@@ -114,7 +118,11 @@ const BOARD = {
     offerPrice: '2999',
     slots: [['Tuesday', 17, 30], ['Wednesday', 20, 0]],
     knows: ['ICSE Computer Applications', 'Java', 'BlueJ', 'CISCE ICSE Class 10 Examination', 'Board Exam Revision'],
-    seriesLabel: 'ICSE Class 10 Computer Applications'
+    seriesLabel: 'ICSE Class 10 Computer Applications',
+    courseLabel: 'ICSE Class 10 Computer Applications, Java with BlueJ, Live',
+    courseSlug: 'icse-computer-applications-java-bluej-course',
+    batchShort: 'Tue 5:30 PM and Wed 8:00 PM IST',
+    batchKind: 'Mini batch'
   }
 };
 
@@ -162,6 +170,18 @@ function shift(h, m, off) {
 }
 // a slot "works" if it starts after school is out and no later than 9:30 PM local
 function works(h, m, homeBy) { const t = h * 60 + m; return t >= homeBy && t <= 21 * 60 + 30; }
+
+// The course on offer, both formats and the monthly fee, inside the hero card so
+// a visitor sees what they are buying before the first scroll (owner, 2026-10-13).
+// Prices are data-price spans; the ICSE batch line is India-only (option c).
+function offerBlock(board) {
+  const b = BOARD[board];
+  return `<div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/${b.courseSlug}">${b.courseLabel}</a></p>
+          <a class="bx-offer-opt" href="#fees"${b.batchIndiaOnly ? ' data-india-only="true"' : ''}><span class="bx-offer-k">${b.batchKind}, fixed timings</span><span class="bx-offer-p"><span data-price="${b.priceKey}">${b.priceFallback}</span><small>/month</small></span><span class="bx-offer-v">${b.batchShort}</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>`;
+}
 
 function offsetText(off) {
   if (off === 0) return 'same as India';
@@ -453,6 +473,7 @@ ${p.navLinks.map(([h, l]) => `      <a href="${h}">${l}</a>`).join('\n')}
       <aside class="bx-timetable" aria-label="${esc(tt.label)}">
         <p class="bx-tt-title"><span>${tt.title}</span><b>${tt.right}</b></p>
 ${ttRows}
+        ${offerBlock(p.board)}
         <p class="bx-tt-zones">${tt.zones}</p>
         <div class="bx-tt-foot">
 ${tt.stamps.map(s => `          <span class="bx-stamp">${s}</span>`).join('\n')}
@@ -722,4 +743,4 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { render, renderMd, zoneTable };
+module.exports = { render, renderMd, zoneTable, SIBLINGS, offerBlock };

@@ -21,7 +21,7 @@ A spam filter tested on 100 emails: 40 spam correctly flagged, 10 genuine wrongl
 
 ## The two-phase board system
 
-From 2026, a compulsory phase one in February to March (17 February to 9 March in 2026) and an optional phase two in May (15 May to 1 June in 2026) for improving marks in a limited number of subjects, with the better score recorded. CBSE framed the improvement exam around the main subjects, so whether a skill subject like AI can be re-attempted is a question for your school. Plan on one attempt for 417, with the school practical, which precedes the theory paper, banked early.
+From 2026, a compulsory phase one in February to March (17 February to 11 March in 2026) and an optional phase two in May (15 to 21 May in 2026) for improving marks in a limited number of subjects, with the better score recorded. CBSE framed the improvement exam around the main subjects, so whether a skill subject like AI can be re-attempted is a question for your school. Plan on one attempt for 417, with the school practical, which precedes the theory paper, banked early.
 
 ## The eight-week countdown
 

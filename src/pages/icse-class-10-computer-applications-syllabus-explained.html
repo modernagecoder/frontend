@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/board-prep.css?v=20260825">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261013">
 
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
 
@@ -49,7 +49,7 @@
         "email": "connect@modernagecoders.com",
         "telephone": "+91-91233-66161",
         "foundingDate": "2020",
-        "areaServed": { "@type": "Country", "name": "India" },
+        "areaServed": [{ "@type": "Country", "name": "India" }, { "@type": "Country", "name": "United Arab Emirates" }, { "@type": "Country", "name": "Singapore" }, { "@type": "Country", "name": "Indonesia" }, { "@type": "Country", "name": "Thailand" }],
         "knowsAbout": ["ICSE Computer Applications Syllabus", "Java", "BlueJ", "CISCE Examination Scheme", "Object-Oriented Programming", "Class 10 Board Preparation"]
       },
       {
@@ -67,7 +67,7 @@
         "@type": "Course",
         "@id": "https://learn.modernagecoders.com/icse-class-10-computer-applications-syllabus-explained#course",
         "name": "ICSE Class 10 Computer Applications: The Full Syllabus, Taught Live in Java",
-        "description": "Live online classes covering every unit of the ICSE Class 10 Computer Applications syllabus in Java with BlueJ, from the Class 9 revision unit to string handling, with Section A technique, Section B programs, the lab assignments and the project, in a mini batch of four or five on Tuesday 5:30 PM and Wednesday 8 PM IST.",
+        "description": "Live online classes covering every unit of the ICSE Class 10 Computer Applications syllabus in Java with BlueJ, from the Class 9 revision unit to string handling, with Section A technique, Section B programs, the twenty-plus lab assignments, in a mini batch of four or five on Tuesday 5:30 PM and Wednesday 8 PM IST.",
         "url": "https://learn.modernagecoders.com/icse-class-10-computer-applications-syllabus-explained",
         "inLanguage": "en",
         "provider": { "@id": "https://learn.modernagecoders.com/#org" },
@@ -95,7 +95,7 @@
           {"@type": "Question", "name": "Has the Computer Applications syllabus changed for the 2027 exam?", "acceptedAnswer": {"@type": "Answer", "text": "CISCE has published the Class 10 syllabus for the 2026-27 session on its website for the 2027 examination, and for Computer Applications it is consistent with recent years: the same eight Class 10 units, the same 100 plus 100 scheme, Java in BlueJ. The unit list on this page is that syllabus. Always confirm against the school's copy of the current CISCE document, because the school's internal assessment schedule follows it."}},
           {"@type": "Question", "name": "Which units produce the Section B programs?", "acceptedAnswer": {"@type": "Answer", "text": "Almost every Section B program draws on arrays, string handling, user-defined methods, constructors and the control constructs from the Class 9 revision unit, usually combined: a class with a constructor and a method that processes an array, or a menu-driven program using switch that manipulates a string. The library classes and encapsulation units appear more in Section A, but their vocabulary, wrapper methods and access specifiers, shows up inside Section B programs too."}},
           {"@type": "Question", "name": "Is Class 9 material examined in the Class 10 paper?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The first Class 10 unit is Revision of Class IX syllabus, and Section A draws on it directly: operator precedence, data types and values, conditional and iterative constructs, loop counting. Section B programs assume all of it. A student who found Class 9 shaky should treat the revision unit as new material, which is how our batch teaches it in the first weeks."}},
-          {"@type": "Question", "name": "What does the internal assessment consist of?", "acceptedAnswer": {"@type": "Answer", "text": "One hundred marks from practical lab work and a project. Students must complete at least 20 lab assignments during the year, and prepare a project; the assessment is shared, 50 marks from the internal teacher and 50 from an external examiner. The assignments should span the syllabus, so a good lab file has programs from every unit rather than twenty variations of one."}},
+          {"@type": "Question", "name": "What does the internal assessment consist of?", "acceptedAnswer": {"@type": "Answer", "text": "One hundred marks from practical lab work. Students must complete at least 20 lab assignments during the year, and CISCE does not prescribe a separate project; the assessment is shared, 50 marks from the internal teacher and 50 from an external examiner. The assignments should span the syllabus, so a good lab file has programs from every unit rather than twenty variations of one."}},
           {"@type": "Question", "name": "Do students need to write algorithms or flowcharts in the exam?", "acceptedAnswer": {"@type": "Answer", "text": "No. CISCE's syllabus states that flowcharts and algorithms are not required for Section B programs. What is expected is the program in Java, written using variable descriptions or mnemonic codes so the logic is clearly depicted. In practice that means a short table of variables, their types and purposes beside each program, which our students write every week until it is automatic."}},
           {"@type": "Question", "name": "Which topics are the most heavily weighted?", "acceptedAnswer": {"@type": "Answer", "text": "CISCE does not publish unit-wise marks the way CBSE does, but the paper's structure weights the programming units: Section B is 60 of the 100 marks and its programs come overwhelmingly from arrays, strings, methods and constructors. Section A spreads its 40 marks across all eight units, which is why encapsulation and library classes, rarely the subject of a whole program, still matter: they are reliable two-mark questions."}},
           {"@type": "Question", "name": "In what order should the syllabus be studied?", "acceptedAnswer": {"@type": "Answer", "text": "Revision first, then classes, methods and constructors as one connected arc, because each depends on the last; then library classes and encapsulation, which are shorter; then arrays and strings, which carry the most Section B weight and benefit from the most practice time. Our Tuesday and Wednesday batch follows exactly this order, with the lab file growing from the first week so that arrays and strings arrive with a student who already writes Java daily."}},
@@ -108,7 +108,7 @@
   </script>
 </head>
 
-<body class="bx-root bx-isy">
+<body class="bx-root bx-isy bx-has-sticky">
 
 <nav class="bx-nav">
   <div class="bx-wrap bx-nav-inner">
@@ -139,6 +139,7 @@
         <p class="bx-lede">CISCE publishes the Computer Applications syllabus as a short document that most families skim once: eight units, a two-hour paper, an internal assessment worth as much as the paper. Read carefully, it tells you almost everything that decides a grade: which units are Section A vocabulary and which are Section B programs, why the Class 9 revision unit is the most examined unit in the book, what the phrase variable description actually requires, and how the second hundred marks are assessed by an examiner who has never met your child. This page reads the syllabus for you, unit by unit, and shows how the Tuesday and Wednesday mini batch covers all of it in a school year.</p>
         <div class="bx-btn-row">
           <a href="#units" class="bx-btn">Read the eight units</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
           <a href="/icse-class-10-java-classes-online" class="bx-btn bx-btn--ghost">See the Tue and Wed batch</a>
           <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20have%20a%20question%20about%20the%20ICSE%20Class%2010%20Computer%20Applications%20syllabus." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'icse10-syllabus'});">Ask on WhatsApp</a>
         </div>
@@ -150,7 +151,12 @@
         <div class="bx-tt-row"><span class="bx-tt-day">Theory paper, two hours</span><span class="bx-tt-time">100<small>marks</small></span></div>
         <div class="bx-tt-row"><span class="bx-tt-day">Internal assessment</span><span class="bx-tt-time">100<small>marks</small></span></div>
         <div class="bx-tt-row"><span class="bx-tt-day">Class 10 units, all Java</span><span class="bx-tt-time">8<small>units</small></span></div>
-        <p class="bx-tt-zones"><b>Section A</b> 40 marks, compulsory, whole syllabus &middot; <b>Section B</b> 60 marks, any four programs at 15 each &middot; <b>Internal</b> 20-plus lab assignments and a project, 50 internal and 50 external</p>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>Section A</b> 40 marks, compulsory, whole syllabus &middot; <b>Section B</b> 60 marks, any four programs at 15 each &middot; <b>Internal</b> 20-plus lab assignments, 50 internal and 50 external</p>
         <div class="bx-tt-foot">
           <span class="bx-stamp">Taught live Tue 5:30 and Wed 8 PM IST</span>
         </div>
@@ -173,7 +179,7 @@
         <div class="bx-pick-body">
           <p class="bx-pick-code">The paper / Class 10 mini batch</p>
           <h3>ICSE Computer Applications, Java with BlueJ</h3>
-          <p>Every unit on this page taught live on Tuesday and Wednesday evenings in a batch of four or five, with the lab file and project built across the year.</p>
+          <p>Every unit on this page taught live on Tuesday and Wednesday evenings in a batch of four or five, with the lab file built across the year.</p>
           <span class="bx-pick-go">Open the syllabus &rarr;</span>
         </div>
       </a>
@@ -203,7 +209,7 @@
   <div class="bx-wrap">
     <div class="bx-capsule">
       <p class="bx-capsule-q">Ans. The short version</p>
-      <p>The ICSE Class 10 Computer Applications syllabus for the 2027 examination has eight Java units: Revision of Class IX syllabus, Class as the basis of all computation, User-defined methods, Constructors, Library classes, Encapsulation, Arrays and String handling. It is assessed by a two-hour theory paper of 100 marks, Section A being 40 compulsory short-answer marks across the whole syllabus and Section B being 60 marks of programs with any four attempted at 15 marks each, written in Java with variable descriptions and no flowcharts required, plus a 100-mark internal assessment from at least 20 lab assignments and a project, marked 50 by the internal teacher and 50 by an external examiner. Modern Age Coders teaches all of it live in BlueJ, Tuesday 5:30 PM and Wednesday 8 PM IST, in a mini batch of four or five.</p>
+      <p>The ICSE Class 10 Computer Applications syllabus for the 2027 examination has eight Java units: Revision of Class IX syllabus, Class as the basis of all computation, User-defined methods, Constructors, Library classes, Encapsulation, Arrays and String handling. It is assessed by a two-hour theory paper of 100 marks, Section A being 40 compulsory short-answer marks across the whole syllabus and Section B being 60 marks of programs with any four attempted at 15 marks each, written in Java with variable descriptions and no flowcharts required, plus a 100-mark internal assessment from at least 20 lab assignments, marked 50 by the internal teacher and 50 by an external examiner. Modern Age Coders teaches all of it live in BlueJ, Tuesday 5:30 PM and Wednesday 8 PM IST, in a mini batch of four or five.</p>
     </div>
   </div>
 </section>
@@ -222,8 +228,8 @@
           <tr><td>Theory paper</td><td class="bx-num">100</td><td>One written paper of two hours duration</td></tr>
           <tr><td>Section A</td><td class="bx-num">40</td><td>Compulsory short-answer questions covering the entire syllabus</td></tr>
           <tr><td>Section B</td><td class="bx-num">60</td><td>Programming questions with a choice: any four of those offered, 15 marks each. Programs in Java, written using variable descriptions or mnemonic codes so the logic is clearly depicted; flowcharts and algorithms not required</td></tr>
-          <tr><td>Internal assessment</td><td class="bx-num">100</td><td>Practical lab work of at least 20 assignments in the year, plus a project</td></tr>
-          <tr><td>of which internal teacher</td><td class="bx-num">50</td><td>Continuous assessment of the lab work and project by the school</td></tr>
+          <tr><td>Internal assessment</td><td class="bx-num">100</td><td>Practical lab work of at least 20 assignments in the year</td></tr>
+          <tr><td>of which internal teacher</td><td class="bx-num">50</td><td>Continuous assessment of the lab work by the school</td></tr>
           <tr><td>of which external examiner</td><td class="bx-num">50</td><td>An external examiner assesses the practical work and questions the student</td></tr>
         </tbody>
       </table>
@@ -348,16 +354,16 @@ s.indexOf('t')      = 5
   <div class="bx-wrap">
     <div class="bx-section-head">
       <p class="bx-qlabel">Q4. What does the second hundred consist of?</p>
-      <h2>The internal assessment: twenty assignments, a project, two assessors</h2>
+      <h2>The internal assessment: twenty assignments, two assessors</h2>
     </div>
     <div class="bx-grid-2" style="align-items:start">
       <div>
         <h3>What the syllabus asks for</h3>
         <ul class="bx-check">
           <li class="bx-done"><b>At least 20 lab assignments</b> completed during the year, each a working program with its output.</li>
-          <li class="bx-done"><b>A project</b>, prepared and documented, that the student can present and answer questions on.</li>
+          <li class="bx-done"><b>No separate project</b> is prescribed by CISCE; many schools call the finished lab file the computer project.</li>
           <li class="bx-done"><b>Internal assessment, 50 marks</b>, by the school's teacher, continuous across the year.</li>
-          <li class="bx-done"><b>External assessment, 50 marks</b>, by an examiner who reviews the practical work and questions the student.</li>
+          <li class="bx-done"><b>External assessment, 50 marks</b>, by an examiner the head of school nominates, marking on the same four criteria.</li>
         </ul>
       </div>
       <div>
@@ -379,8 +385,8 @@ s.indexOf('t')      = 5
       <li class="bx-step"><h4>April to May: the revision unit, rebuilt through programs</h4><p>Data types, operators, input, conditionals and loops, each met in a small BlueJ program the same day, with the index-table habit and loop tracing introduced immediately. The lab file begins in week one.</p></li>
       <li class="bx-step"><h4>June to July: classes, methods and constructors as one arc</h4><p>The three units that depend on each other, taught as one connected story: a class models something, methods give it behaviour, constructors set it up. Section B's class-skeleton format is practised from the first week of methods.</p></li>
       <li class="bx-step"><h4>August: library classes and encapsulation</h4><p>Shorter units, taught with Section A in mind: wrapper and character method outputs, access specifiers and scope as reasons a program compiles or fails. Their vocabulary then appears inside every later program.</p></li>
-      <li class="bx-step"><h4>September to November: arrays and strings, the Section B core</h4><p>The two units that produce most Section B programs get the most weeks and the most Wednesdays: searching, sorting, two-dimensional tables, character-by-character string work, and combined programs. The lab file passes twenty here and the project is drafted.</p></li>
-      <li class="bx-step"><h4>December to February: mocks, the practical rehearsal, then the paper</h4><p>Full papers under time with Section A and Section B reviewed separately, a timed practical mock, the project defended to an unfamiliar teacher, and revision weighted toward whichever section the mocks show is losing marks.</p></li>
+      <li class="bx-step"><h4>September to November: arrays and strings, the Section B core</h4><p>The two units that produce most Section B programs get the most weeks and the most Wednesdays: searching, sorting, two-dimensional tables, character-by-character string work, and combined programs. The lab file passes twenty here.</p></li>
+      <li class="bx-step"><h4>December to February: mocks, the practical rehearsal, then the paper</h4><p>Full papers under time with Section A and Section B reviewed separately, a timed practical mock, the lab file explained to an unfamiliar teacher, and revision weighted toward whichever section the mocks show is losing marks.</p></li>
     </ol>
     <p class="bx-mt-40">
       What has and has not changed for the 2027 examination: CISCE's published Class 10 syllabus for
@@ -404,7 +410,7 @@ s.indexOf('t')      = 5
         <p class="bx-price-name">Mini batch &middot; Tue 5:30 PM and Wed 8 PM</p>
         <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
         <p class="bx-price-alt">per month</p>
-        <ul><li>Four or five students, one teacher all year</li><li>Every unit on this page, theory and lab</li><li>Lab file, project and practical mocks included</li><li>Certificate on completion</li></ul>
+        <ul><li>Four or five students, one teacher all year</li><li>Every unit on this page, theory and lab</li><li>Lab file and practical mocks included</li><li>Certificate on completion</li></ul>
         <a href="#start" class="bx-btn">Book the free demo</a>
       </div>
       <div class="bx-price">
@@ -414,7 +420,7 @@ s.indexOf('t')      = 5
         <ul><li>Private teaching on your own schedule</li><li>The eight units at the student's pace</li><li>The usual choice for a start after October</li></ul>
         <a href="#start" class="bx-btn bx-btn--ghost">Enquire</a>
       </div>
-      <div class="bx-price">
+      <div class="bx-price" data-india-only="true">
         <p class="bx-price-name">Group batch &middot; other timings</p>
         <p class="bx-price-amt"><span data-price="coding.india.group">₹1,499</span></p>
         <p class="bx-price-alt">per month</p>
@@ -422,6 +428,7 @@ s.indexOf('t')      = 5
         <a href="#start" class="bx-btn bx-btn--ghost">Ask about timings</a>
       </div>
     </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
   </div>
 </section>
 
@@ -447,19 +454,29 @@ s.indexOf('t')      = 5
   <div class="bx-wrap">
     <div class="bx-section-head">
       <p class="bx-qlabel">The rest of the Class 10 series</p>
-      <h2>Nine more pages for Class 10 board students</h2>
-      <p class="bx-lede">Four more on ICSE Computer Applications, and five on the CBSE AI paper for families on the other board.</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Ten pages on CBSE Artificial Intelligence 417 and ten on ICSE Computer Applications (Java), from the syllabus and the exam date to classes for families in the Gulf and abroad.</p>
     </div>
     <div class="bx-siblings">
-      <a class="bx-sib" href="/icse-class-10-java-classes-online"><span class="bx-sib-n">The Tue and Wed mini batch</span><span class="bx-sib-m">/icse-class-10-java-classes-online</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-classes-online"><span class="bx-sib-n">The Mon and Wed 9 PM AI batch</span><span class="bx-sib-m">/cbse-class-10-ai-classes-online</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-syllabus-explained"><span class="bx-sib-n">CBSE AI 417 syllabus explained</span><span class="bx-sib-m">/cbse-class-10-ai-syllabus-explained</span></a>
+      <a class="bx-sib" href="/python-for-cbse-class-10-ai"><span class="bx-sib-n">Python for Class 10 AI</span><span class="bx-sib-m">/python-for-cbse-class-10-ai</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-board-exam-preparation"><span class="bx-sib-n">CBSE AI board exam preparation</span><span class="bx-sib-m">/cbse-class-10-ai-board-exam-preparation</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-project-and-practical-file"><span class="bx-sib-n">AI project and practical file</span><span class="bx-sib-m">/cbse-class-10-ai-project-and-practical-file</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-exam-date-and-paper-pattern"><span class="bx-sib-n">CBSE AI exam date 2027 and pattern</span><span class="bx-sib-m">/cbse-class-10-ai-exam-date-and-paper-pattern</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-sample-paper-and-mock-tests"><span class="bx-sib-n">CBSE AI sample paper and mock tests</span><span class="bx-sib-m">/cbse-class-10-ai-sample-paper-and-mock-tests</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-important-questions"><span class="bx-sib-n">CBSE AI important questions</span><span class="bx-sib-m">/cbse-class-10-ai-important-questions</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-employability-skills-part-a"><span class="bx-sib-n">Part A employability skills</span><span class="bx-sib-m">/cbse-class-10-ai-employability-skills-part-a</span></a>
+      <a class="bx-sib" href="/cbse-class-10-ai-online-classes-gulf-and-abroad"><span class="bx-sib-n">CBSE AI classes in the Gulf and abroad</span><span class="bx-sib-m">/cbse-class-10-ai-online-classes-gulf-and-abroad</span></a>
+      <a class="bx-sib" href="/icse-class-10-java-classes-online"><span class="bx-sib-n">The Tue and Wed ICSE Java batch</span><span class="bx-sib-m">/icse-class-10-java-classes-online</span></a>
       <a class="bx-sib" href="/icse-class-10-java-programs-practice"><span class="bx-sib-n">ICSE Java programs practice</span><span class="bx-sib-m">/icse-class-10-java-programs-practice</span></a>
       <a class="bx-sib" href="/icse-class-10-bluej-java-coaching"><span class="bx-sib-n">ICSE BlueJ Java coaching</span><span class="bx-sib-m">/icse-class-10-bluej-java-coaching</span></a>
       <a class="bx-sib" href="/icse-class-10-computer-applications-board-exam-preparation"><span class="bx-sib-n">ICSE board exam preparation</span><span class="bx-sib-m">/icse-class-10-computer-applications-board-exam-preparation</span></a>
-      <a class="bx-sib" href="/cbse-class-10-ai-classes-online"><span class="bx-sib-n">CBSE Class 10 AI classes</span><span class="bx-sib-m">/cbse-class-10-ai-classes-online</span></a>
-      <a class="bx-sib" href="/cbse-class-10-ai-syllabus-explained"><span class="bx-sib-n">CBSE 417 syllabus explained</span><span class="bx-sib-m">/cbse-class-10-ai-syllabus-explained</span></a>
-      <a class="bx-sib" href="/python-for-cbse-class-10-ai"><span class="bx-sib-n">Python for CBSE Class 10 AI</span><span class="bx-sib-m">/python-for-cbse-class-10-ai</span></a>
-      <a class="bx-sib" href="/cbse-class-10-ai-board-exam-preparation"><span class="bx-sib-n">CBSE AI board exam preparation</span><span class="bx-sib-m">/cbse-class-10-ai-board-exam-preparation</span></a>
-      <a class="bx-sib" href="/cbse-class-10-ai-project-and-practical-file"><span class="bx-sib-n">CBSE AI project and practical file</span><span class="bx-sib-m">/cbse-class-10-ai-project-and-practical-file</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-exam-date-and-paper-pattern"><span class="bx-sib-n">ICSE CA exam date 2027 and pattern</span><span class="bx-sib-m">/icse-class-10-computer-applications-exam-date-and-paper-pattern</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests"><span class="bx-sib-n">ICSE specimen paper and mock tests</span><span class="bx-sib-m">/icse-class-10-computer-applications-specimen-paper-and-mock-tests</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-important-questions"><span class="bx-sib-n">ICSE CA important questions</span><span class="bx-sib-m">/icse-class-10-computer-applications-important-questions</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-project-and-internal-assessment"><span class="bx-sib-n">ICSE project and internal assessment</span><span class="bx-sib-m">/icse-class-10-computer-applications-project-and-internal-assessment</span></a>
+      <a class="bx-sib" href="/icse-class-10-computer-applications-classes-gulf-and-abroad"><span class="bx-sib-n">ICSE Java classes in the Gulf and abroad</span><span class="bx-sib-m">/icse-class-10-computer-applications-classes-gulf-and-abroad</span></a>
     </div>
   </div>
 </section>
@@ -475,7 +492,7 @@ s.indexOf('t')      = 5
       <div class="bx-faq-item"><h3>Has the Computer Applications syllabus changed for the 2027 exam?</h3><p>CISCE has published the Class 10 syllabus for the 2026-27 session on its website for the 2027 examination, and for Computer Applications it is consistent with recent years: the same eight Class 10 units, the same 100 plus 100 scheme, Java in BlueJ. The unit list on this page is that syllabus. Always confirm against the school's copy of the current CISCE document, because the school's internal assessment schedule follows it.</p></div>
       <div class="bx-faq-item"><h3>Which units produce the Section B programs?</h3><p>Almost every Section B program draws on arrays, string handling, user-defined methods, constructors and the control constructs from the Class 9 revision unit, usually combined: a class with a constructor and a method that processes an array, or a menu-driven program using switch that manipulates a string. The library classes and encapsulation units appear more in Section A, but their vocabulary, wrapper methods and access specifiers, shows up inside Section B programs too.</p></div>
       <div class="bx-faq-item"><h3>Is Class 9 material examined in the Class 10 paper?</h3><p>Yes. The first Class 10 unit is Revision of Class IX syllabus, and Section A draws on it directly: operator precedence, data types and values, conditional and iterative constructs, loop counting. Section B programs assume all of it. A student who found Class 9 shaky should treat the revision unit as new material, which is how our batch teaches it in the first weeks.</p></div>
-      <div class="bx-faq-item"><h3>What does the internal assessment consist of?</h3><p>One hundred marks from practical lab work and a project. Students must complete at least 20 lab assignments during the year, and prepare a project; the assessment is shared, 50 marks from the internal teacher and 50 from an external examiner. The assignments should span the syllabus, so a good lab file has programs from every unit rather than twenty variations of one.</p></div>
+      <div class="bx-faq-item"><h3>What does the internal assessment consist of?</h3><p>One hundred marks from practical lab work. Students must complete at least 20 lab assignments during the year, and CISCE does not prescribe a separate project; the assessment is shared, 50 marks from the internal teacher and 50 from an external examiner. The assignments should span the syllabus, so a good lab file has programs from every unit rather than twenty variations of one.</p></div>
       <div class="bx-faq-item"><h3>Do students need to write algorithms or flowcharts in the exam?</h3><p>No. CISCE's syllabus states that flowcharts and algorithms are not required for Section B programs. What is expected is the program in Java, written using variable descriptions or mnemonic codes so the logic is clearly depicted. In practice that means a short table of variables, their types and purposes beside each program, which our students write every week until it is automatic.</p></div>
       <div class="bx-faq-item"><h3>Which topics are the most heavily weighted?</h3><p>CISCE does not publish unit-wise marks the way CBSE does, but the paper's structure weights the programming units: Section B is 60 of the 100 marks and its programs come overwhelmingly from arrays, strings, methods and constructors. Section A spreads its 40 marks across all eight units, which is why encapsulation and library classes, rarely the subject of a whole program, still matter: they are reliable two-mark questions.</p></div>
       <div class="bx-faq-item"><h3>In what order should the syllabus be studied?</h3><p>Revision first, then classes, methods and constructors as one connected arc, because each depends on the last; then library classes and encapsulation, which are shorter; then arrays and strings, which carry the most Section B weight and benefit from the most practice time. Our Tuesday and Wednesday batch follows exactly this order, with the lab file growing from the first week so that arrays and strings arrive with a student who already writes Java daily.</p></div>
@@ -519,6 +536,11 @@ s.indexOf('t')      = 5
           <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
           <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
         </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
       </div>
     </div>
   </div>
@@ -535,6 +557,12 @@ s.indexOf('t')      = 5
     <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India.</span><span>ICSE Computer Applications &middot; CISCE 100 plus 100</span></div>
   </div>
 </footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
 
 <script>
 window.submitBxLead = function (e) {

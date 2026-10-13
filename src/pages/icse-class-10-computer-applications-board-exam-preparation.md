@@ -5,7 +5,7 @@ canonical: https://learn.modernagecoders.com/icse-class-10-computer-applications
 source: src/pages/icse-class-10-computer-applications-board-exam-preparation.html
 ---
 
-> To prepare for the ICSE Class 10 Computer Applications written paper, give Section A the attention its forty compulsory marks deserve: short answers across all eight units that test exact vocabulary and careful tracing, drilled separately from program writing. Divide the two hours as roughly forty minutes for Section A, seventy for the four Section B programs chosen by family in the first minutes, and ten for checking outputs and variable descriptions. Finish the lab file and project before the school's internal assessment, then run three full papers under time with every lost mark re-attempted. Modern Age Coders runs this in a live mini batch of four or five, Tuesday 5:30 PM and Wednesday 8 PM IST, with an eight-week countdown from the practical to the paper.
+> To prepare for the ICSE Class 10 Computer Applications written paper, give Section A the attention its forty compulsory marks deserve: short answers across all eight units that test exact vocabulary and careful tracing, drilled separately from program writing. Divide the two hours as roughly forty minutes for Section A, seventy for the four Section B programs chosen by family in the first minutes, and ten for checking outputs and variable descriptions. Finish the lab file before the school's internal assessment, then run three full papers under time with every lost mark re-attempted. Modern Age Coders runs this in a live mini batch of four or five, Tuesday 5:30 PM and Wednesday 8 PM IST, with an eight-week countdown from the practical to the paper.
 
 ## What Section A asks
 
@@ -21,11 +21,11 @@ Five minutes to read the whole paper and choose the four Section B programs by f
 
 ## The mocks
 
-Three full papers under two-hour conditions in the final two months, each reviewed the following Tuesday in two halves, Section A answer by answer and Section B program by program, every lost mark re-attempted on the spot. Before the school's internal assessment window, a dress rehearsal: lab file reviewed, project questioned by an unfamiliar teacher, one unseen program written and tested in BlueJ under time.
+Three full papers under two-hour conditions in the final two months, each reviewed the following Tuesday in two halves, Section A answer by answer and Section B program by program, every lost mark re-attempted on the spot. Before the school's internal assessment window, a dress rehearsal: lab file reviewed, programs questioned by an unfamiliar teacher, one unseen program written and tested in BlueJ under time.
 
 ## The eight-week countdown
 
-Weeks 8 and 7: lab file and project closed, practical rehearsed. Week 6: a diagnostic paper before any revision, then a Section A audit, which almost always finds Section A leaking more than Section B. Weeks 5 and 4: Section A by shape on Tuesdays, the six program families kept warm with one program a day at home. Week 3: the second paper, reviewed in two halves. Weeks 2 and 1: the third paper, then maintenance only, no new material. CBSE's two-phase 2026 examination is a CBSE arrangement; for ICSE plan on the single written paper in the February to March window CISCE schedules.
+Weeks 8 and 7: lab file closed, practical rehearsed. Week 6: a diagnostic paper before any revision, then a Section A audit, which almost always finds Section A leaking more than Section B. Weeks 5 and 4: Section A by shape on Tuesdays, the six program families kept warm with one program a day at home. Week 3: the second paper, reviewed in two halves. Weeks 2 and 1: the third paper, then maintenance only, no new material. CBSE's two-phase 2026 examination is a CBSE arrangement; for ICSE plan on the single written paper in the February to March window CISCE schedules.
 
 ## Six errors that cost a grade
 
@@ -49,7 +49,7 @@ No separate board-prep fee. Monthly, no admission fee, stop at any month end; th
 
 **Which order?** Section A first, then the four programs starting with the strongest family, chosen once and not revisited.
 
-**When is the practical?** The internal assessment is completed at school in the weeks before the written paper, on the school's schedule within CISCE's framework, so the file and project close before theory revision begins.
+**When is the practical?** The internal assessment is completed at school on the school's schedule within CISCE's framework, so the file should close before theory revision begins.
 
 **Good programs, weak Section A?** Section A tests reading and program practice trains writing; the cure is a separate drill of traces, predicted outputs and differences in the paper's vocabulary.
 
