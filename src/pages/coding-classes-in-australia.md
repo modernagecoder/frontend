@@ -603,6 +603,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Southport](/best-coding-and-ai-classes-in-southport-gold-coast)
 - [Vibe coding and AI agents classes in Robina](/vibe-coding-and-ai-agents-classes-in-robina-gold-coast)
 - [Online coding and Python classes in Surfers Paradise](/online-coding-and-python-classes-in-surfers-paradise-gold-coast)
+- [AI and programming classes in Coomera](/ai-and-programming-classes-in-coomera-gold-coast)
 <!-- AU-LINKS -->
 
 
