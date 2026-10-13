@@ -624,6 +624,19 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - JavaScript classes online, Australia: https://learn.modernagecoders.com/javascript-classes-online-australia
 - C++ classes online, Australia: https://learn.modernagecoders.com/c-plus-plus-classes-online-australia
 - Maths tutor in Sydney: https://learn.modernagecoders.com/maths-tutor-sydney
+- Maths tutor in Perth: https://learn.modernagecoders.com/maths-tutor-perth-wa
+- Maths tutor in Hobart: https://learn.modernagecoders.com/maths-tutor-hobart
+- Maths tutor in Melbourne: https://learn.modernagecoders.com/maths-tutor-melbourne
+- Maths tutor in Parramatta: https://learn.modernagecoders.com/maths-tutor-parramatta
+- Maths tutor in Adelaide: https://learn.modernagecoders.com/maths-tutor-adelaide
+- Maths tutor in Glen Waverley: https://learn.modernagecoders.com/maths-tutor-glen-waverley
+- Maths tutor in Canberra: https://learn.modernagecoders.com/maths-tutor-canberra
+- Maths tutor in Box Hill: https://learn.modernagecoders.com/maths-tutor-box-hill
+- Maths tutor in Sunnybank: https://learn.modernagecoders.com/maths-tutor-sunnybank
+- Maths tutor in Brisbane: https://learn.modernagecoders.com/maths-tutor-brisbane
+- Maths tutor in Chatswood: https://learn.modernagecoders.com/maths-tutor-chatswood
+- Maths tutor on the Gold Coast: https://learn.modernagecoders.com/maths-tutor-gold-coast
+- Maths tutor in Newcastle, NSW: https://learn.modernagecoders.com/maths-tutor-newcastle-nsw
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

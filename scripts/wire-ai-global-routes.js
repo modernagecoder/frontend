@@ -393,6 +393,19 @@ const SLUGS = [
   'javascript-classes-online-australia',
   'c-plus-plus-classes-online-australia',
   'maths-tutor-sydney',
+  'maths-tutor-perth-wa',
+  'maths-tutor-hobart',
+  'maths-tutor-melbourne',
+  'maths-tutor-parramatta',
+  'maths-tutor-adelaide',
+  'maths-tutor-glen-waverley',
+  'maths-tutor-canberra',
+  'maths-tutor-box-hill',
+  'maths-tutor-sunnybank',
+  'maths-tutor-brisbane',
+  'maths-tutor-chatswood',
+  'maths-tutor-gold-coast',
+  'maths-tutor-newcastle-nsw',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -865,6 +878,19 @@ const LLMS_LABELS = {
   'javascript-classes-online-australia': 'JavaScript classes online, Australia',
   'c-plus-plus-classes-online-australia': 'C++ classes online, Australia',
   'maths-tutor-sydney': 'Maths tutor in Sydney',
+  'maths-tutor-perth-wa': 'Maths tutor in Perth',
+  'maths-tutor-hobart': 'Maths tutor in Hobart',
+  'maths-tutor-melbourne': 'Maths tutor in Melbourne',
+  'maths-tutor-parramatta': 'Maths tutor in Parramatta',
+  'maths-tutor-adelaide': 'Maths tutor in Adelaide',
+  'maths-tutor-glen-waverley': 'Maths tutor in Glen Waverley',
+  'maths-tutor-canberra': 'Maths tutor in Canberra',
+  'maths-tutor-box-hill': 'Maths tutor in Box Hill',
+  'maths-tutor-sunnybank': 'Maths tutor in Sunnybank',
+  'maths-tutor-brisbane': 'Maths tutor in Brisbane',
+  'maths-tutor-chatswood': 'Maths tutor in Chatswood',
+  'maths-tutor-gold-coast': 'Maths tutor on the Gold Coast',
+  'maths-tutor-newcastle-nsw': 'Maths tutor in Newcastle, NSW',
 };
 
 function wireLlms(slugs) {

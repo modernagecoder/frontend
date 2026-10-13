@@ -23173,6 +23173,162 @@
   to = "/src/pages/maths-tutor-sydney.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tutor-perth-wa"
+  to = "/src/pages/maths-tutor-perth-wa.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-perth-wa.md"
+  to = "/src/pages/maths-tutor-perth-wa.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tutor-hobart"
+  to = "/src/pages/maths-tutor-hobart.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-hobart.md"
+  to = "/src/pages/maths-tutor-hobart.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tutor-melbourne"
+  to = "/src/pages/maths-tutor-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-melbourne.md"
+  to = "/src/pages/maths-tutor-melbourne.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tutor-parramatta"
+  to = "/src/pages/maths-tutor-parramatta.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-parramatta.md"
+  to = "/src/pages/maths-tutor-parramatta.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tutor-adelaide"
+  to = "/src/pages/maths-tutor-adelaide.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-adelaide.md"
+  to = "/src/pages/maths-tutor-adelaide.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tutor-glen-waverley"
+  to = "/src/pages/maths-tutor-glen-waverley.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-glen-waverley.md"
+  to = "/src/pages/maths-tutor-glen-waverley.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tutor-canberra"
+  to = "/src/pages/maths-tutor-canberra.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-canberra.md"
+  to = "/src/pages/maths-tutor-canberra.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tutor-box-hill"
+  to = "/src/pages/maths-tutor-box-hill.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-box-hill.md"
+  to = "/src/pages/maths-tutor-box-hill.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tutor-sunnybank"
+  to = "/src/pages/maths-tutor-sunnybank.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-sunnybank.md"
+  to = "/src/pages/maths-tutor-sunnybank.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tutor-brisbane"
+  to = "/src/pages/maths-tutor-brisbane.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-brisbane.md"
+  to = "/src/pages/maths-tutor-brisbane.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tutor-chatswood"
+  to = "/src/pages/maths-tutor-chatswood.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-chatswood.md"
+  to = "/src/pages/maths-tutor-chatswood.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tutor-gold-coast"
+  to = "/src/pages/maths-tutor-gold-coast.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-gold-coast.md"
+  to = "/src/pages/maths-tutor-gold-coast.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tutor-newcastle-nsw"
+  to = "/src/pages/maths-tutor-newcastle-nsw.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-newcastle-nsw.md"
+  to = "/src/pages/maths-tutor-newcastle-nsw.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
