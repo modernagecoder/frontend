@@ -50059,5 +50059,65 @@
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with Clarence City Council or the LIST."
     ]
+  },
+  "best-coding-and-ai-classes-in-southport-gold-coast": {
+    "market": "Southport",
+    "bodyClass": "cg-sthp",
+    "pageType": "city",
+    "curriculumAuthority": "Southport (SAL32611), ABS Census 2021 QuickStats (read 13 October 2026): 36,786 people; median age 37; 8,575 families; 18,451 private dwellings; 2.1 people per household; 1.4 vehicles per dwelling (Queensland 1.9); 2.4 bedrooms; flat or apartment 8,437 (54.6%, Queensland 12.5%); walked to work 993 (5.8%, Queensland 2.6%); bachelor or higher 8,272 (25.4%, Queensland 21.9%); couple families with children 2,310 (26.9%, Queensland 41.2%). ABS SAL area 14.3533 sq km. Translink SEQ GTFS (feed 7 October to 6 December 2026): 140 stop records inside the SAL by our test; 19 route short names (70, 704, 710 to 715, 719, 731, 735, 737 to 742, 747, L1). City of Gold Coast open data (CC BY 3.0): parking signs with suburb SOUTHPORT 1,213, the most of any named suburb; traffic counts with suburb SOUTHPORT 360 (2017 to 2026). Queensland 2027 Term 1 Wednesday 27 January to Thursday 25 March. Brisbane time, no DST since March 1992 (IANA 2026e).",
+    "localProject": "Route graph over 162 route_ids touching 1,861 City of Gold Coast stop records (1,824 served; 37 parent stations): routes linked when sharing a stop or with stops within 150 m (haversine, our assumption). BFS from the 36 route_ids (19 names) serving Southport: served stops by fewest transfers 0: 750, 1: 760, 2: 314; max 2. Same-stop links only: 0: 750, 1: 744, 2: 314 (16 fewer reached). Coomera 64 records: 2 transfers 41, 1 transfer 22, 1 parent. Surfers Paradise: 48 direct. Our calculation. Script: scratchpad au/b18/a_sthp.py.",
+    "requiredMentions": [
+      "36,786",
+      "Southport routes",
+      "54.6% (8,437)",
+      "5.8% (993)",
+      "none for 750",
+      "1,824 served",
+      "41 of its 64",
+      "1,213 signs",
+      "150 metres"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Southport (Qld) suburb and locality (SAL32611), read 13 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL32611"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (suburb outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council outlines and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Main Roads, Translink General Transit Feed Specification (GTFS) for South East Queensland, Creative Commons Attribution 4.0; feed valid 7 October to 6 December 2026.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "City of Gold Coast open data, Parking Signs, Creative Commons Attribution 3.0, queried 13 October 2026.",
+        "url": "https://data-goldcoast.opendata.arcgis.com/"
+      },
+      {
+        "claim": "City of Gold Coast open data, Traffic Count, Creative Commons Attribution 3.0, queried 13 October 2026.",
+        "url": "https://data-goldcoast.opendata.arcgis.com/"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 Term 1 Wednesday 27 January to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Tuesday 5 October to Friday 10 December.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Brisbane follows rule AQ, whose last daylight saving period ended in March 1992.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Travel times or the fastest route: not claimed; the search counts transfers only.",
+      "Passenger numbers: not claimed; the feed gives scheduled services.",
+      "Parking tariffs and fines: excluded (money).",
+      "Naming schools: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any link with the City of Gold Coast, Translink or the Queensland Department of Education."
+    ]
   }
 }
