@@ -149,7 +149,7 @@ One flat monthly fee for every adult coding course, with no enrolment charge and
 
 ### Our published fees
 
-Group batch of 5 to 10: ₹1,499 a month = **₹187 per live class**Mini batch of 3 to 4: ₹2,999 a month = **₹375 per live class**One to one: ₹4,999 a month = **₹1,250 per private class**Group formats: **8 one-hour live classes a month** · one to one: **4**Enrolment fees: **none** · Stop: **any month end**
+Group batch of 15 to 20: ₹1,499 a month = **₹187 per live class**Mini batch of up to 6: ₹2,999 a month = **₹375 per live class**One to one: ₹4,999 a month = **₹1,250 per private class**Group formats: **8 one-hour live classes a month** · one to one: **4**Enrolment fees: **none** · Stop: **any month end**
 
 Rated 4.9 across 547 Google reviews; 10,000+ students taught live since 2020. The first class is a free demo of 30-45 minutes minutes; a Priority Live Demo, a full 45-60 minute class today or tomorrow, has a small fee that is adjusted against your first month if you enrol.
 

@@ -26,9 +26,9 @@ const fs = require('fs');
 const path = require('path');
 const ROOT = path.resolve(__dirname, '..', '..');
 const facts = require(path.join(ROOT, 'scripts', 'brand-facts.json'));
-if (facts.reviews !== 547 || facts.students !== '10,000+' || facts.founded !== 2020 || facts.batchSizes.group !== '5–10') throw new Error('brand-facts.json changed; re-read before building');
-const BATCH = '5 to 10';
-const MINI = '3 to 4';
+if (facts.reviews !== 547 || facts.students !== '10,000+' || facts.founded !== 2020 || facts.batchSizes.group !== '15–20') throw new Error('brand-facts.json changed; re-read before building');
+const BATCH = '15 to 20';
+const MINI = 'up to 6';
 const PD = facts.priorityDemo;
 const BASE = 'https://learn.modernagecoders.com';
 const esc = (s) => String(s).replace(/&(?!(amp|lt|gt|quot|#\d+|#x[0-9a-f]+|middot|nbsp);)/gi, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -120,7 +120,7 @@ const PAGES = {
       ['Are live online coding classes worth it for kids?', 'For a beginner, yes, and the reason is specific: typed code fails on tiny mistakes a child cannot diagnose alone, and a teacher who can see the screen fixes that in a minute. A live class also happens at a fixed time with a person expecting the child, which is why it gets finished. The exceptions are a self-driven teen learning a specific tool, a family still testing interest, and a budget that cannot stretch, where a recorded course done consistently is the better choice.'],
       ['What is the difference between a live class and a recorded coding course?', 'In a live class a teacher is on screen while the child codes and responds to what the child does. In a recorded course the teaching was filmed once and the child works through it alone. The first costs a teacher\'s time every week and is priced monthly; the second costs the provider nothing after the first sale and is priced once. Live large cohorts of 20 to 100 sit in between in name only: the teacher cannot see any child\'s screen.'],
       ['Is a recorded coding course ever better than a live class?', 'Yes, in three cases. A teenager who already codes and needs one specific tool learns it faster from a good recording with someone to ask questions to. A family that wants to test whether the interest is real should use a free recorded platform first. And a budget that cannot sustain a monthly fee is better spent on consistency with a free course than on two months of a paid one.'],
-      ['How many children should be in a live online coding class?', 'Few enough that the teacher can look at every child\'s code during the hour. In our experience that ceiling is about ten; our group batches are ' + BATCH + ' and mini batches ' + MINI + '. Ask any provider for the maximum, not the typical number, and treat "it varies" as the largest number they will admit.'],
+      ['How many children should be in a live online coding class?', 'Few enough that the teacher can look at every child\'s code during the hour. Our group batches are ' + BATCH + ' and mini batches ' + MINI + '; if your child needs the teacher\'s eyes on every line, choose the mini batch or 1-on-1. Ask any provider for the maximum, not the typical number, and treat "it varies" as the largest number they will admit.'],
       ['Do live coding classes come with recordings?', 'Ours do: the family can revisit their own class afterwards, which is the best use of a recording, rewatching the ten minutes the child did not follow. Ask any provider what happens when a class is missed; the answer is usually a recording, a make-up class, or nothing.'],
       ['How do I test whether a "live" class is really live?', 'Ask for the maximum batch size, whether the teacher can see your child\'s screen, whether the same teacher continues next month, and whether you can watch one full class before paying. A product that cannot answer the second question with a plain yes is a webinar.'],
       ['Which format is best for a 7 or 8 year old starting coding?', 'A live class in a batch of ' + BATCH + ' or 1-on-1, in Scratch, one hour, as long as the child can sit for an hour. A 6 or 7 year old who manages twenty minutes at home is better served by short app-based sessions first; starting live at 7 or 8 loses nothing. Our <a href="/coding-for-8-year-olds">coding for 8 year olds</a> page describes what that first year looks like.'],
@@ -131,9 +131,9 @@ const PAGES = {
 
   'coding-classes-for-adults': {
     title: 'Coding Classes for Adults: Live, Small Batches, Ages 18 to 67',
-    description: 'Live online coding and maths classes for adults, from complete beginner to career changer. Batches of 5 to 10 or 1-on-1, evening and weekend classes worldwide.',
+    description: 'Live online coding and maths classes for adults, from complete beginner to career changer. Batches of 15 to 20, a mini batch of up to 6, or 1-on-1, evening and weekend classes worldwide.',
     ogTitle: 'Coding classes for adults, live and taught in small batches',
-    ogDescription: 'Python, web, Java, data and AI for adults from 18 to 67: a live class of 5 to 10 with a mentor, evening and weekend windows, and the fee on the page.',
+    ogDescription: 'Python, web, Java, data and AI for adults from 18 to 67: a live class of 15 to 20, a mini batch of up to 6 or 1-on-1 with a mentor, evening and weekend windows, and the fee on the page.',
     crumb: ['Courses', '/courses'], crumbName: 'Coding classes for adults',
     kicker: 'Adult learners &middot; ages 18 to 67 &middot; updated September 2026',
     h1: 'Coding classes for adults, live and taught in small batches',

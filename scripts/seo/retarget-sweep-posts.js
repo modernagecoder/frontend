@@ -473,13 +473,13 @@ function codeAndOutput(p) {
 // 45%; CSP: 70 MCQ, 120 minutes, 70%; Create task and written response 30%, 9 hours in class, 60-minute
 // written section), apstudents.collegeboard.org/exam-dates (CSA Wednesday May 12 2027 Session 2, CSP Friday
 // May 14 2027 Session 1, sessions "typically the morning and afternoon"; Create task due April 30 2027
-// 11:59 p.m. ET). Batch size fixed to scripts/brand-facts.json (group 5 to 10, mini 3 to 4).
+// 11:59 p.m. ET). Batch size fixed to scripts/brand-facts.json (group 15 to 20, mini up to 6).
 (function apCspVsCsa() {
   const name = 'ap-csp-vs-ap-csa-which-to-take-first.json';
   const j = load(name); if (j.meta.retarget === MARK) return console.log('skip', name);
   const s = j.content.sections;
   const facts = require(path.join(ROOT, 'scripts', 'brand-facts.json'));
-  if (facts.batchSizes.group !== '5–10' || facts.batchSizes.miniBatch !== '3–4') throw new Error('batch sizes changed; update the wording below');
+  if (facts.batchSizes.group !== '15–20' || facts.batchSizes.miniBatch !== 'up to 6') throw new Error('batch sizes changed; update the wording below');
 
   j.meta.title = 'AP CSP vs AP CSA: Which Is Harder, and Which to Take First';
   j.hero.title = j.meta.title;

@@ -70,7 +70,7 @@ We are a live online school teaching coding, AI and mathematics to students from
 
 ### Our published coding fees
 
-Group batch: ₹1,499 a month = **₹187 per live class**Mini batch of 3 to 4: ₹2,999 a month = **₹375 per live class**One to one: ₹4,999 a month = **₹1,250 per private class**Group formats: **8 one-hour live classes a month** · one to one: **4**Enrolment fees: **none** · Contracts: **none** · Stop: **any month end**
+Group batch: ₹1,499 a month = **₹187 per live class**Mini batch of up to 6: ₹2,999 a month = **₹375 per live class**One to one: ₹4,999 a month = **₹1,250 per private class**Group formats: **8 one-hour live classes a month** · one to one: **4**Enrolment fees: **none** · Contracts: **none** · Stop: **any month end**
 
 Rated 4.9 across 547 Google reviews. The first class is a free demo; if you want a full 45 to 60 minute class today or tomorrow, the Priority Live Demo has a small fee that is adjusted against your first month if you enrol. Judge the teaching there, not here.
 

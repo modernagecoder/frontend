@@ -74,7 +74,7 @@ module.exports = {
       body: [
         { kind: 'table', caption: 'FIRST LEGO League divisions in Australia, 2026-2027', head: ['', 'Explore', 'Challenge', 'Future Edition'], rows: [
           ['Students', 'Ages 6 to 10 (Years 1 to 4)', 'Ages 9 to 16 (Years 4 to 10)', 'Ages 8 to 16 (Years 3 to 10)'],
-          ['Team size', 'Up to 6 students', 'Up to 10 students', 'Up to 20 students'],
+          ['Team size', 'Up to 6 students', 'Up to 10 students', 'Up to 8 students'],
           ['Coaches', 'At least 1', 'At least 2', 'At least 2'],
           ['Robot game', 'No matches; models built and shared', 'Autonomous matches of 2:30', 'Autonomous matches of 2:30'],
           ['Technology', 'LEGO Education SPIKE Essential', 'LEGO Education SPIKE Prime', 'LEGO Education Computer Science and AI kits'],
