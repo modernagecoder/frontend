@@ -505,7 +505,10 @@ const CoursePayment = {
             <a class="mac-bc-btn mac-bc-call" href="tel:+919123366161">${phoneIcon}<span>Call +91 91233 66161</span></a>
           </div>
           <p class="mac-bc-after">Once the team confirms your batch, come back and complete your enrolment.</p>
-          <button type="button" class="mac-bc-continue">Already spoken to the team? Continue to enrolment &rarr;</button>
+          <div class="mac-bc-done">
+            <p class="mac-bc-done-q">&#10004; Already spoken to the team?</p>
+            <button type="button" class="mac-bc-continue">Continue to enrolment &rarr;</button>
+          </div>
         </div>
       </div>
     `;
@@ -555,10 +558,13 @@ const CoursePayment = {
       .mac-bc-wa:hover{background:#18744A;border-color:#18744A}
       .mac-bc-call{background:#fff;border:1.5px solid var(--mp-ink);color:var(--mp-ink)!important}
       .mac-bc-call:hover{background:var(--mp-paper2)}
-      .mac-bc-after{margin:14px 0 6px;text-align:center;font-size:13px;color:var(--mp-muted)}
-      .mac-bc-continue{display:block;width:100%;margin:0;padding:10px 6px;border:0;background:none;cursor:pointer;
-        font-family:var(--mp-body);font-size:14px;font-weight:600;color:var(--mp-amber-deep);text-decoration:underline;text-underline-offset:3px}
-      .mac-bc-continue:hover{color:var(--mp-ink)}
+      .mac-bc-after{margin:14px 0 16px;text-align:center;font-size:13px;color:var(--mp-muted)}
+      .mac-bc-done{padding:14px;background:var(--mp-tint);border:1.5px solid rgba(180,83,9,.35);border-radius:14px;text-align:center}
+      .mac-bc-done-q{margin:0 0 10px;font-family:var(--mp-display);font-size:17px;font-weight:600;color:var(--mp-ink)}
+      .mac-bc-continue{display:flex;align-items:center;justify-content:center;width:100%;min-height:52px;margin:0;padding:13px 16px;
+        border:1px solid var(--mp-amber);border-radius:12px;background:var(--mp-amber);color:#fff;cursor:pointer;
+        font-family:var(--mp-body);font-size:16px;font-weight:700;box-shadow:0 12px 26px -14px rgba(180,83,9,.85);transition:background .2s,transform .15s}
+      .mac-bc-continue:hover{background:var(--mp-amber-deep);border-color:var(--mp-amber-deep);transform:translateY(-1px)}
       @media (max-width:560px){.mac-bc-badge{width:46px;height:46px;font-size:23px}}
       @keyframes macBcWave{0%,100%{transform:rotate(0)}20%{transform:rotate(16deg)}40%{transform:rotate(-8deg)}60%{transform:rotate(12deg)}80%{transform:rotate(-4deg)}}
       @media (prefers-reduced-motion:reduce){.mac-bc-badge{animation:none}}
