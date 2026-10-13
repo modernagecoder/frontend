@@ -377,7 +377,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 349 | online-coding-and-python-classes-in-maitland-newcastle (mtld, #742325) | cg- district page | 2,375 | 1.1% vs ai-and-programming-classes-in-marion-adelaide | a greedy regex matches none of the nine Maitland stations | greedy vs lazy regex quantifiers | fa1c2e21 |
 | 350 | ai-and-programming-classes-in-charlestown-newcastle (chtn, #386555) | cg- district page | 2,408 | 1.4% vs ai-and-programming-classes-in-unley-adelaide | the blanks in the Charlestown road file are the strongest clue | missing-value indicator features | 8ae3d6f3 |
 | 351 | coding-classes-for-teens-australia (ctns, #103B63) | ag- age and career door | 3,132 | 1.1% vs software-development-course-australia | is a first-click fix in a mine-finding game still fair? | first-click safety in a mine-finding grid game | 4858eda0 |
-| 352 | coding-classes-for-adults-australia (cadu, #5B4D35) | ag- age and career door | 3,176 | 0.9% vs java-classes-online-australia | grouping 3,000 differently written phone numbers back into 1,000 people | phone number normalisation | (this commit) |
+| 352 | coding-classes-for-adults-australia (cadu, #5B4D35) | ag- age and career door | 3,176 | 0.9% vs java-classes-online-australia | grouping 3,000 differently written phone numbers back into 1,000 people | phone number normalisation | ea47f1a5 |
+| 353 | learn-to-code-over-50-australia (ofau, #446139) | ag- age and career door | 3,202 | 0.7% vs coding-classes-for-teens-australia | scoring a five-letter word puzzle fairly when a guess repeats a letter | repeated-letter scoring in a word-guessing game | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -614,6 +614,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Charlestown](/ai-and-programming-classes-in-charlestown-newcastle)
 - [Coding classes for teens](/coding-classes-for-teens-australia)
 - [Coding classes for adults](/coding-classes-for-adults-australia)
+- [Learn to code over 50](/learn-to-code-over-50-australia)
 <!-- AU-LINKS -->
 
 
