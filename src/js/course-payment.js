@@ -487,27 +487,28 @@ const CoursePayment = {
       <div id="payment-modal" class="payment-modal-overlay mac-pay-overlay" role="dialog" aria-modal="true" aria-labelledby="mac-bc-title">
         <div class="mac-pay mac-bc">
           <button type="button" class="mac-pay-close" aria-label="Close">&times;</button>
-          <div class="mac-bc-badge" aria-hidden="true">&#128075;</div>
           <p class="mac-pay-eyebrow">One quick step before you pay</p>
-          <h2 id="mac-bc-title" class="mac-pay-title">Let's find the right batch for you</h2>
-          <p class="mac-bc-lead">Group classes and mini batches run at set times. Please have a quick word with the Modern Age Coders team before you enrol, so we can check:</p>
+          <h2 id="mac-bc-title" class="mac-pay-title"><span class="mac-bc-wave" aria-hidden="true">&#128075;</span> Let's find the right batch for you</h2>
+          <div class="mac-bc-body">
+          <div class="mac-bc-main">
+          <p class="mac-bc-lead">Group and mini batch classes run at set times. Talk to our team first so we can check:</p>
           <ul class="mac-bc-list">
-            <li><span>1</span><div>Is a batch available at the time you want?</div></li>
-            <li><span>2</span><div>Has the batch already started, and where would you join?</div></li>
-            <li><span>3</span><div>Need your own timing? <b>Personalized 1-on-1</b> classes run on a fully flexible schedule.</div></li>
+            <li><span>1</span><div>Is a batch open at your preferred time?</div></li>
+            <li><span>2</span><div>Has the batch already started?</div></li>
+            <li><span>3</span><div>Want your own timing? <b>Personalized 1-on-1</b> is fully flexible.</div></li>
           </ul>
-          <div class="mac-bc-share">
-            <span class="mac-pay-label">Share with us</span>
-            <p>Student name, age or class, this course, and your preferred days and time.</p>
           </div>
+          <div class="mac-bc-side">
+          <p class="mac-bc-share"><b>Call or WhatsApp +91 91233 66161</b> with the student's name, age, and preferred days and time.</p>
           <div class="mac-bc-actions">
             <a class="mac-bc-btn mac-bc-wa" href="${waHref}" target="_blank" rel="noopener">${waIcon}<span>WhatsApp us</span></a>
-            <a class="mac-bc-btn mac-bc-call" href="tel:+919123366161">${phoneIcon}<span>Call +91 91233 66161</span></a>
+            <a class="mac-bc-btn mac-bc-call" href="tel:+919123366161">${phoneIcon}<span>Call now</span></a>
           </div>
-          <p class="mac-bc-after">Once the team confirms your batch, come back and complete your enrolment.</p>
           <div class="mac-bc-done">
             <p class="mac-bc-done-q">&#10004; Already spoken to the team?</p>
             <button type="button" class="mac-bc-continue">Continue to enrolment &rarr;</button>
+          </div>
+          </div>
           </div>
         </div>
       </div>
@@ -537,37 +538,64 @@ const CoursePayment = {
     const styles = document.createElement('style');
     styles.id = 'mac-batch-check-styles';
     styles.textContent = `
-      .mac-bc{max-width:480px}
-      .mac-bc-badge{width:52px;height:52px;margin:0 0 14px;display:flex;align-items:center;justify-content:center;border-radius:50%;
-        background:var(--mp-tint);border:1px solid rgba(180,83,9,.22);font-size:26px;line-height:1}
-      .mac-bc-badge{animation:macBcWave 1.6s ease .35s 1 both;transform-origin:70% 70%}
-      .mac-bc .mac-pay-title{margin-bottom:10px}
-      .mac-bc-lead{margin:0 0 14px;font-size:15px;color:var(--mp-soft)}
-      .mac-bc-list{list-style:none;margin:0 0 16px;padding:0;display:flex;flex-direction:column;gap:10px}
-      .mac-bc-list li{display:flex;gap:11px;align-items:flex-start;font-size:14.5px;line-height:1.45;color:var(--mp-ink)}
-      .mac-bc-list li span{flex-shrink:0;width:24px;height:24px;margin-top:-1px;display:flex;align-items:center;justify-content:center;border-radius:50%;
-        background:var(--mp-amber);color:#fff;font-family:var(--mp-mono);font-size:12px;font-weight:700}
+      .mac-bc{max-width:460px;padding:24px 24px 20px}
+      .mac-bc .mac-pay-eyebrow{margin:0 44px 4px 0}
+      .mac-bc .mac-pay-title{margin-bottom:8px;font-size:22px}
+      .mac-bc-wave{display:inline-block;animation:macBcWave 1.6s ease .35s 1 both;transform-origin:70% 70%}
+      .mac-bc-lead{margin:0 0 10px;font-size:14.5px;line-height:1.45;color:var(--mp-soft)}
+      .mac-bc-list{list-style:none;margin:0 0 12px;padding:0;display:flex;flex-direction:column;gap:7px}
+      .mac-bc-list li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;line-height:1.4;color:var(--mp-ink)}
+      .mac-bc-list li span{flex-shrink:0;width:22px;height:22px;display:flex;align-items:center;justify-content:center;border-radius:50%;
+        background:var(--mp-amber);color:#fff;font-family:var(--mp-mono);font-size:11.5px;font-weight:700}
       .mac-bc-list b{color:var(--mp-amber-deep)}
-      .mac-bc-share{margin:0 0 18px;padding:12px 14px;background:var(--mp-paper);border:1px dashed rgba(28,24,20,.2);border-radius:12px}
-      .mac-bc-share p{margin:4px 0 0;font-size:14px;color:var(--mp-soft)}
-      .mac-bc-actions{display:grid;grid-template-columns:1fr;gap:10px}
-      .mac-bc-btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:12px 14px;border-radius:12px;
-        font-family:var(--mp-body);font-size:15px;font-weight:700;text-decoration:none!important;transition:background .2s,transform .15s}
+      .mac-bc-share{margin:0 0 12px;padding:10px 12px;background:var(--mp-paper);border:1px dashed rgba(28,24,20,.22);border-radius:10px;
+        font-size:13.5px;line-height:1.45;color:var(--mp-soft)}
+      .mac-bc-share b{color:var(--mp-ink)}
+      .mac-bc-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 12px}
+      .mac-bc-btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:10px 12px;border-radius:12px;
+        font-family:var(--mp-body);font-size:15px;font-weight:700;white-space:nowrap;text-decoration:none!important;transition:background .2s,transform .15s}
       .mac-bc-btn:hover{transform:translateY(-1px)}
       .mac-bc-wa{background:#1F8A55;border:1px solid #1F8A55;color:#fff!important;box-shadow:0 12px 26px -14px rgba(31,138,85,.9)}
       .mac-bc-wa:hover{background:#18744A;border-color:#18744A}
       .mac-bc-call{background:#fff;border:1.5px solid var(--mp-ink);color:var(--mp-ink)!important}
       .mac-bc-call:hover{background:var(--mp-paper2)}
-      .mac-bc-after{margin:14px 0 16px;text-align:center;font-size:13px;color:var(--mp-muted)}
-      .mac-bc-done{padding:14px;background:var(--mp-tint);border:1.5px solid rgba(180,83,9,.35);border-radius:14px;text-align:center}
-      .mac-bc-done-q{margin:0 0 10px;font-family:var(--mp-display);font-size:17px;font-weight:600;color:var(--mp-ink)}
-      .mac-bc-continue{display:flex;align-items:center;justify-content:center;width:100%;min-height:52px;margin:0;padding:13px 16px;
+      .mac-bc-done{padding:12px;background:var(--mp-tint);border:1.5px solid rgba(180,83,9,.35);border-radius:14px;text-align:center}
+      .mac-bc-done-q{margin:0 0 8px;font-family:var(--mp-display);font-size:16px;font-weight:600;line-height:1.3;color:var(--mp-ink)}
+      .mac-bc-continue{display:flex;align-items:center;justify-content:center;width:100%;min-height:50px;margin:0;padding:12px 16px;
         border:1px solid var(--mp-amber);border-radius:12px;background:var(--mp-amber);color:#fff;cursor:pointer;
         font-family:var(--mp-body);font-size:16px;font-weight:700;box-shadow:0 12px 26px -14px rgba(180,83,9,.85);transition:background .2s,transform .15s}
       .mac-bc-continue:hover{background:var(--mp-amber-deep);border-color:var(--mp-amber-deep);transform:translateY(-1px)}
-      @media (max-width:560px){.mac-bc-badge{width:46px;height:46px;font-size:23px}}
+      @media (max-width:560px){
+        .mac-bc{padding:20px 16px calc(14px + env(safe-area-inset-bottom))}
+        .mac-bc .mac-pay-title{font-size:20px;margin-right:40px}
+        .mac-pay.mac-bc .mac-pay-close{top:12px;right:12px}
+      }
+      @media (max-width:340px){
+        .mac-bc-btn{font-size:14px;gap:6px;padding:10px 8px}
+        .mac-bc .mac-pay-eyebrow{font-size:10.5px;letter-spacing:.1em}
+        .mac-bc-list li,.mac-bc-lead{font-size:13.5px}
+      }
+      @media (max-height:700px){
+        .mac-bc{padding-top:16px;padding-bottom:12px}
+        .mac-bc .mac-pay-title{font-size:19px;margin-bottom:6px}
+        .mac-bc-lead{font-size:13.5px;margin-bottom:8px}
+        .mac-bc-list{gap:5px;margin-bottom:10px}
+        .mac-bc-list li{font-size:13.5px}
+        .mac-bc-share{font-size:13px;padding:8px 10px;margin-bottom:10px}
+        .mac-bc-actions{margin-bottom:10px}
+        .mac-bc-btn{min-height:44px}
+        .mac-bc-done{padding:10px}
+        .mac-bc-done-q{font-size:15px;margin-bottom:6px}
+        .mac-bc-continue{min-height:46px}
+      }
+      @media (max-height:500px) and (min-width:600px){
+        .mac-pay-overlay .mac-pay.mac-bc{max-width:780px;max-height:calc(100dvh - 16px);padding:14px 20px 12px;border-radius:16px}
+        .mac-bc .mac-pay-title{font-size:18px;margin-bottom:8px}
+        .mac-bc-body{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
+        .mac-bc-list{margin-bottom:0}
+      }
       @keyframes macBcWave{0%,100%{transform:rotate(0)}20%{transform:rotate(16deg)}40%{transform:rotate(-8deg)}60%{transform:rotate(12deg)}80%{transform:rotate(-4deg)}}
-      @media (prefers-reduced-motion:reduce){.mac-bc-badge{animation:none}}
+      @media (prefers-reduced-motion:reduce){.mac-bc-wave{animation:none}}
     `;
     document.head.appendChild(styles);
   },
