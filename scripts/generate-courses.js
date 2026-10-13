@@ -828,7 +828,7 @@ class CourseGenerator {
             {
                 "@type": "Offer",
                 "name": "Group Classes",
-                "description": "Weekly two classes with up to 10 students",
+                "description": "Weekly two classes in a group of 15 to 20 students",
                 "price": tierPrices.group,
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock",
@@ -841,8 +841,8 @@ class CourseGenerator {
             },
             {
                 "@type": "Offer",
-                "name": "Mini Batch (3-4 students)",
-                "description": "Weekly two classes in a micro batch of 3-4 students with near 1-on-1 attention",
+                "name": "Mini Batch (up to 6 students)",
+                "description": "Weekly two classes in a mini batch of up to 6 students",
                 "price": tierPrices.miniBatch,
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock",

@@ -635,8 +635,8 @@ const CoursePayment = {
     // and the flow stops rather than charging an amount for a plan that is no
     // longer sold.
     const names = {
-      'group': 'Group Classes (up to 10 students)',
-      'miniBatch': 'Mini Batch (3-4 students)',
+      'group': 'Group Classes (15 to 20 students)',
+      'miniBatch': 'Mini Batch (up to 6 students)',
       'personal': 'Personalized 1-on-1 Mentorship'
     };
     return names[planType] || 'Course Enrollment';
