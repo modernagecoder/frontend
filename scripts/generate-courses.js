@@ -860,7 +860,7 @@ class CourseGenerator {
                 // display.classesPerMonthOverrides (4 a month on every 1-on-1
                 // plan since 2026-08-10; 8 means two a week).
                 "description": this.indiaPersonalClassesPerMonth(meta.slug) === 4
-                    ? "One private session a week (four a month) with a dedicated mentor"
+                    ? "Four private sessions on a fully flexible schedule with a dedicated mentor"
                     : "Weekly two private sessions with a dedicated mentor",
                 "price": tierPrices.personal,
                 "priceCurrency": "INR",
@@ -1188,14 +1188,14 @@ class CourseGenerator {
             html = html.replace('class="enroll-btn outline" data-plan-type="personal"',
                 'class="enroll-btn primary" data-plan-type="personal"');
             // The stylesheet lays the panel out as a fixed 3-column grid; with
-            // one card left, center a single sensible-width column instead of
-            // leaving the card stranded in the first cell.
+            // one card left: .solo gives the full-width 1-on-1 card the whole
+            // row instead of leaving it stranded in the first cell.
             html = html.replace('<div class="enrollment-options">',
-                '<div class="enrollment-options" style="grid-template-columns:minmax(280px,380px);justify-content:center;">');
+                '<div class="enrollment-options solo">');
             html = html.replace('<p>Choose your plan and start your journey into the future of technology today.</p>',
                 '<p>This course runs as 1-on-1 private mentorship only: ' +
                 (this.indiaPersonalClassesPerMonth(meta.slug) === 4
-                    ? '<span data-india-only="true">one private class a week</span>' +
+                    ? '<span data-india-only="true">four private classes on a fully flexible schedule</span>' +
                       '<span data-intl-only="true" hidden>two private classes a week</span>'
                     : 'two private classes a week') +
                 ', a pace set to you, and a dedicated mentor on your screen.</p>');
@@ -1217,7 +1217,7 @@ class CourseGenerator {
         // every region and needs no gating.
         html = html.replace(/{{PERSONAL_SCHEDULE}}/g,
             this.indiaPersonalClassesPerMonth(meta.slug) === 4
-                ? '<span data-india-only="true">1 Private Class per Week &middot; 4 a Month</span>' +
+                ? '<span data-india-only="true">4 Private Classes &middot; Fully flexible timing</span>' +
                   '<span data-intl-only="true" hidden>2 Private Classes per Week</span>'
                 : '2 Private Classes per Week');
         // Lifetime access was retired on 2026-07-31. The placeholder is still

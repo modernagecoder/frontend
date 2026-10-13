@@ -91,6 +91,33 @@ body.editorial .enroll-btn.primary:hover{background:var(--amber-deep)}
 body.editorial .enroll-btn.outline{background:transparent;color:var(--ink);border:1px solid var(--ink)}
 body.editorial .enroll-btn.outline:hover{background:var(--ink);color:var(--paper)}
 
+/* Personalized 1-on-1: Group and Mini Batch side by side, then a full-width
+   dark card listing what the 1-on-1 plan includes. Abroad, Mini Batch is
+   hidden inline (international-pricing.js), so Group centres on its own row. */
+.enrollment-options{grid-template-columns:repeat(2,1fr)}
+.enrollment-options > .enrollment-option{min-width:0}
+.enrollment-options.solo{grid-template-columns:1fr}
+body.editorial[data-price-tier="gemini"] .oneone-badge{display:none}
+.enrollment-options:has(> .enrollment-option[data-india-only][style*="none"]) > .enrollment-option:not(.oneone){grid-column:1/-1;justify-self:center;width:100%;max-width:440px}
+.enrollment-option.oneone{grid-column:1/-1;display:grid;grid-template-columns:minmax(230px,.8fr) 1.5fr;gap:2.2rem;align-items:center;text-align:left;
+  background:var(--ink);color:var(--paper);border:1px solid var(--ink);padding:2.4rem 2.3rem 2.2rem;margin-top:.6rem;box-shadow:0 34px 64px -36px rgba(28,24,20,.8)}
+.enrollment-option.oneone:hover{box-shadow:0 40px 70px -34px rgba(28,24,20,.85)}
+.oneone-badge{position:absolute;top:-.8rem;left:2.3rem;background:var(--amber);color:#fff;font-family:var(--font-body);font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.36rem .95rem;border-radius:40px;white-space:nowrap}
+.oneone-main{display:flex;flex-direction:column}
+.enrollment-option.oneone h4{color:var(--paper);font-size:1.45rem;margin-bottom:.6rem}
+.enrollment-option.oneone .price{color:#F4B860;-webkit-text-fill-color:#F4B860;font-size:2.5rem;margin-bottom:.45rem}
+.enrollment-option.oneone .class-info{flex:0 0 auto;color:rgba(251,248,242,.86);font-size:.95rem;font-weight:600;margin:0 0 1.5rem}
+body.editorial .enrollment-option.oneone .enroll-btn{padding:.95rem 1rem;font-size:1rem;font-weight:700}
+body.editorial .enrollment-option.oneone .enroll-btn.primary:hover{background:#F4B860;border-color:#F4B860;color:var(--ink)}
+.oneone-side{padding-left:2.2rem;border-left:1px solid rgba(251,248,242,.16)}
+.oneone-eyebrow{margin:0 0 1.1rem;font-family:var(--font-mono);font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#F4B860}
+.oneone-feats{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:1.05rem 1.6rem}
+.oneone-feats li{display:grid;grid-template-columns:22px 1fr;column-gap:.65rem;align-items:start;align-content:start}
+.oneone-feats li::before{content:"";grid-row:1 / span 2;width:22px;height:22px;margin-top:1px;border-radius:50%;
+  background:rgba(244,184,96,.16) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F4B860' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E") center/12px no-repeat}
+.oneone-feats b{font-size:.94rem;font-weight:700;color:var(--paper);line-height:1.35}
+.oneone-feats span{grid-column:2;font-size:.82rem;line-height:1.45;color:rgba(251,248,242,.68)}
+
 /* international pricing (rewritten to classes) */
 .cd-intl{max-width:720px;margin:2.6rem auto 0}
 .cd-intl-head{display:flex;align-items:center;justify-content:center;gap:.7rem;margin-bottom:1.4rem}
@@ -452,6 +479,12 @@ body.editorial .cd-imodal-alt a{color:var(--amber-deep);font-weight:600;text-dec
   .course-hero{grid-template-columns:1fr}
   .course-hero-image{order:-1;max-width:480px}
   .enrollment-options{grid-template-columns:1fr;max-width:420px}
+  .enrollment-option.oneone{grid-template-columns:1fr;gap:1.5rem;padding:2.2rem 1.4rem 1.6rem}
+  .enrollment-option.oneone .price{font-size:2.1rem}
+  .enrollment-option.oneone h4{font-size:1.3rem}
+  .oneone-badge{left:1.4rem}
+  .oneone-side{padding:1.4rem 0 0;border-left:0;border-top:1px solid rgba(251,248,242,.16)}
+  .oneone-feats{grid-template-columns:1fr;gap:.85rem}
   .cd-intl-grid{grid-template-columns:1fr;max-width:340px}
   .cd-duration-opts{grid-template-columns:1fr}
 }

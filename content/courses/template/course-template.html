@@ -61,7 +61,7 @@
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
     <!-- Editorial theme (shared) + Course detail styles. No legacy CSS. -->
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20260928c">
+    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20261013c">
     <link rel="stylesheet" href="/css/moments-strip.css?v=20260928a">
     <script src="/js/moments-strip.js?v=20260806b" defer></script>
     <meta name="theme-color" content="#B45309">
@@ -274,11 +274,29 @@
                         <a href="#" class="enroll-btn primary" data-plan-type="miniBatch">Enroll Now</a>
                     </div>
                     <!-- TIER:MINIBATCH END -->
-                    <div class="enrollment-option">
-                        <h4>Personalized 1-on-1</h4>
-                        <div class="price">{{PRICE_PERSONAL}}</div>
-                        <p class="class-info">{{PERSONAL_SCHEDULE}}</p>
-                        <a href="#" class="enroll-btn outline" data-plan-type="personal">Enroll Now</a>
+                    <!-- Personalized 1-on-1: full-width dark card with everything the
+                         plan includes. Styles: .oneone in course-detail-redesign.css -->
+                    <div class="enrollment-option oneone">
+                        <span class="oneone-badge">Fully flexible</span>
+                        <div class="oneone-main">
+                            <h4>Personalized 1-on-1</h4>
+                            <div class="price">{{PRICE_PERSONAL}}</div>
+                            <p class="class-info">{{PERSONAL_SCHEDULE}}</p>
+                            <a href="#" class="enroll-btn primary" data-plan-type="personal">Enroll Now</a>
+                        </div>
+                        <div class="oneone-side">
+                            <p class="oneone-eyebrow">Everything in your 1-on-1 plan</p>
+                            <ul class="oneone-feats">
+                                <li><b>Your own mentor</b><span>Full individual attention in every class</span></li>
+                                <li><b>Flexible timing</b><span>Book each class at a time that suits you</span></li>
+                                <li><b>Personal dashboard</b><span>One place for the student and parent to see it all</span></li>
+                                <li><b>Daily syllabus tracker</b><span>What was covered today and what comes next</span></li>
+                                <li><b>Live class recordings</b><span>Rewatch every session whenever you need</span></li>
+                                <li><b>Homework and assignments</b><span>Set, submitted and checked on the dashboard</span></li>
+                                <li><b>Progress reports</b><span>Clear reports on how the student is improving</span></li>
+                                <li><b>Response statistics</b><span>How the student is responding, and how the mentor is responding</span></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
