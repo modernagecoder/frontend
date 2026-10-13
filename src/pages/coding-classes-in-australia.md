@@ -598,6 +598,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Mitcham](/ai-and-programming-classes-in-mitcham-sa-adelaide)
 - [Online coding and Python classes in Sandy Bay](/online-coding-and-python-classes-in-sandy-bay-hobart)
 - [AI and programming classes in Kingston](/ai-and-programming-classes-in-kingston-tas-hobart)
+- [Coding and AI classes in Glenorchy](/best-coding-and-ai-classes-in-glenorchy-hobart)
 <!-- AU-LINKS -->
 
 
