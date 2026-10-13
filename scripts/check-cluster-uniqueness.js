@@ -91,7 +91,7 @@ const CLUSTERS = {
   // likely to clone.
   'board-prep': {
     label: 'Class 10 board-prep cluster',
-    fileRe: /^(cbse-class-10-ai-classes-online|cbse-class-10-ai-syllabus-explained|python-for-cbse-class-10-ai|cbse-class-10-ai-board-exam-preparation|cbse-class-10-ai-project-and-practical-file|icse-class-10-java-classes-online|icse-class-10-computer-applications-syllabus-explained|icse-class-10-java-programs-practice|icse-class-10-bluej-java-coaching|icse-class-10-computer-applications-board-exam-preparation|sof-imo-preparation|sof-icso-preparation|cemc-waterloo-contests-preparation|ioqm-rmo-inmo-preparation|indian-computing-olympiad-preparation|math-kangaroo-usa-preparation|mathcounts-preparation|australian-maths-trust-amc-aio-cat-preparation|maths-olympiad-classes-online|cbse-icse-maths-tuition-online).html$/,
+    fileRe: /^(cbse-class-10-ai-classes-online|cbse-class-10-ai-syllabus-explained|python-for-cbse-class-10-ai|cbse-class-10-ai-board-exam-preparation|cbse-class-10-ai-project-and-practical-file|icse-class-10-java-classes-online|icse-class-10-computer-applications-syllabus-explained|icse-class-10-java-programs-practice|icse-class-10-bluej-java-coaching|icse-class-10-computer-applications-board-exam-preparation|cbse-class-10-ai-exam-date-and-paper-pattern|cbse-class-10-ai-sample-paper-and-mock-tests|cbse-class-10-ai-important-questions|cbse-class-10-ai-employability-skills-part-a|cbse-class-10-ai-online-classes-gulf-and-abroad|icse-class-10-computer-applications-exam-date-and-paper-pattern|icse-class-10-computer-applications-specimen-paper-and-mock-tests|icse-class-10-computer-applications-important-questions|icse-class-10-computer-applications-project-and-internal-assessment|icse-class-10-computer-applications-classes-gulf-and-abroad|sof-imo-preparation|sof-icso-preparation|cemc-waterloo-contests-preparation|ioqm-rmo-inmo-preparation|indian-computing-olympiad-preparation|math-kangaroo-usa-preparation|mathcounts-preparation|australian-maths-trust-amc-aio-cat-preparation|maths-olympiad-classes-online|cbse-icse-maths-tuition-online).html$/,
     prefix: 'bx',
     incumbents: [
       'computer-applications-icse-class-10',
@@ -214,7 +214,9 @@ const SHARED_SUFFIXES = [
   // board-prep cluster chrome: the batch timetable card is the same five
   // times on five sibling pages by design, as are the question labels, the
   // sibling-link strip and the live stamp.
-  'timetable', 'qlabel', 'siblings', 'stamp', 'pick-code'
+  'timetable', 'qlabel', 'siblings', 'stamp', 'pick-code',
+  // the ICSE "outside India: one to one" note under the chooser, shown abroad only
+  'intl-note'
 ];
 
 // Also strips cg-pick, the course strip under the hero: same catalogue, same
