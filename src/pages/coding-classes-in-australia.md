@@ -621,6 +621,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Build real AI projects](/build-real-ai-projects-australia)
 - [Python classes online](/python-classes-online-australia)
 - [Java classes online](/java-classes-online-australia)
+- [App development course](/app-development-course-australia)
 <!-- AU-LINKS -->
 
 
